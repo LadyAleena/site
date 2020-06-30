@@ -1,0 +1,184 @@
+!Arrow|Pilot|October 10, 2012
+Arrow|Honor Thy Father|October 17, 2012
+Arrow|Lone Gunmen|October 24, 2012
+Arrow|An Innocent Man|October 31, 2012
+Arrow|Damaged|November 7, 2012
+Arrow|Legacies|November 14, 2012
+Arrow|Muse of Fire|November 28, 2012
+Arrow|Vendetta|December 5, 2012
+Arrow|Year's End|December 12, 2012
+Arrow|Burned|January 16, 2013
+Arrow|Trust But Verify|January 23, 2013
+Arrow|Vertigo|January 30, 2013
+Arrow|Betrayal|February 6, 2013
+Arrow|The Odyssey|February 13, 2013
+Arrow|Dodger|February 20, 2013
+Arrow|Dead to Rights|February 27, 2013
+Arrow|The Huntress Returns|March 20, 2013
+Arrow|Salvation|March 27, 2013
+Arrow|Unfinished Business|April 3, 2013
+Arrow|Home Invasion|April 24, 2013
+Arrow|The Undertaking|May 1, 2013
+Arrow|Darkness on the Edge of Town|May 8, 2013
+Arrow|Sacrifice|May 15, 2013
+!Arrow|City of Heroes|October 9, 2013
+Arrow|Identity|October 16, 2013
+Arrow|Broken Dolls|October 23, 2013
+Arrow|Crucible|October 30, 2013
+Arrow|League of Assassins|November 6, 2013
+Arrow|Keep Your Enemies Closer|November 13, 2013
+Arrow|State v. Queen|November 20, 2013
+Arrow|The Scientist|December 4, 2013
+Arrow|Three Ghosts|December 11, 2013
+Arrow|Blast Radius|January 15, 2014
+Arrow|Blind Spot|January 22, 2014
+Arrow|Tremors|January 29, 2014
+Arrow|Heir to the Demon|February 5, 2014
+Arrow|Time of Death|February 26, 2014
+Arrow|The Promise|March 5, 2014
+Arrow|Suicide Squad|March 19, 2014
+Arrow|Birds of Prey|March 26, 2014
+Arrow|Deathstroke|April 2, 2014
+Arrow|The Man Under the Hood|April 16, 2014
+Arrow|Seeing Red|April 23, 2014
+Arrow|City of Blood|April 30, 2014
+Arrow|Streets of Fire|May 7, 2014
+Arrow|Unthinkable|May 14, 2014
+!Arrow|The Calm|October 8, 2014
+Arrow|Sara|October 15, 2014
+Arrow|Corto Maltese|October 22, 2014
+Arrow|The Magician|October 29, 2014
+Arrow|The Secret Origin of Felicity Smoak|November 5, 2014
+Arrow|Guilty|November 12, 2014
+Arrow|Draw Back Your Bow|November 19, 2014
+Arrow|The Brave and the Bold|December 3, 2014
+Arrow|The Climb|December 10, 2014
+Arrow|Left Behind|January 21, 2015
+Arrow|Midnight City|January 28, 2015
+Arrow|Uprising|February 4, 2015
+Arrow|Canaries|February 11, 2015
+Arrow|The Return|February 18, 2015
+Arrow|Nanda Parbat|February 25, 2015
+Arrow|The Offer|March 18, 2015
+Arrow|Suicidal Tendencies|March 25, 2015
+Arrow|Public Enemy|April 1, 2015
+Arrow|Broken Arrow|April 15, 2015
+Arrow|The Fallen|April 22, 2015
+Arrow|Al Sah-him|April 29, 2015
+Arrow|This Is Your Sword|May 6, 2015
+Arrow|My Name Is Oliver Queen|May 13, 2015
+!Arrow|Green Arrow|October 7, 2015
+Arrow|The Candidate|October 14, 2015
+Arrow|Restoration|October 21, 2015
+Arrow|Beyond Redemption|October 28, 2015
+Arrow|Haunted|November 4, 2015
+Arrow|Lost Souls|November 11, 2015
+Arrow|Brotherhood|November 18, 2015
+Arrow|Legends of Yesterday|December 2, 2015
+Arrow|Dark Waters|December 9, 2015
+Arrow|Blood Debts|January 20, 2016
+Arrow|A.W.O.L.|January 27, 2016
+Arrow|Unchained|February 3, 2016
+Arrow|Sins of the Father|February 10, 2016
+Arrow|Code of Silence|February 17, 2016
+Arrow|Taken|February 24, 2016
+Arrow|Broken Hearts|March 23, 2016
+Arrow|Beacon of Hope|March 30, 2016
+Arrow|Eleven-Fifty-Nine|April 13, 2016
+Arrow|Canary Cry|April 27, 2016
+Arrow|Genesis|May 4, 2016
+Arrow|Monument Point|May 11, 2016
+Arrow|Lost in the Flood|May 18, 2016
+Arrow|Schism|May 25, 2016
+!The Flash|Pilot|October 7, 2014
+The Flash|Fastest Man Alive|October 14, 2014
+The Flash|Things You Can't Outrun|October 21, 2014
+The Flash|Going Rogue|October 28, 2014
+The Flash|Plastique|November 11, 2014
+The Flash|The Flash Is Born|November 18, 2014
+The Flash|Power Outage|November 25, 2014
+The Flash|Flash vs. Arrow|December 2, 2014
+The Flash|The Man in the Yellow Suit|December 9, 2014
+The Flash|Revenge of the Rogues|January 20, 2015
+The Flash|The Sound and the Fury|January 27, 2015
+The Flash|Crazy for You|February 3, 2015
+The Flash|The Nuclear Man|February 10, 2015
+The Flash|Fallout|February 17, 2015
+The Flash|Out of Time|March 17, 2015
+The Flash|Rogue Time|March 24, 2015
+The Flash|Tricksters|March 31, 2015
+The Flash|All Star Team Up|April 14, 2015
+The Flash|Who Is Harrison Wells?|April 21, 2015
+The Flash|The Trap|April 28, 2015
+The Flash|Grodd Lives|May 5, 2015
+The Flash|Rogue Air|May 12, 2015
+The Flash|Fast Enough|May 19, 2015
+!The Flash|The Man Who Saved Central City|October 6, 2015
+The Flash|Flash of Two Worlds|October 13, 2015
+The Flash|Family of Rogues|October 20, 2015
+The Flash|The Fury of Firestorm|October 27, 2015
+The Flash|The Darkness and the Light|November 3, 2015
+The Flash|Enter Zoom|November 10, 2015
+The Flash|Gorilla Warfare|November 17, 2015
+The Flash|Legends of Today|December 1, 2015
+The Flash|Running to Stand Still|December 8, 2015
+The Flash|Potential Energy|January 19, 2016
+The Flash|The Reverse-Flash Returns|January 26, 2016
+The Flash|Fast Lane|February 2, 2016
+The Flash|Welcome to Earth-2|February 9, 2016
+The Flash|Escape from Earth-2|February 16, 2016
+The Flash|King Shark|February 23, 2016
+The Flash|Trajectory|March 22, 2016
+The Flash|Flash Back|March 29, 2016
+The Flash|Versus Zoom|April 19, 2016
+The Flash|Back to Normal|April 26, 2016
+The Flash|Rupture|May 3, 2016
+The Flash|The Runaway Daughter|May 10, 2016
+The Flash|Episode 22|May 17, 2016
+The Flash|Man in the Iron Mask|May 24, 2016
+!Constantine|Non Est Asylum|October 24, 2014
+Constantine|The Darkness Beneath|October 31, 2014
+Constantine|The Devil's Vinyl|November 7, 2014
+Constantine|A Feast of Friends|November 14, 2014
+Constantine|Danse Vaudou|November 21, 2014
+Constantine|The Rage of Caliban|November 28, 2014
+Constantine|Blessed Are the Damned|December 5, 2014
+Constantine|The Saint of Last Resorts|December 12, 2014
+Constantine|The Saint of Last Resorts, Part 2|January 16, 2015
+Constantine|Quid Pro Quo|January 23, 2015
+Constantine|A Whole World Out There|January 30, 2015
+Constantine|Angels and Ministers of Grace|February 6, 2015
+Constantine|Waiting for the Man|February 13, 2015
+!Legends of Tomorrow|Pilot, Part 1|January 21, 2016
+Legends of Tomorrow|Pilot, Part 2|January 28, 2016
+Legends of Tomorrow|Blood Ties|February 4, 2016
+Legends of Tomorrow|White Knights|February 7, 2016
+Legends of Tomorrow|Fail-Safe|February 18, 2016
+Legends of Tomorrow|Star City 2046|February 25, 2016
+Legends of Tomorrow|Marooned|March 3, 2016
+Legends of Tomorrow|Night of the Hawk|March 10, 2016
+Legends of Tomorrow|Left Behind|March 17, 2016
+Legends of Tomorrow|Progeny|March 31, 2016
+Legends of Tomorrow|The Magnificent Eight|April 14, 2016
+Legends of Tomorrow|Last Refuge|April 21, 2016
+Legends of Tomorrow|Leviathon|April 28, 2016
+Legends of Tomorrow|River of Time|May 5, 2016
+!Supergirl|Pilot|October 26, 2015
+Supergirl|Fight or Flight|November 9, 2015
+Supergirl|Livewire|November 16, 2015
+Supergirl|How Does She Do It?|November 23, 2015
+Supergirl|Red Faced|November 30, 2015
+Supergirl|Human for a Day|December 7, 2015
+Supergirl|Hostile Takeover|December 14, 2015
+Supergirl|Blood Bonds|January 4, 2016
+Supergirl|Childish Things|January 18, 2016
+Supergirl|Strange Visitor from Another Planet|January 25, 2016
+Supergirl|Bizarro|February 1, 2016
+Supergirl|For the Girl Who Has Everything|February 8, 2016
+Supergirl|Truth, Justice and the American Way|February 22, 2016
+Supergirl|Solitude|February 29, 2016
+Supergirl|Falling|March 14, 2016
+Supergirl|Manhunter|March 21, 2016
+Supergirl|Worlds Finest|March 28, 2016
+Supergirl|Myriad|April 11, 2016
+Supergirl|Better Angels|April 18, 2016

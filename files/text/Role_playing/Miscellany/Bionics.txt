@@ -1,0 +1,12 @@
+These are statistics that can be used if you want to introduce B<bionics> in AD&amp;D 2nd edition.
+2 Bionic Abilities
+The eye : Acts like an Eye of the Eagle, can fire a 60' long laser 3/day that does 3d8 damage to a target (ATT roll at +2 required).
+The Ear : 95% chance to Hear Noise (like a thief).
+The Arms : Str of 15 - 24, Power strike 1/day (causes triple damage).
+The Legs : Jump (as Wizard spell) at will, but with triple effects with safe landing guaranteed. Run at 4800' per round for up to 1 turn 3/day.
+2 Penalties
+* -2 penalty against sonic attacks (Shout spell, Drums of deafening, Harpy song)
+* -2 penalty against gaze attacks
+* rest for 1 turn per round of running or -4 penalty to attack and saves and +4 penalty to AC
+3 Limbs
+Each limb (arm/leg) represents 10% of your HP. Loss of 60% of the total HP is when the limbs start to take damage. Damaged limbs function at 1/2 normal power and cannot use special abilities (power strike, run, etc.). Loss of 80% of the total HP, the bionics cease to function until repaired.

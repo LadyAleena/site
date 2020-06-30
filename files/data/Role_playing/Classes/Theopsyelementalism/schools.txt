@@ -1,0 +1,18 @@
+Air|Aeromagist|Ice, Lightning, Smoke, Vacuum|Earth|Air|element
+Ash|Ceneromagist|Dust, Fire, Magma, Negative, Smoke, Vacuum|Steam|Fire|quasielement
+Dust|Amathomagist|Ash, Earth, Magma, Negative, Ooze, Salt|Lightning|Earth|quasielement
+Earth|Geomagist|Dust, Magma, Minerals, Ooze|Air|Earth|element
+Fire|Pyromagist|Ash, Magma, Radiance, Smoke|Water|Fire|element
+Ice|Pagomagist|Air, Lightning, Salt, Steam, Vacuum, Water|Magma|Air or Water|paraelement
+Lightning|Ceraunomagist|Air, Ice, Positive, Radiance, Smoke, Steam|Dust|Air|quasielement
+Magma|Magmamagist|Ash, Dust, Earth, Fire, Minerals, Radiance|Ice|Earth or Fire|paraelement
+Minerals|Mineramagist|Earth, Magma, Ooze, Positive, Radiance, Steam|Vaccum|Earth|quasielement
+Negative|Lygomagist|Ash, Dust, Salt, Vacuum|Positive||energy
+Ooze|Pelomagist|Dust, Earth, Minerals, Salt, Steam, Water|Smoke|Earth or Water|paraelement
+Positive|Photomagist|Lightning, Minerals, Radiance, Steam|Negative||enery
+Radiance|Radiomagist|Fire, Lightning, Magma, Minerals, Positive, Smoke|Salt|Fire|quasielement
+Salt|Halomagist|Dust, Ice, Negative, Ooze, Vacuum, Water|Radiance|Water|quasielement
+Smoke|Capnomagist|Air, Ash, Fire, Lightning, Radiance, Vacuum|Ooze|Air or Fire|paraelement
+Steam|Homichlomagist|Ice, Lightning, Minerals, Ooze, Positive, Water|Ash|Water|quasielement
+Vacuum|Kenomagist|Air, Ash, Ice, Negative, Salt, Smoke|Minerals|Air|quasielement
+Water|Hydromagist|Ice, Ooze, Salt, Steam|Fire|Water|element

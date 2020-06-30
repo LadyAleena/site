@@ -1,0 +1,506 @@
+body { margin: 0; padding: 0; background-color: #ccb; font-family: arial, sans-serif; font-size: 100%; }
+
+article, main, section, aside, nav, header, footer,
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd,
+table, thead, tfoot, tbody, col, tr, td,
+figure, figcaption,
+form, fieldset, legend, input, select, textarea,
+details, summary,
+blockquote, address, details, div, pre {
+  box-sizing: border-box;
+}
+
+/* start page header styles */
+header#main_header {
+  position: absolute;
+  top:     0;
+  right:   0;
+  bottom:  6%;
+  left:    0;
+  width: 100%;
+  height:  6%;
+  display: grid;
+  grid-template-rows:    50% 50%;
+  grid-template-columns: 50px 1fr 1fr;
+  grid-template-areas:
+    "avatar title contacts"
+    "avatar title about";
+  grid-gap: 0 0;
+  justify-items: stretch;
+  align-items: center;
+  vertical-align: middle;
+  background-color: #027;
+}
+
+header#main_header div { align-self: center; }
+header#main_header div#avatar   { grid-area: avatar;   justify-self: center; height: 100%; }
+header#main_header div#title    { grid-area: title;    justify-self: start; padding: .1em; font-size: 250%; word-break: keep-all; }
+header#main_header div#contacts { grid-area: contacts; justify-self: end; }
+header#main_header div#about    { grid-area: about;    justify-self: end; }
+
+header a { color: #eed ; }
+img.avatar { max-width: 100%; max-height: 100%; padding: 2%; }
+header div#contacts img.contact { width: auto; margin: 0 .2em; }
+/* end page header styles */
+
+nav#main_navigation, main { position: absolute; top: 6%; bottom: 0; height: 93.5%; padding: 0; }
+
+/* start main navigation syles*/
+nav#main_navigation { right: 81%; left: 0; width: 19%; overflow-y: auto; color: #000; font-size: 85%; }
+nav#main_navigation h2 { font-size: 115%; font-weight: bold; }
+nav#main_navigation li { line-height: 175%; }
+nav#main_navigation a  { color: #027; }
+
+section#main_menu { display: block; background-color: #eed; }
+
+/* end main navigation styles*/
+
+main { right: 0; left: 19%; width: 81%; overflow-y: auto; color: #000; }
+
+section,
+main footer,
+nav.contents
+ {
+  max-width: 100%;
+  overflow-y: auto;
+  margin: 5px;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+nav.contents > h2 { background-color: #027; color: #eed; font-size: 100%; font-weight: bold; }
+nav.contents > ul { font-size: 90%; }
+
+.alpha_menu { border-top:1px dotted #eed; text-align: center; font-size: smaller; }
+
+section section { margin-left: unset; margin-right: unset; padding-left: unset; padding-right: unset; border-radius: 0; }
+
+p, dl, table, form, pre, blockquote, figure { margin: 2px 5px; padding: 3px; }
+
+h1, h2, h3, h4, h5, h6 { margin: 3px 2px; padding: 3px; font-weight: normal; clear: both; border-radius: 3px; }
+h1, h2 { background-color: #027; color: #eed; }
+h3, h4, h5, h6 { color: #027}
+h1 { font-size: 200%; }
+h2 { font-size: 150%; }
+h3 { font-size: 140%; background-color: #eedf; }
+h4 { font-size: 130%; background-color: #eedb; border: 1px solid #eed; }
+h5 { font-size: 120%; background-color: #eed7; border: 1px solid #eed; }
+h6 { font-size: 110%; background-color: #eed3; border: 1px solid #eed; }
+
+h3.wlinks { clear:left; }
+h4.wlinks { clear:left; }
+
+/* start paragraphs */
+p { text-indent: 1em; }
+p.no_indent { text-indent: 0; }
+p.subhead,
+p.author    { text-indent: 0; font-size: larger; }
+p.stanza    { text-indent:  0em; }
+p.indent_00 { text-indent:  0em; }
+p.indent_02 { text-indent:  2em; }
+p.indent_04 { text-indent:  4em; }
+p.indent_06 { text-indent:  6em; }
+p.indent_08 { text-indent:  8em; }
+p.indent_12 { text-indent: 12em; }
+p.indent_16 { text-indent: 16em; }
+p.address   { font-weight: bold; clear: both; }
+/* end parapgraphs */
+
+/* start lists */
+/* The use of the em is safe since the font size should be the same for the list. */
+ul { margin: 0 0 0 1.25em; padding: 0 0 0 .1em; }
+ol { margin: 0 0 0 1.75em; padding: 0 0 0 .1em; }
+
+ul ul { margin-left: 1em; }
+
+ol li          { list-style-type: decimal; }
+ol ol li       { list-style-type: upper-alpha; }
+ol ol ol li    { list-style-type: decimal; }
+ol ol ol ol li { list-style-type: lower-alpha; }
+
+ul.headed { list-style-type: none; }
+ul.headed li strong { display: inline-block; vertical-align: top; width: 6em; padding-top: 2px; }
+ul.headed li span   { display: inline-block; vertical-align: top; }
+
+ul.note, ul.notes { font-size: smaller; }
+
+li { padding: .1em 0; }
+li p { margin: 0; text-indent: 0; }
+li:only-child { list-style-type: none; }
+li:only-child::before { margin-left: -1em; content: "" }
+
+ul.spaced li {
+  padding-top: .2em;
+  padding-bottom: .2em;
+}
+
+/* start main navigation list */
+li.inactive { font-weight: normal; }
+li.active   { font-weight: bold; }
+
+/* keep order of next 2 rules*/
+li.open ol,   li.open ul,   li.open dl   { display: block; }
+li.closed ol, li.closed ul, li.closed dl { display: none; }
+li.closed, li.open { list-style-type:none; }
+li.open::before,
+li.closed::before {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: -1px 0 0 -20px;
+  font-size: 135%;
+}
+li.open::before    { content: "\00a0-"; }
+li.closed::before  { content: "\00a0+"; }
+li.closed:hover    { background-color: #eeb ; }
+/* end main navigation list */
+
+dt { font-weight: bold; }
+dd > span.definition_heading { font-size: 90%; font-weight: bold; }
+/* end lists */
+
+/* start tables */
+.last          { border-bottom: none; }
+table          { max-width: 100%; border: 1px solid #027; border-collapse: collapse; page-break-inside: avoid; overflow-x: auto; }
+table.full     { float: left; margin-left: auto; margin-right: auto; width: 100%; }
+caption        { border-width: 1px 1px 0 1px; border-style: solid; border-color: #027; background-color: #eed; color: #027; white-space: nowrap; }
+colgroup       { border: 1px solid #027; }
+tbody          { border-bottom: 1px solid #027; }
+th, td         { border: 1px dotted #027; padding: .25em; font-size: smaller; }
+th             { background-color: #eed; color: #027; font-weight: bold; }
+th.row_header  { text-align: left; }
+td             { white-space: nowrap; }
+td.number      { text-align: right; }
+td span        { display: inline; }
+
+/* start SF_compare table */
+table#SF_compare tr { font-style: italic; }
+/* end SF_compare table */
+
+/* start number table */
+table#numeration_scale_data tr td:last-child { text-align: right; }
+/* end number table */
+
+/* start color table */
+table.color td       { border: 1px solid #999; color: #000; text-align: center; font: 400 10pt "courier new"; }
+table.color td.dark  { color: #fff; }
+table.color td.prime { border: 2px solid #333; }
+/* end color table */
+/* end tables */
+
+/* start forms */
+form     { font-size: 90%; }
+fieldset { margin: 2px 5px; border: 1px solid #027; border-radius: 3px; padding: 3px; background-color: #fff; color: #000; }
+legend   { border: 1px solid #027; border-radius: 3px; padding: 3px; background-color: #eed; color: #027; }
+select,
+input    { height: 2em; margin: 2px 0; border: 2px inset #9bf; border-radius: 3px; background-color: #eed7; color: #027; }
+textarea { height: 50%;  border: 2px inset #8af; border-radius: 3px; background-color: #eed7; color: #027; }
+input[type=checkbox],
+input[type=radio]     { height: auto; }
+input[type=button],
+input[type=submit]         { border-style: outset; }
+input[type=button]:hover,
+input[type=submit]:hover   { background: #eeb; }
+input[type=button]:active,
+input[type=submit]:active  { background: #eeb; border: 2px inset #ffe; }
+/* end forms */
+
+main img { background: #eed; margin-bottom: 0.25em; border-radius: 3px; page-break-inside: avoid; }
+
+/* start svg figure */
+/* object is needed for using svg images in html that have external style sheets */
+figure.svg_group   { display: inline-block; position: relative; background: #eeeedd; border: 2px solid #027; max-width: 100%; line-height: 0; }
+figure.svg_group a { display: block;        position: absolute; top: 0; bottom: 0; left: 0; right: 0; max-width: 100%;  padding: 0; }
+figure.svg_group img,
+figure.svg_group object { max-width: 100%; margin: 0; padding: 0; }
+
+figure#alignment_chart   { display: block; width: 896px; }
+figure#royal_chess_board { display: block; width: 825px; }
+/* end svg figure */
+
+/* start blockquotes */
+blockquote p::before  { font-size: 110%; content: open-quote; }
+blockquote p::after   { font-size: 110%; content: close-quote; }
+blockquote p          { display: inline-block; text-indent: 0; margin: 0; padding: 0; }
+blockquote + p.author { font-size: 100%; font-style: italic; text-indent: 2em; }
+/* end blockquotes */
+
+/* start details */
+
+details { margin: 3px 0; padding: 3px; }
+summary { padding: 3px; background-color: #eed; border-radius: 3px; color: #027; font-size: 105%; cursor: pointer; }
+/* end details */
+
+/* start pre */
+pre { font-family: "Courier New", monospace; font-size: 75%; letter-spacing: 0; }
+pre.wrap { white-space: pre-wrap; }
+pre.word_find { font-size: 125%; }
+/* end pre */
+
+/* start to top div */
+div.to_top {
+  position: sticky;
+  bottom:0;
+  right:5px;
+}
+
+a.to_top {
+  position:absolute;
+  bottom:0;
+  right:0;
+  border: 1px solid #ccb;
+  padding: 3px;
+  background-color: #eedc;
+  line-height: 2;
+}
+
+a.to_top:hover {
+  text-decoration: none;
+  background-color: #eeb9;
+}
+/* end to top div */
+
+.media_types {
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.media_types li {
+  flex-grow: 2;
+}
+
+/* start inline elements */
+abbr      { text-indent: 0; }
+code      { font-family: "courier new"; font-size: 100%; }
+q::before { font-size: 100%; content: open-quote; }
+q::after  { font-size: 100%; content: close-quote; }
+strong    { font-size: 85%; font-weight: bold; }
+sup       { font-size: 75%; }
+
+/* start main anchors */
+a       { color: #029; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+h1 a,
+h2 a { color: #eed }
+
+a.img { display: block; text-align: center; }
+a.inline img { width: auto; max-width: 100%; }
+/* end main anchors */
+/* end inline elements */
+
+.heading_links { font-size: 90%; }
+
+/* start columns */
+.two, .three, .four, .five, .six, .seven, .eight, .nine, .ten { clear:both; }
+.two   { column-count: 2; }
+.three { column-count: 3; }
+.four  { column-count: 4; }
+.five  { column-count: 5; }
+.six   { column-count: 6; }
+.seven { column-count: 7; }
+.eight { column-count: 8; }
+.nine  { column-count: 9; }
+.ten   { column-count:10; }
+/* end columns */
+
+.title     { font-style: italic; }
+.links     { font-size: smaller; }
+.word_find { font-family: "Courier New", monospace; }
+
+::after { font-size: x-small; font-style: normal; vertical-align: middle; }
+
+/* .updated::after    { content: " updated"; color: #702; } */
+
+.hardcover::after  { content: " (H/C)";  color: #009; }
+.trade::after      { content: " (TPB)";  color: #090; }
+.massmarket::after { content: " (PB)";   color: #900; }
+
+.brd::after        { content: " (BD)";   color: #009; }
+.dvd::after        { content: " (DVD)";  color: #090; }
+.vhs::after        { content: " (VHS)";  color: #900; }
+.dgt::after        { content: " (digital)"; color: #909; }
+
+.cd::after         { content: " (CD)";   color: #009; }
+.cassette::after   { content: " (CSTT)"; color: #090; }
+.lp::after         { content: " (LP)";   color: #900; }
+.ff::after         { content: " (45)";   color: #099; }
+
+/*Movie miscellany*/
+.dead  { background-color: #eee; }
+
+/*Doctor Who*/
+.The_Doctor { font-weight: bold; color: #009 }
+.torch      { color: #900; }
+.sjs        { color: #909; }
+.companion  { font-weight: bold; }
+.reset      { background: #fff; font-weight: normal; color: #000; }
+
+/* start general classes */
+.bigger   { font-size:large; }
+.caps     { font-size: 85%; font-variant: small-caps; }
+.center   { text-align: center; }
+.centered { margin-left: auto; margin-right: auto; float: none; }
+.right    { float: right; }
+
+.noclear { clear: none; }
+
+.hidden  { display: none; }
+/* end general classes */
+
+/* start special styles for some headings */
+h4#Burkes_Law,
+h4#Mary_Tyler_Moore,
+h4#Columbo,
+h4#twenty-four { display: flex; clear: none; }
+/* end special styles for some headings */
+
+/* written with the help of entuland in #web on freenode */
+@media screen and (min-width: 801px) {
+  body > .to_top { display: none; }
+  main > .to_top { display: block; }
+
+  input#menu_collapse { display: none; }
+  label[for="menu_collapse"] { display: none; }
+
+  .mobile  { display: none; }
+}
+
+@media screen and (max-width: 800px) {
+  body > .to_top { display: block; }
+  main > .to_top { display: none; }
+
+  header#main_header { height: 51px; }
+  header#main_header div#title { font-size: 170%; }
+  header#main_header div#about { overflow-wrap: normal; }
+
+  nav#main_navigation, body > main { position: static; width: 100%; }
+  nav#main_navigation { margin-top: 53px; font-size: 95%; }
+  /* start styles to make the site's menu collapse */
+  section#main_menu {
+    display: none;
+  }
+
+  input#menu_collapse {
+    display: none;
+  }
+
+  label[for="menu_collapse"] {
+    display: block;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: #027;
+    color: #ffe;
+    font-weight: bold;
+  }
+
+  input[type="checkbox"]#menu_collapse
+    + label[for="menu_collapse"]::before {
+    content: "\2630  ";
+    font-size: 110%;
+  }
+
+  input[type="checkbox"]:checked#menu_collapse
+    + label[for="menu_collapse"]::before {
+    content: "\00D7  ";
+    font-size: 110%;
+  }
+
+  input[type="checkbox"]:checked#menu_collapse
+    + label[for="menu_collapse"]
+    + section#main_menu {
+    display: block;
+  }
+  /* end styles to make the site's menu collapse */
+
+  ul.sub_menu { display: none; }
+  .mobile  { display: inline; }
+}
+
+@media screen and (min-width: 701px) and (max-width: 800px) {
+  table#numeration_scale_data tr:nth-child(n+28) { display: none; }
+  .four, .five, .six, .seven, .eight, .nine, .ten { column-count:3; }
+}
+
+@media screen and (min-width: 701px) {
+  header div#contacts  { display: block; }
+  nav#main_navigation > section > div#contacts_nav { display: none; }
+}
+
+@media screen and (max-width: 700px) {
+  header#main_header {
+    grid-template-columns: 47px 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas:
+      "avatar title about";
+    grid-gap: 0 0;
+  }
+  header#main_header div#contacts { display: none; }
+
+  nav#main_navigation > section > div#contacts_nav { display: block; text-align: center; }
+  nav#main_navigation > section > div#contacts_nav img.contact { width: auto; padding: 0 .25em; }
+
+  .right { float: none; }
+  td span        { display: block; }
+  table#numeration_scale_data tr:nth-child(n+12) { display: none; }
+
+  h1    { font-size: 175%; }
+  h2    { font-size: 140%; }
+  h3    { font-size: 130%; }
+  h4    { font-size: 120%; }
+  h5    { font-size: 110%; }
+  h6    { font-size: 100%; }
+
+ .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten { column-count:1; }
+
+  figure#alignment_chart   { width: auto; }
+  figure#royal_chess_board { width: auto; }
+  .media_types { display: block; }
+}
+
+@media (pointer: coarse), (hover: none) {
+  abbr[title] {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+  }
+  abbr[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    top: 90%;
+    color: #000;
+    background-color: #ff9;
+    border: 1px solid;
+    width: fit-content;
+    padding: 3px;
+    font-size: 10px;
+  }
+  span.mobile { display: inline; }
+}
+
+@media print{
+  body { background-color: transparent; }
+  header#main_header,
+  nav,
+  p.address,
+  .links,
+  form,
+  .disqus,
+  .noprint,
+  .to_top { display: none; }
+  h1, h2, h3, h4, h5, h6 { border-bottom: 1px solid #000; border-top: none; border-right: none; border-left: none; border-radius: 0; color: #000; }
+  body > main { overflow: visible; top: 0; left: 0; width: 100%; height: 100%; }
+  figure.svg_group { border: none; }
+  span.hidden { display: inline }
+  div.hidden  { display: block  }
+  a    { color: #000; }
+  p  a { color: #000; }
+  th, td { border-color: #000; }
+  li.closed ol,li.closed ul,li.closed dl { display: list-item; }
+  .three, .four, .five, .six, .seven, .eight, .nine, .ten { column-count:2; }
+}

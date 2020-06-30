@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 1068 278"
+  width="1068"
+  height="278"
+  id="McHale_UNCLE_Smart"
+>
+  <title id="McHale_UNCLE_Smart_title">McHale's U.N.C.L.E. One Day Gets Smart</title>
+  <metadata id="McHale_UNCLE_Smart_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>McHale's U.N.C.L.E. One Day Gets Smart</dc:title>
+        <dc:date>2020-04-09</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="McHale_UNCLE_Smart_chart" transform="translate(5,5)">
+    <title id="McHale_UNCLE_Smart_chart_title">McHale's U.N.C.L.E. One Day Gets Smart</title>
+    <g id="McHales_Navy_franchise" transform="translate(0,0)">
+      <title id="McHales_Navy_franchise_title">McHale&apos;s Navy</title>
+      <g class="spinoff" id="McHales_Navy_spinoff_lines" transform="translate(13)">
+        <title id="McHales_Navy_spinoff_lines_title">The McHale&apos;s Navy spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="McHales_Navy_to_McHales_Navy_1964" />
+        <path d="m 0, 55 v 39 h 15" id="McHales_Navy_to_Broadside" />
+        <path d="m 0, 95 v 39 h 15" id="McHales_Navy_to_McHales_Navy_Joins_Air_Force" />
+        <path d="m 0, 135 v 39 h 15" id="McHales_Navy_to_McHales_Navy_1997" />
+      </g>
+      <g id="McHales_Navy" transform="translate(0,0)">
+        <title id="McHales_Navy_title">McHale&apos;s Navy</title>
+        <g class="one_cross" id="McHales_Navy_crossovers" transform="translate(122,14)">
+          <title id="McHales_Navy_crossovers_title">McHales_Navy crossovers</title>
+          <path d="m 0,0 h 181" id="McHales_Navy_to" />
+          <g transform="translate(181,0)">
+            <path d="m 0,0 h 15" id="McHales_Navy_to_Man_from_UNCLE" />
+            <path d="m 0,0 v 160 h 15" id="McHales_Navy_to_One_Day_at_Time" />
+          </g>
+        </g>
+        <rect id="McHales_Navy_box"  x="0" y="0" width="120" height="28" class="abc" />
+        <text id="McHales_Navy_text" x="6" y="14">McHale's Navy</text>
+      </g>
+      <g id="McHales_Navy_1964" transform="translate(30,40)">
+        <title id="McHales_Navy_1964_title">McHale&apos;s Navy (1964)</title>
+        <rect id="McHales_Navy_1964_box"  x="0" y="0" rx="10" width="167" height="28" class="film" />
+        <text id="McHales_Navy_1964_text" x="6" y="14">McHale's Navy <tspan id="McHales_Navy_1964_year">(1964)</tspan></text>
+      </g>
+      <g id="Broadside" transform="translate(30,80)">
+        <title id="Broadside_title">Broadside</title>
+        <rect id="Broadside_box"  x="0" y="0" width="85" height="28" class="abc" />
+        <text id="Broadside_text" x="6" y="14">Broadside</text>
+      </g>
+      <g id="McHales_Navy_Joins_Air_Force" transform="translate(30,120)">
+        <title id="McHales_Navy_Joins_Air_Force_title">McHale&apos;s Navy Joins the Air Force</title>
+        <rect id="McHales_Navy_Joins_Air_Force_box"  x="0" y="0" rx="10" width="256" height="28" class="film" />
+        <text id="McHales_Navy_Joins_Air_Force_text" x="6" y="14">McHale's Navy Joins the Air Force</text>
+      </g>
+      <g id="McHales_Navy_1997" transform="translate(30,160)">
+        <title id="McHales_Navy_1997_title">McHale&apos;s Navy (1997)</title>
+        <rect id="McHales_Navy_1997_box"  x="0" y="0" rx="10" width="167" height="28" class="film" />
+        <text id="McHales_Navy_1997_text" x="6" y="14">McHale's Navy <tspan id="McHales_Navy_1997_year">(1997)</tspan></text>
+      </g>
+    </g>
+    <g id="Man_from_UNCLE_franchise" transform="translate(320,0)">
+      <title id="Man_from_UNCLE_franchise_title">The Man from U.N.C.L.E.</title>
+      <g id="Man_from_UNCLE_spinoff_lines" transform="translate(13)">
+        <title id="Man_from_UNCLE_spinoff_lines_title">The The Man from U.N.C.L.E. spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="Man_from_UNCLE_to_Girl_from_UNCLE" />
+        <path d="m 0, 55 v 39 h 15" class="spinoff" id="Man_from_UNCLE_to_Return_of_Man_from_UNCLE" />
+        <path d="m 0, 95 v 39 h 15" class="non_spinoff" id="Man_from_UNCLE_to_Man_from_UNCLE_2015" />
+      </g>
+      <g id="Man_from_UNCLE" transform="translate(0,0)">
+        <title id="Man_from_UNCLE_title">The Man from U.N.C.L.E.</title>
+        <g class="one_cross" id="Man_from_UNCLE_crossovers" transform="translate(189,14)">
+          <title id="Man_from_UNCLE_crossovers_title">Man_from_UNCLE crossovers</title>
+          <path d="m 0,0 h 146" id="Man_from_UNCLE_to" />
+          <g transform="translate(146,0)">
+            <path d="m 0,0 h  15" id="Man_from_UNCLE_to_Please_Dont_Eat_Daisies" />
+            <path d="m 0,0 v 122 h 28 m 4,0 h 13" id="Man_from_UNCLE_to_Get_Smart" />
+          </g>
+        </g>
+        <rect id="Man_from_UNCLE_box"  x="0" y="0" width="191" height="28" class="nbc" />
+        <text id="Man_from_UNCLE_text" x="6" y="14">The Man from U.N.C.L.E.</text>
+      </g>
+      <g id="Girl_from_UNCLE" transform="translate(30,40)">
+        <title id="Girl_from_UNCLE_title">The Girl from U.N.C.L.E.</title>
+        <rect id="Girl_from_UNCLE_box"  x="0" y="0" width="185" height="28" class="nbc" />
+        <text id="Girl_from_UNCLE_text" x="6" y="14">The Girl from U.N.C.L.E.</text>
+      </g>
+      <g id="Return_of_Man_from_UNCLE" transform="translate(30,80)">
+        <title id="Return_of_Man_from_UNCLE_title">The Return of the Man from U.N.C.L.E.</title>
+        <rect id="Return_of_Man_from_UNCLE_box"  x="0" y="0" width="288" height="28" class="cbs" />
+        <text id="Return_of_Man_from_UNCLE_text" x="6" y="14">The Return of the Man from U.N.C.L.E.</text>
+      </g>
+      <g id="Man_from_UNCLE_2015" transform="translate(30,120)">
+        <title id="Man_from_UNCLE_2015_title">The Man from U.N.C.L.E. (2015)</title>
+        <rect id="Man_from_UNCLE_2015_box"  x="0" y="0" rx="10" width="238" height="28" class="film" />
+        <text id="Man_from_UNCLE_2015_text" x="6" y="14">The Man from U.N.C.L.E. <tspan id="Man_from_UNCLE_2015_year">(2015)</tspan></text>
+      </g>
+    </g>
+    <g id="One_Day_at_Time_franchise" transform="translate(320,160)">
+      <title id="One_Day_at_Time_franchise_title">One Day at a Time</title>
+      <path d="m 13, 30 v 24 h 15" class="non_spinoff" id="One_Day_at_Time_to_One_Day_at_Time_2017" />
+      <g id="One_Day_at_Time" transform="translate(0,0)">
+        <title id="One_Day_at_Time_title">One Day at a Time</title>
+        <rect id="One_Day_at_Time_box"  x="0" y="0" width="146" height="28" class="cbs" />
+        <text id="One_Day_at_Time_text" x="6" y="14">One Day at a Time</text>
+      </g>
+      <g id="One_Day_at_Time_2017" class="netflix" transform="translate(30,40)">
+        <title id="One_Day_at_Time_2017_title">One Day at a Time (2017)</title>
+        <rect id="One_Day_at_Time_2017_box"  x="0" y="0" width="196" height="28" />
+        <text id="One_Day_at_Time_2017_text" x="6" y="14">One Day at a Time <tspan id="One_Day_at_Time_2017_year">(2017)</tspan></text>
+      </g>
+    </g>
+    <g id="Please_Dont_Eat_Daisies" transform="translate(672,0)">
+      <title id="Please_Dont_Eat_Daisies_title">Please Don&apos;t Eat the Daisies</title>
+      <rect id="Please_Dont_Eat_Daisies_box"  x="0" y="0" width="216" height="28" class="nbc" />
+      <text id="Please_Dont_Eat_Daisies_text" x="6" y="14">Please Don't Eat the Daisies</text>
+    </g>
+    <g id="Get_Smart_franchise" transform="translate(672,40)">
+      <title id="Get_Smart_franchise_title">Get Smart</title>
+      <g id="Get_Smart_spinoff_lines" transform="translate(13)">
+        <title id="Get_Smart_spinoff_lines_title">The Get Smart spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" class="spinoff" id="Get_Smart_to_Nude_Bomb" />
+        <path d="m 0,  53 v 37 h 15" class="spinoff" id="Get_Smart_to_Get_Smart_Again" />
+        <path d="m 0,  91 v 43 h 15" class="spinoff" id="Get_Smart_to_Get_Smart_1995" />
+        <path d="m 0, 135 v 39 h 15" class="non_spinoff" id="Get_Smart_to_Get_Smart_2008" />
+      </g>
+      <g id="Get_Smart" transform="translate(0,0)">
+        <title id="Get_Smart_title">Get Smart</title>
+        <rect id="Get_Smart_box_1" x="0" y="0" width="84" height="28" class="nbc" />
+        <rect id="Get_Smart_box_2" x="4" y="4" width="76" height="20" class="cbs inner" />
+        <text id="Get_Smart_text" x="6" y="14">Get Smart</text>
+      </g>
+      <g id="Nude_Bomb" transform="translate(30,40)">
+        <title id="Nude_Bomb_title">Nude Bomb</title>
+        <rect id="Nude_Bomb_box"  x="0" y="0" rx="10" width="97" height="28" class="film" />
+        <text id="Nude_Bomb_text" x="6" y="14">Nude Bomb</text>
+      </g>
+      <g id="Get_Smart_Again" transform="translate(30,80)">
+        <title id="Get_Smart_Again_title">Get Smart Again!</title>
+        <rect id="Get_Smart_Again_box"  x="0" y="0" width="135" height="28" class="abc" />
+        <text id="Get_Smart_Again_text" x="6" y="14">Get Smart Again!</text>
+      </g>
+      <g id="Get_Smart_1995" transform="translate(30,120)">
+        <title id="Get_Smart_1995_title">Get Smart (1995)</title>
+        <rect id="Get_Smart_1995_box"  x="0" y="0" width="131" height="28" class="fox" />
+        <text id="Get_Smart_1995_text" x="6" y="14">Get Smart <tspan id="Get_Smart_1995_year">(1995)</tspan></text>
+      </g>
+      <g id="Get_Smart_2008_franchise" transform="translate(30,160)">
+        <title id="Get_Smart_2008_franchise_title">Get Smart (2008)</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Get_Smart_2008_to_Get_Smarts_Bruce_Lloyd_Out_of_Control" />
+        <g id="Get_Smart_2008" transform="translate(0,0)">
+          <title id="Get_Smart_2008_title">Get Smart (2008)</title>
+          <rect id="Get_Smart_2008_box"  x="0" y="0" rx="10" width="131" height="28" class="film" />
+          <text id="Get_Smart_2008_text" x="6" y="14">Get Smart <tspan id="Get_Smart_2008_year">(2008)</tspan></text>
+        </g>
+        <g id="Get_Smarts_Bruce_Lloyd_Out_of_Control" transform="translate(30,40)">
+          <title id="Get_Smarts_Bruce_Lloyd_Out_of_Control_title">Get Smart&apos;s Bruce and Lloyd: Out of Control</title>
+          <rect id="Get_Smarts_Bruce_Lloyd_Out_of_Control_box"  x="0" y="0" rx="10" width="326" height="28" class="film" />
+          <text id="Get_Smarts_Bruce_Lloyd_Out_of_Control_text" x="6" y="14">Get Smart's Bruce and Lloyd: Out of Control</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

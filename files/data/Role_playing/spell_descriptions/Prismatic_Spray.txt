@@ -1,0 +1,13 @@
+When this spell is cast, the wizard causes seven shimmering, multicolored rays of light to flash from his hand in a triangular spray. This spray is 70 feet long and spreads to 15 feet wide at the end. It includes all colors of the visible spectrum; each ray has a different power and purpose. Any creature with fewer than 8 Hit Dice struck by a ray is blinded for 2d4 rounds, regardless of any other effect.
+Any creature in the area of effect will be touched by one or more of the rays. To determine which ray strikes a creature, roll 1d8 and consult the following table:
+|| full
+|* c4 Prismatic Ray Effects
+|* Roll|Color|Order|Effect
+|- 1|Red|1st|Inflicts 20 points of damage, save vs. spell for half.
+|- 2|Orange|2nd|Inflicts 40 points of damage, save vs. spell for half.
+|- 3|Yellow|3rd|Inflicts 80 points of damage, save vs. spell for half.
+|- 4|Green|4th|Save vs. poison or die; survivors suffer 20 points of poison damage.
+|- 5|Blue|5th|Save vs. petrification or be turned to stone.
+|- 6|Indigo|6th|Save vs. wand or go insane.
+|- 7|Violet|7th|Save vs. spell or be sent to another plane.
+|- 8|c3 struck by two rays, roll again twice, ignoring any 8s

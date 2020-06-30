@@ -1,0 +1,108 @@
+section#movie_search { border-radius: 5px; background-color: #ccb; }
+section#movie_search form { margin: 0; padding: 1px; }
+
+body.movie_series h1 { font-style: italic }
+
+ul.movie_list li {
+  padding-top: .3em;
+  padding-bottom: .3em;
+}
+
+.movie_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  margin: 0 inherit;
+  padding: 0;
+  background-color: #eed;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+.movie_links a {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccb;
+  text-align: center;
+}
+
+.movie_links a:hover  {
+  background-color: #eeb;
+  text-decoration: none;
+}
+
+h2.season_list,
+h3.season_list {
+  box-sizing: border-box;
+  margin: 0 2px;
+  border: 1px solid #ccb;
+  padding: 3px;
+  background-color: #eed;
+  text-align: center;
+  font-size: 100%;
+  font-weight: normal;
+  color: #027;
+}
+
+ul.season_list {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  margin: 0 2px;
+  padding: 0;
+  background-color: #eed;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+ul.season_list li {
+  box-sizing: border-box;
+  display: block;
+  flex-grow: 1;
+  text-align: center;
+  margin: 0;
+  border: 1px solid #ccb;
+  padding: 0;
+  list-style: none;
+}
+
+ul.season_list li:hover,
+ul.season_list li:active {
+  background-color: #eeb;
+  text-decoration: none;
+}
+
+.season_list a {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: .25em .5em;
+  text-align: center;
+  text-decoration: none
+}
+
+ol.episode_list,
+ul.actor_list { font-size: smaller; }
+
+ul.actor_list   li,
+ul.program_list li { list-style: none; }
+
+ul.program_list li { font-style: italic; }
+
+body.movie_series span.title { font-weight: bold; }
+.series, .program { font-style: italic; }
+
+@media print{
+  ul.program_list,
+  ul.season_list,
+  .movie_links,
+  .like { display: none; }
+  ol.Westphall, ul.Westphall { font-size: 10pt }
+}

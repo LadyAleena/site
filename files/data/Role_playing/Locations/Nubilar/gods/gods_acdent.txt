@@ -1,0 +1,39 @@
+Church of Acdent
+Joy Master
+Any of the clergy
+20th Level
+High Joy Bringer
+Specialty Priest
+17th Level
+Presides over All Specialty Priests
+High Holy Happiness
+Cleric
+17th Level
+Presides over All Clerics
+Supreme Bright Blade
+Crusader
+13th Level
+Commands All Crusaders
+Acdent's Voice
+Mystic
+15th Level
+Guides All Mystics
+Master Joy Singer
+Bard
+16th Level
+Leads All Bards
+Joy Bringer
+Specialty Priest
+13th Level
+Holy Happiness
+Clerics
+High Bright Blade
+Crusader
+9th Level
+Commands a Unit
+Bright Blade
+Crusader
+Acdent's Whispers
+Mystics
+Joy Singer
+Bard

@@ -1,0 +1,17 @@
+Sarria Bagada|All;Astral;Combat;Divination;Guardian;Healing;Law;Protection;Summoning;Sun|Charm;Elemental;Necromantic;Travelers;Weather
+Lysiandra Bo'javarian|Animal;Chaos;Combat;Divination;Elemental;Healing;Necromatic;Protection;War;Weather|All;Guardian;Summoning;Sun;Wards
+Verago Brystar|All;Astral;Chaos;Charm;Combat;Creation;Divination;Elemental;Guardian;Healing;Law;Necromantic;Numbers;Protection;Summoning;Thought;Time;Travelers;Wards|Animal;Plant;Sun;Weather
+Ryceva Derman|All;Astral;Charm;Combat;Creation;Divination;Guardian;Healing;Law;Necromantic;Protection;Summoning;Sun;Thought;Wards|Elemental;Travelers;War
+Oalirya Disstar|All;Astral;Charm;Combat;Creation;Divination;Guardian;Healing;Law;Necromantic;Summoning;Sun;War;Wards|Elemental
+Tymara Fi'ranicy|All;Chaos;Charm;Creation;Divination;Healing;Necromantic;Protection;Summoning;Travelers|Guardian;Sun;Wards;Weather
+Tandria Goldmoon|Animal;Chaos;Combat;Divination;Elemental;Healing;Necromantic;Protection;War;Weather|All;Guardian;Summoning;Sun;Wards
+Rechrapee Hardimod|Healing;Guardian;Necromancy
+Niona Kilson|All;Chaos;Charm;Creation;Divination;Healing;Necromantic;Protection;Summoning;Travelers|Guardian;Sun;Wards;Weather
+Driastan Marder'bastiar|All;Astral;Combat;Charm;Divination;Elemental;Guardian;Healing;Protection;Summoning;Thought;Travelers|Animal;Creation;Necromantic;Sun;Wards
+Lestra Newmoon|All;Astral;Charm;Combat;Healing;Law;Necromantic;Summoning;Time;Wards|Creation;Divination;Elemental;Guardian;Travelers
+Eileen Olara|all spheres of magic
+Hylene Serill|All;Astral;Chaos;Charm;Combat;Creation;Divination;Elemental;Guardian;Healing;Law;Necromantic;Numbers;Protection;Summoning;Thought;Time;Travelers;Wards|Animal;Plant;Sun;Weather
+Ducolin StoneGrip|All;Astral;Combat;Divination;Guardian;Protection;Sun;Wards|Creation;Elemental;Healing;War
+Handira Warnir|All;Astral;Combat;Divination;Guardian;Protection;Sun;Wards|Creation;Elemental;Healing;War
+Inary Xeru|All;Astral;Charm;Creation;Divination;Elemental (Earth);Guardian;Healing;Protection;Necromantic;Numbers;Summoning;Sun;Time|Animal;Plant;Thought;Weather
+Eshandra Yanraya|All;Chaos;Charm;Combat;Healing;Guardian;Protection|Animal;Creation;Elemental (Water);Necromantic;Travelers

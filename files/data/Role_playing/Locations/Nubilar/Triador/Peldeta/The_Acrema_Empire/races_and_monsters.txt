@@ -1,0 +1,13 @@
+Acrem|human|dwarf; halfling|amethyst; copper; crystal; electrum; gold; red; silver; steel|cyclops; firbolg; hill; mountain; stone; wood; hill twarg; mountain twarg|werebadger; werebat; werebear; wereboar; wereraven; wererat; werespider
+Yreth|human|none|blue; brass; brown; emerald; yellow|desert; fire; desert tralg|werecrocodile
+Vecile|human|gnome; halfling|amethyst; bronze; copper; electrum; gold; mercury; red; steel; topaz|cloud; cyclops; ettin; firbolg; hill; stone; wood; hill twarg; mountain twarg; two-headed tralg|werebadger; werespider
+Satex|human|dwarf; elf; gnome; halfling|amethyst; bronze; cloud; crystal; electrum; gold; green; mercury; mist; red; sapphire; silver|cloud cyclops; firbolg; fire; fog; hill; mountain; stone; wood; hill twarg; mountain twarg|werebadger; werebat; wereboar; wererat; wereraven; werespider
+Strafet|gnome; halfling|human|amethyst; crystal; gold; prismatic; mercury; sapphire|none|wereboar
+Bigtree|halfling|gnome; human||none|
+Bright Gem|gnome|halfling; human||none|
+Zilarb|zardan|lizardman; human; wild dwarf|black; bronze; emerald; green; prismatic; red; shadow; silver|fire; fog; jungle; jungle twarg|werecrocodile; werejaguar; werepanther; wererat
+Telanna|elf|half-elf|amethyst; bronze; crystal; electrum; gold; silver|reef|lythari; wereboar; wereraven
+Teglan|human|none|copper; crystal; fang; mercury; topaz; white|cloud; ettin; fomarian; frost; storm; verbeeg; arctic tralg; two-headed tralg|loup du noir; werebear
+Krigt|dwarf|human|amethyst; cloud; copper; crystal; deep; red; sapphire; shadow; white|cloud; ettin; fomarian; mountain; stone; storm; verbeeg; mountain twarg; two-headed tralg|loup du noir
+Abru|human; elf; zarden|half-elf; zardelen|bronze; green; prismatic; red; silver|reef|werecrocodile
+Eldent|eldenten|sea elf; triton|brine|none|seawolf; wereshark

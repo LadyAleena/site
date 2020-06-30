@@ -1,0 +1,336 @@
+camping gear|70.2
+climbing gear|13.8
+cooking gear|2.5
+riding gear|25.6
+winter gear|0
+writing kit|120
+chest, small|1
+chest, large|2
+backpack|2
+bottle, glass|10
+bucket|0.5
+map/scroll case|0.8
+waterskin|0.8
+clothes chest|2
+flatbox|1
+belt|0.3
+boots, riding|3
+boots, soft|1
+boots, ankle|0.8
+cloak|5
+cloak, good cloth|8
+cloak, fine fur|50
+gloves|1
+gloves, dragonskin|200
+gown|12
+gown, good cloth|20
+gown, fine cloth|50
+gown, fine silk|50
+leggings|2
+robe|0.9
+robe, good cloth|15
+robe, embroidered|20
+robe, fine silk|50
+sandals|0.05
+shirt|0.5
+shoes|1
+jacket, silk|80
+vest|0.6
+rations|10
+wagon|5
+chariot, riding|200
+chariot, war|500
+rope, hemp, 50'|1
+rope, hemp, 100'|2
+rope, silk, 50'|10
+bow strings|.05
+quiver|0.8
+amulet of fire resistance|5000
+amulet of infravision|5000
+amulet of life protection|20000
+amulet of proof against detection|15000
+amulet of terror|5000
+amulet of the planes|30000
+amulet vs. undead|7000
+anklet of levitation|17000
+anything weapon|12500
+arm of valor|40000
+bag of holding, 500 lb|37500
+bag of holding, 1000 lb|50000
+bag of holding, 1500 lb|65200
+bag of holding, 2000 lb|70000
+bag of many bags|2500
+bag of transmuting|500
+bag of tricks|15000
+boots of speed|20000
+boots of striding and springing|20000
+bracelet of cleanliness|8000
+bracers of archery|10000
+bracers of brachiation|1000
+brooch of shielding|10000
+broom of flying|10000
+broom of sweeping|600
+bugle of collapsing|25000
+chair of comfort|7500
+circlet of telepathy|35000
+cloak of arachnidia|25000
+cloak of the bat|15000
+cloak of displacement|17500
+cloak of elven wizardry|0
+cloak of elvenkind|6000
+cloak of phasing|0
+cloak of warmth|7500
+cloak of the yeti|0
+crystal ball|10000
+cube of abilities|5000
+cube of force|20000
+dust of appearance|5000
+dust of disappearance|5000
+elixir of health|2000
+elixir of madness|500
+figurine of wondrous power (amber monkeys)|5000
+figurine of wondrous power (ebony fly)|4000
+flatbox, magical|25000
+fire burst grenade|1000
+flash grenade|1000
+gauntlets of dexterity|10000
+gauntlets of swimming and climbing|10000
+gauntlets of the necromancer|10000
+gauntlets of weapon mastery|10000
+gem of brightness|17500
+gem of insight|30000
+gem of seeing|25000
+glove of wands|75000
+gloves of missile snaring|10000
+hat of disguise|2500
+helmet of brilliance|60000
+helmet of comprehending languages and reading magic|12500
+helmet of teleportation|30000
+helmet of underwater action|10000
+ioun stone of spell absorption|5000
+ioun stone of polymorphing into tiger|5000
+ioun stone, incandescent blue sphere|5000
+ioun stone, pale green prism|5000
+jade scepter of defending|10000
+lens of detection|2500
+manual of golems|40000
+mask of Kelemvor|0
+medallion of pass plant|1000
+medallion of thought projection|1000
+mug of plenty|5000
+mushroom of delusion|500
+necklace of adaptation|10000
+necklace of missiles (7hd×1, 5hd×2, 3hd×4)|4600
+necklace of missiles (8hd×1, 6hd×2, 4hd×2, 2hd×4)|7200
+necklace of missiles (10hd×1, 8hd×2, 6hd×2, 4hd×4)|9200
+necklace of missiles (11hd×2, 9hd×3, 7hd×3, 5hd×4, 3hd×5)|23600
+necklace of telepathy|35000
+never-empty bag of sling bullets|10000
+never empty quiver|10000
+oil of acid resistance|1000
+oil of bug repellence|550
+oil of crossing|1800
+oil of disenchantment|1500
+oil of etherealness|1200
+oil of fiery burning|1000
+oil of impact|1500
+oil of timelessness|1000
+pipes of sounding|10000
+pearl of power, type I|2000
+pebble of continual light|1500
+periphet of wound closure|10000
+phaseship|18000
+philter of glibness|2500
+philter of love|800
+philter of persuasiveness|850
+philter of stammering and stuttering|1500
+phylactery of long years|25000
+portable hole|50000
+potion of animal control|400
+potion of animal control, amphibian|400
+potion of animal control, reptile|400
+potion of clairaudience|400
+potion of clairvoyance|500
+potion of climbing|500
+potion of delusion|150
+potion of diminution|500
+potion of elasticity|800
+potion of esp|850
+potion of extra-healing|1000
+potion of fire breath|1000
+potion of fire immunity|400
+potion of fire resistance|400
+potion of flying|750
+potion of gaseous form|400
+potion of growth|300
+potion of healing|400
+potion of human control|900
+potion of invisibility|500
+potion of invulnerability|500
+potion of levitation|400
+potion of luck|1500
+potion of mind control|1000
+potion of mind fogging|1000
+potion of polymorph self|350
+potion of polymorphing|350
+potion of rainbow hues|800
+potion of speed|450
+potion of stoneskin|350
+potion of super-heroism|750
+potion of treasure finding|2000
+potion of undead control|2500
+potion of undead control, skeletons and zombies|2500
+potion of undead control, general|2500
+potion of undead control, ghouls|2500
+potion of ventriloquism|800
+potion of vitality|2500
+potion of water breathing|900
+pouch of holding|4000
+quill of endless ink|25000
+quill of long writing|20000
+quill of writing|27500
+ring of Boccob|2500
+ring of acid resistance|5000
+ring of animal friendship|5000
+ring of arachnid control|5000
+ring of astral travel|7500
+ring of blinking|5000
+ring of chameleon power|5000
+ring of draining|5000
+ring of elemental command|25000
+ring of feather falling|5000
+ring of fire protection|7500
+ring of fire resistance|5000
+ring of flying|7500
+ring of free action|5000
+ring of holiness|10000
+ring of human influence|600
+ring of invisibility|7500
+ring of jumping|5000
+ring of mammal control|5000
+ring of memory|7500
+ring of multiple wishes|25000
+ring of rapid regeneration|50000
+ring of regeneration|40000
+ring of rock|5000
+ring of seeing|12500
+ring of shape changing|15000
+ring of shocking grasp|5000
+ring of shooting stars|15000
+ring of spell sculpting|20000
+ring of spell storing|17500
+ring of spell turning|10000
+ring of sustenance|3500
+ring of telekinesis|20000
+ring of the heirophant|20000
+ring of the ram|75000
+ring of true sight|13000
+ring of vampiric regeneration|35000
+ring of water walking|5000
+ring of x-ray vision|35000
+robe of the archmagi|65000
+robe of blending|4000
+robe of eyes|50000
+robe of scintillating colors|25000
+robe of stars|12000
+robe of stone|14000
+robe of useful items|8000
+rod of absorption|40000
+rod of cancellation|50000
+rod of flailing|20000
+rod of healing|10000
+rod of lordly might|20000
+rod of necromancy|40000
+rod of poison|35000
+rod of resurrection|35000
+rod of rulership|35000
+rod of security|30000
+rod of smiting|15000
+rod of terror|15000
+rod of undead control|15000
+rope of climbing|10000
+rope of constriction|1000
+rug of welcome|45000
+scepter of magic replenishment|10000
+scroll of equipment|5000
+scroll of protection from acid|6000
+scroll of protection from dragon breath|6000
+scroll of protection from elementals|6000
+scroll of protection from fire|6000
+scroll of protection from gas|6000
+scroll of protection from lycanthropes|3000
+scroll of protection from petrification|6000
+scroll of protection from poison|3000
+scroll of protection from undead|4500
+scroll of return|6000
+slippers of spider climbing|5000
+slate of identification|10000
+staff of healing|40000
+staff of lightning +2|50000
+staff of power|60000
+staff of striking|15000
+staff of the magi|75000
+staff of the necromancer|65000
+staff of thunder and lightning|40000
+staff of withering|35000
+staff-mace|7500
+star of chromatic dragon breath protection|3000000
+stone of cold|10000
+stone of curing|30000
+talisman of pure good|27500
+wand of acid bolts|30000
+wand of banishment|30000
+wand of conjuration|35000
+wand of earth passage, Orgle's|45000
+wand of enemy detection|10000
+wand of explosions|25000
+wand of fear|15000
+wand of fire|25000
+wand of fireballs|16000
+wand of flame extinguishing|10000
+wand of force|30000
+wand of frost|50000
+wand of illumination|10000
+wand of illusion|20000
+wand of lightening|7500
+wand of lightning|30000
+wand of magic detection|22000
+wand of magic missiles|35000
+wand of metal and mineral detection|7500
+wand of meteors|50000
+wand of multiple missiles|70000
+wand of multistroke lightning|60000
+wand of negation|15000
+wand of paralyzation|25000
+wand of polymorphing|25000
+wand of secret door and trap detection|40000
+wand of size alteration|20000
+wand of the heavens|100000
+wand of trap detection|25000
+wand of warding|20000
+wand of wonder|10000
+warstar of the manticore|15000
+wind fan|2500
+winged boots|20000
+wings of flying|7500
+dagger (mithral)|300
+dagger +2 (Vampire Slayer)|10000
+dagger +3 of blades|20000
+dagger (silver)|9
+dart of chaos|1000
+dart, death|20000
+earring of detect noise|1000
+mace, footman's +1 death kiss|15000
+mace, footman's +1 energy drain|10000
+scepter, crystal|500
+spear (cold forged iron)|2
+stone, glass|0.1
+stoneskin broach|1000
+sword, anything +5 of sharpness|135000
+sword, long +3 (intelligent)|60000
+ring of protection +1|5000
+ring of protection +2|15000
+ring of protection +3|20000
+ring of protection +4|25000
+ring of protection +4 (+2 sts)|24000
+ring of protection +5|30000

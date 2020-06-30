@@ -1,0 +1,195 @@
+Elixer of Additional Weaponry|1|5000|p
+Elixer of all Purpose Healing|1|2000|p
+Distillate of Wolfsbane|1|1600|p
+Elixer of Heroic Action|1|800|p
+Elixer of Life|1|2500|p
+Nodozze|1|400|p
+Elixer of Obscurement|1|700|p
+Elixer of Reduction|1|250|p
+Elixer of Youth|1|1000|p
+Zorbo's Fingers (Elixer)|1|800|p
+Allspice (Oil)|1|750|p
+Oil of Anger|1|900|p
+Oil of Aries|2|750|p
+Oil of Armor II|1|1800|p
+Oil of Bug Repellance|1|550|p
+Oil of Bouyancy|1|700|p
+Carnation (Oil)|1|450|p
+Citronella (Oil)|1|625|p
+Oil of Cloaking|1|2250|p
+Oil of Confusion|2|2700|p
+Oil of Conquering Glory|1|1500|p
+Crab Apple (Oil)|1|300|p
+Oil of Etherealness|1|1200|p
+Oil of Eve|1|900|p
+Oil of Hair Replacement|1|450|p
+Hypnotic Oil|1|900|p
+Invisibility Oil|1|1200|p
+Jasper's Oil of Permanent Etherealness|1|600|p
+Jo's Liguid Road (Oil)|1|3000|p
+Oil of Luminescence|1|600|p
+Mojo|1|500|p
+Oil of Power|1|2250|p
+Oil of Stillness|1|1800|p
+Oil of Sulfur|1|350|p
+Oil of Voodoo|1|600|p
+Witch's Oil|1|1800|p
+Ointment of Blessing|1|300|p
+Ointment of Far Seeing (Golden)|1|5000|p
+Ointment of Recovery|1|650|p
+Aleese's Philter of Overwhelming Love|1|2000|p
+Philter of Drunkenness|1|150|p
+Durimal's Merry Blend (Philter)|1|3500|p
+Philter of Persuasiveness|1|850|p
+Pigment of Blackmoor (Blue)|1|2500|p|Comes in a Box of Holding
+Yellow Kohl (Pigment)|1|25000|p
+Potion of Ambrosia|1|300|p
+Amalgamous Type III (Potion)|1|1450|p
+Potion of Bubbles|1|250|p
+Potion of Childishness|1|400|p
+Potion of Curing Lycanthropy|1|2000|p
+Potion of Delusion|1|150|p
+Potion of Digging|1|1200|p
+Potion of Diminution|1|500|p
+Potion of Direction|1|800|p
+Potion of Brass Dragon Breath|1|1400|p
+Potion of Brown Dragon Breath|1|1400|p
+Potion of Crystal Dragon Breath|1|1400|p
+Potion of Gold Dragon Breath|1|1400|p
+Potion of Mist Dragon Breath|1|1400|p
+Dragon's Blood (Potion)|2|700|p
+Potion of Dreamspeech|1|1200|p
+Potion of Air Elemental Control|1|1800|p
+Potion of Extra-Healing|1|1000|p
+Potion of Genius|1|800|p
+Potion of Storm Giant Control II|1|1000|p
+Glitz & Klax's (Elixer)/Heroic Action|1|80|p|Only 1 round and 1d4 hp bonus
+Potion of Golden Silence|1|400|p
+Gray Slumber (Potion)|1|600|p
+Potion of Heroism|1|500|p
+Potion of Housecat Control|1|550|p
+Potion of Invisibility|1|500|p
+Potion of Iron Handedness|2|600|p
+Potion of Life Suspension|1|1200|p
+Mirage (Potion)|1|2500|p
+Odrovir (Potion)|1|1800|p
+Potion of Opposite Alignment|1|600|p
+Potion of Plant Control|1|300|p
+Potion of Wizard Power|1|1300|p
+Potion of Protection from Immiscibility|1|900|p
+Potion of Psionic Ability|2|2000|p
+Potion of Psionics Boosting (White)|1|300|p
+Potion of Recall|1|1300|p
+Potion of Restoration|1|2000|p
+Singing (Potion)|2|500|p
+Sleeping (Potion)|1|500|p
+Potion of Superheroism|1|750|p
+Potion of Undead Control/Ghosts|1|2500|p
+Potion of Visions|1|250|p
+Wallac's Potion of Speedcasting|1|900|p
+Potion of Water Breathing|1|900|p
+Potion of Wather Breathing III|1|900|p
+Zombie Blood (Potion)|1|1200|p
+Blessed Water|1|25|p
+Golden Water|1|5000|p|Only works twice per day and at a 50% chance.
+Paper of Forms|1|1000|s
+Paper of Writing|1|1500|s
+Parchment of Looping|3|3000|s
+Parchment of Monster Holding|2|1500|s
+Parchment of Selevtive Reading|1|6000|s
+Self-Protecting Parchment|2|6000|s|psionic dampener
+Pachment of Spell Stealing|1|5000|s
+Scroll of Animal Growth|2|6000|s
+Ballant's Scroll|1|25000|s
+Cursed, Priest Scroll of Mixed Spheres II|1|500|s|One magical item owned by the reader disappears.
+Cursed II, Scroll of Protection from Tanar'ri|1|500|s|The PC has earned the enmity of a powerful ruler of some town.
+Cursed II, Priest Scroll of Mixed Spheres II|1|500|s|The PC is smitten with the first individual of the same or related species and opposite sex that he or she sees.
+Cursed Scroll of Amber|1|750|s
+Domination Scroll|2|4500|s
+Scroll of Entrapment|4|5000|s
+Scroll of Erasing|2|9000|s
+Scroll of Five Priest Spells|1|2100|s
+Scroll of Five Wizard Spells|1|4500|s
+Scroll of Four Illusionist Spells|1|4000|s
+Scroll of Four Illusionist Spells|1|4000|s
+Scroll of Illumination|2|2500|s
+Scroll of Mapping II|1|6000|s
+Scroll of Portals|1|10000|s
+Scroll of Protection from Acid|3|7500|s
+Scroll of Protection from Cold|2|6000|s
+Scroll of Protection from Divination|1|6000|s
+Scroll of Protection from Dragon Breath|1|6000|s
+Scroll of Protection from Electricity|2|4500|s
+Scroll of Protection from Air Elementals|1|4500|s
+Scroll of Protection from Felines|2|2500|s
+Scroll of Protection from Dao|1|10000|s
+Scroll of Protection from Heat|1|5000|s
+Scroll of Protection from Illusions|1|4500|s
+Scroll of Protection from All Lycenthropes|1|3000|s
+Scroll of Protection from All Lycenthropes|1|3000|s
+Scroll of Protection from Magic|1|6500|s
+Scroll of Magical Weapon Protection|3|3000|s
+Scroll of Protection from Plants|2|3000|s
+Scroll of Protection from Possesion|1|4500|s
+Scroll of Protection from Shapechangers|2|7500|s
+Scroll of Protection from Spirits|1|6000|s
+Scroll of Protection from Mechanical Traps|1|6000|s
+Scroll of Protection from Magical Traps|1|6000|s
+Scroll of Protection from Ghosts|1|4500|s
+Scroll of Protection from Spectres|1|4500|s
+Scroll of Protection from Water|1|4500|s
+Scroll of Questioning|2|6000|s
+Scroll of Repetition|2|3000|s
+Scroll of Return|2|6000|s
+Rhialle's Scroll|2|6000|s
+Scroll of Seeing|1|5000|s
+Scroll of Seven Druid Spells|1|7500|s
+Scroll of Seven Wizard Spells|1|12000|s
+Scroll of Shelter|1|4500|s
+Scroll of Six Priest Spells|1|6500|s
+Scroll of Six Priest Spells|1|6500|s
+Scroll of Six Wizard Spells II|1|8000|s
+Scroll of Spell Catching, 1st- or 2nd-level spells|1|10000|s
+Scroll of Spell Catching, 1st- to 4th-level spells|1|20000|s
+Scroll of the Stellar Path|1|7500|s
+Scroll of the Stellar Path|1|7500|s
+Suggestion Scroll|3|1000|s
+Tattoo Scroll|2|30000|s
+Scroll of Wizards|1|2000|s
+Scroll-Wizard-Color|1|1500|s
+Scroll-Wizard-Illusion|1|11100|s
+Scroll-Wizard-Invisibility|1|5400|s
+Scroll-Wizard-Magic Items|1|4500|s
+Scroll-Wizard-Path-Coucilor's Road|1|4500|s
+Scroll-Wizard-Path-Misty Road|1|10800|s
+Scroll-Wizard-Path-Terror|1|6000|s
+Scroll-Wizard-Prismatic|1|15300|s
+Scroll-Wizard-Useful Cantrips|1|3000|s
+Amulet of Magic Resistance 15%|1|7000|m
+Anchor of Weight|1|8000|m
+Batting Cage|1|1500|m
+Boots of Tracks|1|7500|m
+Bottle of Preservation|1|2000|m
+Bowling Ball|1|9000|m
+Bullion Cube|1|4000|m
+Cane of Armament|1|10000|m
+Circlet of Underwater Speech|1|9000|m
+Cloak of Comfort|1|7500|m
+Dagger +3|1|15000|m
+Handkerchief of Flirting|1|2000|m
+Harp of Healing|1|20000|m
+Hoop of the Roller Hoopers|1|30000|m
+Ice Cubes|1|700|m
+Lamp of Multichromaticism|1|1000|m
+Mystic Wand|1|6000|m
+Obediant Hourglass|1|7500|m
+Portable Hole|1|50000|m
+Returning Penny|1|250|m
+Ring of Holiness|1|10000|m
+Ring of Spell "Turning"|1|2000|m
+Rod of Smiting II|1|15000|m
+Rug of Welcome|1|45000|m
+Shield +1|1|5000|m
+Shield +4|1|20000|m
+Sword, Long +3|1|10000|m
+Tome of Gainful Exercise|1|50000|m

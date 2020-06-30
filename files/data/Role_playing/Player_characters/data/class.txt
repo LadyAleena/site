@@ -1,0 +1,58 @@
+Awnday Ar'iemay|thief;mage|250000|2|60
+Amelda Bacoulan|psionisist|8800|1|20
+Sarria Bagada|specialty priest|4555|1|30
+Lysiandra Bo'javarian|specialty priest;mage|275|2|8
+Verago Brystar|specialty priest;mage|94150|2|58
+Presolia Copturan|arcanist|40000|1|36
+Rojeana Decant|wild mage|233183|1|32
+Ryceva Derman|mage;specialty priest|23428|1|42
+Myleara Disstar|fighter;mage|41027|2|37
+Oalirya Disstar|fighter;specialty priest|46161|2|47
+Visilma Do'ranicy|thief;mage|5400|2|13
+Lourijul Edyara|psionisist|28132|1|40
+Faerinna Escar|thief;mage|5000|2|25
+Matea Fi'nashari|fighter;thief;mage|2500|3|14
+Tymara Fi'ranicy|fighter;thief;psionisist;mage;specialty priest|5792|1|58
+Janily Flassur|hydromancer|1200|1|6
+Olacadas Flyglee|mage|45755|1|27
+Nemidia Ge'mardian|ranger;cleric|3150|2|18
+Tandria Goldmoon|specialty priest;invoker|39910|2|66
+Rechrapee Hardimod|witch doctor|0|1|13
+Xyrena Hewlett-Packard-Bell|fighter;thief|83713|2|78
+Ulari Ilan|mage|175858|1|28
+Summerica Jammic|fighter|0|1|14
+Rajnilia Al-Afyali bint Jazar|askara;sha'ira|49525|2|87
+Balnari Ka'natrian|fighter;mage|7250|2|18
+Niona Kilson|specialty priest|1820|1|8
+Myra Kyllia|fighter;thief;mage|94937|3|78
+Risa Kyllia|thief|2500|1|24
+Sorack Linsandin'viniar|fighter;mage|0|2|9
+Zamia Lo'rena|mage|14125|1|24
+Desolenna Marder'bastiar|mage|0|1|5
+Driastan Marder'bastiar|specialty priest|0|1|9
+Nwadira Mazan|wild mage|80725|1|41
+Lestra Newmoon|specialty priest;necromancer|52372|2|38
+Carri Notha|fighter;thief;mage|13265|3|34
+Alexana Olara|fighter;thief;psionisist;mage|6089625|1|189
+Eileen Olara|fighter;thief;psionisist;specialty priest|6089625|1|197
+Ducismetapopolis OreGrinder|geomancer|155283|1|37
+Lamaria Peacyle|cleric|62507|1|47
+Yenedra Peacyle|thief|20000|1|29
+Bryzarlyn Qi'lanari|fighter;thief;mage|419969|3|83
+Tanyani Qi'mardian|thief;mage|232181|2|60
+Ejenna Quara|necromancer|2875|1|11
+Patrina Meysa Rast|mage|16288|1|22
+Artis Sadir|bard;mage|37228|2|19
+Hylene Serill|specialty priest|1302000|1|62
+Calsanna Sorlastryl|thief;mage|24898|2|29
+Ducolin StoneGrip|specialty priest|201500|1|61
+Drianna StrongOak-Guard|mage|11737872|1|110
+Amori Tamdenar|thief;mage|7024|2|17
+Wijora Urlubint|chaos warden|6700|1|30
+Aegyn Valchae|thief;mage|555382|2|64
+Handira Warnir|specialty priest;fighter|11442|2|26
+Elora Windblown|aeromancer|134734|1|29
+Inary Xeru|specialty priest;aeromancer|104593|2|79
+Eshandra Yanraya|specialty priest;enchanter|48672|2|41
+Aztema Zavgar|mage|18501|1|20
+Kymaria Zendelic'tronyara|fighter;thief;mage|0|3|11

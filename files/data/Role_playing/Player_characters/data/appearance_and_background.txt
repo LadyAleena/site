@@ -1,0 +1,58 @@
+Awnday Ar'iemay||female|black|lavender|5'6"|110|Dalelands||Ar|Azuthan|alive|Bob
+Amelda Bacoulan||female|brown|brown|5'7"|120|Faerûn|||Chauntean|alive|Bob
+Sarria Bagada|Holy Champion (priestess of Torm)|female|blonde|green|5'8"|133|Krynn|||Tormish|alive|Bob
+Lysiandra Bo'javarian||female|dark blonde|dark blue|5'6"|125|Dalelands||Bo|Tempuran|alive|Bob
+Verago Brystar|Dweomerkeeper (priestess of Mystra)|female|blonde|grey|5'5"|120|High Forrest|Bright Star|Bright Star|Mystran|alive|Bob
+Presolia Copturan|Arcanist|female|dark blonde|grey|5'8"|130|Bral||||alive|Bob
+Rojeana Decant|Wild Mage|female|white blonde|blue/pearls|5'9"|145|Dalelands|||Mystran|alive|Bob
+Ryceva Derman|Chosen of Azuth|female|black|gey|5'8"|160|Faerûn|||Azuthan|alive|Bob
+Myleara Disstar||female|blonde|light blue|5'5"|112|High Forest|Bright Star|Distant Star|Tyrran|alive|Bob
+Oalirya Disstar|Holy Justice (priestess of Tyr)|female|blonde|hazel|5'5"|125|High Forest|Bright Star|Distant Star|Tyrran|alive|Bob
+Visilma Do'ranicy||female|white blonde|aqua|5'4"|125|Dalelands|By'nidiar|Do|Azuthan|alive|Bob
+Lourijul Edyara|Mother of Two Gods|female|golden blonde|blue|5'8"|145|Soria||||alive|Ryan
+Faerinna Escar||female|black|dark brown|5'2"|120|High Forrest|North Star|East Star|Tempuran|alive|Bob
+Matea Fi'nashari||female|dark brwon|green|5'6"|128|Dalelands|By'nidiar|Fi|Azuthan|alive|Bob
+Tymara Fi'ranicy|Luckbringer (priestess of Tymora)|female|blonde|blue|5'7"|130|Dalelands|By'nidiar|Fi|Tymoran|alive|Bob
+Janily Flassur|Sorceress by the Sea|female|red blonde|green|5'5"|90|Procampur|||Istishian|alive|Bob
+Olacadas Flyglee||female|orange-yellow|black|1'1"|15|Faerûn||||dead|Jeff
+Nemidia Ge'mardian|Cleric of Mielikki|female|brown|green|5'5"|105|Dalelands|By'nidiar|Ge|Mielikkian|alive|Bob
+Tandria Goldmoon|Battleguard (priestess of Tempus)/Invoker|female|light blonde|light blue|5'8"|150|Battledale|Moon|Gold|Tempuran|alive|Bob
+Rechrapee Hardimod|Witch Doctor|female|black|dark brown|8'10"|803|||Outcast||alive|Bob
+Xyrena Hewlett-Packard-Bell||female|dark blonde|hazel|5'8"|145|Olakeen|||Waukenar|alive|Bob
+Ulari Ilan||female|black|blue|5'4"|95|Faerûn|||Corellite|alive|Jeff
+Summerica Jammic||female|dark blonde|green|5'7"|130|||||never played|Bob
+Rajnilia Al-Afyali bint Jazar|Askara Sha'ira|female|black|dark brown|5'6"|125|Afyal|||The Thousand|alive|Bob
+Balnari Ka'natrian||female|black|green|5'6"|125|Dalelands|By'nidiar|Ka|Azuthan|alive|Bob
+Niona Kilson|Luckbringer (priestess of Tymora)|female|black|brown|5'6"|100|Suzali|||Tymorian|alive|Bob
+Myra Kyllia||female|black|blue-grey|5'4"|115||||Velsharan|alive|Bob
+Risa Kyllia||female|blonde|blue|3'4"|75|Tilverton||||alive|Bob
+Sorack Linsandin'viniar||male|light brown|green|5'11"|200|Tantras|By'nidiar|Linsandin|Red Knight|never played|Bob
+Zamia Lo'rena||female|blonde|brown|5'6"|120|Dalelands|By'nidiar|Lo|Azuthan|dead|Bob
+Desolenna Marder'bastiar||female|dark blond|blue|5'8"|120|Tantras|By'nidiar|Marder|Oghmanyte|never played|Bob
+Driastan Marder'bastiar|Lorekeeper (priest of Oghma)|male|light brown|brown|5'10"|190|Tantras|By'nidiar|Marder|Oghmanyte|never played|Bob
+Nwadira Mazan|Wild Mage|female|metallic|oil|5'7"|130|Limbo||||alive|Bob
+Lestra Newmoon|Doomguide (priestess of Kelemvor)/Necromancer|female|black|grey|5'7"|115|Thay|Moon||Kelemvorite|alive|Bob
+Carri Notha||female|medium blonde|grey|5'6"|120|Faerûn|||Hoarite|alive|Bob
+Alexana Olara|Arch-Sorceress|female|blonde|blue|5'6"|110|Olakeen||Olar|Waukeenar|alive|Bob
+Eileen Olara|Holycoin (priestess of Waukeen)|female|blonde|blue|5'6"|110|Olakeen||Olar|Waukeenar|alive|Bob
+Ducismetapopolis OreGrinder|Earth Elementalist|male|bald|red|3'6"|95|Faerûn|||Lathanderian|dead|Jeff
+Lamaria Peacyle|Cleric of Silvanus|female|black|grey|5'7"|130|The Vast|||Silvanite|alive|Bob
+Yenedra Peacyle||female|brown|green|5'|110|The Vast|||Silvanite|alive|Bob
+Bryzarlyn Qi'lanari|Lay Minister of Azuth|female|blonde|blue|5'7"|120|Dalelands|By'nidiar|Qi|Azuthan|alive|Bob
+Tanyani Qi'mardian||female|auburn|blue-green|5'6"|115|Dalelands|By'nidiar|Qi|Azuthan|alive|Bob
+Ejenna Quara|Necromancer|female|black|brown|5'7"|135|||||alive|Bob
+Patrina Meysa Rast||female|red|green|5'8"|178|Faerûn|||Shaundakun|alive|Bob
+Artis Sadir||male|blond|green|5'5"|162|Faerûn|||Lathanderian|dead|Jeff
+Hylene Serill|Dweomerkeeper (priestess of Mystra)|female|blonde|green|5'8"|150|Saerloon|||Mystran|alive|Bob
+Calsanna Sorlastryl||female|brown|dark brown|5'6"|125|Olakeen|||Waukeenar|dead|Bob
+Ducolin StoneGrip|Watcher (priest of Helm)|male|brown|brown|3'8"|100|Faerûn|||Helmite|alive|Bob
+Drianna StrongOak-Guard|Sorceress of Willowdale|female|dark blonde|green|5'9"|154|Willowdale|StrongOak||Mystra|alive|Bob
+Amori Tamdenar|Orc Slave/Slayer|female|brown|green|5'6"|105|Trollmoors|StoneTree||Ilmatari|dead|Bob
+Wijora Urlubint||female|brown|brown|5'7"|135|||||alive|Bob
+Aegyn Valchae|Baroness of Valachan|female|blonde|blue|5'8"|145|Valachan|||Lathanderian|alive|Bob
+Handira Warnir|Watcher (priestess of Helm)|female|brown|brown|5'6"|110|Sembia|||Helmite|alive|Bob
+Elora Windblown|Aeromancer|female|white with blue-purple highlights|pale blue|5'|75|||||dead|Jeff
+Inary Xeru|Scrivener (priestess of Thoth)/Aeromancer|female|black|brown|5'7"|125|Mulhorand|||Thothian|dead|Bob
+Eshandra Yanraya|Sensate (priestess of Sharess)/Enchanter|female|black|green|5'6"|120|Faerûn|||Sharessen|alive|Jeff
+Aztema Zavgar||female|brown|blue|5'6"|110|Faerûn|||Mystran|alive|Bob
+Kymaria Zendelic'tronyara|Merchant Princess of Tantras|female|blonde|blue|5'6"|110|Tantrus|By'nidiar|Zendelic|Waukeenar|never played|Bob

@@ -1,0 +1,5 @@
+Horse, Light War|7|19|1d4/1d4
+Horse, Draft|7|19|1d3
+Horse, medium War|7|19|1d6/1d6
+Tiger|6|3|1d4+1/1d4+1/1d10
+Dragonette|2

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../../css/family_tree.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 440 296"
+  width="440"
+  height="296"
+>
+  <title id="svg_title">The Saroyan-Vaziri family from Bones</title>
+  <metadata id="Family_metadata">
+    <rdf:RDF>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Saroyan-Vaziri family from Bones</dc:title>
+        <dc:creator>
+          <cc:agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="mds1" style="stop-color:#ccccff;stop-opacity:0.85;" offset="75%" />
+      <stop id="mds2" style="stop-color:#eeeeff;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="fds1" style="stop-color:#ffcccc;stop-opacity:0.85;" offset="75%" />
+      <stop id="fds2" style="stop-color:#ffeeee;stop-opacity:0.85;" offset="100%"  />
+    </radialGradient>
+  </defs>
+  <!--
+    Generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+  -->
+  <g class="graph" id="Bones" transform="translate(5, 291)">
+    <title>The Saroyan-Vaziri family from Bones</title>
+    <text class="chart_title" x="220" y="-279">The Saroyan-Vaziri family from <tspan style="font-style:italic">Bones</tspan></text>
+    <g class="child descendant" id="Beaufort-family" transform="translate(124, -228)">
+      <title>Children of Hany Beaufort</title>
+      <path d="m 0,0  v  20" id="uHanyBeaufort-cHanyBeaufort" />
+      <path d="m 0,20 h -92 v 80" id="cHanyBeaufort-FeliciaSaroyan" />
+      <path d="m 0,20 h  92 v 80" id="cHanyBeaufort-CamilleSaroyan" />
+      <circle cx="0" cy="20" id="cHanyBeaufort" r="1.5" />
+    </g>
+    <g class="child" id="Saroyan-family" transform="translate(124, -152)">
+      <title>Children of Barbara</title>
+      <path d="m 0,0  v  20" id="uBarbara-cBarbara" />
+      <path d="m 0,20 h -92 v 20" id="cBarbara-FeliciaSaroyan" />
+      <path d="m 0,20 h  92 v 20" id="cBarbara-CamilleSaroyan" />
+      <circle cx="0" cy="20" id="cBarbara" r="1.5" />
+    </g>
+    <g class="marriage" id="Vaziri-family" transform="translate(357, -170)">
+      <title>Marriage of Azita and Hrmin Vaziri</title>
+      <path d="m 0,0 h -19" id="mAziHrm-HrminVaziri" />
+      <path d="m 0,0 h  19" id="mAziHrm-Azita" />
+      <g class="child" id="Vaziri-children">
+        <title>Children of Azita and Hrmin Vaziri</title>
+        <path d="m 0,0  v  38" id="mAziHrm-cAziHrm" />
+        <path d="m 0,38 h -40 v 20" id="cAziHrm-ArastooVaziri" />
+        <path d="m 0,38 h 40 v 20" id="cAziHrm-HamidVaziri" />
+        <circle cx="0" cy="38" id="cAziHrm" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mAziHrm" r="1.5" />
+    </g>
+    <g class="child" id="Welton-family" transform="translate(116, -76)">
+      <title>Michelle Welton, child of Andrew Welton</title>
+      <path d="m 0,0 v  58" id="uAndrewWelton-MichelleWelton" />
+    </g>
+    <g class="dating" id="SaroyanWelton-relationship" transform="translate(165, -94)">
+      <title>Dating of Camille Saroyan and Andrew Welton</title>
+      <path d="m 0,0 h -19" id="dCamAnd-CamilleSaroyan" />
+      <path d="m 0,0 h  19" id="dCamAnd-AndrewWelton" />
+      <circle cx="0" cy="0" id="dCamAnd" r="1.5" />
+    </g>
+    <g class="marriage" id="SaroyanVaziri-family" transform="translate(267, -94)">
+      <title>Marriage of Camille Saroyan and Arastoo Vaziri</title>
+      <path d="m 0,0 h -19" id="mCamAra-CamilleSaroyan" />
+      <path d="m 0,0 h  19" id="mCamAra-ArastooVaziri" />
+      <g class="child adopted" id="VaziriSaroyan-children">
+        <title>Children of Camille Saroyan and Arastoo Vaziri</title>
+        <path d="m 0,0  v  38" id="mCamAra-cCamAra" />
+        <path d="m 0,38 h -121 l -31,20" id="cCamAra-MichelleWelton" />
+        <path d="m 0,38 h  -74 v 20" id="cCamAra-Tyler" />
+        <path d="m 0,38 h    0 v 20" id="cCamAra-Isaiah" />
+        <path d="m 0,38 h   74 v 20" id="cCamAra-Jordan" />
+        <circle cx="0" cy="38" id="cCamAra" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mCamAra" r="1.5" />
+    </g>
+
+    <g class="female deceased" id="HanyBeaufort" transform="translate(93, -264)">
+      <title>Hany Beaufort</title>
+      <rect height="36" width="66" x="0" y="0" />
+      <text class="" x="33" y="12">Hany</text>
+      <text class="" x="33" y="24">Beaufort</text>
+    </g>
+    <g class="female" id="BarbaraBabs" transform="translate(93, -188)">
+      <title>Barbara (Babs)</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text class="" x="31" y="12">Barbara</text>
+      <text class="nickname" x="31" y="24">(Babs)</text>
+    </g>
+    <g class="male" id="HrminVaziri" transform="translate(284, -188)">
+      <title>Hrmin Vaziri</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="12">Hrmin</text>
+      <text class="" x="27" y="24">Vaziri</text>
+    </g>
+    <g class="female" id="Azita" transform="translate(376, -188)">
+      <title>Azita</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="18">Azita</text>
+    </g>
+    <g class="female" id="FeliciaSaroyan" transform="translate(0, -112)">
+      <title>Felicia Saroyan</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text class="" x="32" y="12">Felicia</text>
+      <text class="" x="32" y="24">Saroyan</text>
+    </g>
+    <g class="male deceased" id="AndrewWelton" transform="translate(84, -112)">
+      <title>Andrew Welton</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text class="" x="31" y="12">Andrew</text>
+      <text class="" x="31" y="24">Welton</text>
+    </g>
+    <g class="female" id="CamilleSaroyan" transform="translate(184, -112)">
+      <title>Camille Saroyan</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text class="" x="32" y="12">Camille</text>
+      <text class="" x="32" y="24">Saroyan</text>
+    </g>
+    <g class="male" id="ArastooVaziri" transform="translate(286, -112)">
+      <title>Arastoo Vaziri</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text class="" x="31" y="12">Arastoo</text>
+      <text class="" x="31" y="24">Vaziri</text>
+    </g>
+    <g class="male" id="HamidVaziri" transform="translate(370, -112)">
+      <title>Hamid Vaziri</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="12">Hamid</text>
+      <text class="" x="27" y="24">Vaziri</text>
+    </g>
+    <g class="female" id="MichelleWelton" transform="translate(84, -36)">
+      <title>Michelle Welton</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text class="" x="31" y="12">Michelle</text>
+      <text class="" x="31" y="24">Welton</text>
+    </g>
+    <g class="male" id="Tyler" transform="translate(166, -36)">
+      <title>Tyler</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="18">Tyler</text>
+    </g>
+    <g class="male" id="Isaiah" transform="translate(240, -36)">
+      <title>Isaiah</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="18">Isaiah</text>
+    </g>
+    <g class="male" id="Jordan" transform="translate(314, -36)">
+      <title>Jordan</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text class="" x="27" y="18">Jordan</text>
+    </g>
+  </g>
+</svg>

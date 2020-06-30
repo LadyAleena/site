@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 824 824"
+  width="824px"
+  height="824px"
+>
+  <title>Tracking chart for Expanded Alignments</title>
+  <metadata id="Alignment_chart_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Tracking chart for Expanded Alignments</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2020-03</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:description>
+          The chart for Expanded Alignments was created by Dawn M. Burge.
+        </dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    rect         { fill: #ffffffee; stroke: #027; stroke-width: 1px; stroke-linejoin: round; }
+    rect.core    { stroke-width: 3px; fill: #ffd; stroke-dasharray: none }
+    rect.divider { fill: #eed; }
+    text         { font-family: arial,sans-serif; font-size: 14px; fill: #000000; text-anchor: middle; dominant-baseline: middle; text-align: center; }
+  </style>
+  <g transform="translate(5, 5)">
+    <g transform="translate(0, 0)">
+      <title>true lawful and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+L+G</text>
+    </g>
+    <g transform="translate(0, 74)">
+      <title>true lawful and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LG</text>
+    </g>
+    <g transform="translate(0, 148)">
+      <title>true lawful and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LG(N)</text>
+    </g>
+    <g transform="translate(0, 222)">
+      <title>true lawful and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+L-E</text>
+    </g>
+    <g transform="translate(0, 296)">
+      <title>true lawful and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LN(G)</text>
+    </g>
+    <g transform="translate(0, 370)">
+      <title>true lawful and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LN</text>
+    </g>
+    <g transform="translate(0, 444)">
+      <title>true lawful and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LN(E)</text>
+    </g>
+    <g transform="translate(0, 518)">
+      <title>true lawful and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+L-G</text>
+    </g>
+    <g transform="translate(0, 592)">
+      <title>true lawful and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LE(N)</text>
+    </g>
+    <g transform="translate(0, 666)">
+      <title>true lawful and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+LE</text>
+    </g>
+    <g transform="translate(0, 740)">
+      <title>true lawful and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+L+E</text>
+    </g>
+    <g transform="translate(74, 0)">
+      <title>lawful and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L+G</text>
+    </g>
+    <g transform="translate(74, 74)">
+      <title>lawful good</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LG</text>
+    </g>
+    <g transform="translate(74, 148)">
+      <title>lawful and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LG(N)</text>
+    </g>
+    <g transform="translate(74, 222)">
+      <title>lawful and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L-E</text>
+    </g>
+    <g transform="translate(74, 296)">
+      <title>lawful and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LN(G)</text>
+    </g>
+    <g transform="translate(74, 370)">
+      <title>lawful neutral</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LN</text>
+    </g>
+    <g transform="translate(74, 444)">
+      <title>lawful and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LN(E)</text>
+    </g>
+    <g transform="translate(74, 518)">
+      <title>lawful and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L-G</text>
+    </g>
+    <g transform="translate(74, 592)">
+      <title>lawful and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LE(N)</text>
+    </g>
+    <g transform="translate(74, 666)">
+      <title>lawful evil</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">LE</text>
+    </g>
+    <g transform="translate(74, 740)">
+      <title>lawful and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L+E</text>
+    </g>
+    <g transform="translate(148, 0)">
+      <title>lawful with neutral tendencies and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)+G</text>
+    </g>
+    <g transform="translate(148, 74)">
+      <title>lawful with neutral tendencies and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)G</text>
+    </g>
+    <g transform="translate(148, 148)">
+      <title>lawful with neutral tendencies and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)G(N)</text>
+    </g>
+    <g transform="translate(148, 222)">
+      <title>lawful with neutral tendencies and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)-E</text>
+    </g>
+    <g transform="translate(148, 296)">
+      <title>lawful with neutral tendencies and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)N(G)</text>
+    </g>
+    <g transform="translate(148, 370)">
+      <title>lawful with neutral tendencies and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)N</text>
+    </g>
+    <g transform="translate(148, 444)">
+      <title>lawful with neutral tendencies and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)N(E)</text>
+    </g>
+    <g transform="translate(148, 518)">
+      <title>lawful with neutral tendencies and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)-G</text>
+    </g>
+    <g transform="translate(148, 592)">
+      <title>lawful with neutral tendencies and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)E(N)</text>
+    </g>
+    <g transform="translate(148, 666)">
+      <title>lawful with neutral tendencies and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)E</text>
+    </g>
+    <g transform="translate(148, 740)">
+      <title>lawful with neutral tendencies and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">L(N)+E</text>
+    </g>
+    <g transform="translate(222, 0)">
+      <title>non-chaotic and true good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-C+G</text>
+    </g>
+    <g transform="translate(222, 74)">
+      <title>non-chaotic and good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CG</text>
+    </g>
+    <g transform="translate(222, 148)">
+      <title>non-chaotic and good with neutral tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CG(N)</text>
+    </g>
+    <g transform="translate(222, 222)">
+      <title>non-chaotic and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-C-E</text>
+    </g>
+    <g transform="translate(222, 296)">
+      <title>non-chaotic and neutral with good tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CN(G)</text>
+    </g>
+    <g transform="translate(222, 370)">
+      <title>non-chaotic and neutral</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CN</text>
+    </g>
+    <g transform="translate(222, 444)">
+      <title>non-chaotic and neutral with evil tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CN(E)</text>
+    </g>
+    <g transform="translate(222, 518)">
+      <title>non-chaotic and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-C-G</text>
+    </g>
+    <g transform="translate(222, 592)">
+      <title>non-chaotic and evil with neutral tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CE(N)</text>
+    </g>
+    <g transform="translate(222, 666)">
+      <title>non-chaotic and evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-CE</text>
+    </g>
+    <g transform="translate(222, 740)">
+      <title>non-chaotic and true evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-C+E</text>
+    </g>
+    <g transform="translate(296, 0)">
+      <title>neutral with lawful tendencies and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)+G</text>
+    </g>
+    <g transform="translate(296, 74)">
+      <title>neutral with lawful tendencies and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)G</text>
+    </g>
+    <g transform="translate(296, 148)">
+      <title>neutral with lawful tendencies and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)G(N)</text>
+    </g>
+    <g transform="translate(296, 222)">
+      <title>neutral with lawful tendencies and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)-E</text>
+    </g>
+    <g transform="translate(296, 296)">
+      <title>neutral with lawful tendencies and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)N(G)</text>
+    </g>
+    <g transform="translate(296, 370)">
+      <title>neutral with lawful tendencies and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)N</text>
+    </g>
+    <g transform="translate(296, 444)">
+      <title>neutral with lawful tendencies and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)N(E)</text>
+    </g>
+    <g transform="translate(296, 518)">
+      <title>neutral with lawful tendencies and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)-G</text>
+    </g>
+    <g transform="translate(296, 592)">
+      <title>neutral with lawful tendencies and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)E(N)</text>
+    </g>
+    <g transform="translate(296, 666)">
+      <title>neutral with lawful tendencies and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)E</text>
+    </g>
+    <g transform="translate(296, 740)">
+      <title>neutral with lawful tendencies and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(L)+E</text>
+    </g>
+    <g transform="translate(370, 0)">
+      <title>neutral and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N+G</text>
+    </g>
+    <g transform="translate(370, 74)">
+      <title>neutral good</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NG</text>
+    </g>
+    <g transform="translate(370, 148)">
+      <title>neutral and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NG(N)</text>
+    </g>
+    <g transform="translate(370, 222)">
+      <title>neutral and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N-E</text>
+    </g>
+    <g transform="translate(370, 296)">
+      <title>neutral and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NN(G)</text>
+    </g>
+    <g transform="translate(370, 370)">
+      <title>true neutral</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+N</text>
+    </g>
+    <g transform="translate(370, 444)">
+      <title>neutral and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NN(E)</text>
+    </g>
+    <g transform="translate(370, 518)">
+      <title>neutral and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N-G</text>
+    </g>
+    <g transform="translate(370, 592)">
+      <title>neutral and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NE(N)</text>
+    </g>
+    <g transform="translate(370, 666)">
+      <title>neutral evil</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">NE</text>
+    </g>
+    <g transform="translate(370, 740)">
+      <title>neutral and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N+E</text>
+    </g>
+    <g transform="translate(444, 0)">
+      <title>neutral with chaotic tendencies and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)+G</text>
+    </g>
+    <g transform="translate(444, 74)">
+      <title>neutral with chaotic tendencies and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)G</text>
+    </g>
+    <g transform="translate(444, 148)">
+      <title>neutral with chaotic tendencies and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)G(N)</text>
+    </g>
+    <g transform="translate(444, 222)">
+      <title>neutral with chaotic tendencies and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)-E</text>
+    </g>
+    <g transform="translate(444, 296)">
+      <title>neutral with chaotic tendencies and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)N(G)</text>
+    </g>
+    <g transform="translate(444, 370)">
+      <title>neutral with chaotic tendencies and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)N</text>
+    </g>
+    <g transform="translate(444, 444)">
+      <title>neutral with chaotic tendencies and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)N(E)</text>
+    </g>
+    <g transform="translate(444, 518)">
+      <title>neutral with chaotic tendencies and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)-G</text>
+    </g>
+    <g transform="translate(444, 592)">
+      <title>neutral with chaotic tendencies and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)E(N)</text>
+    </g>
+    <g transform="translate(444, 666)">
+      <title>neutral with chaotic tendencies and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)E</text>
+    </g>
+    <g transform="translate(444, 740)">
+      <title>neutral with chaotic tendencies and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">N(C)+E</text>
+    </g>
+    <g transform="translate(518, 0)">
+      <title>non-lawful and true good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-L+G</text>
+    </g>
+    <g transform="translate(518, 74)">
+      <title>non-lawful and good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LG</text>
+    </g>
+    <g transform="translate(518, 148)">
+      <title>non-lawful and good with neutral tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LG(N)</text>
+    </g>
+    <g transform="translate(518, 222)">
+      <title>non-lawful and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-L-E</text>
+    </g>
+    <g transform="translate(518, 296)">
+      <title>non-lawful and neutral with good tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LN(G)</text>
+    </g>
+    <g transform="translate(518, 370)">
+      <title>non-lawful and neutral</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LN</text>
+    </g>
+    <g transform="translate(518, 444)">
+      <title>non-lawful and neutral with evil tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LN(E)</text>
+    </g>
+    <g transform="translate(518, 518)">
+      <title>non-lawful and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-L-G</text>
+    </g>
+    <g transform="translate(518, 592)">
+      <title>non-lawful and evil with neutral tendencies</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LE(N)</text>
+    </g>
+    <g transform="translate(518, 666)">
+      <title>non-lawful and evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-LE</text>
+    </g>
+    <g transform="translate(518, 740)">
+      <title>non-lawful and true evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">-L+E</text>
+    </g>
+    <g transform="translate(592, 0)">
+      <title>chaotic with neutral tendencies and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)+G</text>
+    </g>
+    <g transform="translate(592, 74)">
+      <title>chaotic with neutral tendencies and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)G</text>
+    </g>
+    <g transform="translate(592, 148)">
+      <title>chaotic with neutral tendencies and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)G(N)</text>
+    </g>
+    <g transform="translate(592, 222)">
+      <title>chaotic with neutral tendencies and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)-E</text>
+    </g>
+    <g transform="translate(592, 296)">
+      <title>chaotic with neutral tendencies and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)N(G)</text>
+    </g>
+    <g transform="translate(592, 370)">
+      <title>chaotic with neutral tendencies and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)N</text>
+    </g>
+    <g transform="translate(592, 444)">
+      <title>chaotic with neutral tendencies and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)N(E)</text>
+    </g>
+    <g transform="translate(592, 518)">
+      <title>chaotic with neutral tendencies and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)-G</text>
+    </g>
+    <g transform="translate(592, 592)">
+      <title>chaotic with neutral tendencies and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)E(N)</text>
+    </g>
+    <g transform="translate(592, 666)">
+      <title>chaotic with neutral tendencies and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)E</text>
+    </g>
+    <g transform="translate(592, 740)">
+      <title>chaotic with neutral tendencies and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C(N)+E</text>
+    </g>
+    <g transform="translate(666, 0)">
+      <title>chaotic and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C+G</text>
+    </g>
+    <g transform="translate(666, 74)">
+      <title>chaotic good</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CG</text>
+    </g>
+    <g transform="translate(666, 148)">
+      <title>chaotic and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CG(N)</text>
+    </g>
+    <g transform="translate(666, 222)">
+      <title>chaotic and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C-E</text>
+    </g>
+    <g transform="translate(666, 296)">
+      <title>chaotic and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CN(G)</text>
+    </g>
+    <g transform="translate(666, 370)">
+      <title>chaotic neutral</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CN</text>
+    </g>
+    <g transform="translate(666, 444)">
+      <title>chaotic and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CN(E)</text>
+    </g>
+    <g transform="translate(666, 518)">
+      <title>chaotic and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C-G</text>
+    </g>
+    <g transform="translate(666, 592)">
+      <title>chaotic and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CE(N)</text>
+    </g>
+    <g transform="translate(666, 666)">
+      <title>chaotic evil</title>
+      <rect class="core" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">CE</text>
+    </g>
+    <g transform="translate(666, 740)">
+      <title>chaotic and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">C+E</text>
+    </g>
+    <g transform="translate(740, 0)">
+      <title>true chaotic and true good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+C+G</text>
+    </g>
+    <g transform="translate(740, 74)">
+      <title>true chaotic and good</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CG</text>
+    </g>
+    <g transform="translate(740, 148)">
+      <title>true chaotic and good with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CG(N)</text>
+    </g>
+    <g transform="translate(740, 222)">
+      <title>true chaotic and non-evil</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+C-E</text>
+    </g>
+    <g transform="translate(740, 296)">
+      <title>true chaotic and neutral with good tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CN(G)</text>
+    </g>
+    <g transform="translate(740, 370)">
+      <title>true chaotic and neutral</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CN</text>
+    </g>
+    <g transform="translate(740, 444)">
+      <title>true chaotic and neutral with evil tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CN(E)</text>
+    </g>
+    <g transform="translate(740, 518)">
+      <title>true chaotic and non-good</title>
+      <rect class="divider" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+C-G</text>
+    </g>
+    <g transform="translate(740, 592)">
+      <title>true chaotic and evil with neutral tendencies</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CE(N)</text>
+    </g>
+    <g transform="translate(740, 666)">
+      <title>true chaotic and evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+CE</text>
+    </g>
+    <g transform="translate(740, 740)">
+      <title>true chaotic and true evil</title>
+      <rect class="normal" height="74" width="74" x="0" y="0" />
+      <text x="37" y="37">+C+E</text>
+    </g>
+  </g>
+  <!--
+  Generated using the Perl SVG Module V2.84
+  by Ronan Oger
+  Info: http://www.roitsystems.com/
+  -->
+</svg>

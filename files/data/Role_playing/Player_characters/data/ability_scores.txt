@@ -1,0 +1,58 @@
+Awnday Ar'iemay|16/20/Girdle of Stone Giant Strength|18|15|19|16|17
+Amelda Bacoulan|16|17|18|15/18|16/18|14/16
+Sarria Bagada|11|11|16|15|16|14
+Lysiandra Bo'javarian|17|17|16|18|18|16
+Verago Brystar|14/22/Girdle of Fire Giant Strength|17|15|18|18|14
+Presolia Copturan|14/20/Girdle of Stone Giant Strength|17|18|18|11|15
+Rojeana Decant|15|16/18/Gauntlets of Dexterity|14|18|15|14
+Ryceva Derman|13|14|15|18|18|12
+Myleara Disstar|19|17|14|18|13|14
+Oalirya Disstar|19|16|11|14|18|12
+Visilma Do'ranicy|14|18|12|16|13|12
+Lourijul Edyara|16|16|18|17|18|15
+Faerinna Escar|17|19|16|18|17|15
+Matea Fi'nashari|17|19|14|18|13|14
+Tymara Fi'ranicy|21|22|25|25|25|20
+Janily Flassur|16|17|17|18|13|14
+Olacadas Flyglee|8|17|12|19|16|14
+Nemidia Ge'mardian|17|13|16|11|17|13
+Tandria Goldmoon|21|18|20|19|17|14
+Rechrapee Hardimod|15/10/ogre mage to kobold|9|11|17|15|14
+Xyrena Hewlett-Packard-Bell|17/25/Girdle of Titan Giant Strength|18|17|16|16|18
+Ulari Ilan|15|17|14/12|18|18|15
+Summerica Jammic|18(70)/24/bionics|15|18|15|14|15
+Rajnilia Al-Afyali bint Jazar|17/21/Girdle of Frost Giant Strength|16|15|18|10|13/14
+Balnari Ka'natrian|18(97)|16|11|18|8|12
+Niona Kilson|11|15|8|9|17|11
+Myra Kyllia|20/22|19/20/Eminent Vampire|18|19/20|13|18/19
+Risa Kyllia|15|17|17|16|12|14
+Sorack Linsandin'viniar|18(00)|16|17|18|15|15
+Zamia Lo'rena|15|17|17|18|14|15
+Desolenna Marder'bastiar|17|16|15|18|15|15
+Driastan Marder'bastiar|17|15|15|14|18|15
+Nwadira Mazan|12|17|16|18|16|15
+Lestra Newmoon|16/19/Girdle of Hill Giant Strength|16|15|18|17|16
+Carri Notha|16|16|13|16|12|13
+Alexana Olara|20/22/Girdle of Fire Giant Strength|20|20|21|20|20
+Eileen Olara|20/22/Girdle of Fire Giant Strength|20|20|21|20|20
+Ducismetapopolis OreGrinder|17|12|15|17|14|9
+Lamaria Peacyle|16|16|16|17|18|17
+Yenedra Peacyle|15|19|17|16|16|18
+Bryzarlyn Qi'lanari|21|21/22/Gauntlets of Dexterity|19|21|19|19
+Tanyani Qi'mardian|18(00)|20|16|20|15|14
+Ejenna Quara|15|18|15|18|16|15
+Patrina Meysa Rast|16|17|17|18/19|15|16
+Artis Sadir|11|17|12|16|11|18
+Hylene Serill|16/18(00)/Gauntlets of Ogre Power|15|6|10|15|14
+Calsanna Sorlastryl|18(00)|16|18|16|9|8
+Ducolin StoneGrip|14|6|9|9|16|7
+Drianna StrongOak-Guard|14/23/Girdle of Cloud Giant Strength|18|16/25|19|16|18
+Amori Tamdenar|11|18|16|18|15|11
+Wijora Urlubint|19|17/19/Human to Chaos Warden|16/18/Human to Chaos Warden|13/19/Human to Chaos Warden|13/17/Human to Chaos Warden|15/17/Human to Chaos Warden
+Aegyn Valchae|15/22/Girdle of Fire Giant Strength|19|17|18|16/17|15
+Handira Warnir|17|13|13|13|17|13
+Elora Windblown|8|18|11|17|13|17
+Inary Xeru|15|16|16|18|18|15
+Eshandra Yanraya|16|18|16|18|18|19
+Aztema Zavgar|15|16|17|17|15|15
+Kymaria Zendelic'tronyara|18(93)|18|17|18|14|15

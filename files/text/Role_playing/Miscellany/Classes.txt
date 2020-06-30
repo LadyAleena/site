@@ -1,0 +1,26 @@
+These B<classes> bring together abilities from the more general classes. They are written for AD&D, 2nd Edition.
+2 Assassin
+This B<assassin> class has a mix of fighter, thief, and mage abilities.
+* Fighter's Specialization (only Size S weapons)
+* Thief Skills: Climb Walls, Detect Noise, Hide in Shadows, Move Silently
+* Thief's Backstab
+* Wizard Schools: Alteration, Enchantment/Charm, Illusion/Phantasm
+* Non-Weapon Proficientcies: General, Fighter, Thief, and Mage
+* HP: As Thief
+* XP: As Fighter
+* THAC0: As fighter
+2 Necrologist
+The B<necrologist> has a mix of mage and psionic abilities.
+* Ability Requirements:
+** Constitution: 16
+** Intelligence: 16
+** Wisdom: 16
+* Races: Any that can be wizards and psionisists
+* Wizard Schools: Abjuration, Invocation, Necromancy
+* Psionic Disciplines: Necrology, Pyschometabolism, Telepathy
+* Turn Undead as Priest
+* Weapon Proficiencies: As Psionisist
+* Non-Weapon Proficiencies: General, Wizard, and Psionisist
+* HP: As Psionisist
+* XP: As Wizard
+* THACO: As Psionisist

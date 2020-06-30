@@ -1,0 +1,16 @@
+bracelet:6*100
+earrings:6*100
+necklace:6*500
+ring:6*50
+tiara:6*5500
+ring:animal friendship,arachnid control,astral travel,blinking,chameleon power,earth elemental command,fire resistance,free action:2,flying,holiness,jumping,mammal control,memory,protection +2,protection +3,rapid regeneration:2,seeing,shape changing,spell storing,spell turning,the heirophant,the ram:2,true sight,water walking:2,wizardry 1st-5th lvl spells,x-ray vision
+amulet:terror,vs. undead
+anklet of levitation
+jade scepter of defending
+medallion of esp, 90' range
+medallion of thought projection
+necklace of missiles (7hd×1, 5hd×2, 3hd×4)
+necklace of missiles (8hd×1, 6hd×2, 4hd×2, 2hd×4)
+necklace of missiles (10hd×1, 8hd×2, 6hd×2, 4hd×4)
+necklace of telepathy:2
+talisman of pure good

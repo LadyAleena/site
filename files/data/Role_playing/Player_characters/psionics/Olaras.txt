@@ -1,0 +1,5 @@
+PSPs|476
+Psychokinesis|Create Object;Detonate;Disintegrate;Molecular Rearrangement;Project Force;Telekinesis|Animate Object;Animate Shadow;Ballistic Attack;Control Body;Control Flames;Control Light;Control Sound;Control Wind;Create Sound;Inertial Barrier;Levitation;Molecular Agitation;Molecular Manipulation;Soften
+Psychometabolism|Complete Healing;Energy Containment;Life Draining;Metamorphosis|Absorb Disease;Adrenalin Control;Body Control;Body Equilibrium;Chameleon Power;Cell Adjustment;Displacement;Ectoplasmic Form;Flesh Armor;Graft Weapon;Lend Health
+Psychoportation|Banishment;Probability Travel;Summon Planar Creature;Teleport;Teleport Other|Astral Projection;Dimensional Door;Dimension Walk;Dream Travel;Teleport Trigger;Time Shift;Time/Space Anchor
+Telepathy|Tower of Iron Will|Conceal Thoughts;Contact;Intellect Fortress;Mental Barrier;Mind Blank;Psionic Blast;Though Shield

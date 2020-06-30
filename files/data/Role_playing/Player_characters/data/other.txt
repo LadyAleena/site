@@ -1,0 +1,97 @@
+.Presolia Copturan|Mage/Arcanist
+5%/level Chance to Identify the purpose of a Magic Item
++2 to Reaction rolls when dealing with the Arcane
+Must use any magical weapons available even if not proficient
+Must make a Wisdom Check against purchasing new Magic Items
+.Rojeana Decant|Permanent wild surges
+Hornung's Baneful Delfector At will
+Hornung's Surge Selector-Continuous
+Wild Magic Zone	100' Radius
+Any spell cast into Wild Magic Zone causes a surge
+Bite causes Petrification
+Never makes a critical fumble
+Resurrect the Dead 1/year
+Bones made of Diamond
+Eyes are Pearls	Vision normal
+Can see in absolute darkness
+Identify Gems On sight
+Read Any Language
+Chance to Learn Spells 110%
+Regenerate Fire and Acid Damage	1hp/hr
+Invisible from behind
+Foot prints are hand prints that fossilize and are twice as big
+Smells like normal animal At will
+Presence soothes animals
+Fly like eagle when naked
+Wake every morning naked w/clothes folded nearby
+Touch causes flowers to sing
+Cause Peanuts to Rain 3×Day
+Fade Cloth On touch 
+Fill clothing with flees and ticks
+Keep made of Cardboard
+Immune to next Conjuration
+Summon a Demon 50% chance to control
+Befriended a Lich
+Is a Saint
+.Ryceva Derman|Chosen of Azuth
+Weapons, THAC0, and HP as Priest
+-1 to Casting Time on Spells
+Invoke Wizard Spells
+Spell Sculpting
+Wizard & Priest Spells
+Casts at will: Detect Magic, Read Magic, Identify (by touch)
+Cast spells w/Charged Magic Items
+Recharge Magic Items
+Does not need material components
+.Ulari Ilan|Symbiotic
+Regenerate 1hp/2 rds.
+1/2 dmg from fire and cold
+.Myra Kyllia|Vampiric
+Vampiric Immunities: blindness/deafness, enchantment/charm, gas, holy symbols, illusion/phantasm, necromancy, poison, polymorph, sunlight
++4 or better weapon to hit
+Impose -5 vs. Charm
+Gaseous Form when slain
+Bonus Necromantic Spell 1/lvl
+Shape Change-Wolf
+Regenerate 5hp/rd.
+Must feed on 10 hp/day
+Must feed on 1 sentient creature/mth
+Must rest every day or loose a lvl.
+Temporary sanctuary needed when killed
+.Nwadira Mazan|Permenent wild surges
+Age anything living d20 yrs by touch
+Shapechange 1/day into natural animals
+Gain attributes of natural animals 3/day
+Disappear for 8 hours when asleep
+Regenerate 1 hp/rd
+Paralyze when disrobed
+Low intelligence undead will ignore her unless attacked	
+.Bryzarlyn Qi'lanari
+Identify w/ 100% accuracy by touch
+Immune to Curses on Items Identified.
+50% chance of a wild magic surge when any spell is cast
+Glows when Hiding in Shadows
+.Ejenna Quara
+Ultravision
+Does not need to memorize spells
+While casting spells, all dice go up by one die.
+.Calsanna Sorlastryl|Werebear
+Attack when werebear: Claws (2 Attacks)-1d3, Hug (If both claws hit)-2d8
+Hit only with Silver or +1 weapons or better-only in Bear form
+Transform into bear form in 1 round but vulnerable
+Heals three times faster than normal
+Summon 1-6 normal bears in 2-12 turns
+Cure Disease in 1 creature every 4 weeks
+.Drianna StrongOak-Guard
+Casts at will: Astral Spell, Cantrip, Comprehend Languages, Detect Magic, Dispel Magic, Enchant an Item, Hold Portal, Identify, Knock, Permanency, Protection from Cantrips, Read Magic, Remove Curse, Teleport, Teleport without Error, Wizard Lock, Wizard Mark
+.Aegyn Valchae
+Detect Undead
+Immune to Energy Drain, Fear, Paralyzation, Magical Diseases
+Cast 5/day: Destroy Undead, Disrupt Undead
+.Elora Windblown|Other
+Smells of burnt wood
+Improved smell
+Can't be alone
+.Aztema Zavgar
+Eyes appear to be cat's eyes
+Sonar location

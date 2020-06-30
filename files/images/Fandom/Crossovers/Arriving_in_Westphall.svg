@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 3714 2119"
+  width="3714"
+  height="2119"
+  id="Arriving_Westphall"
+>
+  <title id="Arriving_Westphall_crossovers_title">Arriving in Westphall</title>
+  <metadata id="Arriving_Westphall_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Arriving in Westphall</dc:title>
+        <dc:date>2020-04-15</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    text  { fill: #000000; text-anchor: start; dominant-baseline: middle; font-family: arial, sans-serif; font-size: 16px; font-style: italic; }
+    tspan { font-size: 90%; font-style: normal; }
+  </style>
+  <g id="Arriving_Westphall_chart" transform="translate(5,5)">
+    <title id="Arriving_Westphall_chart_title">Arriving to Westphall</title>
+    <text id="Arriving_Westphall_chart_title_text" x="0" y="14" class="chart_title">Arriving in Westphall</text>
+    <g id="Dick_Van_Dyke" transform="translate(0,70)">
+      <title id="Dick_Van_Dyke_title">The Dick Van Dyke Show</title>
+      <g id="Dick_Van_Dyke_crossovers" class="one_cross" transform="translate(196,14)">
+        <title id="Dick_Van_Dyke_crossovers_title">Dick_Van_Dyke crossovers</title>
+        <path d="m 0,0 h 15" id="Dick_Van_Dyke_to" />
+        <g class="one_cross" transform="translate(15,0)">
+          <path d="m 0,0 h 15" id="Dick_Van_Dyke_to_Danny_Thomas" />
+          <path d="m 0,0 v 330 h 15" id="Dick_Van_Dyke_to_Hermans_Head" />
+          <path d="m 0,0 v 355 h 342 v 414 h 45" id="Dick_Van_Dyke_to_Mad_About_You" />
+          <path d="m 0,0 v 365 h 332 v 372 h 7 m 6,0 h 387 v 53 h 281" id="Dick_Van_Dyke_to_Diagnosis_Murder" />
+        </g>
+      </g>
+      <rect id="Dick_Van_Dyke_box"  x="0" y="0" width="194" height="28" class="cbs"/>
+      <text id="Dick_Van_Dyke_text" x="6" y="14">The Dick Van Dyke Show</text>
+    </g>
+    <g id="Danny_Thomas_franchise" transform="translate(228,40)">
+      <title id="Danny_Thomas_franchise_title">The Danny Thomas Show</title>
+      <g class="spinoff" id="Danny_Thomas_spinoff_lines" transform="translate(13,30)">
+        <title id="Danny_Thomas_spinoff_lines_title">The The Danny Thomas Show spinoffs</title>
+        <path d="m 0,  30 v  24 h 15" id="Danny_Thomas_to_Andy_Griffith" />
+        <path d="m 0,  25 v 190 h 15" id="Danny_Thomas_to_Joey_Bishop" />
+        <path d="m 0, 215 v  39 h 15" id="Danny_Thomas_to_Bill_Dana" />
+        <path d="m 0, 255 v  37 h 15" id="Danny_Thomas_to_Make_Room_for_Grandaddy" />
+      </g>
+      <g id="Make_Room_for_Daddy" transform="translate(0,0)">
+        <title id="Make_Room_for_Daddy_title">Make Room for Daddy</title>
+        <rect id="Make_Room_for_Daddy_box"  x="0" y="0" width="173" height="28" class="abc" />
+        <text id="Make_Room_for_Daddy_text" x="6" y="14">Make Room for Daddy</text>
+      </g>
+      <g id="Danny_Thomas" transform="translate(0,30)">
+        <title id="Danny_Thomas_title">The Danny Thomas Show</title>
+        <path d="m 200,14 h 15 v -37 h 15" class="two_cross" id="Danny_Thomas_to_Lucy-Desi_Comedy_Hour" />
+        <rect id="Danny_Thomas_box"  x="0" y="0" width="198" height="28" class="cbs"/>
+        <text id="Danny_Thomas_text" x="6" y="14">The Danny Thomas Show</text>
+      </g>
+      <g id="Andy_Griffith_franchise" transform="translate(30,70)" class="cbs">
+        <title id="Andy_Griffith_franchise_title">The Andy Griffith Show</title>
+        <g class="spinoff" id="Andy_Griffith_spinoff_lines" transform="translate(13)">
+          <title id="Andy_Griffith_spinoff_lines_title">The The Andy Griffith Show spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Andy_Griffith_to_Gomer_Pyle_U.S.M.C" />
+          <path d="m 0, 55 v 39 h 15" id="Andy_Griffith_to_Mayberry_R.F.D." />
+          <path d="m 0, 95 v 39 h 15" id="Andy_Griffith_to_New_Andy_Griffith" />
+        </g>
+        <g id="Andy_Griffith" transform="translate(0,0)">
+          <title id="Andy_Griffith_title">The Andy Griffith Show</title>
+          <path d="m 179, 14 h 24" class="one_cross" id="Andy_Griffith_to_Its_Garry_Shandlings" />
+          <rect id="Andy_Griffith_box" x="0" y="0" width="177" height="28" />
+          <text id="Andy_Griffith_text" x="6" y="14">The Andy Griffith Show</text>
+        </g>
+        <g id="Gomer_Pyle_U.S.M.C" transform="translate(30,40)">
+          <title id="Gomer_Pyle_U.S.M.C_title">Gomer Pyle U.S.M.C</title>
+          <path d="m 164,14 h 280" id="Gomer_Pyle_USMC_to_Lucy" class="one_cross" />
+          <rect id="Gomer_Pyle_U.S.M.C_box"  x="0" y="0" width="162" height="28" />
+          <text id="Gomer_Pyle_U.S.M.C_text" x="6" y="14">Gomer Pyle U.S.M.C</text>
+        </g>
+        <g id="Mayberry_R.F.D." transform="translate(30,80)">
+          <title id="Mayberry_R.F.D._title">Mayberry R.F.D.</title>
+          <rect id="Mayberry_R.F.D._box"  x="0" y="0" width="126" height="28" />
+          <text id="Mayberry_R.F.D._text" x="6" y="14">Mayberry R.F.D.</text>
+        </g>
+        <g id="New_Andy_Griffith" transform="translate(30,120)">
+          <title id="New_Andy_Griffith_title">The New Andy Griffith Show</title>
+          <rect id="New_Andy_Griffith_box"  x="0" y="0" width="214" height="28" />
+          <text id="New_Andy_Griffith_text" x="6" y="14">The New Andy Griffith Show</text>
+        </g>
+      </g>
+      <g id="Joey_Bishop" transform="translate(30,230)">
+        <title id="Joey_Bishop_title">The Joey Bishop Show</title>
+        <rect id="Joey_Bishop_box_1" x="0" y="0" width="177" height="28" class="nbc" />
+        <rect id="Joey_Bishop_box_2" x="4" y="4" width="169" height="20" class="cbs inner" />
+        <text id="Joey_Bishop_text"  x="6" y="14">The Joey Bishop Show</text>
+      </g>
+      <g id="Bill_Dana" transform="translate(30,270)">
+        <title id="Bill_Dana_title">The Bill Dana Show</title>
+        <rect id="Bill_Dana_box"  x="0" y="0" width="154" height="28" class="nbc" />
+        <text id="Bill_Dana_text" x="6" y="14">The Bill Dana Show</text>
+      </g>
+      <g id="Make_Room_for_Grandaddy" transform="translate(30,310)">
+        <title id="Make_Room_for_Grandaddy_title">Make Room for Grandaddy</title>
+        <rect id="Make_Room_for_Grandaddy_box"  x="0" y="0" width="205" height="28" class="abc" />
+        <text id="Make_Room_for_Grandaddy_text" x="6" y="14">Make Room for Grandaddy</text>
+      </g>
+    </g>
+    <g id="Private_Secretary" transform="translate(290,0)">
+      <title id="Private_Secretary_title">Private Secretary</title>
+      <path d="m 138, 14 h 15 v 27 h 15" class="one_cross" id="Private_Secretary_to_Lucy-Desi_Comedy_Hour" />
+      <rect id="Private_Secretary_box"  x="0" y="0" width="136" height="28" class="cbs" />
+      <text id="Private_Secretary_text" x="6" y="14">Private Secretary</text>
+    </g>
+    <g id="Psycho_franchise" transform="translate(550,355)">
+      <title id="Psycho_franchise_title">Psycho</title>
+      <g class="spinoff" id="Psycho_spinoff_lines" transform="translate(13)">
+        <title id="Psycho_spinoff_lines_title">The Psycho spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Psycho_to_Psycho2" />
+        <path d="m 0,  55 v 39 h 15" id="Psycho_to_Psycho3" />
+        <path d="m 0,  95 v 39 h 15" id="Psycho_to_Bates_Motel" />
+        <path d="m 0, 135 v 39 h 15" id="Psycho_to_Psycho4" />
+        <path d="m 0, 175 v 39 h 15" id="Psycho_to_Psycho_Legacy" />
+      </g>
+      <g id="Psycho" transform="translate(0,0)">
+        <title id="Psycho_title">Psycho</title>
+        <g id="Psycho_crossovers" class="morley_other" transform="translate(68,14)">
+          <title id="Psycho_crossovers_title">Psycho crossovers</title>
+          <path d="m 0,0 h 175" id="Psycho_to" />
+          <g transform="translate(175,0)">
+            <path d="m 0,0 h  15"       id="Psycho_to_Naked_City" />
+            <path d="m 0,0 v  -40 h  15" id="Psycho_to_Mannix" />
+            <path d="m 0,0 v 40 h  15" id="Psycho_to_Mission:_Impossible" />
+            <path d="m 0,0 v 449 m 0,6 v 29 m 0,6 v  3 h 17 m 6,0 h 12" id="Psycho_to_Seinfeld" />
+            <path d="m 0,0 v 449 m 0,6 v 29 m 0,6 v 19 m 0,6 v 21 h 35" id="Psycho_to_Friends" />
+          </g>
+        </g>
+        <rect id="Psycho_box"  x="0" y="0" rx="10" width="66" height="28" class="film"/>
+        <text id="Psycho_text" x="6" y="14">Psycho</text>
+      </g>
+      <g id="Psycho2" transform="translate(30,40)">
+        <title id="Psycho2_title">Psycho II</title>
+        <rect id="Psycho2_box"  x="0" y="0" rx="10" width="81" height="28" class="film" />
+        <text id="Psycho2_text" x="6" y="14">Psycho II</text>
+      </g>
+      <g id="Psycho3" transform="translate(30,80)">
+        <title id="Psycho3_title">Psycho III</title>
+        <rect id="Psycho3_box"  x="0" y="0" rx="10" width="86" height="28" class="film" />
+        <text id="Psycho3_text" x="6" y="14">Psycho III</text>
+      </g>
+      <g id="Bates_Motel" transform="translate(30,120)">
+        <title id="Bates_Motel_title">Bates Motel</title>
+        <rect id="Bates_Motel_box"  x="0" y="0" rx="10" width="98" height="28" class="nbc tv_film" />
+        <text id="Bates_Motel_text" x="6" y="14">Bates Motel</text>
+      </g>
+      <g id="Psycho4" transform="translate(30,160)">
+        <title id="Psycho4_title">Psycho IV: The Beginning</title>
+        <rect id="Psycho4_box"  x="0" y="0" rx="10" width="196" height="28" class="film" />
+        <text id="Psycho4_text" x="6" y="14">Psycho IV: The Beginning</text>
+      </g>
+      <g id="Psycho_Legacy" transform="translate(30,200)">
+        <title id="Psycho_Legacy_title">The Psycho Legacy</title>
+        <rect id="Psycho_Legacy_box"  x="0" y="0" rx="10" width="153" height="28" class="film" />
+        <text id="Psycho_Legacy_text" x="6" y="14">The Psycho Legacy</text>
+      </g>
+    </g>
+    <g id="Hermans_Head" transform="translate(228,400)">
+      <title id="Hermans_Head_title">Herman&#700;s Head</title>
+      <rect id="Hermans_Head_box"  x="0" y="0" width="125" height="28" class="fox" />
+      <text id="Hermans_Head_text" x="6" y="14">Herman&#700;s Head</text>
+    </g>
+    <g id="Lucy_Desi" transform="translate(460,0)">
+      <g id="I_Love_Lucy" transform="translate(0,0)">
+        <title id="I_Love_Lucy_title">I Love Lucy</title>
+        <rect id="I_Love_Lucy_box"  x="0" y="0" width="101" height="28" class="cbs" />
+        <text id="I_Love_Lucy_text" x="6" y="14">I Love Lucy</text>
+      </g>
+      <g id="Lucy-Desi_Comedy_Hour" transform="translate(0,30)">
+        <title id="Lucy-Desi_Comedy_Hour_title">Lucy-Desi Comedy Hour</title>
+        <path d="m 190,14 h 24" class="one_cross" id="Lucy-Desi_Comedy_Hour_to_Anne_Southern" />
+        <rect id="Lucy-Desi_Comedy_Hour_box"  x="0" y="0" width="188" height="28" class="cbs" />
+        <text id="Lucy-Desi_Comedy_Hour_text" x="6" y="14">Lucy-Desi Comedy Hour</text>
+      </g>
+    </g>
+    <g id="Anne_Southern" transform="translate(676,30)">
+      <title id="Anne_Southern_title">The Anne Southern Show</title>
+      <rect id="Anne_Southern_box"  x="0" y="0" width="196" height="28" class="cbs" />
+      <text id="Anne_Southern_text" x="6" y="14">The Anne Southern Show</text>
+    </g>
+    <g id="Its_Garry_Shandlings" transform="translate(463,110)">
+      <title id="Its_Garry_Shandlings_title">It&#700;s Garry Shandling&#700;s Show</title>
+      <rect id="Its_Garry_Shandlings_box"  x="0" y="0" width="209" height="28" class="showtime" />
+      <text id="Its_Garry_Shandlings_text" x="6" y="14">It&#700;s Garry Shandling&#700;s Show</text>
+    </g>
+    <g id="Jackie_Gleason_franchise" transform="translate(676,70)">
+      <title id="Jackie_Gleason_franchise_title">The Jackie Gleason Show</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Jackie_Gleason_to_Honeymooners" />
+      <g id="Jackie_Gleason" transform="translate(0,0)">
+        <title id="Jackie_Gleason_title">The Jackie Gleason Show</title>
+        <rect id="Jackie_Gleason_box"  x="0" y="0" width="199" height="28" class="cbs" />
+        <text id="Jackie_Gleason_text" x="6" y="14">The Jackie Gleason Show</text>
+      </g>
+      <g id="Honeymooners" transform="translate(30,40)">
+        <title id="Honeymooners_title">The Honeymooners</title>
+        <path d="m 155,14 h 15 v 142 h 33" class="one_cross" id="Honeymooners_to_Heres_Lucy" />
+        <rect id="Honeymooners_box"  x="0" y="0" width="153" height="28" class="cbs" />
+        <text id="Honeymooners_text" x="6" y="14">The Honeymooners</text>
+      </g>
+    </g>
+    <g id="Lucy" transform="translate(734,150)">
+      <title id="Lucy_title">The Lucy Show</title>
+      <path d="m 127, 14 h 12 m 6,0 h 6 v 99 m 0,6 v 3 h 24" class="one_cross" id="Lucy_to_Heres_Lucy" />
+      <rect id="Lucy_box" x="0" y="0" width="125" height="28" class="cbs"  />
+      <text id="Lucy_text" x="6" y="14">The Lucy Show</text>
+    </g>
+    <g id="Love_That_Bob_franchise" transform="translate(594,190)">
+      <title id="Love_That_Bob_franchise_title">Love That Bob</title>
+      <path d="m  13, 60 v 24 h 15" class="spinoff" id="Love_That_Bob_to_New_Bob_Cummings" />
+      <g id="Bob_Cummings" transform="translate(0,0)">
+        <title id="Bob_Cummings_title">The Bob Cummings Show</title>
+        <g id="Bob_Cummings_crossovers" class="one_cross" transform="translate(201,14)">
+          <title id="Bob_Cummings_crossovers_title">The Bob Cummings Show crossovers</title>
+          <path d="m 0,0 h 78 m 6,0 h 3 m 6,0 h 6" id="Bob_Cummings_to" />
+          <g transform="translate(99)">
+            <path d="m 0,0 h 15"       id="Bob_Cummings_to_George_Burns_Gracie_Allen" />
+            <path d="m 0,0 v 59 m 0,6 v 0 m 0,6 v 3 h 15" id="Bob_Cummings_to_Heres_Lucy" />
+          </g>
+        </g>
+        <rect id="Bob_Cummings_box_1" x="0" y="0" width="199" height="28" class="cbs" />
+        <rect id="Bob_Cummings_box_2" x="4" y="4" width="191" height="20" class="nbc inner" />
+        <text id="Bob_Cummings_text"  x="6" y="14">The Bob Cummings Show</text>
+      </g>
+      <g id="Love_That_Bob" transform="translate(0,30)">
+        <title id="Love_That_Bob_title">Love That Bob</title>
+        <rect id="Love_That_Bob_box" x="0" y="0" width="118" height="28" />
+        <text id="Love_That_Bob_text" x="6" y="14">Love That Bob</text>
+      </g>
+      <g id="New_Bob_Cummings" transform="translate(30,70)">
+        <title id="New_Bob_Cummings_title">The New Bob Cummings Show</title>
+        <rect id="New_Bob_Cummings_box"  x="0" y="0" width="235" height="28" class="cbs" />
+        <text id="New_Bob_Cummings_text" x="6" y="14">The New Bob Cummings Show</text>
+      </g>
+    </g>
+    <g id="Naked_City" transform="translate(809,355)">
+      <title id="Naked_City_title">Naked City</title>
+      <rect id="Naked_City_box" x="0" y="0" width="91" height="28" class="abc" />
+      <text id="Naked_City_text" x="6" y="14">Naked City</text>
+    </g>
+    <g id="Mannix" transform="translate(809,315)">
+      <title id="Mannix_title">Mannix</title>
+      <g id="Mannix_crossovers" class="one_cross" transform="translate(70,14)">
+        <title id="Mannix_crossovers_title">Mannix crossovers</title>
+        <path d="m 0,0 h 15" id="Mannix_to" />
+        <g class="one_cross" transform="translate(15,0)">
+          <path d="m 0,0 v -45 h 15"       id="Mannix_to_Heres_Lucy" />
+          <path d="m 0,0 h 286 v 521 h 44" id="Marrix_to_Diagnosis_Murder" />
+        </g>
+      </g>
+      <rect id="Mannix_box" x="0" y="0" width="68" height="28" class="cbs" />
+      <text id="Mannix_text" x="6" y="14">Mannix</text>
+    </g>
+    <g id="Matlock" transform="translate(969,355)">
+      <title id="Matlock_title">Matlock</title>
+      <path d="m 70, 14 h 131 v 487 h 54" class="one_cross" id="Mathlock_to_Diagnosis_Murder" />
+      <rect id="Matlock_box" x="0" y="0" width="68" height="28" class="nbc" />
+      <rect id="Matlock_box" x="4" y="4" width="60" height="20" class="abc inner" />
+      <text id="Matlock_text" x="6" y="14">Matlock</text>
+    </g>
+    <g id="Mission_Impossible_franchise" transform="translate(811,395)">
+      <title id="Mission_Impossible_franchise_title">Mission: Impossible</title>
+      <g class="spinoff" id="Mission_Impossible_spinoff_group" transform="translate(13)">
+        <title id="Mission_Impossible_spinoff_group_title">The Mission: Impossible spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Mission_Impossible_to_Mission_Impossible_1988" />
+        <path d="m 0, 54 v 40 h 15" id="Mission_Impossible_to_Mission_Impossible_1996" class="semi_spinoff"/>
+      </g>
+      <g id="Mission:_Impossible" transform="translate(0,0)">
+        <title id="Mission_Impossible_title">Mission: Impossible</title>
+        <path d="m 153, 14 h 196 v 453 h 64" class="one_cross" id="Mission_Impossible_to_Diagnosis_Muder" />
+        <rect id="Mission_Impossible_box"  x="0" y="0" width="151" height="28" class="cbs" />
+        <text id="Mission_Impossible_text" x="6" y="14">Mission: Impossible</text>
+      </g>
+      <g id="Mission_Impossible_1988" transform="translate(30,40)">
+        <title id="Mission_Impossible_1988_title">Mission: Impossible (1988)</title>
+        <rect id="Mission_Impossible_1988_box"  x="0" y="0" width="197" height="28" class="cbs" />
+        <text id="Mission_Impossible_1988_text" x="6" y="14">Mission: Impossible <tspan id="Mission_Impossible_1988_year">(1988)</tspan></text>
+      </g>
+      <g id="Mission_Impossible_1996_franchise" transform="translate(30,80)" class="film">
+        <title id="Mission_Impossible_1996_franchise_title">Mission: Impossible (1996)</title>
+        <g class="spinoff" id="Mission_Impossible_1996_spinoff_group" transform="translate(13)">
+          <title id="Mission_Impossible_1996_spinoff_group_title">The Mission: Impossible (1996) spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Mission_Impossible_1996_to_Mission_Impossible_2" />
+          <path d="m 0, 55 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible_III" />
+          <path d="m 0, 95 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible_-_Ghost_Protocol" />
+          <path d="m 0, 135 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible__Rogue_Nation" />
+          <path d="m 0, 175 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible__Fallout" />
+          <path d="m 0, 215 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible_7" />
+          <path d="m 0, 255 v 39 h 15" id="Mission_Impossible_1996_to_Mission_Impossible_8" />
+        </g>
+        <g id="Mission_Impossible_1996" transform="translate(0,0)">
+          <title id="Mission_Impossible_1996_title">Mission: Impossible (1996)</title>
+          <rect id="Mission_Impossible_1996_box" x="0" y="0" rx="10" width="199" height="28" />
+          <text id="Mission_Impossible_1996_text" x="6" y="14">Mission: Impossible <tspan id="Mission_Impossible_1996_year">(1996)</tspan></text>
+        </g>
+        <g id="Mission_Impossible_2" transform="translate(30,40)">
+          <title id="Mission_Impossible_2_title">Mission: Impossible 2</title>
+          <rect id="Mission_Impossible_2_box" x="0" y="0" rx="10" width="165" height="28" />
+          <text id="Mission_Impossible_2_text" x="6" y="14">Mission: Impossible 2</text>
+        </g>
+        <g id="Mission_Impossible_3" transform="translate(30,80)">
+          <title id="Mission_Impossible_3_title">Mission: Impossible III</title>
+          <rect id="Mission_Impossible_3_box" x="0" y="0" rx="10" width="169" height="28" />
+          <text id="Mission_Impossible_3_text" x="6" y="14">Mission: Impossible III</text>
+        </g>
+        <g id="Mission_Impossible_Ghost_Protocol" transform="translate(30,120)">
+          <title id="Mission_Impossible_Ghost_Protocol_title">Mission: Impossible - Ghost Protocol</title>
+          <rect id="Mission_Impossible_Ghost_Protocol_box" x="0" y="0" rx="10" width="271" height="28" />
+          <text id="Mission_Impossible_Ghost_Protocol_text" x="6" y="14">Mission: Impossible - Ghost Protocol</text>
+        </g>
+        <g id="Mission_Impossible_Rogue_Nation" transform="translate(30,160)">
+          <title id="Mission_Impossible_Rogue_Nation_title">Mission: Impossible &#226;&#128;&#147; Rogue Nation</title>
+          <rect id="Mission_Impossible_Rogue_Nation_box" x="0" y="0" rx="10" width="272" height="28" />
+          <text id="Mission_Impossible_Rogue_Nation_text" x="6" y="14">Mission: Impossible – Rogue Nation</text>
+        </g>
+        <g id="Mission_Impossible_Fallout" transform="translate(30,200)">
+          <title id="Mission_Impossible_Fallout_title">Mission: Impossible &#226;&#128;&#147; Fallout</title>
+          <rect id="Mission_Impossible_Fallout_box" x="0" y="0" rx="10" width="224" height="28" />
+          <text id="Mission_Impossible_Fallout_text" x="6" y="14">Mission: Impossible – Fallout</text>
+        </g>
+        <g id="Mission_Impossible_7" transform="translate(30,240)">
+          <title id="Mission_Impossible_7_title">Mission: Impossible 7</title>
+          <rect id="Mission_Impossible_7_box" x="0" y="0" rx="10" width="166" height="28" />
+          <text id="Mission_Impossible_7_text" x="6" y="14">Mission: Impossible 7</text>
+        </g>
+        <g id="Mission_Impossible_8" transform="translate(30,280)">
+          <title id="Mission_Impossible_8_title">Mission: Impossible 8</title>
+          <rect id="Mission_Impossible_8_box" x="0" y="0" rx="10" width="166" height="28" />
+          <text id="Mission_Impossible_8_text" x="6" y="14">Mission: Impossible 8</text>
+        </g>
+      </g>
+    </g>
+    <g id="Touched_by_Angel_franchise" transform="translate(981,795)">
+      <title id="Touched_by_Angel_franchise_title">Touched by an Angel franchise</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Touched_by_Angel_to_Promised_Land" />
+      <g id="Touched_by_Angel" transform="translate(0,0)">
+        <title id="Touched_by_Angel_title">Touched by an Angel</title>
+        <rect id="Touched_by_Angel_box"  x="0" y="0" width="162" height="28" class="cbs" />
+        <text id="Touched_by_Angel_text" x="6" y="14">Touched by an Angel</text>
+      </g>
+      <g id="Promised_Land" transform="translate(30,40)">
+        <title id="Promised_Land_title">Promised Land</title>
+        <path d="m 121,14 h 18 v 19 h 74" class="two_cross" id="Promised_Land_to_Diagnosis_Murder" />
+        <rect id="Promised_Land_box"  x="0" y="0" width="121" height="28" class="cbs" />
+        <text id="Promised_Land_text" x="6" y="14">Promised Land</text>
+      </g>
+    </g>
+    <g id="George_Burns_Gracie_Allen" transform="translate(911,190)">
+      <title id="George_Burns_Gracie_Allen_title">The George Burns and Gracie Allen Show</title>
+      <rect id="George_Burns_Gracie_Allen_box"  x="0" y="0" width="176" height="46" class="cbs" />
+      <text id="George_Burns_Gracie_Allen_text_1" x="6" y="14">The George Burns and</text>
+      <text id="George_Burns_Gracie_Allen_text_2" x="24" y="32">Gracie Allen Show</text>
+    </g>
+    <g id="Heres_Lucy" transform="translate(911,260)">
+      <title id="Heres_Lucy_title">Here&#700;s Lucy</title>
+      <path d="m 99, 14 h 15 v 26 h -128 m -6,0 h -412 v 88 h -238 v -20 h 15" class="one_cross" id="Heres_Lucy_to_Make_Room_for_Granddaddy" />
+      <rect id="Heres_Lucy_box"  x="0" y="0" width="97" height="28" class="cbs" />
+      <text id="Heres_Lucy_text" x="6" y="14">Here&#700;s Lucy</text>
+    </g>
+    <g id="Jake_Fatman_franchise" transform="translate(1196,805)">
+      <title id="Jake_Fatman_franchise_title">Jake and the Fatman</title>
+      <path d="m 13, 30 v 9 h 15" class="spinoff" id="Jake_Fatman_to_Diagnosis_Murder" />
+      <g id="Jake_Fatman" transform="translate(0,0)">
+        <title id="Jake_Fatman_title">Jake and the Fatman</title>
+        <rect id="Jake_Fatman_box"  x="0" y="0" width="162" height="28" class="cbs" />
+        <text id="Jake_Fatman_text" x="6" y="14">Jake and the Fatman</text>
+      </g>
+      <g id="Diagnosis_Murder" transform="translate(30,40)">
+        <title id="Diagnosis_Murder_title">Diagnosis: Murder</title>
+        <rect id="Diagnosis_Murder_box"  x="0" y="0" width="143" height="28" class="cbs" />
+        <text id="Diagnosis_Murder_text" x="6" y="14">Diagnosis: Murder</text>
+      </g>
+    </g>
+    <g id="New_York_Power_event" class="event_nocross" transform="translate(583, 881)">
+      <path d="m 0,0 v -22 h 15"            id="New_York_Power_to_Mad_About_You" />
+      <path d="m 0,0 v   0 h 221 v 18 h 24" id="New_York_Power_to_Friends" />
+      <path d="m 0,0 v  25 h 15"            id="New_York_Power_to_Madman_of_People" />
+    </g>
+    <g id="Mad_About_You" transform="translate(600,842)">
+      <title id="Mad_About_You_title">Mad About You</title>
+      <g id="Mad_About_You_crossovers" class="one_cross" transform="translate(124, 14)">
+        <title id="Mad_About_You_crossovers_title">Mad_About_You crossovers</title>
+        <path d="m 0,0 h 89" id="Mad_About_You_to" />
+        <g transform="translate(89,0)">
+          <path d="m 0,0 h 15" id="Mad_About_You_to_Seinfeld" />
+          <path d="m 0,0 v 37 h 15" id="Mad_About_You_to_Friends" />
+        </g>
+      </g>
+      <rect id="Mad_About_You_box"  x="0" y="0" width="122" height="28" class="nbc" />
+      <text id="Mad_About_You_text" x="6" y="14">Mad About You</text>
+    </g>
+    <g id="Madman_of_People" transform="translate(600,892)">
+      <title id="Madman_of_People_title">Madman of the People</title>
+      <rect id="Madman_of_People_box"  x="0" y="0" width="176" height="28" class="nbc" />
+      <text id="Madman_of_People_text" x="6" y="14">Madman of the People</text>
+    </g>
+    <g id="Seinfeld" transform="translate(830,845)">
+      <title id="Seinfeld_title">Seinfeld</title>
+      <rect id="Seinfeld_box"  x="0" y="0" width="71" height="28" class="nbc" />
+      <text id="Seinfeld_text" x="6" y="14">Seinfeld</text>
+    </g>
+    <g id="Friends_franchise" transform="translate(830,885)">
+      <title id="Friends_franchise_title">Friends</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Friends_to_Joey" />
+      <g id="Friends" transform="translate(0,0)">
+        <title id="Friends_title">Friends</title>
+        <g class="one_cross" id="Friends_crossovers" transform="translate(68,14)">
+          <title id="Friends_crossovers_title">Friends crossovers</title>
+          <path d="m 0,0 h 27" id="Friends_to" />
+          <g transform="translate(27,0)">
+            <path d="m 0,0 h 15"      id="Friends_to_Hope_Gloria" />
+            <path d="m 0,0 v 37 h 15" id="Friends_to_Single_Guy" />
+            <path d="m 0,0 v 77 h 15" id="Friends_to_Caroline_in_City" />
+          </g>
+        </g>
+        <rect id="Friends_box"  x="0" y="0" width="66" height="28" class="nbc"/>
+        <text id="Friends_text" x="6" y="14">Friends</text>
+      </g>
+      <g id="Joey" transform="translate(30,40)">
+        <title id="Joey_title">Joey</title>
+        <rect id="Joey_box"  x="0" y="0" width="47" height="28" class="nbc" />
+        <text id="Joey_text" x="6" y="14">Joey</text>
+      </g>
+    </g>
+    <g id="Hope_Gloria" transform="translate(942,885)">
+      <title id="Hope_Gloria_title">Hope and Gloria</title>
+      <rect id="Hope_Gloria_box" x="0" y="0" width="127" height="28" class="nbc" />
+      <text id="Hope_Gloria_text" x="6" y="14">Hope and Gloria</text>
+    </g>
+    <g id="Single_Guy" transform="translate(942,925)">
+      <title id="Single_Guy_title">The Single Guy</title>
+      <path d="m 0,17 h -9 v 40 h 9" class="one_cross" id="Single_Guy_to_Caroline_in_City" />
+      <rect id="Single_Guy_box"  x="0" y="0" width="124" height="28" class="nbc" />
+      <text id="Single_Guy_text" x="6" y="14">The Single Guy</text>
+    </g>
+    <g id="Caroline_in_City" transform="translate(942,965)">
+      <title id="Caroline_in_City_title">Caroline in the City</title>
+      <path d="m 151,14 h 15 v 16 h 31" class="one_cross" id="Caroline_in_City_to_Frasier" />
+      <rect id="Caroline_in_City_box"  x="0" y="0" width="149" height="28" class="nbc" />
+      <text id="Caroline_in_City_text" x="6" y="14">Caroline in the City</text>
+    </g>
+    <g id="John_Larroquette" transform="translate(880,1005)">
+      <title id="John_Larroquette_title">The John Larroquette Show</title>
+      <path d="m 213,14 h 15 v -16 h 31" class="one_cross" id="John_Larroquette_to_Frasier" />
+      <rect id="John_Larroquette_box"  x="0" y="0" width="211" height="28" class="nbc" />
+      <text id="John_Larroquette_text" x="6" y="14">The John Larroquette Show</text>
+    </g>
+    <g id="Cheers_franchise" transform="translate(1111,901)">
+      <title id="Cheers_franchise_title">Cheers</title>
+      <g class="spinoff" id="Cheers_spinoff_lines" transform="translate(13)">
+        <title id="Cheers_spinoff_lines_title">The Cheers spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Cheers_to_Tortellis" />
+        <path d="m 0, 55 v 31 h 15" id="Cheers_to_Frasier" />
+      </g>
+      <g id="Cheers" transform="translate(0,0)">
+        <title id="Cheers_title">Cheers</title>
+        <g class="one_cross" id="Cheers_crossovers" transform="translate(66,14)">
+          <title id="Cheers_crossovers_title">Cheers crossovers</title>
+          <path d="m 0,0 h 80" id="Cheers_to" />
+          <g transform="translate(80,0)">
+            <path d="m 0,0 h 529 v -191 h 7 m 6,0 h 12" id="Cheers_to_St_Elsewhere" />
+            <path d="m 0,0 v  25 h 15" id="Cheers_to_Wings" />
+            <path d="m 0,0 v 115 h 404" id="Cheers_to_Boston_Legal" />
+          </g>
+        </g>
+        <rect id="Cheers_box"  x="0" y="0" width="64" height="28" class="nbc" />
+        <text id="Cheers_text" x="6" y="14">Cheers</text>
+      </g>
+      <g id="Tortellis" transform="translate(30,40)">
+        <title id="Tortellis_title">The Tortellis</title>
+        <rect id="Tortellis_box"  x="0" y="0" width="99" height="28" class="nbc" />
+        <text id="Tortellis_text" x="6" y="14">The Tortellis</text>
+      </g>
+      <g id="Frasier" transform="translate(30,80)">
+        <title id="Frasier_title">Frasier</title>
+        <rect id="Frasier_box"  x="0" y="0" width="64" height="28" class="nbc" />
+        <text id="Frasier_text" x="6" y="14">Frasier</text>
+      </g>
+    </g>
+    <g id="Wings" transform="translate(1274,926)">
+      <title id="Wings_title">Wings</title>
+      <rect id="Wings_box" x="0" y="0" width="57" height="28" class="nbc"/>
+      <text id="Wings_text" x="6" y="14">Wings</text>
+    </g>
+    <g id="Ally_McBeal_franchise" transform="translate(1349,926)">
+      <title id="Ally_McBeal_franchise_title">Ally McBeal</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Ally_McBeal_to_Ally" />
+      <g id="Ally_McBeal" transform="translate(0,0)">
+        <title id="Ally_McBeal_title">Ally McBeal</title>
+        <g id="Ally_McBeal_crossovers" transform="translate(98,14)">
+          <title id="Ally_McBeal_crossovers_title">Ally_McBeal crossovers</title>
+          <path d="m 0,0 h 15" class="two_cross" id="Ally_McBeal_to" />
+          <g transform="translate(15,0)">
+            <path d="m 0,0 h 152 v 44 h 15" class="two_cross" id="Ally_McBeal_to_Practice" />
+            <path d="m 0,0 v 30 h 15"       class="one_cross" id="Ally_McBeal_to_Boston_Public" />
+          </g>
+        </g>
+        <rect id="Ally_McBeal_box"  x="0" y="0" width="97" height="28" class="fox" />
+        <text id="Ally_McBeal_text" x="6" y="14">Ally McBeal</text>
+      </g>
+      <g id="Ally" transform="translate(30,40)">
+        <title id="Ally_title">Ally</title>
+        <rect id="Ally_box"  x="0" y="0" width="39" height="28" class="fox" />
+        <text id="Ally_text" x="6" y="14">Ally</text>
+      </g>
+    </g>
+    <g id="Boston_Public" transform="translate(1478,951)">
+      <title id="Boston_Public_title">Boston Public</title>
+      <path d="m 112, 14 h 15 v 25 h 24" class="two_cross" id="Boston_Public_to_Practice" />
+      <rect id="Boston_Public_box"  x="0" y="0" width="110" height="28" class="fox" />
+      <text id="Boston_Public_text" x="6" y="14">Boston Public</text>
+    </g>
+    <g id="Gideons_Crossing" transform="translate(1445,991)">
+      <title id="Gideons_Crossing_title">Gideon&#700;s Crossing</title>
+      <path d="m 145, 14 h 24 v -9 h 15" class="two_cross" id="Gideons_Crossing_to_Practice" />
+      <rect id="Gideons_Crossing_box"  x="0" y="0" width="143" height="28" class="abc"/>
+      <text id="Gideons_Crossing_text" x="6" y="14">Gideon&#700;s Crossing</text>
+    </g>
+    <g id="Miss_Match" transform="translate(1534,1041)">
+      <title id="Miss_Match_title">Miss Match</title>
+      <path d="m 95,14 h 15 v -19 h 15" class="one_cross" id="Miss_Match_to_Boston_Legal" />
+      <rect id="Miss_Match_box"  x="0" y="0" width="93" height="28" class="nbc" />
+      <text id="Miss_Match_text" x="6" y="14">Miss Match</text>
+    </g>
+    <g id="Practice_franchise" transform="translate(1631,976)">
+      <title id="Practice_franchise_title">The Practice</title>
+      <path d="m 13, 30 v 18 h 15" class="spinoff" id="Practice_to_Boston_Legal" />
+      <g id="Practice" transform="translate(0,0)">
+        <title id="Practice_title">The Practice</title>
+        <rect id="Practice_box"  x="0" y="0" width="100" height="28" class="abc" />
+        <text id="Practice_text" x="6" y="14">The Practice</text>
+      </g>
+      <g id="Boston_Legal" transform="translate(30,40)">
+        <title id="Boston_Legal_title">Boston Legal</title>
+        <rect id="Boston_Legal_box"  x="0" y="0" width="106" height="28" class="abc"/>
+        <text id="Boston_Legal_text" x="6" y="14">Boston Legal</text>
+      </g>
+    </g>
+    <g id="MASH_franchise" transform="translate(1516,458)">
+      <title id="MASH_franchise_title">MASH</title>
+      <g class="non_spinoff" id="MASH_spinoff_lines" transform="translate(13)">
+        <title id="MASH_spinoff_lines_title">The MASH spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="MASH_to_MASHs" />
+        <path d="m 0, 54 v 160 h 15" id="MASH_to_Trapper_John_M.D." />
+      </g>
+      <g id="MASH" transform="translate(0,0)">
+        <title id="MASH_title">MASH</title>
+        <rect id="MASH_box"  x="0" y="0" rx="10" width="57" height="28" class="film" />
+        <text id="MASH_text" x="6" y="14">MASH</text>
+      </g>
+      <g id="MASH_TV_franchise" transform="translate(30,40)">
+        <title id="MASH_TV_franchise_franchise_title">M*A*S*Hss</title>
+        <g class="spinoff" id="MASH_TV_franchise_spinoff_lines" transform="translate(13)">
+          <title id="MASH_TV_franchise_spinoff_lines_title">The M*A*S*Hss spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="MASHss_to_AfterMASH" />
+          <path d="m 0, 55 v 39 h 15" id="MASHss_to_WALTER" />
+          <path d="m 0, 95 v 39 h 15" id="MASHss_to_Fighting_Nightinggales" />
+        </g>
+        <g id="MASH_TV" transform="translate(0,0)">
+          <title id="MASH_TV_title">M*A*S*Hss</title>
+          <path d="m 80,14 h 170 v 194 h 15" class="one_cross" id="MASH_TV_to_St_Elsewhere" />
+          <rect id="MASH_TV_box"  x="0" y="0" width="78" height="28" class="cbs" />
+          <text id="MASH_TV_text" x="6" y="14">M*A*S*H</text>
+        </g>
+        <g id="AfterMASH" transform="translate(30,40)">
+          <title id="AfterMASH_title">AfterMASH</title>
+          <rect id="AfterMASH_box"  x="0" y="0" width="93" height="28" class="cbs" />
+          <text id="AfterMASH_text" x="6" y="14">AfterMASH</text>
+        </g>
+        <g id="WALTER" transform="translate(30,80)">
+          <title id="WALTER_title">W*A*L*T*E*R</title>
+          <rect id="WALTER_box"  x="0" y="0" width="112" height="28" class="cbs" />
+          <text id="WALTER_text" x="6" y="14">W*A*L*T*E*R</text>
+        </g>
+        <g id="Fighting_Nightinggales" transform="translate(30,120)">
+          <title id="Fighting_Nightinggales_title">The Fighting Nightinggales</title>
+          <rect id="Fighting_Nightinggales_box"  x="0" y="0" width="203" height="28" class="cbs" />
+          <text id="Fighting_Nightinggales_text" x="6" y="14">The Fighting Nightinggales</text>
+        </g>
+      </g>
+      <g id="Trapper_John_MD" transform="translate(30,200)">
+        <title id="Trapper_John_MD_title">Trapper John, M.D.</title>
+        <rect id="Trapper_John_MD_box"  x="0" y="0" width="148" height="28" class="cbs" />
+        <text id="Trapper_John_MD_text" x="6" y="14">Trapper John, M.D.</text>
+      </g>
+    </g>
+    <g id="White_Shadow" transform="translate(1621,698)">
+      <title id="White_Shadow_title">The White Shadow</title>
+      <path d="m 150,14 h 40" class="one_cross" id="White_Shadow_to_St_Elsewhere" />
+      <rect id="White_Shadow_box"  x="0" y="0" width="148" height="28" class="cbs" />
+      <text id="White_Shadow_text" x="6" y="14">The White Shadow</text>
+    </g>
+    <g id="I_Dream_of_Jeannie_franchise" transform="translate(1376,796)">
+      <title id="I_Dream_of_Jeannie_franchise_title">I Dream of Jeannie</title>
+      <g class="spinoff" id="I_Dream_of_Jeannie_spinoff_lines" transform="translate(13)">
+        <title id="I_Dream_of_Jeannie_spinoff_lines_title">The I Dream of Jeannie spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="I_Dream_of_Jeannie_to_I_Dream_of_Jeannie_Fifteen_Years_Later" />
+        <path d="m 0, 55 v 39 h 15" id="I_Dream_of_Jeannie_to_I_Still_Dream_of_Jeannie" />
+      </g>
+      <g id="I_Dream_of_Jeannie" transform="translate(0,0)">
+        <title id="I_Dream_of_Jeannie_title">I Dream of Jeannie</title>
+        <path d="m 149,14 h 45" class="one_cross" id="Bob_Newhart_19th_Anniversary_Special_to_I_Dream_Of_Jeannie" />
+        <rect id="I_Dream_of_Jeannie_box"  x="0" y="0" width="147" height="28" class="nbc" />
+        <text id="I_Dream_of_Jeannie_text" x="6" y="14">I Dream of Jeannie</text>
+      </g>
+      <g id="I_Dream_of_Jeannie_Fifteen_Years_Later" transform="translate(30,40)">
+        <title id="I_Dream_of_Jeannie_Fifteen_Years_Later_title">I Dream of Jeannie...Fifteen Years Later</title>
+        <rect id="I_Dream_of_Jeannie_Fifteen_Years_Later_box"  x="0" y="0" rx="10" width="297" height="28" class="nbc tv_film" />
+        <text id="I_Dream_of_Jeannie_Fifteen_Years_Later_text" x="6" y="14">I Dream of Jeannie...Fifteen Years Later</text>
+      </g>
+      <g id="I_Still_Dream_of_Jeannie" transform="translate(30,80)">
+        <title id="I_Still_Dream_of_Jeannie_title">I Still Dream of Jeannie</title>
+        <rect id="I_Still_Dream_of_Jeannie_box"  x="0" y="0" rx="10" width="178" height="28" class="nbc tv_film" />
+        <text id="I_Still_Dream_of_Jeannie_text" x="6" y="14">I Still Dream of Jeannie</text>
+      </g>
+    </g>
+    <g id="Bob_Newhart_franchise" transform="translate(1542,738)">
+      <title id="Bob_Newhart_franchise_title">The Bob Newhart Show</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Bob_Newhart_to_Bob_Newhart_Show_19th_Anniversary_Special" />
+      <g id="Bob_Newhart" transform="translate(0,0)">
+        <title id="Bob_Newhart_title">The Bob Newhart Show</title>
+        <g class="one_cross" id="Bob_Newhart_crossovers" transform="translate(184,14)">
+          <title id="Bob_Newhart_crossovers_title">Bob_Newhart crossovers</title>
+          <path d="m 0,0 h 70" id="Bob_Newhart_to" />
+          <g transform="translate(70,0)">
+            <path d="m 0,0 v -34 h 15" id="Bob_Newhart_to_St_Elsewhere" />
+            <path d="m 0,0 v   2 h 15" id="Bob_Newhart_to_Newhart" />
+            <path d="m 0,0 v 162 h 15" id="Bob_Newhart_to_Bob" />
+            <path d="m 0,0 v 703 h 24" id="Bob_Newhart_to_Murphy_Brown" />
+          </g>
+        </g>
+        <rect id="Bob_Newhart_box"  x="0" y="0" width="182" height="28" class="cbs" />
+        <text id="Bob_Newhart_text" x="6" y="14">The Bob Newhart Show</text>
+      </g>
+      <g id="Bob_Newhart_19th_Anniversary_Special" transform="translate(30,40)">
+        <title id="Bob_Newhart_19th_Anniversary_Special_title">The Bob Newhart Show 19th Anniversary Special</title>
+        <rect id="Bob_Newhart_19th_Anniversary_Special_box"  x="0" y="0" width="192" height="46" class="cbs" />
+        <text id="Bob_Newhart_19th_Anniversary_Special_text" x="6" y="14">The Bob Newhart Show:</text>
+        <text id="Bob_Newhart_19th_Anniversary_Special_text" x="6" y="32">19th Anniversary Special</text>
+      </g>
+    </g>
+
+    <g id="St_Elsewhere" transform="translate(1813,701)">
+      <title id="St_Elsewhere_title">St. Elsewhere</title>
+      <rect id="St_Elsewhere_box"  x="0" y="0" width="110" height="28" class="nbc" />
+      <text id="St_Elsewhere_text" x="6" y="14">St. Elsewhere</text>
+    </g>
+
+    <g id="Newhart" transform="translate(1813,741)">
+      <title id="Newhart_title">Newhart</title>
+      <path d="m 76,14 h 498" class="one_cross" id="Newhart_to_Coach" />
+      <rect id="Newhart_box"  x="0" y="0" width="74" height="28" class="cbs"/>
+      <text id="Newhart_text" x="6" y="14">Newhart</text>
+    </g>
+    <g id="Hill_Street_Blues_franchise" transform="translate(1830,781)">
+      <title id="Hill_Street_Blues_franchise_title">Hill Street Blues</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Hill_Street_Blues_to_Beverly_Hill_Buntz" />
+      <g id="Hill_Street_Blues" transform="translate(0,0)">
+        <title id="Hill_Street_Blues_title">Hill Street Blues</title>
+        <g id="Hill_Street_Blues_crossovers" class="one_cross" transform="translate(130,14)">
+          <title id="Hill_Street_Blues_crossovers_title">Hill_Street_Blues crossovers</title>
+          <path d="m 0,0 h 66" id="Hill_Street_Blues_to" />
+          <g transform="translate(66,0)">
+            <path d="m 0,0 h 15" id="Hill_Street_Blues_to_Cop_Rock" />
+            <path d="m 0,0 v 40 h 15" id="Hill_Street_Blues_to_NYPD_Blue" />
+          </g>
+        </g>
+        <rect id="Hill_Street_Blues_box" x="0" y="0" width="128" height="28" class="nbc" />
+        <text id="Hill_Street_Blues_text" x="6" y="14">Hill Street Blues</text>
+      </g>
+      <g id="Beverly_Hill_Buntz" transform="translate(30,40)">
+        <title id="Beverly_Hill_Buntz_title">Beverly Hill Buntz</title>
+        <rect id="Beverly_Hill_Buntz_box" x="0" y="0" width="140" height="28" class="nbc" />
+        <text id="Beverly_Hill_Buntz_text" x="6" y="14">Beverly Hill Buntz</text>
+      </g>
+    </g>
+    <g id="Civil_Wars" transform="translate(1813,861)">
+      <title id="Civil_Wars_title">Civil Wars</title>
+      <path d="m 87,14 h 24" class="one_cross" id="Civil_Wars_to_L.A._Law" />
+      <rect id="Civil_Wars_box" x="0" y="0" width="85" height="28" class="abc" />
+      <text id="Civil_Wars_text" x="6" y="14">Civil Wars</text>
+    </g>
+    <g id="Bob" transform="translate(1813,901)">
+      <title id="Bob_title">Bob</title>
+      <rect id="Bob_box"  x="0" y="0" width="41" height="28" class="cbs" />
+      <text id="Bob_text" x="6" y="14">Bob</text>
+    </g>
+    <g id="Home_Improvement_franchise" transform="translate(1842,941)">
+      <title id="Home_Improvement_franchise_title">Home Improvement</title>
+      <g class="spinoff" id="Home_Improvement_spinoff_lines" transform="translate(13)">
+        <title id="Home_Improvement_spinoff_lines_title">The Home Improvement spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Home_Improvement_to_Buddies" />
+      </g>
+      <g id="Home_Improvement" transform="translate(0,0)">
+        <title id="Home_Improvement_title">Home Improvement</title>
+        <g class="one_cross" id="Home_Improvement_crossovers" transform="translate(155,14)">
+          <title id="Home_Improvement_crossovers_title">Home_Improvement crossovers</title>
+          <path d="m 0,0 h 15" id="Home_Improvement_to" />
+          <g transform="translate(15,0)">
+            <path d="m 0,0 h 15" id="Home_Improvement_to_Thunder_Alley" />
+            <path d="m 0,0 v 40 h 15" id="Home_Improvement_to_Soul_Man" />
+            <path d="m 0,0 v 65 h 143 v -152 h 232" id="Home_Improvement_to_Drew_Carey" />
+          </g>
+        </g>
+        <rect id="Home_Improvement_box" x="0" y="0" width="153" height="28" class="abc" />
+        <text id="Home_Improvement_text" x="6" y="14">Home Improvement</text>
+      </g>
+      <g id="Buddies" transform="translate(30,40)">
+        <title id="Buddies_title">Buddies</title>
+        <rect id="Buddies_box" x="0" y="0" width="72" height="28" class="abc" />
+        <text id="Buddies_text" x="6" y="14">Buddies</text>
+      </g>
+    </g>
+    <g id="LA_Law_franchise" transform="translate(1926,861)">
+      <title id="LA_Law_franchise_title">L.A. Law</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="LA_Law_to_LA_Law_Movie" />
+      <g id="L.A._Law" transform="translate(0,0)">
+        <title id="LA_Law_title">L.A. Law</title>
+        <path d="m 76,14 h 15 v -74 h 6 m 6,0 h 12" class="one_cross" id="LA_Law_to_Cop_Rock" />
+        <rect id="LA_Law_box" x="0" y="0" width="75" height="28" class="nbc" />
+        <text id="LA_Law_text" x="6" y="14">L.A. Law</text>
+      </g>
+      <g id="LA_Law_Movie" transform="translate(30,40)">
+        <title id="LA_Law_Movie_title">L.A. Law: The Movie</title>
+        <rect id="LA_Law_Movie_box" x="0" y="0" rx="10" width="157" height="28" class="nbc tv_film" />
+        <text id="LA_Law_Movie_text" x="6" y="14">L.A. Law: The Movie</text>
+      </g>
+    </g>
+    <g id="Cop_Rock" transform="translate(2043,784)">
+      <title id="Cop_Rock_title">Cop Rock</title>
+      <rect id="Cop_Rock_box" x="0" y="0" width="83" height="28" class="abc" />
+      <text id="Cop_Rock_text" x="6" y="14">Cop Rock</text>
+    </g>
+    <g id="NYPD_Blue" transform="translate(2043,824)">
+      <title id="NYPD_Blue_title">NYPD Blue</title>
+      <g id="NYPD_Blue_crossovers" class="one_cross" transform="translate(97,14)">
+        <title id="NYPD_Blue_crossovers_title">NYPD_Blue crossovers</title>
+        <path d="m 0,0 h 15" id="NYPD_Blue_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 15"      id="NYPD_Blue_to_Public_Morals" />
+          <path d="m 0,0 v 24 h 232" id="NYPD_Blue_to_Drew_Carey" />
+        </g>
+      </g>
+      <rect id="NYPD_Blue_box" x="0" y="0" width="95" height="28" class="abc" />
+      <text id="NYPD_Blue_text" x="6" y="14">NYPD Blue</text>
+    </g>
+    <g id="Thunder_Alley" transform="translate(2027,941)">
+      <title id="Thunder_Alley_title">Thunder Alley</title>
+      <rect id="Thunder_Alley_box" x="0" y="0" width="111" height="28" class="abc" />
+      <text id="Thunder_Alley_text" x="6" y="14">Thunder Alley</text>
+    </g>
+    <g id="Soul_Man" transform="translate(2027,981)">
+      <title id="Soul_Man_title">Soul Man</title>
+      <rect id="Soul_Man_box" x="0" y="0" width="79" height="28" class="abc" />
+      <text id="Soul_Man_text" x="6" y="14">Soul Man</text>
+    </g>
+    <g id="Public_Morals" transform="translate(2172,824)">
+      <title id="Public_Morals_title">Public Morals</title>
+      <rect id="Public_Morals_box" x="0" y="0" width="110" height="28" class="tnt" />
+      <text id="Public_Morals_text" x="6" y="14">Public Morals</text>
+    </g>
+    <g id="Man_About_House_franchise" transform="translate(2172,878)">
+      <title id="Man_About_House_franchise_title">Man About the House</title>
+      <g id="Man_About_House_spinoff_lines" transform="translate(13)">
+        <title id="Man_About_House_spinoff_lines_title">The Man About the House spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="Man_About_House_to_George_Mildred" />
+        <path d="m 0, 55 v 39 h 15" class="spinoff" id="Man_About_House_to_Robins_Nest" />
+        <path d="m 0, 95 v 39 h 15" class="non_spinoff" id="Man_About_House_to_Threes_Company" />
+      </g>
+      <g id="Man_About_House" transform="translate(0,0)">
+        <title id="Man_About_House_title">Man About the House</title>
+        <rect id="Man_About_House_box" x="0" y="0" width="166" height="28" />
+        <text id="Man_About_House_text" x="6" y="14">Man About the House</text>
+      </g>
+      <g id="George_Mildred" transform="translate(30,40)">
+        <title id="George_Mildred_title">George and Mildred</title>
+        <rect id="George_Mildred_box" x="0" y="0" width="153" height="28" />
+        <text id="George_Mildred_text" x="6" y="14">George and Mildred</text>
+      </g>
+      <g id="Robins_Nest" transform="translate(30,80)">
+        <title id="Robins_Nest_title">Robin&#700;s Nest</title>
+        <rect id="Robins_Nest_box" x="0" y="0" width="105" height="28" />
+        <text id="Robins_Nest_text" x="6" y="14">Robin&#700;s Nest</text>
+      </g>
+      <g id="Threes_Company_franchise" transform="translate(30,120)" class="abc">
+        <title id="Threes_Company_franchise_title">Three&apos;s Company</title>
+        <g class="spinoff" id="Threes_Company_spinoff_lines" transform="translate(13)">
+          <title id="Threes_Company_spinoff_lines_title">The Three&#700;s Company spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Threes_Company_to_Ropers" />
+          <path d="m 0, 55 v 39 h 15" id="Threes_Company_to_Threes_Crowd" />
+        </g>
+        <g id="Threes_Company" transform="translate(0,0)">
+          <title id="Threes_Company_title">Three&#700;s Company</title>
+          <path d="m 139,14 h 46" class="one_cross" id="Threes_Company_to_Ellen" />
+          <rect id="Threes_Company_box" x="0" y="0" width="137" height="28" />
+          <text id="Threes_Company_text" x="6" y="14">Three&#700;s Company</text>
+        </g>
+        <g id="Ropers" transform="translate(30,40)">
+          <title id="Ropers_title">The Ropers</title>
+          <rect id="Ropers_box" x="0" y="0" width="95" height="28" />
+          <text id="Ropers_text" x="6" y="14">The Ropers</text>
+        </g>
+        <g id="Threes_Crowd" transform="translate(30,80)">
+          <title id="Threes_Crowd_title">Three&#700;s a Crowd</title>
+          <rect id="Threes_Crowd_box" x="0" y="0" width="128" height="28" />
+          <text id="Threes_Crowd_text" x="6" y="14">Three&#700;s a Crowd</text>
+        </g>
+      </g>
+    </g>
+    <g id="Viva_Las_Vegas" class="event_cross" transform="translate(2372,811)">
+      <path d="m 0,0 v -54 m 0,-4 v -41 h 15" id="Viva_Las_Vegas_to_" />
+      <path d="m 0,0 v -54 m 0,-4 v  -4 h 15" id="Viva_Las_Vegas_to_" />
+      <path d="m 0,0 v  45 h 15" id="Viva_Las_Vegas_to_" />
+      <path d="m 0,0 v  48 m 0,6 v 0 m 0,6 v 112 h 15" id="Viva_Las_Vegas_to_" />
+    </g>
+    <g id="Grace_Under_Fire" transform="translate(2389,698)">
+      <title id="Grace_Under_Fire_title">Grace Under Fire</title>
+      <rect id="Grace_Under_Fire_box" x="0" y="0" width="134" height="28" class="abc" />
+      <text id="Grace_Under_Fire_text" x="6" y="14">Grace Under Fire</text>
+    </g>
+    <g id="Coach" transform="translate(2389,738)">
+      <title id="Coach_title">Coach</title>
+      <rect id="Coach_box" x="0" y="0" width="58" height="28" class="abc" />
+      <text id="Coach_text" x="6" y="14">Coach</text>
+    </g>
+    <g id="Drew_Carey" transform="translate(2389,850)">
+      <title id="Drew_Carey_title">The Drew Carey Show</title>
+      <g id="Drew_Cary_crossovers" class="one_cross" transform="translate(175,14)">
+        <title id="Drew_Cary_crossovers_title">Drew_Cary crossovers</title>
+        <path d="m 0,0 h 15" id="Drew_Cary_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h  15" id="Drew_Cary_to_Two_Guys_Girl_Pizza_Place" />
+          <path d="m 0,0 v 295 h 215 v 298 h 201" id="Drew_Cary_to_Hugleys" />
+          <path d="m 0,0 v 320 h 15" id="Drew_Cary_to_Norm" />
+          <path d="m 0,0 v 390 h 15" id="Drew_Cary_to_Geena_Davis" />
+        </g>
+      </g>
+      <rect id="Drew_Carey_box" x="0" y="0" width="173" height="28" class="abc" />
+      <text id="Drew_Carey_text" x="6" y="14">The Drew Carey Show</text>
+    </g>
+    <g id="These_Friends_of_Mine_to_Ellen" transform="translate(2389,968)" class="abc two_names">
+      <g id="These_Friends_of_Mine" transform="translate(0,0)">
+        <title id="These_Friends_of_Mine_title">These Friends of Mine</title>
+        <rect id="These_Friends_of_Mine_box" x="0" y="0" width="169" height="28" />
+        <text id="These_Friends_of_Mine_text" x="6" y="14">These Friends of Mine</text>
+      </g>
+      <g id="Ellen" transform="translate(0,30)">
+        <title id="Ellen_title">Ellen</title>
+        <rect id="Ellen_box" x="0" y="0" width="49" height="28" />
+        <text id="Ellen_text" x="6" y="14">Ellen</text>
+      </g>
+    </g>
+    <g id="Two_Guys_Girl_Pizza_Place_to_Two_Guys_Girl" transform="translate(2596,848)" class="abc two_names">
+      <g id="Two_Guys_Girl_Pizza_Place" transform="translate(0,0)">
+        <title id="Two_Guys_Girl_Pizza_Place_title">Two Guys, a Girl and a Pizza Place</title>
+        <rect id="Two_Guys_Girl_Pizza_Place_box" x="0" y="0" width="261" height="28" />
+        <text id="Two_Guys_Girl_Pizza_Place_text" x="6" y="14">Two Guys, a Girl and a Pizza Place</text>
+      </g>
+      <g id="Two_Guys_Girl" transform="translate(0,30)">
+        <title id="Two_Guys_Girl_title">Two Guys and a Girl</title>
+        <rect id="Two_Guys_Girl_box" x="0" y="0" width="156" height="28" />
+        <text id="Two_Guys_Girl_text" x="6" y="14">Two Guys and a Girl</text>
+      </g>
+    </g>
+    <g id="Happy_Days_franchise" transform="translate(2596,918)" class="abc">
+      <title id="Happy_Days_franchise_title">Happy Days</title>
+      <g class="spinoff" id="Happy_Days_spinoff_lines" transform="translate(13)">
+        <title id="Happy_Days_spinoff_lines_title">The Happy Days spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Happy_Days_to_Laverne_and_Shirley" />
+        <path d="m 0,  54 v 40 h 15" id="Happy_Days_to_Blanskys_Beauties" />
+        <path d="m 0,  94 v 40 h 15" id="Happy_Days_to_Mork_and_Mindy" />
+        <path d="m 0, 134 v 40 h 15" id="Happy_Days_to_Out_of_Blue" />
+        <path d="m 0, 175 v 40 h 15" id="Happy_Days_to_Joanie_Loves_Chachi" />
+      </g>
+      <g id="Happy_Days" transform="translate(0,0)">
+        <title id="Happy_Days_title">Happy Days</title>
+        <path d="m 103,14 h 110" class="one_cross" id="Happy_Days_to_Perfect_Strangers" />
+        <g id="Happy_Days_crossovers" transform="translate(103,14)" class="one_cross">
+          <title id="Happy_Days_crossovers_title">Happy Days crossovers</title>
+          <path d="m 0,0 h 107" id="Happy_Days_to" />
+          <g transform="translate(107,0)">
+            <path d="m 0,0 h 15" id="Happy_Days_to_Perfect_Strangers" />
+            <path d="m 0,0 v 77 m 0,6 v 407 h -9 m -6,0 h -375 v 248 h -1556 v 25" id="Happy_Days_to_Instant_Mom" class="q_one_cross" />
+          </g>
+        </g>
+        <rect id="Happy_Days_box" x="0" y="0" width="101" height="28" />
+        <text id="Happy_Days_text" x="6" y="14">Happy Days</text>
+      </g>
+      <g id="Laverne_and_Shirley" transform="translate(30,40)">
+        <title id="Laverne_and_Shirley_title">Laverne &amp; Shirley</title>
+        <path d="m 142,14 h 23 v 40 h 30" class="one_cross" id="Laverne_and_Shirley_to_Scary_Movie" />
+        <rect id="Laverne_and_Shirley_box" x="0" y="0" width="140" height="28" />
+        <text id="Laverne_and_Shirley_text" x="6" y="14">Laverne &amp; Shirley</text>
+      </g>
+      <g id="Blanskys_Beauties" transform="translate(30,80)">
+        <title id="Blanskys_Beauties_title">Blansky&#700;s Beauties</title>
+        <rect id="Blanskys_Beauties_box" x="0" y="0" width="148" height="28" />
+        <text id="Blanskys_Beauties_text" x="6" y="14">Blansky&#700;s Beauties</text>
+      </g>
+      <g id="Mork_and_Mindy" transform="translate(30,120)">
+        <title id="Mork_and_Mindy_title">Mork &amp; Mindy</title>
+        <rect id="Mork_and_Mindy_box" x="0" y="0" width="110" height="28" />
+        <text id="Mork_and_Mindy_text" x="6" y="14">Mork &amp; Mindy</text>
+      </g>
+      <g id="Out_of_Blue" transform="translate(30,160)">
+        <title id="Out_of_Blue_title">Out of the Blue</title>
+        <rect id="Out_of_Blue_box" x="0" y="0" width="116" height="28" />
+        <text id="Out_of_Blue_text" x="6" y="14">Out of the Blue</text>
+      </g>
+      <g id="Joanie_Loves_Chachi" transform="translate(30,200)">
+        <title id="Joanie_Loves_Chachi_title">Joanie Loves Chachi</title>
+        <rect id="Joanie_Loves_Chachi_box" x="0" y="0" width="163" height="28" />
+        <text id="Joanie_Loves_Chachi_text" x="6" y="14">Joanie Loves Chachi</text>
+      </g>
+    </g>
+    <g id="Norm_show_to_Norm" class="two_names" transform="translate(2596,1168)">
+      <g id="Norm_show" transform="translate(0,0)">
+        <title id="Norm_show_title">The Norm Show</title>
+        <rect id="Norm_show_box" x="0" y="0" width="127" height="28" class="abc" />
+        <text id="Norm_show_text" x="6" y="14">The Norm Show</text>
+      </g>
+      <g id="Norm" transform="translate(0,30)">
+        <title id="Norm_title">Norm</title>
+        <rect id="Norm_box" x="0" y="0" width="51" height="28" class="abc" />
+        <text id="Norm_text" x="6" y="14">Norm</text>
+      </g>
+    </g>
+    <g id="Geena_Davis" transform="translate(2596,1238)">
+      <title id="Geena_Davis_title">The Geena Davis Show</title>
+      <rect id="Geena_Davis_box" x="0" y="0" width="181" height="28" class="abc" />
+      <text id="Geena_Davis_text" x="6" y="14">The Geena Davis Show</text>
+    </g>
+    <g id="Perfect_Strangers_franchise" transform="translate(2823,918)">
+      <title id="Perfect_Strangers_franchise_title">Perfect Strangers</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Perfect_Strangers_to_Family_Matters" />
+      <g id="Perfect_Strangers" transform="translate(0,0)">
+        <title id="Perfect_Strangers_title">Perfect Strangers</title>
+        <rect id="Perfect_Strangers_box" x="0" y="0" width="136" height="28" class="abc" />
+        <text id="Perfect_Strangers_text" x="6" y="14">Perfect Strangers</text>
+      </g>
+      <g id="Family_Matters" transform="translate(30,40)">
+        <title id="Family_Matters_title">Family Matters</title>
+        <g id="Family_Matters_crossovers" class="one_cross" transform="translate(119,14)">
+          <title id="Family_Matters_crossovers_title">Family_Matters crossovers</title>
+          <path d="m 0,0 h 15" id="Family_Matters_to" />
+          <g transform="translate(15,0)">
+            <path d="m 0,0 h  15"      id="Family_Matters_to_Full_House" />
+            <path d="m 0,0 v  80 h 15" id="Family_Matters_to_Step_by_Step" />
+            <path d="m 0,0 v 157 h 15" id="Family_Matters_to_Meego" />
+          </g>
+        </g>
+        <rect id="Family_Matters_box_1" x="0" y="0" width="117" height="28" class="abc" />
+        <rect id="Family_Matters_box_2" x="4" y="4" width="109" height="20" class="cbs inner" />
+        <text id="Family_Matters_text" x="6" y="14">Family Matters</text>
+      </g>
+    </g>
+    <g id="Scary_Movie_franchise" transform="translate(2823,998)">
+      <title id="Scary_Movie_franchise_title">Scary Movie</title>
+      <g class="spinoff" id="Scary_Movie_spinoff_lines" transform="translate(13)">
+        <title id="Scary_Movie_spinoff_lines_title">The Scary Movie spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Scary_Movie_to_Scary_Movie_2" />
+        <path d="m 0, 55 v 39 h 15" id="Scary_Movie_to_Scary_Movie_3" />
+        <path d="m 0, 95 v 39 h 15" id="Scary_Movie_to_Scary_Movie_4" />
+        <path d="m 0, 135 v 39 h 15" id="Scary_Movie_to_Scary_Movie_5" />
+      </g>
+      <g id="Scary_Movie" transform="translate(0,0)">
+        <title id="Scary_Movie_title">Scary Movie</title>
+        <rect id="Scary_Movie_box" x="0" y="0" rx="10" width="99" height="28" class="film" />
+        <text id="Scary_Movie_text" x="6" y="14">Scary Movie</text>
+      </g>
+      <g id="Scary_Movie_2" transform="translate(30,40)">
+        <title id="Scary_Movie_2_title">Scary Movie 2</title>
+        <rect id="Scary_Movie_2_box" x="0" y="0" rx="10" width="112" height="28" class="film" />
+        <text id="Scary_Movie_2_text" x="6" y="14">Scary Movie 2</text>
+      </g>
+      <g id="Scary_Movie_3" transform="translate(30,80)">
+        <title id="Scary_Movie_3_title">Scary Movie 3</title>
+        <rect id="Scary_Movie_3_box" x="0" y="0" rx="10" width="112" height="28" class="film" />
+        <text id="Scary_Movie_3_text" x="6" y="14">Scary Movie 3</text>
+      </g>
+      <g id="Scary_Movie_4" transform="translate(30,120)">
+        <title id="Scary_Movie_4_title">Scary Movie 4</title>
+        <rect id="Scary_Movie_4_box" x="0" y="0" rx="10" width="112" height="28" class="film" />
+        <text id="Scary_Movie_4_text" x="6" y="14">Scary Movie 4</text>
+      </g>
+      <g id="Scary_Movie_5" transform="translate(30,160)">
+        <title id="Scary_Movie_5_title">Scary Movie 5</title>
+        <rect id="Scary_Movie_5_box" x="0" y="0" rx="10" width="113" height="28" class="film" />
+        <text id="Scary_Movie_5_text" x="6" y="14">Scary Movie 5</text>
+      </g>
+    </g>
+    <g id="Gilligans_Island_franchise" transform="translate(2823,1198)">
+      <title id="Gilligans_Island_franchise_title">Gilligan&#700;s Island</title>
+      <g class="spinoff" id="Gilligans_Island_spinoff_lines" transform="translate(13)">
+        <title id="Gilligans_Island_spinoff_lines_title">The Gilligan&#700;s Island spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Gilligans_Island_to_Rescue_from_Gilligans_Island" />
+        <path d="m 0, 55 v 39 h 15" id="Gilligans_Island_to_Castaways_on_Gilligans_Island" />
+        <path d="m 0, 95 v 39 h 15" id="Gilligans_Island_to_Harlem_Globetrotters_on_Gilligans_Island" />
+      </g>
+      <g id="Gilligans_Island" transform="translate(0,0)">
+        <title id="Gilligans_Island_title">Gilligan&#700;s Island</title>
+        <path d="m 127,14 h 37 v -77 h 15" class="one_cross" id="Gilligans_Island_to_Meego" />
+        <rect id="Gilligans_Island_box" x="0" y="0" width="125" height="28" class="cbs" />
+        <text id="Gilligans_Island_text" x="6" y="14">Gilligan&#700;s Island</text>
+      </g>
+      <g id="Rescue_from_Gilligans_Island" transform="translate(30,40)">
+        <title id="Rescue_from_Gilligans_Island_title">Rescue from Gilligan&#700;s Island</title>
+        <rect id="Rescue_from_Gilligans_Island_box" x="0" y="0" rx="10" width="220" height="28" class="nbc tv_film" />
+        <text id="Rescue_from_Gilligans_Island_text" x="6" y="14">Rescue from Gilligan&#700;s Island</text>
+      </g>
+      <g id="Castaways_on_Gilligans_Island" transform="translate(30,80)">
+        <title id="Castaways_on_Gilligans_Island_title">The Castaways on Gilligan&#700;s Island</title>
+        <rect id="Castaways_on_Gilligans_Island_box" x="0" y="0" rx="10" width="261" height="28" class="nbc tv_film" />
+        <text id="Castaways_on_Gilligans_Island_text" x="6" y="14">The Castaways on Gilligan&#700;s Island</text>
+      </g>
+      <g id="Harlem_Globetrotters_on_Gilligans_Island" transform="translate(30,120)">
+        <title id="Harlem_Globetrotters_on_Gilligans_Island_title">The Harlem Globetrotters on Gilligan&#700;s Island</title>
+        <rect id="Harlem_Globetrotters_on_Gilligans_Island_box" x="0" y="0" rx="10" width="329" height="28" class="nbc tv_film" />
+        <text id="Harlem_Globetrotters_on_Gilligans_Island_text" x="6" y="14">The Harlem Globetrotters on Gilligan&#700;s Island</text>
+      </g>
+    </g>
+    <g id="Girlfriends_franchise" transform="translate(2987,1358)">
+      <title id="Girlfriends_franchise_title">Girlfriends</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Girlfriends_to_Game" />
+      <g id="Girlfriends" transform="translate(0,0)">
+        <title id="Girlfriends_title">Girlfriends</title>
+        <path d="m 87,14 h 30" class="one_cross" id="Girlfriends_to_Moesha" />
+        <rect id="Girlfriends_box_1" x="0" y="0" width="85" height="28" class="upn" />
+        <rect id="Girlfriends_box_2" x="4" y="4" width="77" height="20" class="cw inner" />
+        <text id="Girlfriends_text" x="6" y="14">Girlfriends</text>
+      </g>
+      <g id="Game" transform="translate(30,40)">
+        <title id="Game_title">The Game</title>
+        <rect id="Game_box_1" x="0" y="0" width="85" height="28" class="cw" />
+        <rect id="Game_box_2" x="4" y="4" width="77" height="20" class="bet inner" />
+        <text id="Game_text" x="6" y="14">The Game</text>
+      </g>
+    </g>
+    <g id="Hugleys" transform="translate(2997,1438)">
+      <title id="Hugleys_title">The Hugleys</title>
+      <path d="m 104,14 h 15 v -37 h 15" class="one_cross" id="Hughleys_to_Parkers" />
+      <rect id="Hugleys_box_1" x="0" y="0" width="102" height="28" class="abc" />
+      <rect id="Hugleys_box_2" x="4" y="4" width="94" height="20" class="upn inner" />
+      <text id="Hugleys_text" x="6" y="14">The Hugleys</text>
+    </g>
+    <g id="Full_House_franchise" transform="translate(3004,958)">
+      <title id="Full_House_franchise_title">Full House</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Full_House_to_Fuller_House" />
+      <g id="Full_House" transform="translate(0,0)">
+        <title id="Full_House_title">Full House</title>
+        <path d="m 92,14 h 24" class="one_cross" id="Full_House_to_Hangin_with_Mr._Cooper" />
+        <rect id="Full_House_box" x="0" y="0" width="90" height="28" class="abc" />
+        <text id="Full_House_text" x="6" y="14">Full House</text>
+      </g>
+      <g id="Fuller_House" transform="translate(30,40)">
+        <title id="Fuller_House_title">Fuller House</title>
+        <rect id="Fuller_House_box" x="0" y="0" width="104" height="28" class="netflix" />
+        <text id="Fuller_House_text" x="6" y="14">Fuller House</text>
+      </g>
+    </g>
+    <g id="Step_by_Step" transform="translate(3004,1038)">
+      <title id="Step_by_Step_title">Step by Step</title>
+      <path d="m 104,14 h 165" class="one_cross" id="Step_by_Step_to_Boy_Meets_World" />
+      <rect id="Step_by_Step_box" x="0" y="0" width="102" height="28" class="abc" />
+      <text id="Step_by_Step_text" x="6" y="14">Step by Step</text>
+    </g>
+    <g id="Sabrina_Teenage_Witch" transform="translate(3004,1078)">
+      <title id="Sabrina_Teenage_Witch_title">Sabrina the Teenage Witch</title>
+      <g id="Sabrina_Teenage_Witch_crossovers" transform="translate(207,14)">
+        <title id="Sabrina_Teenage_Witch_crossovers_title">Sabrina_Teenage_Witch crossovers</title>
+        <path d="m 0,0 h 15" class="one_cross" id="Sabrina_Teenage_Witch_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 v -34 h 47" class="one_cross" id="Sabrina_Teenage_Witch_to_Boy_Meets_World" />
+          <path d="m 0,0 v 123 h 47" class="one_cross" id="Sabrina_Teenage_Witch_to_Clueless" />
+          <path d="m 0,0 v  26 h 15" class="event_cross" id="Sabrina_Teenage_Witch_to_Time Bomb" />
+          <g id="Time_Bomb" class="event_cross" transform="translate(15)">
+            <path d="m 0,0 v -28 h 32" class="one_cross" id="Sabrina_Teenage_Witch_Time_Bomb_to_Boy_Meets_World" />
+            <path d="m 0,0 v  46 h 32" class="one_cross" id="Sabrina_Teenage_Witch_Time_Bomb_to_You_Wish" />
+            <path d="m 0,0 v  86 h 32" class="one_cross" id="Sabrina_Teenage_Witch_Time_Bomb_to_Teen_Angel" />
+          </g>
+        </g>
+      </g>
+      <rect id="Sabrina_Teenage_Witch_box_1" x="0" y="0" width="205" height="28" class="abc" />
+      <rect id="Sabrina_Teenage_Witch_box_2" x="4" y="4" width="197" height="20" class="wb inner" />
+      <text id="Sabrina_Teenage_Witch_text" x="6" y="14">Sabrina the Teenage Witch</text>
+    </g>
+    <g id="Meego" transform="translate(3004,1118)">
+      <title id="Meego_title">Meego</title>
+      <rect id="Meego_box" x="0" y="0" width="61" height="28" class="cbs" />
+      <text id="Meego_text" x="6" y="14">Meego</text>
+    </g>
+    <g id="Moesha_franchise" transform="translate(3103,1358)" class="upn">
+      <title id="Moesha_franchise_title">Moesha</title>
+      <path d="m 13, 30 v 21 h 15" class="spinoff" id="Moesha_to_Parkers" />
+      <g id="Moesha" transform="translate(0,0)">
+        <title id="Moesha_title">Moesha</title>
+        <path d="m 71,14 h 52 v -151 h 47" class="one_cross" id="Moesha_to_Clueless" />
+        <rect id="Moesha_box" x="0" y="0" width="69" height="28" />
+        <text id="Moesha_text" x="6" y="14">Moesha</text>
+      </g>
+      <g id="Parkers" transform="translate(30,40)">
+        <title id="Parkers_title">The Parkers</title>
+        <rect id="Parkers_box" x="0" y="0" width="98" height="28" />
+        <text id="Parkers_text" x="6" y="14">The Parkers</text>
+      </g>
+    </g>
+    <g id="Saved_by_Bell_franchise" transform="translate(2427,1433)">
+      <title id="Saved_by_Bell_franchise_title">Saved by the Bell</title>
+      <g id="Saved_by_Bell_spinoff_lines" class="spinoff" transform="translate(13,30)">
+        <title id="Saved_by_Bell_spinoff_lines_title">The Saved by the Bell spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Saved_by_Bell_to_Saved_by_Bell_New_Class" />
+        <path d="m 0, 55 v 39 h 15" id="Saved_by_Bell_to_Saved_by_Bell_College_Years" />
+      </g>
+      <g id="Good_Morning_Miss_Bliss" transform="translate(0,0)">
+        <title id="Good_Morning_Miss_Bliss_title">Good Morning, Miss Bliss</title>
+        <rect id="Good_Morning_Miss_Bliss_box" x="0" y="0" width="193" height="28" class="disney" />
+        <text id="Good_Morning_Miss_Bliss_text" x="6" y="14">Good Morning, Miss Bliss</text>
+      </g>
+      <g id="Saved_by_Bell" transform="translate(0,30)">
+        <title id="Saved_by_Bell_title">Saved by the Bell</title>
+        <path d="m 139,14 h 201" class="one_cross" id="Saved_by_Bell_to_Thats_So_Raven" />
+        <rect id="Saved_by_Bell_box" x="0" y="0" width="137" height="28" class="nbc" />
+        <text id="Saved_by_Bell_text" x="6" y="14">Saved by the Bell</text>
+      </g>
+      <g id="Saved_by_Bell_New_Class" transform="translate(30,70)">
+        <title id="Saved_by_Bell_New_Class_title">Saved by the Bell: The New Class</title>
+        <rect id="Saved_by_Bell_New_Class_box" x="0" y="0" width="255" height="28" class="nbc" />
+        <text id="Saved_by_Bell_New_Class_text" x="6" y="14">Saved by the Bell: The New Class</text>
+      </g>
+      <g id="Saved_by_Bell_College_Years" transform="translate(30,110)">
+        <title id="Saved_by_Bell_College_Years_title">Saved by the Bell: The College Years</title>
+        <rect id="Saved_by_Bell_College_Years_box" x="0" y="0" width="279" height="28" class="nbc" />
+        <text id="Saved_by_Bell_College_Years_text" x="6" y="14">Saved by the Bell: The College Years</text>
+      </g>
+    </g>
+    <g id="Hangin_With_Mr._Cooper" transform="translate(3122,958)">
+      <title id="Hangin_With_Mr._Cooper_title">Hangin&#700; With Mr. Cooper</title>
+      <rect id="Hangin_With_Mr._Cooper_box" x="0" y="0" width="188" height="28" class="abc" />
+      <text id="Hangin_With_Mr._Cooper_text" x="6" y="14">Hangin&#700; With Mr. Cooper</text>
+    </g>
+    <g id="Boy_Meets_World_franchise" transform="translate(3273,1044)">
+      <title id="Boy_Meets_World_franchise_title">Boy Meets World</title>
+      <path d="m 13, 30 v 21 h 15" class="spinoff" id="Boy_Meets_World_to_Girl_Meets_World" />
+      <g id="Boy_Meets_World" transform="translate(0,0)">
+        <title id="Boy_Meets_World_title">Boy Meets World</title>
+        <rect id="Boy_Meets_World_box" x="0" y="0" width="134" height="28" class="abc" />
+        <text id="Boy_Meets_World_text" x="6" y="14">Boy Meets World</text>
+      </g>
+      <g id="Girl_Meets_World" transform="translate(30,40)">
+        <title id="Girl_Meets_World_title">Girl Meets World</title>
+        <rect id="Girl_Meets_World_box" x="0" y="0" width="130" height="28" class="disney" />
+        <text id="Girl_Meets_World_text" x="6" y="14">Girl Meets World</text>
+      </g>
+    </g>
+    <g id="You_Wish" transform="translate(3273,1121)">
+      <title id="You_Wish_title">You Wish</title>
+      <rect id="You_Wish_box" x="0" y="0" width="80" height="28" class="abc" />
+      <text id="You_Wish_text" x="6" y="14">You Wish</text>
+    </g>
+    <g id="Teen_Angel" transform="translate(3273,1164)">
+      <title id="Teen_Angel_title">Teen Angel</title>
+      <rect id="Teen_Angel_box" x="0" y="0" width="94" height="28" class="abc" />
+      <text id="Teen_Angel_text" x="6" y="14">Teen Angel</text>
+    </g>
+    <g id="Clueless" transform="translate(3273,1204)">
+      <title id="Clueless_title">Clueless</title>
+      <rect id="Clueless_box" x="0" y="0" width="75" height="28" class="abc" />
+      <rect id="Clueless_box" x="4" y="4" width="67" height="20" class="upn inner" />
+      <text id="Clueless_text" x="6" y="14">Clueless</text>
+    </g>
+    <g id="Disney_group_1" transform="translate(2743,1466)" class="disney">
+      <g id="Wizards_on_Deck_with_Hannah_Montana" transform="translate(0,254)" class="event_cross">
+        <path d="m 0,0 v -57  h 36 m 6,0 h 12" id="Wizards_on_Deck_with_Hannah_Montana_to_Suite_Life_on_Deck" />
+        <path d="m 0,0 v -125 h 6 m 6,0 h 219 v -63 h 15" id="Wizards_on_Deck_with_Hannah_Montana_to_Hannah_Montana" />
+        <path d="m 0,0 v  20  h 25" id="Wizards_on_Deck_with_Hannah_Montana_to_Wizards_of_Waverly_Place" />
+      </g>
+      <g id="Thats_So_Suite_Life_of_Hannah_Montana" transform="translate(9,134)" class="event_cross">
+        <path d="m 0,0 v -117 h 15" id="Thats_So_Suite_Life_of_Hannah_Montana_to_Thats_So_Raven" />
+        <path d="m 0,0 v   20 h 15" id="Thats_So_Suite_Life_of_Hannah_Montana_to_Suite_Life_of_Zack_and_Cody" />
+        <path d="m 0,0 v  -15 h 212 v -59 h 25" id="Thats_So_Suite_Life_of_Hannah_Montana_to_Hannah_Montana" />
+      </g>
+      <g id="Thats_So_Raven_franchise" transform="translate(26,0)">
+        <title id="Thats_So_Raven_franchise_title">That&#700;s So Raven</title>
+        <g class="spinoff" id="Thats_So_Raven_spinoff_lines" transform="translate(13)">
+          <title id="Thats_So_Raven_spinoff_lines_title">The That&#700;s So Raven spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Thats_So_Raven_to_Corey_in_House" />
+          <path d="m 0, 55 v 39 h 15" id="Thats_So_Raven_to_Ravens_Home" />
+        </g>
+        <g id="Thats_So_Raven" transform="translate(0,0)">
+          <title id="Thats_So_Raven_title">That&#700;s So Raven</title>
+          <rect id="Thats_So_Raven_box" x="0" y="0" width="128" height="28" class="disney" />
+          <text id="Thats_So_Raven_text" x="6" y="14">That&#700;s So Raven</text>
+        </g>
+        <g id="Corey_in_House" transform="translate(30,40)">
+          <title id="Corey_in_House_title">Corey in the House</title>
+          <path d="m 150,14 h 40" class="one_cross" id="Corey_in_House_to_Hannah_Montana" />
+          <rect id="Corey_in_House_box" x="0" y="0" width="148" height="28" />
+          <text id="Corey_in_House_text" x="6" y="14">Corey in the House</text>
+        </g>
+        <g id="Ravens_Home" transform="translate(30,80)">
+          <title id="Ravens_Home_title">Raven&#700;s Home</title>
+          <rect id="Ravens_Home_box" x="0" y="0" width="117" height="28" />
+          <text id="Ravens_Home_text" x="6" y="14">Raven&#700;s Home</text>
+        </g>
+      </g>
+      <g id="Suite_Life_of_Zack_and_Cody_franchise" transform="translate(26,140)">
+        <title id="Suite_Life_of_Zack_and_Cody_franchise_title">The Suite Life of Zack &amp; Cody</title>
+        <g class="spinoff" id="Suite_Life_of_Zack_and_Cody_spinoff_lines" transform="translate(13)">
+          <title id="Suite_Life_of_Zack_and_Cody_spinoff_lines_title">The The Suite Life of Zack &amp; Cody spinoffs</title>
+          <path d="m 0, 30 v 21 h 15" id="Suite_Life_of_Zack_and_Cody_to_Suite_Life_on_Deck" />
+          <path d="m 0, 52 v 42 h 15" id="Suite_Life_of_Zack_and_Cody_to_Suite_Life_Movie" />
+        </g>
+        <g id="Suite_Life_of_Zack_and_Cody" transform="translate(0,0)">
+          <title id="Suite_Life_of_Zack_and_Cody_title">The Suite Life of Zack &amp; Cody</title>
+          <rect id="Suite_Life_of_Zack_and_Cody_box" x="0" y="0" width="223" height="28" />
+          <text id="Suite_Life_of_Zack_and_Cody_text" x="6" y="14">The Suite Life of Zack &amp; Cody</text>
+        </g>
+        <g id="Suite_Life_on_Deck" transform="translate(30,40)">
+          <title id="Suite_Life_on_Deck_title">The Suite Life on Deck</title>
+          <g class="one_cross" id="Suite_Life_on_Deck_crossovers" transform="translate(175,14)">
+            <title id="Suite_Life_on_Deck_crossovers_title">Suite_Life_on_Deck crossovers</title>
+            <path d="m 0,0 h 292" id="Suite_Life_on_Deck_to" />
+            <g transform="translate(292,0)">
+              <path d="m 0,0 v -94 h 7 m 6,0 h 12"  id="Suite_Life_on_Deck_to_Im_in_Band" />
+              <path d="m 0,0 v  51 h 175 v -27 h 25" id="Suite_Life_on_Deck_to_Jessie" />
+            </g>
+          </g>
+          <rect id="Suite_Life_on_Deck_box" x="0" y="0" width="173" height="28" />
+          <text id="Suite_Life_on_Deck_text" x="6" y="14">The Suite Life on Deck</text>
+        </g>
+        <g id="Suite_Life_Movie" transform="translate(30,80)">
+          <title id="Suite_Life_Movie_title">The Suite Life Movie</title>
+          <rect id="Suite_Life_Movie_box" x="0" y="0" rx="10" width="156" height="28" class="disney tv_film"/>
+          <text id="Suite_Life_Movie_text" x="6" y="14">The Suite Life Movie</text>
+        </g>
+      </g>
+      <g id="Wizards_of_Waverly_Place_franchise" transform="translate(26,260)">
+        <title id="Wizards_of_Waverly_Place_franchise_title">Wizards of Waverly Place</title>
+        <g class="spinoff" id="Wizards_of_Waverly_Place_spinoff_lines" transform="translate(13)">
+          <title id="Wizards_of_Waverly_Place_spinoff_lines_title">The Wizards of Waverly Place spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Wizards_of_Waverly_Place_to_Wizards_of_Waverly_Place_Movie" />
+          <path d="m 0, 55 v 39 h 15" id="Wizards_of_Waverly_Place_to_Wizards_Return_Alex_vs._Alex" />
+        </g>
+        <g id="Wizards_of_Waverly_Place" transform="translate(0,0)">
+          <title id="Wizards_of_Waverly_Place_title">Wizards of Waverly Place</title>
+          <rect id="Wizards_of_Waverly_Place_box" x="0" y="0" width="192" height="28" />
+          <text id="Wizards_of_Waverly_Place_text" x="6" y="14">Wizards of Waverly Place</text>
+        </g>
+        <g id="Wizards_of_Waverly_Place_Movie" transform="translate(30,40)">
+          <title id="Wizards_of_Waverly_Place_Movie_title">Wizards of Waverly Place: The Movie</title>
+          <rect id="Wizards_of_Waverly_Place_Movie_box" x="0" y="0" rx="10" width="275" height="28" class="tv_film"/>
+          <text id="Wizards_of_Waverly_Place_Movie_text" x="6" y="14">Wizards of Waverly Place: The Movie</text>
+        </g>
+        <g id="Wizards_Return_Alex_vs._Alex" transform="translate(30,80)">
+          <title id="Wizards_Return_Alex_vs._Alex_title">The Wizards Return: Alex vs. Alex</title>
+          <rect id="Wizards_Return_Alex_vs._Alex_box" x="0" y="0" rx="10" width="253" height="28" class="tv_film" />
+          <text id="Wizards_Return_Alex_vs._Alex_text" x="6" y="14">The Wizards Return: Alex vs. Alex</text>
+        </g>
+      </g>
+      <g id="Hannah_Montana_franchise" transform="translate(248,46)">
+        <title id="Hannah_Montana_franchise_title">Hannah Montana</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Hannah_Montana_to_Hannah_Montana_Movie" />
+        <g id="Hannah_Montana" transform="translate(0,0)">
+          <title id="Hannah_Montana_title">Hannah Montana</title>
+          <g class="one_cross" id="Hannah_Montana_crossovers" transform="translate(137,14)">
+            <title id="Hannah_Montana_crossovers_title">Hannah_Montana crossovers</title>
+            <path d="m 0,0 h 148" id="Hannah_Montana_to" />
+            <g transform="translate(148,0)">
+              <path d="m 0,0 h 15"         id="Hannah_Montana_to_A.N.T._Farm" />
+              <path d="m 0,0 v 148 h 15" id="Hannah_Montana_to_Liv_Maddie" />
+            </g>
+          </g>
+          <rect id="Hannah_Montana_box" x="0" y="0" width="135" height="28" />
+          <text id="Hannah_Montana_text" x="6" y="14">Hannah Montana</text>
+        </g>
+        <g id="Hannah_Montana_Movie" transform="translate(30,40)">
+          <title id="Hannah_Montana_Movie_title">Hannah Montana: The Movie</title>
+          <rect id="Hannah_Montana_Movie_box" x="0" y="0" rx="10" width="218" height="28" class="film" />
+          <text id="Hannah_Montana_Movie_text" x="6" y="14">Hannah Montana: The Movie</text>
+        </g>
+      </g>
+    </g>
+    <g id="Disney_group_2" transform="translate(3293,1512)" class="disney">
+      <g id="Monstober_2015_crossovers" class="event_cross" transform="translate(-37,128)">
+        <title id="Monstober_2015_crossovers_title">Monstober_2015 crossovers</title>
+          <path d="m 0,0 v -111 m 0,-6
+                    v -299
+                          m 0,-6 v 0
+                          m 0,-6 v -31
+                          m 0,-6 v -34
+                          m 0,-6 v -34 h 45" id="Monstober_2015_to_Girl_Meets_World" />
+        <path d="m 0,0 v  81 h 195 v -31 h 15" id="Monstober_2015_to_Jessie" />
+        <path d="m 0,0 v 100 h 36" id="Monstober_2015_to_I_Didnt_Do_It" />
+        <path d="m 0,0 v 140 h 36" id="Monstober_2015_to_K.C._Undercover" />
+        <path d="m 0,0 v 180 h 36" id="Monstober_2015_to_Best_Friends_Whenever" />
+        <path d="m 0,0 v   0 h 7 m 6,0 h 4 m 6,0 h 12" id="Monstober_2015_to_Austin_and_Ally" />
+        <path d="m 0,0 v  43 h 7 m 6,0 h 22" id="Monstober_2015_to_Liv_Maddie" />
+      </g>
+      <g id="ANT_Farm" transform="translate(0,0)">
+        <title id="ANT_Farm_title">A.N.T. Farm</title>
+        <rect id="ANT_Farm_box" x="0" y="0" width="99" height="28" />
+        <text id="ANT_Farm_text" x="6" y="14">A.N.T. Farm</text>
+      </g>
+      <g id="Im_in_Band" transform="translate(0,40)">
+        <title id="Im_in_Band_title">I&#700;m in the Band</title>
+        <rect id="Im_in_Band_box" x="0" y="0" width="118" height="28" />
+        <text id="Im_in_Band_text" x="6" y="14">I&#700;m in the Band</text>
+      </g>
+      <g id="Shake_It_Up" transform="translate(0,80)">
+        <title id="Shake_It_Up_title">Shake It Up</title>
+        <path d="m 96,14 h 154 v 27 h 15" class="one_cross" id="Shake_It_Up_to_Good_Luck_Charlie" />
+        <rect id="Shake_It_Up_box" x="0" y="0" width="94" height="28" />
+        <text id="Shake_It_Up_text" x="6" y="14">Shake It Up</text>
+      </g>
+      <g id="Austin_and_Ally" transform="translate(0,120)">
+        <title id="Austin_and_Ally_title">Austin &amp; Ally</title>
+        <path d="m 107,11 h 32  v 29 h 35" class="two_cross" id="Austin_and_Ally_to_Jessie" />
+        <rect id="Austin_and_Ally_box" x="0" y="0" width="105" height="28" />
+        <text id="Austin_and_Ally_text" x="6" y="14">Austin &amp; Ally</text>
+      </g>
+      <g id="Liv_Maddie" transform="translate(0,160)">
+        <title id="Liv_Maddie_title">Liv and Maddie</title>
+        <path d="m 123,14 h 15 v -8 h 35" class="one_cross" id="Liv_Maddie_to_Jessie" />
+        <rect id="Liv_Maddie_box" x="0" y="0" width="121" height="28" />
+        <text id="Liv_Maddie_text" x="6" y="14">Liv and Maddie</text>
+      </g>
+      <g id="Jessie_franchise" transform="translate(175,155)">
+        <title id="Jessie_franchise_title">Jessie</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Jessie_to_Bunkd" />
+        <g id="Jessie" transform="translate(0,0)">
+          <title id="Jessie_title">Jessie</title>
+          <path d="m 60,14 h 15 v -42 h 15" class="one_cross" id="Jessie_to_Good_Luck_Charlie" />
+          <rect id="Jessie_box" x="0" y="0" width="58" height="28" />
+          <text id="Jessie_text" x="6" y="14">Jessie</text>
+        </g>
+        <g id="Bunkd" transform="translate(30,40)">
+          <title id="Bunkd_title">Bunk&#700;d</title>
+          <rect id="Bunkd_box" x="0" y="0" width="62" height="28" />
+          <text id="Bunkd_text" x="6" y="14">Bunk&#700;d</text>
+        </g>
+      </g>
+      <g id="I_Didnt_Do_It" transform="translate(0,220)">
+        <title id="I_Didnt_Do_It_title">I Didn&#700;t Do It</title>
+        <rect id="I_Didnt_Do_It_box" x="0" y="0" width="100" height="28" />
+        <text id="I_Didnt_Do_It_text" x="6" y="14">I Didn&#700;t Do It</text>
+      </g>
+      <g id="KC_Undercover" transform="translate(0,260)">
+        <title id="KC_Undercover_title">K.C. Undercover</title>
+        <rect id="KC_Undercover_box" x="0" y="0" width="132" height="28" />
+        <text id="KC_Undercover_text" x="6" y="14">K.C. Undercover</text>
+      </g>
+      <g id="Best_Friends_Whenever" transform="translate(0,300)">
+        <title id="Best_Friends_Whenever_title">Best Friends Whenever</title>
+        <rect id="Best_Friends_Whenever_box" x="0" y="0" width="181" height="28" />
+        <text id="Best_Friends_Whenever_text" x="6" y="14">Best Friends Whenever</text>
+      </g>
+      <g id="Good_Luck_Charlie" transform="translate(267,110)">
+        <title id="Good_Luck_Charlie_title">Good Luck Charlie</title>
+        <rect id="Good_Luck_Charlie_box" x="0" y="0" width="144" height="28" class="disney" />
+        <text id="Good_Luck_Charlie_text" x="6" y="14">Good Luck Charlie</text>
+      </g>
+    </g>
+
+    <g id="All_in_the_Families_group" transform="translate(0,1580)">
+      <g id="All_in_Family_franchise" transform="translate(0,0)" class="cbs">
+        <title id="All_in_Family_franchise_title">All in the Family</title>
+        <g class="spinoff" id="All_in_Family_spinoff_lines" transform="translate(13)">
+          <title id="All_in_Family_spinoff_lines_title">The All in the Family spinoffs</title>
+          <path d="m 0,  30 v  24 h 15" id="All_in_Family_to_Maude" />
+          <path d="m 0,  55 v 119 h 15" id="All_in_Family_to_Jeffersons" />
+          <path d="m 0, 175 v  79 h 15" id="All_in_Family_to_Archie_Bunkers_Place" />
+          <path d="m 0, 255 v  39 h 15" id="All_in_Family_to_Gloria" />
+          <path d="m 0, 295 v  39 h 15" id="All_in_Family_to_seven_hundred_and_four_Houser" />
+        </g>
+        <g id="All_in_Family" transform="translate(0,0)">
+          <title id="All_in_Family_title">All in the Family</title>
+          <rect id="All_in_Family_box" x="0" y="0" width="128" height="28" />
+          <text id="All_in_Family_text" x="6" y="14">All in the Family</text>
+        </g>
+        <g id="Maude_franchise" transform="translate(30,40)">
+          <title id="Maude_franchise_title">Maude</title>
+          <g id="Maude_spinoff_lines" transform="translate(13)">
+            <title id="Maude_spinoff_lines_title">The Maude spinoffs</title>
+            <path d="m 0, 30 v 24 h 15" class="spinoff" id="Maude_to_Good_Times" />
+            <path d="m 0, 55 v 39 h 15" class="semi_spinoff" id="Maude_to_Hanging_In" />
+          </g>
+          <g id="Maude" transform="translate(0,0)">
+            <title id="Maude_title">Maude</title>
+            <rect id="Maude_box" x="0" y="0" width="61" height="28" />
+            <text id="Maude_text" x="6" y="14">Maude</text>
+          </g>
+          <g id="Good_Times" transform="translate(30,40)">
+            <title id="Good_Times_title">Good Times</title>
+            <rect id="Good_Times_box" x="0" y="0" width="99" height="28" />
+            <text id="Good_Times_text" x="6" y="14">Good Times</text>
+          </g>
+          <g id="Hanging_In" transform="translate(30,80)">
+            <title id="Hanging_In_title">Hanging In</title>
+            <path d="m 92,14 h 236" class="q_one_cross" id="Hanging_In_to_Soap" />
+            <rect id="Hanging_In_box" x="0" y="0" width="90" height="28" class="cbs" />
+            <text id="Hanging_In_text" x="6" y="14">Hanging In</text>
+          </g>
+        </g>
+        <g id="Jeffersons_franchise" transform="translate(30,160)">
+          <title id="Jeffersons_franchise_title">The Jeffersons</title>
+          <path d="m 13, 30 v 24 h 15" class="spinoff" id="Jeffersons_to_Checking_In" />
+          <g id="Jeffersons" transform="translate(0,0)">
+            <title id="Jeffersons_title">The Jeffersons</title>
+            <g class="one_cross" id="Jeffersons_crossovers" transform="translate(118,14)">
+              <title id="Jeffersons_crossovers_title">Jeffersons crossovers</title>
+              <path d="m 0,0 h 172" id="Jeffersons_to" />
+              <g transform="translate(172,0)">
+                <path d="m 0,0 h 15"       id="Jeffersons_to_ER_1984" />
+                <path d="m 0,0 v 265 h 15" id="Jeffersons_to_Fresh_Prince_of_Bel-Air" />
+              </g>
+            </g>
+            <rect id="Jeffersons_box" x="0" y="0" width="116" height="28" />
+            <text id="Jeffersons_text" x="6" y="14">The Jeffersons</text>
+          </g>
+          <g id="Checking_In" transform="translate(30,40)">
+            <title id="Checking_In_title">Checking In</title>
+            <rect id="Checking_In_box" x="0" y="0" width="96" height="28" />
+            <text id="Checking_In_text" x="6" y="14">Checking In</text>
+          </g>
+        </g>
+        <g id="Archie_Bunkers_Place" transform="translate(30,240)">
+          <title id="Archie_Bunkers_Place_title">Archie Bunker&#700;s Place</title>
+          <rect id="Archie_Bunkers_Place_box" x="0" y="0" width="170" height="28" class="cbs" />
+          <text id="Archie_Bunkers_Place_text" x="6" y="14">Archie Bunker&#700;s Place</text>
+        </g>
+        <g id="Gloria" transform="translate(30,280)">
+          <title id="Gloria_title">Gloria</title>
+          <rect id="Gloria_box" x="0" y="0" width="54" height="28" />
+          <text id="Gloria_text" x="6" y="14">Gloria</text>
+        </g>
+        <g id="Seven_hundred_and_four_Houser" transform="translate(30,320)">
+          <title id="Seven_hundred_and_four_Houser_title">704 Houser</title>
+          <rect id="Seven_hundred_and_four_Houser_box" x="0" y="0" width="96" height="28" />
+          <text id="Seven_hundred_and_four_Houser_text" x="6" y="14">704 Houser</text>
+        </g>
+      </g>
+      <g id="Soap_franchise" transform="translate(380,120)" class="abc">
+        <title id="Soap_franchise_title">Soap</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Soap_to_Benson" />
+        <g id="Soap" transform="translate(0,0)">
+          <title id="Soap_title">Soap</title>
+          <rect id="Soap_box" x="0" y="0" width="49" height="28" />
+          <text id="Soap_text" x="6" y="14">Soap</text>
+        </g>
+        <g id="Benson" transform="translate(30,40)">
+          <title id="Benson_title">Benson</title>
+          <rect id="Benson_box" x="0" y="0" width="67" height="28" />
+          <text id="Benson_text" x="6" y="14">Benson</text>
+        </g>
+      </g>
+      <g id="ER_1984" transform="translate(337,160)">
+        <title id="ER_1984_title">E/R</title>
+        <rect id="ER_1984_box"  x="0" y="0" width="39" height="28" class="cbs" />
+        <text id="ER_1984_text" x="6" y="14">E/R</text>
+      </g>
+      <g id="Diffrent_Strokes_franchise" transform="translate(0,360)">
+        <title id="Diffrent_Strokes_franchise_title">Diff&#700;rent Strokes</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Diffrent_Strokes_to_Facts_of_Life" />
+        <g id="Diffrent_Strokes" transform="translate(0,0)">
+          <title id="Diffrent_Strokes_title">Diff&#700;rent Strokes</title>
+          <g class="one_cross" id="Diffrent_Strokes_crossovers" transform="translate(127,14)">
+            <title id="Diffrent_Strokes_crossovers_title">Diffrent_Strokes crossovers</title>
+            <path d="m 0,0 h 48" id="Diffrent_Strokes_to" />
+            <g transform="translate(48,0)">
+              <path d="m 0,0 h 15"       id="Diffrent_Strokes_to_Hello_Larry" />
+              <path d="m 0,0 v 40 h  15" id="Diffrent_Strokes_to_Silver_Spoons" />
+              <path d="m 0,0 v 65 h 160" id="Diffrent_Strokes_to_Fresh_Prince_of_Bel-Air" />
+            </g>
+          </g>
+          <rect id="Diffrent_Strokes_box_1" x="0" y="0" width="125" height="28" class="nbc" />
+          <rect id="Diffrent_Strokes_box_2" x="4" y="4" width="117" height="20" class="abc inner" />
+          <text id="Diffrent_Strokes_text" x="6" y="14">Diff&#700;rent Strokes</text>
+        </g>
+        <g id="Facts_of_Life" transform="translate(30,40)">
+          <title id="Facts_of_Life_title">The Facts of Life</title>
+          <rect id="Facts_of_Life_box" x="0" y="0" width="128" height="28" class="nbc" />
+          <text id="Facts_of_Life_text" x="6" y="14">The Facts of Life</text>
+        </g>
+      </g>
+      <g id="Hello_Larry" transform="translate(191,360)">
+        <title id="Hello_Larry_title">Hello, Larry</title>
+        <rect id="Hello_Larry_box" x="0" y="0" width="95" height="28" class="nbc" />
+        <text id="Hello_Larry_text" x="6" y="14">Hello, Larry</text>
+      </g>
+      <g id="Silver_Spoons" transform="translate(191,400)">
+        <title id="Silver_Spoons_title">Silver Spoons</title>
+        <rect id="Silver_Spoons_box_1" x="0" y="0" width="112" height="28" class="nbc" />
+        <rect id="Silver_Spoons_box_2" x="4" y="4" width="104" height="20" class="syn inner" />
+        <text id="Silver_Spoons_text" x="6" y="14">Silver Spoons</text>
+      </g>
+      <g id="Fresh_Prince_of_Bel-Air" transform="translate(337,424)">
+        <title id="Fresh_Prince_of_Bel-Air_title">The Fresh Prince of Bel-Air</title>
+        <g id="Fresh_Prince_of_Bel-Air_crossovers" class="one_cross" transform="translate(207,14)">
+          <title id="Fresh_Prince_of_Bel-Air_crossovers_title">Fresh_Prince_of_Bel-Air crossovers</title>
+          <path d="m 0,0 h 15" id="Fresh_Prince_of_Bel-Air_to" />
+          <g transform="translate(15,0)">
+            <path d="m 0,0 h 15"      id="Fresh_Prince_of_Bel-Air_to_Blossom" />
+            <path d="m 0,0 v 40 h 15" id="Fresh_Prince_of_Bel-Air_to_Out_All_Night" />
+            <path d="m 0,0 v 80 h 15" id="Fresh_Prince_of_Bel-Air_to_In_House" />
+          </g>
+        </g>
+        <rect id="Fresh_Prince_of_Bel-Air_box"  x="0" y="0" width="205" height="28" class="nbc" />
+        <text id="Fresh_Prince_of_Bel-Air_text" x="6" y="14">The Fresh Prince of Bel-Air</text>
+      </g>
+      <g id="Blossom" transform="translate(576,421)">
+        <title id="Blossom_title">Blossom</title>
+        <rect id="Blossom_box" x="0" y="0" width="74" height="28" class="nbc" />
+        <text id="Blossom_text" x="6" y="14">Blossom</text>
+      </g>
+      <g id="Out_All_Night" transform="translate(576,461)">
+        <title id="Out_All_Night_title">Out All Night</title>
+        <rect id="Out_All_Night_box" x="0" y="0" width="103" height="28" class="nbc" />
+        <text id="Out_All_Night_text" x="6" y="14">Out All Night</text>
+      </g>
+      <g id="In_House" transform="translate(576,501)">
+        <title id="In_House_title">In the House</title>
+        <rect id="In_House_box_1" x="0" y="0" width="102" height="28" class="nbc" />
+        <rect id="In_House_box_2" x="4" y="4" width="94" height="20" class="upn inner" />
+        <text id="In_House_text" x="6" y="14">In the House</text>
+      </g>
+    </g>
+    <g id="Hooterville_group" transform="translate(244,1121)">
+      <g id="Hooterville_crossovers" class="two_cross" transform="translate(0,94)">
+        <title id="Hooterville_crossovers_title">Hooterville crossovers</title>
+        <g transform="translate(15,0)">
+          <path d="m 0,0 v -80 h 15" id="Hooterville_to_Beverly_Hillbillies" />
+          <path d="m 0,0 h 15"      id="Hooterville_to_Petticoat_Junction" />
+          <path d="m 0,0 v  40 h 15" id="Hooterville_to_Green_Acres" />
+        </g>
+      </g>
+      <g id="Beverly_Hillbillies_franchise" transform="translate(31,0)">
+        <title id="Beverly_Hillbillies_franchise_title">The Beverly Hillbillies</title>
+        <g class="spinoff" id="Beverly_Hillbillies_spinoff_lines" transform="translate(13)">
+          <title id="Beverly_Hillbillies_spinoff_lines_title">The The Beverly Hillbillies spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Beverly_Hillbillies_to_Return_of_Beverly_Hillbillies" />
+        </g>
+        <g id="Beverly_Hillbillies" transform="translate(0,0)">
+          <title id="Beverly_Hillbillies_title">The Beverly Hillbillies</title>
+          <path d="m 169,14 h 24" class="one_cross" id="Beverly_Hillbillies_to_Mister_Ed" />
+          <rect id="Beverly_Hillbillies_box"  x="0" y="0" width="167" height="28" class="cbs" />
+          <text id="Beverly_Hillbillies_text" x="6" y="14">The Beverly Hillbillies</text>
+        </g>
+        <g id="Return_of_Beverly_Hillbillies" transform="translate(30,40)">
+          <title id="Return_of_Beverly_Hillbillies_title">The Return of the Beverly Hillbillies</title>
+          <rect id="Return_of_Beverly_Hillbillies_box"  x="0" y="0" rx="10" width="262" height="28" class="cbs tv_film" />
+          <text id="Return_of_Beverly_Hillbillies_text" x="6" y="14">The Return of the Beverly Hillbillies</text>
+        </g>
+      </g>
+      <g id="Mister_Ed" transform="translate(226,0)">
+        <title id="Mister_Ed_title">Mister Ed</title>
+        <rect id="Mister_Ed_box" x="0" y="0" width="80" height="28" class="cbs" />
+        <text id="Mister_Ed_text" x="6" y="14">Mister Ed</text>
+      </g>
+      <g id="Petticoat_Junction" transform="translate(31,80)">
+        <title id="Petticoat_Junction_title">Petticoat Junction</title>
+        <path d="m 140,14 h 167" class="q_one_cross" id="Petticoat_Junction_to_Brady_Bunch" />
+        <rect id="Petticoat_Junction_box" x="0" y="0" width="138" height="28" class="cbs" />
+        <text id="Petticoat_Junction_text" x="6" y="14">Petticoat Junction</text>
+      </g>
+      <g id="Green_Acres_franchise" transform="translate(31,120)">
+        <title id="Green_Acres_franchise_title">Green Acres</title>
+        <g class="spinoff" id="Green_Acres_spinoff_lines" transform="translate(13)">
+          <title id="Green_Acres_spinoff_lines_title">The Green Acres spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Green_Acres_to_Return_to_Green_Acres" />
+        </g>
+        <g id="Green_Acres" transform="translate(0,0)">
+          <title id="Green_Acres_title">Green Acres</title>
+          <path d="m 103,14 h 24" class="one_cross" id="Green_Acres_to_Hogans_Heroes" />
+          <rect id="Green_Acres_box"  x="0" y="0" width="101" height="28" class="cbs" />
+          <text id="Green_Acres_text" x="6" y="14">Green Acres</text>
+        </g>
+        <g id="Return_to_Green_Acres" transform="translate(30,40)">
+          <title id="Return_to_Green_Acres_title">Return to Green Acres</title>
+          <rect id="Return_to_Green_Acres_box"  x="0" y="0" rx="10" width="171" height="28" class="cbs tv_film" />
+          <text id="Return_to_Green_Acres_text" x="6" y="14">Return to Green Acres</text>
+        </g>
+      </g>
+      <g id="Hogans_Heroes" transform="translate(160,120)">
+        <title id="Hogans_Heroes_title">Hogan&#700;s Heroes</title>
+        <rect id="Hogans_Heroes_box" x="0" y="0" width="128" height="28" class="cbs" />
+        <text id="Hogans_Heroes_text" x="6" y="14">Hogan&#700;s Heroes</text>
+      </g>
+    </g>
+    <g id="Ghostbusters_franchise" transform="translate(347,1844)">
+      <title id="Ghostbusters_franchise_title">Ghostbusters</title>
+      <g class="spinoff" id="Ghostbusters_spinoff_lines" transform="translate(13)">
+        <title id="Ghostbusters_spinoff_lines_title">The Ghostbusters spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Ghostbusters_to_Ghostbusters_II" />
+        <path d="m 0, 54 v 40 h 15" id="Ghostbusters_to_Ghostbusters_2016" class="non_spinoff" />
+        <path d="m 0, 94 v 40 h 15" id="Ghostbusters_to_Ghostbusters_Afterlife" />
+      </g>
+      <g id="Ghostbusters" transform="translate(0,0)">
+        <title id="Ghostbusters_title">Ghostbusters</title>
+        <path d="m 106,14 h 103 m 6,0 h 12" class="one_cross" id="Ghostbusters_to_Casper" />
+        <rect id="Ghostbusters_box"  x="0" y="0" rx="10" width="106" height="28" class="film" />
+        <text id="Ghostbusters_text" x="6" y="14">Ghostbusters</text>
+      </g>
+      <g id="Ghostbusters_II" transform="translate(30,40)">
+        <title id="Ghostbusters_II_title">Ghostbusters II</title>
+        <rect id="Ghostbusters_II_box"  x="0" y="0" rx="10" width="118" height="28" class="film" />
+        <text id="Ghostbusters_II_text" x="6" y="14">Ghostbusters II</text>
+      </g>
+      <g id="Ghostbusters_2016" transform="translate(30,80)">
+        <title id="Ghostbusters_2016_title">Ghostbusters (2016)</title>
+        <rect id="Ghostbusters_2016_box"  x="0" y="0" rx="10" width="153" height="28" class="film" />
+        <text id="Ghostbusters_2016_text" x="6" y="14">Ghostbusters <tspan id="Ghostbusters_2016_year">(2016)</tspan></text>
+      </g>
+      <g id="Ghostbusters_Afterlife" transform="translate(30,120)">
+        <title id="Ghostbusters_Afterlife_title">Ghostbusters: Afterlife</title>
+        <rect id="Ghostbusters_Afterlife_box"  x="0" y="0" rx="10" width="167" height="28" class="film" />
+        <text id="Ghostbusters_Afterlife_text" x="6" y="14">Ghostbusters: Afterlife</text>
+      </g>
+    </g>
+    <g id="Father_Knows_Best" transform="translate(674,1041)">
+      <title id="Father_Knows_Best_title">Father Knows Best</title>
+      <path d="m 151,14 h 39" class="one_cross" id="Father_Knows_Best_to_Love_Boat" />
+      <rect id="Father_Knows_Best_box_1" x="0" y="0" width="149" height="28" class="cbs" />
+      <rect id="Father_Knows_Best_box_2" x="4" y="4" width="141" height="20" class="nbc inner" />
+      <text id="Father_Knows_Best_text" x="6" y="14">Father Knows Best</text>
+    </g>
+    <g id="Leave_It_to_Beaver_franchise" transform="translate(554,1081)">
+      <title id="Leave_It_to_Beaver_franchise_title">Leave It to Beaver</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Leave_It_to_Beaver_to_Still_Beaver" />
+      <g id="Leave_It_to_Beaver" transform="translate(0,0)">
+        <title id="Leave_It_to_Beaver_title">Leave It to Beaver</title>
+        <g class="one_cross" id="Leave_It_to_Beaver_crossovers" transform="translate(144,14)">
+          <title id="Leave_It_to_Beaver_crossovers_title">Leave_It_to_Beaver crossovers</title>
+          <path d="m 0,0 h 142" id="Leave_It_to_Beaver_to" />
+          <g transform="translate(142,0)">
+            <path d="m 0,0 v -40 h 24"  id="Leave_It_to_Beaver_to_Love_Boat" />
+            <path d="m 0,0 v 117 m 0,6 v 194 m 0,6 v 3 h 19" id="Leave_It_to_Beaver_to_Parker_Lewis_Cant_Lose" />
+          </g>
+        </g>
+        <rect id="Leave_It_to_Beaver_box_1" x="0" y="0" width="142" height="28" class="cbs" />
+        <rect id="Leave_It_to_Beaver_box_2" x="4" y="4" width="134" height="20" class="abc inner" />
+        <text id="Leave_It_to_Beaver_text" x="6" y="14">Leave It to Beaver</text>
+      </g>
+      <g id="Still_Beaver_franchise" transform="translate(30,40)">
+        <title id="Still_Beaver_franchise_title">Still the Beaver</title>
+        <path d="m 13, 30 v 24 h 19" class="spinoff" id="Still_Beaver_to_New_Leave_It_to_Beaver" />
+        <g id="Still_Beaver" transform="translate(0,0)">
+          <title id="Still_Beaver_title">Still the Beaver</title>
+          <rect id="Still_Beaver_box"  x="0" y="0" rx="10" width="121" height="28" class="cbs tv_film" />
+          <text id="Still_Beaver_text" x="6" y="14">Still the Beaver</text>
+        </g>
+        <g id="New_Leave_It_to_Beaver" transform="translate(30,40)">
+          <title id="New_Leave_It_to_Beaver_title">The New Leave It to Beaver</title>
+          <rect id="New_Leave_It_to_Beaver_box" x="0" y="0" width="209" height="28" class="disney" />
+          <rect id="New_Leave_It_to_Beaver_box" x="4" y="4" width="201" height="20" class="tbs inner" />
+          <text id="New_Leave_It_to_Beaver_text" x="4" y="14">The New Leave It to Beaver</text>
+        </g>
+      </g>
+    </g>
+    <g id="Brady_Bunch_franchise" transform="translate(584,1201)">
+      <title id="Brady_Bunch_franchise_title">The Brady Bunch</title>
+      <g id="Brady_Bunch_crossovers" transform="translate(136,14)">
+        <title id="Brady_Bunch_crossovers_title">Brady_Bunch crossovers</title>
+        <path d="m 0,0 h 130" class="one_cross" id="Brady_Bunch_to" />
+        <g transform="translate(130,0)">
+          <path d="m 0,0 v -160 h 15" id="Brady_Bunch_to_Love_Boat" class="one_cross" />
+          <path d="m 0,0 v  197 m 0,6 v 0 m 0,6 v 0 m 0,6 v 102 m 0,6 v 34 m 0,6 v 117" id="Brady_Bunch_to_Instant_Mom" class="q_one_cross" />
+        </g>
+      </g>
+      <g class="spinoff" id="Brady_Bunch_spinoff_lines" transform="translate(13)">
+        <title id="Brady_Bunch_spinoff_lines_title">The The Brady Bunch spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Brady_Bunch_to_Brady_Girls_Get_Married" />
+        <path d="m 0, 55 v 39 h 15" id="Brady_Bunch_to_Brady_Brides" />
+        <path d="m 0, 95 v 39 h 15" id="Brady_Bunch_to_Very_Brady_Christmas" />
+        <path d="m 0, 135 v 39 h 15" id="Brady_Bunch_to_Bradys" />
+      </g>
+      <g id="Brady_Bunch" transform="translate(0,0)">
+        <title id="Brady_Bunch_title">The Brady Bunch</title>
+        <rect id="Brady_Bunch_box" x="0" y="0" width="134" height="28" class="abc"  />
+        <text id="Brady_Bunch_text" x="6" y="14">The Brady Bunch</text>
+      </g>
+      <g id="Brady_Girls_Get_Married" transform="translate(30,40)">
+        <title id="Brady_Girls_Get_Married_title">The Brady Girls Get Married</title>
+        <rect id="Brady_Girls_Get_Married_box"  x="0" y="0" rx="10" width="209" height="28"  class="nbc tv_film" />
+        <text id="Brady_Girls_Get_Married_text" x="6" y="14">The Brady Girls Get Married</text>
+      </g>
+      <g id="Brady_Brides" transform="translate(30,80)">
+        <title id="Brady_Brides_title">The Brady Brides</title>
+        <rect id="Brady_Brides_box" x="0" y="0" width="135" height="28" class="nbc" />
+        <text id="Brady_Brides_text" x="6" y="14">The Brady Brides</text>
+      </g>
+      <g id="Very_Brady_Christmas" transform="translate(30,120)">
+        <title id="Very_Brady_Christmas_title">A Very Brady Christmas</title>
+        <rect id="Very_Brady_Christmas_box"  x="0" y="0" rx="10" width="184" height="28" class="cbs tv_film" />
+        <text id="Very_Brady_Christmas_text" x="6" y="14">A Very Brady Christmas</text>
+      </g>
+      <g id="Bradys" transform="translate(30,160)">
+        <title id="Bradys_title">The Bradys</title>
+        <rect id="Bradys_box" x="0" y="0" width="93" height="28" class="cbs" />
+        <text id="Bradys_text" x="6" y="14">The Bradys</text>
+      </g>
+    </g>
+    <g id="Father_Guido_Sarducci_crossovers" transform="translate(559,1715)" class="one_cross">
+      <title id="Father_Guido_Sarducci_crossovers_crossovers">Father Guido Sarducci crossovers</title>
+      <path d="m 0,0 v -300 h 15" id="Father_Guido_Sarducci_to_Married_with_Children" />
+      <path d="m 0,0 v  -20 h 15" id="Father_Guido_Sarducci_to_Square_Pegs" />
+      <path d="m 0,0 v   20 h 15" id="Father_Guido_Sarducci_to_Tales_of_City" />
+      <path d="m 0,0 v  137 h 15" id="Father_Guido_Sarducci_to_Casper" />
+      <path d="m 0,0 v  260 h 15" id="Father_Guido_Sarducci_to_Unhappily_Ever_After" />
+      <path d="m 0,0 v  297 h 15" id="Father_Guido_Sarducci_to_Blossom" />
+    </g>
+    <g id="Married_with_Children_franchise" transform="translate(576,1401)">
+      <title id="Married_with_Children_franchise_title">Married with Children</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Married_with_Children_to_Top_of_Heap" />
+      <g id="Married_with_Children" transform="translate(0,0)">
+        <title id="Married_with_Children_title">Married with Children</title>
+        <g class="one_cross" id="Married_with_Children_crossovers" transform="translate(166,14)">
+          <title id="Married_with_Children_crossovers_title">Married_with_Children crossovers</title>
+          <path d="m 0,0 h 15" id="Married_with_Children_to" />
+          <g transform="translate(15,0)">
+            <path d="m 0,0 h 102"      id="Married_with_Children_to_Parker_Lewis_Cant_Lose" />
+            <path d="m 0,0 v  40 h 15" id="Married_with_Children_to_Nikki" />
+          </g>
+        </g>
+        <rect id="Married_with_Children_box" x="0" y="0" width="164" height="28" class="fox" />
+        <text id="Married_with_Children_text" x="6" y="14">Married with Children</text>
+      </g>
+      <g id="Top_of_Heap_franchise" transform="translate(30,40)">
+        <title id="Top_of_Heap_franchise_title">Top of the Heap</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Top_of_Heap_to_Vinnie_and_Bobby" />
+        <g id="Top_of_Heap" transform="translate(0,0)">
+          <title id="Top_of_Heap_title">Top of the Heap</title>
+          <rect id="Top_of_Heap_box" x="0" y="0" width="124" height="28" class="fox" />
+          <text id="Top_of_Heap_text" x="6" y="14">Top of the Heap</text>
+        </g>
+        <g id="Vinnie_and_Bobby" transform="translate(30,40)">
+          <title id="Vinnie_and_Bobby_title">Vinnie &amp; Bobby</title>
+          <rect id="Vinnie_and_Bobby_box" x="0" y="0" width="123" height="28" class="fox" />
+          <text id="Vinnie_and_Bobby_text" x="6" y="14">Vinnie &amp; Bobby</text>
+        </g>
+      </g>
+    </g>
+    <g id="Nikki" transform="translate(774,1441)">
+      <title id="Nikki_title">Nikki</title>
+      <rect id="Nikki_box" x="0" y="0" width="49" height="28" class="wb" />
+      <text id="Nikki_text" x="6" y="14">Nikki</text>
+    </g>
+    <g id="Family_Ties_franchise" transform="translate(631,1521)">
+      <title id="Family_Ties_franchise_title">Family Ties</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Family_Ties_to_Art_of_Being_Nick" />
+      <g id="Family_Ties" transform="translate(0,0)">
+        <title id="Family_Ties_title">Family Ties</title>
+        <g id="Family_Ties_crossovers" transform="translate(98,14)">
+          <title id="Family_Ties_crossovers_title">Family_Ties crossovers</title>
+          <path d="m 0,0 h 111" class="one_cross" id="Family_Ties_to" />
+          <g transform="translate(111,0)">
+            <path d="m 0,0 v -108 h 19" class="one_cross"   id="Family_Ties_to_Parker Lewis_Cant_Lose" />
+            <path d="m 0,0        h 19" class="one_cross"   id="Family_Ties_to_Day_by_Day" />
+            <path d="m 0,0 v   40 h 19" class="one_cross"   id="Family_Ties_to_Spin_City" />
+            <path d="m 0,0 v  160"      class="q_one_cross" id="Family_Ties_to_Instant_Mom" />
+          </g>
+        </g>
+        <rect id="Family_Ties_box" x="0" y="0" width="96" height="28" class="nbc" />
+        <text id="Family_Ties_text" x="6" y="14">Family Ties</text>
+      </g>
+      <g id="Art_of_Being_Nick" transform="translate(30,40)">
+        <title id="Art_of_Being_Nick_title">The Art of Being Nick</title>
+        <rect id="Art_of_Being_Nick_box" x="0" y="0" width="162" height="28" class="nbc" />
+        <text id="Art_of_Being_Nick_text" x="6" y="14">The Art of Being Nick</text>
+      </g>
+    </g>
+    <g id="Day_by_Day" transform="translate(861,1521)">
+      <title id="Day_by_Day_title">Day by Day</title>
+      <rect id="Day_by_Day_box" x="0" y="0" width="96" height="28" class="nbc" />
+      <text id="Day_by_Day_text" x="6" y="14">Day by Day</text>
+    </g>
+    <g id="Spin_City" transform="translate(861,1561)">
+      <title id="Spin_City_title">Spin City</title>
+      <g class="one_cross" id="Spin_City_crossovers" transform="translate(79,14)">
+        <title id="Spin_City_crossovers_title">Spin_City crossovers</title>
+        <path d="m 0,0 h 15" id="Spin_City_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 15" id="Spin_City_to_Something_So_Right" />
+          <path d="m 0,0 v 40 h 15" id="Spin_City_to_Sports_Night" />
+        </g>
+      </g>
+      <rect id="Spin_City_box" x="0" y="0" width="77" height="28" class="abc" />
+      <text id="Spin_City_text" x="6" y="14">Spin City</text>
+    </g>
+    <g id="Something_So_Right" transform="translate(972,1561)">
+      <title id="Something_So_Right_title">Something So Right</title>
+      <rect id="Something_So_Right_box_1" x="0" y="0" width="156" height="28" class="nbc" />
+      <rect id="Something_So_Right_box_2" x="4" y="4" width="148" height="20" class="abc inner" />
+      <text id="Something_So_Right_text" x="6" y="14">Something So Right</text>
+    </g>
+    <g id="Sports_Night" transform="translate(972,1601)">
+      <title id="Sports_Night_title">Sports Night</title>
+      <rect id="Sports_Night_box" x="0" y="0" width="101" height="28" class="abc" />
+      <text id="Sports_Night_text" x="6" y="14">Sports Night</text>
+    </g>
+    <g id="Cosby_franchise" transform="translate(648,1601)">
+      <title id="Cosby_franchise_title">The Cosby Show</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Cosby_to_Different_World" />
+      <g id="Cosby" transform="translate(0,0)">
+        <title id="Cosby_title">The Cosby Show</title>
+        <path d="m 137,14 h 45 v 80" class="q_one_cross" id="Cosby_to_Instant_Mom" />
+        <rect id="Cosby_box" x="0" y="0" width="134" height="28" class="nbc" />
+        <text id="Cosby_text" x="6" y="14">The Cosby Show</text>
+      </g>
+      <g id="Different_World" transform="translate(30,40)">
+        <title id="Different_World_title">A Different World</title>
+        <rect id="Different_World_box" x="0" y="0" width="135" height="28" class="nbc" />
+        <text id="Different_World_text" x="6" y="14">A Different World</text>
+      </g>
+    </g>
+    <g id="Sister_Sister" transform="translate(709,1681)">
+      <title id="Sister_Sister_title">Sister, Sister</title>
+      <path d="m 105,14 h 15" class="q_one_cross" id="Sister_Sister_to_Instant_Mom" />
+      <rect id="Sister_Sister_box" x="0" y="0" width="103" height="28" class="abc" />
+      <text id="Sister_Sister_text" x="6" y="14">Sister, Sister</text>
+    </g>
+    <g id="Square_Pegs" transform="translate(576,1681)">
+      <title id="Square_Pegs_title">Square Pegs</title>
+      <rect id="Square_Pegs_box" x="0" y="0" width="105" height="28" class="cbs" />
+      <text id="Square_Pegs_text" x="6" y="14">Square Pegs</text>
+    </g>
+    <g id="Tales_of_City_franchise" transform="translate(576,1721)">
+      <title id="Tales_of_City_franchise_title">Tales of the City</title>
+      <g class="spinoff" id="Tales_of_City_spinoff_lines" transform="translate(13)">
+        <title id="Tales_of_City_spinoff_lines_title">The Tales of the City spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Tales_of_City_to_More_Tales_of_City" />
+        <path d="m 0, 55 v 39 h 15" id="Tales_of_City_to_Further_Tales_of_City" />
+      </g>
+      <g id="Tales_of_City" transform="translate(0,0)">
+        <title id="Tales_of_City_title">Tales of the City</title>
+        <rect id="Tales_of_City_box" x="0" y="0" width="126" height="28" class="netflix" />
+        <text id="Tales_of_City_text" x="6" y="14">Tales of the City</text>
+      </g>
+      <g id="More_Tales_of_City" transform="translate(30,40)">
+        <title id="More_Tales_of_City_title">More Tales of the City</title>
+        <rect id="More_Tales_of_City_box" x="0" y="0" width="168" height="28" class="showtime" />
+        <text id="More_Tales_of_City_text" x="6" y="14">More Tales of the City</text>
+      </g>
+      <g id="Further_Tales_of_City" transform="translate(30,80)">
+        <title id="Further_Tales_of_City_title">Further Tales of the City</title>
+        <rect id="Further_Tales_of_City_box" x="0" y="0" width="183" height="28" class="showtime" />
+        <text id="Further_Tales_of_City_text" x="6" y="14">Further Tales of the City</text>
+      </g>
+    </g>
+    <g id="Casper_franchise" transform="translate(576,1841)">
+      <title id="Casper_franchise_title">Casper</title>
+      <g class="spinoff" id="Casper_spinoff_lines" transform="translate(13)">
+        <title id="Casper_spinoff_lines_title">The Casper spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Casper_to_Casper_Spirited_Beginning" />
+        <path d="m 0, 55 v 39 h 15" id="Casper_to_Caspter_Meets_Wendy" />
+      </g>
+      <g id="Casper" transform="translate(0,0)">
+        <title id="Casper_title">Casper</title>
+        <rect id="Casper_box"  x="0" y="0" rx="10" width="65" height="28" class="film" />
+        <text id="Casper_text" x="6" y="14">Casper</text>
+      </g>
+      <g id="Casper_Spirited_Beginning" transform="translate(30,40)">
+        <title id="Casper_Spirited_Beginning_title">Casper: A Spirited Beginning</title>
+        <rect id="Casper_Spirited_Beginning_box"  x="0" y="0" rx="10" width="219" height="28" class="film" />
+        <text id="Casper_Spirited_Beginning_text" x="6" y="14">Casper: A Spirited Beginning</text>
+      </g>
+      <g id="Caspter_Meets_Wendy" transform="translate(30,80)">
+        <title id="Caspter_Meets_Wendy_title">Caspter Meets Wendy</title>
+        <rect id="Caspter_Meets_Wendy_box"  x="0" y="0" rx="10" width="169" height="28" class="film" />
+        <text id="Caspter_Meets_Wendy_text" x="6" y="14">Caspter Meets Wendy</text>
+      </g>
+    </g>
+    <g id="Unhappily_Ever_After" transform="translate(576,1961)">
+      <title id="Unhappily_Ever_After_title">Unhappily Ever After</title>
+      <rect height="28" id="Unhappily_Ever_After_box" width="160" x="0" y="0" class="wb" />
+      <text id="Unhappily_Ever_After_text" x="6" y="14">Unhappily Ever After</text>
+    </g>
+    <g id="Love_Boat_franchise" transform="translate(866,1044)">
+      <title id="Love_Boat_franchise_title">The Love Boat</title>
+      <g class="spinoff" id="Love_Boat_spinoff_lines" transform="translate(13)">
+        <title id="Love_Boat_spinoff_lines_title">The The Love Boat spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Love_Boat_to_Love_Boat_Valentine_Voyage" />
+        <path d="m 0, 55 v 39 h 15" id="Love_Boat_to_Love_Boat_Next_Wave" />
+      </g>
+      <g id="Love_Boat" transform="translate(0,0)">
+        <title id="Love_Boat_title">The Love Boat</title>
+        <g class="one_cross" id="Love_Boat_crossovers" transform="translate(118,14)">
+          <title id="Love_Boat_crossovers_title">Love_Boat crossovers</title>
+          <path d="m 0,0 h 192" id="Love_Boat_to" />
+          <g transform="translate(192,0)">
+            <path d="m 0,0 h  15"      id="Love_Boat_to_Fantasy_Island" />
+            <path d="m 0,0 v 117 h 15" id="Love_Boat_to_Charlies_Angels" />
+            <path d="m 0,0 v 280 h 15" id="Love_Boat_to_Martin" />
+            <path d="m 0,0 v 320 h 15" id="Love_Boat_to_Becker" />
+          </g>
+        </g>
+        <rect id="Love_Boat_box"  x="0" y="0" width="116" height="28" class="abc" />
+        <text id="Love_Boat_text" x="6" y="14">The Love Boat</text>
+      </g>
+      <g id="Love_Boat_Valentine_Voyage" transform="translate(30,40)">
+        <title id="Love_Boat_Valentine_Voyage_title">The Love Boat: A Valentine Voyage</title>
+        <rect id="Love_Boat_Valentine_Voyage_box"  x="0" y="0" rx="10" width="264" height="28" class="cbs tv_film" />
+        <text id="Love_Boat_Valentine_Voyage_text" x="6" y="14">The Love Boat: A Valentine Voyage</text>
+      </g>
+      <g id="Love_Boat_Next_Wave" transform="translate(30,80)">
+        <title id="Love_Boat_Next_Wave_title">The Love Boat: The Next Wave</title>
+        <rect id="Love_Boat_Next_Wave_box"  x="0" y="0" rx="10" width="232" height="28" class="upn tv_film" />
+        <text id="Love_Boat_Next_Wave_text" x="6" y="14">The Love Boat: The Next Wave</text>
+      </g>
+    </g>
+    <g id="Parker_Lewis_Cant_Lose" transform="translate(861,1405)">
+      <title id="Parker_Lewis_Cant_Lose_title">Parker Lewis Can&#700;t Lose</title>
+      <rect id="Parker_Lewis_Cant_Lose_box" x="0" y="0" width="185" height="28" class="fox" />
+      <text id="Parker_Lewis_Cant_Lose_text" x="6" y="14">Parker Lewis Can&#700;t Lose</text>
+    </g>
+    <g id="Instant_Mom" transform="translate(877,1681)">
+      <title id="Instant_Mom_title">Instant Mom</title>
+      <path d="m -2,14 h -46" class="q_one_cross" id="to_Instant_Mom" />
+      <rect id="Instant_Mom_box" x="0" y="0" width="98" height="28" class="nick" />
+      <text id="Instant_Mom_text" x="6" y="14">Instant Mom</text>
+    </g>
+    <g id="Vegas" transform="translate(1100,1167)">
+      <title id="Vegas_title">Vega$</title>
+      <path d="m 61,14 h 12 m 6,0 h 12" class="one_cross" id="Vegas_to_Charlies_Angels" />
+      <rect id="Vegas_box" x="0" y="0" width="59" height="28" class="abc" />
+      <text id="Vegas_text" x="6" y="14">Vega$</text>
+    </g>
+    <g id="Fantasy_Island_franchise" transform="translate(1193,1044)" class="abc">
+      <title id="Fantasy_Island_franchise_title">Fantasy Island</title>
+      <g id="Fantasy_Island_spinoff_lines" transform="translate(13)">
+        <title id="Fantasy_Island_spinoff_lines_title">The Fantasy Island spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff"     id="Fantasy_Island_to_Fantasy_Island_1998" />
+        <path d="m 0, 55 v 39 h 15" class="non_spinoff" id="Fantasy_Island_to_Fantasy_Island_2020" />
+      </g>
+      <g id="Fantasy_Island" transform="translate(0,0)">
+        <title id="Fantasy_Island_title">Fantasy Island</title>
+        <rect id="Fantasy_Island_box"  x="0" y="0" width="117" height="28" />
+        <text id="Fantasy_Island_text" x="6" y="14">Fantasy Island</text>
+      </g>
+      <g id="Fantasy_Island_1998" transform="translate(30,40)">
+        <title id="Fantasy_Island_1998_title">Fantasy Island (1998)</title>
+        <rect id="Fantasy_Island_1998_box"  x="0" y="0" width="164" height="28" />
+        <text id="Fantasy_Island_1998_text" x="6" y="14">Fantasy Island <tspan id="Fantasy_Island_1998_year">(1998)</tspan></text>
+      </g>
+      <g id="Fantasy_Island_2020" transform="translate(30,80)">
+        <title id="Fantasy_Island_2020_title">Fantasy Island (2020)</title>
+        <rect id="Fantasy_Island_2020_box"  x="0" y="0" width="164" rx="10" height="28" class="film" />
+        <text id="Fantasy_Island_2020_text" x="6" y="14">Fantasy Island <tspan id="Fantasy_Island_2020_year">(2020)</tspan></text>
+      </g>
+    </g>
+    <g id="Charlies_Angels_franchise" transform="translate(1193,1164)" class="abc">
+      <title id="Charlies_Angels_franchise_title">Charlie&#700;s Angels</title>
+      <g id="Charlies_Angels_spinoff_lines" transform="translate(13)">
+        <title id="Charlies_Angels_spinoff_lines_title">The Charlie&#700;s Angels spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="semi_spinoff" id="Charlies_Angels_to_Charlies_Angels_2000" />
+        <path d="m 0, 55 v 80 h 15" class="non_spinoff"  id="Charlies_Angels_to_Charlies_Angels_2011" />
+      </g>
+      <g id="Charlies_Angels" transform="translate(0,0)">
+        <title id="Charlies_Angels_title">Charlie&#700;s Angels</title>
+        <rect id="Charlies_Angels_box"  x="0" y="0" width="129" height="28" />
+        <text id="Charlies_Angels_text" x="6" y="14">Charlie&#700;s Angels</text>
+      </g>
+      <g id="Charlies_Angels_2000_franchise" transform="translate(30,40)" class="film">
+        <title id="Charlies_Angels_2000_franchise_title">Charlie&#700;s Angels (2000)</title>
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Charlies_Angels_2000_to_Charlies_Angels_Full_Throttle" />
+        <g id="Charlies_Angels_2000" transform="translate(0,0)">
+          <title id="Charlies_Angels_2000_title">Charlie&#700;s Angels (2000)</title>
+          <rect id="Charlies_Angels_2000_box"  x="0" y="0" rx="10" width="176" height="28" />
+          <text id="Charlies_Angels_2000_text" x="6" y="14">Charlie&#700;s Angels <tspan id="Charlies_Angels_2000_year">(2000)</tspan></text>
+        </g>
+        <g id="Charlies_Angels_Full_Throttle" transform="translate(30,40)">
+          <title id="Charlies_Angels_Full_Throttle_title">Charlie&#700;s Angels: Full Throttle</title>
+          <rect id="Charlies_Angels_Full_Throttle_box"  x="0" y="0" rx="10" width="221" height="28" />
+          <text id="Charlies_Angels_Full_Throttle_text" x="6" y="14">Charlie&#700;s Angels: Full Throttle</text>
+        </g>
+      </g>
+      <g id="Charlies_Angels_2011" transform="translate(30,120)">
+        <title id="Charlies_Angels_2011_title">Charlie&#700;s Angels (2011)</title>
+        <rect id="Charlies_Angels_2011_box"  x="0" y="0" width="176" height="28" />
+        <text id="Charlies_Angels_2011_text" x="6" y="14">Charlie&#700;s Angels <tspan id="Charlies_Angels_2011_year">(2011)</tspan></text>
+      </g>
+    </g>
+    <g id="Martin" transform="translate(1193,1324)">
+      <title id="Martin_title">Martin</title>
+      <rect id="Martin_box" x="0" y="0" width="56" height="28" class="fox" />
+      <text id="Martin_text" x="6" y="14">Martin</text>
+    </g>
+    <g id="King_of_Queens" transform="translate(1193,1364)">
+      <title id="King_of_Queens_title">The King of Queens</title>
+      <g id="King_of_Queens_crossovers" transform="translate(155,14)">
+        <title id="King_of_Queens_crossovers_title">King_of_Queens crossovers</title>
+        <path d="m 0,0 h 15" class="two_cross" id="King_of_Queens_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 15"       class="two_cross" id="King_of_Queens_to_Everybody_Loves_Raymond" />
+          <path d="m 0,0 v 28 h 258" class="one_cross" id="King_of_Queens_to_Cosby" />
+          <path d="m 0,0 v 50 h 245" class="one_cross" id="King_of_Queens_to_Becker" />
+        </g>
+      </g>
+      <rect id="King_of_Queens_box" x="0" y="0" width="153" height="28" class="cbs" />
+      <text id="King_of_Queens_text" x="6" y="14">The King of Queens</text>
+    </g>
+    <g id="Everybody_Loves_Raymond" transform="translate(1380,1364)">
+      <title id="Everybody_Loves_Raymond_title">Everybody Loves Raymond</title>
+      <g class="one_cross" id="Everybody_Loves_Raymond_crossovers" transform="translate(211,14)">
+        <title id="Everybody_Loves_Raymond_crossovers_title">Everybody_Loves_Raymond crossovers</title>
+        <path d="m 0,0 h 15" id="Everybody_Loves_Raymond_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 187 m 6,0 h 20" id="Everybody_Loves_Raymond_to_Nanny" />
+          <path d="m 0,0 v 22 h 15" id="Everybody_Loves_Raymond_to_Cosby" />
+          <path d="m 0,0 v 25 m 0,6 v 19 h 95" id="Everybody_Loves_Raymond_to_Becker" />
+        </g>
+      </g>
+      <rect id="Everybody_Loves_Raymond_box" x="0" y="0" width="209" height="28" class="cbs" />
+      <text id="Everybody_Loves_Raymond_text" x="6" y="14">Everybody Loves Raymond</text>
+    </g>
+    <g id="Cosby" transform="translate(1623,1389)">
+      <title id="Cosby_title">Cosby</title>
+      <path d="m 60,14 h 15 v 25 h 15" class="one_cross" id="Cosby_to_Becker" />
+      <rect id="Cosby_box" x="0" y="0" width="58" height="28" class="cbs" />
+      <text id="Cosby_text" x="6" y="14">Cosby</text>
+    </g>
+    <g id="Becker" transform="translate(1715,1417)">
+      <title id="Becker_title">Becker</title>
+      <rect id="Becker_box" x="0" y="0" width="64" height="28" class="cbs" />
+      <text id="Becker_text" x="6" y="14">Becker</text>
+    </g>
+    <g id="Famous_Teddy_Z" transform="translate(1615,1457)">
+      <title id="Famous_Teddy_Z_title">The Famous Teddy Z</title>
+      <path d="m 166,14 h 15 v -10 h 23" id="Famous_Teddy_Z_to_Murphy_Brown" class="one_cross" />
+      <rect id="Famous_Teddy_Z_box" x="0" y="0" width="164" height="28" class="cbs" />
+      <text id="Famous_Teddy_Z_text" x="6" y="14">The Famous Teddy Z</text>
+    </g>
+    <g id="Elzabeth_Taylor_pearls_event" transform="translate(1804,1440)" class="event_nocross">
+      <path d="m 0,0 v -56 h 15" id="Elzabeth_Taylor_pearls_to_Nanny" />
+      <path d="m 0,0 v -20 h 15" id="Elzabeth_Taylor_pearls_to_Cant_Hurry_Love" />
+      <path d="m 0,0 v 12 m 0,6 v 0 m 0,6 v 3 h 15" id="Elzabeth_Taylor_pearls_to_Murphy_Brown" />
+      <path d="m 0,0 v 12 m 0,6 v 0 m 0,6 v 37 h 15" id="Elzabeth_Taylor_pearls_to_High_Society" />
+    </g>
+    <g id="Nanny" transform="translate(1821,1367)">
+      <title id="Nanny_title">The Nanny</title>
+      <path d="m 92,11 h 69" class="one_cross" id="Nanny_to_Simple_Life" />
+      <rect id="Nanny_box"  x="0" y="0" width="90" height="28" class="cbs" />
+      <text id="Nanny_text" x="6" y="14">The Nanny</text>
+    </g>
+    <g id="Cant_Hurry_Love" transform="translate(1821,1407)">
+      <title id="Cant_Hurry_Love_title">Can&#700;t Hurry Love</title>
+      <rect id="Cant_Hurry_Love_box"  x="0" y="0" width="130" height="28" class="cbs" />
+      <text id="Cant_Hurry_Love_text" x="6" y="14">Can&#700;t Hurry Love</text>
+    </g>
+    <g id="Murphy_Brown" transform="translate(1821,1447)">
+      <title id="Murphy_Brown_title">Murphy Brown</title>
+      <g class="one_cross" id="Murphy_Brown_crossovers" transform="translate(117,14)">
+        <title id="Murphy_Brown_crossovers_title">Murphy_Brown crossovers</title>
+        <path d="m 0,0 h 30" id="Murphy_Brown_to" />
+        <g transform="translate(30,0)">
+          <path d="m 0,0 v -77 h -55" id="Murphy_Brown_to_Nanny" />
+          <path d="m 0,0 h 15"      id="Murphy_Brown_to_Love_War" />
+          <path d="m 0,0 v 37 h 144" id="Murphy_Brown_to_Ink" />
+        </g>
+      </g>
+      <rect id="Murphy_Brown_box"  x="0" y="0" width="115" height="28" class="cbs" />
+      <text id="Murphy_Brown_text" x="6" y="14">Murphy Brown</text>
+    </g>
+    <g id="High_Society" transform="translate(1821,1487)">
+      <title id="High_Society_title">High Society</title>
+      <rect id="High_Society_box"  x="0" y="0" width="104" height="28" class="cbs" />
+      <text id="High_Society_text" x="6" y="14">High Society</text>
+    </g>
+    <g id="Simple_Life" transform="translate(1984,1367)">
+      <title id="Simple_Life_title">The Simple Life</title>
+      <rect id="Simple_Life_box"  x="0" y="0" width="122" height="28" class="cbs" />
+      <text id="Simple_Life_text" x="6" y="14">The Simple Life</text>
+    </g>
+    <g id="Love_War" transform="translate(1983,1449)">
+      <title id="Love_War_title">Love &amp; War</title>
+      <g id="Love_War_crossovers" class="one_cross" transform="translate(99,14)">
+        <title id="Love_War_crossovers_title">Love &amp; War crossovers</title>
+        <path d="m 0,0 h 15" id="Love_War_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 15" id="Love_War_to_Double_Rush" />
+          <path d="m 0,0 v 32 m 0,6 v 3 h 15" id="Love_War_to_Ink" />
+        </g>
+      </g>
+      <rect id="Love_War_box"  x="0" y="0" width="97" height="28" class="cbs" />
+      <text id="Love_War_text" x="6" y="14">Love &amp; War</text>
+    </g>
+    <g id="Double_Rush" transform="translate(2114,1449)">
+      <title id="Double_Rush_title">Double Rush</title>
+      <rect id="Double_Rush_box" x="0" y="0" width="106" height="28" class="cbs" />
+      <text id="Double_Rush_text" x="6" y="14">Double Rush</text>
+    </g>
+    <g id="Ink" transform="translate(2114,1487)">
+      <title id="Ink_title">Ink</title>
+      <rect id="Ink_box"  x="0" y="0" width="34" height="28" class="cbs" />
+      <text id="Ink_text" x="6" y="14">Ink</text>
+    </g>
+  </g>
+</svg>

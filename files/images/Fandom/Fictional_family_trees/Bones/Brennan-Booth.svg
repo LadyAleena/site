@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../../css/family_tree.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 906 374"
+  width="906"
+  height="374"
+>
+  <title id="svg_title">The Brennan-Booth family from Bones</title>
+  <metadata id="Family_metadata">
+    <rdf:RDF>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Brennan-Booth family from Bones</dc:title>
+        <dc:creator>
+          <cc:agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="mds1" style="stop-color:#ccccff;stop-opacity:0.85;" offset="75%" />
+      <stop id="mds2" style="stop-color:#eeeeff;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="fds1" style="stop-color:#ffcccc;stop-opacity:0.85;" offset="75%" />
+      <stop id="fds2" style="stop-color:#ffeeee;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+  </defs>
+  <!--
+    Generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+  -->
+    <g id="Bones" class="graph" transform="translate(5, 369)">
+    <title>The Brennan-Booth family from Bones</title>
+    <text x="453" y="-357" class="chart_title">The Brennan-Booth family from <tspan style="font-style:italic">Bones</tspan></text>
+    <g id="WilkesBooth-descendant" class="child descendant" transform="translate(423, -304)">
+      <title>Henry Booth, descendant of John Wilkes Booth</title>
+      <path d="m 0,0 v  58" id="cJohnWilkesBooth-HenryBooth" />
+    </g>
+    <g id="AliceHenryBooth-family" class="marriage" transform="translate(469, -246)">
+      <title>Marriage of Alice and Henry Booth</title>
+      <path d="m 0,0 h -19" id="mAliHen-Alice" />
+      <path d="m 0,0 h  19" id="mAliHen-HenryBooth" />
+      <g id="AliceHenryBooth-children" class="child">
+        <title>Edwin Booth, child of Alice and Henry Booth</title>
+        <path d="m 0,0 v  58" id="mAliHen-EdwinBooth" />
+      </g>
+      <circle cx="0" cy="0" id="mAliHen" r="1.5" />
+    </g>
+    <g id="Brennan-family" class="marriage" transform="translate(241, -170)">
+      <title>Marriage of Ruth and Max Keenan</title>
+      <path d="m 0,0 h -19" id="mRutMax-Ruth" />
+      <path d="m 0,0 h  19" id="mRutMax-MaxKeenan" />
+      <g id="Brennan-children" class="child">
+        <title>Children of Ruth and Max Keenan</title>
+        <path d="m 0,0  v  38" id="mRutMax-cRutMax" />
+        <path d="m 0,38 h -55 v 20" id="cRutMax-KyleKeenan" />
+        <path d="m 0,38 h  55 v 20" id="cRutMax-JoyKeenan" />
+        <circle cx="0" cy="38" id="cRutMax" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mRutMax" r="1.5" />
+    </g>
+    <g id="MarianneEdwinBooth-family" class="marriage" transform="translate(515, -170)">
+      <title>Marriage of Marianne and Edwin</title>
+      <path d="m 0,0 h -19" id="mMarEdw-EdwinBooth" />
+      <path d="m 0,0 h  96" id="mMarEdw-Marianne" />
+      <g id="MarianneEdwinBooth-children" class="child">
+        <title>Children of Marianne and Edwin</title>
+        <path d="m 0,0  v  38" id="mMarEdw-cMarEdw" />
+        <path d="m 0,38 h -96 v 20" id="cMarEdw-SeeleyJosephBooth" />
+        <path d="m 0,38 h  96 v 20" id="cMarEdw-JaredBooth" />
+        <circle cx="0" cy="38" id="cMarEdw" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mMarEdw" r="1.5" />
+    </g>
+    <g id="MarianneReggie-marriage" class="marriage" transform="translate(777, -170)">
+      <title>Marriage of Marianne and Reggie</title>
+      <path d="m 0,0 h -96" id="mMarReg-Marianne" />
+      <path d="m 0,0 h  19" id="mMarReg-Reggie" />
+      <circle cx="0" cy="0" id="mMarReg" r="1.5" />
+    </g>
+    <g id="Reggie-family" class="child" transform="translate(824, -152)">
+      <title>Children of Reggie</title>
+      <path d="m 0,0  v  20" id="uReggie-cReggie" />
+      <path d="m 0,20 h -40 v 20" id="cReggie-unnamedson" />
+      <path d="m 0,20 h 40 v 20" id="cReggie-unnameddaughter" />
+      <circle cx="0" cy="20" id="cReggie" r="1.5" />
+    </g>
+    <g id="Hollister-family" class="child" transform="translate(74, -76)">
+      <title>Children of Amy Hollister</title>
+      <path d="m 0,0  v  20" id="AmyHollister-cAmyHollister" />
+      <path d="m 0,20 h -40 v 20" id="cAmyHollister-EmmaHollister" />
+      <path d="m 0,20 h 40 v 20" id="cAmyHollister-HayleyHollister" />
+      <circle cx="0" cy="20" id="cAmyHollister" r="1.5" />
+    </g>
+    <g id="HollisterBrennan-family" class="marriage" transform="translate(125, -94)">
+      <title>Marriage of Amy Hollister and Russell Brennan</title>
+      <path d="m 0,0 h -19" id="mAmyRus-AmyHollister" />
+      <path d="m 0,0 h  19" id="mAmyRus-RussellBrennan" />
+      <circle cx="0" cy="0" id="mAmyRus" r="1.5" />
+    </g>
+    <g id="BrennanBooth-family" class="marriage" transform="translate(359, -94)">
+      <title>Marriage of Temperance Brennan and Seeley Booth</title>
+      <path d="m 0,0 h -19" id="mTemSee-TemperanceBrennan" />
+      <path d="m 0,0 h  31" id="mTemSee-SeeleyBooth" />
+      <g id="BrennanBooth-children" class="child">
+        <title>Children of Temperance Brennan and Seeley Booth</title>
+        <path d="m 0,0  v  38" id="mTemSee-cTemSee" />
+        <path d="m 0,38 h -42 v 20" id="cTemSee-ChristineBooth" />
+        <path d="m 0,38 h  42 v 20" id="cTemSee-HenryBoothII" />
+        <circle cx="0" cy="38" id="cTemSee" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mTemSee" r="1.5" />
+    </g>
+    <g id="StinsonBooth-family" class="dating" transform="translate(479, -94)">
+      <title>Dating of Rebecca Stinson and Seeley Booth</title>
+      <path d="m 0,0 h -31" id="dRebSee-SeeleyBooth" />
+      <path d="m 0,0 h  19" id="dRebSee-RebeccaStinson" />
+      <g id="StinsonBooth-children" class="child">
+        <title>Parker Booth, child of Rebecca Stinson and Seeley Booth</title>
+        <path d="m 0,0 v  58" id="dRebSee-ParkerBooth" />
+      </g>
+      <circle cx="0" cy="0" id="dRebSee" r="1.5" />
+    </g>
+    <g id="DalajBooth-marriage" class="marriage" transform="translate(656, -94)">
+      <title>Marriage of Padme Dalaj and Jared Booth</title>
+      <path d="m 0,0 h -19" id="mPadJar-PadmeDalaj" />
+      <path d="m 0,0 h  19" id="mPadJar-JaredBooth" />
+      <circle cx="0" cy="0" id="mPadJar" r="1.5" />
+    </g>
+
+    <g id="JohnWilkesBooth" class="male deceased" transform="translate(396, -342)">
+      <title>John Wilkes Booth</title>
+      <rect height="40" width="54" x="0" y="0" />
+      <text x="27" y="8">John</text>
+      <text x="27" y="20">Wilkes</text>
+      <text x="27" y="32">Booth</text>
+    </g>
+    <g id="HenryBooth" class="male deceased"  transform="translate(396, -266)">
+      <title>Henry Booth (Hank)</title>
+      <rect height="40" width="54" x="0" y="0" />
+      <text x="27" y="8">Henry</text>
+      <text x="27" y="20">Booth</text>
+      <text class="nickname" x="27" y="32">(Hank)</text>
+    </g>
+    <g id="Alice" class="female deceased" transform="translate(488, -264)">
+      <title>Alice</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text x="27" y="18">Alice</text>
+    </g>
+    <g id="MaxKeenan" class="male deceased" transform="translate(110, -190)">
+      <title>Max Keenan (Matthew Brennan)</title>
+      <rect height="40" width="112" x="0" y="0" />
+      <text x="56" y="8">Max</text>
+      <text x="56" y="20">Keenan</text>
+      <text class="nickname" x="56" y="32">(Matthew Brennan)</text>
+    </g>
+    <g id="Ruth" class="female deceased" transform="translate(260, -188)">
+      <title>Ruth (Christine)</title>
+      <rect height="36" width="68" x="0" y="0" />
+      <text x="34" y="12">Ruth</text>
+      <text class="nickname" x="34" y="24">(Christine)</text>
+    </g>
+    <g id="EdwinBooth" class="male deceased" transform="translate(442, -188)">
+      <title>Edwin Booth</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text x="27" y="12">Edwin</text>
+      <text x="27" y="24">Booth</text>
+    </g>
+    <g id="Marianne" class="female" transform="translate(611, -188)">
+      <title>Marianne</title>
+      <rect height="36" width="70" x="0" y="0" />
+      <text x="35" y="18">Marianne</text>
+    </g>
+    <g id="Reggie" class="male" transform="translate(796, -188)">
+      <title>Reggie</title>
+      <rect height="36" width="56" x="0" y="0" />
+      <text x="28" y="18">Reggie</text>
+    </g>
+    <g id="AmyHollister" class="female" transform="translate(42, -112)">
+      <title>Amy Hollister</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text x="32" y="12">Amy</text>
+      <text x="32" y="24">Hollister</text>
+    </g>
+    <g id="RussBrennan" class="male" transform="translate(144, -114)">
+      <title>Russ Brennan (Kyle Keenan)</title>
+      <rect height="40" width="84" x="0" y="0" />
+      <text x="42" y="8">Russell</text>
+      <text x="42" y="20">Brennan</text>
+      <text class="nickname" x="43" y="32">(Kyle Keenan)</text>
+    </g>
+    <g id="TemperanceBrennan" class="female main" transform="translate(248, -114)">
+      <title>Temperance Brennan (Joy Keenan)</title>
+      <rect height="40" width="92" x="0" y="0" />
+      <text x="46" y="8">Temperance</text>
+      <text x="46" y="20">Brennan</text>
+      <text class="nickname" x="46" y="32">(Joy Keenan)</text>
+    </g>
+    <g id="SeeleyJosephBooth" class="male main" transform="translate(390, -114)">
+      <title>Seeley Joseph Booth</title>
+      <rect height="40" width="58" x="0" y="0" />
+      <text x="29" y="8">Seeley</text>
+      <text x="29" y="20">Joseph</text>
+      <text x="29" y="32">Booth</text>
+    </g>
+    <g id="RebeccaStinson" class="female" transform="translate(498, -112)">
+      <title>Rebecca Stinson</title>
+      <rect height="36" width="66" x="0" y="0" />
+      <text x="33" y="12">Rebecca</text>
+      <text x="33" y="24">Stinson</text>
+    </g>
+    <g id="JaredBooth" class="male deceased" transform="translate(584, -112)">
+      <title>Jared Booth</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text x="27" y="12">Jared</text>
+      <text x="27" y="24">Booth</text>
+    </g>
+    <g id="PadmeDalaj" class="female" transform="translate(676, -112)">
+      <title>Padme Dalaj</title>
+      <rect height="36" width="56" x="0" y="0" />
+      <text x="28" y="12">Padme</text>
+      <text x="28" y="24">Dalaj</text>
+    </g>
+    <g id="unnamedson" class="male unnamed" transform="translate(752, -112)">
+      <title>unnamed son</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text x="31" y="12">unnamed</text>
+      <text x="31" y="24">son</text>
+    </g>
+    <g id="unnameddaughter" class="female unnamed" transform="translate(834, -112)">
+      <title>unnamed daughter</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text x="31" y="12">unnamed</text>
+      <text x="31" y="24">daughter</text>
+    </g>
+    <g id="EmmaHollister" class="female" transform="translate(0, -36)">
+      <title>Emma Hollister</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text x="32" y="12">Emma</text>
+      <text x="32" y="24">Hollister</text>
+    </g>
+    <g id="HayleyHollister" class="female" transform="translate(84, -36)">
+      <title>Hayley Hollister</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text x="32" y="12">Hayley</text>
+      <text x="32" y="24">Hollister</text>
+    </g>
+    <g id="ChristineAngelaBooth" class="female" transform="translate(283, -38)">
+      <title>Christine Angela Booth</title>
+      <rect height="40" width="68" x="0" y="0" />
+      <text x="34" y="8">Christine</text>
+      <text x="34" y="20">Angela</text>
+      <text x="34" y="32">Booth</text>
+    </g>
+    <g id="HenryBoothII" class="male" transform="translate(371, -38)">
+      <title>Henry Booth II (Hank)</title>
+      <rect height="40" width="60" x="0" y="0" />
+      <text x="30" y="8">Henry</text>
+      <text x="30" y="20">Booth II</text>
+      <text class="nickname" x="30" y="32">(Hank)</text>
+    </g>
+    <g id="ParkerBooth" class="male" transform="translate(452, -36)">
+      <title>Parker Booth</title>
+      <rect height="36" width="54" x="0" y="0" />
+      <text x="27" y="12">Parker</text>
+      <text x="27" y="24">Booth</text>
+    </g>
+  </g>
+</svg>

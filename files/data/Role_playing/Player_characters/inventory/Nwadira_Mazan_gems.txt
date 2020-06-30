@@ -1,0 +1,31 @@
+alexandrite:3*100
+amethyst:3*100
+aquamarine:3*100
+azurite:5*10
+banded agate:5*10
+black opal:1*1000
+chalcedony:5*50
+citrine:5*50
+diamond:1*5000
+emerald:1*5000
+eye agate:5*10
+fire opal:3*2000
+garnet:3*100
+garnet:4*100
+hematite:5*10
+lapis lazuli:5*10
+malachite:5*10
+obsidian:5*10
+onyx:5*50
+opal:1*1000
+pearl:2*500
+rhodochrosite:5*10
+ruby:1*5000
+sapphire:1*1000
+sardonyx:5*50
+spinel:2*500
+star sapphire:3*25000
+topaz:3*250
+topaz:2*500
+turquoise:5*10
+zircon:5*50

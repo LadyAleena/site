@@ -1,0 +1,47 @@
+Ar'grenaric, Hastran|Awnday Ar'iemay's father
+Ar'iemay, Awnday |Thief/Mage
+Ar'ranicy, Senna|Visilma Do'ranicy's mother
+Ar'teneri, Derion|Hastron Ar'grenaric's father
+Ar'teneri, Falten|Senna Ar'ranicy's father
+Ar'trary, Malric|Derion and Falten Ar'teneri's father
+Be'grenaric, Senya|Hastron Ar'grenaric's mother
+Bo'javiarin, Lysiandra|Priest/Mage
+Ca'balin, Serix|Levren and Alren Ce'malair's father
+Ca'malair, Alren|Solina Ca'viniar's father
+Ca'malair, Levren|Alion Ce'ranicy's father
+Ca'ranicy, Alion|Senna Ar'ranicy's mother
+Ca'viniar, Solina|Sorack Linsandin's mother, Alion Ce'ranicy's cousin
+Do'kanda, Elric|Visilma Do'ranicy's father
+Do'ranicy, Visilma|Thief/Mage
+Ev'malair, Malree|Levren and Alren Ce'malair's mother
+Fa'teneri, Tanna|Derion and Falten Ar'teneri's mother
+Fi'nashari, Matea|Fighter/Thief/Mage
+Ge'briagar, Fallin|Nemidia Ge'mardian's father
+Ge'mardian, Nemidia|Ranger/Cleric
+Ka'natrian, Balnari|Fighter/Mage
+La'bastiar, Decori|Desolenna and Driastan Marder's mother
+Linsandin, Rechek|Sorack Linsandin's father
+Linsandin'viniar, Sorack|Fighter/Mage
+Lo'balin, Ranthar|Zamia Lo'rena's father
+Lo'rena, Zamia|Mage
+Marder, Irnian|Desolenna and Driastan Marder's father
+Marder'bastiar, Desolenna|Mage
+Marder'bastiar, Driastan|Priest
+Me'tronyara, Kyona|Kymaria's Zendelic's mother
+Ol'mardian, Malyani|Lanya and Talagarni Te'mardian's mother
+Qi'fereni, Ansrin|Tanyani Qi'maridan's father
+Qi'fereni, Nedrin|Bryzalyn Qi'lanari's father
+Qi'lanari, Bryzarlyn|Fighter/Thief/Mage
+Qi'mardian, Tanyani|Thief/Mage
+Qi'tran, Zanar|Ansrin and Nedrin Qi'fereni's father
+Ra'viniar, Lorsa|Solina Ca'viniar's mother
+Se'fereni, Minia|Ansrin and Nedrin Qi'fereni's mother
+Se'fereni, Yenrin|Reneya Se'iemay's father
+Se'iemay, Renaya|Awnday Ar'iemay's mother
+Se'rena, Melaril|Zamia Lo'rena's mother
+Te'ladrin, Nalyar|Lanya and Talagarni Te'mardian's father
+Te'mardian, Lanya|Tanyani Qi'maridan's mother
+Te'mardian, Talgarni|Nemidia Ge'mardian's mother
+Ve'ranicy, Eliani|Alion Ce'ranicy's mother
+Zendelic, Miklovik|Kymaria's Zendelic's father
+Zendelic'tronyara, Kymaria|Fighter/Thief/Mage

@@ -1,0 +1,4 @@
+PSPs|71
+Psychokinesis|Detonate;Telekinesis|Ballistic Attack;Control Body;Inertial Barrier;Molecular Agitation
+Pscyhometabolism||Body Equilibrium;Chameleon Power;Displacement;Flesh Armor
+Telepathy||Mental Barrier;Mind Blank

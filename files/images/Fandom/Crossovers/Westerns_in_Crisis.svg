@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../css/crossover.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 1988 1118"
+  width="1988"
+  height="1118"
+  id="Westerns_in_Crisis"
+>
+  <title id="Westerns_in_Crisis_title">Westerns in Crisis</title>
+  <metadata id="Westerns_in_Crisis_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Westerns in Crisis</dc:title>
+        <dc:date>2020-04-28</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    rect.inner { stroke: none; }
+    text  { fill: #000000; font-family: arial, roboto, sans-serif; font-size: 16px; font-style: italic; text-anchor: start; dominant-baseline: middle; }
+    tspan { font-size: 90%; font-style: normal; }
+  </style>
+  <g id="Westerns_in_Crisis_chart" class="graph" transform="translate(5,5)">
+    <title id="Westerns_in_Crisis_chart_title">Westerns in Crisis</title>
+    <g id="Lone_Ranger_franchise" transform="translate(793,0)">
+      <title id="Lone_Ranger_franchise_title"></title>
+      <g id="Lone_Ranger_spinoff_lines" transform="translate(13)">
+        <title id="_spinoff_lines_title">The  spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="Lone_Ranger_radio_to_Green_Hornet_radio" />
+        <path d="m 0, 54 v 76 h 15" class="semi_spinoff" id="Lone_Ranger_radio_to_Lone_Ranger" />
+      </g>
+      <g id="Lone_Ranger_radio" transform="translate(0,0)">
+        <title id="Lone_Ranger_radio_title">Lone Ranger (radio)</title>
+        <rect id="Lone_Ranger_radio_box_1" x="0" y="0"  width="150" height="28" class="radio" />
+        <rect id="Lone_Ranger_radio_box_2" x="4" y="4"  width="142" height="20" class="abc inner" />
+        <text id="Lone_Ranger_radio_text" x="6" y="14">Lone Ranger <tspan id="Long_Ranger_radio_type">(radio)</tspan></text>
+      </g>
+      <g id="Green_Hornet_franchise" transform="translate(30,40)">
+        <title id="Green_Hornet_franchise_title">Green Hornet franchise</title>
+        <path d="m 13,30 v 24 h 15" class="semi_spinoff" id="Green_Hornet_radio_to_Green_Hornet" />
+        <g id="Green_Hornet_radio" transform="translate(0,0)">
+          <title id="Green_Hornet_radio_title">Green Hornet (radio)</title>
+          <rect id="Green_Hornet_radio_box_1" x="0" y="0"  width="154" height="28" class="radio" />
+          <rect id="Green_Hornet_radio_box_2" x="4" y="4"  width="146" height="20" class="abc inner" />
+          <text id="Green_Hornet_radio_text" x="5" y="14">Green Hornet <tspan id="Green_Hornet_radio_type">(radio)</tspan></text>
+        </g>
+        <g id="Green_Hornet" transform="translate(30,40)">
+          <title id="Green_Hornet_title">Green Hornet</title>
+          <path d="m 112, 14 h 397" class="one_cross" id="Green_Hornet_to_Batman" />
+          <rect id="Green_Hornet_box" x="0" y="0" width="110" height="28" class="abc" />
+          <text id="Green_Hornet_text" x="5" y="14">Green Hornet</text>
+        </g>
+      </g>
+      <g id="Lone_Ranger" transform="translate(30,120)">
+        <title id="Lone_Ranger_title">Lone Ranger</title>
+        <path d="m 109,14 h 15 v 700" id="Lone_Rannger_to_Alias_Jesse_James" class="one_cross" />
+        <rect id="Lone_Ranger_box" x="0" y="0"  width="107" height="28" class="abc" />
+        <text id="Lone_Ranger_text" x="6" y="14">Lone Ranger</text>
+      </g>
+    </g>
+    <g id="Roy_Rogers" transform="translate(747,160)">
+      <title id="Roy_Rogers_title">The Roy Rogers Show</title>
+      <path d="m 175,14 h 15 v 660" id="Roy_Rogers_to_Alias_Jesse_James" class="one_cross" />
+      <rect id="Roy_Rogers_box" x="0" y="0" width="173" height="28" class="nbc" />
+      <text id="Roy_Rogers_text" x="6" y="14">The Roy Rogers Show</text>
+    </g>
+    <g id="High_Noon" transform="translate(824,200)">
+      <title id="High_Noon_title">High Noon</title>
+      <path d="m 88,14 h 15 v 620" id="High_Noon_to_Alias_Jesse_James" class="one_cross" />
+      <rect id="High_Noon_box" x="0" y="0" rx="10" width="86" height="28" class="film" />
+      <text id="High_Noon_text" x="5" y="14">High Noon</text>
+    </g>
+    <g id="Annie_Oakley" transform="translate(792,240)">
+      <title id="Annie_Oakley_title">Annie Oakley</title>
+      <path d="m 110,14 h 15 v 580" id="Annie_Oakley_to_Alias_Jesse_James" class="one_cross" />
+      <rect id="Annie_Oakley_box" x="0" y="0" width="108" height="28" class="syn" />
+      <text id="Annie_Oakley_text" x="6" y="14">Annie Oakley</text>
+    </g>
+    <g id="Davy_Crockett" transform="translate(776,280)">
+      <title id="Davy_Crockett_title">Davy Crockett</title>
+      <path d="m 116,14 h 15 v 540" id="Davy_Crockett_to_Alias_Jesse_James" class="one_cross" />
+      <rect id="Davy_Crockett_box" x="0" y="0" rx="5" width="114" height="28" class="abc" />
+      <text id="Davy_Crockett_text" x="6" y="14">Davy Crockett</text>
+    </g>
+    <g id="Gunsmoke_franchise" transform="translate(614,320)" class="cbs">
+      <title id="Gunsmoke_franchise_title">Gunsmoke</title>
+      <g class="spinoff" id="Gunsmoke_spinoff_group" transform="translate(13)">
+        <title id="Gunsmoke_spinoff_group_title">The Gunsmoke spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Gunsmoke_to_Dirty_Sally" />
+        <path d="m 0, 55 v 39 h 15" id="Gunsmoke_to_Gunsmoke_Return_to_Dodge" />
+        <path d="m 0, 95 v 39 h 15" id="Gunsmoke_to_Gunsmoke_Last_Apache" />
+        <path d="m 0, 135 v 39 h 15" id="Gunsmoke_to_Gunsmoke_To_Last_Man" />
+        <path d="m 0, 175 v 39 h 15" id="Gunsmoke_to_Gunsmoke_Long_Ride" />
+        <path d="m 0, 215 v 39 h 15" id="Gunsmoke_to_Gunsmoke_One_Mans_Justice" />
+      </g>
+      <g id="Gunsmoke" transform="translate(0,0)">
+        <title id="Gunsmoke_title">Gunsmoke</title>
+        <path d="m 90,14 h 193 v 500" id="Gunsmoke_to_Alias_Jesse_James" class="one_cross" />
+        <rect id="Gunsmoke_box" x="0" y="0" width="88" height="28" />
+        <text id="Gunsmoke_text" x="6" y="14">Gunsmoke</text>
+      </g>
+      <g id="Dirty_Sally" transform="translate(30,40)">
+        <title id="Dirty_Sally_title">Dirty Sally</title>
+        <rect id="Dirty_Sally_box" x="0" y="0" width="86" height="28" />
+        <text id="Dirty_Sally_text" x="6" y="14">Dirty Sally</text>
+      </g>
+      <g id="Gunsmoke_Return_to_Dodge" transform="translate(30,80)">
+        <title id="Gunsmoke_Return_to_Dodge_title">Gunsmoke: Return to Dodge</title>
+        <rect id="Gunsmoke_Return_to_Dodge_box" x="0" y="0" rx="10" width="213" height="28" class="tv_film" />
+        <text id="Gunsmoke_Return_to_Dodge_text" x="6" y="14">Gunsmoke: Return to Dodge</text>
+      </g>
+      <g id="Gunsmoke_Last_Apache" transform="translate(30,120)">
+        <title id="Gunsmoke_Last_Apache_title">Gunsmoke: The Last Apache</title>
+        <rect id="Gunsmoke_Last_Apache_box" x="0" y="0" rx="10" width="217" height="28" class="tv_film" />
+        <text id="Gunsmoke_Last_Apache_text" x="6" y="14">Gunsmoke: The Last Apache</text>
+      </g>
+      <g id="Gunsmoke_To_Last_Man" transform="translate(30,160)">
+        <title id="Gunsmoke_To_Last_Man_title">Gunsmoke: To the Last Man</title>
+        <rect id="Gunsmoke_To_Last_Man_box" x="0" y="0" rx="10" width="210" height="28" class="tv_film" />
+        <text id="Gunsmoke_To_Last_Man_text" x="6" y="14">Gunsmoke: To the Last Man</text>
+      </g>
+      <g id="Gunsmoke_Long_Ride" transform="translate(30,200)">
+        <title id="Gunsmoke_Long_Ride_title">Gunsmoke: The Long Ride</title>
+        <rect id="Gunsmoke_Long_Ride_box" x="0" y="0" rx="10" width="202" height="28" class="tv_film" />
+        <text id="Gunsmoke_Long_Ride_text" x="6" y="14">Gunsmoke: The Long Ride</text>
+      </g>
+      <g id="Gunsmoke_One_Mans_Justice" transform="translate(30,240)">
+        <title id="Gunsmoke_One_Mans_Justice_title">Gunsmoke: One Man&#700;s Justice</title>
+        <rect id="Gunsmoke_One_Mans_Justice_box" x="0" y="0" rx="10" width="226" height="28" class="tv_film" />
+        <text id="Gunsmoke_One_Mans_Justice_text" x="6" y="14">Gunsmoke: One Man&#700;s Justice</text>
+      </g>
+    </g>
+    <g id="Wagon_Train" transform="translate(768,360)">
+      <title id="Wagon_Train_title">Wagon Train</title>
+      <path d="m 104,14 h 15 v 460" id="Wagon_Train_to_Alias_Jesse_James" class="one_cross" />
+      <rect id="Wagon_Train_box_1" x="0" y="0" width="102" height="28" class="nbc" />
+      <rect id="Wagon_Train_box_2" x="4" y="4" width="94" height="20" class="abc inner" />
+      <text id="Wagon_Train_text" x="6" y="14">Wagon Train</text>
+    </g>
+    <g id="Have_Gun_Will_Travel" transform="translate(0,590)">
+      <title id="Have_Gun_Will_Travel_title">Have Gun - Will Travel</title>
+      <g class="one_cross" id="Have_Gun_-_Will_Travel_crossovers" transform="translate(175,14)">
+        <title id="Have_Gun_-_Will_Travel_crossovers_title">Have Gun - Will Travel crossovers</title>
+        <path d="m 0,0 h 15" id="Have_Gun_-_Will_Travel_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 v 34 h 16" id="Have_Gun_-_Will_Travel_to_Maverick" class="p_one_cross" />
+          <path d="m 0,0 h 694 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 337 v 252 m 0,6 v 39 m 0,6 v 147" id="Have_Gun_-_Will_Travel_to_Gambler_Returns" />
+        </g>
+      </g>
+      <rect id="Have_Gun_Will_Travel_box" x="0" y="0"  width="173" height="28" class="cbs" />
+      <text id="Have_Gun_Will_Travel_text" x="6" y="14">Have Gun - Will Travel</text>
+    </g>
+    <g id="Lawman" transform="translate(100,630)">
+      <title id="Lawman_title">Lawman</title>
+      <path d="m 75,14 h 30" id="Lawman_to_Maverick" class="one_cross" />
+      <rect id="Lawman_box" x="0" y="0" width="73" height="28" class="abc" />
+      <text id="Lawman_text" x="6" y="14">Lawman</text>
+    </g>
+    <g id="Maverick_franchise" transform="translate(207,630)">
+      <title id="Maverick_franchise_title">Maverick</title>
+      <g class="spinoff" id="Maverick_spinoff_group" transform="translate(13)">
+        <title id="Maverick_spinoff_group_title">The Maverick spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Maverick_to_New_Maverick" />
+        <path d="m 0, 54 v 40 h 15" id="Maverick_to_Young_Maverick" />
+        <path d="m 0, 94 v 40 h 15" id="Maverick_to_Bret_Maverick" />
+        <path d="m 0, 134 v 40 h 15" id="Maverick_to_Maverick_1994" class="non_spinoff" />
+      </g>
+      <g id="Maverick" transform="translate(0,0)">
+        <title id="Maverick_title">Maverick</title>
+        <g class="one_cross" id="Maverick_crossovers" transform="translate(79,14)">
+          <title id="Maverick_crossovers_title">Maverick crossovers</title>
+          <path d="m 0,0 h 111" id="Maverick_to" />
+          <g transform="translate(111,0)">
+            <path d="m 0,0 h 15" id="Maverick_to_Cheyenne" />
+            <path d="m 0,0 v 106 h 211" id="Maverick_to_Sugarfoot" />
+            <path d="m 0,0 v 135 h 153 m 6,0 h 4 m 6,0 h 311 v 55" id="Maverick_to_Alias_Jesse_James" />
+            <path d="m 0,0 v 145 h 153 m 6,0 h 4 m 6,0 h 7 v 90 h 672 v 22 m 0,6 v 147" id="Maverick_to_Gambler_Returns" />
+          </g>
+        </g>
+        <rect id="Maverick_box" x="0" y="0" width="77" height="28" class="abc" />
+        <text id="Maverick_text" x="6" y="14">Maverick</text>
+      </g>
+      <g id="New_Maverick" transform="translate(30,40)">
+        <title id="New_Maverick_title">The New Maverick</title>
+        <rect id="New_Maverick_box" x="0" y="0" rx="10" width="144" height="28" class="abc tv_film" />
+        <text id="New_Maverick_text" x="6" y="14">The New Maverick</text>
+      </g>
+      <g id="Young_Maverick" transform="translate(30,80)">
+        <title id="Young_Maverick_title">Young Maverick</title>
+        <rect id="Young_Maverick_box" x="0" y="0" width="127" height="28" class="cbs" />
+        <text id="Young_Maverick_text" x="6" y="14">Young Maverick</text>
+      </g>
+      <g id="Bret_Maverick" transform="translate(30,120)">
+        <title id="Bret_Maverick_title">Bret Maverick</title>
+        <rect id="Bret_Maverick_box" x="0" y="0" width="110" height="28" class="nbc" />
+        <text id="Bret_Maverick_text" x="6" y="14">Bret Maverick</text>
+      </g>
+      <g id="Maverick_1994" transform="translate(30,160)">
+        <title id="Maverick_1994_title">Maverick (1994)</title>
+        <rect id="Maverick_1994_box" x="0" y="0" rx="10" width="124" height="28" class="film" />
+        <text id="Maverick_1994_text" x="6" y="14">Maverick <tspan>(1994)</tspan></text>
+      </g>
+    </g>
+    <g id="Cheyenne_franchise" transform="translate(414,630)">
+      <title id="Cheyenne_franchise_title">Cheyenne franchise</title>
+      <g class="spinoff" id="Cheyenne_spinoff_group" transform="translate(13)">
+        <title id="Cheyenne_spinoff_group_title">The Cheyenne spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Cheyenne_to_Bronco" />
+        <path d="m 0, 54 v 40 h 15" id="Cheyenne_to_Dakotas" class="semi_spinoff" />
+      </g>
+      <g id="Cheyenne" transform="translate(0,0)">
+        <title id="Cheyenne_title">Cheyenne</title>
+        <g class="one_cross" id="Cheyenne_crossovers" transform="translate(86,14)">
+          <title id="Cheyenne_crossovers_title">Cheyenne crossovers</title>
+          <path d="m 0,0 h 384 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 4 m 6,0 h 7" id="Cheyenne_to" />
+          <g transform="translate(457,0)">
+            <path d="m 0,0 h 320 v 212 m 0,6 v 39 m 0,6 v 147" id="Cheyenne_to_Gambler_Returns" />
+            <path d="m 0,0 v 153 h 45" id="Cheyenne_to_Kung_Fu_Legend_Continues" />
+          </g>
+        </g>
+        <rect id="Cheyenne_box" x="0" y="0" width="84" height="28" class="abc" />
+        <text id="Cheyenne_text" x="5" y="14">Cheyenne</text>
+      </g>
+      <g id="Bronco" transform="translate(30,40)">
+        <title id="Bronco_title">Bronco</title>
+        <g class="one_cross" id="Bronco_crossovers" transform="translate(64,14)">
+          <title id="Bronco_crossovers_title">Bronco crossovers</title>
+          <path d="m 0,0 h 55 v 63 m 0,6 v 0 m 0,6 v 3" id="Bronco_to" />
+          <g transform="translate(55,78)">
+            <path d="m 0,0 h 45" id="Bronco_to_Sugarfoot" />
+            <path d="m 0,0 v 109 h -373 v -221 h 15" id="Bronco_to_Maverick" />
+          </g>
+        </g>
+        <rect id="Bronco_box" x="0" y="0" width="62" height="28" class="abc" />
+        <text id="Bronco_text" x="5" y="14">Bronco</text>
+      </g>
+      <g id="Dakotas" transform="translate(30,80)">
+        <title id="Dakotas_title">The Dakotas</title>
+        <rect id="Dakotas_box" x="0" y="0" width="102" height="28" class="abc" />
+        <text id="Dakotas_text" x="6" y="14">The Dakotas</text>
+      </g>
+    </g>
+    <g id="Colt" transform="translate(443,801)" class="abc two_names">
+      <g id="Colt_45" transform="translate(0,0)">
+        <title id="Colt_45_title">Colt .45</title>
+        <path d="m 69,14 h 41 v -59 h 55" id="Colt_45_to_Sugarfoot" class="one_cross" />
+        <rect id="Colt_45_box" x="0" y="0" width="67" height="28" />
+        <text id="Colt_45_text" x="6" y="14">Colt .45</text>
+      </g>
+      <g id="Colt_Cousins" transform="translate(0,30)">
+        <title id="Colt_Cousins_title">Colt Cousins</title>
+        <rect id="Colt_Cousins_box" x="0" y="0" width="104" height="28" />
+        <text id="Colt_Cousins_text" x="6" y="14">Colt Cousins</text>
+      </g>
+    </g>
+    <g id="Boy_from_Oklahoma_franchise" transform="translate(580,699)">
+      <title id="Boy_from_Oklahoma_franchise_title">The Boy from Oklahoma</title>
+      <path d="m 13, 29 v 16 h 15" id="Boy_from_Oklahoma_to_Sugarfoot" class="non_spinoff" />
+      <g id="Boy_from_Oklahoma" transform="translate(0,0)">
+        <title id="Boy_from_Oklahoma_title">The Boy from Oklahoma</title>
+        <rect id="Boy_from_Oklahoma_box" x="0" y="0" rx="10" width="182" height="28" class="film" />
+        <text id="Boy_from_Oklahoma_text" x="6" y="14">The Boy from Oklahoma</text>
+      </g>
+      <g id="Sugarfoot" transform="translate(30,40)">
+        <title id="Sugarfoot_title">Sugarfoot</title>
+        <rect id="Sugarfoot_box" x="0" y="0" width="82" height="28" class="abc" />
+        <text id="Sugarfoot_text" x="6" y="14">Sugarfoot</text>
+      </g>
+    </g>
+    <g id="LL_Wyatt_Earp" transform="translate(590,820)">
+      <title id="LL_Wyatt_Earp_title">The Life and Legend of Wyatt Earp</title>
+      <g id="LL_of_Wyatt_Earp_crossovers" transform="translate(262,14)" class="one_cross">
+        <title id="LL_of_Wyatt_Earp_crossovers_title">The Life and Legend of Wyatt Earp crossovers</title>
+        <path d="m 0,0 h 15" id="LL_of_Wyatt_Earp_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 10" id="LL_of_Wyatt_Earp_to_Alias_Jesse_James" />
+          <path d="m 0,0 v 25 h 435" id="LL_of_Wyatt_Earp_to_Paradise" />
+          <path d="m 0,0 v 35 h 388 v 32 m 0,6 v 147" id="LL_of_Wyatt_Earp_to_Gambler_Returns_Luck_of_Draw" />
+        </g>
+      </g>
+      <rect id="LL_Wyatt_Earp_box" x="0" y="0" width="260" height="28" class="abc" />
+      <text id="LL_Wyatt_Earp_text" x="5" y="14">The Life and Legend of Wyatt Earp</text>
+    </g>
+    <g id="Kung_Fu_franchise" transform="translate(974,660)">
+      <title id="Kung_Fu_franchise_title">Kung Fu</title>
+      <g class="spinoff" id="Kung_Fu_spinoff_group" transform="translate(13)">
+        <title id="Kung_Fu_spinoff_group_title">The Kung Fu spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Kung_Fu_to_Kung_Fu_Movie" />
+        <path d="m 0, 55 v 39 h 15" id="Kung_Fu_to_Kung_Fu_Next_Generation" />
+        <path d="m 0, 95 v 36 h 15" id="Kung_Fu_to_Kung_Fu_Legend_Continues" />
+      </g>
+      <g id="Kung_Fu" transform="translate(0,0)">
+        <title id="Kung_Fu_title">Kung Fu</title>
+        <path d="m 75,14 h 217 v 182 m 0,6 v 39 m 0,6 v 147" id="Kung_Fu_to_Gambler_Returns_Luck_of_Draw" class="one_cross" />
+        <rect id="Kung_Fu_box"  x="0" y="0" width="73" height="28" class="abc" />
+        <text id="Kung_Fu_text" x="6" y="14">Kung Fu</text>
+      </g>
+      <g id="Kung_Fu_Movie" transform="translate(30,40)">
+        <title id="Kung_Fu_Movie_title">Kung Fu: The Movie</title>
+        <rect id="Kung_Fu_Movie_box"  x="0" y="0" rx="10" width="156" height="28" class="cbs" />
+        <text id="Kung_Fu_Movie_text" x="6" y="14">Kung Fu: The Movie</text>
+      </g>
+      <g id="Kung_Fu_Next_Generation" transform="translate(30,80)">
+        <title id="Kung_Fu_Next_Generation_title">Kung Fu: The Next Generation</title>
+        <rect id="Kung_Fu_Next_Generation_box"  x="0" y="0" rx="10" width="229" height="28" class="cbs" />
+        <text id="Kung_Fu_Next_Generation_text" x="6" y="14">Kung Fu: The Next Generation</text>
+      </g>
+      <g id="Kung_Fu_Legend_Continues" transform="translate(30,120)">
+        <title id="Kung_Fu_Legend_Continues_title">Kung Fu: The Legend Continues</title>
+        <rect id="Kung_Fu_Legend_Continues_box"  x="0" y="0" width="245" height="28" class="pten" />
+        <text id="Kung_Fu_Legend_Continues_text" x="6" y="14">Kung Fu: The Legend Continues</text>
+      </g>
+    </g>
+    <g id="Bat_Masterson" transform="translate(1104,890)">
+      <title id="Bat_Masterson_title">Bat Masterson</title>
+      <g class="one_cross" id="Bat_Masterson_crossovers" transform="translate(116,14)">
+        <title id="Bat_Masterson_crossovers_title">Bat Masterson crossovers</title>
+        <path d="m 0,0 h 15" id="Bat_Masterson_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 h 62 v -45 h 15" id="Bat_Masterson_to_Paradise" />
+          <path d="m 0,0 v 150" id="Bat_Masterson_to_Gambler_Returns" />
+        </g>
+      </g>
+      <rect id="Bat_Masterson_box" x="0" y="0" width="114" height="28" class="nbc" />
+      <text id="Bat_Masterson_text" x="5" y="14">Bat Masterson</text>
+    </g>
+    <g id="Westerner" transform="translate(1090,930)">
+      <title id="Westerner_title">The Westerner</title>
+      <path d="m 120,14 h 15 v 110" id="Westerner_to_Gambler_Returns_Luck_of_Draw" class="one_cross" />
+      <rect id="Westerner_box" x="0" y="0" width="118" height="28" class="nbc" />
+      <text id="Westerner_text" x="5" y="14">The Westerner</text>
+    </g>
+    <g id="Virginian_franchise" transform="translate(1092,970)" class="nbc">
+      <title id="Virginian_franchise_title">The Virginian</title>
+      <path class="spinoff" d="m 13, 30 v 24 h 15" id="Virginian_to_Laredo" />
+      <g id="Virginian" transform="translate(0,0)">
+        <title id="Virginian_title">The Virginian</title>
+        <path d="m 108,14 h 15 v 70" id="Virginian_to_Gambler_Returns_Luck_of_Draw" class="p_one_cross" />
+        <rect height="28" id="Virginian_box" width="106" x="0" y="0" />
+        <text id="Virginian_text" x="6" y="14">The Virginian</text>
+      </g>
+      <g id="Laredo" transform="translate(30,40)">
+        <title id="Laredo_title">Laredo</title>
+        <rect height="28" id="Laredo_box" width="62" x="0" y="0" />
+        <text id="Laredo_text" x="6" y="14">Laredo</text>
+      </g>
+    </g>
+    <g id="Rifleman_franchise" transform="translate(993,1040)">
+      <title id="Rifleman_franchise_title"></title>
+      <path d="m 13,30 v 24 h 27 m 6,0 12" class="spinoff" id="Rifleman_to_Law_Plainsman" />
+      <g id="Rifleman" transform="translate(0,0)">
+        <title id="Rifleman_title">The Rifleman</title>
+        <path d="m 109,14 h 103" id="Rifleman_to_Gambler_Returns_Luck_of_Draw" class="one_cross" />
+        <rect id="Rifleman_box" x="0" y="0" width="107" height="28" class="abc" />
+        <text id="Rifleman_text" x="6" y="14">The Rifleman</text>
+      </g>
+      <g id="Law_Plainsman" transform="translate(30,40)">
+        <title id="Law_Plainsman_title">Law of the Plainsman</title>
+        <rect id="Law_Plainsman_box" x="0" y="0" width="165" height="28" class="abc" />
+        <text id="Law_Plainsman_text" x="6" y="14">Law of the Plainsman</text>
+      </g>
+    </g>
+    <g id="Alias_Jesse_James" transform="translate(964,820)">
+      <title id="Alias_Jesse_James_title">Alias Jesse James</title>
+      <path d="m -2, 14 h -85" id="to_Alias_Jesse_James" class="one_cross" />
+      <rect id="Alias_Jesse_James_box" x="0" y="0" rx="10" width="144" height="28" class="film" />
+      <text id="Alias_Jesse_James_text" x="6" y="14">Alias Jesse James</text>
+    </g>
+    <g id="Paradises" transform="translate(1313,806)" class="cbs two_names">
+      <g id="Paradise" transform="translate(0,0)">
+        <title id="Paradise_title">Paradise</title>
+        <rect height="28" id="Paradise_box" width="76" x="0" y="0" />
+        <text id="Paradise_text" x="6" y="14">Paradise</text>
+      </g>
+      <g id="Guns_of_Paradise" transform="translate(0,30)">
+        <title id="Guns_of_Paradise_title">Guns of Paradise</title>
+        <rect height="28" id="Guns_of_Paradise_box" width="134" x="0" y="0" />
+        <text id="Guns_of_Paradise_text" x="6" y="14">Guns of Paradise</text>
+      </g>
+    </g>
+    <g id="Gambler_franchise" transform="translate(1304,917)">
+      <title id="Gambler_franchise_title"></title>
+      <g id="Gambler_spinoff_lines" transform="translate(13)">
+        <title id="Gambler_spinoff_lines_title">The Gambler spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="Gambler_to_Gambler_Adventure_Continues" />
+        <path d="m 0, 55 v 39 h 15" class="spinoff" id="Gambler_to_Gambler_Legend_Continues" />
+        <path d="m 0, 95 v 36 h 15" class="spinoff" id="Gambler_to_Gambler_Returns" />
+        <path d="m 0,132 v 42 h 15" class="spinoff" id="Gambler_to_Gambler_Playing_Keeps" />
+      </g>
+      <g id="Gambler" transform="translate(0,0)">
+        <title id="Gambler_title">Kenny Rogers as The Gambler</title>
+        <rect id="Gambler_box" x="0" y="0" rx="10" width="106" height="28" class="cbs tv_film" />
+        <text id="Gambler_text" x="5" y="14">The Gambler</text>
+      </g>
+      <g id="Gambler_Adventure_Continues" transform="translate(30,40)">
+        <title id="Gambler_Adventure_Continues_title">Kenny Rogers as The Gambler: The Adventure Continues</title>
+        <rect id="Gambler_Adventure_Continues_box"  x="0" y="0" rx="10" width="295" height="28" class="cbs tv_film" />
+        <text id="Gambler_Adventure_Continues_text" x="5" y="14">The Gambler: The Adventure Continues</text>
+      </g>
+      <g id="Gambler_Legend_Continues" transform="translate(30,80)">
+        <title id="Gambler_Legend_Continues_title">Kenny Rogers as The Gambler, Part 3: The Legend Continues</title>
+        <rect id="Gambler_Legend_Continues_box"  x="0" y="0" rx="10" width="331" height="28" class="cbs tv_film" />
+        <text id="Gambler_Legend_Continues_text" x="5" y="14">The Gambler, Part 3: The Legend Continues</text>
+      </g>
+      <g id="Gambler_Returns" transform="translate(30,120)">
+        <title id="Gambler_Returns_title">The Gambler Returns: The Luck of the Draw</title>
+        <path d="m -2,17 h -12 m -6,0 h -109" id="to_Gambler_Returns" class="one_cross" />
+        <rect id="Gambler_Returns_box"  x="0" y="0" rx="5" width="326" height="28" class="nbc tv_film" />
+        <text id="Gambler_Returns_text" x="5" y="14">The Gambler Returns: The Luck of the Draw</text>
+      </g>
+      <g id="Gambler_Playing_Keeps" transform="translate(30,160)">
+        <title id="Gambler_Playing_Keeps_title">Gambler V: Playing for Keeps</title>
+        <rect id="Gambler_Playing_Keeps_box"  x="0" y="0" rx="10" width="222" height="28" class="cbs tv_film" />
+        <text id="Gambler_Playing_Keeps_text" x="5" y="14">Gambler V: Playing for Keeps</text>
+      </g>
+    </g>
+    <g id="Crisis_crossovers" transform="translate(1546,94)" class="event_cross">
+      <title id="Crisis_crossovers_title">Crisis of Infinate Earths crossovers</title>
+      <text id="Crisis_crossovers_text" x="-30" y="-8" class="path">Crisis of Infinate Earths</text>
+      <path d="m 0,0 h  -47"        id="Batman_1966_tv_to_Arrowverse" />
+      <path d="m 0,0 v   80 h  -60" id="Batman_1989_to_Arrowverse" />
+      <path d="m 0,0 v  280 h -133" id="Superman_Returns_to_Arrowverse" />
+      <path d="m 0,0 v  305 h  -15" id="Smallville_to_Arrowverse" />
+      <path d="m 0,0 v  345 h  -15" id="Birds_of_Prey_to_Arrowverse" />
+      <path d="m 0,0 v  385 h  -15" id="Green_Lanterm_to_Arrowverse" />
+      <path d="m 0,0 v  425 h  -15" id="Titans_to_Arrowverse" />
+      <path d="m 0,0 v  400 h  121" id="Arrowverse_to_DCEU" />
+      <path d="m 0,0 v  465 h  -15" id="Lucifer_to_Arrowverse" />
+      <path d="m 0,0 v  505 h  -15" id="Swamp_Thing_to_Arrowverse" />
+      <path d="m 0,0 v  545 h  -15" id="Doom_Patrol_to_Arrowverse" />
+      <path d="m 0,0 v  585 h  -15" id="Stargirl_to_Arrowverse" />
+      <path d="m 0,0 h  121"        id="to_Arrowverse" />
+    </g>
+    <g id="Batman_1966_franchise" transform="translate(1362,80)">
+      <title id="Batman_1966_franchise_title">Batman (1966) franchise</title>
+      <path d="m 13, 30 v 24 h 15" class="spinoff" id="Batman_1966_tv_to_Batman_1966_film" />
+      <g id="Batman_1966_tv" transform="translate(0,0)">
+        <title id="Batman_1966_tv_title">Batman (1966 TV)</title>
+        <rect id="Batman_1966_tv_box" x="0" y="0" width="135" height="28" class="abc" />
+        <text id="Batman_1966_tv_text" x="6" y="14">Batman <tspan id="Batman_1966_tv_year_type">(1966 TV)</tspan></text>
+      </g>
+      <g id="Batman_1966_film" transform="translate(30,40)">
+        <title id="Batman_1966_film_title">Batman (1966 film)</title>
+        <rect id="Batman_1966_film_box" x="0" y="0" rx="10" width="139" height="28" class="film" />
+        <text id="Batman_1966_film_text" x="6" y="14">Batman <tspan id="Batman_1966_film_year_type">(1966 film)</tspan></text>
+      </g>
+    </g>
+    <g id="Batman_1989_franchise" transform="translate(1373,160)">
+      <title id="Batman_1989_franchise_title">Batman (1989) franchise</title>
+      <g id="Batman_1989_spinoff_lines" class="spinoff" transform="translate(13)">
+        <title id="_spinoff_lines_title">The Batman 1989 spinoffs</title>
+        <path d="m 0,30 v 24 h 15" id="Batman_1989_to_Batman_Returns" />
+        <path d="m 0,54 v 40 h 15" id="Batman_1989_to_Batman_Forever" class="semi_spinoff" />
+        <path d="m 0,94 v 40 h 15" id="Batman_1989_to_Batman_Robin" class="semi_spinoff" />
+      </g>
+      <g id="Batman_1989" transform="translate(0,0)">
+        <title id="Batman_1989_title">Batman (1989)</title>
+        <rect id="Batman_1989_box"  x="0" y="0"  rx="10" width="112" height="28" class="film" />
+        <text id="Batman_1989_text" x="5" y="14">Batman <tspan id="Batman_1989_year">(1989)</tspan></text>
+      </g>
+      <g id="Batman_Returns" transform="translate(30,40)">
+        <title id="Batman_Returns_title">Batman Returns</title>
+        <rect id="Batman_Returns_box"  x="0" y="0"  rx="10" width="127" height="28" class="film" />
+        <text id="Batman_Returns_text" x="5" y="14">Batman Returns</text>
+      </g>
+      <g id="Batman_Forever" transform="translate(30,80)">
+        <title id="Batman_Forever_title">Batman Forever</title>
+        <rect id="Batman_Forever_box"  x="0" y="0"  rx="10" width="127" height="28" class="film" />
+        <text id="Batman_Forever_text" x="5" y="14">Batman Forever</text>
+      </g>
+      <g id="Batman_Robin" transform="translate(30,120)">
+        <title id="Batman_Robin_title">Batman &amp; Robin</title>
+        <rect id="Batman_Robin_box"  x="0" y="0"  rx="10" width="127" height="28" class="film" />
+        <text id="Batman_Robin_text" x="5" y="14">Batman &amp; Robin</text>
+      </g>
+    </g>
+    <g id="Superman_franchise" transform="translate(1235,160)">
+      <title id="Superman_franchise_title">Superman (1978) franchise</title>
+      <g id="Superman_spinoff_lines" class="spinoff" transform="translate(13)">
+        <title id="_spinoff_lines_title">The Superman spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Superman_to_Superman2" />
+        <path d="m 0, 54 v 40 h 15" id="Superman_to_Superman3" />
+        <path d="m 0, 94 v 40 h 15" id="Superman_to_Supergirl" />
+        <path d="m 0,134 v 40 h 15" id="Superman_to_Superman4" />
+        <path d="m 0,174 v 40 h 15" id="Superman_to_Superman_Returns" class="semi_spinoff" />
+      </g>
+      <g id="Superman" transform="translate(0,0)">
+        <title id="Superman_title">Superman</title>
+        <rect id="Superman_box"  x="0" y="0"  rx="10" width="85" height="28" class="film" />
+        <text id="Superman_text" x="5" y="14">Superman</text>
+      </g>
+      <g id="Superman2" transform="translate(30,40)">
+        <title id="Superman2_title">Superman II</title>
+        <rect id="Superman2_box"  x="0" y="0"  rx="10" width="99" height="28" class="film" />
+        <text id="Superman2_text" x="5" y="14">Superman II</text>
+      </g>
+      <g id="Superman3" transform="translate(30,80)">
+        <title id="Superman3_title">Superman III</title>
+        <rect id="Superman3_box"  x="0" y="0"  rx="10" width="103" height="28" class="film" />
+        <text id="Superman3_text" x="5" y="14">Superman III</text>
+      </g>
+      <g id="Supergirl" transform="translate(30,120)">
+        <title id="Supergirl_title">Supergirl</title>
+        <rect id="Supergirl_box"  x="0" y="0"  rx="10" width="78" height="28" class="film" />
+        <text id="Supergirl_text" x="5" y="14">Supergirl</text>
+      </g>
+      <g id="Superman4" transform="translate(30,160)">
+        <title id="Superman4_title">Superman IV: The Quest for Peace</title>
+        <rect id="Superman4_box"  x="0" y="0" rx="10" width="260" height="28" class="film" />
+        <text id="Superman4_text" x="5" y="14">Superman IV: The Quest for Peace</text>
+      </g>
+      <g id="Superman_Returns" transform="translate(30,200)">
+        <title id="Superman_Returns_title">Superman Returns</title>
+        <rect id="Superman_Returns_box"  x="0" y="0" rx="10" width="146" height="28" class="film" />
+        <text id="Superman_Returns_text" x="5" y="14">Superman Returns</text>
+      </g>
+    </g>
+    <g id="Smallville" transform="translate(1451,385)">
+      <title id="Smallville_title">Smallville</title>
+      <rect id="Smallville_box_1" x="0" y="0" width="78" height="28" class="wb" />
+      <rect id="Smallville_box_1" x="4" y="4" width="70" height="20" class="cw inner" />
+      <text id="Smallville_text" x="5" y="14">Smallville</text>
+    </g>
+    <g id="Birds_of_Prey" transform="translate(1425,425)">
+      <title id="Birds_of_Prey_title">Birds of Prey</title>
+      <rect id="Birds_of_Prey_box"  x="0" y="0" width="104" height="28" class="wb" />
+      <text id="Birds_of_Prey_text" x="6" y="14">Birds of Prey</text>
+    </g>
+    <g id="Green_Lantern" transform="translate(1415,465)">
+      <title id="Green_Lantern_title">Green Lantern</title>
+      <rect id="Green_Lantern_box"  x="0" y="0" rx="10" width="114" height="28" class="film" />
+      <text id="Green_Lantern_text" x="5" y="14">Green Lantern</text>
+    </g>
+    <g id="DCEU_franchise" transform="translate(1669,480)">
+      <title id="DCEU_franchise_title">DC Extended Universe</title>
+      <g id="DCEU_spinoff_lines" class="spinoff" transform="translate(13)">
+        <title id="_spinoff_lines_title">The  spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="DCEU_to_Man_of_Steel" />
+        <path d="m 0, 55 v 39 h 15" id="DCEU_to_Batman_v_Superman" />
+        <path d="m 0, 95 v 39 h 15" id="DCEU_to_Suicide_Squad" />
+        <path d="m 0,135 v 39 h 15" id="DCEU_to_Wonder_Woman" />
+        <path d="m 0,175 v 39 h 15" id="DCEU_to_Justice_League" />
+        <path d="m 0,215 v 39 h 15" id="DCEU_to_Aquaman" />
+        <path d="m 0,255 v 39 h 15" id="DCEU_to_Shazam" />
+        <path d="m 0,295 v 39 h 15" id="DCEU_to_Birds_of_Prey_2020" />
+        <path d="m 0,335 v 39 h 15" id="DCEU_to_Wonder_Woman_1984" />
+        <path d="m 0,375 v 39 h 15" id="DCEU_to_The_Batman" />
+        <path d="m 0,415 v 39 h 15" id="DCEU_to_The_Suicide_Squad" />
+        <path d="m 0,455 v 39 h 15" id="DCEU_to_Black_Adam" />
+        <path d="m 0,495 v 39 h 15" id="DCEU_to_Shazam2" />
+        <path d="m 0,535 v 39 h 15" id="DCEU_to_Flash_2022" />
+        <path d="m 0,575 v 39 h 15" id="DCEU_to_Aquaman2" />
+      </g>
+      <g id="DCEU" transform="translate(0,0)">
+        <title id="DCEU_title">DC Extended Universe</title>
+        <rect id="DCEU_box"  x="0" y="0" rx="10" width="175" height="28" class="film" />
+        <text id="DCEU_text" x="6" y="14">DC Extended Universe</text>
+      </g>
+      <g id="Man_of_Steel" transform="translate(30,40)">
+        <title id="Man_of_Steel_title">Man of Steel</title>
+        <rect id="Man_of_Steel_box"  x="0" y="0" rx="10" width="103" height="28" class="film" />
+        <text id="Man_of_Steel_text" x="6" y="14">Man of Steel</text>
+      </g>
+      <g id="Batman_v_Superman" transform="translate(30,80)">
+        <title id="Batman_v_Superman_title">Batman v Superman: Dawn of Justice</title>
+        <rect id="Batman_v_Superman_box"  x="0" y="0" rx="10" width="279" height="28" class="film" />
+        <text id="Batman_v_Superman_text" x="5" y="14">Batman v Superman: Dawn of Justice</text>
+      </g>
+      <g id="Suicide_Squad" transform="translate(30,120)">
+        <title id="Suicide_Squad_title">Suicide Squad</title>
+        <rect id="Suicide_Squad_box"  x="0" y="0" rx="10" width="116" height="28" class="film" />
+        <text id="Suicide_Squad_text" x="6" y="14">Suicide Squad</text>
+      </g>
+      <g id="Wonder_Woman" transform="translate(30,160)">
+        <title id="Wonder_Woman_title">Wonder Woman</title>
+        <rect id="Wonder_Woman_box"  x="0" y="0" rx="10" width="128" height="28" class="film" />
+        <text id="Wonder_Woman_text" x="6" y="14">Wonder Woman</text>
+      </g>
+      <g id="Justice_League" transform="translate(30,200)">
+        <title id="Justice_League_title">Justice League</title>
+        <rect id="Justice_League_box"  x="0" y="0" rx="10" width="121" height="28" class="film" />
+        <text id="Justice_League_text" x="6" y="14">Justice League</text>
+      </g>
+      <g id="Aquaman" transform="translate(30,240)">
+        <title id="Aquaman_title">Aquaman</title>
+        <rect id="Aquaman_box"  x="0" y="0" rx="10" width="80" height="28" class="film" />
+        <text id="Aquaman_text" x="6" y="14">Aquaman</text>
+      </g>
+      <g id="Shazam" transform="translate(30,280)">
+        <title id="Shazam_title">Shazam!</title>
+        <rect id="Shazam_box"  x="0" y="0" rx="10" width="76" height="28" class="film" />
+        <text id="Shazam_text" x="6" y="14">Shazam!</text>
+      </g>
+      <g id="Birds_of_Prey_2020" transform="translate(30,320)">
+        <title id="Birds_of_Prey_2020_title">Birds of Prey (2020)</title>
+        <rect id="Birds_of_Prey_2020_box"  x="0" y="0" rx="10" width="149" height="28" class="film" />
+        <text id="Birds_of_Prey_2020_text" x="6" y="14">Birds of Prey <tspan id="Birds_of_Prey_year">(2020)</tspan></text>
+      </g>
+      <g id="Wonder_Woman_1984" transform="translate(30,360)">
+        <title id="Wonder_Woman_1984_title">Wonder Woman 1984</title>
+        <rect id="Wonder_Woman_1984_box"  x="0" y="0" rx="10" width="171" height="28" class="film" />
+        <text id="Wonder_Woman_1984_text" x="6" y="14">Wonder Woman 1984</text>
+      </g>
+      <g id="The_Batman" transform="translate(30,400)">
+        <title id="The_Batman_title">The Batman</title>
+        <rect id="The_Batman_box"  x="0" y="0" rx="10" width="99" height="28" class="film" />
+        <text id="The_Batman_text" x="6" y="14">The Batman</text>
+      </g>
+      <g id="The_Suicide_Squad" transform="translate(30,440)">
+        <title id="The_Suicide_Squad_title">The Suicide Squad</title>
+        <rect id="The_Suicide_Squad_box"  x="0" y="0" rx="10" width="148" height="28" class="film" />
+        <text id="The_Suicide_Squad_text" x="6" y="14">The Suicide Squad</text>
+      </g>
+      <g id="Black_Adam" transform="translate(30,480)">
+        <title id="Black_Adam_title">Black Adam</title>
+        <rect id="Black_Adam_box"  x="0" y="0" rx="10" width="96" height="28" class="film" />
+        <text id="Black_Adam_text" x="6" y="14">Black Adam</text>
+      </g>
+      <g id="Shazam2" transform="translate(30,520)">
+        <title id="Shazam2_title">Shazam! 2</title>
+        <rect id="Shazam2_box"  x="0" y="0" rx="10" width="89" height="28" class="film" />
+        <text id="Shazam2_text" x="6" y="14">Shazam! 2</text>
+      </g>
+      <g id="Flash_2022" transform="translate(30,560)">
+        <title id="Flash_2022_title">The Flash (2022)</title>
+        <rect id="Flash_2022_box"  x="0" y="0" rx="10" width="129" height="28" class="film" />
+        <text id="Flash_2022_text" x="6" y="14">The Flash  <tspan id="Flash_2022_year">(2022)</tspan></text>
+      </g>
+      <g id="Aquaman2" transform="translate(30,600)">
+        <title id="Aquaman2_title">Aquaman 2</title>
+        <rect id="Aquaman2_box"  x="0" y="0" rx="10" width="94" height="28" class="film" />
+        <text id="Aquaman2_text" x="6" y="14">Aquaman 2</text>
+      </g>
+    </g>
+    <g id="Titans" transform="translate(1474,505)">
+      <title id="Titans_title">Titans</title>
+      <rect id="Titans_box"  x="0" y="0" width="55" height="28" class="dc" />
+      <text id="Titans_text" x="5" y="14">Titans</text>
+    </g>
+    <g id="Lucifer" transform="translate(1468,545)">
+      <title id="Lucifer_title">Lucifer</title>
+      <rect id="Lucifer_box" x="0" y="0" width="61" height="28" class="fox" />
+      <text id="Lucifer_text" x="6" y="14">Lucifer</text>
+    </g>
+    <g id="Swamp_Thing" transform="translate(1420,585)">
+      <title id="Swamp_Thing_title">Swamp Thing</title>
+      <rect id="Swamp_Thing_box" x="0" y="0" width="109" height="28" class="dc" />
+      <text id="Swamp_Thing_text" x="5" y="14">Swamp Thing</text>
+    </g>
+    <g id="Doom_Patrol" transform="translate(1428,625)">
+      <title id="Doom_Patrol_title">Doom Patrol</title>
+      <rect id="Doom_Patrol_box" x="0" y="0" width="101" height="28" class="dc" />
+      <text id="Doom_Patrol_text" x="5" y="14">Doom Patrol</text>
+    </g>
+    <g id="Stargirl" transform="translate(1465,665)">
+      <title id="Stargirl_title">Stargirl</title>
+      <rect id="Stargirl_box"  x="0" y="0" width="64" height="28" class="dc" />
+      <text id="Stargirl_text" x="5" y="14">Stargirl</text>
+    </g>
+    <g id="Constantine" transform="translate(1563,123)">
+      <title id="Constantine_title">Constantine</title>
+      <g id="Constantine_crossovers" class="one_cross" transform="translate(98,14)">
+        <title id="Constantine_crossovers_title">Constantine crossovers</title>
+        <path d="m 0,0 h 15"                             id="Constantine_to" />
+        <path d="m 15,0 h 3  m 6,0 h 12"                 id="Constantine_to_Arrow" />
+        <path d="m 15,0 v 37 m 0,6 v 117 h 3 m 6,0 h 12" id="Constantine_to_Legends" />
+      </g>
+      <rect id="Constantine_box"  x="0" y="0" width="96" height="28" class="nbc" />
+      <text id="Constantine_text" x="5" y="14">Constantine</text>
+    </g>
+    <g id="Flash" transform="translate(1577,163)">
+      <title id="Flash_title">The Flash</title>
+      <path d="m 84,14 h 18 m 6,0 h 12" class="one_cross" id="Flash_to_Flash_2014" />
+      <rect id="Flash_box"  x="0" y="0" width="82" height="28" class="cbs" />
+      <text id="Flash_text" x="5" y="14" >The Flash</text>
+    </g>
+    <g id="Arrowverse_franchise" transform="translate(1669,80)">
+      <title id="Arrowverse_franchise_title">Arrowverse</title>
+      <g id="Arrowverse_spinoff_lines" class="spinoff" transform="translate(13)">
+        <title id="Arrowverse_spinoff_lines_title">The Arrowverse spinoffs</title>
+        <path d="m 0, 30 v 21 h 15" id="Arrowverse_to_Arrow" />
+        <path d="m 0, 52 v 39 h 15" id="Arrowverse_to_Flash_2014" />
+        <path d="m 0, 92 v 42 h 15" id="Arrowverse_to_Vixen" />
+        <path d="m 0,135 v 39 h 15" id="Arrowverse_to_Supergirl" />
+        <path d="m 0,175 v 36 h 15" id="Arrowverse_to_Legends" />
+        <path d="m 0,212 v 42 h 15" id="Arrowverse_to_Freedom_Fighters" />
+        <path d="m 0,255 v 39 h 15" id="Arrowverse_to_Black_Lightning" />
+        <path d="m 0,295 v 39 h 15" id="Arrowverse_to_Batwoman" />
+        <path d="m 0,335 v 39 h 15" id="Arrowverse_to_Superman_Lois" />
+      </g>
+      <g id="Arrowverse" transform="translate(0,0)">
+        <title id="Arrowverse_title">Arrowverse</title>
+        <rect id="Arrowverse_box"  x="0" y="0" width="92" height="28" class="cw" />
+        <text id="Arrowverse_text" x="6" y="14">Arrowverse</text>
+      </g>
+      <g id="Arrow" transform="translate(30,40)">
+        <title id="Arrow_title">Arrow</title>
+        <rect id="Arrow_box"  x="0" y="0" width="55" height="28" class="cw" />
+        <text id="Arrow_text" x="6" y="14">Arrow</text>
+      </g>
+      <g id="Flash_2014" transform="translate(30,80)">
+        <title id="Flash_2014_title">The Flash (2014)</title>
+        <rect id="Flash_2014_box"  x="0" y="0" width="128" height="28" class="cw" />
+        <text id="Flash_2014_text" x="6" y="14">The Flash <tspan id="Flash_2014_year">(2014)</tspan></text>
+      </g>
+      <g id="Vixen" transform="translate(30,120)">
+        <title id="Vixen_title">Vixen</title>
+        <rect id="Vixen_box"  x="0" y="0" width="52" height="28" class="cw" />
+        <text id="Vixen_text" x="6" y="14">Vixen</text>
+      </g>
+      <g id="Supergirl_2015" transform="translate(30,160)">
+        <title id="Supergirl_2015_title">Supergirl (2015)</title>
+        <rect id="Supergirl_2015_box_1" x="0" y="0" width="121" height="28" class="cbs" />
+        <rect id="Supergirl_2015_box_2" x="4" y="4" width="113" height="20" class="cw inner" />
+        <text id="Supergirl_2015_text"  x="6" y="14">Supergirl <tspan id="Supergirl_2015_year">(2015)</tspan></text>
+      </g>
+      <g id="Legends" transform="translate(30,200)">
+        <title id="Legends_title">Legends of Tomorrow</title>
+        <rect id="Legends_box"  x="0" y="0" width="167" height="28" class="cw" />
+        <text id="Legends_text" x="6" y="14">Legends of Tomorrow</text>
+      </g>
+      <g id="Freedom_Fighters" transform="translate(30,240)">
+        <title id="Freedom_Fighters_title">Freedom Fighters: The Ray</title>
+        <rect id="Freedom_Fighters_box"  x="0" y="0" width="209" height="28" class="cw" />
+        <text id="Freedom_Fighters_text" x="6" y="14">Freedom Fighters: The Ray</text>
+      </g>
+      <g id="Black_Lightning" transform="translate(30,280)">
+        <title id="Black_Lightning_title">Black Lightning</title>
+        <rect id="Black_Lightning_box"  x="0" y="0" width="121" height="28" class="cw" />
+        <text id="Black_Lightning_text" x="6" y="14">Black Lightning</text>
+      </g>
+      <g id="Batwoman" transform="translate(30,320)">
+        <title id="Batwoman_title">Batwoman</title>
+        <rect id="Batwoman_box"  x="0" y="0" width="87" height="28" class="cw" />
+        <text id="Batwoman_text" x="6" y="14">Batwoman</text>
+      </g>
+      <g id="Superman_Lois" transform="translate(30,360)">
+        <title id="Superman_Lois_title">Superman &amp; Lois</title>
+        <rect id="Superman_Lois_box"  x="0" y="0" width="134" height="28" class="cw" />
+        <text id="Superman_Lois_text" x="6" y="14">Superman &amp; Lois</text>
+      </g>
+    </g>
+  </g>
+</svg>

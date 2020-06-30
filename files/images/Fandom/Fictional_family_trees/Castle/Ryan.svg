@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../../css/family_tree.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 610 240"
+  width="610"
+  height="240"
+  >
+  <title id="Castle_title">The Ryan family from Castle</title>
+  <metadata id="Castle_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Castle family from Castke</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="stop4423" style="stop-color:#ccccff;stop-opacity:0.85;" offset="75%" />
+      <stop id="stop4425" style="stop-color:#eeeeff;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="stop4677" style="stop-color:#ffcccc;stop-opacity:0.85;" offset="75%" />
+      <stop id="stop4679" style="stop-color:#ffeeee;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+  </defs>
+  <!--
+    Family paths generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+  -->
+  <g id="Castle" class="graph" transform="translate(5,235)">
+    <title>The Ryan family from Castle</title>
+    <text x="305" y="-223" class="chart_title">The Ryan family from <tspan style="font-style:italic">Castle</tspan></text>
+
+    <g class="child" id="Ryan-family1" transform="translate(400, -208)">
+      <title>Ryan siblings</title>
+      <path d="m 0,0 h -164 v  20" id="sibRyan-maleRyan" />
+      <path d="m 0,0 h  164 v  20" id="sibRyan-unnamedRyan" />
+      <circle cx="0" cy="0" id="sibRyan" r="1.5" />
+    </g>
+
+    <g class="child" id="Ryan-family1" transform="translate(236, -152)">
+      <title>Ryan siblings</title>
+      <path d="m 0,0 v 20"/>
+      <path d="m 0,20 h -114 v 20" id="cRyan-GwenRyan" />
+      <path d="m 0,20 h  -38 v 20" id="cRyan-KarenRyan" />
+      <path d="m 0,20 h   38 v 20" id="cRyan-StacyRyan" />
+      <path d="m 0,20 h  114 v 20" id="cRyan-KevinRyan" />
+      <circle cx="0" cy="20" id="cRyan" r="1.5" />
+    </g>
+    <g class="child" id="" transform="translate(564,-152)">
+      <path d="m 0,0 v 40"/>
+    </g>
+
+    <g class="marriage" id="Kelly-family" transform="translate(75, -94)">
+      <title>Marriage of Gwen Ryan and Frank Kelly</title>
+      <path d="m 0,0 h -19" id="mGweFra-FrankKelly" />
+      <path d="m 0,0 h  19" id="mGweFra-GwenRyan" />
+      <circle cx="0" cy="0" id="mGweFra" r="1.5" />
+    </g>
+    <g class="marriage" id="Ryan-family2" transform="translate(397, -94)">
+      <title>Marriage of Jennifer O'Malley and Kevin Ryan</title>
+      <path d="m 0,0 h -19" id="mJenKev-JenniferOMalley" />
+      <path d="m 0,0 h  19" id="mJenKev-KevinRyan" />
+      <g class="child" id="">
+        <title>Children of Jennifer O'Malley and Kevin Ryan</title>
+        <path d="m 0,0  v  38" id="JenKev-cJenKev" />
+        <path d="m 0,38 h -40 v  20" id="cJenKev-SarahRyan" />
+        <path d="m 0,38 h  40 v  20" id="cJenKev-NicholasRyan" />
+        <circle cx="0" cy="38" id="cJenKev" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mJenKev" r="1.5" />
+    </g>
+
+    <g id="maleRyan" class="male unnamed" transform="translate(208,-188)">
+      <title>unnamed Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">unnamed</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+    <g id="unnamedRyan" class="neuter unnamed" transform="translate(536,-188)">
+      <title>unnamed Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">unnamed</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+
+    <g id="FrankKelly" class="male" transform="translate(0,-112)">
+      <title>Frank Kelly</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">Frank</text>
+      <text x="28" y="24">Kelly</text>
+    </g>
+    <g id="GwenRyan" class="female" transform="translate(94,-112)">
+      <title>Gwen Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">Gwen</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+    <g id="StacyRyan" class="female" transform="translate(170,-112)">
+      <title>Stacy Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">Stacy</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+    <g id="KarenRyan" class="female" transform="translate(246,-112)">
+      <title>Karen Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">Karen</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+    <g id="KevinRyan" class="male main" transform="translate(322,-112)">
+      <title>Kevin Ryan</title>
+      <rect x="0" y="0" width="56" height="36" />
+      <text x="28" y="12">Kevin</text>
+      <text x="28" y="24">Ryan</text>
+    </g>
+    <g id="JenniferOMalley" class="female" transform="translate(416,-114)">
+      <title>Jennifer O'Malley</title>
+      <rect x="0" y="0" width="92" height="40" />
+      <text x="46" y="8">Jennifer</text>
+      <text x="46" y="20">Scout</text>
+      <text x="46" y="32">Duffy O'Malley</text>
+    </g>
+    <g id="Raymond" class="male" transform="translate(528,-112)">
+      <title>Raymond</title>
+      <rect x="0" y="0" width="72" height="36" />
+      <text x="36" y="18">Raymond</text>
+    </g>
+
+
+    <g id="SarahRyan" class="female" transform="translate(327,-36)">
+      <title>Sarah Ryan</title>
+      <rect x="0" y="0" width="60" height="40" />
+      <text x="30" y="8">Sarah</text>
+      <text x="30" y="20">Grace</text>
+      <text x="30" y="32">Ryan</text>
+    </g>
+    <g id="NicholasRyan" class="male" transform="translate(407,-36)">
+      <title>NicholasRyan</title>
+      <rect x="0" y="0" width="60" height="40" />
+      <text x="30" y="8">Nicholas</text>
+      <text x="30" y="20">Javier</text>
+      <text x="30" y="32">Ryan</text>
+    </g>
+  </g>
+</svg>

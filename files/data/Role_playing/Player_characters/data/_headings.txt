@@ -1,0 +1,16 @@
+ability scores|strength;dexterity;constitution;intelligence;wisdom;charisma
+alignment|primary;secondary;abbreviation
+animals|+
+appearance and background|title;gender;hair;eyes;height;weight;homeland;clan;family;religion;status;DM
+armor|worn+;armor owned+;notes
+class|class+;experience;multiplier;hit points
+equipment|containers+;clothing+;other items+;magic items+;notes
+languages|+
+non weapon proficiencies|+
+saving throw modifiers|+
+specialty|specialty
+spheres of access|major+;minor+
+thief skills|Pick Pockets;Open Locks;Find/Remove Traps;Move Silently;Hide in Shadows;Detect Noise;Climb Walls;Read Languages;Bribe;Detect Illusion;Detect Magic;Escape Bonds;Tunneling
+treasure|copper;silver;electrum;gold;platinum;gems+;jewelry+;art+;notes
+weapons|proficient;specialized;mastery;high mastery;grand mastery;weapons owned+
+race|race;special race

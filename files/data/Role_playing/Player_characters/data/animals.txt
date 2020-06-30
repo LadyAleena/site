@@ -1,0 +1,18 @@
+Rojeana Decant|Randoun:light war horse,19
+Myleara Disstar|Equity:light war horse,19
+Oalirya Disstar|JusticeReaper:light war horse,19
+Tymara Fi'ranicy|Providence:light war horse,19;Fortune:draft horse,18
+Nemidia Ge'mardian|Thicket:light war horse,11
+Xyrena Hewlett-Packard-Bell|Rapier:light war horse,19
+Ulari Ilan|Fyrd:light war horse,19
+Sorack Linsandin'viniar|Arcana:light war horse,19;Blade Leaper:light war horse,19
+Zamia Lo'rena|Zalo:light war horse,19
+Driastan Marder'bastiar|Tomefinder:light war horse,19
+Desolenna Marder'bastiar|Scrollfinder:light war horse,19
+Nwadira Mazan|Wondrous:light war horse,11
+Patrina Meysa Rast|Roan:light war horse,19
+Amori Tamdenar|Crocilon:medium war horse,23;Kilorca:light war hose,17;Pullon:draft horse,20;Tuggon:draft horse,20
+Aegyn Valchae|Boo:tiger,30;Canifer:medium war horse,19;Vamifer:medium war horse,19;Perny:dragonette,2
+Handira Warnir|Preserver:light war horse,19
+Aztema Zavgar|Myssyle:medium war horse,19
+Kymaria Zendelic'tronyara|Blade:medium war horse,19;Mystic:medium war horse,19;Shadow:medium war horse,19;Pulone:draft horse,20;Pulto:draft horse,20;Pultree:draft horse,20;Pulfur:draft horse,20

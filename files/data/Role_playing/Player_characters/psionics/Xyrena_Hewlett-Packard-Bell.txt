@@ -1,0 +1,4 @@
+PSPs|682
+Psychokinesis|Telekinesis|Molecular Agitation;Molecular Manipulation
+Psychometabolism||Absorb Disease;Chameleon Power
+Telepathy|Domination;Mass Domination;Mindlink|Contact

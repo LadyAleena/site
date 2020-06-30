@@ -1,0 +1,3 @@
+PSPs|100
+Psychokinesis|Telekinesis|Inertial Barrier;Molecular Agitation;Soften
+Telepathy|Tower of Iron Will

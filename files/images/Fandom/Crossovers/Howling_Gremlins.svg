@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 553 318"
+  width="553"
+  height="318"
+  id="Howling_Gremlins"
+>
+  <title id="Howling_Gremlins_title">The Howling crossed with Gremlins</title>
+  <metadata id="Howling_Gremlins_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Howling cross Gremlins</dc:title>
+        <dc:date>2019-08-20</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Howling_Gremlins_chart" transform="translate(5,5)">
+    <title id="Howling_Gremlins_chart_title">The Howling crossed with Gremlins</title>
+    <!--<text id="Howling_Gremlins_chart_title_text" x="0" y="14">Howling Gremlins</text>-->
+    <g id="Howling_franchise" transform="translate(0,0)">
+      <title id="Howling_franchise_title">The Howling</title>
+      <g class="spinoff" id="Howling_spinoff_lines" transform="translate(13)">
+        <title id="Howling_spinoff_lines_title">The The Howling spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Howling_to_Howling_II_Your_Sister_is_Werewolf" />
+        <path d="m 0,  55 v 39 h 15" id="Howling_to_Howling_III_Marsupials" />
+        <path d="m 0,  95 v 39 h 15" id="Howling_to_Howling_IV_Original_Nightmare" />
+        <path d="m 0, 135 v 39 h 15" id="Howling_to_Howling_V_Rebith" />
+        <path d="m 0, 175 v 39 h 15" id="Howling_to_Howling_VI_Freaks" />
+        <path d="m 0, 215 v 39 h 15" id="Howling_to_Howling_New_Moon_Rising" />
+        <path d="m 0, 255 v 39 h 15" id="Howling_to_Howling_Reborn" />
+      </g>
+      <g id="Howling" transform="translate(0,0)">
+        <title id="Howling_title">The Howling</title>
+        <path d="m 104, 14 h 201" class="one_cross" id="Howling_to_Gremlins" />
+        <rect id="Howling_box"  x="0" y="0" rx="10" width="102" height="28" class="film" />
+        <text id="Howling_text" x="6" y="14">The Howling</text>
+      </g>
+      <g id="Howling_II_Your_Sister_is_Werewolf" transform="translate(30,40)">
+        <title id="Howling_II_Your_Sister_is_Werewolf_title">Howling II: Your Sister is a Werewolf</title>
+        <rect id="Howling_II_Your_Sister_is_Werewolf_box"  x="0" y="0" rx="10" width="273" height="28" class="film" />
+        <text id="Howling_II_Your_Sister_is_Werewolf_text" x="6" y="14">Howling II: Your Sister is a Werewolf</text>
+      </g>
+      <g id="Howling_III_Marsupials" transform="translate(30,80)">
+        <title id="Howling_III_Marsupials_title">Howling III: The Marsupials</title>
+        <rect id="Howling_III_Marsupials_box"  x="0" y="0" rx="10" width="206" height="28" class="film" />
+        <text id="Howling_III_Marsupials_text" x="6" y="14">Howling III: The Marsupials</text>
+      </g>
+      <g id="Howling_IV_Original_Nightmare" transform="translate(30,120)">
+        <title id="Howling_IV_Original_Nightmare_title">Howling IV: The Original Nightmare</title>
+        <rect id="Howling_IV_Original_Nightmare_box"  x="0" y="0" rx="10" width="264" height="28" class="film" />
+        <text id="Howling_IV_Original_Nightmare_text" x="6" y="14">Howling IV: The Original Nightmare</text>
+      </g>
+      <g id="Howling_V_Rebith" transform="translate(30,160)">
+        <title id="Howling_V_Rebith_title">Howling V: The Rebith</title>
+        <rect id="Howling_V_Rebith_box"  x="0" y="0" rx="10" width="173" height="28" class="film" />
+        <text id="Howling_V_Rebith_text" x="6" y="14">Howling V: The Rebith</text>
+      </g>
+      <g id="Howling_VI_Freaks" transform="translate(30,200)">
+        <title id="Howling_VI_Freaks_title">Howling VI: The Freaks</title>
+        <rect id="Howling_VI_Freaks_box"  x="0" y="0" rx="10" width="180" height="28" class="film" />
+        <text id="Howling_VI_Freaks_text" x="6" y="14">Howling VI: The Freaks</text>
+      </g>
+      <g id="Howling_New_Moon_Rising" transform="translate(30,240)">
+        <title id="Howling_New_Moon_Rising_title">Howling: New Moon Rising</title>
+        <rect id="Howling_New_Moon_Rising_box"  x="0" y="0" rx="10" width="207" height="28" class="film" />
+        <text id="Howling_New_Moon_Rising_text" x="6" y="14">Howling: New Moon Rising</text>
+      </g>
+      <g id="Howling_Reborn" transform="translate(30,280)">
+        <title id="Howling_Reborn_title">The Howling: Reborn</title>
+        <rect id="Howling_Reborn_box"  x="0" y="0" rx="10" width="162" height="28" class="film" />
+        <text id="Howling_Reborn_text" x="6" y="14">The Howling: Reborn</text>
+      </g>
+    </g>
+    <g id="Gremlins_franchise" transform="translate(307,0)">
+      <title id="Gremlins_franchise_title">Gremlins</title>
+      <g class="spinoff" id="Gremlins_spinoff_lines" transform="translate(13)">
+        <title id="Gremlins_spinoff_lines_title">The Gremlins spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Gremlins_to_Gremlins_New_Batch" />
+      </g>
+      <g id="Gremlins" transform="translate(0,0)">
+        <title id="Gremlins_title">Gremlins</title>
+        <rect id="Gremlins_box"  x="0" y="0" rx="10" width="76" height="28" class="film" />
+        <text id="Gremlins_text" x="6" y="14">Gremlins</text>
+      </g>
+      <g id="Gremlins_2_New_Batch" transform="translate(30,40)">
+        <title id="Gremlins_2_New_Batch_title">Gremlins 2: The New Batch</title>
+        <rect id="Gremlins_2_New_Batch_box"  x="0" y="0" rx="10" width="206" height="28" class="film" />
+        <text id="Gremlins_2_New_Batch_text" x="6" y="14">Gremlins 2: The New Batch</text>
+      </g>
+    </g>
+  </g>
+</svg>

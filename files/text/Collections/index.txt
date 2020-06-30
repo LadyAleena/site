@@ -1,0 +1,17 @@
+Welcome to Lady Aleena's B<collections>, which is lists of A<novels|href="?select=Fiction">, A<books|href="?select=Non-fiction">, A<music|href="?select=Music+and+comedy">, A<movies|href="?select=Movie">, A<tie-ins|href="?select=Tie-in">, and A<programs|href="?select=Program"> I am willing to admit I own or use. The list of movies here is just those movies I own and should not to be confused with my more general interest in A<movies|href="../Movies">. Tie-ins are books and music connected to movies or television series. I also share my A<fandom|href="../Fandom"> elsewhere.
+Here is a key for the notations after each title with the exception of programs.
+*| media_types
+* Books
+** SPAN<hardcover|^hardcovers^>
+** SPAN<trade paperback|^trades^>
+** SPAN<mass market paperback|^massmarkets^>
+* Movies
+** SPAN<Blu-Ray|^brds^>
+** SPAN<DVD|^dvds^>
+** SPAN<VHS|^vhss^>
+** SPAN<Digital|^dgts^>
+* Music
+** SPAN<CD|^cds^>
+** SPAN<cassette|^cassettes^>
+** SPAN<LP|^lps^>
+** SPAN<45|^ffs^>

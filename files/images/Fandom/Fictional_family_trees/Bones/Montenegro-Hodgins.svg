@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../../css/family_tree.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 431 220"
+  width="431"
+  height="220"
+>
+  <title id="svg_title">The Montenegro-Hodgins family from Bones</title>
+  <metadata id="Family_metadata">
+    <rdf:RDF>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Montenegro-Hodgins family from Bones</dc:title>
+        <dc:creator>
+          <cc:agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="mds1" style="stop-color:#ccccff;stop-opacity:0.85;" offset="75%" />
+      <stop id="mds2" style="stop-color:#eeeeff;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="fds1" style="stop-color:#ffcccc;stop-opacity:0.85;" offset="75%" />
+      <stop id="fds2" style="stop-color:#ffeeee;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+  </defs>
+  <!--
+    Generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+  -->
+  <g class="graph" id="Bones" transform="translate(5, 215)">
+    <title>The Montenegro-Hodgins family from Bones</title>
+    <text class="chart_title" x="215" y="-203">The Montenegro-Hodgins family from <tspan style="font-style:italic">Bones</tspan></text>
+    <g class="child" id="Gibbons-siblings" transform="translate(146, -152)">
+      <title>Angela Montenegro, child of Billy Gibbons</title>
+      <path d="m 0,0 v  58" id="uBillyGibbons-AngelaMontenegro" />
+    </g>
+    <g class="marriage" id="" transform="translate(314, -170)">
+      <title>Marriage of Anne Hildebrand and Jonathan Hodgins III</title>
+      <path d="m 0,0 h -19" id="mAnnJon-JonathanHodginsIII" />
+      <path d="m 0,0 h  19" id="mAnnJon-AnneHildebrand" />
+      <g class="child" id="Hodgins-children">
+        <title>Children of Anne Hildebrand and Jonathan Hodgins III</title>
+        <path d="m 0,0  v  38" id="mAnnJon-cAnnJon" />
+        <path d="m 0,38 h -40 v 20" id="cAnnJon-JonathanHodginsIV" />
+        <path d="m 0,38 h 40 v 20" id="cAnnJon-JeffreyHodgins" />
+        <circle cx="0" cy="38" id="cAnnJon" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mAnnJon" r="1.5" />
+    </g>
+    <g class="marriage" id="" transform="translate(83, -94)">
+      <title>Marriage of Angela Montenegro and Grayson Barasa</title>
+      <path d="m 0,0 h -19" id="mAngGra-GraysonBarasa" />
+      <path d="m 0,0 h  19" id="mAngGra-AngelaMontenegro" />
+      <circle cx="0" cy="0" id="mAngGra" r="1.5" />
+    </g>
+    <g class="marriage" id="" transform="translate(209, -94)">
+      <title>Marriage of Angela Montenegro and Jonathan Hodgins IV</title>
+      <path d="m 0,0 h -19" id="mAngJon-AngelaMontenegro" />
+      <path d="m 0,0 h  19" id="mAngJon-JonathanHodginsIV" />
+      <g class="child" id="MontenegroHodgins-children">
+        <title>Children of Angela Montenegro and Jonathan Hodgins IV</title>
+        <path d="m 0,0  v  38" id="mAngJon-cAngJon" />
+        <path d="m 0,38 h -56 v 20" id="cAngJon-MichaelHodgins" />
+        <path d="m 0,38 h  56 v 20" id="cAngJon-unnamedHodgins" />
+        <circle cx="0" cy="38" id="cAngJon" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mAngJon" r="1.5" />
+    </g>
+    <g class="male" id="BillyGibbons" transform="translate(113, -188)">
+      <title>Billy Gibbons</title>
+      <rect height="36" width="66" x="0" y="0" />
+      <text class="" x="33" y="12">Billy</text>
+      <text class="" x="33" y="24">Gibbons</text>
+    </g>
+    <g class="male deceased" id="JonathanStanleyHodginsIII" transform="translate(215, -190)">
+      <title>Jonathan Stanley Hodgins III</title>
+      <rect height="40" width="80" x="0" y="0" />
+      <text class="" x="40" y="8">Jonathan</text>
+      <text class="" x="40" y="20">Stanley</text>
+      <text class="" x="40" y="32">Hodgins III</text>
+    </g>
+    <g class="female deceased" id="AnneHildenbrand" transform="translate(333, -188)">
+      <title>Anne Hildenbrand</title>
+      <rect height="36" width="88" x="0" y="0" />
+      <text class="" x="44" y="12">Anne</text>
+      <text class="" x="44" y="24">Hildenbrand</text>
+    </g>
+    <g class="male" id="GraysonBarasa" transform="translate(0, -112)">
+      <title>Grayson Barasa</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text class="" x="32" y="12">Grayson</text>
+      <text class="" x="32" y="24">Barasa</text>
+    </g>
+    <g class="female main" id="AngelaPearly-GatesMontenegro" transform="translate(102, -114)">
+      <title>Angela Pearly-Gates Montenegro,&#10;birth name Pookie Noodlin Pearly-Gates Gibbons</title>
+      <rect height="40" width="88" x="0" y="0" />
+      <text class="" x="44" y="8">Angela</text>
+      <text class="" x="44" y="20">Pearly-Gates</text>
+      <text class="" x="44" y="32">Montenegro</text>
+    </g>
+    <g class="male main" id="JonathanStanleyHodginsIV" transform="translate(228, -114)">
+      <title>Jonathan Stanley Hodgins IV,&#10;nickname Jack</title>
+      <rect height="40" width="80" x="0" y="0" />
+      <text class="" x="40" y="8">Jonathan</text>
+      <text class="" x="40" y="20">Stanley</text>
+      <text class="" x="40" y="32">Hodgins IV</text>
+    </g>
+    <g class="male" id="JeffreyHodgins" transform="translate(328, -112)">
+      <title>Jeffrey Hodgins</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text class="" x="32" y="12">Jeffrey</text>
+      <text class="" x="32" y="24">Hodgins</text>
+    </g>
+    <g class="male" id="MichaelStaccatoVincentHodgins" transform="translate(94, -38)">
+      <title>Michael Staccato Vincent Hodgins</title>
+      <rect height="40" width="118" x="0" y="0" />
+      <text class="" x="59" y="8">Michael</text>
+      <text class="" x="59" y="20">Staccato Vincent</text>
+      <text class="" x="59" y="32">Hodgins</text>
+    </g>
+    <g class="neuter unnamed" id="unnamedHodgins" transform="translate(234, -36)">
+      <title>unnamed Hodgins</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text class="" x="31" y="12">unnamed</text>
+      <text class="" x="31" y="24">Hodgins</text>
+    </g>
+  </g>
+</svg>

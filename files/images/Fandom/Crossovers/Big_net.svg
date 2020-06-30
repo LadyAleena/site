@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 415 428"
+  width="415"
+  height="428"
+  id="Dragnet_crossovers"
+>
+  <title id="Dragnet_crossovers_title">Dragging a Big Net</title>
+  <metadata id="Dragnet_crossovers_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Dragging a Big Net</dc:title>
+        <dc:date>2019-08-18T17:19:41 EDT</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Dragnet_crossovers_chart" transform="translate(5,5)">
+    <title id="Dragnet_crossovers_chart_title">Dragging a Big Net</title>
+    <g id="Dragnet_franchise" transform="translate(0,0)">
+      <title id="Dragnet_franchise_title"></title>
+      <g id="Dragnet_spinoff_lines" class="spinoff" transform="translate(13)">
+        <title id="Dragnet_spinoff_lines_title">The Dragnet spinoffs</title>
+        <path d="m 0, 30 v  24 h 15" id="Dragnet_to_Dragnet_1954" />
+        <path d="m 0, 55 v  39 h 15" id="Dragnet_to_Dragnet_1967" />
+        <path d="m 0, 95 v 159 h 15" id="Dragnet_to_Dragnet_1966" />
+        <path d="m 0,255 v  39 h 15" id="Dragnet_to_Dragnet_1987" />
+        <path d="m 0,295 v  39 h 15" id="Dragnet_to_The_New_Dragnet" />
+        <path d="m 0,335 v  39 h 15" id="Dragnet_to_LA_Dragnet" />
+      </g>
+      <g id="Dragnet" transform="translate(0,0)">
+        <title id="Dragnet_title"></title>
+        <rect id="Dragnet_box" x="0" y="0"  width="70" height="28" class="nbc" />
+        <text id="Dragnet_text" x="6" y="14">Dragnet</text>
+      </g>
+      <g id="Dragnet_1954" transform="translate(30,40)">
+        <title id="Dragnet_1954_title">Dragnet (1954)</title>
+        <rect id="Dragnet_1954_box" x="0" y="0" rx="10" width="115" height="28" class="film" />
+        <text id="Dragnet_1954_text" x="6" y="14">Dragnet <tspan id="Dragnet_1954_year">(1954)</tspan></text>
+      </g>
+      <g id="Dragnet_1967_franchise" transform="translate(30,80)">
+        <path d="m 13, 30 v 24 h 15" class="spinoff" id="Dragnet_1967_to_Adam_12" />
+        <g id="Dragnet_1967" transform="translate(0,0)">
+          <title id="Dragnet_1967_title"></title>
+          <rect id="Dragnet_1967_box" x="0" y="0"  width="110" height="28" class="nbc" />
+          <text id="Dragnet_1967_text" x="6" y="14">Dragnet 1967</text>
+        </g>
+        <g id="Adam_12_franchise" transform="translate(30,40)">
+          <g id="Adam_12_spinoff_lines" class="spinoff" transform="translate(13)">
+            <title id="Adam_12_spinoff_lines_title">The Adam-12 spinoffs</title>
+            <path d="m 0, 30 v 24 h 15" id="Adam_12_to_Emergency" />
+            <path d="m 0, 55 v 39 h 15" id="Adam_12_to_The_New_Adam_12" />
+          </g>
+          <g id="Adam_12" transform="translate(0,0)">
+            <title id="Adam_12_title">Adam-12</title>
+            <path d="m 79,14 h 52" class="one_cross" id="Adam_12_to_DA"/>
+            <rect id="Adam_12_box" x="0" y="0"  width="77" height="28" class="nbc" />
+            <text id="Adam_12_text" x="6" y="14">Adam-12</text>
+          </g>
+            <g id="Emergency" transform="translate(30,40)">
+              <title id="Emergency_title">Emergency!</title>
+              <g id="Emergency_crossovers" transform="translate(100,14)" class="one_cross">
+                <title id="Emergency_crossovers_title">Emergency! crossovers</title>
+                <path d="m  0,0 h 62" id="Emergency_to" class="one_cross" />
+                <path d="m 62,0 h  15" id="Emergency_to_Sierra" />
+                <path d="m 62,0 v  40 h 15" id="Emergency_to_CHiPs" />
+                <path d="m 62,0 v 160 h 15" id="Emergency_to_Quincy_ME" />
+              </g>
+              <rect id="Emergency_box" x="0" y="0"  width="98" height="28" class="nbc" />
+              <text id="Emergency_text" x="6" y="14">Emergency!</text>
+            </g>
+            <g id="The_New_Adam_12" transform="translate(30,80)">
+              <title id="The_New_Adam_12_title">The New Adam-12</title>
+              <rect id="The_New_Adam_12_box" x="0" y="0"  width="145" height="28" class="syn" />
+              <text id="The_New_Adam_12_text" x="6" y="14">The New Adam-12</text>
+            </g>
+        </g>
+      </g>
+      <g id="Dragnet_1966" transform="translate(30,240)">
+        <title id="Dragnet_1966_title">Dragnet 1966</title>
+        <rect id="Dragnet_1966_box" x="0" y="0" rx="10" width="109" height="28" class="nbc tv_film" />
+        <text id="Dragnet_1966_text" x="6" y="14">Dragnet 1966</text>
+      </g>
+      <g id="Dragnet_1987" transform="translate(30,280)">
+        <title id="Dragnet_1987_title">Dragnet (1987)</title>
+        <rect id="Dragnet_1987_box"  x="0" y="0" rx="10" width="115" height="28" class="film" />
+        <text id="Dragnet_1987_text" x="6" y="14">Dragnet <tspan id="Dragnet_1987_year">(1987)</tspan></text>
+      </g>
+      <g id="The_New_Dragnet" transform="translate(30,320)">
+        <title id="The_New_Dragnet_title">The New Dragnet</title>
+        <rect id="The_New_Dragnet_box"  x="0" y="0" width="138" height="28" class="abc" />
+        <text id="The_New_Dragnet_text" x="6" y="14">The New Dragnet</text>
+      </g>
+      <g id="Dragnet_2003" transform="translate(30,360)">
+        <title id="Dragnet_2003_title">Dragnet (2003)</title>
+        <rect id="Dragnet_2003_box"  x="0" y="0" width="115" height="28" class="abc" />
+        <text id="Dragnet_2003_text" x="6" y="14">Dragnet <tspan id="Dragnet_2003_year">(2003)</tspan></text>
+      </g>
+      <g id="LA_Dragnet" transform="translate(30,390)">
+        <title id="LA_Dragnet_title">L.A. Dragnet</title>
+        <rect id="LA_Dragnet_box"  x="0" y="0" width="103" height="28" class="abc" />
+        <text id="LA_Dragnet_text" x="6" y="14">L.A. Dragnet</text>
+      </g>
+    </g>
+    <g id="DA_franchise" transform="translate(163,37)">
+      <title id="DA_franchise_title"></title>
+      <g id="DA_spinoff_lines" transform="translate(13)">
+        <title id="DA_spinoff_lines_title">The D.A. spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="DA_Murder_One_to_DA_Conspiracy_Kll" />
+        <path d="m 0, 55 v 36 h 15" class="spinoff" id="DA_Murder_One_to_DA" />
+      </g>
+      <g id="DA_Murder_One" transform="translate(0,0)">
+        <title id="DA_Murder_One_title">The D.A.: Murder One</title>
+        <rect id="DA_Murder_One_box" x="0" y="0" rx="10" width="169" height="28" class="nbc tv_film" />
+        <text id="DA_Murder_One_text" x="6" y="14">The D.A.: Murder One</text>
+      </g>
+      <g id="DA_Conspiracy_Kll" transform="translate(30,40)">
+        <title id="DA_Conspiracy_Kll_title">The D.A.: Consiracy to Kill</title>
+        <rect id="DA_Conspiracy_Kll_box" x="0" y="0" rx="10" width="200" height="28" class="nbc tv_film" />
+        <text id="DA_Conspiracy_Kll_text" x="6" y="14">The D.A.: Consiracy to Kill</text>
+      </g>
+      <g id="DA" transform="translate(30,80)">
+        <title id="DA_title">The D.A.</title>
+        <rect id="DA_box" x="0" y="0"  width="74" height="28" class="nbc" />
+        <text id="DA_text" x="6" y="14">The D.A.</text>
+      </g>
+    </g>
+    <g id="Sierra" transform="translate(269,160)">
+      <title id="Sierra_title">Sierra</title>
+      <rect id="Sierra_box" x="0" y="0"  width="55" height="28" class="nbc" />
+      <text id="Sierra_text" x="6" y="14">Sierra</text>
+    </g>
+    <g id="CHiPs_franchise" transform="translate(269,200)">
+      <title id="CHiPs_franchise_title"></title>
+      <g id="CHiPs_spinoff_lines" transform="translate(13)">
+        <title id="CHiPs_spinoff_lines_title">The CHiPs spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" class="spinoff" id="CHiPs_to_CHiPs_99" />
+        <path d="m 0, 55 v 39 h 15" class="non_spinoff" id="CHiPs_to_CHiPs_2017" />
+      </g>
+      <g id="CHiPs" transform="translate(0,0)">
+        <title id="CHiPs_title">CHiPs</title>
+        <rect id="CHiPs_box"  x="0" y="0"  width="58" height="28" class="nbc" />
+        <text id="CHiPs_text" x="6" y="14">CHiPs</text>
+      </g>
+      <g id="CHiPs_99" transform="translate(30,40)">
+        <title id="CHiPs_99_title">CHiPs '99</title>
+        <rect id="CHiPs_99_box"  x="0" y="0" rx="10" width="86" height="28" class="tv_film" />
+        <text id="CHiPs_99_text" x="6" y="14">CHiPs '99</text>
+      </g>
+      <g id="CHiPs_2017" transform="translate(30,80)">
+        <title id="CHiPs_2017_title">CHiPs (2017)</title>
+        <rect id="CHiPs_2017_box"  x="0" y="0" rx="10" width="106" height="28" class="film" />
+        <text id="CHiPs_2017_text" x="6" y="14">CHiPs <tspan id="CHiPS_2017_year">(2017)</tspan></text>
+      </g>
+    </g>
+    <g id="Quincy_ME" transform="translate(269,320)">
+      <title id="Quincy_ME_title">Quincy M.E.</title>
+      <rect id="Quincy_ME_box" x="0" y="0" width="96" height="28" class="nbc" />
+      <text id="Quincy_ME_text" x="6" y="14">Quincy M.E.</text>
+    </g>
+  </g>
+</svg>

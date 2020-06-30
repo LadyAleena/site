@@ -1,0 +1,72 @@
+knife:500
+sword, bastard:20
+sword, bastard, two-handed:20
+sword:broad:20,khopesh:5,long:22,scimitar:7,short:22,two-handed:10
+sword, broad +5
+sword, long:+1:5,+2:4,+2 of sharpness,+3:2,+3 (intelligent):2,+5:4
+sword, long +1, +3 vs. scaly creatures
+sword, scimitar:+1,+2:3,+3:3
+sword, short:+3,+4:3
+arrow:flight:400,sheaf:80
+arrow, sheaf:accuracy,penetrating:3,stunning:2,+2:2,+2 "Darkshaft",+3 "Cupid's arrow",+3 "Heatseeker",+3 "Ice Bane"
+bow, long:10
+bow, long, composite:17
+bow, short:10
+bow, short, composite:5
+crossbow:hand:5,heavy:10,light:10,
+crossbow, light +2
+quarrel:heavy:200,hand:100,light:200
+dagger:300
+dagger:+1,+2:2,+2 of throwing:2,+2 of vampiric regeneration,+3 of lightning,+5
+dart:500
+harpoon:5
+javelin:100
+lance:heavy:5,light:5,medium:5
+lance, jousting:5
+spear:100
+spear:+1:2,+2
+staff-spear +4
+trident:5
+trident +1
+awl pike:5
+bardiche:2
+bec de corbin:2
+bill-guisarme:2
+fauchard:6
+glaive:2
+glaive-guisarme:2
+guisarme:2
+halberd:2
+lucern hammer:2
+mancatcher:10
+military fork:5
+partisan:2
+quarterstaff:10
+ranseur:2
+spetum:2
+voulge:2
+flail:footman's:10,horseman's:10
+mace:footman's:12,horseman's:10
+morningstar:10
+mace, footman's:+1:2,+1 energy drain,+2:3,+2 of vampiric regeneration,+1 of disruption
+axe, battle:10
+axe, battle:+1,+2:2
+axe, hand or throwing:20
+pick:footman's:10,horseman's:10
+warhammer:10
+warhammer +3
+blowgun:2
+blowgun barbed dart:10
+blowgun needle:20
+sling:100
+staff sling:50
+sling bullet:1500
+scourge:5
+sickle:2
+whip:5
+dart of chaos:30
+net +2
+spelljamming ram +2, small piercing (10 tons)
+warstar of the manticore
+never empty quiver:2
+bow strings:20

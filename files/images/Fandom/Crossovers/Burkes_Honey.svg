@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 347 108"
+  width="347"
+  height="108"
+  id="Burkes_Honey_crossover"
+>
+  <title id="Burkes_Honey_title">Burke's Honey</title>
+  <metadata id="Burkes_Honey_md">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Burke's Honey</dc:title>
+        <dc:date>2019-08-18</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Crossover_styles">
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+    tspan { font-size: 90%; font-style: normal; }
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Burkes_Honey" transform="translate(5,5)">
+    <title id="Burkes_Honey_title">Burke's Honey</title>
+    <g id="Amos_Burke_Secret_Agent_franchise" transform="translate(0,0)">
+      <title id="Amos_Burke_Secret_Agent_franchise_title">Amos Burke, Secret Agent</title>
+      <path d="m 13, 60 v 24 h 15" class="spinoff" id="Amos_Burke_Secret_Agent_to_Burkes_Law_1994" />
+      <g id="Burkes_Law" transform="translate(0,0)">
+        <title id="Burkes_Law_title">Burke&apos;s Law</title>
+        <path d="m 102,14 h 117 v  32 h 15" class="one_cross" id="Burkes_Law_to_Honey_West" />
+        <rect id="Burkes_Law_box"  x="0" y="0" width="100" height="28" class="abc" />
+        <text id="Burkes_Law_text" x="6" y="14">Burke&apos;s Law</text>
+      </g>
+      <g id="Amos_Burke_Secret_Agent" transform="translate(0,30)">
+        <title id="Amos_Burke_Secret_Agent_title">Amos Burke, Secret Agent</title>
+        <rect id="Amos_Burke_Secret_Agent_box"  x="0" y="0" width="202" height="28" class="abc" />
+        <text id="Amos_Burke_Secret_Agent_text" x="6" y="14">Amos Burke, Secret Agent</text>
+      </g>
+      <g id="Burkes_Law_1994" transform="translate(30,70)">
+        <title id="Burkes_Law_1994_title">Burke&apos;s Law (1994)</title>
+        <path d="m 149,14 h 40 v -32 h 15" class="one_cross" id="Burkes_Law_1994_to_Honey_West" />
+        <rect id="Burkes_Law_1994_box"  x="0" y="0" width="147" height="28" class="cbs" />
+        <text id="Burkes_Law_1994_text" x="6" y="14">Burke&apos;s Law <tspan id="Burkes_Law_1994_year">(1994)</tspan></text>
+      </g>
+    </g>
+    <g id="Honey_West" transform="translate(236,35)">
+      <title id="Honey_West_title">Honey West</title>
+      <rect id="Honey_West_box"  x="0" y="0" width="101" height="28" class="abc" />
+      <text id="Honey_West_text" x="6" y="14">Honey West</text>
+    </g>
+  </g>
+</svg>
+

@@ -1,0 +1,56 @@
+Awnday Ar'iemay|bolas; caltrop; cestus; dagger; spear; staff sling; sword, long; sword, short|||||bolas:5;caltrop:100;cestus;dagger:20;spear:2;staff sling;sling bullet:100;sling stone:50;sword, long;sword, short;dagger +1;staff of the magi;sword:long +3,short +1;sword, long +1, Luck Blade
+Amelda Bacoulan|dagger; sword, short|||||dagger:10;sword, short
+Sarria Bagada|club, great;mace, footman's|||||mace, footman's
+Verago Brystar|bolas;flail, footman's;lasso;mace, footman's;net;quarterstaff;staff sling;whip|||||bolas:5;flail, footman's;lasso;mace, footman's;net;quarterstaff;staff sling;sling bullet:50;whip;mace, footman's:+2,+3
+Presolia Copturan|dagger;quarterstaff|||||dagger;quarterstaff;dagger +3 of blades;staff of striking
+Rojeana Decant|dagger;staff sling|||||dagger:26;dart:5;dagger +1;dagger +2;staff sling +3 of speed;staff sling +4;never-empty bag of sling bullets:2
+Ryceva Derman|flail, footman's;mace, footman's;morningstar;staff sling|||||morningstar +1
+Myleara Disstar|dagger//axes;poleaxes;spears|bow, long, composite;sword, long;sword, short||||dagger of venom;sword, long:+2,Frost Brand
+Oalirya Disstar|dagger/axes, picks, and hammers;clubs, maces, and flails/beaked polearms|sword, long;sword, short||||dagger +3;sword:long +4,short of dancing
+Visilma Do'ranicy|blowgun with barbed dart;dagger;dart;sword, long;sword, short|||||
+Lourijul Edyara|bow, short, composite;sword, scimitar|||||arrow, flight:+1,+3;sword, scimitar:+2 of speed,+3
+Faerinna Escar|bow, long;crossbow;dagger;sword, long;sword, short|||||
+Matea Fi'nashari|club|bow, long, composite;sword, long;sword, short||||axe, battle +2;sword, long +1;sword, short +1
+Tymara Fi'ranicy|||bow, long, composite;sword, long;sword, short|||dagger;flail, footman's;quarterstaff|arrow, sheaf:100;bow, long, composite:2;dagger:10;flail, footman's;quarterstaff;quiver:2;sword, long;sword, short
+Janily Flassur|staff sling|||||
+Olacadas Flyglee|bite;breath weapon|||||
+Nemidia Ge'mardian|bow, long, composite;dagger;flail, footman's;mace, footman's|morningstar||||arrow, sheaf:50;quiver;bow, long, composite;dagger:10;flail, footman's;mace, footman's;morningstar
+Tandria Goldmoon|bolas;club;flail, footman's;mace, footman's;sword, long|||||sword, long of wounding;sword, long "Goldfire"
+Rechrapee Hardimod|sword, katana;whip|||||sword, katana;whip:2
+Xyrena Hewlett-Packard-Bell|/axes, picks, and hammers;clubs, maces, and flails;spears and javelins;swords|||sword, rapier;sword, sabre||sword:anything +5 of sharpness,rapier,rapier +3,sabre,sabre +3;dagger:10;dagger +4;dagger (mithral):2*600;staff of striking
+Ulari Ilan|dagger;staff sling|||||dagger:10;staff sling;sling stone:100;dagger:+2,+3;
+Rajnilia Al-Afyali bint Jazar|morningstar;quarterstaff;sword, scimitar/axes, picks, and hammers;bow;polearms;spears and javelins;swords|||||morningstar;sword, scimitar;spear;sword, scimitar:+1,+2,+4 of speed
+Balnari Ka'natrian|bow, long, composite;dagger;quarterstaff;staff sling;sword, short|sword, long||||arrow, sheaf:100;bow, long, composite;sling bullet:100;staff sling;sword, long;dagger +2
+Niona Kilson|mace, footman's;staff sling|||||mace, footman's;staff sling;sling stone:100
+Myra Kyllia|bow, long, composite;scourge/axes, picks, and hammers;clubs, maces, and flails;polearms;spears and javelins;swords|sword, long;sword, short||||sword, long;sword, short;chain mail;anything weapon;sword, long:+5,+5 of life stealing,+5 of sharpness;sword, short +5;staff:the magi,the necromancer
+Risa Kyllia|dagger;sling|||||dagger:5;sling:2;sling stone:50
+Sorack Linsandin'viniar|bow, long, composite;sword, long;sword, short|||||arrow, sheaf:80;quiver:2;bow strings:4;bow, long, composite:2;sword, long:2
+Zamia Lo'rena|staff sling; staff sling with stinkpot; staff sling with stone|||||staff sling:2;sling stone:50;sling bullet:100
+Desolenna Marder'bastiar|staff sling|||||sling bullet:50;staff sling
+Driastan Marder'bastiar|flail, footman's;mace, footman's|||||flail, footman's:2;mace, footman's:2
+Nwadira Mazan|dagger;quarterstaff|||||staff of the magi
+Lestra Newmoon|bow, long, composite; flail, footman's;maul;scythe;sword, short;warhammer|||||arrow, sheaf +1 of fire;dart, death;flail, footman's +3 of disruption;sword, scimitar, Sun Blade;scythe +3 of vampiric regeneration;quarterstaff +3;sword, short +2, Flame Tongue;sword, short +3 of throwing
+Carri Notha|bow, long;morningstar;quarterstaff;whip/javelins and spears; swords|sword, long;sword, short||||arrow, sheaf:100;quiver:2;bow, long;dagger:10;dart:25;sword, long;sword, short
+Alexana Olara|/axes, hammers, and picks;bow and crossbow;clubs, flails, and maces;polearms;javelins and spears;swords/chain and rope weapons;farm weapons;martial arts weapons|mace, footman's;dagger;dagger, main-gauche;dagger, parrying;sword:bastard,claymore,cutlass,drusus,estoc,falchion,khopesh,ninja-to,rapier,sabre,sapara,spatha,tulwar,wakizashi;sword, bastard, two-handed;sword, katana, two-handed;sword, scimitar, great|bow, long, composite;sword-ax;sword:broad,gladius,scimitar,no-dachi,two-handed;sword, katana|sword, short|sword, long|file
+Eileen Olara|/axes, hammers, and picks;bow and crossbow;clubs, flails, and maces;polearms;javelins and spears;swords/chain and rope weapons;farm weapons;martial arts weapons|mace, footman's;dagger;dagger, main-gauche;dagger, parrying;sword:bastard,claymore,cutlass,drusus,estoc,falchion,khopesh,ninja-to,rapier,sabre,sapara,spatha,tulwar,wakizashi;sword, bastard, two-handed;sword, katana, two-handed;sword, scimitar, great|bow, long, composite;sword-ax;sword:broad,gladius,scimitar,no-dachi,two-handed;sword, katana|sword, short|sword, long|file
+Ducismetapopolis OreGrinder|club;pick, footman's|||||
+Lamaria Peacyle|club;flail, footman's;mace, footman's;sling|||||mace, footman's +1 of disruption
+Yenedra Peacyle|bow, long, composite;dagger;sword, long;sword, short|||||
+Bryzarlyn Qi'lanari|/axes, picks, and hammers;bow;clubs, maces, and flails;polearms;spears and javelins;swords|dagger|sword, long;sword, short|||dagger:10;sword, long +5 of sharpness:2
+Tanyani Qi'mardian|bow, long, composite;chakram;dagger;dagger, main-gauche;sword, long;sword, short|sword, sabre||||arrow, sheaf:50;bow strings:10;bow, long, composite;chakram:5;dagger:20;dagger, main-gauche:2;sword, long;sword, sabre;sword, short;sword, long +2;sword, sabre +3, Flame Blade;sword, sabre, Frost Brand
+Ejenna Quara|quarterstaff|||||knife;quarterstaff;sword, short;quarterstaff +3, ironwood;fire burst grenade
+Patrina Meysa Rast|quarterstaff|||||quarterstaff;quarterstaff +1
+Artis Sadir|dart;spear;sword, khopesh|||||dagger:2;dart:15;spear:4;spear (cold forged iron);sword, khopesh;spear +2, +3 vs. regenerating creatures
+Hylene Serill|bolas;flail, footman's;mace, footman's;maul;morningstar;quarterstaff;staff sling;warhammer|||||flail, footman's +3;mace, footman's +1 death kiss;mace, footman's +1 of disruption;quarterstaff +3
+Calsanna Sorlastryl|dagger;quarterstaff;staff sling;sword, long;sword, short|||||sword, short +2
+Ducolin StoneGrip|club, war;crossbow, pellet bow;flail, footman's;mace, footman's;warhammer|||||club +2 of defending;mace, footman's +3 of disruption
+Drianna StrongOak-Guard|bolas;chakram;club;dagger;quarterstaff;sling;staff sling|||||chakram:2;club;dagger:10;sling stone:100;staff sling;dagger:+3,+3 of throwing;staff:power,the magi;quarterstaff +4 of speed
+Amori Tamdenar|bow, long, composite;dagger;morningstar;sword, long;sword, short|||||dagger:9;sword, long:2;sword, short;mace, footman's +2;morningstar +2;sword, long +1;sword, short, Frost Brand "Frostbite"
+Wijora Urlubint|sling/swords|||||dagger:10;dagger (mithral);sling;sling bullet:200;sword, long;sword, short;sword-axe;flash grenade:3
+Aegyn Valchae|bow, short;club;crossbow, hand;dagger;dart;mace, footman's;quarterstaff;staff sling;sword, broad|sword, long||||dagger +2 (Vampire Slayer);dagger (silver);sword, long:Frost Brand,Vorpal Blade;sword, long +1, +3 vs. lycanthropes;sword, long +1, Luck Blade
+Handira Warnir|bolas;club;flail, footman's;morningstar;maul;bec de corbin;lucern hammer;quarterstaff;warhammer|mace, footman's;morningstar||||
+Elora Windblown|quarterstaff;blowgun;blowgun with barbed dart;blowgun with needle|||||dagger:+1,+3;staff of the magi;blowgun barbed dart:100;blowgun:4;quarterstaff;blowgun needle:50;dagger
+Inary Xeru|dagger;dart;knife;quarterstaff|||||dagger:10;dart:21
+Eshandra Yanraya|dagger;sword, scimitar|||||dagger:10;sword, scimitar:2;sword, scimitar +2, +4 vs. snakes
+Aztema Zavgar|staff sling|||||dagger;sling bullet:100;staff sling:2
+Kymaria Zendelic'tronyara|bow, long, composite;dagger;sword, long;sward, short|||||arrow, sheaf:200;bow, long, composite:5;bow strings:10;quiver:5;sword, long:2

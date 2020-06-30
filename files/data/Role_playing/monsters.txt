@@ -1,0 +1,20 @@
+Chaos elemental-kin|Any|Very Rare|Solitary|Any|varies|varies|varies|Chaotic Neutral|1|varies|Fly (1d4 hours)|varies|varies|varies|by weapon|see below|Gaseous Form|0%|varies|varies|varies
+Daemar|Subterranean/Swamps/Civilized|Very Rare|Solitary|Nocturnal|Carnivorous|Exceptional (15)|Z|Neutral Evil|1-3 (1)|-2|12|7|13|2 Claws or weapon|1d6+2 or weapon|see below|Spells, +2 weapon to hit, see below|10%|M (6'-6'6")|Elite (15)|4,000
+Demi-lycanthrope|Any|Very Rare|Varies|Varies|Carnivorous|1 (Animal)|None (C)|True Neutral|Varies|7|varies|varies|varies|varies|varies|Special|Special|Nil|Varies|6 (Unsteady)|270 +
+Dragod|Unknown|Unique|None|Any|Everything|21+ Godlike Intelligence|Unknown|Neutral|1|-20|1,000|1,000|-10|50|See below|Breath Weapon|Size|100%|G|Fearless|1,000,000
+Eldent|Any water|Rare|Community|Any|Omnivorous|High-Supra Genius (14-20)|K,M,Q (C,I,O,S,T,X,Y)|Chaotic Good (Neutral)|10-100|5 (9)|5/Sw 15|2+1|18|1|2-10/by weapon|+2 Trident, +1 Spear|see below|90%|M (6'-7')|Elite (13)|1,350
+Phase elemental|Any|Rare|Solitary|Any|None|Genius (17-18)|P|Neutral|1|-10|Varies|6|15|1|6-36|Breath Weapon|See below|Special|L|Fearless|3,000
+Rainbow dragonette|Any|Very Rare|Solitary or Flight|Any|Omnivorous|High (13-14)|Special|Neutral|1-12|7 (base)|6, Fl 24 (A)|4 (base)|17 (base)|3 + special|1-4/1-4/1-6|Special|Variable|Variable|T (2"-2')|Steady (11-12)|Variable
+Dark centaur|Subterranean|Very Rare|Band|Any|Carnivorous|High (13-15)|A (W)|Chaotic Evil|1-12|4 (w/o Armor)|15/FL 36 (MC:C)|7|13|3|4-10/4-10/by weapon|see below|see below|30%|L (8'-9')|Elite (14)|2,000
+Gobpry|Temperate|Very Rare|Tribe|Dusk 'til Dawn|Carnivorous|Low (5-7)|C (K,R)|Neutral Evil|3-18 (3d6)|6 (10)|6/FL 15 MC:C|3|17|2|by weapon|nil|nil|nil|M (5')|Steady (11-12)|960 (Chiefs/Sub-Chiefs 980)
+Trobold|Any land|Rare|Band|Night|Omnivore|Average (8-10)|J, O (Q×5, D)|Neutral Evil|4-16 (4d4)|7|9|3 + 3|17|3 (1)|2-7/2-7/2-9 or by weapon|see below|Regeneration|Nil|M (6')|Steady (11-12)|975
+Throglin|Any non-artic|Very Rare|Tribal|Any (Night)|Carnivore|Average (8-10)|J, M (D, Q×5)|Neutral Evil|3-18|7|11|5+5|16|3 (or by weapon)|3-6/3-6/3-10|Nil|Regeneration|Nil|L (8')|Elite (13-14)|2,000
+Freshwater throglin|Lakes/Rivers|Very Rare|Tribal|Any (Day)|Carnivore|Average (8-10)|J, M (C, Q×5)|Neutral Evil|1-12|6|6, Sw 12|3+3|17|3 (or by weapon)|1-4/1-4/2-8|Nil|Regeneration|Nil|L (7')|Elite (13-14)|1,400
+Saltwater throglin|Any Coast|Very Rare|Tribal|Any (Night)|Carnivore|Average (8-10)|J, M (D, Q×5)|Neutral Evil|2-16|5|6, Sw 12|3+6|16|3 (or by weapon)|1-3/1-3/4-8|Nil|Regeneration|Nil|L (9')|Elite (13-14)|1,400
+Arctic tralg|Arctic|Very Rare|Tribal|Any|Omnivoure|Low (5-7)|Q (D)|Chaotic Evil|1-4|6|12|8|13|2|1-8/1-8 (or by weapon)|Hurling rocks|Resists Cold, Regeneration|Nil|H (15')|Elite (13-14)|1,400
+Desert tralg|Desert|Very Rare|Band|Any (Day)|Omnivoure|Average (8-10)|C, Y|Neutral Evil|1-10|2|13|10+4|10|3|3-1/2-12/3-12 (or by weapon)|Surprise, Hurling Rocks|Camoflague, Regeneration|Nil|H (13')|Champion (15-16)|3,000
+Two-headed tralg|Any Hills and Mountains|Very Rare|Band|Any (Night)|Carnivoure|Low (5-7)|O, Q (C, Y)|Chaotic Evil|1-4|3|12|10|10|4|5-10/5-10/2-12/2-12 (or by weapon)|Nil|Surprised only on 1, Regeneration|Nil|L (11')|Champion (15-16)|4,000
+Hill twarg|Any Hills or Mountains|Very Rare|Tribal|Any|Omnivore|Average (8-10)|M (×5) (D, Q×20, R, Z)|Neutral|20-200|4 (7)|9|7|14|1|1d4 (or by weapon)|Nil|+1 vs. Poison|10%|L (10')|Elite (13-14)|1,400
+Mountain twarg|Any Mountains|Very Rare|Tribal|Any|Omnivore|Very (11-12)|M (×5) (E, Q×20, R, Z)|Neutral|10-100|4 (7)|9|8+2|12|1|1d4 (or by weapon)|Nil|+1 vs. Poison|10%|L (9')|Elite (13-14)|1,400
+Jungle twarg|Any Jungle|Very Rare|Tribal|Any|Omnivore|Very (11-12)|Q, V (A)|Neutral|10-100|4 (6)|12, Cl 3|6+1|14|1|1d10 (or by weapon)|Poison Arrows|see below|10%|L (10')|Elite (13-14)|1,400
+Zarden|Any Swamp|Uncommon|Tribal|Any|Omnivore|Average (8-10)|Z (D)|Neutral|2-16|7|12, Sw 9|1+1|20|3 (or by weapon)|1/1/1-3|Nil|Nil|Nil|M (6')|Steady (11-12)|35

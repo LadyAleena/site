@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- SVG definition http://www.w3.org/TR/2011/REC-SVG11-20110816/ -->
+ 
+<svg width="600" height="450" viewBox="0 0 12 9" preserveAspectRatio="xMaxYMax" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<title>Cave 1</title>
+<desc>The first cave has three rooms</desc>
+<defs>
+<pattern id="Grey6" width="4" height="4">
+<rect x="0" y="0" width="100%" height="100%" fill="blue" />
+<rect x="1" y="1" width="2" height="2" fill="white" />
+</pattern>
+</defs>
+ 
+<!-- wash the background with a single colour -->
+<rect x="0" y="0" width="100%" height="100%" fill="gray" />
+<!-- TODO <rect x="0" y="0" width="100%" height="100%" fill="url(#Grey6)" /> -->
+ 
+<!-- Room A with as few drawing elements as possible (concise) -->
+<rect x="1" y="1" width="3" height="3" fill="white" />
+<!-- grid lines inside room A -->
+<path d="M 2 1 v 3 M 3 1 v 3 M 1 2 h 3 M 1 3 h 3" stroke="lightgray" stroke-width="0.05" fill="none" />
+<!-- black outer border except doorway -->
+<path d="M 2 4 h -1 v -3 h 3 v 3 h -1" stroke="black" stroke-width="0.1" fill="none" />
+<text x="2.5" y="2.9" text-anchor="middle" font-size="1" font-family="serif" fill="black">A</text>
+ 
+<!-- Passage below Room A -->
+<rect x="2" y="4" width="1" height="1" fill="white" />
+<path d="M 2 3.95 h 1 M 2 4.05 h 1" stroke="red" stroke-width="0.05" fill="none" />
+ 
+<!-- Rooms B and C drawn one cell at a time (verbose) -->
+<!-- draw the background colour of every cell -->
+<!-- room B background -->
+<rect x="1" y="5" width="1" height="1" fill="white" />
+<rect x="2" y="5" width="1" height="1" fill="white" />
+<rect x="3" y="5" width="1" height="1" fill="white" />
+<rect x="1" y="6" width="1" height="1" fill="white" />
+<rect x="2" y="6" width="1" height="1" fill="white" />
+<rect x="3" y="6" width="1" height="1" fill="white" />
+<rect x="1" y="7" width="1" height="1" fill="white" />
+<rect x="2" y="7" width="1" height="1" fill="white" />
+<rect x="3" y="7" width="1" height="1" fill="white" />
+<!-- room C background -->
+<rect x="4" y="5" width="1" height="1" fill="white" />
+<rect x="5" y="5" width="1" height="1" fill="white" />
+<rect x="6" y="5" width="1" height="1" fill="white" />
+<rect x="4" y="6" width="1" height="1" fill="white" />
+<rect x="5" y="6" width="1" height="1" fill="white" />
+<rect x="6" y="6" width="1" height="1" fill="white" />
+<rect x="4" y="7" width="1" height="1" fill="white" />
+<rect x="5" y="7" width="1" height="1" fill="white" />
+<rect x="6" y="7" width="1" height="1" fill="white" />
+<!-- draw the grid lines inside the rooms -->
+<!-- room B grid lines -->
+<line x1="2" y1="5" x2="2" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="1" y1="6" x2="2" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="3" y1="5" x2="3" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="2" y1="6" x2="3" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="3" y1="6" x2="4" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="2" y1="6" x2="2" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="1" y1="7" x2="2" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="3" y1="6" x2="3" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="2" y1="7" x2="3" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="3" y1="7" x2="4" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="2" y1="7" x2="2" y2="8" stroke="lightgray" stroke-width="0.05" />
+<line x1="3" y1="7" x2="3" y2="8" stroke="lightgray" stroke-width="0.05" />
+<!-- room C grid lines -->
+<line x1="5" y1="5" x2="5" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="4" y1="6" x2="5" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="6" y1="5" x2="6" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="5" y1="6" x2="6" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="6" y1="6" x2="7" y2="6" stroke="lightgray" stroke-width="0.05" />
+<line x1="5" y1="6" x2="5" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="4" y1="7" x2="5" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="6" y1="6" x2="6" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="5" y1="7" x2="6" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="6" y1="7" x2="7" y2="7" stroke="lightgray" stroke-width="0.05" />
+<line x1="5" y1="7" x2="5" y2="8" stroke="lightgray" stroke-width="0.05" />
+<line x1="6" y1="7" x2="6" y2="8" stroke="lightgray" stroke-width="0.05" />
+<!-- draw the walls of all the rooms -->
+<!-- room B walls -->
+<line x1="1" y1="5" x2="2" y2="5" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="1" y1="5" x2="1" y2="6" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="3" y1="5" x2="4" y2="5" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="4" y1="5" x2="4" y2="6" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="1" y1="6" x2="1" y2="7" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="1" y1="8" x2="2" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="1" y1="7" x2="1" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="2" y1="8" x2="3" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="3" y1="8" x2="4" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<!-- room C walls -->
+<line x1="4" y1="5" x2="5" y2="5" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="4" y1="5" x2="4" y2="6" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="5" y1="5" x2="7" y2="5" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="7" y1="5" x2="7" y2="6" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="7" y1="6" x2="7" y2="7" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="4" y1="8" x2="5" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="4" y1="7" x2="4" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="5" y1="8" x2="6" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="7" y1="7" x2="7" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<line x1="6" y1="8" x2="7" y2="8" stroke="black" stroke-width="0.1" stroke-linecap="square" />
+<!-- write the text in each room -->
+<text x="2.5" y="6.9" text-anchor="middle" font-size="1" font-family="serif" fill="black">B</text>
+<text x="5.5" y="6.9" text-anchor="middle" font-size="1" font-family="serif" fill="black">C</text>
+<!-- draw the doors between the rooms -->
+<path d="M 2 4.95 h 1 m 0 0.1 h -1" stroke="red" stroke-width="0.05" fill="none" />
+<path d="M 3.95 6 v 1 m 0.1 0 v -1" stroke="red" stroke-width="0.05" fill="none" />
+</svg>

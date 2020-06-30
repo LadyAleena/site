@@ -1,0 +1,16 @@
+Welcome to B<Lady Aleena's> personal website.SPAN< Some sections of this site are not suitable for mobile devices.|class="mobile"> Have a very nice day!
+2 Collections
+A<B<Collections>|href="Collections"> is lists of A<novels|href="Collections/Fiction.pl">, A<books|href="Collections/Non-fiction.pl">, A<music|href="Collections/Music_and_comedy.pl">, A<movies|href="Collections/Movies.pl">, A<tie-ins|href="Collections/Tie-ins.pl">, and A<programs|href="Collections/Programs.pl"> I am willing to admit I own or use.
+2 Fandom
+A<B<Fandom>|href="Fandom"> is A<crossovers|href="Fandom/Crossovers">, A<fictional family trees|href="Fandom/Fictional_family_trees">, and lists of information from various franchises I like such as A<The Riftwar|href="Fandom/The_Riftwar"> and A<Xanth|href="Fandom/Xanth">.
+2 Movies
+A<B<Movies>|href="Movies"> is lists of movies that interest me, opinions of some movies. The interest could be as simple as two films with the same name. Take a look at my lists to find movies to watch.
+2 Role playing
+A<B<Role playing>|href="Role_playing"> is a collection of player created resources for AD&amp;D 2nd Edition&#169; material. Over 250 A<magic items|href="Role_playing/Magic_items">, a dozen A<monsters|href="Role_Playing/Monsters">, and a few new A<locations|href="Role_playing/Locations"> for you to explore. There is a comprehensive, though not complete, list of proficiencies that TSR, Inc.&#8482; and Wizards of the Coast, Inc.&#8482; have put out over the years. A<Reference tables|href="Role_playing/Reference_tables"> and random generators are included to help make 2nd Edition game play easier and a little more exciting.
+2 Writing
+A<B<Writing>|href="Writing"> is stories and A<poetry|href="Writing/Poetry"> written by me. Some of the stories are A<erotic|href="Writing/Erotic_fiction">, and others are A<fan fiction|href="Writing/Fan_fiction">. If you are looking for erotic images, you will not find any here. The poetry was written in various stages of my life, free form. Have fun reading the stories and poems!
+2 Miscellany
+A<B<Miscellany>|href="Miscellany"> are my A<geeky thoughts|href="Miscellany/Geeky_thoughts">, A<political opinions|href="Miscellany/Political_opinions">, and other things  that I written or found and collated over the years. Some ideas are very old and outdated, while some I found long ago, kept for some reason, and am sharing with anyone who decides to to read them. Some of these are just plain crazy and giggle worthy, but some may turn out to be something great some day, if I ever get back to thinking about them. In the mean time, I hope you enjoy reading them.
+2 Acknowledgements
+This website was built with the help of the A<PerlMonks|href="https://www.perlmonks.org" target="ex_tab"> and the users of A<#perl|href="irc://freenode/perl"> and A<#perlcafe|href="irc://freenode/perlcafe"> channels on freenode.
+My site is hosted on A<Xecu.net|href="https://www.xecu.net" target="ex_tab">, but they are not affiliated with my personal website. Please point all links to this site at CODE<A<fantasy.xecu.net|href="http://fantasy.xecu.net">>. Thank you!

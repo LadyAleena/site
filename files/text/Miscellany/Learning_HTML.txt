@@ -1,0 +1,17 @@
+Hypertext markup language (HTML) and cascading style sheets (CSS) are two of the more common elements of writing a web page. With HTML you define what is a paragraph, a list, a table, and more. You can change a font or the color of the background among other things with CSS.
+2 Getting started
+I strongly suggest you not use ABBR<WYSIWYG|title="what you see is what you get"> web page writing programs. When you are just starting out, you should not fall into the bad habit of trusting their output. If you start using a text editor, you will know exactly what you are putting on your pages and understand what to change when you feel the need. This site was first made using a web page program, and I was totally lost when something did not work.
+While you are learning HTML, learn CSS as well. A<MDN Web Docs|href="https://developer.mozilla.org/en-US/" target="ex_tab"> is a wonderful place to start learning HTML and CSS. The A<World Wide Web Consortium|href="https://www.w3.org" target="ex_tab"> (W3C) is depreciating formatting elements and attributes. A good understanding of CSS will make writing your markup faster. Keeping up with the latest technology is key. It is a pain to have to remarkup a page. I agonized over pages with old markup.
+When you are finally ready to write your site, it is suggested that you first get some paper and a pencil and draw out what you want your site, and the pages therein, to generally look like. This way you will have a guide, and your markup will go a lot faster. I did it that way when rebuilding this site from the ground up. I was able to markup my site in less time with those drawings as a reference.
+When you stop having fun, take a break from learning markup and writing your site, as it might show. The more fun you are having, the more fun your users will have.
+If you have questions, A<#html|href="irc://freenode/html"> and A<#css|href="irc://freenode/css"> on freenode are great places to get them answered. This site was built with the help of a lot of people there.
+After a while unchanging text may not be enough for you. There are many scripting languages out there that you can learn including but not limited to javascript, perl, and python.
+2 HTML links
+* A<World Wide Web Consortium|href="https://www.w3.org" target="ex_tab">
+* A<MDN Web Docs|href="https://developer.mozilla.org/en-US/" target="ex_tab">
+* A<HTML An Interactive Tutorial for Beginners|href="https://davesite.com/webstation/html" target="ex_tab">
+* A<HTML.com|href="https://www.html.com" target="ex_tab">
+* A<PageResource|href="https://www.pageresource.com" target="ex_tab"> is merging with A<WebsiteSetup|href="https://websitesetup.org" target="ex_tab">
+* A<PageTutor|href="https://www.pagetutor.com" target="ex_tab">
+* A<Web Design Group|href="https://www.htmlhelp.org" target="ex_tab">
+* A<Learn About Domains &amp; HTML|href="https://www.marcaria.com/ws/en/articles/learn-about-domains-and-html" target="ex_tab"> SMALL<(suggested by Mrs. Gold's HTML class)>

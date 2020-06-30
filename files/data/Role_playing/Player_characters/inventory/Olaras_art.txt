@@ -1,0 +1,17 @@
+books:10*1000
+box, platinum, 5"×8"×3":5*3000
+chest, large:9*2
+chest, small:23*1
+cloth, fine (yards):75*5
+cloth, rich (yards):75*10
+drinking vessels, ornamental, 6 per set:4*3000
+decanter, fine crystal w/4 goblets:4*6000
+harp, lap:10*150
+painting:1*2001
+painting:1*2251
+scroll tube, carved ivory:4*650
+scrolls, fine vellum:4*5
+sculpture:1*1020
+sculpture:1*2889
+symbol, holy:5*50
+figurine of wondrous power (amber monkeys)

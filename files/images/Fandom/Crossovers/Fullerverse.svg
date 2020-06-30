@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 603 384"
+  width="603"
+  height="384"
+  id="Fullerverse_crossover"
+>
+  <title id="Fullerverse_title">Fullerverse crossovers</title>
+  <metadata id="Fullerverse_md">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Fullerverse crossovers</dc:title>
+        <dc:date>2020-05-02</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Crossover_styles">
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+    tspan { font-size: 90%; font-style: normal; }
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Fullerverse_group" transform="translate(5,5)">
+    <title id="Fullerverse_title">Fullerverse crossovers</title>
+    <path d="m 0,80 h 291" id="Morley_to_Pushing_Daisies" class="morley_red"/>
+    <g id="Dead_Like_Me_franchise" transform="translate(0,0)">
+      <title id="Dead_Like_Me_franchise_title">Dead Like Me</title>
+      <path d="m 113,14 h 163 v 60 h 15" id="Dead_Like_Me_to_Pushing_Daisies" class="one_cross" />
+      <path d="m 13, 30 v 24 h 15" id="Dead_Like_Me_to_Dead_Like_Me_Life_After_Death" class="spinoff" />
+      <g id="Dead_Like_Me" transform="translate(0,0)">
+        <title id="Dead_Like_Me_title">Dead Like Me</title>
+        <rect id="Dead_Like_Me_box" width="111" x="0" y="0" height="28" class="showtime" />
+        <text id="Dead_Like_Me_text" x="6" y="14">Dead Like Me</text>
+      </g>
+      <g id="Dead_Like_Me_Life_After_Death" transform="translate(30,40)">
+        <title id="Dead_Like_Me_Life_After_Death_title">Dead Like Me: Life After Death</title>
+        <rect id="Dead_Like_Me_Life_After_Death_box" x="0" y="0" rx="10" width="229" height="28" class="film" />
+        <text id="Dead_Like_Me_Life_After_Death_text" x="6" y="14">Dead Like Me: Life After Death</text>
+      </g>
+    </g>
+    <g id="Wonderfalls" transform="translate(163,90)">
+      <title id="Wonderfalls_title">Wonderfalls</title>
+      <g id="Wonderfalls_crossovers" transform="translate(98,14)" class="one_cross">
+        <title id="Wonderfalls_crossovers_title">Wonderfalls crossovers</title>
+        <path d="m 0,0 h 15" id="Wonderfalls_to" />
+        <g transform="translate(15,0)">
+          <path d="m 0,0 v -18 h 15" id="Wonderfalls_to_Pushing_Daisies" />
+          <path d="m 0,0 v 219 h 45" id="Wonderfalls_to_Mockingbird_Lane" />
+          <path d="m 0,0 v 257 h 15" id="Wonderfalls_to_Hannibal" />
+        </g>
+      </g>
+      <rect id="Wonderfalls_box" x="0" y="0" width="96" height="28" class="fox" />
+      <text id="Wonderfalls_text" x="6" y="14">Wonderfalls</text>
+    </g>
+    <g id="Pushing_Daisies" transform="translate(293,66)">
+      <title id="Pushing_Daisies_title">Pushing Daisies</title>
+      <rect id="Pushing_Daisies_box" x="0" y="0" width="130" height="28" class="abc" />
+      <text id="Pushing_Daisies_text" x="6" y="14">Pushing Daisies</text>
+    </g>
+    <g id="Munsters_franchise" transform="translate(293,106)">
+      <title id="Munsters_franchise_title">The Munsters</title>
+      <g class="spinoff" id="Munsters_spinoff_group" transform="translate(13)">
+        <title id="Munsters_spinoff_group_title">The The Munsters spinoffs</title>
+        <path d="m 0, 175 v 36 h 15" class="non_spinoff" id="Munsters_to_Mockingbird_Lane" />
+        <path d="m 0,  94 v 40 h 15" class="semi_spinoff" id="Munsters_to_Here_Come_Munsters" />
+        <path d="m 0, 134 v 40 h 15" class="semi_spinoff" id="Munsters_to_Munsters_Scary_Little_Christmas" />
+        <path d="m 0,  30 v 24 h 15" id="Munsters_to_Munster_Go_Home" />
+        <path d="m 0,  55 v 39 h 15" id="Munsters_to_Munsters_Revenge" />
+      </g>
+      <g id="Munsters" transform="translate(0,0)">
+        <title id="Munsters_title">The Munsters</title>
+        <rect id="Munsters_box" x="0" y="0" width="108" height="28" class="cbs" />
+        <text id="Munsters_text" x="6" y="14">The Munsters</text>
+      </g>
+      <g id="Munster_Go_Home" transform="translate(30,40)">
+        <title id="Munster_Go_Home_title">Munster, Go Home!</title>
+        <rect id="Munster_Go_Home_box" x="0" y="0" rx="10" width="154" height="28" class="film" />
+        <text id="Munster_Go_Home_text" x="6" y="14">Munster, Go Home!</text>
+      </g>
+      <g id="Munsters_Revenge" transform="translate(30,80)">
+        <title id="Munsters_Revenge_title">The Munsters&#700; Revenge</title>
+        <rect id="Munsters_Revenge_box" x="0" y="0" rx="10" width="179" height="28" class="nbc tv_film" />
+        <text id="Munsters_Revenge_text" x="6" y="14">The Munsters&#700; Revenge</text>
+      </g>
+      <g id="Here_Come_Munsters" transform="translate(30,120)">
+        <title id="Here_Come_Munsters_title">Here Come the Munsters</title>
+        <rect id="Here_Come_Munsters_box" x="0" y="0" rx="10" width="190" height="28" class="fox tv_film" />
+        <text id="Here_Come_Munsters_text" x="6" y="14">Here Come the Munsters</text>
+      </g>
+      <g id="Munsters_Scary_Little_Christmas" transform="translate(30,160)">
+        <title id="Munsters_Scary_Little_Christmas_title">The Munsters&#700; Scary Little Christmas</title>
+        <rect id="Munsters_Scary_Little_Christmas_box" x="0" y="0" rx="10" width="270" height="28" class="fox tv_film" />
+        <text id="Munsters_Scary_Little_Christmas_text" x="6" y="14">The Munsters&#700; Scary Little Christmas</text>
+      </g>
+      <g id="Mockingbird_Lane" transform="translate(30,200)">
+        <title id="Mockingbird_Lane_title">Mockingbird Lane</title>
+        <rect id="Mockingbird_Lane_box" x="0" y="0" width="139" height="28" class="nbc" />
+        <text id="Mockingbird_Lane_text" x="6" y="14">Mockingbird Lane</text>
+      </g>
+    </g>
+    <g id="Hannibal" transform="translate(293,346)">
+      <title id="Hannibal_title">Hannibal</title>
+      <rect id="Hannibal_box" x="0" y="0" width="78" height="28" class="nbc" />
+      <text id="Hannibal_text" x="6" y="14">Hannibal</text>
+    </g>
+  </g>
+</svg>

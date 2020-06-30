@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 600 358"
+  width="600"
+  height="358"
+  id="Crossover key"
+>
+  <title id="Crossover_key_title">Crossover key</title>
+  <metadata id="Crossover_key_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Crossover key</dc:title>
+        <dc:date>2020-04-09</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+    .key_path text { font-style: normal; }
+  </style>
+  <g transform="translate(5,5)">
+    <g id="Parent_franchise" transform="translate(0,0)">
+      <title id="Parent_franchise_franchise_title"></title>
+      <g id="Parent_franchise_spinoff_lines" transform="translate(13)">
+        <title id="Parent_franchise_spinoff_lines_title">The  spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Parent_to_Connected_spinoff" class="spinoff" />
+        <path d="m 0, 54 v 40 h 15" id="Parent_to_Somewhat_connected_spinoff" class="semi_spinoff" />
+        <path d="m 0, 94 v 40 h 15" id="Parent_to_Unconnected_spinoff" class="non_spinoff" />
+      </g>
+      <g id="Parent" transform="translate(0,0)">
+        <title id="Parent_title"></title>
+        <rect id="Parent_box" x="0" y="0" width="64" height="28" class="" />
+        <text id="Parent_text" x="6" y="14">Parent</text>
+      </g>
+      <g id="Connected_spinoff" transform="translate(30,40)">
+        <title id="Connected_spinoff_title"></title>
+        <rect id="Connected_spinoff_box"  x="0" y="0" width="143" height="28" class="" />
+        <text id="Connected_spinoff_text" x="6" y="14">Connected spinoff</text>
+      </g>
+      <g id="Somewhat_connected_spinoff" transform="translate(30,80)">
+        <title id="Somewhat_connected_spinoff_title"></title>
+        <rect id="Somewhat_connected_spinoff_box"  x="0" y="0" width="219" height="28" class="" />
+        <text id="Somewhat_connected_spinoff_text" x="6" y="14">Somewhat connected spinoff</text>
+      </g>
+      <g id="Unconnected_spinoff" transform="translate(30,120)">
+        <title id="Unconnected_spinoff_title"></title>
+        <rect id="Unconnected_spinoff_box"  x="0" y="0" width="160" height="28" class="" />
+        <text id="Unconnected_spinoff_text" x="6" y="14">Unconnected spinoff</text>
+      </g>
+    </g>
+    <g class="key_path" transform="translate(0,95)">
+      <text x="6" y="70">Two-way crossover</text>
+      <path d="m 0, 80 h 250" class="two_cross" />
+      <text x="6" y="100">One-way crossover</text>
+      <path d="m 0, 110 h 250" class="one_cross" />
+      <text x="6" y="130">Event with crossovers</text>
+      <path d="m 0, 140 h 250" class="event_cross" />
+      <text x="6" y="160">Event without crossovers</text>
+      <path d="m 0, 170 h 250" class="event_nocross" />
+      <text x="6" y="190">Soft connection</text>
+      <path d="m 0, 200 h 250" class="soft" />
+    </g>
+    <g class="box_key" transform="translate(265,0)">
+      <g id="ABC" transform="translate(0,0)">
+        <title id="ABC_title"></title>
+        <rect id="ABC_box"  x="0" y="0" width="48" height="28" class="abc" />
+        <text id="ABC_text" x="6" y="14">ABC</text>
+      </g>
+      <g id="Disney" transform="translate(60,0)">
+        <title id="Disney_title"></title>
+        <rect id="Disney_box"  x="0" y="0" width="63" height="28" class="disney" />
+        <text id="Disney_text" x="6" y="14">Disney</text>
+      </g>
+      <g id="Disney" transform="translate(135,0)" class="disney_plus">
+        <title id="Disney_title">Disney+</title>
+        <rect height="28" id="Disney_box" width="71" x="0" y="0" />
+        <text id="Disney_text" x="6" y="14">Disney+</text>
+      </g>
+      <g id="FOX" transform="translate(0,40)">
+        <title id="FOX_title"></title>
+        <rect id="FOX_box"  x="0" y="0" width="48" height="28" class="fox" />
+        <text id="FOX_text" x="6" y="14">FOX</text>
+      </g>
+      <g id="FX" transform="translate(60,40)">
+        <title id="FX_title"></title>
+        <rect id="FX_box"  x="0" y="0" width="32" height="28" class="fx" />
+        <text id="FX_text" x="6" y="14">FX</text>
+      </g>
+      <g id="CBS" transform="translate(0,80)">
+        <title id="CBS_title"></title>
+        <rect id="CBS_box"  x="0" y="0" width="48" height="28" class="cbs" />
+        <text id="CBS_text" x="6" y="14">CBS</text>
+      </g>
+      <g id="BET" transform="translate(60,80)">
+        <title id="BET_title"></title>
+        <rect id="BET_box"  x="0" y="0" width="48" height="28" class="bet" />
+        <text id="BET_text" x="6" y="14">BET</text>
+      </g>
+      <g id="Showtime" transform="translate(120,80)">
+        <title id="Showtime_title"></title>
+        <rect id="Showtime_box"  x="0" y="0" width="84" height="28" class="showtime" />
+        <text id="Showtime_text" x="6" y="14">Showtime</text>
+      </g>
+      <g id="UPN" transform="translate(0,120)">
+        <title id="UPN_title"></title>
+        <rect id="UPN_box"  x="0" y="0" width="48" height="28" class="upn" />
+        <text id="UPN_text" x="6" y="14">UPN</text>
+      </g>
+      <g id="WB" transform="translate(60,120)">
+        <title id="WB_title"></title>
+        <rect id="WB_box"  x="0" y="0" width="73" height="28" class="wb" />
+        <text id="WB_text" x="6" y="14">The WB</text>
+      </g>
+      <g id="CW" transform="translate(143,120)">
+        <title id="CW_title"></title>
+        <rect id="CW_box"  x="0" y="0" width="39" height="28" class="cw" />
+        <text id="CW_text" x="6" y="14">CW</text>
+      </g>
+      <g id="DC" transform="translate(192,120)">
+        <title id="DC_title"></title>
+        <rect id="DC_box"  x="0" y="0" width="36" height="28" class="dc" />
+        <text id="DC_text" x="6" y="14">DC</text>
+      </g>
+      <g id="TNT" transform="translate(0,160)">
+        <title id="TNT_title"></title>
+        <rect id="TNT_box"  x="0" y="0" width="48" height="28" class="tnt" />
+        <text id="TNT_text" x="6" y="14">TNT</text>
+      </g>
+      <g id="TBS" transform="translate(60,160)">
+        <title id="TBS_title"></title>
+        <rect id="TBS_box"  x="0" y="0" width="48" height="28" class="tbs" />
+        <text id="TBS_text" x="6" y="14">TBS</text>
+      </g>
+      <g id="HBO" transform="translate(120,160)">
+        <title id="HBO_title"></title>
+        <rect id="HBO_box"  x="0" y="0" width="48" height="28" class="hbo" />
+        <text id="HBO_text" x="6" y="14">HBO</text>
+      </g>
+      <g id="Cinemax" transform="translate(180,160)">
+        <title id="Cinemax_title"></title>
+        <rect id="Cinemax_box"  x="0" y="0" width="76" height="28" class="cinemax" />
+        <text id="Cinemax_text" x="6" y="14">Cinemax</text>
+      </g>
+      <g id="PTEN" transform="translate(268,160)">
+        <title id="PTEN_title"></title>
+        <rect id="PTEN_box"  x="0" y="0" width="57" height="28" class="pten" />
+        <text id="PTEN_text" x="6" y="14">PTEN</text>
+      </g>
+      <g id="NBC" transform="translate(0,200)">
+        <title id="NBC_title"></title>
+        <rect id="NBC_box"  x="0" y="0" width="48" height="28" class="nbc" />
+        <text id="NBC_text" x="6" y="14">NBC</text>
+      </g>
+      <g id="SyFy" transform="translate(60,200)">
+        <title id="SyFy_title"></title>
+        <rect id="SyFy_box"  x="0" y="0" width="48" height="28" class="syfy" />
+        <text id="SyFy_text" x="6" y="14">SyFy</text>
+      </g>
+      <g id="USA" transform="translate(120,200)">
+        <title id="USA_title"></title>
+        <rect id="USA_box"  x="0" y="0" width="48" height="28" class="usa" />
+        <text id="USA_text" x="6" y="14">USA</text>
+      </g>
+      <g id="AMC" transform="translate(0,240)">
+        <title id="AMC_title"></title>
+        <rect id="AMC_box"  x="0" y="0" width="48" height="28" class="amc" />
+        <text id="AMC_text" x="6" y="14">AMC</text>
+      </g>
+      <g id="Amazon" class="amazon" transform="translate(0,280)">
+        <title id="Amazon_title"></title>
+        <rect id="Amazon_box"  x="0" y="0" width="72" height="28" class="" />
+        <text id="Amazon_text" x="6" y="14">Amazon</text>
+      </g>
+      <g id="Netflix" class="netflix" transform="translate(84,280)">
+        <title id="Netflix_title"></title>
+        <rect id="Netflix_box"  x="0" y="0" width="60" height="28" class="" />
+        <text id="Netflix_text" x="6" y="14">Netflix</text>
+      </g>
+      <g id="Film" transform="translate(0,320)">
+        <title id="Film_title"></title>
+        <rect id="Film_box"  x="0" y="0" rx="10" width="48" height="28" class="" />
+        <text id="Film_text" x="6" y="14">Film</text>
+      </g>
+    </g>
+  </g>
+</svg>
