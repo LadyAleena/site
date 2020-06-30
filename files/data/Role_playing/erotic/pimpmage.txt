@@ -1,0 +1,196 @@
+Years ago I ran an Excite Community known as AD&D for Mature Adults (AFMA). This was created by a user there named Nathan Brown. I have kept it around for all of this time in hopes that it could be used again somewhere. With his permission I am including it here. All of this is his work with the exception of the Madam which is my creation. It is written for Advanced Dungeons & Dragons, 2nd Edition so you will need to alter it for whichever system you are using.
+
+The Pimp Mage is the mystical man of urban legend. He dresses flamboyantly and loves to be the center of attention. He may use his powers for his own gain or for the benefit of others.
+The Pimp Mage is known for making his trade by selling pleasures of the flesh and possibly sensation-enhancing substances. This may or may not be true from character to character. The only constants to the Pimp Mage are his flashy attire and his cane.
+
+Stat Requirements:
+Str 10
+Int 14
+Cha 16
+
+Pimp Mages can be any alignment save for lawful. Pimp Mages may be male or female, though most of the time they will be male.
+Pimp Mages may be humans, half-elves, elves, or gnomes, though gnomes get little respect generally.
+The Pimp Mages operate in a grand organization headed by a High Council of Pimps. The High Council consists of twenty Masta Pimps of at least 8th level and the Grand High Pimp Daddy (or Mommy as the case may be, though it is very rare) of no less than 12th level. Positions on the council are determined at an annual meeting of the Pimp Mages (held at a random location, this location is only discovered by word of mouth, and then only several months before the meeting). Seats on the Council are granted by nominations from the Masta Pimps, requiring a two-thirds majority vote and finally decided on by the Grand High Pimp Daddy. Should a Masta Pimp miss a meeting two years in a row, his seat is forfeit. The factor looked at most for seat awarding is fame or notoriety. To become a Grand High Pimp Daddy, one must be at least 12th level, be a Masta Pimp and must complete a quest appointed by the Grand High Pimp Daddy himself. Then the position is not gained until the Grand High Pimp Daddy 'passes away'. The Pimp Daddy will keep only one heir at a time.
+
+One of the Pimp Mage's abilities is the pimp slap, a secret technique only perfected by Pimp Mages of at 2nd level. The attack is a backhanded slap which causes 1d4 temporary damage, and it will not work when engaged in melee battle. The Pimp Mage also has exclusive access the Pimp School of Magic. The material component for most of these spells is a cane, specially imbued with magic by the High Council at the annual meeting.
+-----
+Player Vigilante
+
+Player Vigilantes maintain a sense of justice in the sometimes disruptive world of them Pimp Mage. They must be of Chaotic Good alignment and cannot be involved in activities such as dealing in illegal substances or selling rides on the ho'-go-round. Their goal is to stop such fiends who abuse their ho's or who extort money. The Vigilante is motivated by a sense of justice, even if it doesn't fit into the local law system. They tend to dress somewhat less flamboyantly than other pimp mages, but are well-known for their shakedown prowess. Player Vigilante's are fully endorsed and respected by the High Pimp Council, though they cannot serve on the council. Instead of a cane, which can be unwieldy in pursuit, PV's use another token, such as an expensive piece of jewelry or a talon from a dangerous creature. The DM should decide on this token, and perhaps make the PV earn it. PV's receive the Running and Spellcraft proficiencies free and Tumbling is granted for only one slot. Just because they spend their time stopping crime doesn't mean that they can't use their abilities to enjoy their fill of the ladies, though.
+-----
+Madam
+
+Madams are always female. They normally work out of one locale, though they may own many. These locales are sometimes out in the open, and sometimes they must be hidden from view (sometimes as a boarding house for women "only").
+
+Madams have a special weapon, it is the feather boa that all Madams must wear when working. If the madam must hide her business, the feather boa can be replaced by leather garments. The only time that the feather boa has to be worn is in the pressence of a Masta Pimp or the Grand High Pimp Daddy. With the feather boa they can do 1d6 points of stranglation damage. If the Madam is in leather garments, she must have a whip.
+
+Madams usually have 1d8 ladies in their employ. There is a 25% chance that 1d4 gigilos work for the madam. Madams are fiercely protective of their employees. They get a +2 to attack and damamge if one of their employees is in danger. After a lady under the Madam ages out or just can not function anymore as an employee, the Madam will help the lady find a place to live and most likely a husband to take care of the lady.
+
+Madams can not be considered for the position of Masta Pimp. They have their own sub-council that is sanctioned by the Grand High Council. They report to only the Grand Masta Pimp Daddy. If a Pimp Mage is found with a "stolen" Madam's lady (or gigilo), the Madam may use her only special power: Power Word, Eunuch. This will castrate the Pimp Mage on the spot if he fails his save. Even if the save is successful, the Pimp Mage will take 1d10 points of damage. The Madam may even take the matter to the Grand Masta Pimp Daddy and the Pimp Mage may suffer much much worse.
+-----
+Spells
+
+Tyrone's Silence
+(pimp) 1st level
+Range: 5yds./level
+Duration: 3rds./level
+Area of Effect: one creature
+Casting Time:1
+Saving throw: special
+Components: V,S
+
+When cast, the pimp looks away from the victim and raises his hand palm out towards the victim. The victim must save vs. spell or shut the fuck up. This of course prevents spell-casters from using spells requiring verbal components and it keeps people from annoying the pimp.
+
+Summon Girl
+(pimp/charm) 2nd level
+Range: 10yds./level
+Duration: 1hr./level
+Area of Effect: special
+Casting time: 2
+Saving Throw: special
+Components: V,S,M
+
+This spell causes one girl (or boy, should the spell be memorized as such) to save vs. spell or become enamored with the pimp and to cling to his side. The spell seeks out the nearest young and attractive girl within range of the spell. If no young or attractive girls are present, the nearest facsimile will be targeted. The girl will not handicap the pimp's movement. At 5th level the pimp gains the ability to summon 1d4 girls with +1 girls every three levels after that. For instance, an eighth level pimp could summon 1d4+1 girls, an eleventh level pimp could summon 1d4+2. The material component for this spell is the pimp's cane.
+
+Water to Liquor
+(pimp/alteration)(reversible)level 2
+Range: touch
+Duration: permanent
+Area of effect: 40 oz/level
+Casting Time: 1
+Saving throw: none
+Components: V,S,M
+
+This spells changes an amount of water(despite amount of minerals or salination) into a strong malt liquor. It is important for the pimp to note not to overjudge his ability to convert the water into liquor because any water left unchanged will, of course, water down the liquor. This spell renders salt water drinkable and brackish water or water with a high iron content considerably more pleasant. The spell will not remove poisons from the water, but any flavoring added will disappear. This spell can convert creatures such as water weirds and water elementals into liquor, but they will not be affected by this aside from a slight disorientation for one round. The reverse of this spell, Liquor to Water, converts any alcoholic beverage into drinkable, but generally unrefreshing water. The material component for this spell is a drop of alcohol(a drop of water for the reverse) and the pimp's cane of which the tip is dipped in the water.
+
+Shit Don't Stink
+(pimp) level 2
+Casting time: 2
+Range: caster
+Duration: one bowel movement
+Area of Effect: one bowel movement
+Saving Throw: none
+Components: V,S,M
+
+By casting this spell the caster passes a load which will give off no foul odor. At fifth level the feces can even be given the smell of a bed of roses. The material component for this spell are a handful of rose petals which are consumed by the caster as he squats.
+
+Wall of Pillows
+(Evocation/Conjuration/Pimp)
+Level: 2
+Range: 10 yds./level
+Components: V, S, M
+Duration: Permanent
+Casting Time: 4
+Area of Effect: Special
+Saving Throw: None
+
+This spell can be cast in one of two ways: as a plane of pillows or as a mass to fall upon creatures.
+As a plane or mass, it can be used to sleep on or entangle opponents.
+The pillows created by this version of the spell all are brightly colored, with coverings of silk, with tastefully matched tassles.
+(In the stronger version of the spell, the matresses are all heart shaped.)
+
+Personal Soundtrack
+(pimp)
+Level: 2
+Range: 0
+Duration: 1 turn/level
+Area of Effect: caster
+Casting Time: 1
+Saving Throw: none
+Components: V,S
+
+By casting this spell, the pimp causes ethereal music to seemingly come from himself. The music can be heard up to 20yds away and is louder nearest the caster. This spell requires nearly no concentration and can be cast while participating in vigorous activity, so long as the hands are free. The pimp chooses the type of music at casting: tempo, bass, so on. The spell ends after its duration expires, or the pimp wills it to silence. The music cannot counter spells or musical attacks.
+
+Venereal Guard
+(pimp/abjuration)level 3
+Range: 3 yds
+Duration: 1 hr/level
+Area of Effect: one person
+Casting Time: 2
+Saving Throw: none
+Components: S,M
+
+This spells prevents one person from contracting any sexually transmitted diseases for the duration of the spell. Should the person attempt intercourse afterwards with an infected partner(s), the normal chance for contraction returns. This spell will not cure any diseases on the recipient, nor his/her partner, nor prevent previous diseases of the recipient to be spread to the partner(s).
+
+Beefy
+(pimp, alteration)
+Range: touch(of cane)
+Duration: 1d4 rds/level
+Area of Effect: Person touched
+Casting Time: 1 turn
+Saving Throw: none
+Components: V,S,M
+
+Use of this spell increases the recipient's strength by 1d8 points and also increases muscle mass. Strength cannot exceed a maximum of 20. The material components of this spell is a piece of cow meat(any bovine will do), a few hairs from a particularly strong animal(i.e. bear, ox, ape), and the pimp's cane.
+
+Polymorph Ride
+(pimp, alteration)4th level
+Range: 5yds./level
+Duration: Permanent
+Area of Effect: one mount
+Casting time: 3
+Saving Throw: Neg.
+Components: V,S,M
+
+This spell causes any mount, such as a mule, pony, or goat, to become a magnificent horse. This transformation will startle the beast however and it will need to be calmed. The material component for this spell is the pimp's cane.
+
+Smackdown
+(pimp)level 4
+Range: 0
+Duration: 1rd/level
+Area of Effect: caster
+Casting Time: 4
+Saving throw: none
+Components: V,S,M
+
+By casting this spell, the pimp enhances his bitch smack to do 2d4+level divided by two(rounded down) with a +level divided by two(rounded down) hit adjustment. For example: a seventh level pimp mage casts the spell and proceeds to throw down upon an offender. He gets a +3 to his attack roll and does 2d4+3 damage. This smackdown continues for seven rounds. The material component for this spell is a gold ring of no less than 200gp in worth.
+
+Mass Aphrodesiac
+(pimp, charm)
+Range: 10yds
+Duration: 1 turn/level
+Area of Effect: 20ft radius+1 yd/level
+Casting Time: 1 turn
+Saving Throw: neg.
+Components: V,S,M
+
+This spell causes any bipedal person within a the area of effect centered on a point chosen by the caster to become incredibly horny and filled with an insatiable lust. Any with knowledge of the spell being cast may make a saving throw, if they so choose to negate the effects. Should the caster choose, his s/t is made with a +4 bonus. Those effected will immediately seek sexual intercourse by any means possibly, most usually with others affected by the spell. If no other people can be found within a round the person shall content themselves with vigorous masturbation. The material component for this spell is a fresh strawberry, or raw oysters.
+
+Exchange Ho's
+7th level Pimp spell
+Alteration/Charm
+Range: Plane
+Area of effect: Plane
+Duration: Permanent
+Components: V,S
+Casting Time: 2 turns
+Save: Yes
+
+With this spell, a Pimpmage who has a small or non-profitable "stable" of Ho's can force the swapping of Ho's with another, more successful Pimp mage against his will. This works only on the Plane of existance the Pimpmage is currently in (just in case we have some "out there" Pimp mages doin' biznez on two or more planes. . .).
+Upon completion of the casting of this spell, all the Ho's that "belonged" to the caster shift ownership to a named Pimp mage, and the named Pimp mage's Ho's become the casters. Each Pimp mage has all the knowledge that the other did about their former Ho's. This may confuse customers and friends who are/were used to seeing/hearing about certain Ho's that now the Pimp mage has no knowledge of (which could be the only tip-off that the victim has of the spell).
+The affected Pimp mage can resist this spell with a S/T vs spells at a minus of 1/2 the level of the Pimp mage casting the spell, rounded down.
+
+Special note: The Pimp mage casting this spell MUST know and use the "Truename" of the Pimp mage to be affected, not his street handle, AND, this spell has a mixed result for the caster - they lose all former knowledge of their former Ho's as well, so when/if buddies bring up "unknown" Ho's, the caster has no idea if he was the original caster or the victim of the spell 
+-----
+Magic Items
+
+Slim's Aquatic Boots
+There are only one pair of these boots in existance right now, but Slim is considering making more, or trading the directions on how to produce them in exchange for more ho's.
+The boots, while not specialized for the PimpMage, will most likely only be worn by a PimpMage due to their appearance (see below).
+Slim's Aquatic Boots grant the wearer the same effects of Boots of Striding and Springing (but upon landing from a jump, the boots must save as enchanted glass +2 vs crushing blow or shatter, and the wearer must make a dex check or trip; after all, they are six-inch platform boots...)
+The Boots additionally bestow on the wearer a power boost to any "person affecting" charm spells, causing the recipient(s) to make their saving throws at a penalty of -2, this is cumulative with any other penalties accrued.
+These high-hard boots have a six-inch hollow glass platform, filled with water and three magical fish apiece. These fish are in a kind of stasis, and require no food, fresher water, or cleaning of their "tank". It is the fish that give these boots their power, and if the fish should die, all magical effects of the boots will cease. Slim has already attempted and failed to cast a glassteel/permanency on the boots, so don't even try it. If a crystalbrittle is ever cast on these boots, they automatically shatter, losing all magical properties. These boots save vs magical fire at a -2, and on a failed roll, the fish are cooked (again, the boots will lose their magic at that time). The uppers of the boots are made of brightly dyed silk and exotic animal fur, and reach to two inches below the knee.
+
+Leon's Card
+Leon's Card was first penned by a Pimp Mage who was tired of being harrassed by "The Man". It is a magical card (a very small scroll of hard stock) about three inches long and an inch and a half wide, that has Leon's name, address, and, uh, well, "profession" penned on it in a mystical ink. Taking and reading this card acts as a powerful combination Charm Person and Suggestion spell; leaving the reader open to "viable" alternatives to his original plan. An example of use:
+
+Leon is accosted by the city watch for pandering - he flashes his card; the Captain reads the card, and then gets irate that Leon handed it to him. . . "Just what is this thing?". Leon makes the observation that the City Watch just is not appriciated enough in this town, that they work long, hard hours, exposed to many countless dangers, as well as mundane, boring tasks. . . perhaps he should personnaly show his gratitude for the efforts of the Watch Captain with a generous (and regular) contribution. . . In exchange of course for some "consideration" for a reasonable man trying to earn a living in a non-violent way that does not threaten the peace. . .
+
+The reader of the card must make a S/T vs magic at -2, if the suggestion is reasonable to the situation, failure results in perfect agreement. A failed save by more than 10 points means not just tacit agreement, but active and sincere apologies, with a humble refusal of bribery, or whatever the Pimp Mage is offering while the victim departs the area ("this was OBVIOUSLY a mistake. . .").
+
+The ink for this card is a mixture of giant squid ink, blood from the Pimp Mage, and distilled water from a reversal of the "Water to Liqour" spell, all in equal measures, mixed with 200gp of crushed pearl per application.
+
+Cane of Chauncey
+This is a pimp cane, further enchanted with the following attributes. With a tap on the ground, the cane can elongate into a quarterstaff with bears a +3 enchantment. When in its natural state, the cane can be spun and can deflect any missile fire, even of magical nature, gratned that the pimp forego any attack that round. If a button near the pommel is pressed, the cane will extend rapidly and carry its bearer upward(Dakuwan-style). A second press will retract the cane.
+
+

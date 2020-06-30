@@ -1,0 +1,24 @@
+dwarf|kobold;gnome;goblin
+high elf|halfling;hobgoblin;orc;gnoll;gnome;goblin
+grey elf|halfling;hobgoblin;orc;gnoll;gnome;goblin;high elf
+half-elf|halfling;hobgoblin;orc;gnoll;gnome;goblin;high elf
+sylvan elf|centaur;pixie;dryad;treant;high elf;woodland animal
+gnome|dwarf;halfing;kobold;goblin;burrowing mammal
+halfling|dwarf;elf;orc;gnome;goblin
+ogre mage|ogre
+chaos elemental-kin|planar;Limbo common;eledrin;genie;imp;slaad;tanar'ri
+dark centaur|dark elf
+eldent|sea elf;triton
+gobry|goblin;harpy
+rainbow dragonette|dragon
+throglin|troll;hobgoblin;freshwater throglin;saltwater throglin
+freshwater throglin|troll;hobgoblin;throglin;freshwater troll;freshwater hobgoblin;saltwater throglin
+saltwater throglin|troll;hobgoblin;throglin;saltwater troll;saltwater hobgoblin;freshwater throglin
+artic tralg|trollspeak;frost giant;desert tralg;two-headed tralg;giant common
+desert tralg|trollspeak;desert giant;artic tralg;two-headed tralg;giant common
+two-headed tralg|trollspeak;ettin;artic tralg;desert tralg;giant common
+trobold|trollspeak;kobold;goblin;orc;hobgoblin
+hill twarg|hill giant;hill dwarf;mountain twarg;jungle twarg;giant common;dwarf common
+mountain twarg|mountain giant;mountain dwarf;hill twarg;jungle twarg;giant common;dwarf common
+jungle twarg|jungle giant;wild dwarf;hill twarg;jungle twarg;giant common;dwarf common
+zarden|lizard man

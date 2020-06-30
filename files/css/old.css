@@ -1,0 +1,129 @@
+/* start under heading links */
+.heading_links {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: #eed;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+.heading_links a {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #0275;
+  text-align: center;
+  line-height: 1.25em;
+}
+
+.heading_links a:hover  {
+  background-color: #eeb;
+  text-decoration: none;
+}
+
+/* end under heading links */
+
+/* old blockquote and quote before and after */
+blockquote p::before { content: "“"; font-size: 110%; }
+blockquote p::after  { content: "”"; font-size: 110%; }
+
+q { quotes: '“' '”' '‘' '’' '“' '”' '‘' '’'; }
+
+/* For the old Dark Throne pages */
+li.human  { list-style-image: url(../images/games/Dark_Throne/shuman.gif); }
+li.undead { list-style-image: url(../images/games/Dark_Throne/sundead.gif); }
+li.elf    { list-style-image: url(../images/games/Dark_Throne/self.gif); }
+li.goblin { list-style-image: url(../images/games/Dark_Throne/sgoblin.gif); }
+
+/* For the old royal chess table, now an svg file */
+table.royal_chess tr td { text-align: center; width: 4em; height: 4em; border: none; }
+
+table.royal_chess tr:nth-child(odd)  td:nth-child(odd),
+table.royal_chess tr:nth-child(even) td:nth-child(even) { background-color: #eed; }
+
+table.royal_chess tr:nth-child(odd)  td:nth-child(even),
+table.royal_chess tr:nth-child(even) td:nth-child(odd)  { background-color: #ddc; }
+
+/* For the old expanded alignments table, now an svg file */
+table.expanded_alignment td { height: 55px; width: 55px; border-style: solid; text-align: center; }
+table.expanded_alignment td.core { border-width: 2px; background-color: #ffd; }
+table.expanded_alignment td.divider { background: #eed; }
+
+@media print {
+  table.expanded_alignment td.core { border-width: 3px; }
+
+  tr:nth-child(-n+3)                td:nth-child(4n),
+  tr:nth-child(n+5):nth-child(-n+7) td:nth-child(4n),
+  tr:nth-child(n+9)                 td:nth-child(4n) { border-width: 1px 3px; }
+
+  tr:nth-child(4n) td:nth-child(-n+3),
+  tr:nth-child(4n) td:nth-child(n+5):nth-child(-n+7),
+  tr:nth-child(4n) td:nth-child(n+9) { border-width: 3px 1px; }
+}
+
+/* For the old genre table, now an svg file */
+table.genre { font-size: smaller; }
+table.genre td { border: none; }
+table.genre td { width: 10px; min-width: 10px; max-width: 10px; height: 10px; min-height: 10px; max-height: 10px; margin: 0; padding: 0; line-height: 100%; text-align: center; }
+table.genre td.genre { width: 90px; min-width: 60px; max-width: 75px; height: 20px; min-height: 20px; max-height: 20px; border: 2px solid black; white-space: normal; }
+table.genre td.border { border-color: #000; border-width: 1px; border-style: none; }
+
+/* For the old mythology list*/
+ol.myth li {list-style-type: upper-roman;}
+ol.myth ol li {list-style-type: upper-alpha;}
+ol.myth ol ol li {list-style-type: decimal;}
+ol.myth ol ol ol li {list-style-type: lower-alpha;}
+ol.myth ol ol ol ol li {list-style-type: decimal;}
+
+/* For the old Westphall chart key */
+ol.Westphall li,
+ol.Westphall ol ol ol li,
+ol.Westphall ol ol ol ol ol ol li { list-style-type: decimal; }
+
+ol.Westphall ol li,
+ol.Westphall ol ol ol ol li,
+ol.Westphall ol ol ol ol ol ol ol li { list-style-type: lower-alpha; }
+
+ol.Westphall ol ol li,
+ol.Westphall ol ol ol ol ol li,
+ol.Westphall ol ol ol ol ol ol ol ol li { list-style-type: lower-roman; }
+
+body.Westphall { font: 400 10pt verdana;color: #000; }
+body.Westphall ul { margin-left: 1em;padding: 0;border-width: 0 0 0 1px; border-style: solid; }
+body.Westphall ul { border-color: #f06; }
+body.Westphall ul ul { border-color: #f03; }
+body.Westphall ul ul ul { border-color: #f00; }
+body.Westphall ul ul ul ul { border-color: #f30; }
+body.Westphall ul ul ul ul ul { border-color: #f60; }
+body.Westphall ul ul ul ul ul ul { border-color: #f90; }
+body.Westphall ul ul ul ul ul ul ul { border-color: #fc0; }
+body.Westphall ul ul ul ul ul ul ul ul { border-color: #ff0; }
+body.Westphall ul ul ul ul ul ul ul ul ul { border-color: #cf0; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul { border-color: #9f0; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul { border-color: #6f0; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #3f0; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0f0; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0f3; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0f6; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0f9; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0fc; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0ff; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #0cf; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #09f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #06f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #03f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #00f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #30f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #60f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #90f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #c0f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #f0f; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #f0c; }
+body.Westphall ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul { border-color: #f09; }
+body.Westphall ul li { list-style: none; }

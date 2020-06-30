@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 466 158"
+  width="466"
+  height="158"
+  id="Spy_Machete"
+>
+  <title id="Spy_Machete_title">Spy Kids crossed with Machete</title>
+  <metadata id="Spy_Machete_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Spy Kids cross with Machete</dc:title>
+        <dc:date>2019-08-20</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Spy_Machete_chart" transform="translate(5,5)">
+    <title id="Spy_Machete_chart_title">Spy Kids crossed with Machete</title>
+    <g id="Spy_Kids_franchise" transform="translate(0,0)">
+      <title id="Spy_Kids_franchise_title">Spy Kids</title>
+      <g class="spinoff" id="Spy_Kids_spinoff_lines" transform="translate(13)">
+        <title id="Spy_Kids_spinoff_lines_title">The Spy Kids spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Spy_Kids_to_Spy_Kids_2_Island_of_Lost_Dreams" />
+        <path d="m 0, 55 v 39 h 15" id="Spy_Kids_to_Spy_Kids_3-D_Game_Over" />
+        <path d="m 0, 95 v 39 h 15" id="Spy_Kids_to_Spy_Kids_All_Time_in_World" />
+      </g>
+      <g id="Spy_Kids" transform="translate(0,0)">
+        <title id="Spy_Kids_title">Spy Kids</title>
+        <path class="one_cross" d="m 78,14 h 237" id="SpyKids_to_Machete" />
+        <rect id="Spy_Kids_box"  x="0" y="0" rx="10" width="76" height="28" class="film" />
+        <text id="Spy_Kids_text" x="6" y="14">Spy Kids</text>
+      </g>
+      <g id="Spy_Kids_2" transform="translate(30,40)">
+        <title id="Spy_Kids_2_title">Spy Kids 2: The Island of Lost Dreams</title>
+        <rect id="Spy_Kids_2_box"  x="0" y="0" rx="10" width="283" height="28" class="film" />
+        <text id="Spy_Kids_2_text" x="6" y="14">Spy Kids 2: The Island of Lost Dreams</text>
+      </g>
+      <g id="Spy_Kids_3" transform="translate(30,80)">
+        <title id="Spy_Kids_3_title">Spy Kids 3-D: Game Over</title>
+        <rect id="Spy_Kids_3_box"  x="0" y="0" rx="10" width="196" height="28" class="film" />
+        <text id="Spy_Kids_3_text" x="6" y="14">Spy Kids 3-D: Game Over</text>
+      </g>
+      <g id="Spy_Kids_5" transform="translate(30,120)">
+        <title id="Spy_Kids4_title">Spy Kids: All the Time in the World</title>
+        <rect id="Spy_Kids_4_box"  x="0" y="0" rx="10" width="258" height="28" class="film" />
+        <text id="Spy_Kids_4_text" x="6" y="14">Spy Kids: All the Time in the World</text>
+      </g>
+    </g>
+    <g id="Machete_franchise" transform="translate(317,0)">
+      <title id="Machete_franchise_title">Machete</title>
+      <g class="spinoff" id="Machete_spinoff_lines" transform="translate(13)">
+        <title id="Machete_spinoff_lines_title">The Machete spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Machete_to_Machete_Kills" />
+      </g>
+      <g id="Machete" transform="translate(0,0)">
+        <title id="Machete_title">Machete</title>
+        <rect id="Machete_box"  x="0" y="0" rx="10" width="73" height="28" class="film" />
+        <text id="Machete_text" x="6" y="14">Machete</text>
+      </g>
+      <g id="Machete_Kills" transform="translate(30,40)">
+        <title id="Machete_Kills_title">Machete Kills</title>
+        <rect id="Machete_Kills_box"  x="0" y="0" rx="10" width="109" height="28" class="film" />
+        <text id="Machete_Kills_text" x="6" y="14">Machete Kills</text>
+      </g>
+    </g>
+  </g>
+</svg>

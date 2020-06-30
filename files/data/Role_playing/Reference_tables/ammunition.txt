@@ -1,0 +1,12 @@
+arrow, flight|0.025
+arrow, sheaf|0.05
+arrow, pile|0.05
+pellet|0.05
+quarrel, hand|1
+quarrel, heavy|0.2
+quarrel, light|0.1
+blowgun barbed dart|0.1
+blowgun needle|0.02
+sling bullet|0.01
+sling stone|0
+stinkpot|0.1

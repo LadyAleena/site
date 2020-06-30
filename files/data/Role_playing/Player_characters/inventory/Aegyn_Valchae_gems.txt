@@ -1,0 +1,32 @@
+agate:3*25
+alexandrite:7*100
+amethyst:28*100
+aquamarine:9*300
+aquamarine:13*500
+black opal:4*800
+black opal:1*1300
+bloodstone:12*100
+bloodstone:6*110
+diamond:2*10000
+emerald:1*2000
+fire opal:6*1000
+garnet:3*225
+garnet:3*350
+golden sapphire:8*100
+green sapphite:8*100
+jade:8*100
+jet:5*100
+mother of pearl:1*2100
+opal:4*800
+orange sapphire:2*1000
+pearl:3*500
+pearl:3*1000
+purple sapphire:2*1000
+quartz:5*500
+ruby:5*3000
+ruby:1*5000
+sapphire:6*1000
+spinel:4*800
+star sapphire:4*5000
+topaz:14*500
+topaz:2*650

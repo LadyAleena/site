@@ -1,0 +1,107 @@
+agate:30*50
+alexandrite:10*1000
+amber:10*1000
+amethyst:10*1000
+aquamarine:102*500
+aventurine feldspar:20*50
+aventurine quartz:30*50
+azurite:30*10
+banded agate:30*10
+beljuril:22*5000
+black opal:90*1000
+black sapphire:22*5000
+bloodstone:30*50
+blue quartz:30*10
+cairngorm:10*1000
+carnelian:20*50
+chalcedony:20*50
+chrysoberyl:10*1000
+chrysocolla:30*10
+chrysoprase:20*50
+citrine:20*50
+coral:10*1000
+diamond:28*5000
+dioptase:20*50
+emerald:2*200
+emerald:30*5000
+epidote:30*10
+euclase:80*500
+eye agate:30*10
+fire agate:30*10
+fire opal:90*1000
+fire opal:6*2000
+flamedance:80*500
+garnet:110*500
+golden sapphire:10*1000
+green sapphire:10*1000
+hambergyle:20*50
+heliodor:80*500
+heliotrope:10*1000
+hemitite:30*10
+horn coral:80*500
+hyacinth:10*1000
+hypersthene:20*50
+jacinth:20*5000
+jade:10*1000
+jasper:30*50
+jet:10*1000
+king's tears:20*5000
+king's tears:6*2000
+kornerupine:10*1000
+laeral's tears:10*1000
+lapis lazuli:30*10
+malachite:30*10
+microcline:30*10
+mocca stone:10*1000
+moonstone:30*50
+moss agate:30*10
+obsidian:30*10
+onyx:30*50
+opal:90*1000
+orange sapphire:90*1000
+orblen:16*1000
+ornamental amethyst:80*1000
+ornamental emerald:22*5000
+ornamental topaz:80*1000
+pearl:102*500
+peridot:102*500
+precious cat's-eye:10*1000
+purple sapphire:90*1000
+rainbow obsidian:30*50
+rhodochrosite:20*10
+rhodolite:80*1000
+rock crystal:40*50
+rouge stone:20*5000
+ruby:30*5000
+sagenite:10*10
+sapphire:106*1000
+sapphire:2*300
+sard:80*1000
+sardonyx:30*50
+serpentine:20*50
+sinhalite:10*1000
+smoky quartz:40*50
+snowflake obsidian:30*10
+sphene:80*500
+spinel:102*500
+star diopside:10*1000
+star rose quartz:40*50
+star ruby:22*5000
+star sapphire:22*5000
+sunstone:30*10
+tiger-eye agate:30*10
+tomb jade:80*1000
+topaz:102*500
+tourmaline:10*1000
+turquoise:30*10
+water opal:90*1000
+ziose:10*1000
+zircon:50*50
+gem:brightness,insight,seeing:2
+ioun stone of spell absorbtion
+ioun stone of polymorthing into tiger
+ioun stone, incandesant blue sphere
+ioun stone, pale green prism
+jewel of flawlessness, 9 facets:2
+lens of detection
+pearl of power, type I

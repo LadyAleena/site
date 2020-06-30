@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 599 2158"
+  width="599"
+  height="2158"
+  id="Departing_Westphall"
+>
+  <title id="MCU_title">The expanded Marvel Cinematic Universe</title>
+  <metadata id="MCU_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The expanded Marvel Cinematic Universe</dc:title>
+        <dc:date>2020-04-26</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    rect.inner  { paint-order: stroke; stroke-width: 1; fill-opacity: 1; }
+    text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+    tspan { font-size: 90%; font-style: normal; }
+  </style>
+  <g id="MCU_group" transform="translate(5,5)">
+    <title id="MCU_group_title">The expanded Marvel Cinematic Universe</title>
+    <g id="Pre_Marvel" transform="translate(0,443)">
+      <g id="Thing_franchise" transform="translate(0,0)" class="film">
+        <title id="Thing_franchise_title">The Thing</title>
+        <path class="spinoff" d="m 13, 30 v 24 h 15" id="Thing_to_Thing_2011" />
+        <g id="Thing" transform="translate(0,0)">
+          <title id="Thing_title">The Thing</title>
+          <path d="m 86,14 h 24" id="Thing_to_Slither" class="one_cross" />
+          <rect id="Thing_box" x="0" y="0" rx="10" width="84" height="28" />
+          <text id="Thing_text" x="6" y="14">The Thing</text>
+        </g>
+        <g id="Thing_2011" transform="translate(30,40)">
+          <title id="Thing_2011_title">The Thing (2011)</title>
+          <rect id="Thing_2011_box" x="0" y="0" rx="10" width="131" height="28" />
+          <text id="Thing_2011_text" x="6" y="14">The Thing <tspan id="Thing_2011_year">(2011)</tspan></text>
+        </g>
+      </g>
+      <g id="Slither" transform="translate(112,0)">
+        <title id="Slither_title">Slither</title>
+        <path d="m 61,14 h 15 v 37 h 25 m 6,0 h 24 m 6,0 h 12" id="Slither_to_Guardians_of_Galaxy" class="one_cross" />
+        <rect id="Slither_box" x="0" y="0" rx="10" width="59" height="28" class="film" />
+        <text id="Slither_text" x="6" y="14">Slither</text>
+      </g>
+      <g id="Howard_Duck" transform="translate(35,80)">
+        <title id="Howard_Duck_title">Howard the Duck</title>
+        <path d="m 138,14 h 15 v -37 h 25 m 6,0 h 24 m 6,0 h 12" id="Howard_Duck_to_Guardians_of_Galaxy" class="one_cross" />
+        <rect id="Howard_Duck_box" x="0" y="0" rx="10" width="136" height="28" class="film" />
+        <text id="Howard_Duck_text" x="6" y="14">Howard the Duck</text>
+      </g>
+    </g>
+
+    <g id="Spider-Man_franchise" transform="translate(62,1486)" class="film">
+      <title id="Spider-Man_franchise_title">Spider-Man</title>
+      <g class="spinoff" id="Spider-Man_spinoff_group" transform="translate(13)">
+        <title id="Spider-Man_spinoff_group_title">The Spider-Man spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Spider-Man_to_Spider-Man_2" />
+        <path d="m 0, 55 v 39 h 15" id="Spider-Man_to_Spider-Man_3" />
+      </g>
+      <g id="Spider-Man" transform="translate(0,0)">
+        <title id="Spider-Man_title">Spider-Man</title>
+        <path d="m 96,14 h 55 m 6,0 h 42" id="Spider-Man_to_Spider-Man_Far_From_Home" class="p_one_cross" />
+        <rect id="Spider-Man_box" x="0" y="0" rx="10" width="94" height="28" />
+        <text id="Spider-Man_text" x="6" y="14">Spider-Man</text>
+      </g>
+      <g id="Spider-Man_2" transform="translate(30,40)">
+        <title id="Spider-Man_2_title">Spider-Man 2</title>
+        <rect id="Spider-Man_2_box" x="0" y="0" rx="10" width="107" height="28" />
+        <text id="Spider-Man_2_text" x="6" y="14">Spider-Man 2</text>
+      </g>
+      <g id="Spider-Man_3" transform="translate(30,80)">
+        <title id="Spider-Man_3_title">Spider-Man 3</title>
+        <rect id="Spider-Man_3_box" x="0" y="0" rx="10" width="107" height="28" />
+        <text id="Spider-Man_3_text" x="6" y="14">Spider-Man 3</text>
+      </g>
+    </g>
+    <g id="Marvel_Cinematic_Universe_franchise" transform="translate(203,0)">
+      <title id="Marvel_Cinematic_Universe_franchise_title">Marvel Cinematic Universe</title>
+      <g class="spinoff" id="Marvel_Cinematic_Universe_spinoff_group" transform="translate(13)">
+        <title id="Marvel_Cinematic_Universe_spinoff_group_title">The Marvel Cinematic Universe spinoffs</title>
+        <path d="m 0,  30 v   24 h 15" id="Marvel_Cinematic_Universe_to_Phase_One" />
+        <path d="m 0,  55 v  279 h 15" id="Marvel_Cinematic_Universe_to_Phase_Two" />
+        <path d="m 0,  95 v  519 h 15" id="Marvel_Cinematic_Universe_to_Marvel_on_ABC" />
+        <path d="m 0, 135 v  639 h 15" id="Marvel_Cinematic_Universe_to_Marvel_on_Netflix" />
+        <path d="m 0, 175 v  879 h 15" id="Marvel_Cinematic_Universe_to_Phase_Three" />
+        <path d="m 0, 215 v 1319 h 15" id="Marvel_Cinematic_Universe_to_Phase_Four_films" />
+        <path d="m 0, 255 v 1559 h 15" id="Marvel_Cinematic_Universe_to_Phase_Four_TV" />
+      </g>
+      <g id="Marvel_Cinematic_Universe" transform="translate(0,0)" class="marvel">
+        <title id="Marvel_Cinematic_Universe_title">Marvel Cinematic Universe</title>
+        <rect id="Marvel_Cinematic_Universe_box" x="0" y="0" width="204" height="28" />
+        <text id="Marvel_Cinematic_Universe_text" x="6" y="14">Marvel Cinematic Universe</text>
+      </g>
+      <g id="Phase_One_franchise" transform="translate(30,40)" class="marvel">
+        <title id="Phase_One_franchise_title">Phase One</title>
+        <g class="spinoff" id="Phase_One_spinoff_group" transform="translate(13)">
+          <title id="Phase_One_spinoff_group_title">The Phase One spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Phase_One_to_Iron_Man" />
+          <path d="m 0, 55 v 39 h 15" id="Phase_One_to_Incredible_Hulk" />
+          <path d="m 0, 95 v 39 h 15" id="Phase_One_to_Iron_Man_2" />
+          <path d="m 0, 135 v 39 h 15" id="Phase_One_to_Thor" />
+          <path d="m 0, 175 v 39 h 15" id="Phase_One_to_Captain_America_First_Avenger" />
+          <path d="m 0, 215 v 39 h 15" id="Phase_One_to_Marvels_Avengers" />
+        </g>
+        <g id="Phase_One" transform="translate(0,0)">
+          <title id="Phase_One_title">Phase One</title>
+          <rect id="Phase_One_box" x="0" y="0" rx="10" width="92" height="28" />
+          <text id="Phase_One_text" x="6" y="14">Phase One</text>
+        </g>
+        <g id="Iron_Man" transform="translate(30,40)">
+          <title id="Iron_Man_title">Iron Man</title>
+          <rect id="Iron_Man_box" x="0" y="0" rx="10" width="74" height="28" />
+          <text id="Iron_Man_text" x="6" y="14">Iron Man</text>
+        </g>
+        <g id="Incredible_Hulk" transform="translate(30,80)">
+          <title id="Incredible_Hulk_title">The Incredible Hulk</title>
+          <rect id="Incredible_Hulk_box" x="0" y="0" rx="10" width="150" height="28" />
+          <text id="Incredible_Hulk_text" x="6" y="14">The Incredible Hulk</text>
+        </g>
+        <g id="Iron_Man_2" transform="translate(30,120)">
+          <title id="Iron_Man_2_title">Iron Man 2</title>
+          <rect id="Iron_Man_2_box" x="0" y="0" rx="10" width="87" height="28" />
+          <text id="Iron_Man_2_text" x="6" y="14">Iron Man 2</text>
+        </g>
+        <g id="Thor" transform="translate(30,160)">
+          <title id="Thor_title">Thor</title>
+          <rect id="Thor_box" x="0" y="0" rx="10" width="45" height="28" />
+          <text id="Thor_text" x="6" y="14">Thor</text>
+        </g>
+        <g id="Captain_America_First_Avenger" transform="translate(30,200)">
+          <title id="Captain_America_First_Avenger_title">Captain America: The First Avenger</title>
+          <rect id="Captain_America_First_Avenger_box" x="0" y="0" rx="10" width="267" height="28" />
+          <text id="Captain_America_First_Avenger_text" x="6" y="14">Captain America: The First Avenger</text>
+        </g>
+        <g id="Marvels_Avengers" transform="translate(30,240)">
+          <title id="Marvels_Avengers_title">Marvel&#700;s The Avengers</title>
+          <rect id="Marvels_Avengers_box" x="0" y="0" rx="10" width="176" height="28" />
+          <text id="Marvels_Avengers_text" x="6" y="14">Marvel&#700;s The Avengers</text>
+        </g>
+      </g>
+      <g id="Phase_Two_franchise" transform="translate(30,320)" class="marvel">
+        <title id="Phase_Two_franchise_title">Phase Two</title>
+        <g class="spinoff" id="Phase_Two_spinoff_group" transform="translate(13)">
+          <title id="Phase_Two_spinoff_group_title">The Phase Two spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Phase_Two_to_Iron_Man_3" />
+          <path d="m 0, 55 v 39 h 15" id="Phase_Two_to_Thor_Dark_World" />
+          <path d="m 0, 95 v 39 h 15" id="Phase_Two_to_Captain_America_Winter_Soldier" />
+          <path d="m 0, 135 v 33 h 15" id="Phase_Two_to_Guardians_of_Galaxy" />
+          <path d="m 0, 169 v 45 h 15" id="Phase_Two_to_Avengers_Age_of_Ultron" />
+          <path d="m 0, 215 v 39 h 15" id="Phase_Two_to_Ant-Man" />
+        </g>
+        <g id="Phase_Two" transform="translate(0,0)">
+          <title id="Phase_Two_title">Phase Two</title>
+          <rect id="Phase_Two_box" x="0" y="0" rx="10" width="93" height="28" />
+          <text id="Phase_Two_text" x="6" y="14">Phase Two</text>
+        </g>
+        <g id="Iron_Man_3" transform="translate(30,40)">
+          <title id="Iron_Man_3_title">Iron Man 3</title>
+          <rect id="Iron_Man_3_box" x="0" y="0" rx="10" width="87" height="28" />
+          <text id="Iron_Man_3_text" x="6" y="14">Iron Man 3</text>
+        </g>
+        <g id="Thor_Dark_World" transform="translate(30,80)">
+          <title id="Thor_Dark_World_title">Thor: The Dark World</title>
+          <rect id="Thor_Dark_World_box" x="0" y="0" rx="10" width="164" height="28" />
+          <text id="Thor_Dark_World_text" x="6" y="14">Thor: The Dark World</text>
+        </g>
+        <g id="Captain_America_Winter_Soldier" transform="translate(30,120)">
+          <title id="Captain_America_Winter_Soldier_title">Captain America: The Winter Soldier</title>
+          <rect id="Captain_America_Winter_Soldier_box" x="0" y="0" rx="10" width="273" height="28" />
+          <text id="Captain_America_Winter_Soldier_text" x="6" y="14">Captain America: The Winter Soldier</text>
+        </g>
+        <g id="Guardians_of_Galaxy" transform="translate(30,160)">
+          <title id="Guardians_of_Galaxy_title">Guardians of the Galaxy</title>
+          <rect id="Guardians_of_Galaxy_box" x="0" y="0" rx="10" width="183" height="28" />
+          <text id="Guardians_of_Galaxy_text" x="6" y="14">Guardians of the Galaxy</text>
+        </g>
+        <g id="Avengers_Age_of_Ultron" transform="translate(30,200)">
+          <title id="Avengers_Age_of_Ultron_title">Avengers: Age of Ultron</title>
+          <rect id="Avengers_Age_of_Ultron_box" x="0" y="0" rx="10" width="182" height="28" />
+          <text id="Avengers_Age_of_Ultron_text" x="6" y="14">Avengers: Age of Ultron</text>
+        </g>
+        <g id="Ant-Man" transform="translate(30,240)">
+          <title id="Ant-Man_title">Ant-Man</title>
+          <rect id="Ant-Man_box" x="0" y="0" rx="10" width="73" height="28" />
+          <text id="Ant-Man_text" x="6" y="14">Ant-Man</text>
+        </g>
+      </g>
+      <g id="Marvel_on_ABC_franchise" transform="translate(30,600)" class="abc">
+        <title id="Marvel_on_ABC_franchise_title">Marvel on ABC</title>
+        <g class="spinoff" id="Marvel_on_ABC_spinoff_group" transform="translate(13)">
+          <title id="Marvel_on_ABC_spinoff_group_title">The Marvel on ABC spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Marvel_on_ABC_to_Agents_of_SHIELD" />
+          <path d="m 0, 55 v 39 h 15" id="Marvel_on_ABC_to_Agent_Carter" />
+          <path d="m 0, 95 v 39 h 15" id="Marvel_on_ABC_to_Inhumans" />
+        </g>
+        <g id="Marvel_on_ABC" transform="translate(0,0)">
+          <title id="Marvel_on_ABC_title">Marvel on ABC</title>
+          <rect id="Marvel_on_ABC_box" x="0" y="0" width="120" height="28" />
+          <text id="Marvel_on_ABC_text" x="6" y="14">Marvel on ABC</text>
+        </g>
+        <g id="Agents_of_SHIELD" transform="translate(30,40)">
+          <title id="Agents_of_SHIELD_title">Agents of S.H.I.E.L.D.</title>
+          <rect id="Agents_of_SHIELD_box" x="0" y="0" width="166" height="28" />
+          <text id="Agents_of_SHIELD_text" x="6" y="14">Agents of S.H.I.E.L.D.</text>
+        </g>
+        <g id="Agent_Carter" transform="translate(30,80)">
+          <title id="Agent_Carter_title">Agent Carter</title>
+          <rect id="Agent_Carter_box" x="0" y="0" width="105" height="28" />
+          <text id="Agent_Carter_text" x="6" y="14">Agent Carter</text>
+        </g>
+        <g id="Inhumans" transform="translate(30,120)">
+          <title id="Inhumans_title">Inhumans</title>
+          <rect id="Inhumans_box" x="0" y="0" width="83" height="28" />
+          <text id="Inhumans_text" x="6" y="14">Inhumans</text>
+        </g>
+      </g>
+      <g id="Marvel_on_Netflix_franchise" transform="translate(30,760)" class="netflix">
+        <title id="Marvel_on_Netflix_franchise_title">Marvel on Netflix</title>
+        <g class="spinoff" id="Marvel_on_Netflix_spinoff_group" transform="translate(13)">
+          <title id="Marvel_on_Netflix_spinoff_group_title">The Marvel on Netflix spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Marvel_on_Netflix_to_Daredevil" />
+          <path d="m 0, 55 v 39 h 15" id="Marvel_on_Netflix_to_Jessica_Jones" />
+          <path d="m 0, 95 v 39 h 15" id="Marvel_on_Netflix_to_Luke_Cage" />
+          <path d="m 0, 135 v 39 h 15" id="Marvel_on_Netflix_to_Iron_Fist" />
+          <path d="m 0, 175 v 39 h 15" id="Marvel_on_Netflix_to_Defenders" />
+          <path d="m 0, 215 v 39 h 15" id="Marvel_on_Netflix_to_Punisher" />
+        </g>
+        <g id="Marvel_on_Netflix" transform="translate(0,0)">
+          <title id="Marvel_on_Netflix_title">Marvel on Netflix</title>
+          <rect id="Marvel_on_Netflix_box" x="0" y="0" width="132" height="28" />
+          <text id="Marvel_on_Netflix_text" x="6" y="14">Marvel on Netflix</text>
+        </g>
+        <g id="Daredevil" transform="translate(30,40)">
+          <title id="Daredevil_title">Daredevil</title>
+          <rect id="Daredevil_box" x="0" y="0" width="82" height="28" />
+          <text id="Daredevil_text" x="6" y="14">Daredevil</text>
+        </g>
+        <g id="Jessica_Jones" transform="translate(30,80)">
+          <title id="Jessica_Jones_title">Jessica Jones</title>
+          <rect id="Jessica_Jones_box" x="0" y="0" width="114" height="28" />
+          <text id="Jessica_Jones_text" x="6" y="14">Jessica Jones</text>
+        </g>
+        <g id="Luke_Cage" transform="translate(30,120)">
+          <title id="Luke_Cage_title">Luke Cage</title>
+          <rect id="Luke_Cage_box" x="0" y="0" width="90" height="28" />
+          <text id="Luke_Cage_text" x="6" y="14">Luke Cage</text>
+        </g>
+        <g id="Iron_Fist" transform="translate(30,160)">
+          <title id="Iron_Fist_title">Iron Fist</title>
+          <rect id="Iron_Fist_box" x="0" y="0" width="71" height="28" />
+          <text id="Iron_Fist_text" x="6" y="14">Iron Fist</text>
+        </g>
+        <g id="Defenders" transform="translate(30,200)">
+          <title id="Defenders_title">The Defenders</title>
+          <rect id="Defenders_box" x="0" y="0" width="117" height="28" />
+          <text id="Defenders_text" x="6" y="14">The Defenders</text>
+        </g>
+        <g id="Punisher" transform="translate(30,240)">
+          <title id="Punisher_title">The Punisher</title>
+          <rect id="Punisher_box" x="0" y="0" width="108" height="28" />
+          <text id="Punisher_text" x="6" y="14">The Punisher</text>
+        </g>
+      </g>
+      <g id="Phase_Three_franchise" transform="translate(30,1040)" class="marvel">
+        <title id="Phase_Three_franchise_title">Phase Three</title>
+        <g class="spinoff" id="Phase_Three_spinoff_group" transform="translate(13)">
+          <title id="Phase_Three_spinoff_group_title">The Phase Three spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Phase_Three_to_Captain_America_Civil_War" />
+          <path d="m 0, 55 v 39 h 15" id="Phase_Three_to_Doctor_Strange" />
+          <path d="m 0, 95 v 39 h 15" id="Phase_Three_to_Guardians_of_Galaxy_Vol_2" />
+          <path d="m 0, 135 v 39 h 15" id="Phase_Three_to_Spider-Man_Homecoming" />
+          <path d="m 0, 175 v 39 h 15" id="Phase_Three_to_Thor_Ragnarok" />
+          <path d="m 0, 215 v 39 h 15" id="Phase_Three_to_Black_Panther" />
+          <path d="m 0, 255 v 39 h 15" id="Phase_Three_to_Avengers_Infinity_War" />
+          <path d="m 0, 295 v 39 h 15" id="Phase_Three_to_Ant-Man_Wasp" />
+          <path d="m 0, 335 v 39 h 15" id="Phase_Three_to_Captain_Marvel" />
+          <path d="m 0, 375 v 39 h 15" id="Phase_Three_to_Avengers_Endgame" />
+          <path d="m 0, 415 v 39 h 15" id="Phase_Three_to_Spider-Man_Far_From_Home" />
+        </g>
+        <g id="Phase_Three" transform="translate(0,0)">
+          <title id="Phase_Three_title">Phase Three</title>
+          <rect id="Phase_Three_box" x="0" y="0" rx="10" width="104" height="28" />
+          <text id="Phase_Three_text" x="6" y="14">Phase Three</text>
+        </g>
+        <g id="Captain_America_Civil_War" transform="translate(30,40)">
+          <title id="Captain_America_Civil_War_title">Captain America: Civil War</title>
+          <rect id="Captain_America_Civil_War_box" x="0" y="0" rx="10" width="205" height="28" />
+          <text id="Captain_America_Civil_War_text" x="6" y="14">Captain America: Civil War</text>
+        </g>
+        <g id="Doctor_Strange" transform="translate(30,80)">
+          <title id="Doctor_Strange_title">Doctor Strange</title>
+          <rect id="Doctor_Strange_box" x="0" y="0" rx="10" width="119" height="28" />
+          <text id="Doctor_Strange_text" x="6" y="14">Doctor Strange</text>
+        </g>
+        <g id="Guardians_of_Galaxy_Vol_2" transform="translate(30,120)">
+          <title id="Guardians_of_Galaxy_Vol_2_title">Guardians of the Galaxy Vol. 2</title>
+          <rect id="Guardians_of_Galaxy_Vol_2_box" x="0" y="0" rx="10" width="227" height="28" />
+          <text id="Guardians_of_Galaxy_Vol_2_text" x="6" y="14">Guardians of the Galaxy Vol. 2</text>
+        </g>
+        <g id="Spider-Man_Homecoming" transform="translate(30,160)">
+          <title id="Spider-Man_Homecoming_title">Spider-Man: Homecoming</title>
+          <rect id="Spider-Man_Homecoming_box" x="0" y="0" rx="10" width="198" height="28" />
+          <text id="Spider-Man_Homecoming_text" x="6" y="14">Spider-Man: Homecoming</text>
+        </g>
+        <g id="Thor_Ragnarok" transform="translate(30,200)">
+          <title id="Thor_Ragnarok_title">Thor: Ragnarok</title>
+          <rect id="Thor_Ragnarok_box" x="0" y="0" rx="10" width="122" height="28" />
+          <text id="Thor_Ragnarok_text" x="6" y="14">Thor: Ragnarok</text>
+        </g>
+        <g id="Black_Panther" transform="translate(30,240)">
+          <title id="Black_Panther_title">Black Panther</title>
+          <rect id="Black_Panther_box" x="0" y="0" rx="10" width="114" height="28" />
+          <text id="Black_Panther_text" x="6" y="14">Black Panther</text>
+        </g>
+        <g id="Avengers_Infinity_War" transform="translate(30,280)">
+          <title id="Avengers_Infinity_War_title">Avengers: Infinity War</title>
+          <rect id="Avengers_Infinity_War_box" x="0" y="0" rx="10" width="170" height="28" />
+          <text id="Avengers_Infinity_War_text" x="6" y="14">Avengers: Infinity War</text>
+        </g>
+        <g id="Ant-Man_Wasp" transform="translate(30,320)">
+          <title id="Ant-Man_Wasp_title">Ant-Man and the Wasp</title>
+          <rect id="Ant-Man_Wasp_box" x="0" y="0" rx="10" width="175" height="28" />
+          <text id="Ant-Man_Wasp_text" x="6" y="14">Ant-Man and the Wasp</text>
+        </g>
+        <g id="Captain_Marvel" transform="translate(30,360)">
+          <title id="Captain_Marvel_title">Captain Marvel</title>
+          <rect id="Captain_Marvel_box" x="0" y="0" rx="10" width="120" height="28" />
+          <text id="Captain_Marvel_text" x="6" y="14">Captain Marvel</text>
+        </g>
+        <g id="Avengers_Endgame" transform="translate(30,400)">
+          <title id="Avengers_Endgame_title">Avengers: Endgame</title>
+          <rect id="Avengers_Endgame_box" x="0" y="0" rx="10" width="158" height="28" />
+          <text id="Avengers_Endgame_text" x="6" y="14">Avengers: Endgame</text>
+        </g>
+        <g id="Spider-Man_Far_From_Home" transform="translate(30,440)">
+          <title id="Spider-Man_Far_From_Home_title">Spider-Man: Far From Home</title>
+          <rect id="Spider-Man_Far_From_Home_box" x="0" y="0" rx="10" width="214" height="28" />
+          <text id="Spider-Man_Far_From_Home_text" x="6" y="14">Spider-Man: Far From Home</text>
+        </g>
+      </g>
+      <g id="Phase_Four_films_franchise" transform="translate(30,1520)" class="marvel">
+        <title id="Phase_Four_films_franchise_title">Phase Four (films)</title>
+        <g class="spinoff" id="Phase_Four_films_spinoff_group" transform="translate(13)">
+          <title id="Phase_Four_films_spinoff_group_title">The Phase Four (films) spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Phase_Four_films_to_Black_Widow" />
+          <path d="m 0, 55 v 39 h 15" id="Phase_Four_films_to_Eternals" />
+          <path d="m 0, 95 v 39 h 15" id="Phase_Four_films_to_Shang-Chi_Legend_of_Ten_Rings" />
+          <path d="m 0, 135 v 39 h 15" id="Phase_Four_films_to_Untitled_Spider-Man" />
+          <path d="m 0, 175 v 39 h 15" id="Phase_Four_films_to_Thor_Love_Thunder" />
+          <path d="m 0, 215 v 39 h 15" id="Phase_Four_films_to_Doctor_Strange_in_Multiverse_of_Madness" />
+        </g>
+        <g id="Phase_Four_films" transform="translate(0,0)">
+          <title id="Phase_Four_films_title">Phase Four (films)</title>
+          <rect id="Phase_Four_films_box" x="0" y="0" rx="10" width="141" height="28" />
+          <text id="Phase_Four_films_text" x="6" y="14">Phase Four <tspan id="Phase_Four_films_descriptor">(films)</tspan></text>
+        </g>
+        <g id="Black_Widow" transform="translate(30,40)">
+          <title id="Black_Widow_title">Black Widow</title>
+          <rect id="Black_Widow_box" x="0" y="0" rx="10" width="106" height="28" />
+          <text id="Black_Widow_text" x="6" y="14">Black Widow</text>
+        </g>
+        <g id="Eternals" transform="translate(30,80)">
+          <title id="Eternals_title">The Eternals</title>
+          <rect id="Eternals_box" x="0" y="0" rx="10" width="102" height="28" />
+          <text id="Eternals_text" x="6" y="14">The Eternals</text>
+        </g>
+        <g id="Shang-Chi_Legend_of_Ten_Rings" transform="translate(30,120)">
+          <title id="Shang-Chi_Legend_of_Ten_Rings_title">Shang-Chi and the Legend of the Ten Rings</title>
+          <rect id="Shang-Chi_Legend_of_Ten_Rings_box" x="0" y="0" rx="10" width="325" height="28" />
+          <text id="Shang-Chi_Legend_of_Ten_Rings_text" x="6" y="14">Shang-Chi and the Legend of the Ten Rings</text>
+        </g>
+        <g id="Untitled_Spider-Man" transform="translate(30,160)">
+          <title id="Untitled_Spider-Man_title">Untitled Spider-Man</title>
+          <rect id="Untitled_Spider-Man_box" x="0" y="0" rx="10" width="153" height="28" />
+          <text id="Untitled_Spider-Man_text" x="6" y="14">Untitled Spider-Man</text>
+        </g>
+        <g id="Thor_Love_Thunder" transform="translate(30,200)">
+          <title id="Thor_Love_Thunder_title">Thor: Love and Thunder</title>
+          <rect id="Thor_Love_Thunder_box" x="0" y="0" rx="10" width="183" height="28" />
+          <text id="Thor_Love_Thunder_text" x="6" y="14">Thor: Love and Thunder</text>
+        </g>
+        <g id="Doctor_Strange_in_Multiverse_of_Madness" transform="translate(30,240)">
+          <title id="Doctor_Strange_in_Multiverse_of_Madness_title">Doctor Strange in the Multiverse of Madness</title>
+          <rect id="Doctor_Strange_in_Multiverse_of_Madness_box" x="0" y="0" rx="10" width="326" height="28" />
+          <text id="Doctor_Strange_in_Multiverse_of_Madness_text" x="6" y="14">Doctor Strange in the Multiverse of Madness</text>
+        </g>
+      </g>
+      <g id="Phase_Four_TV_franchise" transform="translate(30,1800)" class="disney_plus">
+        <title id="Phase_Four_TV_franchise_title">Phase Four (TV)</title>
+        <g class="spinoff" id="Phase_Four_TV_spinoff_group" transform="translate(13)">
+          <title id="Phase_Four_TV_spinoff_group_title">The Phase Four (TV) spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Phase_Four_TV_to_Falcon_Winter_Soldier" />
+          <path d="m 0, 55 v 39 h 15" id="Phase_Four_TV_to_WandaVision" />
+          <path d="m 0, 95 v 39 h 15" id="Phase_Four_TV_to_Loki" />
+          <path d="m 0, 135 v 39 h 15" id="Phase_Four_TV_to_What_If" />
+          <path d="m 0, 175 v 39 h 15" id="Phase_Four_TV_to_Hawkeye" />
+          <path d="m 0, 215 v 39 h 15" id="Phase_Four_TV_to_Ms_Marvel" />
+          <path d="m 0, 255 v 39 h 15" id="Phase_Four_TV_to_Moon_Knight" />
+          <path d="m 0, 295 v 39 h 15" id="Phase_Four_TV_to_She-Hulk" />
+        </g>
+        <g id="Phase_Four_TV" transform="translate(0,0)">
+          <title id="Phase_Four_TV_title">Phase Four (TV)</title>
+          <rect id="Phase_Four_TV_box" x="0" y="0" width="130" height="28" />
+          <text id="Phase_Four_TV_text" x="6" y="14">Phase Four <tspan id="Phase_Four_TV_descriptor">(TV)</tspan></text>
+        </g>
+        <g id="Falcon_Winter_Soldier" transform="translate(30,40)">
+          <title id="Falcon_Winter_Soldier_title">The Falcon and the Winter Soldier</title>
+          <rect id="Falcon_Winter_Soldier_box" x="0" y="0" width="255" height="28" />
+          <text id="Falcon_Winter_Soldier_text" x="6" y="14">The Falcon and the Winter Soldier</text>
+        </g>
+        <g id="WandaVision" transform="translate(30,80)">
+          <title id="WandaVision_title">WandaVision</title>
+          <rect id="WandaVision_box" x="0" y="0" width="106" height="28" />
+          <text id="WandaVision_text" x="6" y="14">WandaVision</text>
+        </g>
+        <g id="Loki" transform="translate(30,120)">
+          <title id="Loki_title">Loki</title>
+          <rect id="Loki_box" x="0" y="0" width="43" height="28" />
+          <text id="Loki_text" x="6" y="14">Loki</text>
+        </g>
+        <g id="What_If" transform="translate(30,160)">
+          <title id="What_If_title">What If&#8230;?</title>
+          <rect id="What_If_box" x="0" y="0" width="88" height="28" />
+          <text id="What_If_text" x="6" y="14">What If&#8230;?</text>
+        </g>
+        <g id="Hawkeye" transform="translate(30,200)">
+          <title id="Hawkeye_title">Hawkeye</title>
+          <rect id="Hawkeye_box" x="0" y="0" width="79" height="28" />
+          <text id="Hawkeye_text" x="6" y="14">Hawkeye</text>
+        </g>
+        <g id="Ms_Marvel" transform="translate(30,240)">
+          <title id="Ms_Marvel_title">Ms. Marvel</title>
+          <rect id="Ms_Marvel_box" x="0" y="0" width="90" height="28" />
+          <text id="Ms_Marvel_text" x="6" y="14">Ms. Marvel</text>
+        </g>
+        <g id="Moon_Knight" transform="translate(30,280)">
+          <title id="Moon_Knight_title">Moon Knight</title>
+          <rect id="Moon_Knight_box" x="0" y="0" width="104" height="28" />
+          <text id="Moon_Knight_text" x="6" y="14">Moon Knight</text>
+        </g>
+        <g id="She-Hulk" transform="translate(30,320)">
+          <title id="She-Hulk_title">She-Hulk</title>
+          <rect id="She-Hulk_box" x="0" y="0" width="79" height="28" />
+          <text id="She-Hulk_text" x="6" y="14">She-Hulk</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

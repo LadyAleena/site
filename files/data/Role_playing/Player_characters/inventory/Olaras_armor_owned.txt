@@ -1,0 +1,26 @@
+arm of valor:2
+bracers of archery:2
+banded mail +2
+brigandine armor:10
+chain mail:+1:3,+2:2,+3:2
+elven chain mail:+1,+4:2,+5:2
+field plate:2
+field plate:+2,+3,+3 (wood)
+full plate:2
+full plate +1
+hide armor:10
+leather armor:10
+leather armor:+1,+4
+padded armor:10
+plate mail:10
+plate mail (bronze):10
+plate mail:-1 (cursed),+1:3
+ring mail +1
+splint mail:10
+studded leather armor:10
+helmet, basinet:30
+helmet, great:11
+helmet, open-faced +3
+helmet:comprehending languages and reading magic,teleportation,underwater action
+shield:body:10,buckler:10,medium:10,small:50
+shield, medium:+1:3,+2:2,+4,discus +3

@@ -1,0 +1,61 @@
+Absorb Disease|Con|-3|12|na|touch
+Adrenalin Control|Con|-3|8|4/rd|0
+Animate Object|Int|-3|8|3/rd|50 yds
+Animate Shadow|Wis|-3|7|3/rd|40 yds
+Astral Projection|Int|0|6|2/hr|na
+Ballistic Attack|Con|-2|5|na|30 yds
+Banishment|Int|-1|30|10/rd|5 yds.
+Body Control|Con|-4|7|5/turn|0
+Body Equilibrium|Con|-3|2|2/rd|0
+Cameleon Power|Con|-1|6|3/rd|0
+Cell Adjustment|Con|-3|5|up to 20/rd|0
+Chameleon Power|Con|-1|6|3/rd|0
+Complete Healing|Con|0|30|na|0
+Conceal Thoughts|Wis|0|5|3/rd|0
+Contact|Wis|0|varies|1/rd|special
+Control Body|Con|-2|8|8/rd|80 yds
+Control Flames|Wis|-1|6|3/rd|40 yds
+Control Light|Int|0|12|4/rd|25 yds
+Control Sound|Int|-5|5|2/rd|100 yds
+Control Wind|Con|-4|16|10/rd|1,000 yds
+Create Object|Int|-4|16|3/rd|20 yds
+Create Sound|Int|-2|8|3/rd|100 yds
+Detonate|Con|-3|18|na|60 yds
+Devotion:<td>Absorb Disease|Con|-3|12|na|touch
+Dimension Walk|Con|-2|8|4/turn|na
+Dimensional Door|Con|-1|4|2/rd|50 yds.+
+Disintegrate|Wis|-4|40|na|50 yds
+Displacement|Con|-3|6|3/rd|0
+Domination|Wis|-4|contact|var|30 yrds
+Dream Travel|Wis|-4|1/25 mi.|na|500 mi.
+Ectoplasmic Form|Con|-4|3|9/rd|0
+Energy Containment|Con|-2|10|na|0
+Flesh Armor|Con|-3|8|4/rd|0
+Graft Weapon|Con|-5|10|1/rd|0
+Inertial Barrier|Con|-2|7|5/rd
+Intellect Fortress|Wis|-3|4|na|0
+Intertial Barrier|Con|-3|7|5/rd|0
+Lend Health|Con|-1|4|na|touch
+Levitation|Wis|-3|12|2/rd|0
+Life Draining|Con|-3|11|5/rd|touch
+Mass Domination|Wis|-6|contact|var|40 yrds
+Mental Barrier|Wis|-2|3|na|0
+Metamorphosis|Con|-3|21|1/turn|0
+Mind Blank|Wis|-7|0|0|0
+Mindlink|Wis|-5|contact|8/rd|unlimited
+Molecular Agitation|Wis||7|6/rd|1 item, 20 lbs.
+Molecular Manipulation|Int|-3|6|5/rd|2 sq. in.
+Molecular Rearrangment|Int|-5|20|10/hr|2 yds
+Probability Travel|Int|0|20|8/hr.|unlim.
+Project Force|Con|-2|10|na|200 yds
+Psionic Blast|Wis|-5|10|na|unlim
+Soften|Int|0|4|3/rd|30 yds
+Summon Planar Creature|Int|-4|45/90|na|1 creature
+Telekinesis|Wis|-3|3 +|1 +/rd|30 yds
+Teleport Other|Int|-2|20 +|na|10 yds.
+Teleport Trigger|Int|+1|0|2/hr|infinate
+Teleport|Int|0|10 +|na|infinate
+Though Shield|Wis|-3|1|na|0
+Time Shift|Int|0|16|na|0
+Time/Space Anchor|Int|0|5|1/rd|0
+Tower of Iron Will|Wis|-2|6|na|0

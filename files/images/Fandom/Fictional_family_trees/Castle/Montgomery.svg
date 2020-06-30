@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../../css/family_tree.css" type="text/css"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 296 144"
+  width="296"
+  height="144"
+  >
+  <title id="Castle_title">The Montgomery family from Castle</title>
+  <metadata id="Castle_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Castle family from Castke</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="stop4423" style="stop-color:#ccccff;stop-opacity:0.85;" offset="75%" />
+      <stop id="stop4425" style="stop-color:#eeeeff;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="stop4677" style="stop-color:#ffcccc;stop-opacity:0.85;" offset="75%" />
+      <stop id="stop4679" style="stop-color:#ffeeee;stop-opacity:0.85;" offset="100%" />
+    </radialGradient>
+  </defs>
+  <!--
+    Family paths generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+  -->
+  <g id="Castle" class="graph" transform="translate(5,139)">
+    <title>The Montgomery family from Castle</title>
+    <text x="144" y="-127" class="chart_title">The Montgomery family from <tspan style="font-style:italic">Castle</tspan></text>
+
+    <g class="marriage" id="" transform="translate(143, -94)">
+      <title>Marriage of Evelyn and Roy Montgomery</title>
+      <path d="m 0,0 h -19" id="mEveRoy-RoyMontgomery" />
+      <path d="m 0,0 h  19" id="mEveRoy-Evelyn" />
+      <g class="child" id="Montgomery-children">
+        <title>Children of Evelyn and Roy Montgomery</title>
+        <path d="m 0,0  v  38" id="mEveRoy-cEveRoy" />
+        <path d="m 0,38 h -102 v  20" id="cEveRoy-RebeccaMontgomery" />
+        <path d="m 0,38 h    0 v  20" id="cEveRoy-MaryMontgomery" />
+        <path d="m 0,38 h  102 v  20" id="cEveRoy-EvanMontgomery" />
+        <circle cx="0" cy="38" id="cEveRoy" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mEveRoy" r="1.5" />
+    </g>
+
+    <g id="RoyMontgomery" class="male deceased" transform="translate(42,-112)">
+      <title>Roy Montgomery</title>
+      <rect x="0" y="0" width="82" height="36" />
+      <text x="41" y="12">Roy</text>
+      <text x="41" y="24">Montgomery</text>
+    </g>
+    <g id="Evelyn" class="female" transform="translate(162,-112)">
+      <title>Evelyn</title>
+      <rect x="0" y="0" width="60" height="36" />
+      <text x="30" y="18">Evelyn</text>
+    </g>
+
+    <g id="RebeccaMontgomery" class="female" transform="translate(0,-36)">
+      <title>Rebecca Montgomery</title>
+      <rect x="0" y="0" width="82" height="36" />
+      <text x="41" y="12">Rebecca</text>
+      <text x="41" y="24">Montgomery</text>
+    </g>
+    <g id="MaryMontgomery" class="female" transform="translate(102,-36)">
+      <title>Mary Montgomery</title>
+      <rect x="0" y="0" width="82" height="36" />
+      <text x="41" y="12">Mary</text>
+      <text x="41" y="24">Montgomery</text>
+    </g>
+    <g id="EvanMontgomery" class="male" transform="translate(204,-36)">
+      <title>Evan Montgomery</title>
+      <rect x="0" y="0" width="82" height="36" />
+      <text x="41" y="12">Evan</text>
+      <text x="41" y="24">Montgomery</text>
+    </g>
+  </g>
+</svg>

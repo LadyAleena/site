@@ -1,0 +1,35 @@
+html { margin: 0; border: none; padding: 0; }
+body { margin: 0 0 0 1em; border: none; padding: 0; font: 400 10pt arial; }
+
+h1,h2 { margin: 0; padding: 0; }
+h1 { font-size: 18pt; }
+h2 { font-size: 14pt; }
+
+div { background-color: #fff; }
+span { font-style: oblique; }
+
+table { }
+caption { font: 700 14pt arial; text-align: center; }
+col.c { text-align: center; }
+tr.even td { background: #ccc; }
+th { padding: 0 2px; background: #000; border: 1px solid #666; color: #ccc; font-weight: 700; text-align:left; }
+td { padding: 0 2px; }
+
+table.spell_list col { width: 33%; }
+table.spell_list td { border: 1px solid #000; vertical-align: text-top; }
+
+td { border-right: 1px solid #000; border-bottom: 1px solid #999; }
+
+table.stat tr td           { text-align:center; }
+table.stat tr th           { text-align:center; }
+table.stat tr td + td      { text-align:right; }
+table.stat tr td + td + td { text-align:center; }
+
+form { margin:0; border:none; padding:0; float:right; top:0; right:0; left:75%; }
+label { color: #333; }
+select option { font:400 10pt verdana; }
+select { margin: 0; border: none; padding: 0; left: 75%; border: 1px dashed #fff; font: 400 10pt arial; }
+
+@media print {
+  form { display:none; }
+}

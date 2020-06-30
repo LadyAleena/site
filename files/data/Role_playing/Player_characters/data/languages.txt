@@ -1,0 +1,58 @@
+Awnday Ar'iemay|dwarf;kobold;ogre;troll;Alzhedo (Calimshan);Midani (Zakhara);Untheric (Old Empires);Thieve's Cant
+Amelda Bacoulan|elf;gnome;goblin;illithid;ogre;orc
+Sarria Bagada|dwarf
+Lysiandra Bo'javarian|centaur;common;dragon;dwarf;elf, drow;giant;minotaur;troll;wemic
+Verago Brystar|aarocrocka;dwarf;kobald;minotaur;ogre;troll
+Presolia Copturan|arcane;elf;dwarf;giff;gnome;rastipede
+Rojeana Decant|dragon;elf;giant;goblin;minotaur;siren
+Ryceva Derman|arcane;dwarf;elf;goblin;ogre;troll
+Myleara Disstar|dryad;giant;kobold;ogre;sprite;troll;undercommon
+Oalirya Disstar|drawf;elf;ogre;troll;undercommon
+Visilma Do'ranicy|dwarf;kobold;ogre;troll;invisible stalker;Thieve's Cant
+Lourijul Edyara|ogre
+Faerinna Escar|dwarf;kobold;merman;naga;ogre;troll;Thieve's Cant
+Matea Fi'nashari|bugbear;dwarf;kobold;ogre;troll;sign language;Thieve's Cant
+Tymara Fi'ranicy|bugbear;dragon;dryad;dwarven;genie;giant;kobold;nymph;ogre;chromatic dragon;gem dragon;metalic dragon;upper planar;lower planar;Thieve's Cant;will 'o wisp
+Janily Flassur|kuo-toa;murman;nymph;sahuagin;triton;sea elf
+Olacadas Flyglee|birds;elf;minotaur;pixie;sprite;squirrel;wood giant
+Nemidia Ge'mardian|dryad;hamadryad;ogre
+Tandria Goldmoon|dragon;dwarf;giant;minotaur;troll;wemic;drow elf
+Rechrapee Hardimod|elf;gnoll;goblin;hobgoblin;kobold;orc
+Xyrena Hewlett-Packard-Bell|dwarven;elven;goblin;orc
+Ulari Ilan|dragon;giant;ogre
+Summerica Jammic|adaptor;common;elf;ogre
+Rajnilia Al-Afyali bint Jazar|Ajami common;Midani (Zakhara);ogre;sahuagin;elf;goblin;orc
+Balnari Ka'natrian|dragon;dwarven;giant;kobold;minotaur;ogre;troll
+Niona Kilson|kobold
+Myra Kyllia|bugbear;dwarf;kobold;ogre;troll;underdark;evil dragon;Thieve's Cant
+Risa Kyllia|sign language;Thieve's Cant
+Sorack Linsandin'viniar|arcane;dwarf;bugbear
+Zamia Lo'rena|arcane;dragon;nymph;satyr;avariel elf;grey elf;sylvan elf
+Desolenna Marder'bastiar|arcane;dwarf
+Driastan Marder'bastiar|
+Nwadira Mazan|eledrin;elf;genie;gnome;goblin;halfling;hobgoblin;imp;orc;slaad;tanar'ri
+Lestra Newmoon|dragon;dwarf;giant;kobold;nymph;ogre
+Carri Notha|bugbear;Thieve's Cant
+Alexana Olara|dragon;dwarven;genie;giant;kobold;minotaur;ogre;troll;Thieve's Cant
+Eileen Olara|dragon;dwarven;genie;giant;kobold;minotaur;ogre;troll;Thieve's Cant
+Ducismetapopolis OreGrinder|earth elemental;drow elf;deep gnome;kuo-toan;underworld
+Lamaria Peacyle|dwarf;elf;goblin;halfling;orc
+Yenedra Peacyle|dwarf;kobold;ogre;troll;Thieve's Cant
+Bryzarlyn Qi'lanari|dragon;dwarf;giant;kobold;nymph;ogre;troglodyte;troll;Underdark;Thieve's Cant
+Tanyani Qi'mardian|dragon;dryad;dwarf;giant;kobold;nymph;ogre;troll;Thieve's Cant;will o' wisp
+Ejenna Quara|dragon;dwarf;elf;gnome;orc
+Patrina Meysa Rast|arcane;dragon;elven;genie;gnome;ogre magi
+Artis Sadir|
+Hylene Serill|elf
+Calsanna Sorlastryl|dragon;druid;dwarf;giant;nymph;Theive's Cant
+Ducolin StoneGrip|bugbear;orc;Underdark
+Drianna StrongOak-Guard|dwarf;giant;kobold;evil dragon;good dragon;neutral dragon;lower planes;upper planes
+Amori Tamdenar|bugbear;centaur;dwarf;kobold;minotaur;ogre;Thieve's Cant
+Wijora Urlubint|dragon;dwarf;elf;giant;gnome;gobliniod;halfling
+Aegyn Valchae|aasimon;dwarf;ogre;troll;evil dragon;good dragon;neutral dragon;Thieve's Cant
+Handira Warnir|neutral dragon;giant;ogre
+Elora Windblown|birds;pixie;sprite;faerie dragon;avariel elf
+Inary Xeru|Mulhorandi;orc;Thorass;Untheric;sylph;aarakocra;avarial elf
+Eshandra Yanraya|lamia;lammasu;Mulhorandi;tabaxi;wemic;weretiger
+Aztema Zavgar|dragon;elf;goblin;gypsy;halfling
+Kymaria Zendelic'tronyara|arcane;dwarf;Thieve's Cant

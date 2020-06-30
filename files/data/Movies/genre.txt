@@ -1,0 +1,49 @@
+action|fiction
+adventure|fiction
+animated
+anthology
+award show|non-fiction
+comedy|fiction
+contest|non-fiction
+crime|fiction
+detective|crime
+disaster|speculatve fiction
+docudrama|fiction, non-fiction
+drama|fiction
+dramedy|drama, comedy
+erotica|fiction
+fantasy|speculative fiction
+gothic|romance, horror
+horror|speculative fiction
+legal|crime, drama
+medical|fiction
+military|war
+monster
+music|non-fiction
+musical|fiction
+mystery|crime
+non-fiction
+parody|comedy, satire
+police procedural|detective
+post-apocalypse|apocalypse
+romantic comedy|romance, comedy
+romantic drama|romance, drama
+romantic dramedy|romance, dramedy
+science fantasy|science fiction, fantasy
+science fiction|speculative fiction
+science fiction western|science fiction, western
+situation comedy|comedy
+slasher|horror
+speculative fiction|fiction
+spoof|comedy
+sports|
+spy fiction|thriller
+stand-up comedy|non-fiction, comedy
+steampunk|punk, historical fiction
+superhero fiction|speculative fiction
+talk show|non-fiction
+thriller|fiction
+torture porn|slasher, splatter
+variety|
+war|
+western|fiction

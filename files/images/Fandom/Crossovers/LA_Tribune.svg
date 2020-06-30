@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 364 798"
+  width="364"
+  height="798"
+  id="LA_Tribue_crossover"
+>
+  <title id="LA_Tribue_title">Los Angeles Tribune crossovers</title>
+  <metadata id="LA_Tribue_md">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Los Angeles Tribune crossovers</dc:title>
+        <dc:date>2020-05-02</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Crossover_styles">
+    path  { fill:none; stroke: #666666; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+    rect  { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+    text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+    tspan { font-size: 90%; font-style: normal; }
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="LA_Tribue" transform="translate(5,5)">
+    <title id="LA_Tribue_title">Los Angeles Tribune crossovers</title>
+    <path d="m 0,621 h 7 m 6,0 h 12" id="Morley_to_twenty_four" class="morley_red"/>
+    <g id="LA_Tribune_crossovers" transform="translate(0,14)" class="soft">
+      <title id="LA_Tribune_crossovers_title">LA Tribune crossovers</title>
+      <path d="m 0,0 h  15"      id="LA_Tribune_to_Burkes_Law" />
+      <path d="m 0,0 v 233 h 26 m 6,0 h 12" id="LA_Tribune_to_Lou_Grant" />
+      <path d="m 0,0 v 310 h 15" id="LA_Tribune_to_Remington_Steele" />
+      <path d="m 0,0 v 350 h 15" id="LA_Tribune_to_Matt_Houston" />
+      <path d="m 0,0 v 390 h 15" id="LA_Tribune_to_Lookwell" />
+      <path d="m 0,0 v  73 h 45" id="LA_Tribune_to_Burkes_Law_1994" />
+      <path d="m 0,0 v 430 h 15" id="LA_Tribune_to_Columbo" />
+      <path d="m 0,0 v 600 h  7 m 6,0 h 12" id="LA_Tribune_to_twenty-four" />
+    </g>
+    <g id="Amos_Burke_Secret_Agent_franchise" transform="translate(17,0)">
+      <title id="Amos_Burke_Secret_Agent_franchise_title">Amos Burke franchise</title>
+      <path d="m 13, 60 v 21 h 15" class="spinoff" id="Amos_Burke_Secret_Agent_to_Burkes_Law_1994" />
+      <g id="Burkes_Law" transform="translate(0,0)">
+        <title id="Burkes_Law_title">Burke&apos;s Law</title>
+        <path d="m 102,14 h 117 v  32 h 15" class="one_cross" id="Burkes_Law_to_Honey_West" />
+        <rect id="Burkes_Law_box"  x="0" y="0" width="100" height="28" class="abc" />
+        <text id="Burkes_Law_text" x="6" y="14">Burke&apos;s Law</text>
+      </g>
+      <g id="Amos_Burke_Secret_Agent" transform="translate(0,30)">
+        <title id="Amos_Burke_Secret_Agent_title">Amos Burke, Secret Agent</title>
+        <rect id="Amos_Burke_Secret_Agent_box"  x="0" y="0" width="202" height="28" class="abc" />
+        <text id="Amos_Burke_Secret_Agent_text" x="6" y="14">Amos Burke, Secret Agent</text>
+      </g>
+      <g id="Burkes_Law_1994" transform="translate(30,70)">
+        <title id="Burkes_Law_1994_title">Burke&apos;s Law (1994)</title>
+        <path d="m 149,14 h 40 v -32 h 15" class="one_cross" id="Burkes_Law_1994_to_Honey_West" />
+        <rect id="Burkes_Law_1994_box"  x="0" y="0" width="147" height="28" class="cbs" />
+        <text id="Burkes_Law_1994_text" x="6" y="14">Burke&apos;s Law <tspan id="Burkes_Law_1994_year">(1994)</tspan></text>
+      </g>
+    </g>
+    <g id="Honey_West" transform="translate(253,35)">
+      <title id="Honey_West_title">Honey West</title>
+      <rect id="Honey_West_box"  x="0" y="0" width="101" height="28" class="abc" />
+      <text id="Honey_West_text" x="6" y="14">Honey West</text>
+    </g>
+    <g id="Mary_Tyler_Moore_franchise" transform="translate(17,110)">
+      <title id="Mary_Tyler_Moore_franchise_title">The Mary Tyler Moore franchise</title>
+      <g class="spinoff" id="Mary_Tyler_Moore_spinoff_lines" transform="translate(13)">
+        <title id="Mary_Tyler_Moore_spinoff_lines_title">The The Mary Tyler Moore Show spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Mary_Tyler_Moore_to_Rhoda" />
+        <path d="m 0,  55 v 39 h 15" id="Mary_Tyler_Moore_to_Phyllis" />
+        <path d="m 0,  95 v 36 h 15" id="Mary_Tyler_Moore_to_Lou_Grant" />
+        <path d="m 0, 132 v 42 h 15" id="Mary_Tyler_Moore_to_Mary_Rhoda" />
+      </g>
+      <g id="Mary_Tyler_Moore" transform="translate(0,0)">
+        <title id="Mary_Tyler_Moore_title">The Mary Tyler Moore Show</title>
+        <rect id="Mary_Tyler_Moore_box"  x="0" y="0" width="212" height="28" class="cbs" />
+        <text id="Mary_Tyler_Moore_text" x="6" y="14">The Mary Tyler Moore Show</text>
+      </g>
+      <g id="Rhoda" transform="translate(30,40)">
+        <title id="Rhoda_title">Rhoda</title>
+        <rect id="Rhoda_box"  x="0" y="0" width="60" height="28" class="cbs" />
+        <text id="Rhoda_text" x="6" y="14">Rhoda</text>
+      </g>
+      <g id="Phyllis" transform="translate(30,80)">
+        <title id="Phyllis_title">Phyllis</title>
+        <rect id="Phyllis_box"  x="0" y="0" width="61" height="28" class="cbs" />
+        <text id="Phyllis_text" x="6" y="14">Phyllis</text>
+      </g>
+      <g id="Lou_Grant" transform="translate(30,120)">
+        <title id="Lou_Grant_title">Lou Grant</title>
+        <rect id="Lou_Grant_box"  x="0" y="0" width="84" height="28" class="cbs" />
+        <text id="Lou_Grant_text" x="6" y="14">Lou Grant</text>
+      </g>
+      <g id="Mary_Rhoda" transform="translate(30,160)">
+        <title id="Mary_Rhoda_title">Mary and Rhoda</title>
+        <rect id="Mary_Rhoda_box"  x="0" y="0" rx="10" width="130" height="28" class="abc tv_film" />
+        <text id="Mary_Rhoda_text" x="6" y="14">Mary and Rhoda</text>
+      </g>
+    </g>
+    <g id="Remington_Steele" transform="translate(17,310)" class="nbc">
+      <title id="Remington_Steele_title">Remington Steele</title>
+      <rect id="Remington_Steele_box" x="0" y="0" width="140" height="28" />
+      <text id="Remington_Steele_text" x="6" y="14">Remington Steele</text>
+    </g>
+    <g id="Matt_Houston" transform="translate(17,350)" class="abc">
+      <title id="Matt_Houston_title">Matt Houston</title>
+      <rect id="Matt_Houston_box" x="0" y="0" width="106" height="28" />
+      <text id="Matt_Houston_text" x="6" y="14">Matt Houston</text>
+    </g>
+    <g id="Lookwell" transform="translate(17,390)" class="nbc">
+      <title id="Lookwell_title">Lookwell</title>
+      <rect id="Lookwell_box" x="0" y="0" width="77" height="28" />
+      <text id="Lookwell_text" x="6" y="14">Lookwell</text>
+    </g>
+    <g id="Columbo_franchise" transform="translate(17,430)">
+      <title id="Columbo_franchise_title">Columbo</title>
+      <path d="m 13, 30 v 24 h 15" class="semi_spinoff" id="Columbo_to_Mrs._Columbo" />
+      <g id="Columbo" transform="translate(0,0)">
+        <title id="Columbo_title">Columbo</title>
+        <rect id="Columbo_box_1" x="0" y="0" width="76" height="28" class="nbc" />
+        <rect id="Columbo_box_2" x="4" y="4" width="68" height="20" class="abc inner" />
+        <text id="Columbo_text" x="6" y="14">Columbo</text>
+      </g>
+      <g id="Mrs._Columbo" transform="translate(30,40)">
+        <title id="Mrs._Columbo_title">Mrs. Columbo</title>
+        <rect id="Mrs._Columbo_box"  x="0" y="0" width="111" height="28" class="nbc" />
+        <text id="Mrs._Columbo_text" x="6" y="14">Mrs. Columbo</text>
+      </g>
+      <g id="Kate_Columbo" transform="translate(30,70)">
+        <title id="Kate_Columbo_title">Kate Columbo</title>
+        <rect id="Kate_Columbo_box"  x="0" y="0" width="114" height="28" class="nbc" />
+        <text id="Kate_Columbo_text" x="6" y="14">Kate Columbo</text>
+      </g>
+      <g id="Kate_Detective" transform="translate(30,100)">
+        <title id="Kate_Detective_title">Kate the Detective</title>
+        <rect id="Kate_Detective_box"  x="0" y="0" width="142" height="28" class="nbc" />
+        <text id="Kate_Detective_text" x="6" y="14">Kate the Detective</text>
+      </g>
+      <g id="Kate_Loves_Mystery" transform="translate(30,130)">
+        <title id="Kate_Loves_Mystery_title">Kate Loves a Mystery</title>
+        <rect id="Kate_Loves_Mystery_box"  x="0" y="0" width="165" height="28" class="nbc" />
+        <text id="Kate_Loves_Mystery_text" x="6" y="14">Kate Loves a Mystery</text>
+      </g>
+    </g>
+    <g id="CNB_TV_group" transform="translate(10,600)">
+      <title id="CNB_TV_title">CNB TV network crossovers</title>
+      <g id="CNB_crossovers" transform="translate(0,14)" class="soft">
+        <title id="CNB_crossovers_title">CNB crossovers</title>
+        <path d="m 0,0 v -7 h 15"      id="CNB_to_twenty-four" />
+        <path d="m 0,0 v 120 h 15" id="CNB_to_Homeland" />
+        <path d="m 0,0 v 160 h 15" id="CNB_to_Tyrant" />
+      </g>
+      <g id="Twenty4_franchise" transform="translate(17,0)">
+        <title id="Twenty4_franchise_title">24</title>
+        <g id="Twenty4_spinoff_group" class="spinoff" transform="translate(13)">
+          <title id="Twenty4_spinoff_group_title">The 24 spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Twenty4_to_Twenty4_Live_Another_Day" />
+          <path d="m 0, 55 v 39 h 15" id="Twenty4_to_Twenty4_Legacy" />
+        </g>
+        <g id="Twenty4" transform="translate(0,0)">
+          <title id="Twenty4_title">24</title>
+          <rect id="Twenty4_box" x="0" y="0" width="30" height="28" class="fox" />
+          <text id="Twenty4_text" x="6" y="14">24</text>
+        </g>
+        <g id="Twenty4_Live_Another_Day" transform="translate(30,40)">
+          <title id="Twenty4_Live_Another_Day_title">24: Live Another Day</title>
+          <rect id="Twenty4_Live_Another_Day_box" x="0" y="0" width="162" height="28" class="fox" />
+          <text id="Twenty4_Live_Another_Day_text" x="6" y="14">24: Live Another Day</text>
+        </g>
+        <g id="Twenty4_Legacy" transform="translate(30,80)">
+          <title id="Twenty4_Legacy_title">24: Legacy</title>
+          <rect id="Twenty4_Legacy_box" x="0" y="0" width="91" height="28" class="fox" />
+          <text id="Twenty4_Legacy_text" x="6" y="14">24: Legacy</text>
+        </g>
+      </g>
+      <g id="Homeland" transform="translate(17,120)">
+        <title id="Homeland_title">Homeland</title>
+        <rect id="Homeland_box" x="0" y="0" width="87" height="28" class="showtime" />
+        <text id="Homeland_text" x="6" y="14">Homeland</text>
+      </g>
+      <g id="Tyrant" transform="translate(17,160)">
+        <title id="Tyrant_title">Tyrant</title>
+        <rect id="Tyrant_box" x="0" y="0" width="57" height="28" class="fx" />
+        <text id="Tyrant_text" x="6" y="14">Tyrant</text>
+      </g>
+    </g>
+  </g>
+</svg>
+

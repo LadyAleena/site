@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 874 874"
+  width="874"
+  height="874"
+>
+  <title id="Royal_chess_title">Royal chess</title>
+  <metadata id="Royal_chess_chart_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Tracking chart for Expanded Alignments</dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:date>2020-03</dc:date>
+        <dc:language>en-US</dc:language>
+        <dc:description>
+          The pieces specific to royal chess were created by Dawn M. Burge, however similar combination pieces have already been created by others.
+        </dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Royal_chess_styles" type="text/css">
+    g g:nth-child(odd)  g:nth-child(odd)  rect,
+    g g:nth-child(even) g:nth-child(even) rect { fill: #eeeedd; stroke: #ccccbb; stroke-width: 1px; }
+
+    g g:nth-child(odd)  g:nth-child(even) rect,
+    g g:nth-child(even) g:nth-child(odd)  rect { fill: #ddddcc; stroke: #ccccbb; stroke-width: 1px; }
+
+    text { font-family: sans-serif; font-size: 14px; fill: #027; text-anchor: middle; dominant-baseline: middle; text-align: center; }
+    g.chart_highlight path { fill: none; stroke: #027; stroke-width:2px; }
+  </style>
+
+  <g id="Royal_chess_board" transform="translate(5, 5)">
+    <g>
+      <g class="rook" transform="translate(0, 0)">
+        <title>black queen&apos;s rook</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">rook</text>
+      </g>
+      <g class="knight" transform="translate(72, 0)">
+        <title>black queen&apos;s knight</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">knight</text>
+      </g>
+      <g class="marshal" transform="translate(144, 0)">
+        <title>black queen&apos;s marshal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">marshal</text>
+      </g>
+      <g class="bishop" transform="translate(216, 0)">
+        <title>black queen&apos;s bishop</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">bishop</text>
+      </g>
+      <g class="cardinal" transform="translate(288, 0)">
+        <title>black queen&apos;s cardinal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">cardinal</text>
+      </g>
+      <g class="queen" transform="translate(360, 0)">
+        <title>black queen</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">queen</text>
+      </g>
+      <g class="king" transform="translate(432, 0)">
+        <title>black king</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">king</text>
+      </g>
+      <g class="cardinal" transform="translate(504, 0)">
+        <title>black king&apos;s cardinal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">cardinal</text>
+      </g>
+      <g class="bishop" transform="translate(576, 0)">
+        <title>black king&apos;s bishop</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">bishop</text>
+      </g>
+      <g class="marshal" transform="translate(648, 0)">
+        <title>black king&apos;s marshal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">marshal</text>
+      </g>
+      <g class="knight" transform="translate(720, 0)">
+        <title>black king&apos;s knight</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">knight</text>
+      </g>
+      <g class="rook" transform="translate(792, 0)">
+        <title>black king&apos;s rook</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">rook</text>
+      </g>
+    </g>
+    <g>
+      <g class="pawn" transform="translate(0, 72)">
+        <title>black queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="squire" transform="translate(72, 72)">
+        <title>black queen&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="squire" transform="translate(144, 72)">
+        <title>black queen&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="novice" transform="translate(216, 72)">
+        <title>black queen&apos;s novice</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">novice</text>
+      </g>
+      <g class="priest" transform="translate(288, 72)">
+        <title>black queen&apos;s priest</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">priest</text>
+      </g>
+      <g class="princess" transform="translate(360, 72)">
+        <title>black princess</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">princess</text>
+      </g>
+      <g class="prince" transform="translate(432, 72)">
+        <title>black prince</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">prince</text>
+      </g>
+      <g class="priest" transform="translate(504, 72)">
+        <title>black king&apos;s priest</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">priest</text>
+      </g>
+      <g class="novice" transform="translate(576, 72)">
+        <title>black king&apos;s novice</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">novice</text>
+      </g>
+      <g class="squire" transform="translate(648, 72)">
+        <title>black king&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="squire" transform="translate(720, 72)">
+        <title>black king&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="pawn" transform="translate(792, 72)">
+        <title>black king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 144)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="pawn" transform="translate(72, 144)">
+        <title>black queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(144, 144)">
+        <title>black queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(216, 144)">
+        <title>black queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(288, 144)">
+        <title>black queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(360, 144)">
+        <title>black queen pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(432, 144)">
+        <title>black king pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(504, 144)">
+        <title>black king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(576, 144)">
+        <title>black king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(648, 144)">
+        <title>black king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(720, 144)">
+        <title>black king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="" transform="translate(792, 144)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 216)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 288)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 360)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 432)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 504)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(72, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(144, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(216, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(288, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(360, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(432, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(504, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(576, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(648, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(720, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="" transform="translate(792, 576)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="" transform="translate(0, 648)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+      <g class="pawn" transform="translate(72, 648)">
+        <title>white queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(144, 648)">
+        <title>white queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(216, 648)">
+        <title>white queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(288, 648)">
+        <title>white queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(360, 648)">
+        <title>white queen pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(432, 648)">
+        <title>white king pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(504, 648)">
+        <title>white king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(576, 648)">
+        <title>white king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(648, 648)">
+        <title>white king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="pawn" transform="translate(720, 648)">
+        <title>white king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="" transform="translate(792, 648)">
+        <rect height="72" width="72" x="0" y="0" />
+      </g>
+    </g>
+    <g>
+      <g class="pawn" transform="translate(0, 720)">
+        <title>white queen&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+      <g class="squire" transform="translate(72, 720)">
+        <title>white queen&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="squire" transform="translate(144, 720)">
+        <title>white queen&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="novice" transform="translate(216, 720)">
+        <title>white queen&apos;s novice</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">novice</text>
+      </g>
+      <g class="priest" transform="translate(288, 720)">
+        <title>white queen&apos;s priest</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">priest</text>
+      </g>
+      <g class="princess" transform="translate(360, 720)">
+        <title>white princess</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">princess</text>
+      </g>
+      <g class="prince" transform="translate(432, 720)">
+        <title>white prince</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">prince</text>
+      </g>
+      <g class="priest" transform="translate(504, 720)">
+        <title>white king&apos;s priest</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">priest</text>
+      </g>
+      <g class="novice" transform="translate(576, 720)">
+        <title>white king&apos;s novice</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">novice</text>
+      </g>
+      <g class="squire" transform="translate(648, 720)">
+        <title>white king&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="squire" transform="translate(720, 720)">
+        <title>white king&apos;s squire</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">squire</text>
+      </g>
+      <g class="pawn" transform="translate(792, 720)">
+        <title>white king&apos;s pawn</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">pawn</text>
+      </g>
+    </g>
+    <g>
+      <g class="rook" transform="translate(0, 792)">
+        <title>white queen&apos;s rook</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">rook</text>
+      </g>
+      <g class="knight" transform="translate(72, 792)">
+        <title>white queen&apos;s knight</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">knight</text>
+      </g>
+      <g class="marshal" transform="translate(144, 792)">
+        <title>white queen&apos;s marshal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">marshal</text>
+      </g>
+      <g class="bishop" transform="translate(216, 792)">
+        <title>white queen&apos;s bishop</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">bishop</text>
+      </g>
+      <g class="cardinal" transform="translate(288, 792)">
+        <title>white queen&apos;s cardinal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">cardinal</text>
+      </g>
+      <g class="queen" transform="translate(360, 792)">
+        <title>white queen</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">queen</text>
+      </g>
+      <g class="king" transform="translate(432, 792)">
+        <title>white king</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">king</text>
+      </g>
+      <g class="cardinal" transform="translate(504, 792)">
+        <title>white king&apos;s cardinal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">cardinal</text>
+      </g>
+      <g class="bishop" transform="translate(576, 792)">
+        <title>white king&apos;s bishop</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">bishop</text>
+      </g>
+      <g class="marshal" transform="translate(648, 792)">
+        <title>white king&apos;s marshal</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">marshal</text>
+      </g>
+      <g class="knight" transform="translate(720, 792)">
+        <title>white king&apos;s knight</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">knight</text>
+      </g>
+      <g class="rook" transform="translate(792, 792)">
+        <title>white king&apos;s rook</title>
+        <rect height="72" width="72" x="0" y="0" />
+        <text x="36" y="36">rook</text>
+      </g>
+    </g>
+    <g class="chart_highlight">
+      <path d="m 0, 0 h 864 v 864 h -864 z" />
+    </g>
+  </g>
+  <!--
+  Generated using the Perl SVG Module V2.84
+  by Ronan Oger
+  Info: http://www.roitsystems.com/
+  -->
+</svg>

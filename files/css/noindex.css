@@ -1,0 +1,11 @@
+body { background-color: #ccb; font-family: sans-serif; font-size: 100%; }
+h1 { width: 100%; padding: 3px; font-weight: normal; clear: both; font-size: 150%; background-color: #027; color: #eed; }
+a { color: #027; text-decoration: none }
+a:hover { text-decoration: underline; }
+
+table          { border: 1px solid #027; background-color: #ffffff; border-collapse: collapse; page-break-inside: avoid; }
+th, td         { border: 1px dotted #027; padding: .25em; font-size: smaller; }
+th                  { background-color: #eed; color: #027; font-weight: bold; }
+tr td:nth-child(1)  { background-color: #eed; color: #027; font-weight: bold; }
+
+address { margin: 2px 5px; padding: 3px; }

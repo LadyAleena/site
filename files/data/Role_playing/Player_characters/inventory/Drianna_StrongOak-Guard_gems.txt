@@ -1,0 +1,42 @@
+alexandrite:1*100
+amnythyst:171*100
+banded agate:3*10
+black opal:1*1000
+bloodstone:1*50
+blue quartz:3*10
+carnelian:1*50
+chrysoprase:1*50
+coral:2*100
+diamond:5*5000
+diamond:1*10000
+emerald:6*7000
+fire opal:11*1000
+fire opal:50*2500
+garnet:15*100
+garnet:250*250
+garnet:2*500
+jade:11*100
+jasper:1*50
+jet:1*100
+lapis lazuli:1*10
+moonstone:10*50
+moss agate:2*10
+obsidian:1*10
+onyx:1*50
+oriental amethyst:1*1000
+pearl:3*100
+peridot:1*500
+rhodochrosite:2*10
+rock crystal:1*50
+ruby:4*5000
+sadonyx:2*50
+smokey quartz:1*50
+spinel:3*500
+star rose quartz:1*50
+star sapphires:7*15000
+tiger eye agate:1*10
+topaz:10*500
+tourmaline:1*100
+turquoise:2*10
+zircon:1*50
+misc gems:1*100000

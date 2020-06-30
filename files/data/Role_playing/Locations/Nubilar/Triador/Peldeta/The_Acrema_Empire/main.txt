@@ -1,0 +1,2719 @@
+Acrema|empire|human|1|10;93|||
+Acrem|kingdom|human|1|8;31|||
+Acrem City|barony|human|1|1;10|Commons;Merchants;Nobles;Martial|Acrem|is the capital city of Acrem
+Acifra|grand duchy|human|1|5;4||Acrem|
+Wandar|barony|human|0|4;8|Commons;Merchants;Nobles;Martial|Acrem;Acifra|is the capital city of Acifra
+Bilya|duchy|human|0|1;12|Commons|Acrem;Acifra|
+Pliotir|barony|human|0|2;8|Commons;Merchants;Nobles|Acrem;Acifra;Bilya|is the capital city of Bilya
+Dach|county|human|1|6;11|Commons;Merchants|Acrem;Acifra;Bilya|
+Hamenand|barony|human|1|3;5|Commons;Merchants|Acrem;Acifra;Bilya;Dach|is the capital city of Dach
+Stowbana|barony|human|1|4;4|Commons;Merchants|Acrem;Acifra;Bilya;Dach|
+Golana|county|human|1|2;8|Commons;Merchants;Nobles|Acrem;Acifra;Bilya|
+Andalu|barony|human|1|2;3|Commons;Merchants;Nobles|Acrem;Acifra;Bilya;Golana|is the capital city of Golana
+Agarac's Dam|barony|human|1|2;2|Commons;Merchants;Nobles|Acrem;Acifra;Bilya;Golana|
+Lami|county|human|1|3;11|Commons;Merchants|Acrem;Acifra;Bilya|
+Mabako|barony|human|1|2;12|Commons;Merchants|Acrem;Acifra;Bilya;Lami|is the capital city of Lami
+Nekay|barony|human|0|4;7|Commons;Merchants|Acrem;Acifra;Bilya;Lami|
+Romorecan|barony|human|0|3;6|Commons;Merchants|Acrem;Acifra;Bilya;Lami|
+Regin|county|human|0|6;11|Commons|Acrem;Acifra;Bilya|
+Maynie|barony|human|0|1;4|Commons;Merchants|Acrem;Acifra;Bilya;Regin|is the capital city of Regin
+Comorco|barony|human|0|1;9|Commons;Merchants|Acrem;Acifra;Bilya;Regin|
+Scafria|county|human|1|5;5|Commons;Merchants|Acrem;Acifra;Bilya|
+Torepria|barony|human|1|2;3|Commons;Merchants|Acrem;Acifra;Bilya;Scafria|is the capital city of Scafria
+Bimzawbe|barony|human|1|4;5|Commons;Merchants|Acrem;Acifra;Bilya;Scafria|
+Ogcon|barony|human|0|2;10|Commons;Merchants|Acrem;Acifra;Bilya;Scafria|
+Dusan|duchy|human|1|5;6||Acrem;Acifra|
+Kamthuor|barony|human|1|1;5||Acrem;Acifra;Dusan|is the capital city of Dusan
+Pethoia|county|human|0|3;13|Commons|Acrem;Acifra;Dusan|
+Dabisabada|barony|human|1|1;10||Acrem;Acifra;Dusan;Pethoia|is the capital city of Pethoia
+Riovy Coast|barony|human|1|4;9||Acrem;Acifra;Dusan;Pethoia|
+Pytge|county|human|0|5;7|Commons|Acrem;Acifra;Dusan|
+Arioc|barony|human|1|1;11||Acrem;Acifra;Dusan;Pytge|is the capital city of Pytge
+Faskina Buro|barony|human|1|3;7||Acrem;Acifra;Dusan;Pytge|
+Tianamura|county|human|0|2;7|Commons|Acrem;Acifra;Dusan|
+Chotanukot|barony|human|0|1;7|Commons|Acrem;Acifra;Dusan;Tianamura|is the capital city of Tianamura
+Nogba|barony|human|0|3;5|Commons|Acrem;Acifra;Dusan;Tianamura|
+Otgo|barony|human|0|1;7|Commons|Acrem;Acifra;Dusan;Tianamura|
+Geralia|duchy|human|1|7;12|Commons;Merchants|Acrem;Acifra|
+Geralis|barony|human|1|2;6|Commons;Merchants|Acrem;Acifra;Geralia|is the capital city of Geralia
+Banmia|county|human|1|6;2|Commons;Merchants|Acrem;Acifra;Geralia|
+Whoedik|barony|human|1|1;9|Commons;Merchants|Acrem;Acifra;Geralia;Banmia|is the capital city of Banmia
+Hanga|barony|human|0|1;4|Commons;Merchants|Acrem;Acifra;Geralia;Banmia|
+Biquezamo|county|human|0|3;8|Commons;Merchants|Acrem;Acifra;Geralia|
+Topuma|barony|human|0|2;8|Commons;Merchants|Acrem;Acifra;Geralia;Biquezamo|is the capital city of Biquezamo
+Andagu|barony|human|0|2;6|Commons;Merchants|Acrem;Acifra;Geralia;Biquezamo|
+Glasene|barony|human|1|2;2|Commons;Merchants|Acrem;Acifra;Geralia;Biquezamo|
+Geriania|county|human|1|3;9|Commons;Merchants|Acrem;Acifra;Geralia|
+Gosla|barony|human|1|4;12|Commons;Merchants|Acrem;Acifra;Geralia;Geriania|is the capital city of Geriania
+Situnia|barony|human|0|1;7|Commons;Merchants|Acrem;Acifra;Geralia;Geriania|
+Mabzia|county|human|1|6;14|Commons;Merchants|Acrem;Acifra;Geralia|
+Kasalu|barony|human|1|4;8|Commons;Merchants|Acrem;Acifra;Geralia;Mabzia|is the capital city of Mabzia
+Lawima|barony|human|1|3;9|Commons;Merchants|Acrem;Acifra;Geralia;Mabzia|
+Zantania|county|human|1|3;10|Commons;Merchants|Acrem;Acifra;Geralia|
+Domado|barony|human|1|1;6|Commons;Merchants|Acrem;Acifra;Geralia;Zantania|is the capital city of Zantania
+Beliria|barony|human|1|4;4|Commons;Merchants|Acrem;Acifra;Geralia;Zantania|
+Nebin|barony|human|1|2;7|Commons;Merchants|Acrem;Acifra;Geralia;Zantania|
+Tradogcon|duchy|human|1|8;18||Acrem;Acifra|
+Shinkasa|barony|human|1|1;11|Commons;Merchants|Acrem;Acifra;Tradogcon|is the capital city of Tradogcon
+Cenfricanatral|county|human|0|6;9|Commons|Acrem;Acifra;Tradogcon|
+Guambi|barony|human|1|4;7||Acrem;Acifra;Tradogcon;Cenfricanatral|is the capital city of Cenfricanatral
+Slierrone|barony|human|1|2;7||Acrem;Acifra;Tradogcon;Cenfricanatral|
+Masolia|county|human|1|6;8|Commons;Merchants|Acrem;Acifra;Tradogcon|
+Shidigamo|barony|human|1|2;4|Commons;Merchants|Acrem;Acifra;Tradogcon;Masolia|is the capital city of Masolia
+Niague|barony|human|1|1;9|Commons;Merchants|Acrem;Acifra;Tradogcon;Masolia|
+Niague Sibasu|barony|human|1|1;10|Commons;Merchants|Acrem;Acifra;Tradogcon;Masolia|
+Ansaraica|grand duchy|human|0|8;11|Commons|Acrem|
+Uranu|barony|human|1|1;3|Commons;Merchants;Nobles;Martial|Acrem;Ansaraica|is the capital city of Ansaraica
+Anzelew|duchy|human|0|7;16|Commons|Acrem;Ansaraica|
+Tingon Well|barony|human|1|3;5||Acrem;Ansaraica;Anzelew|is the capital city of Anzelew
+Jifi|county|human|1|2;3||Acrem;Ansaraica;Anzelew|
+Usva|barony|human|1|2;8||Acrem;Ansaraica;Anzelew;Jifi|is the capital city of Jifi
+Naery|barony|human|0|2;9|Commons|Acrem;Ansaraica;Anzelew;Jifi|
+Taluvu|barony|human|1|4;12||Acrem;Ansaraica;Anzelew;Jifi|
+Monsoland|county|human|0|1;12|Commons|Acrem;Ansaraica;Anzelew|
+Raonhia|barony|human|0|1;7|Commons|Acrem;Ansaraica;Anzelew;Monsoland|is the capital city of Monsoland
+Arunu|barony|human|1|3;9||Acrem;Ansaraica;Anzelew;Monsoland|
+Bocamdia|barony|human|1|2;7||Acrem;Ansaraica;Anzelew;Monsoland|
+Lartausia|duchy|human|0|7;12|Commons;Merchants|Acrem;Ansaraica|
+Bercrana|barony|human|0|3;12|Commons;Merchants|Acrem;Ansaraica;Lartausia|is the capital city of Lartausia
+Birkati|county|human|0|1;9|Commons;Merchants|Acrem;Ansaraica;Lartausia|
+Atwara|barony|human|1|2;5|Commons;Merchants|Acrem;Ansaraica;Lartausia;Birkati|is the capital city of Birkati
+Beshdalang|barony|human|0|4;6|Commons;Merchants|Acrem;Ansaraica;Lartausia;Birkati|
+Cronemisa|county|human|0|2;11|Commons;Merchants|Acrem;Ansaraica;Lartausia|
+Phonepi|barony|human|0|1;10|Commons;Merchants|Acrem;Ansaraica;Lartausia;Cronemisa|is the capital city of Cronemisa
+Dranjo|barony|human|1|2;7|Commons;Merchants|Acrem;Ansaraica;Lartausia;Cronemisa|
+Plaen|barony|human|1|3;9|Commons;Merchants|Acrem;Ansaraica;Lartausia;Cronemisa|
+Gonta|county|human|0|6;11|Commons;Merchants|Acrem;Ansaraica;Lartausia|
+Afolakunu|barony|human|0|4;10|Commons;Merchants|Acrem;Ansaraica;Lartausia;Gonta|is the capital city of Gonta
+North Rekoa|barony|human|1|1;10|Commons;Merchants|Acrem;Ansaraica;Lartausia;Gonta|
+South Rekoa|barony|human|1|4;9|Commons;Merchants|Acrem;Ansaraica;Lartausia;Gonta|
+Masao|county|human|1|5;10|Commons;Merchants|Acrem;Ansaraica;Lartausia|
+Aipa|barony|human|1|4;4|Commons;Merchants|Acrem;Ansaraica;Lartausia;Masao|is the capital city of Masao
+Slankria|barony|human|1|3;8|Commons;Merchants|Acrem;Ansaraica;Lartausia;Masao|
+Unaremi|barony|human|1|4;8|Commons;Merchants|Acrem;Ansaraica;Lartausia;Masao|
+Nuavatu|county|human|0|6;7|Commons;Merchants|Acrem;Ansaraica;Lartausia|
+Liva|barony|human|1|3;5|Commons;Merchants|Acrem;Ansaraica;Lartausia;Nuavatu|is the capital city of Nuavatu
+Thanbu|barony|human|1|3;8|Commons;Merchants|Acrem;Ansaraica;Lartausia;Nuavatu|
+Wanita|barony|human|1|4;10|Commons;Merchants|Acrem;Ansaraica;Lartausia;Nuavatu|
+Neapaunew|duchy|human|1|8;16||Acrem;Ansaraica|
+Port Boremsy|barony|human|1|3;2|Commons;Merchants|Acrem;Ansaraica;Neapaunew|is the capital city of Neapaunew
+Lapau|county|human|1|5;12||Acrem;Ansaraica;Neapaunew|
+Kroro|barony|human|1|1;12||Acrem;Ansaraica;Neapaunew;Lapau|is the capital city of Lapau
+Sirela|barony|human|1|3;6||Acrem;Ansaraica;Neapaunew;Lapau|
+Twaiku|barony|human|0|1;7|Commons|Acrem;Ansaraica;Neapaunew;Lapau|
+Shallmar|county|human|0|2;12|Commons|Acrem;Ansaraica;Neapaunew|
+Jumaro|barony|human|1|4;6||Acrem;Ansaraica;Neapaunew;Shallmar|is the capital city of Shallmar
+Atarq|barony|human|0|2;5|Commons|Acrem;Ansaraica;Neapaunew;Shallmar|
+Nonblean|barony|human|1|4;8||Acrem;Ansaraica;Neapaunew;Shallmar|
+Eramaci|grand duchy|human|1|1;8||Acrem|
+Dabasbro|barony|human|1|2;7|Commons;Merchants;Nobles;Martial|Acrem;Eramaci|is the capital city of Eramaci
+Amstaotun|duchy|human|0|3;4|Commons|Acrem;Eramaci|
+Wostinga|barony|human|0|2;5|Commons;Merchants;Nobles|Acrem;Eramaci;Amstaotun|is the capital city of Amstaotun
+Guyarapi|county|human|1|2;10|Commons;Merchants;Nobles|Acrem;Eramaci;Amstaotun|
+Ciosunano|barony|human|1|3;8|Commons;Merchants;Nobles|Acrem;Eramaci;Amstaotun;Guyarapi|is the capital city of Guyarapi
+Domnecamia|barony|human|1|2;4|Commons;Merchants;Nobles|Acrem;Eramaci;Amstaotun;Guyarapi|
+Lechi|county|human|0|3;4|Commons|Acrem;Eramaci;Amstaotun|
+Gosantia|barony|human|0|1;7|Commons|Acrem;Eramaci;Amstaotun;Lechi|is the capital city of Lechi
+Vensolia|barony|human|1|1;8||Acrem;Eramaci;Amstaotun;Lechi|
+Zenevuela|county|human|1|1;5|Commons;Merchants|Acrem;Eramaci;Amstaotun|
+Cascera|barony|human|1|1;6|Commons;Merchants|Acrem;Eramaci;Amstaotun;Zenevuela|is the capital city of Zenevuela
+Muluxburg|barony|human|1|1;7|Commons;Merchants|Acrem;Eramaci;Amstaotun;Zenevuela|
+Sprucy|barony|human|1|3;5|Commons;Merchants|Acrem;Eramaci;Amstaotun;Zenevuela|
+Danaca|duchy|human|1|4;13||Acrem;Eramaci|
+Awatot|barony|human|1|3;3|Commons;Merchants;Nobles;Martial|Acrem;Eramaci;Danaca|is the capital city of Danaca
+Doracue|county|human|0|1;10|Commons;Merchants|Acrem;Eramaci;Danaca|
+Toqui|barony|human|0|3;6|Commons;Merchants|Acrem;Eramaci;Danaca;Doracue|is the capital city of Doracue
+Doranra|barony|human|0|3;3|Commons;Merchants|Acrem;Eramaci;Danaca;Doracue|
+Guaracina|county|human|1|3;9|Commons;Merchants|Acrem;Eramaci;Danaca|
+Guanama|barony|human|1|1;3|Commons;Merchants;Nobles|Acrem;Eramaci;Danaca;Guaracina|is the capital city of Guaracina
+Tamal|barony|human|1|3;3|Commons;Merchants|Acrem;Eramaci;Danaca;Guaracina|
+Tenlechistein|barony|human|0|3;4|Commons;Merchants|Acrem;Eramaci;Danaca;Guaracina|
+Naygua|county|human|1|5;3|Commons;Merchants|Acrem;Eramaci;Danaca|
+Gregoretown|barony|human|1|1;8|Commons;Merchants;Nobles|Acrem;Eramaci;Danaca;Naygua|is the capital city of Naygua
+Marissano|barony|human|0|3;2|Commons;Merchants|Acrem;Eramaci;Danaca;Naygua|
+Omanoc|barony|human|0|2;6|Commons;Merchants|Acrem;Eramaci;Danaca;Naygua|
+Nosharud|county|human|0|1;13|Commons;Merchants|Acrem;Eramaci;Danaca|
+Gapalgutegci|barony|human|0|1;10|Commons;Merchants|Acrem;Eramaci;Danaca;Nosharud|is the capital city of Nosharud
+Nuberi|barony|human|1|3;8|Commons;Merchants|Acrem;Eramaci;Danaca;Nosharud|
+Saldurusma|barony|human|0|2;6|Commons;Merchants|Acrem;Eramaci;Danaca;Nosharud|
+Rusmiena|county|human|0|1;10|Commons|Acrem;Eramaci;Danaca|
+Bomaripa|barony|human|0|4;2|Commons|Acrem;Eramaci;Danaca;Rusmiena|is the capital city of Rusmiena
+Catinav|barony|human|0|3;10|Commons|Acrem;Eramaci;Danaca;Rusmiena|
+Genartina|duchy|human|1|4;13|Commons;Merchants|Acrem;Eramaci|
+Sonebu Aeris|barony|human|1|2;10|Commons;Merchants;Nobles;Martial|Acrem;Eramaci;Genartina|is the capital city of Genartina
+Amanap|county|human|0|3;6|Commons;Merchants|Acrem;Eramaci;Genartina|
+Amanap City|barony|human|1|3;5|Commons;Merchants|Acrem;Eramaci;Genartina;Amanap|is the capital city of Amanap
+Ginasporas|barony|human|1|1;10|Commons;Merchants|Acrem;Eramaci;Genartina;Amanap|
+Tirimusa|barony|human|1|1;6|Commons;Merchants|Acrem;Eramaci;Genartina;Amanap|
+Buca|county|human|1|3;11|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina|
+Anavha|barony|human|1|1;7|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina;Buca|is the capital city of Buca
+Hanibar|barony|human|1|2;4|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina;Buca|
+Teamagula|county|human|0|3;8|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina|
+Teamagula City|barony|human|1|3;7|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina;Teamagula|is the capital city of Teamagula
+Chelseyles|barony|human|0|3;6|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina;Teamagula|
+Mal's Dive|barony|human|1|4;9|Commons;Merchants;Nobles|Acrem;Eramaci;Genartina;Teamagula|
+Libzar|duchy|human|1|5;13||Acrem;Eramaci|
+Libsaria|barony|human|1|1;8|Commons;Merchants|Acrem;Eramaci;Libzar|is the capital city of Libzar
+Caminidom|county|human|1|4;13||Acrem;Eramaci;Libzar|
+Dimogosonta|barony|human|1|1;10|Commons;Merchants|Acrem;Eramaci;Libzar;Caminidom|is the capital city of Caminidom
+Soletho|barony|human|0|1;4|Commons|Acrem;Eramaci;Libzar;Caminidom|
+Ristao|county|human|1|1;7|Commons;Merchants|Acrem;Eramaci;Libzar|
+Josasne|barony|human|1|2;8|Commons;Merchants|Acrem;Eramaci;Libzar;Ristao|is the capital city of Ristao
+Dorquarilea|barony|human|1|2;7|Commons;Merchants|Acrem;Eramaci;Libzar;Ristao|
+Uingea|barony|human|0|3;2|Commons;Merchants|Acrem;Eramaci;Libzar;Ristao|
+Livbolia|duchy|human|1|2;10||Acrem;Eramaci|
+Cresu|barony|human|1|4;8|Commons;Merchants;Nobles;Martial|Acrem;Eramaci;Livbolia|is the capital city of Livbolia
+Dorvalsa|county|human|1|3;5||Acrem;Eramaci;Livbolia|
+Dorvalsa City|barony|human|1|4;5|Commons;Merchants|Acrem;Eramaci;Livbolia;Dorvalsa|is the capital city of Dorvalsa
+Rubundi|barony|human|0|2;10|Commons|Acrem;Eramaci;Livbolia;Dorvalsa|
+Wandra|barony|human|1|1;9||Acrem;Eramaci;Livbolia;Dorvalsa|
+Ezelbi|county|human|1|6;10||Acrem;Eramaci;Livbolia|
+Panmobel|barony|human|1|4;8|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia;Ezelbi|is the capital city of Ezelbi
+Tobujodi|barony|human|0|2;7|Commons|Acrem;Eramaci;Livbolia;Ezelbi|
+Ithia|county|human|0|4;13|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia|
+Princes' Port|barony|human|1|1;7|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia;Ithia|is the capital city of Ithia
+Bamiga|barony|human|1|2;10|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia;Ithia|
+Ziwa's Land|barony|human|1|3;7|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia;Ithia|
+Shamba|county|human|0|2;10|Commons|Acrem;Eramaci;Livbolia|
+Sanusa|barony|human|1|3;11|Commons;Merchants;Nobles|Acrem;Eramaci;Livbolia;Shamba|is the capital city of Shamba
+Redev Cape|barony|human|0|4;7|Commons|Acrem;Eramaci;Livbolia;Shamba|
+Rocomos|barony|human|0|4;4|Commons;Merchants|Acrem;Eramaci;Livbolia;Shamba|
+Lumcobia|duchy|human|1|7;11||Acrem;Eramaci|
+Ogotba|barony|human|1|4;11|Commons;Merchants;Nobles;Martial|Acrem;Eramaci;Lumcobia|is the capital city of Lumcobia
+Cajam|county|human|0|2;6|Commons|Acrem;Eramaci;Lumcobia|
+South Kings' Town|barony|human|1|1;9|Commons;Merchants|Acrem;Eramaci;Lumcobia;Cajam|is the capital city of Cajam
+Steomeo|barony|human|0|4;5|Commons|Acrem;Eramaci;Lumcobia;Cajam|
+Peciprin|barony|human|0|2;7|Commons|Acrem;Eramaci;Lumcobia;Cajam|
+Culia|county|human|0|6;3|Commons|Acrem;Eramaci;Lumcobia|
+Striaces|barony|human|0|3;8|Commons|Acrem;Eramaci;Lumcobia;Culia|is the capital city of Culia
+Prueto|barony|human|0|4;12|Commons|Acrem;Eramaci;Lumcobia;Culia|
+Datidrin|county|human|1|4;8|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia|
+Naspi Port|barony|human|1|4;7|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Datidrin|is the capital city of Datidrin
+Gaboto|barony|human|1|2;6|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Datidrin|
+Agum|barony|human|0|4;7|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Datidrin|
+Guanti|county|human|1|4;11|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia|
+Snohj|barony|human|1|1;3|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Guanti|is the capital city of Guanti
+Brubada|barony|human|1|3;10|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Guanti|
+Anmaria|barony|human|0|1;5|Commons;Merchants;Nobles|Acrem;Eramaci;Lumcobia;Guanti|
+Mindoca|county|human|0|5;11|Commons;Merchants|Acrem;Eramaci;Lumcobia|
+Seorau|barony|human|0|3;10|Commons;Merchants|Acrem;Eramaci;Lumcobia;Mindoca|is the capital city of Mindoca
+Givrin|barony|human|0|3;5|Commons;Merchants|Acrem;Eramaci;Lumcobia;Mindoca|
+Uper|duchy|human|0|4;11|Commons;Merchants|Acrem;Eramaci|
+Alim|barony|human|0|3;7|Commons;Merchants|Acrem;Eramaci;Uper|is the capital city of Uper
+Cenvi|county|human|0|4;9|Commons;Merchants|Acrem;Eramaci;Uper|
+North Kings' Town|barony|human|0|3;6|Commons;Merchants|Acrem;Eramaci;Uper;Cenvi|is the capital city of Cenvi
+Digrennas|barony|human|0|2;11|Commons;Merchants|Acrem;Eramaci;Uper;Cenvi|
+Dregna|county|human|1|3;11|Commons;Merchants|Acrem;Eramaci;Uper|
+Gegreo|barony|human|1|3;6|Commons;Merchants|Acrem;Eramaci;Uper;Dregna|is the capital city of Dregna
+Asmao|barony|human|1|2;6|Commons;Merchants|Acrem;Eramaci;Uper;Dregna|
+Ganlend|county|human|1|5;7|Commons;Merchants|Acrem;Eramaci;Uper|
+Ocsand|barony|human|1|4;9|Commons;Merchants|Acrem;Eramaci;Uper;Ganlend|
+Swael|barony|human|1|3;9|Commons;Merchants|Acrem;Eramaci;Uper;Ganlend|
+Sobarda|county|human|0|4;6|Commons;Merchants|Acrem;Eramaci;Uper|
+Bridgeton|barony|human|0|1;6|Commons;Merchants|Acrem;Eramaci;Uper;Sobarda|is the capital city of Sobarda
+Kanming|barony|human|1|4;8|Commons;Merchants|Acrem;Eramaci;Uper;Sobarda|
+Mypalra|barony|human|0|1;4|Commons;Merchants|Acrem;Eramaci;Uper;Sobarda|
+Ximeco|duchy|human|1|3;10|Commons;Merchants|Acrem;Eramaci|
+Ximeco City|barony|human|1|1;5|Commons;Merchants;Nobles;Martial|Acrem;Eramaci;Ximeco|is the capital city of Ximeco
+Dubermu|county|human|0|4;5|Commons;Merchants|Acrem;Eramaci;Ximeco|
+Mahil Town|barony|human|0|3;5|Commons;Merchants|Acrem;Eramaci;Ximeco;Dubermu|is the capital city of Dubermu
+Awke|barony|human|0|3;3|Commons;Merchants|Acrem;Eramaci;Ximeco;Dubermu|
+Skitt|county|human|0|2;6|Commons;Merchants|Acrem;Eramaci;Ximeco|
+Bastersree|barony|human|1|4;5|Commons;Merchants|Acrem;Eramaci;Ximeco;Skitt|is the capital city of Skitt
+Siven|barony|human|1|3;7|Commons;Merchants|Acrem;Eramaci;Ximeco;Skitt|
+Eupore|grand duchy|human|1|11;12||Acrem|
+Amocon|barony|human|1|1;6|Commons;Merchants;Nobles;Martial|Acrem;Eupore|is the capital city of Eupore
+Ainreku|duchy|human|0|2;7|Commons;Merchants|Acrem;Eupore|
+Kevi|barony|human|0|3;8|Commons;Merchants;Nobles;Martial|Acrem;Eupore;Ainreku|is the capital city of Ainreku
+Dwens|county|human|0|1;12|Commons;Merchants|Acrem;Eupore;Ainreku|
+Chtolmsto|barony|human|1|1;7|Commons;Merchants|Acrem;Eupore;Ainreku;Dwens|is the capital city of Dwens
+Landice|barony|human|0|4;6|Commons;Merchants|Acrem;Eupore;Ainreku;Dwens|
+Slayugovia|barony|human|0|3;2|Commons;Merchants|Acrem;Eupore;Ainreku;Dwens|
+Flinad|county|human|1|6;14|Commons;Merchants|Acrem;Eupore;Ainreku|
+Kelshini|barony|human|1|4;6|Commons;Merchants|Acrem;Eupore;Ainreku;Flinad|is the capital city of Flinad
+Ganhury|barony|human|0|2;10|Commons;Merchants|Acrem;Eupore;Ainreku;Flinad|
+Namgry|county|human|1|2;9|Commons;Merchants|Acrem;Eupore;Ainreku|
+Reblin|barony|human|1|3;6|Commons;Merchants|Acrem;Eupore;Ainreku;Namgry|is the capital city of Namgry
+Glouport|barony|human|1|2;5|Commons;Merchants|Acrem;Eupore;Ainreku;Namgry|
+Plonad|county|human|1|3;6|Commons;Merchants|Acrem;Eupore;Ainreku|
+Wawsar|barony|human|1|4;6|Commons;Merchants|Acrem;Eupore;Ainreku;Plonad|is the capital city of Plonad
+Najabreza|barony|human|0|4;7|Commons;Merchants|Acrem;Eupore;Ainreku;Plonad|
+Sipan|county|human|1|3;10|Commons;Merchants|Acrem;Eupore;Ainreku|
+Maddri|barony|human|1|1;9|Commons;Merchants|Acrem;Eupore;Ainreku;Sipan|is the capital city of Sipan
+Stauria|barony|human|0|3;5|Commons;Merchants|Acrem;Eupore;Ainreku;Sipan|
+Repechiz|barony|human|1|3;8|Commons;Merchants|Acrem;Eupore;Ainreku;Sipan|
+Crafne|duchy|human|0|8;19|Commons|Acrem;Eupore|
+Sapri|barony|human|0|3;5||Acrem;Eupore;Crafne|is the capital city of Crafne
+Talyi|county|human|0|6;15|Commons|Acrem;Eupore;Crafne|
+Orem|barony|human|1|1;10||Acrem;Eupore;Crafne;Talyi|is the capital city of Talyi
+Landire|barony|human|1|2;6||Acrem;Eupore;Crafne;Talyi|
+Girogea|barony|human|1|2;11||Acrem;Eupore;Crafne;Talyi|
+Yanrow|county|human|1|6;12||Acrem;Eupore;Crafne|
+Sloo|barony|human|1|3;4||Acrem;Eupore;Crafne;Yanrow|is the capital city of Yanrow
+Thuanlia|barony|human|0|1;4|Commons|Acrem;Eupore;Crafne;Yanrow|
+Stanzakka|duchy|human|1|3;10|Commons;Merchants|Acrem;Eupore|
+Atamala|barony|human|1|4;9|Commons;Merchants;Nobles;Martial|Acrem;Eupore;Stanzakka|is the capital city of Stanzakka
+Stanbezuki|county|human|1|3;8|Commons;Merchants|Acrem;Eupore;Stanzakka|
+Ketnasht|barony|human|1|2;4|Commons;Merchants;Nobles|Acrem;Eupore;Stanzakka;Stanbezuki|is the capital city of Stanbezuki
+Viatal|barony|human|1|2;4|Commons;Merchants|Acrem;Eupore;Stanzakka;Stanbezuki|
+Coratia|barony|human|1|4;6|Commons;Merchants|Acrem;Eupore;Stanzakka;Stanbezuki|
+Stankjitaki|county|human|1|4;8|Commons;Merchants|Acrem;Eupore;Stanzakka|
+Beandush|barony|human|1|4;6|Commons;Merchants;Nobles|Acrem;Eupore;Stanzakka;Stankjitaki|is the capital city of Stankjitaki
+Herbozenia|barony|human|0|4;2|Commons;Merchants|Acrem;Eupore;Stanzakka;Stankjitaki|
+Stankrygy|county|human|1|4;7|Commons;Merchants|Acrem;Eupore;Stanzakka|
+Keshbik|barony|human|1|2;4|Commons;Merchants;Nobles|Acrem;Eupore;Stanzakka;Stankrygy|is the capital city of Stankrygy
+Kavoslia|barony|human|1|4;6|Commons;Merchants|Acrem;Eupore;Stanzakka;Stankrygy|
+Notesia|barony|human|1|3;3|Commons;Merchants|Acrem;Eupore;Stanzakka;Stankrygy|
+Stanmurkti|county|human|1|3;10|Commons;Merchants|Acrem;Eupore;Stanzakka|
+Dabakash|barony|human|1|1;9|Commons;Merchants;Nobles|Acrem;Eupore;Stanzakka;Stanmurkti|is the capital city of Stanmurkti
+Serwit's Land|barony|human|0|3;9|Commons;Merchants|Acrem;Eupore;Stanzakka;Stanmurkti|
+Rethen's Land|barony|human|0|4;5|Commons;Merchants|Acrem;Eupore;Stanzakka;Stanmurkti|
+Sursia|duchy|human|0|8;11|Commons|Acrem;Eupore|
+Scomow|barony|human|0|4;3|Commons;Merchants;Nobles|Acrem;Eupore;Sursia|is the capital city of Sursia
+Bleasur|county|human|0|4;6|Commons|Acrem;Eupore;Sursia|
+Smenk|barony|human|0|4;7|Commons|Acrem;Eupore;Sursia;Bleasur|is the capital city of Bleasur
+Karmden|barony|human|1|2;5||Acrem;Eupore;Sursia;Bleasur|
+Bluragia|county|human|1|2;8|Commons;Merchants|Acrem;Eupore;Sursia|
+Fosia|barony|human|1|4;7|Commons;Merchants|Acrem;Eupore;Sursia;Bluragia|is the capital city of Bluragia
+Voldoma|barony|human|1|2;6|Commons;Merchants|Acrem;Eupore;Sursia;Bluragia|
+Cerege|county|human|0|3;10|Commons|Acrem;Eupore;Sursia|
+Saneth|barony|human|0|3;5|Commons|Acrem;Eupore;Sursia;Cerege|is the capital city of Cerege
+Muglebi|barony|human|0|3;9|Commons|Acrem;Eupore;Sursia;Cerege|
+Endtu|county|human|0|1;14|Commons|Acrem;Eupore;Sursia|
+Donnol|barony|human|1|2;11|Commons;Merchants|Acrem;Eupore;Sursia;Endtu|is the capital city of Endtu
+Inemara|barony|human|1|4;9||Acrem;Eupore;Sursia;Endtu|
+Nairoma|county|human|1|6;12|Commons;Merchants|Acrem;Eupore;Sursia|
+Charbruest|barony|human|1|1;5|Commons;Merchants|Acrem;Eupore;Sursia;Nairoma|is the capital city of Nairoma
+Inabala|barony|human|1|3;5|Commons;Merchants|Acrem;Eupore;Sursia;Nairoma|
+Iasa|grand duchy|human|0|5;8|Commons|Acrem|
+Soareping|barony|human|1|3;10|Commons;Merchants;Nobles;Martial|Acrem;Iasa|is the capital city of Iasa
+Dinia|duchy|human|1|4;10||Acrem;Iasa|
+Heldawin|barony|human|1|2;9|Commons;Merchants;Nobles|Acrem;Iasa;Dinia|is the capital city of Dinia
+Iondesia|county|human|0|3;14|Commons|Acrem;Iasa;Dinia|
+Kartaja|barony|human|1|1;10||Acrem;Iasa;Dinia;Iondesia|is the capital city of Iondesia
+Emeny|barony|human|0|4;5|Commons|Acrem;Iasa;Dinia;Iondesia|
+Nair|county|human|1|4;10||Acrem;Iasa;Dinia|
+Thrane|barony|human|1|2;11|Commons;Merchants|Acrem;Iasa;Dinia;Nair|is the capital city of Nair
+Qair|barony|human|1|2;5||Acrem;Iasa;Dinia;Nair|
+Golmania|county|human|0|2;8|Commons|Acrem;Iasa;Dinia|
+Botaralun|barony|human|0|4;6|Commons|Acrem;Iasa;Dinia;Golmania|is the capital city of Golmania
+Tihlanda|barony|human|1|3;8||Acrem;Iasa;Dinia;Golmania|
+Nicha|duchy|human|1|8;10||Acrem;Iasa|
+Pengke|barony|human|1|1;7|Commons;Merchants;Nobles|Acrem;Iasa;Nicha|is the capital city of Nicha
+Ekurty|county|human|0|5;13|Commons|Acrem;Iasa;Nicha|
+Naraka|barony|human|1|4;3||Acrem;Iasa;Nicha;Ekurty|is the capital city of Ekurty
+Napja|barony|human|1|4;4||Acrem;Iasa;Nicha;Ekurty|
+Simalaya|barony|human|1|4;9||Acrem;Iasa;Nicha;Ekurty|
+Naymarm|county|human|0|1;5|Commons|Acrem;Iasa;Nicha|
+Nongay|barony|human|0|1;3|Commons|Acrem;Iasa;Nicha;Naymarm|is the capital city of Naymarm
+Namveti|barony|human|0|4;6|Commons|Acrem;Iasa;Nicha;Naymarm|
+Piliph Pines|barony|human|0|4;10|Commons|Acrem;Iasa;Nicha;Naymarm|
+Saurabi|duchy|human|1|6;15|Commons;Merchants|Acrem;Iasa|
+Haydri|barony|human|1|4;9|Commons;Merchants;Nobles|Acrem;Iasa;Saurabi|is the capital city of Saurabi
+Stanhanigfa|county|human|1|1;10|Commons;Merchants|Acrem;Iasa;Saurabi|
+Blauk|barony|human|1|3;11|Commons;Merchants;Nobles|Acrem;Iasa;Saurabi;Stanhanigfa|is the capital city of Stanhanigfa
+Slao|barony|human|1|3;7|Commons;Merchants|Acrem;Iasa;Saurabi;Stanhanigfa|
+Stankipa|county|human|1|6;5|Commons;Merchants|Acrem;Iasa;Saurabi|
+Isla Dabma|barony|human|1|2;7|Commons;Merchants;Nobles|Acrem;Iasa;Saurabi;Stankipa|is the capital city of Stankipa
+Noam|barony|human|1|1;5|Commons;Merchants|Acrem;Iasa;Saurabi;Stankipa|
+Imperial Court of Acrem|imperial court|human|1|0;18|||
+Yreth|kingdom|human|0|10;16|||
+Joquekeju|grand duchy|human|0|10;13||Yreth|
+Eikevova|duchy|human|0|7;6||Yreth;Joquekeju|
+Bakuqueja|county|human|0|1;10||Yreth;Joquekeju;Eikevova|
+Tawebezo|barony|human|0|1;12||Yreth;Joquekeju;Eikevova;Bakuqueja|
+Ziyixixu|barony|human|0|2;7||Yreth;Joquekeju;Eikevova;Bakuqueja|
+Jimokata|county|human|0|4;9||Yreth;Joquekeju;Eikevova|
+Nuziquitu|barony|human|0|2;5||Yreth;Joquekeju;Eikevova;Jimokata|
+Tubedoso|barony|human|0|1;5||Yreth;Joquekeju;Eikevova;Jimokata|
+Rasuquaha|county|human|0|5;14||Yreth;Joquekeju;Eikevova|
+Wadekoquei|barony|human|0|3;6||Yreth;Joquekeju;Eikevova;Rasuquaha|
+Zadatizo|barony|human|0|2;3||Yreth;Joquekeju;Eikevova;Rasuquaha|
+Vewokusa|county|human|0|6;8||Yreth;Joquekeju;Eikevova|
+Sabayerei|barony|human|0|3;2||Yreth;Joquekeju;Eikevova;Vewokusa|
+Vuxuheju|barony|human|0|1;7||Yreth;Joquekeju;Eikevova;Vewokusa|
+Wutosija|county|human|0|3;9|Commons|Yreth;Joquekeju;Eikevova|
+Jujiziheo|barony|human|0|1;8|Commons|Yreth;Joquekeju;Eikevova;Wutosija|
+Notejilo|barony|human|1|1;8|Commons;Merchants;Nobles|Yreth;Joquekeju;Eikevova;Wutosija|
+Rivuvujei|barony|human|1|4;10|Commons;Merchants|Yreth;Joquekeju;Eikevova;Wutosija|
+Jadovei|duchy|human|0|1;3||Yreth;Joquekeju|
+Ruzojajei|county|human|0|5;4||Yreth;Joquekeju;Jadovei|
+Eaxaluwi|barony|human|0|2;8||Yreth;Joquekeju;Jadovei;Ruzojajei|
+Hubariko|barony|human|0|3;8||Yreth;Joquekeju;Jadovei;Ruzojajei|
+Kixekequo|barony|human|0|3;9||Yreth;Joquekeju;Jadovei;Ruzojajei|
+Yakozola|county|human|0|6;5||Yreth;Joquekeju;Jadovei|
+Jikasiqueo|barony|human|0|3;9||Yreth;Joquekeju;Jadovei;Yakozola|
+Keyepikeo|barony|human|1|3;8||Yreth;Joquekeju;Jadovei;Yakozola|
+Samuvizo|barony|human|0|1;5||Yreth;Joquekeju;Jadovei;Yakozola|
+Joketida|duchy|human|0|6;14||Yreth;Joquekeju|
+Owotozaqua|county|human|0|2;6||Yreth;Joquekeju;Joketida|
+Iymumijeo|barony|human|0|4;9||Yreth;Joquekeju;Joketida;Owotozaqua|
+Tevequaki|barony|human|0|3;7||Yreth;Joquekeju;Joketida;Owotozaqua|
+Wayoviquei|barony|human|0|1;9||Yreth;Joquekeju;Joketida;Owotozaqua|
+Wabozoxa|county|human|1|5;4||Yreth;Joquekeju;Joketida|
+Uivipiso|barony|human|0|4;9|Commons|Yreth;Joquekeju;Joketida;Wabozoxa|
+Zudenuyu|barony|human|0|1;5|Commons|Yreth;Joquekeju;Joketida;Wabozoxa|
+Wezupoha|county|human|0|3;3||Yreth;Joquekeju;Joketida|
+Jupejumi|barony|human|0|2;11||Yreth;Joquekeju;Joketida;Wezupoha|
+Padewujei|barony|human|0|1;6||Yreth;Joquekeju;Joketida;Wezupoha|
+Wiwovaja|county|human|1|4;10||Yreth;Joquekeju;Joketida|
+Bimovozo|barony|human|0|3;4|Commons|Yreth;Joquekeju;Joketida;Wiwovaja|
+Kokequilo|barony|human|0|3;4|Commons|Yreth;Joquekeju;Joketida;Wiwovaja|
+Oworavo|barony|human|0|4;11|Commons;Merchants|Yreth;Joquekeju;Joketida;Wiwovaja|
+Pumavoya|duchy|human|0|8;12||Yreth;Joquekeju|
+Eixosaba|county|human|1|2;14|Commons;Merchants|Yreth;Joquekeju;Pumavoya|
+Kawukibeo|barony|human|1|3;10|Commons;Merchants|Yreth;Joquekeju;Pumavoya;Eixosaba|
+Quonajova|barony|human|0|2;5|Commons;Merchants|Yreth;Joquekeju;Pumavoya;Eixosaba|
+Uinuviquo|barony|human|1|1;5|Commons;Merchants|Yreth;Joquekeju;Pumavoya;Eixosaba|
+Kovowuva|county|human|0|1;6||Yreth;Joquekeju;Pumavoya|
+Tunexusa|barony|human|0|3;4||Yreth;Joquekeju;Pumavoya;Kovowuva|
+Xukutelo|barony|human|0|3;8||Yreth;Joquekeju;Pumavoya;Kovowuva|
+Rasuviqueo|county|human|0|3;4||Yreth;Joquekeju;Pumavoya|
+Bozinixo|barony|human|0|3;11||Yreth;Joquekeju;Pumavoya;Rasuviqueo|
+Tanayuvo|barony|human|0|1;8||Yreth;Joquekeju;Pumavoya;Rasuviqueo|
+Uajokiba|county|human|0|1;14||Yreth;Joquekeju;Pumavoya|
+Jovorihi|barony|human|0|1;5||Yreth;Joquekeju;Pumavoya;Uajokiba|
+Xayotido|barony|human|1|2;10|Commons;Merchants|Yreth;Joquekeju;Pumavoya;Uajokiba|
+Yijura|county|human|1|6;7||Yreth;Joquekeju;Pumavoya|
+Bohoviquo|barony|human|0|2;7|Commons|Yreth;Joquekeju;Pumavoya;Yijura|
+Hixoxepu|barony|human|0|3;5|Commons;Merchants|Yreth;Joquekeju;Pumavoya;Yijura|
+Vohevuki|barony|human|0|3;7|Commons|Yreth;Joquekeju;Pumavoya;Yijura|
+Uejamova|duchy|human|0|2;14||Yreth;Joquekeju|
+Iajosipa|county|human|0|4;16||Yreth;Joquekeju;Uejamova|
+Aiwujateo|barony|human|0|2;7||Yreth;Joquekeju;Uejamova;Iajosipa|
+Kamaxezu|barony|human|0|1;8||Yreth;Joquekeju;Uejamova;Iajosipa|
+Sinakiqua|barony|human|0|4;8||Yreth;Joquekeju;Uejamova;Iajosipa|
+Kahoyahei|county|human|0|4;4||Yreth;Joquekeju;Uejamova|
+Mazozalo|barony|human|0|1;6||Yreth;Joquekeju;Uejamova;Kahoyahei|
+Vovawewo|barony|human|0|3;8||Yreth;Joquekeju;Uejamova;Kahoyahei|
+Quejoziquea|county|human|1|6;5||Yreth;Joquekeju;Uejamova|
+Datozedu|barony|human|0|4;10|Commons|Yreth;Joquekeju;Uejamova;Quejoziquea|
+Miyolixo|barony|human|0|3;6|Commons|Yreth;Joquekeju;Uejamova;Quejoziquea|
+Vekujiru|barony|human|0|2;4|Commons|Yreth;Joquekeju;Uejamova;Quejoziquea|
+Quijojika|county|human|0|6;9||Yreth;Joquekeju;Uejamova|
+Nawizeba|barony|human|0|4;12||Yreth;Joquekeju;Uejamova;Quijojika|
+Sukaturu|barony|human|0|1;7||Yreth;Joquekeju;Uejamova;Quijojika|
+Xanuteveo|county|human|1|3;8||Yreth;Joquekeju;Uejamova|
+Dipajiwo|barony|human|0|3;7|Commons|Yreth;Joquekeju;Uejamova;Xanuteveo|
+Jinuri|barony|human|0|4;10|Commons|Yreth;Joquekeju;Uejamova;Xanuteveo|
+Jodevajo|barony|human|1|2;4|Commons;Merchants;Nobles;Martial|Yreth;Joquekeju;Uejamova;Xanuteveo|
+Yedakiza|duchy|human|0|6;13||Yreth;Joquekeju|
+Bifuraqua|county|human|0|2;8||Yreth;Joquekeju;Yedakiza|
+Kuxakawa|barony|human|1|4;9||Yreth;Joquekeju;Yedakiza;Bifuraqua|
+Vimonaho|barony|human|0|2;9||Yreth;Joquekeju;Yedakiza;Bifuraqua|
+Iuhonuxea|county|human|0|5;11||Yreth;Joquekeju;Yedakiza|
+Mojikikeu|barony|human|0|4;11||Yreth;Joquekeju;Yedakiza;Iuhonuxea|
+Oidixojea|barony|human|1|3;7||Yreth;Joquekeju;Yedakiza;Iuhonuxea|
+Komutuka|county|human|1|6;13|Commons;Merchants|Yreth;Joquekeju;Yedakiza|
+Monizehi|barony|human|0|3;10|Commons;Merchants|Yreth;Joquekeju;Yedakiza;Komutuka|
+Vobiwuka|barony|human|1|3;8|Commons;Merchants;Nobles|Yreth;Joquekeju;Yedakiza;Komutuka|
+Wowamoxi|barony|human|1|3;9|Commons;Merchants;Nobles|Yreth;Joquekeju;Yedakiza;Komutuka|
+Wuquopiza|county|human|0|6;3||Yreth;Joquekeju;Yedakiza|
+Autisana|barony|human|1|4;9||Yreth;Joquekeju;Yedakiza;Wuquopiza|
+Hosilixi|barony|human|0|3;12||Yreth;Joquekeju;Yedakiza;Wuquopiza|
+Mekihi|barony|human|0|3;5||Yreth;Joquekeju;Yedakiza;Wuquopiza|
+Yowuxosei|county|human|1|3;4|Commons;Merchants|Yreth;Joquekeju;Yedakiza|
+Belewina|barony|human|1|1;3|Commons;Merchants;Nobles|Yreth;Joquekeju;Yedakiza;Yowuxosei|
+Pudoxeha|barony|human|0|1;8|Commons;Merchants|Yreth;Joquekeju;Yedakiza;Yowuxosei|
+Yojakusei|duchy|human|0|3;15||Yreth;Joquekeju|
+Aurujiveo|county|human|0|4;10||Yreth;Joquekeju;Yojakusei|
+Jutoquoqua|barony|human|0|1;5||Yreth;Joquekeju;Yojakusei;Aurujiveo|
+Sakovora|barony|human|0|1;7||Yreth;Joquekeju;Yojakusei;Aurujiveo|
+Uajokilu|barony|human|0|1;2||Yreth;Joquekeju;Yojakusei;Aurujiveo|
+Mudozowei|county|human|1|4;10||Yreth;Joquekeju;Yojakusei|
+Koparavo|barony|human|0|3;8|Commons|Yreth;Joquekeju;Yojakusei;Mudozowei|
+Kumuruvo|barony|human|0|4;10|Commons;Merchants|Yreth;Joquekeju;Yojakusei;Mudozowei|
+Nayoxeko|barony|human|0|3;7|Commons;Merchants|Yreth;Joquekeju;Yojakusei;Mudozowei|
+Liduvixu|grand duchy|human|0|9;10||Yreth|
+Kabajeka|duchy|human|1|3;15||Yreth;Liduvixu|
+Iamoxuqua|county|human|0|5;4||Yreth;Liduvixu;Kabajeka|
+Iuhubozi|barony|human|0|2;5||Yreth;Liduvixu;Kabajeka;Iamoxuqua|
+Owoyibipeu|barony|human|0|4;5||Yreth;Liduvixu;Kabajeka;Iamoxuqua|
+Wedupaji|barony|human|1|2;12||Yreth;Liduvixu;Kabajeka;Iamoxuqua|
+Xunuviqueo|county|human|0|1;8||Yreth;Liduvixu;Kabajeka|
+Doquabazei|barony|human|0|3;5||Yreth;Liduvixu;Kabajeka;Xunuviqueo|
+Pijineka|barony|human|0|4;5||Yreth;Liduvixu;Kabajeka;Xunuviqueo|
+Yurupesa|county|human|0|3;5||Yreth;Liduvixu;Kabajeka|
+Iotijuxa|barony|human|0|2;5||Yreth;Liduvixu;Kabajeka;Yurupesa|
+Tumososu|barony|human|0|4;6||Yreth;Liduvixu;Kabajeka;Yurupesa|
+Matateza|duchy|human|1|4;13||Yreth;Liduvixu|
+Earukumei|county|human|1|3;9|Commons;Merchants|Yreth;Liduvixu;Matateza|
+Joreheja|barony|human|1|2;8|Commons;Merchants;Nobles|Yreth;Liduvixu;Matateza;Earukumei|
+Kasequixi|barony|human|1|3;2|Commons;Merchants|Yreth;Liduvixu;Matateza;Earukumei|
+Quosanapo|barony|human|0|4;7|Commons;Merchants|Yreth;Liduvixu;Matateza;Earukumei|
+Eaxodoja|county|human|0|5;11||Yreth;Liduvixu;Matateza|
+Kejunuquei|barony|human|0|4;9||Yreth;Liduvixu;Matateza;Eaxodoja|
+Vosekevo|barony|human|0|1;5||Yreth;Liduvixu;Matateza;Eaxodoja|
+Xomixemi|barony|human|0|4;9||Yreth;Liduvixu;Matateza;Eaxodoja|
+Zeluvuyeo|county|human|0|3;2||Yreth;Liduvixu;Matateza|
+Ievijiku|barony|human|1|1;8||Yreth;Liduvixu;Matateza;Zeluvuyeo|
+Yojozurei|barony|human|0|1;8||Yreth;Liduvixu;Matateza;Zeluvuyeo|
+Yekekaxeo|duchy|human|0|7;7|Commons|Yreth;Liduvixu|
+Iequoxovea|county|human|1|5;14||Yreth;Liduvixu;Yekekaxeo|
+Homaliku|barony|human|0|1;10|Commons|Yreth;Liduvixu;Yekekaxeo;Iequoxovea|
+Nupujili|barony|human|0|1;2|Commons|Yreth;Liduvixu;Yekekaxeo;Iequoxovea|
+Jamoleha|county|human|1|5;16||Yreth;Liduvixu;Yekekaxeo|
+Iemadisa|barony|human|0|4;11|Commons|Yreth;Liduvixu;Yekekaxeo;Jamoleha|
+Wohiziseu|barony|human|1|4;10|Commons;Merchants|Yreth;Liduvixu;Yekekaxeo;Jamoleha|
+Oipuboqua|county|human|1|4;10||Yreth;Liduvixu;Yekekaxeo|
+Tuvibuyeo|barony|human|0|1;9|Commons|Yreth;Liduvixu;Yekekaxeo;Oipuboqua|
+Xoxezovei|barony|human|0|3;8|Commons|Yreth;Liduvixu;Yekekaxeo;Oipuboqua|
+Ximudemeo|county|human|1|6;7||Yreth;Liduvixu;Yekekaxeo|
+Jequejaju|barony|human|0|3;5|Commons|Yreth;Liduvixu;Yekekaxeo;Ximudemeo|
+Sunajira|barony|human|1|2;7|Commons;Merchants;Nobles|Yreth;Liduvixu;Yekekaxeo;Ximudemeo|
+Xajepuju|barony|human|0|4;5|Commons|Yreth;Liduvixu;Yekekaxeo;Ximudemeo|
+Xoquoyuja|county|human|1|1;11||Yreth;Liduvixu;Yekekaxeo|
+Ewquazadi|barony|human|0|4;4|Commons|Yreth;Liduvixu;Yekekaxeo;Xoquoyuja|
+Namijavi|barony|human|0|3;6|Commons|Yreth;Liduvixu;Yekekaxeo;Xoquoyuja|
+Zokehexei|duchy|human|0|1;14||Yreth;Liduvixu|
+Kivujeo|county|human|0|3;8||Yreth;Liduvixu;Zokehexei|
+Mojilevi|barony|human|0|4;9||Yreth;Liduvixu;Zokehexei;Kivujeo|
+Xoquoraxa|barony|human|0|3;7||Yreth;Liduvixu;Zokehexei;Kivujeo|
+Povoquiba|county|human|1|5;5||Yreth;Liduvixu;Zokehexei|
+Aorojawei|barony|human|0|4;9|Commons|Yreth;Liduvixu;Zokehexei;Povoquiba|
+Tidijota|barony|human|0|2;6|Commons|Yreth;Liduvixu;Zokehexei;Povoquiba|
+Uovehila|barony|human|0|4;7|Commons|Yreth;Liduvixu;Zokehexei;Povoquiba|
+Vumutesa|county|human|0|3;13||Yreth;Liduvixu;Zokehexei|
+Maquebavu|barony|human|0|3;5||Yreth;Liduvixu;Zokehexei;Vumutesa|
+Xijuxebo|barony|human|0|4;10||Yreth;Liduvixu;Zokehexei;Vumutesa|
+Mirutomu|grand duchy|human|0|7;9||Yreth|
+Dawequizeo|duchy|human|0|1;7||Yreth;Mirutomu|
+Hoyokezei|county|human|0|1;6||Yreth;Mirutomu;Dawequizeo|
+Jituliva|barony|human|0|1;5||Yreth;Mirutomu;Dawequizeo;Hoyokezei|
+Mevejexo|barony|human|0|3;4||Yreth;Mirutomu;Dawequizeo;Hoyokezei|
+Iukotula|county|human|0|4;12||Yreth;Mirutomu;Dawequizeo|
+Aipuxuseo|barony|human|0|3;6||Yreth;Mirutomu;Dawequizeo;Iukotula|
+Eywukano|barony|human|0|4;6||Yreth;Mirutomu;Dawequizeo;Iukotula|
+Tezomesa|barony|human|0|3;3||Yreth;Mirutomu;Dawequizeo;Iukotula|
+Wekopova|county|human|0|5;10||Yreth;Mirutomu;Dawequizeo|
+Jamevoquei|barony|human|0|3;4||Yreth;Mirutomu;Dawequizeo;Wekopova|
+Kojoziji|barony|human|0|1;5||Yreth;Mirutomu;Dawequizeo;Wekopova|
+Hovejaquei|duchy|human|0|4;18||Yreth;Mirutomu|
+Quihukoka|county|human|0|5;10||Yreth;Mirutomu;Hovejaquei|
+Iosuyaka|barony|human|0|4;7||Yreth;Mirutomu;Hovejaquei;Quihukoka|
+Lejewiku|barony|human|1|3;2|Commons;Merchants|Yreth;Mirutomu;Hovejaquei;Quihukoka|
+Tevakequei|barony|human|0|3;9||Yreth;Mirutomu;Hovejaquei;Quihukoka|
+Uijomosea|county|human|0|2;10||Yreth;Mirutomu;Hovejaquei|
+Iyquewiku|barony|human|1|4;7||Yreth;Mirutomu;Hovejaquei;Uijomosea|
+Pevekamu|barony|human|0|2;9||Yreth;Mirutomu;Hovejaquei;Uijomosea|
+Zuxeki|barony|human|0|3;10||Yreth;Mirutomu;Hovejaquei;Uijomosea|
+Yapukaqueo|county|human|1|5;7||Yreth;Mirutomu;Hovejaquei|
+Kixavaseo|barony|human|0|1;8|Commons|Yreth;Mirutomu;Hovejaquei;Yapukaqueo|
+Tuyipotu|barony|human|1|3;6|Commons;Merchants|Yreth;Mirutomu;Hovejaquei;Yapukaqueo|
+Yavozipa|county|human|0|3;8||Yreth;Mirutomu;Hovejaquei|
+Eiyihara|barony|human|0|1;10||Yreth;Mirutomu;Hovejaquei;Yavozipa|
+Vutalijo|barony|human|0|3;8||Yreth;Mirutomu;Hovejaquei;Yavozipa|
+Wojamazei|barony|human|0|4;8||Yreth;Mirutomu;Hovejaquei;Yavozipa|
+Kexajina|duchy|human|0|5;19||Yreth;Mirutomu|
+Jubujula|county|human|0|5;2||Yreth;Mirutomu;Kexajina|
+Jirebuwi|barony|human|1|2;6||Yreth;Mirutomu;Kexajina;Jubujula|
+Kisomisa|barony|human|1|4;3||Yreth;Mirutomu;Kexajina;Jubujula|
+Pahokoqua|county|human|0|5;11||Yreth;Mirutomu;Kexajina|
+Jareyalu|barony|human|0|1;5||Yreth;Mirutomu;Kexajina;Pahokoqua|
+Yateyiso|barony|human|0|3;7||Yreth;Mirutomu;Kexajina;Pahokoqua|
+Yejewuzo|barony|human|0|4;6||Yreth;Mirutomu;Kexajina;Pahokoqua|
+Rimepeo|duchy|human|1|4;12||Yreth;Mirutomu|
+Iakobujei|county|human|0|5;3||Yreth;Mirutomu;Rimepeo|
+Dehoquetei|barony|human|0|4;7||Yreth;Mirutomu;Rimepeo;Iakobujei|
+Karamavei|barony|human|0|2;6||Yreth;Mirutomu;Rimepeo;Iakobujei|
+Vupevekei|barony|human|0|1;10||Yreth;Mirutomu;Rimepeo;Iakobujei|
+Namohiza|county|human|1|1;6||Yreth;Mirutomu;Rimepeo|
+Eyewahurei|barony|human|0|2;4|Commons;Merchants|Yreth;Mirutomu;Rimepeo;Namohiza|
+Muxekequo|barony|human|1|2;6|Commons;Merchants;Nobles;Martial|Yreth;Mirutomu;Rimepeo;Namohiza|
+Potilomu|barony|human|0|3;7|Commons|Yreth;Mirutomu;Rimepeo;Namohiza|
+Sayobeja|county|human|0|2;4||Yreth;Mirutomu;Rimepeo|
+Habisileo|barony|human|0|1;6||Yreth;Mirutomu;Rimepeo;Sayobeja|
+Owosuzayi|barony|human|0|4;6||Yreth;Mirutomu;Rimepeo;Sayobeja|
+Wabumela|county|human|0|3;7||Yreth;Mirutomu;Rimepeo|
+Jetibajo|barony|human|0|2;8||Yreth;Mirutomu;Rimepeo;Wabumela|
+Natejisu|barony|human|0|1;3||Yreth;Mirutomu;Rimepeo;Wabumela|
+Widobuya|county|human|0|5;12|Commons|Yreth;Mirutomu;Rimepeo|
+Jehiriji|barony|human|1|3;8|Commons;Merchants;Nobles|Yreth;Mirutomu;Rimepeo;Widobuya|
+Linuyohi|barony|human|0|4;9|Commons|Yreth;Mirutomu;Rimepeo;Widobuya|
+Xudajoju|barony|human|1|2;7|Commons;Merchants|Yreth;Mirutomu;Rimepeo;Widobuya|
+Risenubeo|duchy|human|1|3;4||Yreth;Mirutomu|
+Babopequei|county|human|0|4;9||Yreth;Mirutomu;Risenubeo|
+Hinikinu|barony|human|0|2;10||Yreth;Mirutomu;Risenubeo;Babopequei|
+Tiyejipa|barony|human|0|3;3||Yreth;Mirutomu;Risenubeo;Babopequei|
+Lopowohei|county|human|0|6;12||Yreth;Mirutomu;Risenubeo|
+Jojusequi|barony|human|0|4;9||Yreth;Mirutomu;Risenubeo;Lopowohei|
+Masemiveo|barony|human|1|1;8|Commons;Merchants|Yreth;Mirutomu;Risenubeo;Lopowohei|
+Vekojola|barony|human|0|2;3||Yreth;Mirutomu;Risenubeo;Lopowohei|
+Quonuvuzei|county|human|0|3;10||Yreth;Mirutomu;Risenubeo|
+Uasawuquei|barony|human|0|2;2||Yreth;Mirutomu;Risenubeo;Quonuvuzei|
+Yojaxikeu|barony|human|0|3;7||Yreth;Mirutomu;Risenubeo;Quonuvuzei|
+Ronoxayeu|county|human|0|5;7||Yreth;Mirutomu;Risenubeo|
+Sunumaki|barony|human|1|3;10|Commons;Merchants|Yreth;Mirutomu;Risenubeo;Ronoxayeu|
+Tuquakenei|barony|human|0|3;6||Yreth;Mirutomu;Risenubeo;Ronoxayeu|
+Vobuseza|county|human|0|6;11||Yreth;Mirutomu;Risenubeo|
+Mehusuxu|barony|human|0|3;9||Yreth;Mirutomu;Risenubeo;Vobuseza|
+Sunuvovu|barony|human|0|4;9||Yreth;Mirutomu;Risenubeo;Vobuseza|
+Rututiju|grand duchy|human|0|9;9||Yreth|
+Mayejuma|duchy|human|1|7;9||Yreth;Rututiju|
+Devojuta|county|human|0|2;8|Commons|Yreth;Rututiju;Mayejuma|
+Dekekolu|barony|human|1|3;4|Commons;Merchants;Nobles;Martial|Yreth;Rututiju;Mayejuma;Devojuta|
+Hamovi|barony|human|0|2;5||Yreth;Rututiju;Mayejuma;Devojuta|
+Eyexurehei|county|human|1|4;2||Yreth;Rututiju;Mayejuma|
+Homokomu|barony|human|0|1;5|Commons;Merchants|Yreth;Rututiju;Mayejuma;Eyexurehei|
+Kamoyoju|barony|human|0|3;8|Commons|Yreth;Rututiju;Mayejuma;Eyexurehei|
+Xutabaji|barony|human|0|2;7|Commons|Yreth;Rututiju;Mayejuma;Eyexurehei|
+Kejumusei|county|human|1|5;3||Yreth;Rututiju;Mayejuma|
+Minakeho|barony|human|1|1;9|Commons;Merchants|Yreth;Rututiju;Mayejuma;Kejumusei|
+Vuquikupo|barony|human|0|3;8|Commons|Yreth;Rututiju;Mayejuma;Kejumusei|
+Xetuhebei|barony|human|0|2;5|Commons|Yreth;Rututiju;Mayejuma;Kejumusei|
+Poruqua|county|human|0|2;6|Commons|Yreth;Rututiju;Mayejuma|
+Jabuzexi|barony|human|0|3;7|Commons|Yreth;Rututiju;Mayejuma;Poruqua|
+Jadiquevi|barony|human|0|2;6|Commons|Yreth;Rututiju;Mayejuma;Poruqua|
+Zaqueyora|barony|human|0|2;10|Commons|Yreth;Rututiju;Mayejuma;Poruqua|
+Wodovesa|county|human|1|5;9||Yreth;Rututiju;Mayejuma|
+Sataduki|barony|human|0|4;10|Commons|Yreth;Rututiju;Mayejuma;Wodovesa|
+Temuruba|barony|human|1|3;5|Commons;Merchants|Yreth;Rututiju;Mayejuma;Wodovesa|
+Vovijeha|barony|human|0|2;8|Commons|Yreth;Rututiju;Mayejuma;Wodovesa|
+Rurerazei|duchy|human|1|8;14||Yreth;Rututiju|
+Oikujawa|county|human|0|2;10|Commons|Yreth;Rututiju;Rurerazei|
+Todiveno|barony|human|0|2;7|Commons|Yreth;Rututiju;Rurerazei;Oikujawa|
+Vativeya|barony|human|0|1;11|Commons|Yreth;Rututiju;Rurerazei;Oikujawa|
+Uetujotei|county|human|0|5;10|Commons|Yreth;Rututiju;Rurerazei|
+Jixuwayeo|barony|human|1|1;7||Yreth;Rututiju;Rurerazei;Uetujotei|
+Komikeka|barony|human|0|4;4|Commons|Yreth;Rututiju;Rurerazei;Uetujotei|
+Quobozejo|barony|human|0|3;5|Commons|Yreth;Rututiju;Rurerazei;Uetujotei|
+Yejutarei|county|human|0|5;3|Commons|Yreth;Rututiju;Rurerazei|
+Tudequimeo|barony|human|1|4;9|Commons;Merchants;Nobles|Yreth;Rututiju;Rurerazei;Yejutarei|
+Vudizedu|barony|human|0|4;6|Commons|Yreth;Rututiju;Rurerazei;Yejutarei|
+Salepenei|duchy|human|0|4;6||Yreth;Rututiju|
+Auzuwona|county|human|0|2;14|Commons|Yreth;Rututiju;Salepenei|
+Aezoxama|barony|human|1|1;9|Commons;Merchants|Yreth;Rututiju;Salepenei;Auzuwona|
+Ewzijosi|barony|human|0|1;2|Commons|Yreth;Rututiju;Salepenei;Auzuwona|
+Vajoviti|barony|human|1|4;7|Commons;Merchants;Nobles|Yreth;Rututiju;Salepenei;Auzuwona|
+Euvukevei|county|human|0|5;11|Commons|Yreth;Rututiju;Salepenei|
+Aisewisu|barony|human|1|4;9|Commons;Merchants|Yreth;Rututiju;Salepenei;Euvukevei|
+Mexoquari|barony|human|1|2;9||Yreth;Rututiju;Salepenei;Euvukevei|
+Vasoyuta|barony|human|1|2;5||Yreth;Rututiju;Salepenei;Euvukevei|
+Nezosona|county|human|1|3;4||Yreth;Rututiju;Salepenei|
+Damubopi|barony|human|0|2;7|Commons|Yreth;Rututiju;Salepenei;Nezosona|
+Lazomuno|barony|human|1|1;7|Commons;Merchants;Nobles|Yreth;Rututiju;Salepenei;Nezosona|
+Lexadopa|barony|human|0|3;10|Commons|Yreth;Rututiju;Salepenei;Nezosona|
+Quonurota|county|human|0|2;10||Yreth;Rututiju;Salepenei|
+Aexerebi|barony|human|0|3;7||Yreth;Rututiju;Salepenei;Quonurota|
+Hipuriru|barony|human|0|1;9||Yreth;Rututiju;Salepenei;Quonurota|
+Sokesedei|duchy|human|0|4;8||Yreth;Rututiju|
+Iarobaza|county|human|0|1;10||Yreth;Rututiju;Sokesedei|
+Lisudeso|barony|human|0|1;10||Yreth;Rututiju;Sokesedei;Iarobaza|
+Rivoruyi|barony|human|0|4;5||Yreth;Rututiju;Sokesedei;Iarobaza|
+Sepobanu|barony|human|0|3;4||Yreth;Rututiju;Sokesedei;Iarobaza|
+Lulokoza|county|human|0|3;15||Yreth;Rututiju;Sokesedei|
+Padujevu|barony|human|0|3;8||Yreth;Rututiju;Sokesedei;Lulokoza|
+Pijapuyu|barony|human|0|3;12||Yreth;Rututiju;Sokesedei;Lulokoza|
+Vavekaja|barony|human|1|2;9|Commons;Merchants|Yreth;Rututiju;Sokesedei;Lulokoza|
+Xehokudei|county|human|0|1;7|Commons|Yreth;Rututiju;Sokesedei|
+Buyituka|barony|human|1|3;6||Yreth;Rututiju;Sokesedei;Xehokudei|
+Loyejujei|barony|human|0|1;9||Yreth;Rututiju;Sokesedei;Xehokudei|
+Oabobeli|barony|human|1|3;10||Yreth;Rututiju;Sokesedei;Xehokudei|
+Turequesei|duchy|human|1|2;11||Yreth;Rututiju|
+Malupija|county|human|1|6;6||Yreth;Rututiju;Turequesei|
+Dakivezu|barony|human|0|2;8|Commons;Merchants;Nobles|Yreth;Rututiju;Turequesei;Malupija|
+Queraquei|barony|human|0|2;2|Commons;Merchants|Yreth;Rututiju;Turequesei;Malupija|
+Yekopujei|barony|human|0|1;7|Commons|Yreth;Rututiju;Turequesei;Malupija|
+Vilojuda|county|human|1|1;13||Yreth;Rututiju;Turequesei|
+Likusaseo|barony|human|0|2;5|Commons|Yreth;Rututiju;Turequesei;Vilojuda|
+Nisixiqua|barony|human|0|2;8|Commons|Yreth;Rututiju;Turequesei;Vilojuda|
+Zororehei|barony|human|0|4;9|Commons|Yreth;Rututiju;Turequesei;Vilojuda|
+Xolutara|county|human|1|1;12||Yreth;Rututiju;Turequesei|
+Eumuxovu|barony|human|0|2;7|Commons|Yreth;Rututiju;Turequesei;Xolutara|
+Towedova|barony|human|0|3;7|Commons|Yreth;Rututiju;Turequesei;Xolutara|
+Wamakozei|barony|human|0|3;7|Commons|Yreth;Rututiju;Turequesei;Xolutara|
+Xowolusei|county|human|0|6;14|Commons|Yreth;Rututiju;Turequesei|
+Hoyoyeta|barony|human|0|2;8|Commons|Yreth;Rututiju;Turequesei;Xowolusei|
+Zikaliki|barony|human|0|2;9|Commons|Yreth;Rututiju;Turequesei;Xowolusei|
+Vabakoyei|duchy|human|0|5;2||Yreth;Rututiju|
+Aokuvina|county|human|1|1;8||Yreth;Rututiju;Vabakoyei|
+Dideniku|barony|human|0|2;8|Commons|Yreth;Rututiju;Vabakoyei;Aokuvina|
+Dozalijo|barony|human|0|4;11|Commons|Yreth;Rututiju;Vabakoyei;Aokuvina|
+Vequivalu|barony|human|0|4;7|Commons|Yreth;Rututiju;Vabakoyei;Aokuvina|
+Ewtuvuda|county|human|0|4;11||Yreth;Rututiju;Vabakoyei|
+Oerequehu|barony|human|0|1;7||Yreth;Rututiju;Vabakoyei;Ewtuvuda|
+Rivedojeu|barony|human|0|4;11||Yreth;Rututiju;Vabakoyei;Ewtuvuda|
+Zajekebi|barony|human|1|3;2|Commons;Merchants|Yreth;Rututiju;Vabakoyei;Ewtuvuda|
+Ponumuqua|county|human|1|3;6||Yreth;Rututiju;Vabakoyei|
+Iujujaxi|barony|human|0|1;6|Commons;Merchants|Yreth;Rututiju;Vabakoyei;Ponumuqua|
+Pohupowa|barony|human|0|3;3|Commons|Yreth;Rututiju;Vabakoyei;Ponumuqua|
+Ruvovelo|barony|human|0|1;6|Commons;Merchants|Yreth;Rututiju;Vabakoyei;Ponumuqua|
+Siruluva|county|human|0|1;6||Yreth;Rututiju;Vabakoyei|
+Dihoruvi|barony|human|0|2;4||Yreth;Rututiju;Vabakoyei;Siruluva|
+Xarujuquei|barony|human|0|2;8||Yreth;Rututiju;Vabakoyei;Siruluva|
+Vejuvema|county|human|1|6;3||Yreth;Rututiju;Vabakoyei|
+Eyesakuha|barony|human|1|4;5|Commons;Merchants|Yreth;Rututiju;Vabakoyei;Vejuvema|
+Ruwejomei|barony|human|0|2;7|Commons;Merchants|Yreth;Rututiju;Vabakoyei;Vejuvema|
+Witunavu|grand duchy|human|0|2;6||Yreth|
+Baveweba|duchy|human|1|3;9||Yreth;Witunavu|
+Eyewunewa|county|human|1|5;4||Yreth;Witunavu;Baveweba|
+Juhipaxo|barony|human|0|4;7|Commons|Yreth;Witunavu;Baveweba;Eyewunewa|
+Lihepeju|barony|human|0|4;9|Commons|Yreth;Witunavu;Baveweba;Eyewunewa|
+Radituro|barony|human|0|4;6|Commons|Yreth;Witunavu;Baveweba;Eyewunewa|
+Iubolokea|county|human|0|1;9||Yreth;Witunavu;Baveweba|
+Niyevaro|barony|human|0|2;5||Yreth;Witunavu;Baveweba;Iubolokea|
+Roquerado|barony|human|0|3;6||Yreth;Witunavu;Baveweba;Iubolokea|
+Lawohewei|county|human|0|1;7||Yreth;Witunavu;Baveweba|
+Iypaqueku|barony|human|0|1;11||Yreth;Witunavu;Baveweba;Lawohewei|
+Zojadeho|barony|human|1|2;9||Yreth;Witunavu;Baveweba;Lawohewei|
+Vixujopea|county|human|0|3;10||Yreth;Witunavu;Baveweba|
+Huxavawo|barony|human|0|4;7||Yreth;Witunavu;Baveweba;Vixujopea|
+Masohuquo|barony|human|0|1;12||Yreth;Witunavu;Baveweba;Vixujopea|
+Seyudubo|barony|human|0|2;8||Yreth;Witunavu;Baveweba;Vixujopea|
+Vuvokema|county|human|0|2;9||Yreth;Witunavu;Baveweba|
+Katijevi|barony|human|1|3;7|Commons;Merchants|Yreth;Witunavu;Baveweba;Vuvokema|
+Nebaroji|barony|human|0|1;6||Yreth;Witunavu;Baveweba;Vuvokema|
+Delequixa|duchy|human|0|2;10||Yreth;Witunavu|
+Kimujiya|county|human|0|6;10||Yreth;Witunavu;Delequixa|
+Aoroyili|barony|human|0|3;9||Yreth;Witunavu;Delequixa;Kimujiya|
+Rovuju|barony|human|0|3;5||Yreth;Witunavu;Delequixa;Kimujiya|
+Wulijisi|barony|human|0|4;3||Yreth;Witunavu;Delequixa;Kimujiya|
+Rumujera|county|human|1|3;7|Commons;Merchants|Yreth;Witunavu;Delequixa|
+Buqueraji|barony|human|0|1;10|Commons;Merchants;Nobles|Yreth;Witunavu;Delequixa;Rumujera|
+Eovamuni|barony|human|0|3;10|Commons;Merchants|Yreth;Witunavu;Delequixa;Rumujera|
+Uoyusasu|barony|human|0|3;9|Commons;Merchants|Yreth;Witunavu;Delequixa;Rumujera|
+Sahusoda|county|human|0|5;16||Yreth;Witunavu;Delequixa|
+Luquirikeo|barony|human|0|3;7||Yreth;Witunavu;Delequixa;Sahusoda|
+Nopujimo|barony|human|1|4;3|Commons;Merchants|Yreth;Witunavu;Delequixa;Sahusoda|
+Vubuquevei|county|human|0|4;12||Yreth;Witunavu;Delequixa|
+Autovajo|barony|human|0|2;9||Yreth;Witunavu;Delequixa;Vubuquevei|
+Dokavaquei|barony|human|0|4;8||Yreth;Witunavu;Delequixa;Vubuquevei|
+Holejiveu|barony|human|0|1;9||Yreth;Witunavu;Delequixa;Vubuquevei|
+Saperiya|duchy|human|1|1;18||Yreth;Witunavu|
+Jiruvaha|county|human|0|4;3||Yreth;Witunavu;Saperiya|
+Dusazabi|barony|human|0|1;6||Yreth;Witunavu;Saperiya;Jiruvaha|
+Wusidiwu|barony|human|0|1;10||Yreth;Witunavu;Saperiya;Jiruvaha|
+Kequiximeo|county|human|0|4;11|Commons;Merchants|Yreth;Witunavu;Saperiya|
+Kitivutu|barony|human|1|1;7|Commons;Merchants;Nobles|Yreth;Witunavu;Saperiya;Kequiximeo|
+Tewehevei|barony|human|1|1;7|Commons;Merchants|Yreth;Witunavu;Saperiya;Kequiximeo|
+Zadoxayi|barony|human|1|2;8|Commons;Merchants|Yreth;Witunavu;Saperiya;Kequiximeo|
+Nayojeva|county|human|0|5;14||Yreth;Witunavu;Saperiya|
+Lonelileu|barony|human|0|4;12||Yreth;Witunavu;Saperiya;Nayojeva|
+Miravido|barony|human|0|2;11||Yreth;Witunavu;Saperiya;Nayojeva|
+Xenekiyeu|barony|human|0|3;11||Yreth;Witunavu;Saperiya;Nayojeva|
+Novununa|county|human|0|2;15||Yreth;Witunavu;Saperiya|
+Aitozuda|barony|human|0|3;7||Yreth;Witunavu;Saperiya;Novununa|
+Jajixevo|barony|human|0|2;8||Yreth;Witunavu;Saperiya;Novununa|
+Uamebawa|barony|human|0|4;9||Yreth;Witunavu;Saperiya;Novununa|
+Vituyubeo|county|human|0|6;7||Yreth;Witunavu;Saperiya|
+Ayamevowu|barony|human|0|4;8||Yreth;Witunavu;Saperiya;Vituyubeo|
+Tosejesa|barony|human|0|1;11||Yreth;Witunavu;Saperiya;Vituyubeo|
+Xoniwona|barony|human|0|2;6||Yreth;Witunavu;Saperiya;Vituyubeo|
+Tewedei|duchy|human|0|6;11||Yreth;Witunavu|
+Biposeva|county|human|1|6;14||Yreth;Witunavu;Tewedei|
+Heluquabu|barony|human|0|1;12|Commons|Yreth;Witunavu;Tewedei;Biposeva|
+Tuxajopu|barony|human|0|3;12|Commons|Yreth;Witunavu;Tewedei;Biposeva|
+Xikimewu|barony|human|0|3;7|Commons|Yreth;Witunavu;Tewedei;Biposeva|
+Hikumeveo|county|human|0|6;7||Yreth;Witunavu;Tewedei|
+Diwaxojo|barony|human|0|1;6||Yreth;Witunavu;Tewedei;Hikumeveo|
+Ouwequemu|barony|human|0|1;7||Yreth;Witunavu;Tewedei;Hikumeveo|
+Kizusela|county|human|0|5;7||Yreth;Witunavu;Tewedei|
+Homiquowa|barony|human|0|3;6||Yreth;Witunavu;Tewedei;Kizusela|
+Vimajipo|barony|human|1|4;6||Yreth;Witunavu;Tewedei;Kizusela|
+Nadolowa|county|human|0|4;3||Yreth;Witunavu;Tewedei|
+Aemihiba|barony|human|0|1;4||Yreth;Witunavu;Tewedei;Nadolowa|
+Iuwomahey|barony|human|0|4;7||Yreth;Witunavu;Tewedei;Nadolowa|
+Vesukonei|barony|human|0|2;8||Yreth;Witunavu;Tewedei;Nadolowa|
+Resosuja|county|human|1|3;14||Yreth;Witunavu;Tewedei|
+Uiputomea|barony|human|1|4;6|Commons;Merchants;Nobles|Yreth;Witunavu;Tewedei;Resosuja|
+Uotibezi|barony|human|0|2;4||Yreth;Witunavu;Tewedei;Resosuja|
+Wypuquadu|grand duchy|human|0|1;15||Yreth|
+Buvedapei|duchy|human|1|1;17||Yreth;Wypuquadu|
+Bukulopei|county|human|0|2;6||Yreth;Wypuquadu;Buvedapei|
+Bomopavi|barony|human|0|2;10||Yreth;Wypuquadu;Buvedapei;Bukulopei|
+Jehokuji|barony|human|0|3;3||Yreth;Wypuquadu;Buvedapei;Bukulopei|
+Sebeveyu|barony|human|0|2;8||Yreth;Wypuquadu;Buvedapei;Bukulopei|
+Hilupera|county|human|0|4;11||Yreth;Wypuquadu;Buvedapei|
+Movevilo|barony|human|1|2;7|Commons;Merchants|Yreth;Wypuquadu;Buvedapei;Hilupera|
+Oihamakeu|barony|human|0|1;3||Yreth;Wypuquadu;Buvedapei;Hilupera|
+Kovumazei|county|human|0|2;5||Yreth;Wypuquadu;Buvedapei|
+Nekevili|barony|human|0|4;7||Yreth;Wypuquadu;Buvedapei;Kovumazei|
+Quekaniji|barony|human|0|2;5||Yreth;Wypuquadu;Buvedapei;Kovumazei|
+Yehusuqua|barony|human|1|3;8|Commons;Merchants|Yreth;Wypuquadu;Buvedapei;Kovumazei|
+Denesika|duchy|human|0|2;13||Yreth;Wypuquadu|
+Auwotezei|county|human|0|4;10||Yreth;Wypuquadu;Denesika|
+Dopahika|barony|human|0|4;12||Yreth;Wypuquadu;Denesika;Auwotezei|
+Dosikeso|barony|human|1|2;8||Yreth;Wypuquadu;Denesika;Auwotezei|
+Wokiteza|barony|human|0|1;12||Yreth;Wypuquadu;Denesika;Auwotezei|
+Hajutuka|county|human|0|5;10||Yreth;Wypuquadu;Denesika|
+Aujomoka|barony|human|0|3;6||Yreth;Wypuquadu;Denesika;Hajutuka|
+Mituhabu|barony|human|1|2;6||Yreth;Wypuquadu;Denesika;Hajutuka|
+Queremila|barony|human|0|1;7||Yreth;Wypuquadu;Denesika;Hajutuka|
+Rarusesa|county|human|0|1;9|Commons|Yreth;Wypuquadu;Denesika|
+Kovunowo|barony|human|1|4;7|Commons;Merchants;Nobles;Martial|Yreth;Wypuquadu;Denesika;Rarusesa|
+Nojulobei|barony|human|1|3;6||Yreth;Wypuquadu;Denesika;Rarusesa|
+Wazewoqui|barony|human|0|1;4|Commons|Yreth;Wypuquadu;Denesika;Rarusesa|
+Rivonoya|county|human|0|2;13||Yreth;Wypuquadu;Denesika|
+Aeziyava|barony|human|0|4;6||Yreth;Wypuquadu;Denesika;Rivonoya|
+Dupoquemu|barony|human|1|1;3|Commons;Merchants|Yreth;Wypuquadu;Denesika;Rivonoya|
+Quiwozipa|barony|human|0|1;8||Yreth;Wypuquadu;Denesika;Rivonoya|
+Xibovipeu|county|human|0|2;5||Yreth;Wypuquadu;Denesika|
+Tomavaji|barony|human|1|3;4|Commons|Yreth;Wypuquadu;Denesika;Xibovipeu|
+Wotajuwo|barony|human|0|4;8||Yreth;Wypuquadu;Denesika;Xibovipeu|
+Duwemiqueo|duchy|human|0|3;4||Yreth;Wypuquadu|
+Eyekusutei|county|human|0|3;15||Yreth;Wypuquadu;Duwemiqueo|
+Quevulenei|barony|human|0|3;7||Yreth;Wypuquadu;Duwemiqueo;Eyekusutei|
+Zurequohei|barony|human|0|1;4||Yreth;Wypuquadu;Duwemiqueo;Eyekusutei|
+Kojoha|county|human|0|4;10||Yreth;Wypuquadu;Duwemiqueo|
+Oanexanei|barony|human|0|3;9||Yreth;Wypuquadu;Duwemiqueo;Kojoha|
+Quobosibea|barony|human|0|3;3||Yreth;Wypuquadu;Duwemiqueo;Kojoha|
+Pobonaquei|county|human|0|1;8||Yreth;Wypuquadu;Duwemiqueo|
+Eabebosa|barony|human|0|1;8||Yreth;Wypuquadu;Duwemiqueo;Pobonaquei|
+Pukihoqua|barony|human|0|1;10||Yreth;Wypuquadu;Duwemiqueo;Pobonaquei|
+Quiyokita|county|human|0|2;8||Yreth;Wypuquadu;Duwemiqueo|
+Aekudama|barony|human|0|3;3||Yreth;Wypuquadu;Duwemiqueo;Quiyokita|
+Ayahuvuri|barony|human|0|1;9||Yreth;Wypuquadu;Duwemiqueo;Quiyokita|
+Jidemoveo|duchy|human|0|8;4||Yreth;Wypuquadu|
+Eyewurileo|county|human|0|5;4||Yreth;Wypuquadu;Jidemoveo|
+Quavukeyei|barony|human|0|2;9||Yreth;Wypuquadu;Jidemoveo;Eyewurileo|
+Rokukokei|barony|human|0|4;4||Yreth;Wypuquadu;Jidemoveo;Eyewurileo|
+Xavibequo|barony|human|0|4;4||Yreth;Wypuquadu;Jidemoveo;Eyewurileo|
+Jepuseda|county|human|1|1;9||Yreth;Wypuquadu;Jidemoveo|
+Dutijabi|barony|human|0|4;5|Commons|Yreth;Wypuquadu;Jidemoveo;Jepuseda|
+Zujoxora|barony|human|0|1;6|Commons;Merchants|Yreth;Wypuquadu;Jidemoveo;Jepuseda|
+Puruxuqua|county|human|0|6;8||Yreth;Wypuquadu;Jidemoveo|
+Rizoviko|barony|human|0|2;8||Yreth;Wypuquadu;Jidemoveo;Puruxuqua|
+Zokikasi|barony|human|0|4;8||Yreth;Wypuquadu;Jidemoveo;Puruxuqua|
+Sojubeyei|county|human|0|3;12||Yreth;Wypuquadu;Jidemoveo|
+Bequameta|barony|human|0|1;7||Yreth;Wypuquadu;Jidemoveo;Sojubeyei|
+Mupovayi|barony|human|1|2;12||Yreth;Wypuquadu;Jidemoveo;Sojubeyei|
+Navetiku|barony|human|0|4;6||Yreth;Wypuquadu;Jidemoveo;Sojubeyei|
+Xuduquitei|county|human|0|4;9||Yreth;Wypuquadu;Jidemoveo|
+Boyivukea|barony|human|0|1;4||Yreth;Wypuquadu;Jidemoveo;Xuduquitei|
+Pokuyija|barony|human|0|4;2||Yreth;Wypuquadu;Jidemoveo;Xuduquitei|
+Rikaxepeo|duchy|human|0|3;11||Yreth;Wypuquadu|
+Dutupojei|county|human|0|6;12||Yreth;Wypuquadu;Rikaxepeo|
+Pudebemo|barony|human|0|1;4||Yreth;Wypuquadu;Rikaxepeo;Dutupojei|
+Ueremehi|barony|human|0|2;7||Yreth;Wypuquadu;Rikaxepeo;Dutupojei|
+Ienoveka|county|human|0|5;11||Yreth;Wypuquadu;Rikaxepeo|
+Buquiwuko|barony|human|0|2;8||Yreth;Wypuquadu;Rikaxepeo;Ienoveka|
+Kapiyoyeu|barony|human|0|4;5||Yreth;Wypuquadu;Rikaxepeo;Ienoveka|
+Vekayukei|duchy|human|1|6;9||Yreth;Wypuquadu|
+Kimuvodea|county|human|1|1;8||Yreth;Wypuquadu;Vekayukei|
+Jelovijeu|barony|human|1|3;11|Commons;Merchants|Yreth;Wypuquadu;Vekayukei;Kimuvodea|
+Sawohedu|barony|human|1|3;12||Yreth;Wypuquadu;Vekayukei;Kimuvodea|
+Zokineheu|barony|human|1|1;6|Commons;Merchants|Yreth;Wypuquadu;Vekayukei;Kimuvodea|
+Zapozireu|county|human|0|6;9||Yreth;Wypuquadu;Vekayukei|
+Kubevexi|barony|human|0|3;11||Yreth;Wypuquadu;Vekayukei;Zapozireu|
+Sehuvusei|barony|human|0|2;11||Yreth;Wypuquadu;Vekayukei;Zapozireu|
+Wixunaja|barony|human|0|1;10||Yreth;Wypuquadu;Vekayukei;Zapozireu|
+Xiwewakeo|duchy|human|0|8;7||Yreth;Wypuquadu|
+Auvosura|county|human|0|2;5||Yreth;Wypuquadu;Xiwewakeo|
+Ravireteo|barony|human|0|4;11||Yreth;Wypuquadu;Xiwewakeo;Auvosura|
+Revavuli|barony|human|0|3;3||Yreth;Wypuquadu;Xiwewakeo;Auvosura|
+Haxojota|county|human|0|2;5||Yreth;Wypuquadu;Xiwewakeo|
+Eovawejo|barony|human|1|2;6||Yreth;Wypuquadu;Xiwewakeo;Haxojota|
+Pivubo|barony|human|0|1;2||Yreth;Wypuquadu;Xiwewakeo;Haxojota|
+Muwuwileo|county|human|0|2;9||Yreth;Wypuquadu;Xiwewakeo|
+Iojaxowa|barony|human|0|4;8||Yreth;Wypuquadu;Xiwewakeo;Muwuwileo|
+Virequabu|barony|human|0|2;8||Yreth;Wypuquadu;Xiwewakeo;Muwuwileo|
+Xyvuredu|grand duchy|human|0|8;16||Yreth|
+Keseyabei|duchy|human|0|5;7||Yreth;Xyvuredu|
+Ioburovea|county|human|0|5;9||Yreth;Xyvuredu;Keseyabei|
+Rusurima|barony|human|0|4;7||Yreth;Xyvuredu;Keseyabei;Ioburovea|
+Vurizeheo|barony|human|0|2;10||Yreth;Xyvuredu;Keseyabei;Ioburovea|
+Zijemamo|barony|human|0|1;11||Yreth;Xyvuredu;Keseyabei;Ioburovea|
+Lekumita|county|human|0|2;9||Yreth;Xyvuredu;Keseyabei|
+Vizulezo|barony|human|0|3;8||Yreth;Xyvuredu;Keseyabei;Lekumita|
+Zelaquaquo|barony|human|0|4;7||Yreth;Xyvuredu;Keseyabei;Lekumita|
+Raroyuda|county|human|1|4;14|Commons;Merchants|Yreth;Xyvuredu;Keseyabei|
+Jojubevei|barony|human|0|3;12|Commons;Merchants|Yreth;Xyvuredu;Keseyabei;Raroyuda|
+Munujavo|barony|human|0|1;7|Commons;Merchants|Yreth;Xyvuredu;Keseyabei;Raroyuda|
+Uarujiteo|county|human|0|2;9||Yreth;Xyvuredu;Keseyabei|
+Aitizilo|barony|human|0|2;8||Yreth;Xyvuredu;Keseyabei;Uarujiteo|
+Eahumada|barony|human|1|3;9||Yreth;Xyvuredu;Keseyabei;Uarujiteo|
+Vonepeyei|duchy|human|0|3;20||Yreth;Xyvuredu|
+Bujulajei|county|human|0|1;6||Yreth;Xyvuredu;Vonepeyei|
+Aekayezi|barony|human|1|3;10||Yreth;Xyvuredu;Vonepeyei;Bujulajei|
+Ayatamemi|barony|human|0|1;7||Yreth;Xyvuredu;Vonepeyei;Bujulajei|
+Daxojira|barony|human|0|1;10||Yreth;Xyvuredu;Vonepeyei;Bujulajei|
+Jivojepa|county|human|1|5;3|Commons;Merchants|Yreth;Xyvuredu;Vonepeyei|
+Moquaquoyei|barony|human|0|2;11|Commons;Merchants|Yreth;Xyvuredu;Vonepeyei;Jivojepa|
+Vipaquewo|barony|human|0|4;6|Commons;Merchants|Yreth;Xyvuredu;Vonepeyei;Jivojepa|
+Xanevami|barony|human|0|3;11|Commons;Merchants|Yreth;Xyvuredu;Vonepeyei;Jivojepa|
+Pawuyovei|county|human|0|1;5|Commons|Yreth;Xyvuredu;Vonepeyei|
+Rebabuvei|barony|human|0|4;10|Commons|Yreth;Xyvuredu;Vonepeyei;Pawuyovei|
+Tojinuda|barony|human|1|1;8||Yreth;Xyvuredu;Vonepeyei;Pawuyovei|
+Vokavova|barony|human|1|2;6||Yreth;Xyvuredu;Vonepeyei;Pawuyovei|
+Puvoteta|county|human|1|4;7||Yreth;Xyvuredu;Vonepeyei|
+Oasivimeu|barony|human|1|4;7|Commons;Merchants|Yreth;Xyvuredu;Vonepeyei;Puvoteta|
+Vaquamaja|barony|human|0|2;6||Yreth;Xyvuredu;Vonepeyei;Puvoteta|
+Zedojako|barony|human|0|4;3||Yreth;Xyvuredu;Vonepeyei;Puvoteta|
+Voludiwea|county|human|0|5;7||Yreth;Xyvuredu;Vonepeyei|
+Jovekizo|barony|human|0|4;8||Yreth;Xyvuredu;Vonepeyei;Voludiwea|
+Xuhokitu|barony|human|0|4;8||Yreth;Xyvuredu;Vonepeyei;Voludiwea|
+Wejekobei|duchy|human|1|8;14||Yreth;Xyvuredu|
+Toporeva|county|human|0|6;12||Yreth;Xyvuredu;Wejekobei|
+Dirikomu|barony|human|0|1;9||Yreth;Xyvuredu;Wejekobei;Toporeva|
+Jurebayo|barony|human|0|1;12||Yreth;Xyvuredu;Wejekobei;Toporeva|
+Uobuzida|barony|human|0|2;10||Yreth;Xyvuredu;Wejekobei;Toporeva|
+Xedonurei|county|human|0|5;2||Yreth;Xyvuredu;Wejekobei|
+Jenutehu|barony|human|0|2;11||Yreth;Xyvuredu;Wejekobei;Xedonurei|
+Lixawoveu|barony|human|0|2;9||Yreth;Xyvuredu;Wejekobei;Xedonurei|
+Yevolojei|county|human|0|5;9|Commons|Yreth;Xyvuredu;Wejekobei|
+Aexolawo|barony|human|0|4;2|Commons|Yreth;Xyvuredu;Wejekobei;Yevolojei|
+Eujehura|barony|human|1|1;7|Commons;Merchants|Yreth;Xyvuredu;Wejekobei;Yevolojei|
+Owoxexopei|barony|human|1|2;7|Commons;Merchants|Yreth;Xyvuredu;Wejekobei;Yevolojei|
+Imperial Court of Yreth|imperial court|human|0|0;21|||
+Vecile|kingdom|human|0|8;25|||
+Vi Broneir|grand duchy|human|0|8;21||Vecile|
+Xi Brancian|duchy|human|0|6;6||Vecile;Vi Broneir|
+Li Gabaus|county|human|0|2;11||Vecile;Vi Broneir;Xi Brancian|
+Ci Clancibon|barony|human|0|2;9||Vecile;Vi Broneir;Xi Brancian;Li Gabaus|
+Ci Dyorbavant|barony|human|0|1;4||Vecile;Vi Broneir;Xi Brancian;Li Gabaus|
+Li Granablant|county|human|0|2;3||Vecile;Vi Broneir;Xi Brancian|
+Ci Duis|barony|human|0|3;5||Vecile;Vi Broneir;Xi Brancian;Li Granablant|
+Ci Kanines|barony|human|0|2;11||Vecile;Vi Broneir;Xi Brancian;Li Granablant|
+Ci Mudrius|barony|human|0|3;9||Vecile;Vi Broneir;Xi Brancian;Li Granablant|
+Li Lores|county|human|0|3;10||Vecile;Vi Broneir;Xi Brancian|
+Ci Londona|barony|human|0|2;7||Vecile;Vi Broneir;Xi Brancian;Li Lores|had a woman as it's first leader
+Ci Mohores|barony|human|0|2;8||Vecile;Vi Broneir;Xi Brancian;Li Lores|
+Ci Nerelant|barony|human|0|1;11||Vecile;Vi Broneir;Xi Brancian;Li Lores|
+Li Malogis|county|human|0|5;8|Commons;Merchants|Vecile;Vi Broneir;Xi Brancian|
+Ci Encan|barony|human|1|3;11|Commons;Merchants|Vecile;Vi Broneir;Xi Brancian;Li Malogis|
+Ci Lyllake|barony|human|1|4;8|Commons;Merchants|Vecile;Vi Broneir;Xi Brancian;Li Malogis|
+Xi Lorbged|duchy|human|0|5;18||Vecile;Vi Broneir|
+Li Ballius|county|human|0|4;6||Vecile;Vi Broneir;Xi Lorbged|
+Ci Melion|barony|human|0|4;8||Vecile;Vi Broneir;Xi Lorbged;Li Ballius|
+Ci Mengles|barony|human|0|3;7||Vecile;Vi Broneir;Xi Lorbged;Li Ballius|
+Ci Trese|barony|human|0|2;6||Vecile;Vi Broneir;Xi Lorbged;Li Ballius|
+Li Serdran|county|human|0|6;14||Vecile;Vi Broneir;Xi Lorbged|
+Ci Barjolan|barony|human|0|4;6||Vecile;Vi Broneir;Xi Lorbged;Li Serdran|
+Ci Hauras|barony|human|0|2;3||Vecile;Vi Broneir;Xi Lorbged;Li Serdran|
+Li Untant|county|human|0|5;11||Vecile;Vi Broneir;Xi Lorbged|
+Ci Gwerleine|barony|human|0|4;6||Vecile;Vi Broneir;Xi Lorbged;Li Untant|had a woman as it's first leader
+Ci Maires|barony|human|0|3;6||Vecile;Vi Broneir;Xi Lorbged;Li Untant|
+Ci Tianses|barony|human|0|2;8||Vecile;Vi Broneir;Xi Lorbged;Li Untant|
+Li Vedgeson|county|human|0|6;12||Vecile;Vi Broneir;Xi Lorbged|
+Ci Guisone|barony|human|0|1;8||Vecile;Vi Broneir;Xi Lorbged;Li Vedgeson|
+Ci Kaidirans|barony|human|1|2;11|Commons;Merchants;Nobles|Vecile;Vi Broneir;Xi Lorbged;Li Vedgeson|
+Ci Rannanant|barony|human|1|4;7|Commons;Merchants;Nobles|Vecile;Vi Broneir;Xi Lorbged;Li Vedgeson|
+Xi Orlas|duchy|human|1|4;7||Vecile;Vi Broneir|
+Li Blivia|county|human|0|6;10||Vecile;Vi Broneir;Xi Orlas|had a woman as it's first leader
+Ci Nastins|barony|human|0|3;7||Vecile;Vi Broneir;Xi Orlas;Li Blivia|
+Ci Senes|barony|human|0|3;8||Vecile;Vi Broneir;Xi Orlas;Li Blivia|
+Ci Vastriance|barony|human|0|4;12||Vecile;Vi Broneir;Xi Orlas;Li Blivia|
+Li Ertor|county|human|1|6;12||Vecile;Vi Broneir;Xi Orlas|
+Ci Gadyes|barony|human|1|4;8|Commons;Merchants;Nobles;Martial|Vecile;Vi Broneir;Xi Orlas;Li Ertor|had a woman as it's first leader
+Ci Lience|barony|human|0|3;9|Commons|Vecile;Vi Broneir;Xi Orlas;Li Ertor|
+Ci Madgain|barony|human|0|3;3|Commons|Vecile;Vi Broneir;Xi Orlas;Li Ertor|
+Li Lyniane|county|human|0|3;7||Vecile;Vi Broneir;Xi Orlas|had a woman as it's first leader
+Ci Barin|barony|human|0|1;5|Commons;Merchants|Vecile;Vi Broneir;Xi Orlas;Li Lyniane|
+Ci Karsanwes|barony|human|0|4;6||Vecile;Vi Broneir;Xi Orlas;Li Lyniane|
+Ci Malenidern|barony|human|0|2;10||Vecile;Vi Broneir;Xi Orlas;Li Lyniane|
+Li Nene|county|human|1|6;10||Vecile;Vi Broneir;Xi Orlas|had a woman as it's first leader
+Ci Floline|barony|human|0|3;7|Commons|Vecile;Vi Broneir;Xi Orlas;Li Nene|
+Ci Naboart|barony|human|1|2;9|Commons;Merchants|Vecile;Vi Broneir;Xi Orlas;Li Nene|
+Li Neran|county|human|1|3;9||Vecile;Vi Broneir;Xi Orlas|
+Ci Clamere|barony|human|0|4;7|Commons|Vecile;Vi Broneir;Xi Orlas;Li Neran|
+Ci Guincanet|barony|human|0|3;9|Commons|Vecile;Vi Broneir;Xi Orlas;Li Neran|
+Ci Pinnaine|barony|human|0|2;10|Commons|Vecile;Vi Broneir;Xi Orlas;Li Neran|
+Xi Pagnete|duchy|human|0|8;12||Vecile;Vi Broneir|
+Li Brifadin|county|human|1|1;8||Vecile;Vi Broneir;Xi Pagnete|
+Ci Ganius|barony|human|1|4;8|Commons;Merchants|Vecile;Vi Broneir;Xi Pagnete;Li Brifadin|
+Ci Ulfelade|barony|human|0|1;11|Commons|Vecile;Vi Broneir;Xi Pagnete;Li Brifadin|
+Li Hervi|county|human|0|3;13|Commons|Vecile;Vi Broneir;Xi Pagnete|
+Ci Blirtias|barony|human|0|2;6|Commons;Merchants|Vecile;Vi Broneir;Xi Pagnete;Li Hervi|
+Ci Daragus|barony|human|0|3;8|Commons|Vecile;Vi Broneir;Xi Pagnete;Li Hervi|
+Ci Heweneus|barony|human|1|1;6|Commons;Merchants|Vecile;Vi Broneir;Xi Pagnete;Li Hervi|
+Li Lese|county|human|1|3;4||Vecile;Vi Broneir;Xi Pagnete|had a woman as it's first leader
+Ci Dironeras|barony|human|0|4;7|Commons|Vecile;Vi Broneir;Xi Pagnete;Li Lese|
+Ci Milidon|barony|human|0|2;4|Commons;Merchants|Vecile;Vi Broneir;Xi Pagnete;Li Lese|
+Ci Nynabwy|barony|human|0|3;7|Commons|Vecile;Vi Broneir;Xi Pagnete;Li Lese|
+Li Novelain|county|human|0|4;12||Vecile;Vi Broneir;Xi Pagnete|
+Ci Arned|barony|human|0|4;8||Vecile;Vi Broneir;Xi Pagnete;Li Novelain|
+Ci Ones|barony|human|0|2;2||Vecile;Vi Broneir;Xi Pagnete;Li Novelain|
+Li Palamnan|county|human|0|6;11||Vecile;Vi Broneir;Xi Pagnete|
+Ci Mortiana|barony|human|0|1;8||Vecile;Vi Broneir;Xi Pagnete;Li Palamnan|had a woman as it's first leader
+Ci Olius|barony|human|0|3;10||Vecile;Vi Broneir;Xi Pagnete;Li Palamnan|
+Xi Serralis|duchy|human|0|2;20|Commons|Vecile;Vi Broneir|
+Li Canciman|county|human|0|1;7|Commons;Merchants|Vecile;Vi Broneir;Xi Serralis|
+Ci Bellyr|barony|human|1|3;7|Commons;Merchants|Vecile;Vi Broneir;Xi Serralis;Li Canciman|
+Ci Moncienan|barony|human|1|4;9|Commons;Merchants|Vecile;Vi Broneir;Xi Serralis;Li Canciman|
+Li Rilron|county|human|1|2;15||Vecile;Vi Broneir;Xi Serralis|
+Ci Giddina|barony|human|0|3;8|Commons|Vecile;Vi Broneir;Xi Serralis;Li Rilron|had a woman as it's first leader
+Ci Mastalet|barony|human|0|4;8|Commons|Vecile;Vi Broneir;Xi Serralis;Li Rilron|
+Li Unius|county|human|0|5;7|Commons|Vecile;Vi Broneir;Xi Serralis|
+Ci Golahins|barony|human|0|3;2|Commons|Vecile;Vi Broneir;Xi Serralis;Li Unius|
+Ci Luraison|barony|human|1|3;4|Commons;Merchants|Vecile;Vi Broneir;Xi Serralis;Li Unius|
+Vi Eletan|grand duchy|human|0|8;19||Vecile|
+Xi Benaret|duchy|human|1|6;14||Vecile;Vi Eletan|
+Li Celain|county|human|0|5;6|Commons|Vecile;Vi Eletan;Xi Benaret|
+Ci Garalin|barony|human|0|1;7|Commons;Merchants|Vecile;Vi Eletan;Xi Benaret;Li Celain|
+Ci Lalonan|barony|human|1|2;11|Commons;Merchants|Vecile;Vi Eletan;Xi Benaret;Li Celain|
+Li Edyemrese|county|human|0|6;10|Commons|Vecile;Vi Eletan;Xi Benaret|
+Ci Bronius|barony|human|0|2;9|Commons|Vecile;Vi Eletan;Xi Benaret;Li Edyemrese|
+Ci Cladefle|barony|human|1|1;11|Commons;Merchants;Nobles|Vecile;Vi Eletan;Xi Benaret;Li Edyemrese|
+Ci Pannant|barony|human|0|2;6|Commons|Vecile;Vi Eletan;Xi Benaret;Li Edyemrese|
+Li Rholoch|county|human|0|1;13|Commons|Vecile;Vi Eletan;Xi Benaret|
+Ci Bergius|barony|human|0|2;5|Commons|Vecile;Vi Eletan;Xi Benaret;Li Rholoch|
+Ci Maiales|barony|human|0|1;10|Commons|Vecile;Vi Eletan;Xi Benaret;Li Rholoch|
+Ci Midaidus|barony|human|0|4;6|Commons|Vecile;Vi Eletan;Xi Benaret;Li Rholoch|
+Xi Bitrion|duchy|human|0|3;11||Vecile;Vi Eletan|
+Li Clides|county|human|0|1;9|Commons|Vecile;Vi Eletan;Xi Bitrion|
+Ci Evius|barony|human|0|2;3|Commons|Vecile;Vi Eletan;Xi Bitrion;Li Clides|
+Ci Marcia|barony|human|1|1;6|Commons;Merchants|Vecile;Vi Eletan;Xi Bitrion;Li Clides|had a woman as it's first leader
+Ci Pelidene|barony|human|0|1;7|Commons;Merchants|Vecile;Vi Eletan;Xi Bitrion;Li Clides|
+Li Gueregnowre|county|human|0|4;9||Vecile;Vi Eletan;Xi Bitrion|had a woman as it's first leader
+Ci Grentan|barony|human|0|4;8||Vecile;Vi Eletan;Xi Bitrion;Li Gueregnowre|
+Ci Perse|barony|human|0|1;7||Vecile;Vi Eletan;Xi Bitrion;Li Gueregnowre|
+Li Llause|county|human|1|1;5||Vecile;Vi Eletan;Xi Bitrion|
+Ci Dylacheu|barony|human|0|3;9|Commons;Merchants|Vecile;Vi Eletan;Xi Bitrion;Li Llause|
+Ci Galolie|barony|human|0|1;11|Commons|Vecile;Vi Eletan;Xi Bitrion;Li Llause|
+Xi Lodilan|duchy|human|1|2;16||Vecile;Vi Eletan|
+Li Cauduit|county|human|0|6;8|Commons|Vecile;Vi Eletan;Xi Lodilan|
+Ci Bragius|barony|human|1|2;7|Commons;Merchants|Vecile;Vi Eletan;Xi Lodilan;Li Cauduit|
+Ci Doliane|barony|human|0|1;2|Commons|Vecile;Vi Eletan;Xi Lodilan;Li Cauduit|had a woman as it's first leader
+Ci Morvis|barony|human|0|3;7|Commons;Merchants|Vecile;Vi Eletan;Xi Lodilan;Li Cauduit|
+Li Combrois|county|human|0|2;2||Vecile;Vi Eletan;Xi Lodilan|
+Ci Dortasin|barony|human|0|4;7||Vecile;Vi Eletan;Xi Lodilan;Li Combrois|
+Ci Kailidone|barony|human|0|2;9||Vecile;Vi Eletan;Xi Lodilan;Li Combrois|
+Li Fronine|county|human|0|5;7||Vecile;Vi Eletan;Xi Lodilan|
+Ci Cassence|barony|human|0|2;11||Vecile;Vi Eletan;Xi Lodilan;Li Fronine|
+Ci Entzlene|barony|human|1|4;6|Commons;Merchants|Vecile;Vi Eletan;Xi Lodilan;Li Fronine|
+Ci Piraise|barony|human|0|2;8||Vecile;Vi Eletan;Xi Lodilan;Li Fronine|
+Li Malledan|county|human|0|4;11||Vecile;Vi Eletan;Xi Lodilan|
+Ci Bronster|barony|human|0|1;10||Vecile;Vi Eletan;Xi Lodilan;Li Malledan|
+Ci Muson|barony|human|0|3;7||Vecile;Vi Eletan;Xi Lodilan;Li Malledan|
+Vi Oblin|grand duchy|human|0|2;17||Vecile|
+Xi Banson|duchy|human|0|8;6|Commons|Vecile;Vi Oblin|
+Li Tadecan|county|human|1|5;2||Vecile;Vi Oblin;Xi Banson|
+Ci Adrudan|barony|human|0|3;3|Commons|Vecile;Vi Oblin;Xi Banson;Li Tadecan|
+Ci Madelz|barony|human|1|2;5|Commons;Merchants|Vecile;Vi Oblin;Xi Banson;Li Tadecan|
+Li Uncalla|county|human|0|4;11|Commons|Vecile;Vi Oblin;Xi Banson|had a woman as it's first leader
+Ci Axiniane|barony|human|0|1;9|Commons|Vecile;Vi Oblin;Xi Banson;Li Uncalla|
+Ci Chandican|barony|human|1|1;5|Commons;Merchants;Nobles|Vecile;Vi Oblin;Xi Banson;Li Uncalla|
+Xi Iblunon|duchy|human|0|1;12||Vecile;Vi Oblin|had a woman as it's first leader
+Li Calin|county|human|0|4;6||Vecile;Vi Oblin;Xi Iblunon|
+Ci Boglience|barony|human|1|1;6||Vecile;Vi Oblin;Xi Iblunon;Li Calin|
+Ci Merafe|barony|human|0|1;12||Vecile;Vi Oblin;Xi Iblunon;Li Calin|
+Ci Pryllare|barony|human|0|1;8||Vecile;Vi Oblin;Xi Iblunon;Li Calin|
+Li Danes|county|human|0|5;10|Commons|Vecile;Vi Oblin;Xi Iblunon|
+Ci Bredain|barony|human|0|1;3|Commons|Vecile;Vi Oblin;Xi Iblunon;Li Danes|
+Ci Guerambail|barony|human|0|3;6|Commons|Vecile;Vi Oblin;Xi Iblunon;Li Danes|
+Xi Kenanan|duchy|human|0|3;8||Vecile;Vi Oblin|
+Li Currilan|county|human|0|4;2||Vecile;Vi Oblin;Xi Kenanan|
+Ci Panant|barony|human|0|2;4||Vecile;Vi Oblin;Xi Kenanan;Li Currilan|
+Ci Pilfare|barony|human|0|1;9||Vecile;Vi Oblin;Xi Kenanan;Li Currilan|
+Li Lirnan|county|human|0|4;7||Vecile;Vi Oblin;Xi Kenanan|
+Ci Banius|barony|human|0|4;3||Vecile;Vi Oblin;Xi Kenanan;Li Lirnan|
+Ci Kairenains|barony|human|0|1;3||Vecile;Vi Oblin;Xi Kenanan;Li Lirnan|
+Ci Pargan|barony|human|1|2;3|Commons;Merchants|Vecile;Vi Oblin;Xi Kenanan;Li Lirnan|
+Li Tianour|county|human|0|4;8||Vecile;Vi Oblin;Xi Kenanan|
+Ci Aldas|barony|human|0|4;7||Vecile;Vi Oblin;Xi Kenanan;Li Tianour|
+Ci Nangenan|barony|human|1|2;12|Commons;Merchants|Vecile;Vi Oblin;Xi Kenanan;Li Tianour|
+Xi Lalade|duchy|human|0|1;5||Vecile;Vi Oblin|had a woman as it's first leader
+Li Cren|county|human|0|6;2||Vecile;Vi Oblin;Xi Lalade|
+Ci Brellion|barony|human|0|3;8|Commons|Vecile;Vi Oblin;Xi Lalade;Li Cren|
+Ci Meldern|barony|human|0|2;7||Vecile;Vi Oblin;Xi Lalade;Li Cren|
+Ci Veneus|barony|human|0|3;8||Vecile;Vi Oblin;Xi Lalade;Li Cren|
+Li Norflis|county|human|0|5;7||Vecile;Vi Oblin;Xi Lalade|
+Ci Isolence|barony|human|0|2;7|Commons|Vecile;Vi Oblin;Xi Lalade;Li Norflis|
+Ci Ondas|barony|human|0|1;6||Vecile;Vi Oblin;Xi Lalade;Li Norflis|
+Xi Marains|duchy|human|1|5;6||Vecile;Vi Oblin|had a woman as it's first leader
+Li Garolius|county|human|1|4;11||Vecile;Vi Oblin;Xi Marains|
+Ci Ectinus|barony|human|0|3;6|Commons|Vecile;Vi Oblin;Xi Marains;Li Garolius|
+Ci Maduron|barony|human|0|3;11|Commons|Vecile;Vi Oblin;Xi Marains;Li Garolius|
+Ci Menadis|barony|human|1|4;7|Commons;Merchants;Nobles|Vecile;Vi Oblin;Xi Marains;Li Garolius|
+Li Lurtina|county|human|0|6;12|Commons|Vecile;Vi Oblin;Xi Marains|had a woman as it's first leader
+Ci Hennaine|barony|human|1|4;9|Commons;Merchants|Vecile;Vi Oblin;Xi Marains;Li Lurtina|
+Ci Sonius|barony|human|0|4;4|Commons|Vecile;Vi Oblin;Xi Marains;Li Lurtina|
+Li Onwell|county|human|1|3;9||Vecile;Vi Oblin;Xi Marains|
+Ci Beselis|barony|human|0|3;8|Commons|Vecile;Vi Oblin;Xi Marains;Li Onwell|
+Ci Roviane|barony|human|0|3;8|Commons|Vecile;Vi Oblin;Xi Marains;Li Onwell|had a woman as it's first leader
+Ci Yviadon|barony|human|0|2;8|Commons|Vecile;Vi Oblin;Xi Marains;Li Onwell|
+Vi Serani|grand duchy|human|1|6;14||Vecile|had a woman as it's first leader
+Xi Bryvius|duchy|human|0|5;13||Vecile;Vi Serani|
+Li Arone|county|human|0|1;5||Vecile;Vi Serani;Xi Bryvius|
+Ci Arre|barony|human|0|4;7||Vecile;Vi Serani;Xi Bryvius;Li Arone|
+Ci Erres|barony|human|0|2;4|Commons|Vecile;Vi Serani;Xi Bryvius;Li Arone|
+Ci Gidus|barony|human|0|4;3||Vecile;Vi Serani;Xi Bryvius;Li Arone|
+Li Assant|county|human|1|2;16||Vecile;Vi Serani;Xi Bryvius|
+Ci Garelin|barony|human|0|4;7|Commons|Vecile;Vi Serani;Xi Bryvius;Li Assant|
+Ci Gerlere|barony|human|0|2;7|Commons|Vecile;Vi Serani;Xi Bryvius;Li Assant|
+Ci Nyvedus|barony|human|0|3;4|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Assant|
+Li Ereuse|county|human|0|2;6|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius|
+Ci Bennains|barony|human|1|4;6|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Ereuse|
+Ci Brannan|barony|human|1|1;4|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Ereuse|
+Ci Dyndion|barony|human|0|1;10|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Ereuse|
+Li Gonsarodownant|county|human|0|3;7||Vecile;Vi Serani;Xi Bryvius|
+Ci Clacheu|barony|human|0|1;4|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Gonsarodownant|
+Ci Minsin|barony|human|0|2;6||Vecile;Vi Serani;Xi Bryvius;Li Gonsarodownant|
+Li Lairles|county|human|0|2;4|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius|
+Ci Eharz|barony|human|1|3;8|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Lairles|
+Ci Laralon|barony|human|1|4;11|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Lairles|
+Ci Yrme|barony|human|0|1;6|Commons;Merchants|Vecile;Vi Serani;Xi Bryvius;Li Lairles|
+Xi Conivone|duchy|human|1|1;14||Vecile;Vi Serani|
+Li Astimus|county|human|0|5;5|Commons|Vecile;Vi Serani;Xi Conivone|
+Ci Beloine|barony|human|0|4;6|Commons|Vecile;Vi Serani;Xi Conivone;Li Astimus|
+Ci Velases|barony|human|1|1;5|Commons;Merchants|Vecile;Vi Serani;Xi Conivone;Li Astimus|
+Li Evnemaide|county|human|0|3;7|Commons|Vecile;Vi Serani;Xi Conivone|had a woman as it's first leader
+Ci Hanade|barony|human|0|3;6|Commons|Vecile;Vi Serani;Xi Conivone;Li Evnemaide|
+Ci Downaine|barony|human|0|1;9|Commons|Vecile;Vi Serani;Xi Conivone;Li Evnemaide|
+Li Grilience|county|human|0|6;7|Commons|Vecile;Vi Serani;Xi Conivone|
+Ci Hauras|barony|human|0|1;2|Commons|Vecile;Vi Serani;Xi Conivone;Li Grilience|
+Ci Kandelz|barony|human|0|3;5|Commons|Vecile;Vi Serani;Xi Conivone;Li Grilience|
+Ci Lavanwinant|barony|human|1|2;4||Vecile;Vi Serani;Xi Conivone;Li Grilience|
+Li Mellis|county|human|0|2;13|Commons|Vecile;Vi Serani;Xi Conivone|
+Ci Bales|barony|human|0|2;8|Commons|Vecile;Vi Serani;Xi Conivone;Li Mellis|
+Ci Gatriana|barony|human|0|4;6|Commons|Vecile;Vi Serani;Xi Conivone;Li Mellis|had a woman as it's first leader
+Ci Medaine|barony|human|1|2;12|Commons;Merchants;Nobles|Vecile;Vi Serani;Xi Conivone;Li Mellis|
+Xi Escladon|duchy|human|0|2;2||Vecile;Vi Serani|
+Li Algrin|county|human|0|6;12|Commons|Vecile;Vi Serani;Xi Escladon|
+Ci Bragranore|barony|human|1|1;10|Commons;Merchants|Vecile;Vi Serani;Xi Escladon;Li Algrin|had a woman as it's first leader
+Ci Kadwin|barony|human|0|2;8|Commons;Merchants|Vecile;Vi Serani;Xi Escladon;Li Algrin|
+Li Aurance|county|human|0|3;10||Vecile;Vi Serani;Xi Escladon|
+Ci Baunard|barony|human|0|3;5||Vecile;Vi Serani;Xi Escladon;Li Aurance|
+Ci Calla|barony|human|0|4;5|Commons|Vecile;Vi Serani;Xi Escladon;Li Aurance|had a woman as it's first leader
+Ci Melchia|barony|human|0|3;2||Vecile;Vi Serani;Xi Escladon;Li Aurance|had a woman as it's first leader
+Xi Newrona|duchy|human|0|5;12||Vecile;Vi Serani|had a woman as it's first leader
+Li Giesant|county|human|0|2;10||Vecile;Vi Serani;Xi Newrona|
+Ci Heviane|barony|human|0|1;5||Vecile;Vi Serani;Xi Newrona;Li Giesant|
+Ci Lei|barony|human|0|4;8|Commons|Vecile;Vi Serani;Xi Newrona;Li Giesant|had a woman as it's first leader
+Ci Ynan|barony|human|0|2;6||Vecile;Vi Serani;Xi Newrona;Li Giesant|
+Li Ilant|county|human|0|3;8||Vecile;Vi Serani;Xi Newrona|
+Ci Camaigus|barony|human|0|1;5||Vecile;Vi Serani;Xi Newrona;Li Ilant|
+Ci Ulbemare|barony|human|0|4;9||Vecile;Vi Serani;Xi Newrona;Li Ilant|
+Li Maircia|county|human|0|5;14|Commons;Merchants|Vecile;Vi Serani;Xi Newrona|had a woman as it's first leader
+Ci Arrahan|barony|human|1|1;5|Commons;Merchants|Vecile;Vi Serani;Xi Newrona;Li Maircia|
+Ci Nentzlore|barony|human|0|1;7|Commons;Merchants|Vecile;Vi Serani;Xi Newrona;Li Maircia|
+Ci Sancia|barony|human|0|3;5|Commons;Merchants|Vecile;Vi Serani;Xi Newrona;Li Maircia|had a woman as it's first leader
+Imperial Court of Vecile|imperial court|human|0|0;8|||
+Satex|kingdom|human|0|9;6|||
+Emerald Valleys|grand duchy|human|0|4;15||Satex|
+Hand Combe|duchy|human|1|6;9||Satex;Emerald Valleys|
+East River|county|human|1|2;13||Satex;Emerald Valleys;Hand Combe|
+Dockton|barony|human|0|2;8|Commons|Satex;Emerald Valleys;Hand Combe;East River|
+Foreville|barony|human|0|1;9|Commons|Satex;Emerald Valleys;Hand Combe;East River|
+West River|county|human|1|4;4||Satex;Emerald Valleys;Hand Combe|
+Afton|barony|human|0|3;10|Commons|Satex;Emerald Valleys;Hand Combe;West River|
+Netterburg|barony|human|0|3;8|Commons|Satex;Emerald Valleys;Hand Combe;West River|
+Portstown|barony|human|1|4;6||Satex;Emerald Valleys;Hand Combe;West River|
+Oaken Vales|duchy|human|0|6;13||Satex;Emerald Valleys|
+Amber Fields|county|human|0|1;6|Commons;Merchants|Satex;Emerald Valleys;Oaken Vales|
+Carpenton|barony|human|1|1;9|Commons;Merchants;Nobles|Satex;Emerald Valleys;Oaken Vales;Amber Fields|
+Millersville|barony|human|1|3;4|Commons;Merchants|Satex;Emerald Valleys;Oaken Vales;Amber Fields|
+The Knot|county|human|0|3;5||Satex;Emerald Valleys;Oaken Vales|
+Dangleton|barony|human|1|2;4|Commons;Merchants|Satex;Emerald Valleys;Oaken Vales;The Knot|
+Tailorburg|barony|human|0|2;11||Satex;Emerald Valleys;Oaken Vales;The Knot|
+Tyville|barony|human|0|2;7||Satex;Emerald Valleys;Oaken Vales;The Knot|
+Twined Branches|county|human|0|3;16||Satex;Emerald Valleys;Oaken Vales|
+Latticeburg|barony|human|0|4;9||Satex;Emerald Valleys;Oaken Vales;Twined Branches|
+Loverton|barony|human|0|4;4||Satex;Emerald Valleys;Oaken Vales;Twined Branches|
+Rolling Dales|duchy|human|0|1;5||Satex;Emerald Valleys|
+Golden Fields|county|human|1|5;7||Satex;Emerald Valleys;Rolling Dales|
+Bulguton|barony|human|0|1;5|Commons|Satex;Emerald Valleys;Rolling Dales;Golden Fields|
+Farinville|barony|human|0|3;8|Commons|Satex;Emerald Valleys;Rolling Dales;Golden Fields|
+Hominburg|barony|human|0|2;8|Commons|Satex;Emerald Valleys;Rolling Dales;Golden Fields|
+Gyre Mounds|county|human|1|6;13||Satex;Emerald Valleys;Rolling Dales|
+Buriaville|barony|human|0|3;7|Commons|Satex;Emerald Valleys;Rolling Dales;Gyre Mounds|
+Drifton|barony|human|0|3;7|Commons|Satex;Emerald Valleys;Rolling Dales;Gyre Mounds|
+Pyleboro|barony|human|0|2;10|Commons;Merchants|Satex;Emerald Valleys;Rolling Dales;Gyre Mounds|
+Wandering Trails|county|human|0|1;14||Satex;Emerald Valleys;Rolling Dales|
+Folloton|barony|human|0|1;9||Satex;Emerald Valleys;Rolling Dales;Wandering Trails|
+Passburg|barony|human|1|3;6|Commons;Merchants;Nobles|Satex;Emerald Valleys;Rolling Dales;Wandering Trails|
+Tracsville|barony|human|0|1;6||Satex;Emerald Valleys;Rolling Dales;Wandering Trails|
+Veiled Glens|duchy|human|1|4;10||Satex;Emerald Valleys|
+The Veil|barony|human|0|2;4|Commons|Satex;Emerald Valleys;Veiled Glens|is the capital city of Veiled Glens
+Wood of the Sprites|independent nation|faerie|0|;||Satex;Emerald Valleys;Veiled Glens|
+Dragons' Rest|county|human|0|5;13||Satex;Emerald Valleys;Veiled Glens|
+Amethyville|barony|human|0|1;7||Satex;Emerald Valleys;Veiled Glens;Dragons' Rest|
+Goldboro|barony|human|0|1;9||Satex;Emerald Valleys;Veiled Glens;Dragons' Rest|
+Redstown|barony|human|1|1;4||Satex;Emerald Valleys;Veiled Glens;Dragons' Rest|
+Green Divide|county|human|0|6;15||Satex;Emerald Valleys;Veiled Glens|
+Axeville|barony|human|0|2;8||Satex;Emerald Valleys;Veiled Glens;Green Divide|
+Clefton|barony|human|0|1;7||Satex;Emerald Valleys;Veiled Glens;Green Divide|
+Sharpstown|barony|human|1|3;9||Satex;Emerald Valleys;Veiled Glens;Green Divide|
+Misty Sweep|county|human|0|6;11|Commons|Satex;Emerald Valleys;Veiled Glens|
+Fogstown|barony|human|1|1;7|Commons;Merchants;Nobles;Martial|Satex;Emerald Valleys;Veiled Glens;Misty Sweep|
+Smokeyton|barony|human|0|4;5|Commons|Satex;Emerald Valleys;Veiled Glens;Misty Sweep|
+Windyville|barony|human|1|3;5||Satex;Emerald Valleys;Veiled Glens;Misty Sweep|
+Scattered Fields|county|human|0|6;15||Satex;Emerald Valleys;Veiled Glens|
+Barlville|barony|human|0|4;6||Satex;Emerald Valleys;Veiled Glens;Scattered Fields|
+Wheaton|barony|human|0|2;6||Satex;Emerald Valleys;Veiled Glens;Scattered Fields|
+High Ranges|grand duchy|human|0|2;11||Satex|
+Aerial Towers|duchy|human|0|6;12||Satex;High Ranges|
+Bent Needle|county|human|0|4;9||Satex;High Ranges;Aerial Towers|
+Cloburg|barony|human|1|1;9|Commons;Merchants|Satex;High Ranges;Aerial Towers;Bent Needle|
+Spindleboro|barony|human|0|3;3||Satex;High Ranges;Aerial Towers;Bent Needle|
+Two Slopes|county|human|0|6;11||Satex;High Ranges;Aerial Towers|
+North Slope|barony|human|1|1;9|Commons;Merchants|Satex;High Ranges;Aerial Towers;Two Slopes|
+Peakville|barony|human|0|1;9||Satex;High Ranges;Aerial Towers;Two Slopes|
+South Slope|barony|human|0|4;2||Satex;High Ranges;Aerial Towers;Two Slopes|
+White Tower|county|human|0|2;6||Satex;High Ranges;Aerial Towers|
+Cremville|barony|human|0|4;3||Satex;High Ranges;Aerial Towers;White Tower|
+Ivorton|barony|human|0|4;12||Satex;High Ranges;Aerial Towers;White Tower|
+Nearboro|barony|human|1|2;6|Commons;Merchants;Nobles|Satex;High Ranges;Aerial Towers;White Tower|
+Winding Steppes|county|human|0|2;13||Satex;High Ranges;Aerial Towers|
+Spiralville|barony|human|1|1;7|Commons;Merchants|Satex;High Ranges;Aerial Towers;Winding Steppes|
+Toptown|barony|human|0|3;3||Satex;High Ranges;Aerial Towers;Winding Steppes|
+Whirlton|barony|human|0|3;9||Satex;High Ranges;Aerial Towers;Winding Steppes|
+Clustered Spires|duchy|human|0|1;11||Satex;High Ranges|
+Candle Rock|county|human|0|6;11||Satex;High Ranges;Clustered Spires|
+Torchtown|barony|human|0|3;8||Satex;High Ranges;Clustered Spires;Candle Rock|
+Waxburg|barony|human|1|4;7|Commons;Merchants|Satex;High Ranges;Clustered Spires;Candle Rock|
+Wicksville|barony|human|1|4;6|Commons;Merchants|Satex;High Ranges;Clustered Spires;Candle Rock|
+Everwinter Spire|county|human|1|1;5||Satex;High Ranges;Clustered Spires|
+Avalaton|barony|human|1|3;4|Commons;Merchants|Satex;High Ranges;Clustered Spires;Everwinter Spire|
+Snowtown|barony|human|0|2;8|Commons|Satex;High Ranges;Clustered Spires;Everwinter Spire|
+Temple Dome|county|human|0|2;8||Satex;High Ranges;Clustered Spires|
+Chathelton|barony|human|0|4;7||Satex;High Ranges;Clustered Spires;Temple Dome|
+Naville|barony|human|1|4;7||Satex;High Ranges;Clustered Spires;Temple Dome|
+Hidden Valleys|duchy|human|0|7;15||Satex;High Ranges|
+Broken Ridge|county|human|0|4;13||Satex;High Ranges;Hidden Valleys|
+Cliffton|barony|human|0|4;11||Satex;High Ranges;Hidden Valleys;Broken Ridge|
+Cleville|barony|human|1|3;7|Commons;Merchants|Satex;High Ranges;Hidden Valleys;Broken Ridge|
+Greening Downs|county|human|0|6;6||Satex;High Ranges;Hidden Valleys|
+Quaville|barony|human|1|1;6||Satex;High Ranges;Hidden Valleys;Greening Downs|
+Telburg|barony|human|0|2;8||Satex;High Ranges;Hidden Valleys;Greening Downs|
+Pleasant Valley|county|human|0|3;12||Satex;High Ranges;Hidden Valleys|
+Goodsburg|barony|human|0|1;4||Satex;High Ranges;Hidden Valleys;Pleasant Valley|
+Niceboro|barony|human|0|2;5||Satex;High Ranges;Hidden Valleys;Pleasant Valley|
+Sunderland|county|human|0|2;7||Satex;High Ranges;Hidden Valleys|
+Aparton|barony|human|0|3;11||Satex;High Ranges;Hidden Valleys;Sunderland|
+Diviton|barony|human|0|3;9||Satex;High Ranges;Hidden Valleys;Sunderland|
+Seperatown|barony|human|0|1;8||Satex;High Ranges;Hidden Valleys;Sunderland|
+Wine Valleys|county|human|1|3;6||Satex;High Ranges;Hidden Valleys|
+Red Valley|barony|human|0|4;3|Commons|Satex;High Ranges;Hidden Valleys;Wine Valleys|
+White Valley|barony|human|0|1;6|Commons|Satex;High Ranges;Hidden Valleys;Wine Valleys|
+Lava Peaks|grand duchy|human|0|1;19||Satex|
+Black Rock|duchy|human|0|6;13||Satex;Lava Peaks|
+Ebony Tower|county|human|0|5;16||Satex;Lava Peaks;Black Rock|
+Ashville|barony|human|0|4;12||Satex;Lava Peaks;Black Rock;Ebony Tower|
+Blackton|barony|human|1|2;9|Commons;Merchants|Satex;Lava Peaks;Black Rock;Ebony Tower|
+Slateboro|barony|human|0|4;7||Satex;Lava Peaks;Black Rock;Ebony Tower|
+Onyx Valley|county|human|0|5;4|Commons|Satex;Lava Peaks;Black Rock|
+Chalcelton|barony|human|1|1;7|Commons;Merchants|Satex;Lava Peaks;Black Rock;Onyx Valley|
+Sardonburg|barony|human|0|3;8|Commons|Satex;Lava Peaks;Black Rock;Onyx Valley|
+Sardville|barony|human|1|4;6||Satex;Lava Peaks;Black Rock;Onyx Valley|
+Molten Lake|duchy|human|0|8;8||Satex;Lava Peaks|
+Lava Springs|county|human|0|6;9||Satex;Lava Peaks;Molten Lake|
+Floeville|barony|human|0|1;5||Satex;Lava Peaks;Molten Lake;Lava Springs|
+Hautboro|barony|human|0|2;6||Satex;Lava Peaks;Molten Lake;Lava Springs|
+Steamy Peak|county|human|0|2;14||Satex;Lava Peaks;Molten Lake|
+Misty Springs|barony|human|0|2;8||Satex;Lava Peaks;Molten Lake;Steamy Peak|
+Weturnboro|barony|human|0|4;10||Satex;Lava Peaks;Molten Lake;Steamy Peak|
+Wofton|barony|human|0|3;6||Satex;Lava Peaks;Molten Lake;Steamy Peak|
+Safe Haven|duchy|human|0|8;14||Satex;Lava Peaks|
+Haven Home|barony|human|1|3;4||Satex;Lava Peaks;Safe Haven|is the capital city of Safe Haven
+Breezy Refuge|county|human|0|3;5||Satex;Lava Peaks;Safe Haven|
+Freeburg|barony|human|1|4;4|Commons;Merchants;Nobles|Satex;Lava Peaks;Safe Haven;Breezy Refuge|
+Futsboro|barony|human|0|1;7||Satex;Lava Peaks;Safe Haven;Breezy Refuge|
+Rambleville|barony|human|1|2;8|Commons;Merchants|Satex;Lava Peaks;Safe Haven;Breezy Refuge|
+Pure Heart|county|human|1|4;15||Satex;Lava Peaks;Safe Haven|
+Merregtown|barony|human|0|3;8|Commons|Satex;Lava Peaks;Safe Haven;Pure Heart|
+Virton|barony|human|1|2;6|Commons;Merchants|Satex;Lava Peaks;Safe Haven;Pure Heart|
+Whiteville|barony|human|0|2;7|Commons|Satex;Lava Peaks;Safe Haven;Pure Heart|
+Virtues Retreat|county|human|0|3;5||Satex;Lava Peaks;Safe Haven|
+Gudsburg|barony|human|0|2;7||Satex;Lava Peaks;Safe Haven;Virtues Retreat|
+Marilboro|barony|human|1|1;8|Commons;Merchants|Satex;Lava Peaks;Safe Haven;Virtues Retreat|
+Two Passes|duchy|human|0|1;17||Satex;Lava Peaks|
+Nor'east Pass|county|human|0|2;15||Satex;Lava Peaks;Two Passes|
+Highton|barony|human|0|2;3||Satex;Lava Peaks;Two Passes;Nor'east Pass|
+Norepaville|barony|human|1|2;4|Commons;Merchants|Satex;Lava Peaks;Two Passes;Nor'east Pass|
+Nor'west Pass|county|human|0|1;5||Satex;Lava Peaks;Two Passes|
+Medlaburg|barony|human|0|3;10||Satex;Lava Peaks;Two Passes;Nor'west Pass|
+Nowepaville|barony|human|0|3;12||Satex;Lava Peaks;Two Passes;Nor'west Pass|
+So'east Pass|county|human|0|3;7||Satex;Lava Peaks;Two Passes|
+Centraboro|barony|human|0|4;5||Satex;Lava Peaks;Two Passes;So'east Pass|
+Soreapaville|barony|human|1|3;5|Commons;Merchants;Nobles|Satex;Lava Peaks;Two Passes;So'east Pass|
+So'west Pass|county|human|0|2;5||Satex;Lava Peaks;Two Passes|
+Lowton|barony|human|1|2;3|Commons;Merchants|Satex;Lava Peaks;Two Passes;So'west Pass|
+Sowepaville|barony|human|0|3;6||Satex;Lava Peaks;Two Passes;So'west Pass|
+Sapphire Lakes|grand duchy|human|0|6;5||Satex|
+Clear Springs|duchy|human|0|3;14||Satex;Sapphire Lakes|
+Bare Springs|county|human|0|6;9||Satex;Sapphire Lakes;Clear Springs|
+Nueton|barony|human|1|4;7|Commons;Merchants|Satex;Sapphire Lakes;Clear Springs;Bare Springs|
+Scidipboro|barony|human|0|2;9||Satex;Sapphire Lakes;Clear Springs;Bare Springs|
+Crystal Springs|county|human|0|1;11||Satex;Sapphire Lakes;Clear Springs|
+Rock Spring|barony|human|0|2;6||Satex;Sapphire Lakes;Clear Springs;Crystal Springs|
+Tranpar Spring|barony|human|1|2;10|Commons;Merchants|Satex;Sapphire Lakes;Clear Springs;Crystal Springs|
+Opal Springs|county|human|0|6;10||Satex;Sapphire Lakes;Clear Springs|
+Fire Spring|barony|human|0|2;9||Satex;Sapphire Lakes;Clear Springs;Opal Springs|
+White Spring|barony|human|0|1;3||Satex;Sapphire Lakes;Clear Springs;Opal Springs|
+Little Lakes|duchy|human|0|1;12||Satex;Sapphire Lakes|
+Brimming Lake|county|human|1|2;9||Satex;Sapphire Lakes;Little Lakes|
+Capville|barony|human|1|3;9|Commons;Merchants;Nobles|Satex;Sapphire Lakes;Little Lakes;Brimming Lake|
+Overton|barony|human|0|2;7|Commons|Satex;Sapphire Lakes;Little Lakes;Brimming Lake|
+Lively Lakes|county|human|0|4;15||Satex;Sapphire Lakes;Little Lakes|
+Buburble Lake|barony|human|0|3;6||Satex;Sapphire Lakes;Little Lakes;Lively Lakes|
+Calm Lake|barony|human|0|3;10||Satex;Sapphire Lakes;Little Lakes;Lively Lakes|
+The Marsh|county|human|0|5;4||Satex;Sapphire Lakes;Little Lakes|
+Depenboro|barony|human|0|2;7||Satex;Sapphire Lakes;Little Lakes;The Marsh|
+Reedtown|barony|human|0|4;2||Satex;Sapphire Lakes;Little Lakes;The Marsh|
+The Ponds|county|human|0|5;8||Satex;Sapphire Lakes;Little Lakes|
+Lapoville|barony|human|1|1;4|Commons;Merchants|Satex;Sapphire Lakes;Little Lakes;The Ponds|
+Polaville|barony|human|0|2;9||Satex;Sapphire Lakes;Little Lakes;The Ponds|
+Twin Ponds|barony|human|0|3;7||Satex;Sapphire Lakes;Little Lakes;The Ponds|
+Sere Bed Lake|duchy|human|0|3;12||Satex;Sapphire Lakes|
+The Bogs|county|human|1|4;14||Satex;Sapphire Lakes;Sere Bed Lake|
+Brownville|barony|human|0|3;4|Commons|Satex;Sapphire Lakes;Sere Bed Lake;The Bogs|
+Graintown|barony|human|0|4;6|Commons|Satex;Sapphire Lakes;Sere Bed Lake;The Bogs|
+Wildburg|barony|human|0|1;7|Commons|Satex;Sapphire Lakes;Sere Bed Lake;The Bogs|
+Dry Lakes|county|human|0|5;6||Satex;Sapphire Lakes;Sere Bed Lake|
+Driville|barony|human|0|3;9||Satex;Sapphire Lakes;Sere Bed Lake;Dry Lakes|
+Lacburg|barony|human|0|1;12||Satex;Sapphire Lakes;Sere Bed Lake;Dry Lakes|
+Parchton|barony|human|0|2;6||Satex;Sapphire Lakes;Sere Bed Lake;Dry Lakes|
+Hot Flats|county|human|0|3;8||Satex;Sapphire Lakes;Sere Bed Lake|
+Flamburg|barony|human|0|3;6||Satex;Sapphire Lakes;Sere Bed Lake;Hot Flats|
+Hearthville|barony|human|1|1;8|Commons;Merchants|Satex;Sapphire Lakes;Sere Bed Lake;Hot Flats|
+Star Lake|duchy|human|0|2;7||Satex;Sapphire Lakes|
+Star Island|barony|human|1|2;11|Commons;Merchants;Nobles|Satex;Sapphire Lakes;Star Lake|is the capital city of Star Lake
+East Shore|county|human|0|2;13||Satex;Sapphire Lakes;Star Lake|
+Comptown|barony|human|0|2;11||Satex;Sapphire Lakes;Star Lake;East Shore|
+East Port|barony|human|1|3;3|Commons;Merchants|Satex;Sapphire Lakes;Star Lake;East Shore|
+North Shore|county|human|0|6;4|Commons|Satex;Sapphire Lakes;Star Lake|
+North Port|barony|human|1|2;7|Commons;Merchants|Satex;Sapphire Lakes;Star Lake;North Shore|
+Norton|barony|human|0|2;5|Commons|Satex;Sapphire Lakes;Star Lake;North Shore|
+Radville|barony|human|1|1;6|Commons;Merchants|Satex;Sapphire Lakes;Star Lake;North Shore|
+South Shore|county|human|0|5;7||Satex;Sapphire Lakes;Star Lake|
+Gyville|barony|human|0|1;4||Satex;Sapphire Lakes;Star Lake;South Shore|
+South Port|barony|human|0|3;6||Satex;Sapphire Lakes;Star Lake;South Shore|
+West Shore|county|human|1|1;12||Satex;Sapphire Lakes;Star Lake|
+West Port|barony|human|0|3;11|Commons|Satex;Sapphire Lakes;Star Lake;West Shore|
+Weston|barony|human|0|2;2|Commons|Satex;Sapphire Lakes;Star Lake;West Shore|
+Winkburg|barony|human|1|4;4|Commons;Merchants|Satex;Sapphire Lakes;Star Lake;West Shore|
+Scorched Wastes|grand duchy|human|0|5;9||Satex|
+Brinktown|barony|human|0|3;8||Satex;Scorched Wastes|
+Fairfield|barony|human|0|1;9||Satex;Scorched Wastes|
+Greenfield|barony|human|0|1;7||Satex;Scorched Wastes|
+Maize End|barony|human|0|3;2||Satex;Scorched Wastes|
+Six Canyons|grand duchy|human|0|1;14||Satex|
+Dark Heart|duchy|human|0|6;12||Satex;Six Canyons|
+Choral Chambers|county|human|1|5;12||Satex;Six Canyons;Dark Heart|
+Manton|barony|human|0|4;4|Commons|Satex;Six Canyons;Dark Heart;Choral Chambers|
+Woburg|barony|human|0|1;5|Commons|Satex;Six Canyons;Dark Heart;Choral Chambers|
+Sun Valley|county|human|0|3;14||Satex;Six Canyons;Dark Heart|
+Blazburg|barony|human|0|3;8||Satex;Six Canyons;Dark Heart;Sun Valley|
+Cirville|barony|human|1|4;10||Satex;Six Canyons;Dark Heart;Sun Valley|
+Rayton|barony|human|0|2;8||Satex;Six Canyons;Dark Heart;Sun Valley|
+Great Bole|duchy|human|1|2;5||Satex;Six Canyons|
+Great Heart|county|human|0|6;3||Satex;Six Canyons;Great Bole|
+Bigston|barony|human|0|3;10||Satex;Six Canyons;Great Bole;Great Heart|
+Flowvile|barony|human|0|4;8|Commons|Satex;Six Canyons;Great Bole;Great Heart|
+Redtown|barony|human|0|3;9|Commons|Satex;Six Canyons;Great Bole;Great Heart|
+Sanctuary|county|human|0|5;7|Commons|Satex;Six Canyons;Great Bole|
+Hideburg|barony|human|0|2;7|Commons|Satex;Six Canyons;Great Bole;Sanctuary|
+Hopeville|barony|human|0|1;4|Commons|Satex;Six Canyons;Great Bole;Sanctuary|
+Marble Ravine|duchy|human|0|3;8||Satex;Six Canyons|
+Lime Steppes|county|human|0|4;7||Satex;Six Canyons;Marble Ravine|
+Glasston|barony|human|0|4;6||Satex;Six Canyons;Marble Ravine;Lime Steppes|
+Quarburg|barony|human|0|3;9||Satex;Six Canyons;Marble Ravine;Lime Steppes|
+Sandville|barony|human|0|3;8||Satex;Six Canyons;Marble Ravine;Lime Steppes|
+Marble Halls|county|human|1|4;16||Satex;Six Canyons;Marble Ravine|
+Maton|barony|human|0|3;7|Commons|Satex;Six Canyons;Marble Ravine;Marble Halls|
+Staton|barony|human|0|3;7|Commons|Satex;Six Canyons;Marble Ravine;Marble Halls|
+Veinburg|barony|human|0|1;9|Commons|Satex;Six Canyons;Marble Ravine;Marble Halls|
+The Pillars|county|human|0|1;8||Satex;Six Canyons;Marble Ravine|
+North Pillar|barony|human|0|1;11||Satex;Six Canyons;Marble Ravine;The Pillars|
+South Pillar|barony|human|0|1;9||Satex;Six Canyons;Marble Ravine;The Pillars|
+Sky Bolt|duchy|human|1|3;10||Satex;Six Canyons|
+Blue Sky|county|human|0|4;10||Satex;Six Canyons;Sky Bolt|
+Clearville|barony|human|0|3;7||Satex;Six Canyons;Sky Bolt;Blue Sky|
+Skyboro|barony|human|1|3;5|Commons;Merchants|Satex;Six Canyons;Sky Bolt;Blue Sky|
+Copper Mines|county|human|0|2;4||Satex;Six Canyons;Sky Bolt|
+Brasstown|barony|human|0|1;8||Satex;Six Canyons;Sky Bolt;Copper Mines|
+Bronzeville|barony|human|1|3;5|Commons;Merchants;Nobles|Satex;Six Canyons;Sky Bolt;Copper Mines|
+Diamond Caves|county|human|0|2;12||Satex;Six Canyons;Sky Bolt|
+Greenville|barony|human|0|1;5||Satex;Six Canyons;Sky Bolt;Diamond Caves|
+Yellowburg|barony|human|1|1;8|Commons;Merchants;Nobles|Satex;Six Canyons;Sky Bolt;Diamond Caves|
+Silver Caverns|county|human|1|1;5||Satex;Six Canyons;Sky Bolt|
+Branchton|barony|human|1|2;9||Satex;Six Canyons;Sky Bolt;Silver Caverns|
+Platsville|barony|human|0|2;7|Commons|Satex;Six Canyons;Sky Bolt;Silver Caverns|
+Silburg|barony|human|0|1;6|Commons|Satex;Six Canyons;Sky Bolt;Silver Caverns|
+Stone Wreath|duchy|human|0|3;10||Satex;Six Canyons|
+Green Caverns|county|human|0|6;9||Satex;Six Canyons;Stone Wreath|
+Bloodston|barony|human|0|4;7||Satex;Six Canyons;Stone Wreath;Green Caverns|
+Emeraldtown|barony|human|0|2;9||Satex;Six Canyons;Stone Wreath;Green Caverns|
+Periville|barony|human|0|1;6||Satex;Six Canyons;Stone Wreath;Green Caverns|
+Red Knot|county|human|1|5;3||Satex;Six Canyons;Stone Wreath|
+Garnetburg|barony|human|0|1;10|Commons;Merchants|Satex;Six Canyons;Stone Wreath;Red Knot|
+Rhodonton|barony|human|0|3;10|Commons|Satex;Six Canyons;Stone Wreath;Red Knot|
+Rubyville|barony|human|0|4;3|Commons;Merchants|Satex;Six Canyons;Stone Wreath;Red Knot|
+Streaming Valley|duchy|human|1|1;7||Satex;Six Canyons|
+Fjord River|county|human|0|3;6|Commons|Satex;Six Canyons;Streaming Valley|
+East Crossing|barony|human|0|4;4|Commons;Merchants|Satex;Six Canyons;Streaming Valley;Fjord River|
+Fisherville|barony|human|0|3;7|Commons|Satex;Six Canyons;Streaming Valley;Fjord River|
+West Crossing|barony|human|0|4;6|Commons|Satex;Six Canyons;Streaming Valley;Fjord River|
+Gold Beds|county|human|0|1;12||Satex;Six Canyons;Streaming Valley|
+Fultown|barony|human|0|4;9|Commons|Satex;Six Canyons;Streaming Valley;Gold Beds|
+Jewelville|barony|human|0|2;8||Satex;Six Canyons;Streaming Valley;Gold Beds|
+Ringburg|barony|human|0|4;8||Satex;Six Canyons;Streaming Valley;Gold Beds|
+Lower Streams|county|human|1|6;16||Satex;Six Canyons;Streaming Valley|
+Linetown|barony|human|0|4;9|Commons|Satex;Six Canyons;Streaming Valley;Lower Streams|
+Polesville|barony|human|0|1;6|Commons;Merchants|Satex;Six Canyons;Streaming Valley;Lower Streams|
+Tackleburg|barony|human|1|3;10||Satex;Six Canyons;Streaming Valley;Lower Streams|
+The Labyrinth|county|human|0|3;8||Satex;Six Canyons;Streaming Valley|
+Finishton|barony|human|1|2;2|Commons;Merchants;Nobles|Satex;Six Canyons;Streaming Valley;The Labyrinth|
+Pathboro|barony|human|0|4;6||Satex;Six Canyons;Streaming Valley;The Labyrinth|
+Puzleville|barony|human|0|3;6||Satex;Six Canyons;Streaming Valley;The Labyrinth|
+Upper Streams|county|human|1|1;3||Satex;Six Canyons;Streaming Valley|
+Fallsville|barony|human|1|4;6|Commons;Merchants;Nobles|Satex;Six Canyons;Streaming Valley;Upper Streams|
+Laketown|barony|human|0|4;7|Commons|Satex;Six Canyons;Streaming Valley;Upper Streams|
+Imperial Court of Satex|imperial court|human|0|0;21|||
+Strafet|kingdom|human|0|7;12|||
+Bright Gem|grand duchy|gnome|0|3;5||Strafet|
+Deep Hold|duchy|gnome|0|5;14||Strafet;Bright Gem|
+Beryland|county|gnome|0|3;7||Strafet;Bright Gem;Deep Hold|
+Aquahome|barony|gnome|0|3;4||Strafet;Bright Gem;Deep Hold;Beryland|
+Emerahome|barony|gnome|0|4;11||Strafet;Bright Gem;Deep Hold;Beryland|
+Redhome|barony|gnome|0|4;6||Strafet;Bright Gem;Deep Hold;Beryland|
+Quartzland|county|gnome|0|3;12||Strafet;Bright Gem;Deep Hold|
+Amethome|barony|gnome|0|1;9||Strafet;Bright Gem;Deep Hold;Quartzland|
+Rosehome|barony|gnome|0|2;10||Strafet;Bright Gem;Deep Hold;Quartzland|
+Forest Hold|duchy|gnome|0|1;13||Strafet;Bright Gem|
+Riversea|county|gnome|0|6;8||Strafet;Bright Gem;Forest Hold|
+Bountiful|barony|gnome|0|2;6||Strafet;Bright Gem;Forest Hold;Riversea|
+Manyriver|barony|gnome|0|4;9||Strafet;Bright Gem;Forest Hold;Riversea|
+Verifields|barony|gnome|0|1;8||Strafet;Bright Gem;Forest Hold;Riversea|
+Wildwoods|county|gnome/human|1|2;12||Strafet;Bright Gem;Forest Hold|
+Darebush|barony|gnome|0|3;9|Commons|Strafet;Bright Gem;Forest Hold;Wildwoods|
+Stormyvale|barony|gnome|0|1;7||Strafet;Bright Gem;Forest Hold;Wildwoods|
+Woodlands|county|gnome/human|1|3;16||Strafet;Bright Gem;Forest Hold|
+Manyburrow|barony|gnome|0|4;7|Commons|Strafet;Bright Gem;Forest Hold;Woodlands|
+Treehome|barony|gnome|0|2;11||Strafet;Bright Gem;Forest Hold;Woodlands|
+Rock Hold|duchy|gnome/human|1|5;14||Strafet;Bright Gem|
+Founding|county|gnome|0|2;5||Strafet;Bright Gem;Rock Hold|
+Everrest|barony|gnome|0|1;10||Strafet;Bright Gem;Rock Hold;Founding|
+Mainstay|barony|gnome|0|1;4||Strafet;Bright Gem;Rock Hold;Founding|
+Mineraland|county|gnome|0|5;14||Strafet;Bright Gem;Rock Hold|
+Igniahome|barony|gnome|0|3;9||Strafet;Bright Gem;Rock Hold;Mineraland|
+Sedimence|barony|gnome|0|4;9||Strafet;Bright Gem;Rock Hold;Mineraland|
+Stonehome|county|gnome|0|2;8||Strafet;Bright Gem;Rock Hold|
+Homehold|barony|gnome|0|1;6|Commons|Strafet;Bright Gem;Rock Hold;Stonehome|
+Rockland|barony|gnome|0|1;8||Strafet;Bright Gem;Rock Hold;Stonehome|
+Solidence|barony|gnome|0|4;9||Strafet;Bright Gem;Rock Hold;Stonehome|
+Bigtree|grand duchy|halfling|0|8;10||Strafet|
+Forrest Glades|duchy|halfling|0|6;4||Strafet;Bigtree|
+Skyglade|county|halfling|0|1;12||Strafet;Bigtree;Forrest Glades|
+Moonwillow|barony|halfling|0|1;6||Strafet;Bigtree;Forrest Glades;Skyglade|
+Starbush|barony|halfling|0|1;7|Commons|Strafet;Bigtree;Forrest Glades;Skyglade|
+Sunpine|barony|halfling|0|3;5||Strafet;Bigtree;Forrest Glades;Skyglade|
+Two Rivers|county|halfling|0|2;10||Strafet;Bigtree;Forrest Glades|
+Coldflow|barony|halfling|0|3;8||Strafet;Bigtree;Forrest Glades;Two Rivers|
+Quicksea|barony|halfling|0|4;4||Strafet;Bigtree;Forrest Glades;Two Rivers|
+Wandersend|county|halfling|0|5;8||Strafet;Bigtree;Forrest Glades|
+Greenleaf|barony|halfling|0|4;5||Strafet;Bigtree;Forrest Glades;Wandersend|
+Riverglen|barony|halfling/human|1|3;2||Strafet;Bigtree;Forrest Glades;Wandersend|
+Wander Trails|duchy|halfling|0|8;13||Strafet;Bigtree|
+Driftingpath|county|halfling|0|6;7|Commons|Strafet;Bigtree;Wander Trails|
+Galerunner|barony|halfling/human|1|2;6||Strafet;Bigtree;Wander Trails;Driftingpath|
+Ramblesong|barony|halfling/human|1|1;9|Commons;Merchants;Martial|Strafet;Bigtree;Wander Trails;Driftingpath|
+Wanderfoot|barony|halfling|0|1;9|Commons|Strafet;Bigtree;Wander Trails;Driftingpath|
+Rambletrack|county|halfling|0|3;7||Strafet;Bigtree;Wander Trails|
+Meanderheart|barony|halfling/human|1|4;8||Strafet;Bigtree;Wander Trails;Rambletrack|
+Neverhome|barony|halfling|0|2;4||Strafet;Bigtree;Wander Trails;Rambletrack|
+Straggletrail|barony|halfling|0|3;5||Strafet;Bigtree;Wander Trails;Rambletrack|
+Rollingway|county|halfling|0|3;9||Strafet;Bigtree;Wander Trails|
+Coinstride|barony|halfling|0|4;7||Strafet;Bigtree;Wander Trails;Rollingway|
+Stonesthrow|barony|halfling|0|4;8||Strafet;Bigtree;Wander Trails;Rollingway|
+Trailfender|barony|halfling|0|1;8||Strafet;Bigtree;Wander Trails;Rollingway|
+Imperial Court of Strafet|imperial court|human|0|0;24|||
+Zilarb|kingdom|zarden|0|17;12|||
+Bliss Valley|grand duchy|zarden|0|5;11||Zilarb|
+Bone Valley|duchy|human|0|2;2|Commons|Zilarb;Bliss Valley|
+Salt Flats|county|zarden|1|1;6||Zilarb;Bliss Valley;Bone Valley|
+Aciton|barony|human|0|3;3||Zilarb;Bliss Valley;Bone Valley;Salt Flats|
+Limeston|barony|human|0|1;7||Zilarb;Bliss Valley;Bone Valley;Salt Flats|
+Valley of Rocks|county|zarden|1|2;8||Zilarb;Bliss Valley;Bone Valley|
+Goldton|barony|human|1|4;10||Zilarb;Bliss Valley;Bone Valley;Valley of Rocks|
+Platown|barony|zarden|1|3;2|Commons;Merchants|Zilarb;Bliss Valley;Bone Valley;Valley of Rocks|
+Silville|barony|zarden|1|2;10|Commons;Merchants;Nobles|Zilarb;Bliss Valley;Bone Valley;Valley of Rocks|
+Lush Prairies|duchy|zarden|0|1;15||Zilarb;Bliss Valley|
+Clear Valley|county|zarden|0|2;11||Zilarb;Bliss Valley;Lush Prairies|
+Obsidton|barony|human|0|1;5||Zilarb;Bliss Valley;Lush Prairies;Clear Valley|
+Tektown|barony|human|0|1;6||Zilarb;Bliss Valley;Lush Prairies;Clear Valley|
+Harvest's Bounty|county|zarden|1|2;14||Zilarb;Bliss Valley;Lush Prairies|
+Milletown|barony|human|0|1;5|Commons|Zilarb;Bliss Valley;Lush Prairies;Harvest's Bounty|
+Oaton|barony|human|0|4;8|Commons|Zilarb;Bliss Valley;Lush Prairies;Harvest's Bounty|
+Ryville|barony|human|0|1;12|Commons|Zilarb;Bliss Valley;Lush Prairies;Harvest's Bounty|
+Land's Charity|county|human|0|1;8||Zilarb;Bliss Valley;Lush Prairies|
+Lemton|barony|zarden|0|1;7||Zilarb;Bliss Valley;Lush Prairies;Land's Charity|
+Limville|barony|human|0|2;6||Zilarb;Bliss Valley;Lush Prairies;Land's Charity|
+Oranburg|barony|zarden|0|2;4||Zilarb;Bliss Valley;Lush Prairies;Land's Charity|
+Marsh Flats|county|human|1|6;11||Zilarb;Bliss Valley;Lush Prairies|
+Algburg|barony|human|0|3;4|Commons|Zilarb;Bliss Valley;Lush Prairies;Marsh Flats|
+Cranboro|barony|zarden|0|1;4|Commons|Zilarb;Bliss Valley;Lush Prairies;Marsh Flats|
+Ricville|barony|human|0|4;6|Commons|Zilarb;Bliss Valley;Lush Prairies;Marsh Flats|
+Tiller's Delight|county|human|0|6;5||Zilarb;Bliss Valley;Lush Prairies|
+Breakton|barony|human|0|4;9||Zilarb;Bliss Valley;Lush Prairies;Tiller's Delight|
+Furrowfield|barony|human|0|3;7||Zilarb;Bliss Valley;Lush Prairies;Tiller's Delight|
+Tillville|barony|human|1|4;7||Zilarb;Bliss Valley;Lush Prairies;Tiller's Delight|
+Placid Portage|duchy|zarden|1|7;18||Zilarb;Bliss Valley|
+Easy Trails|county|human|0|5;8|Commons|Zilarb;Bliss Valley;Placid Portage|
+Appleton|barony|zarden|0|4;12|Commons|Zilarb;Bliss Valley;Placid Portage;Easy Trails|
+Peachburg|barony|human|0|2;4|Commons|Zilarb;Bliss Valley;Placid Portage;Easy Trails|
+Pearville|barony|zarden|0|3;6|Commons|Zilarb;Bliss Valley;Placid Portage;Easy Trails|
+Reaper's Calm|county|human|0|2;8||Zilarb;Bliss Valley;Placid Portage|
+Colleton|barony|human|0|2;6||Zilarb;Bliss Valley;Placid Portage;Reaper's Calm|
+Gatherburg|barony|zarden|0|1;8||Zilarb;Bliss Valley;Placid Portage;Reaper's Calm|
+Harveston|barony|human|0|2;4|Commons|Zilarb;Bliss Valley;Placid Portage;Reaper's Calm|
+Soothing Vale|county|zarden|1|6;8||Zilarb;Bliss Valley;Placid Portage|
+Alton|barony|human|1|1;7||Zilarb;Bliss Valley;Placid Portage;Soothing Vale|
+Bassburg|barony|zarden|1|2;8|Commons;Merchants;Nobles;Martial|Zilarb;Bliss Valley;Placid Portage;Soothing Vale|
+Tenoboro|barony|human|0|2;8||Zilarb;Bliss Valley;Placid Portage;Soothing Vale|
+Tempered Fields|county|zarden|0|4;9|Commons|Zilarb;Bliss Valley;Placid Portage|
+Loamboro|barony|human|1|4;6|Commons;Merchants;Nobles|Zilarb;Bliss Valley;Placid Portage;Tempered Fields|
+Sodton|barony|human|0|1;5|Commons|Zilarb;Bliss Valley;Placid Portage;Tempered Fields|
+Sered Valley|duchy|human|0|6;10||Zilarb;Bliss Valley|
+Cool Burn|county|human|0|1;10||Zilarb;Bliss Valley;Sered Valley|
+Blueburg|barony|human|0|2;10||Zilarb;Bliss Valley;Sered Valley;Cool Burn|
+Greenton|barony|human|0|4;11||Zilarb;Bliss Valley;Sered Valley;Cool Burn|
+Redville|barony|human|0|1;11||Zilarb;Bliss Valley;Sered Valley;Cool Burn|
+Farmer's Glory|county|human|0|3;10|Commons|Zilarb;Bliss Valley;Sered Valley|
+Baskingboro|barony|human|1|3;10|Commons;Merchants|Zilarb;Bliss Valley;Sered Valley;Farmer's Glory|
+Lazingtown|barony|human|0|3;5|Commons|Zilarb;Bliss Valley;Sered Valley;Farmer's Glory|
+Serpent River|duchy|zarden|0|3;16|Commons|Zilarb;Bliss Valley|
+North Serpent River|county|zarden|0|1;12|Commons|Zilarb;Bliss Valley;Serpent River|
+North Bank|barony|zarden|0|3;11|Commons|Zilarb;Bliss Valley;Serpent River;North Serpent River|
+North Fens|barony|zarden|0|4;6|Commons|Zilarb;Bliss Valley;Serpent River;North Serpent River|
+Snake Fens|county|zarden|1|5;7||Zilarb;Bliss Valley;Serpent River|
+Biton|barony|zarden|0|1;5|Commons;Merchants|Zilarb;Bliss Valley;Serpent River;Snake Fens|
+Fanburg|barony|zarden|0|1;8|Commons|Zilarb;Bliss Valley;Serpent River;Snake Fens|
+Scaville|barony|zarden|0|2;8|Commons;Merchants|Zilarb;Bliss Valley;Serpent River;Snake Fens|
+South Serpent River|county|zarden|0|3;4|Commons;Merchants|Zilarb;Bliss Valley;Serpent River|
+South Bank|barony|zarden|1|1;6|Commons;Merchants;Nobles|Zilarb;Bliss Valley;Serpent River;South Serpent River|
+South Fens|barony|zarden|0|2;6|Commons;Merchants|Zilarb;Bliss Valley;Serpent River;South Serpent River|
+Chiriki|grand duchy|zarden|1|4;17||Zilarb|
+Ansosis|duchy|zarden|0|3;9||Zilarb;Chiriki|
+Jekaxoc|county|zarden|1|1;3||Zilarb;Chiriki;Ansosis|
+Gassukok|barony|zarden|0|2;4||Zilarb;Chiriki;Ansosis;Jekaxoc|
+Mosol|barony|zarden|1|1;9|Commons;Merchants|Zilarb;Chiriki;Ansosis;Jekaxoc|
+Qothosov|county|zarden|0|2;9||Zilarb;Chiriki;Ansosis|
+Gozzasezz|barony|zarden|0|2;5||Zilarb;Chiriki;Ansosis;Qothosov|
+Yevossoth|barony|zarden|0|3;3||Zilarb;Chiriki;Ansosis;Qothosov|
+Vithothuzz|county|zarden|1|2;9||Zilarb;Chiriki;Ansosis|
+Jessassac|barony|zarden|0|2;9|Commons|Zilarb;Chiriki;Ansosis;Vithothuzz|
+Xizelul|barony|zarden|0|1;11|Commons|Zilarb;Chiriki;Ansosis;Vithothuzz|
+Rilazzess|county|zarden|0|3;10||Zilarb;Chiriki;Ansosis|
+Rechalech|barony|zarden|1|2;9|Commons;Merchants|Zilarb;Chiriki;Ansosis;Rilazzess|
+Sichozz|barony|zarden|0|4;9|Commons|Zilarb;Chiriki;Ansosis;Rilazzess|
+Xozuv|barony|zarden|0|3;10||Zilarb;Chiriki;Ansosis;Rilazzess|
+Xekecal|county|zarden|1|4;7||Zilarb;Chiriki;Ansosis|
+Kezzokul|barony|zarden|0|3;10|Commons|Zilarb;Chiriki;Ansosis;Xekecal|
+Mossev|barony|zarden|0|4;11|Commons|Zilarb;Chiriki;Ansosis;Xekecal|
+Talic|barony|zarden|0|1;5|Commons|Zilarb;Chiriki;Ansosis;Xekecal|
+Orlixs|duchy|zarden|0|3;13||Zilarb;Chiriki|
+Lothussuth|county|zarden|0|3;11||Zilarb;Chiriki;Orlixs|
+Jethic|barony|zarden|0|3;11||Zilarb;Chiriki;Orlixs;Lothussuth|
+Rathich|barony|zarden|0|3;2||Zilarb;Chiriki;Orlixs;Lothussuth|
+Malek|county|zarden|0|6;11||Zilarb;Chiriki;Orlixs|
+Gissuchiz|barony|zarden|1|1;7|Commons;Merchants|Zilarb;Chiriki;Orlixs;Malek|
+Sakess|barony|zarden|0|1;7||Zilarb;Chiriki;Orlixs;Malek|
+Sozossas|county|zarden|0|5;10|Commons|Zilarb;Chiriki;Orlixs|
+Qivezz|barony|zarden|0|2;7|Commons;Merchants|Zilarb;Chiriki;Orlixs;Sozossas|
+Quthal|barony|zarden|0|3;8|Commons;Merchants|Zilarb;Chiriki;Orlixs;Sozossas|
+Tiloch|barony|zarden|0|2;5|Commons|Zilarb;Chiriki;Orlixs;Sozossas|
+Ririsis|duchy|zarden|0|3;18||Zilarb;Chiriki|
+Culoc|county|zarden|0|5;10||Zilarb;Chiriki;Ririsis|
+Kachaviz|barony|zarden|0|4;8||Zilarb;Chiriki;Ririsis;Culoc|
+Muzzus|barony|zarden|0|4;4||Zilarb;Chiriki;Ririsis;Culoc|
+Polakel|barony|zarden|0|2;9||Zilarb;Chiriki;Ririsis;Culoc|
+Luselak|county|zarden|0|1;13|Commons;Merchants|Zilarb;Chiriki;Ririsis|
+Buchizas|barony|zarden|0|4;9|Commons;Merchants|Zilarb;Chiriki;Ririsis;Luselak|
+Diluc|barony|zarden|0|2;9|Commons;Merchants|Zilarb;Chiriki;Ririsis;Luselak|
+Gazucol|barony|zarden|0|4;8|Commons;Merchants|Zilarb;Chiriki;Ririsis;Luselak|
+Tavesik|county|zarden|0|5;6||Zilarb;Chiriki;Ririsis|
+Xelizz|barony|zarden|0|2;3||Zilarb;Chiriki;Ririsis;Tavesik|
+Xossez|barony|zarden|1|4;7||Zilarb;Chiriki;Ririsis;Tavesik|
+Sarsasa|duchy|zarden|0|1;8||Zilarb;Chiriki|
+Fazzezz|county|zarden|1|6;8||Zilarb;Chiriki;Sarsasa|
+Kosez|barony|zarden|1|2;10|Commons;Merchants|Zilarb;Chiriki;Sarsasa;Fazzezz|
+Quthux|barony|zarden|0|3;6|Commons|Zilarb;Chiriki;Sarsasa;Fazzezz|
+Resol|barony|zarden|0|3;3|Commons|Zilarb;Chiriki;Sarsasa;Fazzezz|
+Kikusux|county|zarden|0|1;9||Zilarb;Chiriki;Sarsasa|
+Gekoth|barony|zarden|0|4;2|Commons|Zilarb;Chiriki;Sarsasa;Kikusux|
+Nosazz|barony|zarden|0|2;5||Zilarb;Chiriki;Sarsasa;Kikusux|
+Lusich|county|zarden|0|6;6||Zilarb;Chiriki;Sarsasa|
+Bicec|barony|zarden|0|1;7||Zilarb;Chiriki;Sarsasa;Lusich|
+Qosizz|barony|zarden|1|1;11||Zilarb;Chiriki;Sarsasa;Lusich|
+Rozik|barony|zarden|1|4;6|Commons;Merchants;Nobles;Martial|Zilarb;Chiriki;Sarsasa;Lusich|
+Thochar|duchy|zarden|0|4;10||Zilarb;Chiriki|
+Bithossath|county|zarden|0|4;8||Zilarb;Chiriki;Thochar|
+Nuthuzzax|barony|zarden|1|2;5||Zilarb;Chiriki;Thochar;Bithossath|
+Xalovil|barony|zarden|0|3;12||Zilarb;Chiriki;Thochar;Bithossath|
+Fekicezz|county|zarden|0|3;6|Commons|Zilarb;Chiriki;Thochar|
+Meliz|barony|zarden|0|3;5|Commons|Zilarb;Chiriki;Thochar;Fekicezz|
+Qisuvux|barony|zarden|0|1;9|Commons|Zilarb;Chiriki;Thochar;Fekicezz|
+Hashech|county|zarden|0|6;7|Commons|Zilarb;Chiriki;Thochar|
+Qisix|barony|zarden|0|1;2|Commons|Zilarb;Chiriki;Thochar;Hashech|
+Wosoch|barony|zarden|0|3;9|Commons|Zilarb;Chiriki;Thochar;Hashech|
+Wosukezz|barony|zarden|0|3;5|Commons|Zilarb;Chiriki;Thochar;Hashech|
+Sussusach|county|zarden|0|3;12||Zilarb;Chiriki;Thochar|
+Methekik|barony|zarden|0|3;10|Commons|Zilarb;Chiriki;Thochar;Sussusach|
+Zavas|barony|zarden|0|2;12||Zilarb;Chiriki;Thochar;Sussusach|
+Tesizzav|county|zarden|0|4;9||Zilarb;Chiriki;Thochar|
+Bosaluc|barony|zarden|1|4;8|Commons|Zilarb;Chiriki;Thochar;Tesizzav|
+Lochekel|barony|zarden|1|3;10|Commons;Merchants;Nobles;Martial|Zilarb;Chiriki;Thochar;Tesizzav|
+Wozzk|duchy|zarden|1|7;10||Zilarb;Chiriki|
+Juzzisek|county|zarden|0|2;8|Commons|Zilarb;Chiriki;Wozzk|
+Kozissol|barony|zarden|0|3;3|Commons;Merchants|Zilarb;Chiriki;Wozzk;Juzzisek|
+Sasavez|barony|zarden|0|1;8|Commons;Merchants|Zilarb;Chiriki;Wozzk;Juzzisek|
+Xazel|barony|zarden|0|2;4|Commons|Zilarb;Chiriki;Wozzk;Juzzisek|
+Zassozz|county|zarden|0|3;5||Zilarb;Chiriki;Wozzk|
+Hozziss|barony|zarden|0|3;5|Commons|Zilarb;Chiriki;Wozzk;Zassozz|
+Rassochash|barony|zarden|0|3;7||Zilarb;Chiriki;Wozzk;Zassozz|
+Zasoxoc|barony|zarden|0|1;6||Zilarb;Chiriki;Wozzk;Zassozz|
+Deep Water|grand duchy|zarden|0|3;13||Zilarb|
+Bogs' Bounty|duchy|human|1|7;12||Zilarb;Deep Water|
+Mire's Generosity|county|human|0|5;11|Commons|Zilarb;Deep Water;Bogs' Bounty|
+Borrowburg|barony|human|0|3;6|Commons|Zilarb;Deep Water;Bogs' Bounty;Mire's Generosity|
+Giville|barony|human|1|1;6|Commons;Merchants|Zilarb;Deep Water;Bogs' Bounty;Mire's Generosity|
+Lenton|barony|human|0|2;9|Commons|Zilarb;Deep Water;Bogs' Bounty;Mire's Generosity|
+Open Swamp|county|human|1|3;12||Zilarb;Deep Water;Bogs' Bounty|
+Flatsboro|barony|human|0|2;7|Commons;Merchants|Zilarb;Deep Water;Bogs' Bounty;Open Swamp|
+Serenevile|barony|human|0|2;4|Commons|Zilarb;Deep Water;Bogs' Bounty;Open Swamp|
+Plentiful Fens|county|zarden|0|6;12|Commons|Zilarb;Deep Water;Bogs' Bounty|
+Abunton|barony|human|0|3;3|Commons|Zilarb;Deep Water;Bogs' Bounty;Plentiful Fens|
+Bountyburg|barony|human|1|3;6|Commons;Merchants|Zilarb;Deep Water;Bogs' Bounty;Plentiful Fens|
+Treaville|barony|human|1|4;3|Commons;Merchants;Nobles;Martial|Zilarb;Deep Water;Bogs' Bounty;Plentiful Fens|
+Dry Marsh|duchy|zarden|0|2;13|Commons|Zilarb;Deep Water|
+Dried Fens|county|human|0|4;11|Commons;Merchants|Zilarb;Deep Water;Dry Marsh|
+Coakeburg|barony|human|1|3;6|Commons;Merchants;Nobles|Zilarb;Deep Water;Dry Marsh;Dried Fens|
+Fryreboro|barony|human|0|1;8|Commons;Merchants|Zilarb;Deep Water;Dry Marsh;Dried Fens|
+Rough Mire|county|human|1|1;9||Zilarb;Deep Water;Dry Marsh|
+Cragville|barony|human|0|2;6||Zilarb;Deep Water;Dry Marsh;Rough Mire|
+Harshton|barony|human|0|4;6||Zilarb;Deep Water;Dry Marsh;Rough Mire|
+Scragburg|barony|human|0|1;5||Zilarb;Deep Water;Dry Marsh;Rough Mire|
+Sere Swamp|county|zarden|1|2;8||Zilarb;Deep Water;Dry Marsh|
+Barreton|barony|human|1|3;8||Zilarb;Deep Water;Dry Marsh;Sere Swamp|
+Parcville|barony|human|0|2;8|Commons;Merchants|Zilarb;Deep Water;Dry Marsh;Sere Swamp|
+Sapboro|barony|human|0|2;4|Commons|Zilarb;Deep Water;Dry Marsh;Sere Swamp|
+Four Bogs|duchy|zarden|0|5;14|Commons|Zilarb;Deep Water|
+East Bogs|county|zarden|1|2;15||Zilarb;Deep Water;Four Bogs|
+Noeaseaston|barony|human|1|3;4|Commons;Merchants;Nobles;Martial|Zilarb;Deep Water;Four Bogs;East Bogs|
+Soeaseaston|barony|human|0|1;10|Commons|Zilarb;Deep Water;Four Bogs;East Bogs|
+North Bogs|county|zarden|1|3;12||Zilarb;Deep Water;Four Bogs|
+Nonoeaston|barony|human|0|3;7|Commons|Zilarb;Deep Water;Four Bogs;North Bogs|
+Nonoweston|barony|human|1|2;7|Commons;Merchants;Nobles|Zilarb;Deep Water;Four Bogs;North Bogs|
+South Bogs|county|zarden|0|2;11|Commons|Zilarb;Deep Water;Four Bogs|
+Sosoeaston|barony|human|1|4;8|Commons;Merchants|Zilarb;Deep Water;Four Bogs;South Bogs|
+Sosoweston|barony|human|0|3;9|Commons|Zilarb;Deep Water;Four Bogs;South Bogs|
+West Bogs|county|zarden|0|3;12|Commons;Merchants|Zilarb;Deep Water;Four Bogs|
+Nowesweston|barony|human|0|3;5|Commons;Merchants|Zilarb;Deep Water;Four Bogs;West Bogs|
+Sowesweston|barony|human|1|2;8|Commons;Merchants|Zilarb;Deep Water;Four Bogs;West Bogs|
+Hidden Lakes|duchy|human|0|7;12||Zilarb;Deep Water|
+Painted Ponds|county|human|0|5;12||Zilarb;Deep Water;Hidden Lakes|
+Dioptville|barony|human|0|2;7||Zilarb;Deep Water;Hidden Lakes;Painted Ponds|
+Lapislan|barony|human|0|4;11||Zilarb;Deep Water;Hidden Lakes;Painted Ponds|
+Malaton|barony|human|0|3;5||Zilarb;Deep Water;Hidden Lakes;Painted Ponds|
+Red Lake|county|zarden|0|6;4||Zilarb;Deep Water;Hidden Lakes|
+Corville|barony|human|0|2;10||Zilarb;Deep Water;Hidden Lakes;Red Lake|
+Crimston|barony|human|0|3;3||Zilarb;Deep Water;Hidden Lakes;Red Lake|
+Hollyville|barony|human|0|2;8||Zilarb;Deep Water;Hidden Lakes;Red Lake|
+Royal Lake|county|zarden|0|4;4||Zilarb;Deep Water;Hidden Lakes|
+Springville|barony|human|0|1;10||Zilarb;Deep Water;Hidden Lakes;Royal Lake|
+Tealburg|barony|human|1|3;7|Commons;Merchants|Zilarb;Deep Water;Hidden Lakes;Royal Lake|
+Valley of Mist|county|zarden|0|1;10||Zilarb;Deep Water;Hidden Lakes|
+Clearville|barony|human|0|4;2||Zilarb;Deep Water;Hidden Lakes;Valley of Mist|
+Greyton|barony|human|0|2;5||Zilarb;Deep Water;Hidden Lakes;Valley of Mist|
+Valley of Rain|county|human|1|1;14||Zilarb;Deep Water;Hidden Lakes|
+Driopton|barony|human|0|2;7||Zilarb;Deep Water;Hidden Lakes;Valley of Rain|
+Plodleville|barony|human|0|3;5||Zilarb;Deep Water;Hidden Lakes;Valley of Rain|
+Ribtrip|grand duchy|zarden|1|4;11||Zilarb|
+Biszork|duchy|zarden|1|6;11||Zilarb;Ribtrip|
+Cochixec|county|zarden|0|1;8|Commons;Merchants|Zilarb;Ribtrip;Biszork|
+Dessash|barony|zarden|0|1;7|Commons;Merchants|Zilarb;Ribtrip;Biszork;Cochixec|
+Ficocoss|barony|zarden|1|3;6|Commons;Merchants|Zilarb;Ribtrip;Biszork;Cochixec|
+Nicuzol|barony|zarden|1|1;7|Commons;Merchants|Zilarb;Ribtrip;Biszork;Cochixec|
+Wixusik|county|zarden|0|3;2||Zilarb;Ribtrip;Biszork|
+Bokazeth|barony|zarden|0|2;7||Zilarb;Ribtrip;Biszork;Wixusik|
+Mothukec|barony|zarden|0|3;10||Zilarb;Ribtrip;Biszork;Wixusik|
+Xussavis|barony|zarden|0|2;4||Zilarb;Ribtrip;Biszork;Wixusik|
+Frilazi|duchy|zarden|0|6;5||Zilarb;Ribtrip|
+Civassuk|county|zarden|0|6;8||Zilarb;Ribtrip;Frilazi|
+Dicix|barony|zarden|0|2;12||Zilarb;Ribtrip;Frilazi;Civassuk|
+Jochassel|barony|zarden|0|3;8||Zilarb;Ribtrip;Frilazi;Civassuk|
+Puzizz|barony|zarden|0|3;5||Zilarb;Ribtrip;Frilazi;Civassuk|
+Gecus|county|zarden|0|1;9||Zilarb;Ribtrip;Frilazi|
+Jacivis|barony|zarden|0|2;8||Zilarb;Ribtrip;Frilazi;Gecus|
+Qothucos|barony|zarden|0|1;8||Zilarb;Ribtrip;Frilazi;Gecus|
+Pulichex|county|zarden|1|6;13||Zilarb;Ribtrip;Frilazi|
+Bizavuch|barony|zarden|0|2;6||Zilarb;Ribtrip;Frilazi;Pulichex|
+Nuvuc|barony|zarden|0|4;2||Zilarb;Ribtrip;Frilazi;Pulichex|
+Vuxazzux|county|zarden|0|2;6||Zilarb;Ribtrip;Frilazi|
+Fessaxiv|barony|zarden|0|1;5||Zilarb;Ribtrip;Frilazi;Vuxazzux|
+Mechiss|barony|zarden|0|4;6||Zilarb;Ribtrip;Frilazi;Vuxazzux|
+Paxas|barony|zarden|0|2;5|Commons;Merchants|Zilarb;Ribtrip;Frilazi;Vuxazzux|
+Krisis|duchy|zarden|0|6;8||Zilarb;Ribtrip|
+Hekazav|county|zarden|0|5;10||Zilarb;Ribtrip;Krisis|
+Fisesath|barony|zarden|1|2;9||Zilarb;Ribtrip;Krisis;Hekazav|
+Giluv|barony|zarden|1|1;6||Zilarb;Ribtrip;Krisis;Hekazav|
+Zashov|barony|zarden|0|2;10||Zilarb;Ribtrip;Krisis;Hekazav|
+Huzzuthal|county|zarden|0|5;12||Zilarb;Ribtrip;Krisis|
+Lozes|barony|zarden|0|2;8||Zilarb;Ribtrip;Krisis;Huzzuthal|
+Wikok|barony|zarden|0|2;4||Zilarb;Ribtrip;Krisis;Huzzuthal|
+Jossez|county|zarden|0|6;14|Commons|Zilarb;Ribtrip;Krisis|
+Dalech|barony|zarden|1|2;9|Commons;Merchants|Zilarb;Ribtrip;Krisis;Jossez|
+Ravoch|barony|zarden|0|1;7|Commons|Zilarb;Ribtrip;Krisis;Jossez|
+Sezisuzz|barony|zarden|0|2;5|Commons|Zilarb;Ribtrip;Krisis;Jossez|
+Puzzul|county|zarden|0|4;7||Zilarb;Ribtrip;Krisis|
+Dithiv|barony|zarden|0|4;3||Zilarb;Ribtrip;Krisis;Puzzul|
+Vikosik|barony|zarden|0|1;7||Zilarb;Ribtrip;Krisis;Puzzul|
+Zaxil|barony|zarden|0|1;6||Zilarb;Ribtrip;Krisis;Puzzul|
+Worah|duchy|zarden|0|5;14||Zilarb;Ribtrip|
+Quzzol|county|zarden|0|3;11|Commons|Zilarb;Ribtrip;Worah|
+Tezzethech|barony|zarden|1|3;5|Commons;Merchants|Zilarb;Ribtrip;Worah;Quzzol|
+Yuxazzass|barony|zarden|1|1;6|Commons;Merchants|Zilarb;Ribtrip;Worah;Quzzol|
+Vasocheth|county|zarden|1|6;10||Zilarb;Ribtrip;Worah|
+Huchec|barony|zarden|1|2;11|Commons;Merchants|Zilarb;Ribtrip;Worah;Vasocheth|
+Xecholach|barony|zarden|0|2;8||Zilarb;Ribtrip;Worah;Vasocheth|
+Yoxuch|county|zarden|1|4;9||Zilarb;Ribtrip;Worah|
+Hexucoss|barony|zarden|0|4;7||Zilarb;Ribtrip;Worah;Yoxuch|
+Muzixek|barony|zarden|0|1;7||Zilarb;Ribtrip;Worah;Yoxuch|
+Zossik|duchy|zarden|0|1;12||Zilarb;Ribtrip|
+Dazis|county|zarden|0|5;10||Zilarb;Ribtrip;Zossik|
+Bizzexess|barony|zarden|0|1;9||Zilarb;Ribtrip;Zossik;Dazis|
+Gexith|barony|zarden|0|1;7||Zilarb;Ribtrip;Zossik;Dazis|
+Wethux|barony|zarden|0|1;9||Zilarb;Ribtrip;Zossik;Dazis|
+Lasuzzis|county|zarden|0|5;10||Zilarb;Ribtrip;Zossik|
+Qekusos|barony|zarden|0|1;8||Zilarb;Ribtrip;Zossik;Lasuzzis|
+Sichuzz|barony|zarden|0|2;6|Commons|Zilarb;Ribtrip;Zossik;Lasuzzis|
+Tilezz|barony|zarden|0|4;2||Zilarb;Ribtrip;Zossik;Lasuzzis|
+Tissath|county|zarden|0|1;15||Zilarb;Ribtrip;Zossik|
+Kachesox|barony|zarden|1|2;11|Commons;Merchants|Zilarb;Ribtrip;Zossik;Tissath|
+Lazissaz|barony|zarden|0|3;5||Zilarb;Ribtrip;Zossik;Tissath|
+Sastrasi|grand duchy|zarden|0|4;10||Zilarb|
+Bizzitis|duchy|zarden|0|3;13||Zilarb;Sastrasi|
+Dokich|county|zarden|1|5;13||Zilarb;Sastrasi;Bizzitis|
+Qachesil|barony|zarden|0|4;3||Zilarb;Sastrasi;Bizzitis;Dokich|
+Rethex|barony|zarden|1|2;11|Commons;Merchants|Zilarb;Sastrasi;Bizzitis;Dokich|
+Zivoviz|barony|zarden|0|4;5||Zilarb;Sastrasi;Bizzitis;Dokich|
+Gusek|county|zarden|0|3;11||Zilarb;Sastrasi;Bizzitis|
+Kithos|barony|zarden|1|4;6|Commons;Merchants|Zilarb;Sastrasi;Bizzitis;Gusek|
+Tozakoch|barony|zarden|1|2;4||Zilarb;Sastrasi;Bizzitis;Gusek|
+Vacuz|barony|zarden|0|2;4||Zilarb;Sastrasi;Bizzitis;Gusek|
+Julal|county|zarden|0|6;8||Zilarb;Sastrasi;Bizzitis|
+Qusith|barony|zarden|0|4;9||Zilarb;Sastrasi;Bizzitis;Julal|
+Washecess|barony|zarden|0|1;9||Zilarb;Sastrasi;Bizzitis;Julal|
+Neleth|county|zarden|0|2;4||Zilarb;Sastrasi;Bizzitis|
+Dithazz|barony|zarden|1|4;8||Zilarb;Sastrasi;Bizzitis;Neleth|
+Xissacoch|barony|zarden|1|1;9|Commons;Merchants;Nobles;Martial|Zilarb;Sastrasi;Bizzitis;Neleth|
+Grasasi|duchy|zarden|1|4;12||Zilarb;Sastrasi|
+Lezzith|county|zarden|1|6;14||Zilarb;Sastrasi;Grasasi|
+Lashoxez|barony|zarden|0|2;7||Zilarb;Sastrasi;Grasasi;Lezzith|
+Qizash|barony|zarden|0|4;4||Zilarb;Sastrasi;Grasasi;Lezzith|
+Zavith|county|zarden|0|3;6||Zilarb;Sastrasi;Grasasi|
+Fuchozuc|barony|zarden|0|2;8|Commons;Merchants|Zilarb;Sastrasi;Grasasi;Zavith|
+Tazzivul|barony|zarden|0|4;6||Zilarb;Sastrasi;Grasasi;Zavith|
+Worg|duchy|zarden|0|5;6||Zilarb;Sastrasi|
+Bexoch|county|zarden|0|6;2||Zilarb;Sastrasi;Worg|
+Tazzuth|barony|zarden|0|3;5||Zilarb;Sastrasi;Worg;Bexoch|
+Tesol|barony|zarden|0|2;5||Zilarb;Sastrasi;Worg;Bexoch|
+Tozevov|county|zarden|0|3;11||Zilarb;Sastrasi;Worg|
+Fezex|barony|zarden|0|2;6||Zilarb;Sastrasi;Worg;Tozevov|
+Jicak|barony|zarden|0|3;7||Zilarb;Sastrasi;Worg;Tozevov|
+Thucric|grand duchy|zarden|0|7;22||Zilarb|
+Drapzar|duchy|zarden|0|4;12||Zilarb;Thucric|
+Huxochev|county|zarden|0|4;10|Commons|Zilarb;Thucric;Drapzar|
+Dicuzzash|barony|zarden|0|3;6|Commons|Zilarb;Thucric;Drapzar;Huxochev|
+Gulichach|barony|zarden|1|3;6|Commons;Merchants|Zilarb;Thucric;Drapzar;Huxochev|
+Wuchussav|barony|zarden|1|1;9|Commons;Merchants;Nobles;Martial|Zilarb;Thucric;Drapzar;Huxochev|
+Jivizuzz|county|zarden|0|6;8||Zilarb;Thucric;Drapzar|
+Lecez|barony|zarden|0|1;7||Zilarb;Thucric;Drapzar;Jivizuzz|
+Pochuss|barony|zarden|0|4;7||Zilarb;Thucric;Drapzar;Jivizuzz|
+Xazukech|county|zarden|1|5;6||Zilarb;Thucric;Drapzar|
+Tothas|barony|zarden|0|3;8|Commons|Zilarb;Thucric;Drapzar;Xazukech|
+Vezuzz|barony|zarden|0|2;11|Commons|Zilarb;Thucric;Drapzar;Xazukech|
+Xelus|county|zarden|0|2;8||Zilarb;Thucric;Drapzar|
+Davathal|barony|zarden|1|1;7|Commons|Zilarb;Thucric;Drapzar;Xelus|
+Hachavich|barony|zarden|0|1;4||Zilarb;Thucric;Drapzar;Xelus|
+Ragak|duchy|zarden|1|1;7||Zilarb;Thucric|
+Puzax|county|zarden|0|3;12|Commons|Zilarb;Thucric;Ragak|
+Cuzox|barony|zarden|0|4;10|Commons|Zilarb;Thucric;Ragak;Puzax|
+Zukazz|barony|zarden|1|2;5|Commons;Merchants|Zilarb;Thucric;Ragak;Puzax|
+Savecuzz|county|zarden|0|1;10|Commons|Zilarb;Thucric;Ragak|
+Fuvev|barony|zarden|0|4;9|Commons|Zilarb;Thucric;Ragak;Savecuzz|
+Qississ|barony|zarden|1|1;7|Commons;Merchants;Nobles|Zilarb;Thucric;Ragak;Savecuzz|
+Sizzixal|barony|zarden|0|1;10||Zilarb;Thucric;Ragak;Savecuzz|
+Sosech|county|zarden|0|4;10|Commons|Zilarb;Thucric;Ragak|
+Dikeciz|barony|zarden|0|1;9|Commons;Merchants|Zilarb;Thucric;Ragak;Sosech|
+Hethach|barony|zarden|0|4;6|Commons;Merchants|Zilarb;Thucric;Ragak;Sosech|
+Yashizzazz|barony|zarden|0|1;6||Zilarb;Thucric;Ragak;Sosech|
+Vashavav|county|zarden|0|5;10||Zilarb;Thucric;Ragak|
+Fosachuc|barony|zarden|0|3;7||Zilarb;Thucric;Ragak;Vashavav|
+Qashuchiz|barony|zarden|0|1;5||Zilarb;Thucric;Ragak;Vashavav|
+Shawatas|duchy|zarden|1|4;11||Zilarb;Thucric|
+Dichozz|county|zarden|0|4;4|Commons|Zilarb;Thucric;Shawatas|
+Novithoz|barony|zarden|0|4;5|Commons|Zilarb;Thucric;Shawatas;Dichozz|
+Qukuluth|barony|zarden|1|4;11||Zilarb;Thucric;Shawatas;Dichozz|
+Yoxozz|barony|zarden|1|1;10|Commons;Merchants;Nobles;Martial|Zilarb;Thucric;Shawatas;Dichozz|
+Pekazeth|county|zarden|0|5;13|Commons|Zilarb;Thucric;Shawatas|
+Hesozzac|barony|zarden|0|4;6|Commons|Zilarb;Thucric;Shawatas;Pekazeth|
+Jozil|barony|zarden|1|4;9|Commons;Merchants;Nobles|Zilarb;Thucric;Shawatas;Pekazeth|
+Jukash|barony|zarden|0|2;6|Commons|Zilarb;Thucric;Shawatas;Pekazeth|
+Rithekov|county|zarden|0|4;16||Zilarb;Thucric;Shawatas|
+Rochesuss|barony|zarden|0|3;8||Zilarb;Thucric;Shawatas;Rithekov|
+Wukic|barony|zarden|1|2;8||Zilarb;Thucric;Shawatas;Rithekov|
+Wopras|duchy|zarden|0|5;7||Zilarb;Thucric|
+Gechezzik|county|zarden|0|2;9||Zilarb;Thucric;Wopras|
+Nozass|barony|zarden|0|1;10||Zilarb;Thucric;Wopras;Gechezzik|
+Xazzikus|barony|zarden|1|4;8||Zilarb;Thucric;Wopras;Gechezzik|
+Lulil|county|zarden|0|5;9|Commons|Zilarb;Thucric;Wopras|
+Hocixek|barony|zarden|1|2;11||Zilarb;Thucric;Wopras;Lulil|
+Qukuxos|barony|zarden|0|3;6|Commons|Zilarb;Thucric;Wopras;Lulil|
+Nessich|county|zarden|1|4;8||Zilarb;Thucric;Wopras|
+Cothossuk|barony|zarden|0|3;2|Commons|Zilarb;Thucric;Wopras;Nessich|
+Zothax|barony|zarden|0|2;7|Commons|Zilarb;Thucric;Wopras;Nessich|
+Pothuk|county|zarden|0|1;15||Zilarb;Thucric;Wopras|
+Dessakav|barony|zarden|0|3;7||Zilarb;Thucric;Wopras;Pothuk|
+Zuchuth|barony|zarden|0|3;6||Zilarb;Thucric;Wopras;Pothuk|
+Imperial Court of Zilarb|imperial court|zarden|0|0;27|||
+Telanna|kingdom|elf|0|14;22|||
+Aralahdil|grand duchy|elf|0|9;16||Telanna|
+Ekereensar|duchy|elf|0|4;7||Telanna;Aralahdil|
+Choldatil|county|elf|0|5;3||Telanna;Aralahdil;Ekereensar|
+Kohtiacar|barony|elf|0|3;6||Telanna;Aralahdil;Ekereensar;Choldatil|
+Talercar|barony|elf|0|2;9||Telanna;Aralahdil;Ekereensar;Choldatil|
+Gilahtil|county|elf|0|2;4||Telanna;Aralahdil;Ekereensar|
+Ahncar|barony|elf|0|4;4||Telanna;Aralahdil;Ekereensar;Gilahtil|
+Tassborcar|barony|elf|0|2;6||Telanna;Aralahdil;Ekereensar;Gilahtil|
+Yurtil|county|elf|0|3;10||Telanna;Aralahdil;Ekereensar|
+Kehtiacar|barony|elf|0|1;9||Telanna;Aralahdil;Ekereensar;Yurtil|
+Ushekarcar|barony|elf|0|4;8||Telanna;Aralahdil;Ekereensar;Yurtil|
+Hoyksar|duchy|elf|0|1;12||Telanna;Aralahdil|
+Chowkintil|county|elf|0|2;10||Telanna;Aralahdil;Hoyksar|
+Reecar|barony|elf|0|4;6||Telanna;Aralahdil;Hoyksar;Chowkintil|
+Thalekcar|barony|elf|0|3;7||Telanna;Aralahdil;Hoyksar;Chowkintil|
+Yeelaktil|county|elf|0|2;10||Telanna;Aralahdil;Hoyksar|
+Yakotcar|barony|elf|0|3;9||Telanna;Aralahdil;Hoyksar|
+Kuarohsar|duchy|elf|0|1;9||Telanna;Aralahdil|
+Ahdritil|county|elf|0|3;9||Telanna;Aralahdil;Kuarohsar|
+Dalencar|barony|elf|0|1;9||Telanna;Aralahdil;Kuarohsar|
+Taltil|county|elf|0|6;14||Telanna;Aralahdil;Kuarohsar|
+Unshacar|barony|elf|0|3;4||Telanna;Aralahdil;Kuarohsar|
+Vakdurtil|county|elf|0|2;4|Commons|Telanna;Aralahdil;Kuarohsar|
+Jifreecar|barony|elf/human|1|3;7||Telanna;Aralahdil;Kuarohsar|
+Teelensar|duchy|elf|0|8;10||Telanna;Aralahdil|
+Kehnotil|county|elf|0|6;15||Telanna;Aralahdil;Teelensar|
+Kahdrincar|barony|elf|0|4;9||Telanna;Aralahdil;Teelensar|
+Leetil|county|elf|0|6;12||Telanna;Aralahdil;Teelensar|
+Laslancar|barony|elf|0|2;10||Telanna;Aralahdil;Teelensar|
+Aredodil|grand duchy|elf|0|8;14||Telanna|
+Alcmoreussar|duchy|elf|0|1;14||Telanna;Aredodil|
+Eliadnetil|county|elf|0|1;9||Telanna;Aredodil;Alcmoreussar|
+Ixenoncar|barony|elf|0|1;6||Telanna;Aredodil;Alcmoreussar|
+Thindatil|county|elf|0|3;15||Telanna;Aredodil;Alcmoreussar|
+Calonecar|barony|elf|0|1;8||Telanna;Aredodil;Alcmoreussar;Thindatil|
+Gnaduscar|barony|elf|0|3;7||Telanna;Aredodil;Alcmoreussar;Thindatil|
+Antenussar|duchy|elf/human|1|4;13||Telanna;Aredodil|
+Dimitritil|county|elf|0|6;3||Telanna;Aredodil;Antenussar|
+Iphistophonuscar|barony|elf|0|4;10||Telanna;Aredodil;Antenussar|
+Nalestil|county|elf|0|5;6||Telanna;Aredodil;Antenussar|
+Adeinocar|barony|elf|0|4;5||Telanna;Aredodil;Antenussar;Nalestil|
+Lonthimadeinescar|barony|elf|0|2;6||Telanna;Aredodil;Antenussar;Nalestil|
+Catesar|duchy|elf|0|8;12||Telanna;Aredodil|
+Niristil|county|elf|0|3;10||Telanna;Aredodil;Catesar|
+Rhectistuscar|barony|elf|0|4;3||Telanna;Aredodil;Catesar|
+Oliadnetil|county|elf|0|1;7||Telanna;Aredodil;Catesar|
+Geniuscar|barony|elf|0|1;9||Telanna;Aredodil;Catesar|
+Eriadnesar|duchy|elf|0|8;13||Telanna;Aredodil|
+Alinetil|county|elf|0|2;10||Telanna;Aredodil;Eriadnesar|
+Hyrtilescar|barony|elf|0|1;7||Telanna;Aredodil;Eriadnesar|
+Pelitiustil|county|elf|0|6;6||Telanna;Aredodil;Eriadnesar|
+Temelecar|barony|elf|0|3;8||Telanna;Aredodil;Eriadnesar|
+Thastostil|county|elf|0|4;3||Telanna;Aredodil;Eriadnesar|
+Geriopecar|barony|elf|0|3;10||Telanna;Aredodil;Eriadnesar;Thastostil|
+Hiluscar|barony|elf/human|1|1;7||Telanna;Aredodil;Eriadnesar;Thastostil|
+Trodoceussar|duchy|elf|0|4;6||Telanna;Aredodil|
+Dionnotristil|county|elf|0|1;13||Telanna;Aredodil;Trodoceussar|
+Eurecitecar|barony|elf|0|4;10||Telanna;Aredodil;Trodoceussar;Dionnotristil|
+Senescar|barony|elf|0|2;10||Telanna;Aredodil;Trodoceussar;Dionnotristil|
+Yaneriostil|county|elf|0|4;6|Commons|Telanna;Aredodil;Trodoceussar|
+Sippimenecar|barony|elf|0|2;6|Commons|Telanna;Aredodil;Trodoceussar|
+Zionatil|county|elf|0|6;7||Telanna;Aredodil;Trodoceussar|
+Pactorothuscar|barony|elf|0|4;9||Telanna;Aredodil;Trodoceussar;Zionatil|
+Promuscar|barony|elf/human|1|2;7||Telanna;Aredodil;Trodoceussar;Zionatil|
+Elandil|grand duchy|elf|0|8;18||Telanna|
+Atallisar|duchy|elf|0|5;10||Telanna;Elandil|
+Ingoriontil|county|elf|0|1;10||Telanna;Elandil;Atallisar|
+Cirammarcar|barony|elf|0|4;6||Telanna;Elandil;Atallisar|
+Laureltil|county|elf|0|6;9||Telanna;Elandil;Atallisar|
+Anancar|barony|elf|0|1;3||Telanna;Elandil;Atallisar;Laureltil|
+Istalmocar|barony|elf|0|1;5||Telanna;Elandil;Atallisar;Laureltil|
+Talarelcartil|county|elf/human|1|3;9||Telanna;Elandil;Atallisar|
+Istemocar|barony|elf|0|2;5||Telanna;Elandil;Atallisar|
+Cembarsar|duchy|elf|0|4;11||Telanna;Elandil|
+Mindotil|county|elf|0|2;11|Commons|Telanna;Elandil;Cembarsar|
+Calmocar|barony|elf/human|1|3;5||Telanna;Elandil;Cembarsar|
+Tarameldatil|county|elf/human|1|2;12||Telanna;Elandil;Cembarsar|
+Alcecar|barony|elf|0|2;8||Telanna;Elandil;Cembarsar|
+Mandelsar|duchy|elf/human|1|7;6||Telanna;Elandil|
+Aurinyontil|county|elf|0|4;7||Telanna;Elandil;Mandelsar|
+Erelwencar|barony|elf/human|1|2;7||Telanna;Elandil;Mandelsar;Aurinyontil|
+Telanturcar|barony|elf|0|2;6||Telanna;Elandil;Mandelsar;Aurinyontil|
+Elindurtil|county|elf|0|5;7|Commons|Telanna;Elandil;Mandelsar|
+Analossecar|barony|elf/human|1|1;9|Commons;Merchants;Nobles|Telanna;Elandil;Mandelsar;Elindurtil|
+Noluncar|barony|elf|0|3;3|Commons|Telanna;Elandil;Mandelsar;Elindurtil|
+Olorisar|duchy|elf|0|2;12||Telanna;Elandil|
+Erwantatil|county|elf|0|2;12||Telanna;Elandil;Olorisar|
+Tuilecar|barony|elf|0|1;10||Telanna;Elandil;Olorisar|
+Tyengilmotil|county|elf|0|3;12||Telanna;Elandil;Olorisar|
+Aldaronecar|barony|elf|0|1;7||Telanna;Elandil;Olorisar;Tyengilmotil|
+Ciryoncar|barony|elf|0|2;6||Telanna;Elandil;Olorisar;Tyengilmotil|
+Palersar|duchy|elf|0|6;11||Telanna;Elandil|
+Airamotil|county|elf|0|2;10||Telanna;Elandil;Palersar|
+Ainemocar|barony|elf|0|4;2||Telanna;Elandil;Palersar;Airamotil|
+Filircar|barony|elf|0|4;5||Telanna;Elandil;Palersar;Airamotil|
+Atildurtil|county|elf|0|3;10||Telanna;Elandil;Palersar|
+Valmoncar|barony|elf|0|3;5||Telanna;Elandil;Palersar|
+Ilistimartil|county|elf|0|1;11||Telanna;Elandil;Palersar|
+Canocar|barony|elf|0|4;6||Telanna;Elandil;Palersar|
+Tariensar|duchy|elf|0|8;12||Telanna;Elandil|
+Selyatil|county|elf/human|1|3;7||Telanna;Elandil;Tariensar|
+Finiranyacar|barony|elf|0|4;4||Telanna;Elandil;Tariensar|
+Vinwarantil|county|elf/human|1|3;11||Telanna;Elandil;Tariensar|
+Monamanyacar|barony|elf|0|3;10||Telanna;Elandil;Tariensar|
+Viralenyatil|county|elf|0|3;7||Telanna;Elandil;Tariensar|
+Isoncar|barony|elf|0|3;9||Telanna;Elandil;Tariensar|
+Imperial Court of Telanna|imperial court|elf|0|0;27|||
+Teglan|kingdom|human|1|10;22|||
+Froltrun|grand duchy|human|1|8;9||Teglan|
+Alninnar|duchy|human|1|6;13||Teglan;Froltrun|
+Gentildbur|county|human|1|6;5||Teglan;Froltrun;Alninnar|
+Afidlan|barony|human|0|4;7|Commons|Teglan;Froltrun;Alninnar;Gentildbur|
+Svaldarlan|barony|human|0|1;5|Commons|Teglan;Froltrun;Alninnar;Gentildbur|
+Hognibur|county|human|0|6;5|Commons;Merchants|Teglan;Froltrun;Alninnar|
+Ginnbjorglan|barony|human|1|1;8|Commons;Merchants;Nobles|Teglan;Froltrun;Alninnar;Hognibur|
+Halfreidlan|barony|human|0|1;11|Commons;Merchants|Teglan;Froltrun;Alninnar;Hognibur|
+Hikarlan|barony|human|0|2;6|Commons;Merchants|Teglan;Froltrun;Alninnar;Hognibur|
+Hrukibur|county|human|0|2;11|Commons|Teglan;Froltrun;Alninnar|
+Sidloflan|barony|human|0|1;8|Commons|Teglan;Froltrun;Alninnar;Hrukibur|
+Thaerlan|barony|human|0|3;3|Commons|Teglan;Froltrun;Alninnar;Hrukibur|
+Atosnar|duchy|human|0|7;9||Teglan;Froltrun|
+Grurstokibur|county|human|0|4;8||Teglan;Froltrun;Atosnar|
+Aemarlan|barony|human|1|2;6|Commons;Merchants|Teglan;Froltrun;Atosnar;Grurstokibur|
+Thvilnirlan|barony|human|0|2;6||Teglan;Froltrun;Atosnar;Grurstokibur|
+Horingbur|county|human|0|1;9|Commons|Teglan;Froltrun;Atosnar|
+Baralan|barony|human|1|2;4|Commons;Merchants|Teglan;Froltrun;Atosnar;Horingbur|
+Eigotilan|barony|human|1|1;8|Commons;Merchants|Teglan;Froltrun;Atosnar;Horingbur|
+Haereidlan|barony|human|0|2;12|Commons|Teglan;Froltrun;Atosnar;Horingbur|
+Genarnar|duchy|human|1|7;2||Teglan;Froltrun|
+Agfinnbur|county|human|1|6;14||Teglan;Froltrun;Genarnar|
+Krorkmirlan|barony|human|0|2;6|Commons;Merchants|Teglan;Froltrun;Genarnar;Agfinnbur|
+Sanninglan|barony|human|0|1;8|Commons|Teglan;Froltrun;Genarnar;Agfinnbur|
+Sandarbur|county|human|0|2;3|Commons|Teglan;Froltrun;Genarnar|
+Hifninglan|barony|human|1|2;9||Teglan;Froltrun;Genarnar;Sandarbur|
+Steigarlan|barony|human|0|4;8|Commons|Teglan;Froltrun;Genarnar;Sandarbur|
+Stingarlan|barony|human|0|2;5|Commons|Teglan;Froltrun;Genarnar;Sandarbur|
+Sodandnar|duchy|human|0|1;12||Teglan;Froltrun|
+Drottibur|county|human|0|2;10|Commons|Teglan;Froltrun;Sodandnar|
+Odralan|barony|human|0|2;8|Commons|Teglan;Froltrun;Sodandnar;Drottibur|
+Stakilan|barony|human|0|1;6|Commons;Merchants|Teglan;Froltrun;Sodandnar;Drottibur|
+Hrostabur|county|human|0|3;9||Teglan;Froltrun;Sodandnar|
+Beitilan|barony|human|0|3;8||Teglan;Froltrun;Sodandnar;Hrostabur|
+Ilodlan|barony|human|0|3;7|Commons|Teglan;Froltrun;Sodandnar;Hrostabur|
+Snarningbur|county|human|0|6;14|Commons|Teglan;Froltrun;Sodandnar|
+Hulgjalan|barony|human|0|1;7|Commons|Teglan;Froltrun;Sodandnar;Snarningbur|
+Sallrimlan|barony|human|0|4;9|Commons|Teglan;Froltrun;Sodandnar;Snarningbur|
+Stakanar|duchy|human|0|2;11||Teglan;Froltrun|
+Aerreidbur|county|human|0|1;2||Teglan;Froltrun;Stakanar|
+Rendlan|barony|human|0|4;3||Teglan;Froltrun;Stakanar;Aerreidbur|
+Sitrerdinlan|barony|human|0|2;3|Commons|Teglan;Froltrun;Stakanar;Aerreidbur|
+Ofthormbur|county|human|0|6;9||Teglan;Froltrun;Stakanar|
+Gjukarlan|barony|human|0|4;5||Teglan;Froltrun;Stakanar;Ofthormbur|
+Hrogarlan|barony|human|0|2;3|Commons|Teglan;Froltrun;Stakanar;Ofthormbur|
+Modoltrun|grand duchy|human|0|9;16||Teglan|
+Aerukanar|duchy|human|0|8;14||Teglan;Modoltrun|
+Alfhidilbur|county|human|0|1;10||Teglan;Modoltrun;Aerukanar|
+Halisinlan|barony|human|0|1;7||Teglan;Modoltrun;Aerukanar;Alfhidilbur|
+Ogrlodlan|barony|human|0|4;11||Teglan;Modoltrun;Aerukanar;Alfhidilbur|
+Borribur|county|human|1|3;9||Teglan;Modoltrun;Aerukanar|
+Froslodlan|barony|human|1|3;3|Commons;Merchants;Nobles|Teglan;Modoltrun;Aerukanar;Borribur|
+Ilfralan|barony|human|0|2;7||Teglan;Modoltrun;Aerukanar;Borribur|
+Hormbur|county|human|0|1;6||Teglan;Modoltrun;Aerukanar|
+Ifnhilan|barony|human|0|3;9||Teglan;Modoltrun;Aerukanar;Hormbur|
+Valodlan|barony|human|0|3;3||Teglan;Modoltrun;Aerukanar;Hormbur|
+Kogrodbur|county|human|0|6;14||Teglan;Modoltrun;Aerukanar|
+Gamlan|barony|human|0|1;6||Teglan;Modoltrun;Aerukanar;Kogrodbur|
+Skjolflan|barony|human|1|3;8|Commons;Merchants|Teglan;Modoltrun;Aerukanar;Kogrodbur|
+Broanar|duchy|human|0|8;13||Teglan;Modoltrun|
+Fjoldbur|county|human|0|4;8||Teglan;Modoltrun;Broanar|
+Glarlan|barony|human|0|2;7||Teglan;Modoltrun;Broanar;Fjoldbur|
+Gurngrostalan|barony|human|0|1;10||Teglan;Modoltrun;Broanar;Fjoldbur|
+Grodibur|county|human|0|3;7|Commons|Teglan;Modoltrun;Broanar|
+Hokilan|barony|human|1|1;9|Commons;Merchants;Nobles|Teglan;Modoltrun;Broanar;Grodibur|
+Krilksinlan|barony|human|0|1;8|Commons|Teglan;Modoltrun;Broanar;Grodibur|
+Swarmidbur|county|human|0|1;10|Commons|Teglan;Modoltrun;Broanar|
+Lorodlan|barony|human|0|3;7|Commons|Teglan;Modoltrun;Broanar;Swarmidbur|
+Sangvarlan|barony|human|1|1;3|Commons;Merchants|Teglan;Modoltrun;Broanar;Swarmidbur|
+Thogdirlan|barony|human|0|3;7|Commons|Teglan;Modoltrun;Broanar;Swarmidbur|
+Gitrernar|duchy|human|0|3;4||Teglan;Modoltrun|
+Hiringbur|county|human|0|2;7||Teglan;Modoltrun;Gitrernar|
+Gjakilan|barony|human|0|1;10||Teglan;Modoltrun;Gitrernar;Hiringbur|
+Guringlan|barony|human|0|4;8|Commons|Teglan;Modoltrun;Gitrernar;Hiringbur|
+Thoddislan|barony|human|0|1;7||Teglan;Modoltrun;Gitrernar;Hiringbur|
+Hulvidbur|county|human|0|6;7||Teglan;Modoltrun;Gitrernar|
+Buslalan|barony|human|1|3;5|Commons;Merchants;Nobles|Teglan;Modoltrun;Gitrernar;Hulvidbur|
+Hedillan|barony|human|0|3;4||Teglan;Modoltrun;Gitrernar;Hulvidbur|
+Restborrilan|barony|human|0|1;7||Teglan;Modoltrun;Gitrernar;Hulvidbur|
+Grakanar|duchy|human|1|8;10||Teglan;Modoltrun|
+Hlindingbur|county|human|0|6;6|Commons|Teglan;Modoltrun;Grakanar|
+Breirlan|barony|human|0|4;9|Commons|Teglan;Modoltrun;Grakanar;Hlindingbur|
+Eydalan|barony|human|0|3;4|Commons|Teglan;Modoltrun;Grakanar;Hlindingbur|
+Lorgnirlan|barony|human|1|1;10||Teglan;Modoltrun;Grakanar;Hlindingbur|
+Raslaugbur|county|human|0|2;5|Commons|Teglan;Modoltrun;Grakanar|
+Attarlan|barony|human|1|2;7|Commons;Merchants|Teglan;Modoltrun;Grakanar;Raslaugbur|
+Hleirodlan|barony|human|0|1;9|Commons|Teglan;Modoltrun;Grakanar;Raslaugbur|
+Irgarlan|barony|human|1|1;11||Teglan;Modoltrun;Grakanar;Raslaugbur|
+Thongvildbur|county|human|1|1;10||Teglan;Modoltrun;Grakanar|
+Glarmaerlan|barony|human|0|1;9|Commons|Teglan;Modoltrun;Grakanar;Thongvildbur|
+Gorlaflan|barony|human|0|3;3|Commons|Teglan;Modoltrun;Grakanar;Thongvildbur|
+Sviringlan|barony|human|1|1;4|Commons;Merchants;Nobles;Martial|Teglan;Modoltrun;Grakanar;Thongvildbur|
+Hakirnar|duchy|human|0|4;4||Teglan;Modoltrun|
+Frarlaugbur|county|human|0|5;6|Commons|Teglan;Modoltrun;Hakirnar|
+Gumdarlan|barony|human|0|1;8|Commons|Teglan;Modoltrun;Hakirnar;Frarlaugbur|
+Hanarlan|barony|human|0|2;8|Commons|Teglan;Modoltrun;Hakirnar;Frarlaugbur|
+Hukilan|barony|human|1|4;6|Commons;Merchants;Nobles;Martial|Teglan;Modoltrun;Hakirnar;Frarlaugbur|
+Gruthvidbur|county|human|0|1;6||Teglan;Modoltrun;Hakirnar|
+Herkjalan|barony|human|1|2;7||Teglan;Modoltrun;Hakirnar;Gruthvidbur|
+Olfrirlan|barony|human|0|1;6||Teglan;Modoltrun;Hakirnar;Gruthvidbur|
+Sodignirlan|barony|human|0|4;6||Teglan;Modoltrun;Hakirnar;Gruthvidbur|
+Holksibur|county|human|0|3;12||Teglan;Modoltrun;Hakirnar|
+Bestlalan|barony|human|1|1;7||Teglan;Modoltrun;Hakirnar;Holksibur|
+Geirgnarlan|barony|human|0|2;3||Teglan;Modoltrun;Hakirnar;Holksibur|
+Thvorilan|barony|human|0|1;4||Teglan;Modoltrun;Hakirnar;Holksibur|
+Sveitarbur|county|human|0|2;5|Commons|Teglan;Modoltrun;Hakirnar|
+Gjaldirlan|barony|human|0|2;8|Commons|Teglan;Modoltrun;Hakirnar;Sveitarbur|
+Hlasskarlan|barony|human|0|3;7|Commons|Teglan;Modoltrun;Hakirnar;Sveitarbur|
+Hautyrnar|duchy|human|1|7;12||Teglan;Modoltrun|
+Grardbur|county|human|0|4;6|Commons|Teglan;Modoltrun;Hautyrnar|
+Arkmirlan|barony|human|0|4;12|Commons|Teglan;Modoltrun;Hautyrnar;Grardbur|
+Grolodlan|barony|human|1|2;8|Commons;Merchants;Nobles|Teglan;Modoltrun;Hautyrnar;Grardbur|
+Sninnirlan|barony|human|0|4;9|Commons;Merchants|Teglan;Modoltrun;Hautyrnar;Grardbur|
+Gritleifbur|county|human|0|6;12||Teglan;Modoltrun;Hautyrnar|
+Drostalan|barony|human|0|1;9||Teglan;Modoltrun;Hautyrnar;Gritleifbur|
+Froalan|barony|human|0|4;4|Commons|Teglan;Modoltrun;Hautyrnar;Gritleifbur|
+Hukibur|county|human|0|2;14||Teglan;Modoltrun;Hautyrnar|
+Hlamilan|barony|human|0|1;3|Commons|Teglan;Modoltrun;Hautyrnar;Hukibur|
+Lygnolflan|barony|human|0|1;7||Teglan;Modoltrun;Hautyrnar;Hukibur|
+Radstofnar|duchy|human|0|3;12||Teglan;Modoltrun|
+Handbur|county|human|0|6;9||Teglan;Modoltrun;Radstofnar|
+Helloflan|barony|human|0|3;9||Teglan;Modoltrun;Radstofnar;Handbur|
+Raelvarlan|barony|human|0|4;5||Teglan;Modoltrun;Radstofnar;Handbur|
+Vognheidlan|barony|human|0|4;7||Teglan;Modoltrun;Radstofnar;Handbur|
+Sninthjarbur|county|human|0|1;8||Teglan;Modoltrun;Radstofnar|
+Bugilan|barony|human|0|3;4||Teglan;Modoltrun;Radstofnar;Sninthjarbur|
+Hakilan|barony|human|0|1;12||Teglan;Modoltrun;Radstofnar;Sninthjarbur|
+Sinnarlan|barony|human|0|1;4|Commons;Merchants|Teglan;Modoltrun;Radstofnar;Sninthjarbur|
+Reiginar|duchy|human|0|8;8||Teglan;Modoltrun|
+Autabur|county|human|0|4;9||Teglan;Modoltrun;Reiginar|
+Braringlan|barony|human|0|3;9||Teglan;Modoltrun;Reiginar;Autabur|
+Hrabbilan|barony|human|0|3;3||Teglan;Modoltrun;Reiginar;Autabur|
+Thvadinglan|barony|human|0|4;7||Teglan;Modoltrun;Reiginar;Autabur|
+Ingarbur|county|human|0|4;6|Commons|Teglan;Modoltrun;Reiginar|
+Borolflan|barony|human|0|4;9|Commons|Teglan;Modoltrun;Reiginar;Ingarbur|
+Hlogilan|barony|human|0|1;5|Commons|Teglan;Modoltrun;Reiginar;Ingarbur|
+Ikarlan|barony|human|0|2;9|Commons;Merchants|Teglan;Modoltrun;Reiginar;Ingarbur|
+Saelodnar|duchy|human|0|3;10||Teglan;Modoltrun|
+Atirbur|county|human|1|5;10||Teglan;Modoltrun;Saelodnar|
+Ilfrodlan|barony|human|0|1;8|Commons|Teglan;Modoltrun;Saelodnar;Atirbur|
+Varilan|barony|human|0|1;7|Commons|Teglan;Modoltrun;Saelodnar;Atirbur|
+Horkbur|county|human|1|1;7||Teglan;Modoltrun;Saelodnar|
+Ollvarlan|barony|human|1|1;5|Commons;Merchants|Teglan;Modoltrun;Saelodnar;Horkbur|
+Stokilan|barony|human|0|4;9|Commons;Merchants|Teglan;Modoltrun;Saelodnar;Horkbur|
+Thodnirlan|barony|human|0|3;5|Commons|Teglan;Modoltrun;Saelodnar;Horkbur|
+Starbur|county|human|0|2;4||Teglan;Modoltrun;Saelodnar|
+Estildlan|barony|human|0|3;9|Commons|Teglan;Modoltrun;Saelodnar;Starbur|
+Istildlan|barony|human|0|1;7||Teglan;Modoltrun;Saelodnar;Starbur|
+Tholvordnar|duchy|human|0|5;9||Teglan;Modoltrun|
+Atrekbur|county|human|0|2;11|Commons|Teglan;Modoltrun;Tholvordnar|
+Annbardlan|barony|human|0|2;6|Commons|Teglan;Modoltrun;Tholvordnar;Atrekbur|
+Hafrlauglan|barony|human|0|1;5|Commons|Teglan;Modoltrun;Tholvordnar;Atrekbur|
+Ornorilan|barony|human|0|3;7|Commons|Teglan;Modoltrun;Tholvordnar;Atrekbur|
+Frorlaugbur|county|human|0|6;10||Teglan;Modoltrun;Tholvordnar|
+Atlimilan|barony|human|0|1;5||Teglan;Modoltrun;Tholvordnar;Frorlaugbur|
+Eyldalan|barony|human|0|3;7||Teglan;Modoltrun;Tholvordnar;Frorlaugbur|
+Knenmidlan|barony|human|0|4;7|Commons;Merchants|Teglan;Modoltrun;Tholvordnar;Frorlaugbur|
+Steidilbur|county|human|0|1;8||Teglan;Modoltrun;Tholvordnar|
+Eridlan|barony|human|0|1;7|Commons|Teglan;Modoltrun;Tholvordnar;Steidilbur|
+Heimirlan|barony|human|0|1;8||Teglan;Modoltrun;Tholvordnar;Steidilbur|
+Hjollan|barony|human|0|4;8||Teglan;Modoltrun;Tholvordnar;Steidilbur|
+Thratanar|duchy|human|1|2;9||Teglan;Modoltrun|
+Hatarbur|county|human|0|5;7||Teglan;Modoltrun;Thratanar|
+Glofnirlan|barony|human|0|4;5||Teglan;Modoltrun;Thratanar;Hatarbur|
+Holdirlan|barony|human|0|2;7||Teglan;Modoltrun;Thratanar;Hatarbur|
+Itralan|barony|human|0|2;8||Teglan;Modoltrun;Thratanar;Hatarbur|
+Thaerekbur|county|human|0|6;3||Teglan;Modoltrun;Thratanar|
+Haeldinglan|barony|human|0|4;10||Teglan;Modoltrun;Thratanar;Thaerekbur|
+Urdarlan|barony|human|1|3;6||Teglan;Modoltrun;Thratanar;Thaerekbur|
+Uthjalan|barony|human|0|1;9||Teglan;Modoltrun;Thratanar;Thaerekbur|
+Vitildbur|county|human|0|1;4||Teglan;Modoltrun;Thratanar|
+Saeringlan|barony|human|1|2;8|Commons;Merchants;Nobles;Martial|Teglan;Modoltrun;Thratanar;Vitildbur|
+Stakkhildlan|barony|human|0|4;6||Teglan;Modoltrun;Thratanar;Vitildbur|
+Thjolflan|barony|human|0|1;3||Teglan;Modoltrun;Thratanar;Vitildbur|
+Wetrun|grand duchy|human|1|9;14||Teglan|
+Boggordnar|duchy|human|1|6;5||Teglan;Wetrun|
+Barribur|county|human|0|4;14|Commons|Teglan;Wetrun;Boggordnar|
+Ilvalan|barony|human|0|1;7|Commons|Teglan;Wetrun;Boggordnar;Barribur|
+Lithjarlan|barony|human|0|4;7|Commons|Teglan;Wetrun;Boggordnar;Barribur|
+Frokibur|county|human|0|6;9||Teglan;Wetrun;Boggordnar|
+Hondlan|barony|human|0|2;9||Teglan;Wetrun;Boggordnar;Frokibur|
+Irkjarlan|barony|human|0|3;7|Commons;Merchants|Teglan;Wetrun;Boggordnar;Frokibur|
+Rosmundbur|county|human|1|2;8||Teglan;Wetrun;Boggordnar|
+Fjoldlan|barony|human|0|4;6|Commons|Teglan;Wetrun;Boggordnar;Rosmundbur|
+Tonreidlan|barony|human|1|3;6|Commons;Merchants;Nobles|Teglan;Wetrun;Boggordnar;Rosmundbur|
+Valdarlan|barony|human|0|4;5|Commons|Teglan;Wetrun;Boggordnar;Rosmundbur|
+Thudvarbur|county|human|0|3;5|Commons|Teglan;Wetrun;Boggordnar|
+Gastirlan|barony|human|0|1;6|Commons|Teglan;Wetrun;Boggordnar;Thudvarbur|
+Thrartlan|barony|human|0|1;5|Commons|Teglan;Wetrun;Boggordnar;Thudvarbur|
+Orrilnar|duchy|human|1|4;15||Teglan;Wetrun|
+Dagnybur|county|human|1|5;10||Teglan;Wetrun;Orrilnar|
+Gotilan|barony|human|0|1;8|Commons|Teglan;Wetrun;Orrilnar;Dagnybur|
+Hrostilan|barony|human|0|3;9|Commons|Teglan;Wetrun;Orrilnar;Dagnybur|
+Galdbur|county|human|1|1;10||Teglan;Wetrun;Orrilnar|
+Thundlan|barony|human|0|1;5|Commons|Teglan;Wetrun;Orrilnar;Galdbur|
+Uridlan|barony|human|0|1;9|Commons|Teglan;Wetrun;Orrilnar;Galdbur|
+Saerinar|duchy|human|0|5;12||Teglan;Wetrun|
+Fjorbur|county|human|0|2;11||Teglan;Wetrun;Saerinar|
+Helgilan|barony|human|0|2;12||Teglan;Wetrun;Saerinar;Fjorbur|
+Sidringlan|barony|human|0|4;6||Teglan;Wetrun;Saerinar;Fjorbur|
+Thaereidlan|barony|human|0|3;9||Teglan;Wetrun;Saerinar;Fjorbur|
+Soldarbur|county|human|0|3;6||Teglan;Wetrun;Saerinar|
+Abbildlan|barony|human|0|1;12||Teglan;Wetrun;Saerinar;Soldarbur|
+Allogilan|barony|human|0|2;10|Commons|Teglan;Wetrun;Saerinar;Soldarbur|
+Thaenlan|barony|human|0|2;3||Teglan;Wetrun;Saerinar;Soldarbur|
+Thodingbur|county|human|1|3;13||Teglan;Wetrun;Saerinar|
+Hognilan|barony|human|0|1;9|Commons|Teglan;Wetrun;Saerinar;Thodingbur|
+Storlan|barony|human|0|4;12|Commons|Teglan;Wetrun;Saerinar;Thodingbur|
+Sodrandnar|duchy|human|1|8;12||Teglan;Wetrun|
+Ednunrekbur|county|human|0|3;9||Teglan;Wetrun;Sodrandnar|
+Bredvorlan|barony|human|0|3;7||Teglan;Wetrun;Sodrandnar;Ednunrekbur|
+Budlilan|barony|human|0|3;2||Teglan;Wetrun;Sodrandnar;Ednunrekbur|
+Hlornlan|barony|human|0|1;9|Commons;Merchants;Nobles|Teglan;Wetrun;Sodrandnar;Ednunrekbur|
+Etilbur|county|human|0|4;9|Commons|Teglan;Wetrun;Sodrandnar|
+Rureklan|barony|human|0|1;9|Commons|Teglan;Wetrun;Sodrandnar;Etilbur|
+Snudinglan|barony|human|1|3;6|Commons;Merchants;Nobles;Martial|Teglan;Wetrun;Sodrandnar;Etilbur|
+Fjoribur|county|human|0|6;13||Teglan;Wetrun;Sodrandnar|
+Frivarlan|barony|human|0|2;6||Teglan;Wetrun;Sodrandnar;Fjoribur|
+Thrundlan|barony|human|0|2;5||Teglan;Wetrun;Sodrandnar;Fjoribur|
+Hrolmirbur|county|human|0|3;5|Commons|Teglan;Wetrun;Sodrandnar|
+Anneralan|barony|human|0|1;7|Commons|Teglan;Wetrun;Sodrandnar;Hrolmirbur|
+Borrilan|barony|human|0|3;2|Commons|Teglan;Wetrun;Sodrandnar;Hrolmirbur|
+Hlitridlan|barony|human|1|3;8|Commons;Merchants;Nobles|Teglan;Wetrun;Sodrandnar;Hrolmirbur|
+Solgirdnar|duchy|human|0|8;15||Teglan;Wetrun|
+Godstarbur|county|human|1|3;10||Teglan;Wetrun;Solgirdnar|
+Horirlan|barony|human|0|4;10|Commons|Teglan;Wetrun;Solgirdnar;Godstarbur|
+Hrirdlan|barony|human|0|2;10|Commons|Teglan;Wetrun;Solgirdnar;Godstarbur|
+Ilksibur|county|human|0|5;14|Commons|Teglan;Wetrun;Solgirdnar|
+Hjalmirlan|barony|human|0|1;10|Commons|Teglan;Wetrun;Solgirdnar;Ilksibur|
+Moslinglan|barony|human|0|4;6|Commons|Teglan;Wetrun;Solgirdnar;Ilksibur|
+Solinnlan|barony|human|0|3;7|Commons|Teglan;Wetrun;Solgirdnar;Ilksibur|
+Illagnelbur|county|human|0|4;10|Commons|Teglan;Wetrun;Solgirdnar|
+Hiringlan|barony|human|0|4;7|Commons|Teglan;Wetrun;Solgirdnar;Illagnelbur|
+Yrsiddinglan|barony|human|0|3;9|Commons|Teglan;Wetrun;Solgirdnar;Illagnelbur|
+Talningbur|county|human|0|3;8||Teglan;Wetrun;Solgirdnar|
+Grakilan|barony|human|0|4;6||Teglan;Wetrun;Solgirdnar;Talningbur|
+Hrodlan|barony|human|0|1;4|Commons|Teglan;Wetrun;Solgirdnar;Talningbur|
+Kroalan|barony|human|0|4;9||Teglan;Wetrun;Solgirdnar;Talningbur|
+Imperial Court of Teglan|imperial court|human|0|0;34|||
+Krigt|kingdom|dwarf|0|12;26|||
+Dakolain|grand duchy|dwarf|0|5;15||Krigt|
+Dalbelgildal|duchy|dwarf|0|4;14||Krigt;Dakolain|
+Belalakhik|county|dwarf|0|4;4||Krigt;Dakolain;Dalbelgildal|
+Kilipinlode|barony|dwarf|0|3;3||Krigt;Dakolain;Dalbelgildal|
+Belihik|county|dwarf|0|4;5||Krigt;Dakolain;Dalbelgildal|
+Kilonlode|barony|dwarf|0|4;2||Krigt;Dakolain;Dalbelgildal|
+Kilonhik|county|dwarf|0|2;5||Krigt;Dakolain;Dalbelgildal|
+Oviplode|barony|human|0|3;7||Krigt;Dakolain;Dalbelgildal|
+Dorboldwdal|duchy|human|0|7;11||Krigt;Dakolain|
+Belolhik|county|human|0|3;10||Krigt;Dakolain;Dorboldwdal|
+Bofinlode|barony|dwarf|0|4;4||Krigt;Dakolain;Dorboldwdal;Belolhik|
+Noralaolode|barony|dwarf|0|4;5||Krigt;Dakolain;Dorboldwdal;Belolhik|
+Giliakhik|county|dwarf|0|3;9||Krigt;Dakolain;Dorboldwdal|
+Baliaolode|barony|dwarf|0|3;4||Krigt;Dakolain;Dorboldwdal;Giliakhik|
+Belinlode|barony|dwarf|0|1;11||Krigt;Dakolain;Dorboldwdal;Giliakhik|
+Morolaorhik|county|dwarf|0|5;10||Krigt;Dakolain;Dorboldwdal|
+Ovonaorlode|barony|dwarf|0|4;9||Krigt;Dakolain;Dorboldwdal;Morolaorhik|
+Thronlode|barony|dwarf|0|4;5||Krigt;Dakolain;Dorboldwdal;Morolaorhik|
+Dorfarbofdal|duchy|dwarf|0|8;8||Krigt;Dakolain|
+Bonihik|county|dwarf|0|3;3||Krigt;Dakolain;Dorfarbofdal|
+Gimolaaklode|barony|dwarf|0|2;6||Krigt;Dakolain;Dorfarbofdal|
+Ovonakhik|county|dwarf|0|5;9||Krigt;Dakolain;Dorfarbofdal|
+Dorolaolode|barony|human|0|3;10||Krigt;Dakolain;Dorfarbofdal;Ovonakhik|
+Throlaklode|barony|dwarf|0|2;7||Krigt;Dakolain;Dorfarbofdal;Ovonakhik|
+Dwbolbeldal|duchy|dwarf|0|4;13||Krigt;Dakolain|
+Baliakhik|county|dwarf|0|3;12||Krigt;Dakolain;Dwbolbeldal|
+Noralaorlode|barony|dwarf|0|2;9||Krigt;Dakolain;Dwbolbeldal|
+Dorihik|county|dwarf|0|3;2|Commons|Krigt;Dakolain;Dwbolbeldal|
+Thoripimlode|barony|dwarf/human|1|1;7||Krigt;Dakolain;Dwbolbeldal|
+Norinhik|county|dwarf|0|3;10||Krigt;Dakolain;Dwbolbeldal|
+Donaimlode|barony|human|0|3;9||Krigt;Dakolain;Dwbolbeldal;Norinhik|
+Faripimlode|barony|dwarf/human|1|4;10||Krigt;Dakolain;Dwbolbeldal;Norinhik|
+Kilbelgildal|duchy|dwarf|0|2;18||Krigt;Dakolain|
+Balipakhik|county|dwarf|0|2;10||Krigt;Dakolain;Kilbelgildal|
+Noronlode|barony|dwarf|0|1;5||Krigt;Dakolain;Kilbelgildal|
+Gilaihik|county|dwarf|0|3;8||Krigt;Dakolain;Kilbelgildal|
+Gilallode|barony|dwarf|0|4;7||Krigt;Dakolain;Kilbelgildal;Gilaihik|
+Moriporlode|barony|dwarf|0|2;6||Krigt;Dakolain;Kilbelgildal;Gilaihik|
+Thormornaldal|duchy|dwarf|0|3;8||Krigt;Dakolain|
+Dalonhik|county|dwarf|0|3;10||Krigt;Dakolain;Thormornaldal|
+Thoripilode|barony|human|0|2;7||Krigt;Dakolain;Thormornaldal|
+Dwaihik|county|dwarf|0|6;10||Krigt;Dakolain;Thormornaldal|
+Farilaolode|barony|dwarf|0|2;7||Krigt;Dakolain;Thormornaldal|
+Giminain|grand duchy|dwarf|0|2;12||Krigt|
+Dorbeldodal|duchy|dwarf|0|7;8||Krigt;Giminain|
+Dalainhik|county|human|0|6;3||Krigt;Giminain;Dorbeldodal|
+Bofillode|barony|dwarf|0|1;6||Krigt;Giminain;Dorbeldodal|
+Dwilakhik|county|dwarf|0|2;12||Krigt;Giminain;Dorbeldodal|
+Gilinaolode|barony|dwarf|0|1;5||Krigt;Giminain;Dorbeldodal;Dwilakhik|
+Norolarlode|barony|dwarf|0|2;6||Krigt;Giminain;Dorbeldodal;Dwilakhik|
+Gimolaurhik|county|dwarf|0|1;9||Krigt;Giminain;Dorbeldodal|
+Kilallode|barony|dwarf|0|3;7||Krigt;Giminain;Dorbeldodal;Gimolaurhik|
+Nalallode|barony|dwarf|0|1;9||Krigt;Giminain;Dorbeldodal;Gimolaurhik|
+Gimbolfardal|duchy|dwarf|0|2;8||Krigt;Giminain|
+Beliainhik|county|dwarf|0|1;2|Commons|Krigt;Giminain;Gimbolfardal|
+Moriailode|barony|dwarf/human|1|1;9||Krigt;Giminain;Gimbolfardal|
+Danainhik|county|dwarf|0|6;8||Krigt;Giminain;Gimbolfardal|
+Faronaurlode|barony|dwarf|0|4;4||Krigt;Giminain;Gimbolfardal|
+Thoripainhik|county|human|0|2;6||Krigt;Giminain;Gimbolfardal|
+Doronorlode|barony|dwarf|0|2;9||Krigt;Giminain;Gimbolfardal;Thoripainhik|
+Thoraolode|barony|dwarf|0|1;8||Krigt;Giminain;Gimbolfardal;Thoripainhik|
+Kilipain|grand duchy|dwarf/human|1|3;21||Krigt|
+Belnaldal|duchy|dwarf|0|3;13||Krigt;Kilipain|
+Bofanhik|county|dwarf|0|5;6||Krigt;Kilipain;Belnaldal|
+Bolinaorlode|barony|dwarf|0|2;5||Krigt;Kilipain;Belnaldal;Bofanhik|
+Thorlode|barony|human|0|4;9||Krigt;Kilipain;Belnaldal;Bofanhik|
+Bolalhik|county|dwarf|0|1;9||Krigt;Kilipain;Belnaldal|
+Bilaorlode|barony|dwarf|0|2;6||Krigt;Kilipain;Belnaldal|
+Morboldal|duchy|dwarf|0|3;13||Krigt;Kilipain|
+Bofilaorhik|county|dwarf|0|5;7||Krigt;Kilipain;Morboldal|
+Norollode|barony|dwarf|0|4;12||Krigt;Kilipain;Morboldal|
+Dwihik|county|human|0|5;9||Krigt;Kilipain;Morboldal|
+Faripinlode|barony|dwarf|0|1;7||Krigt;Kilipain;Morboldal;Dwihik|
+Kilialode|barony|dwarf|0|1;10||Krigt;Kilipain;Morboldal;Dwihik|
+Kililhik|county|dwarf/human|1|3;5||Krigt;Kilipain;Morboldal|
+Balollode|barony|human|0|2;2|Commons|Krigt;Kilipain;Morboldal|
+Naldthordal|duchy|dwarf/human|1|3;14||Krigt;Kilipain|
+Belhik|county|dwarf|0|6;8|Commons|Krigt;Kilipain;Naldthordal|
+Thorinaurlode|barony|dwarf|0|3;7|Commons|Krigt;Kilipain;Naldthordal|
+Dwolaihik|county|dwarf|0|3;12|Commons|Krigt;Kilipain;Naldthordal|
+Balilaklode|barony|dwarf|0|4;7|Commons|Krigt;Kilipain;Naldthordal|
+Ovinain|grand duchy|dwarf|0|10;18||Krigt|
+Gimthinaldal|duchy|dwarf|0|3;14||Krigt;Ovinain|
+Binaorhik|county|dwarf|0|2;6||Krigt;Ovinain;Gimthinaldal|
+Bofonilode|barony|dwarf|0|4;10||Krigt;Ovinain;Gimthinaldal;Binaorhik|
+Thranarlode|barony|dwarf|0|2;4||Krigt;Ovinain;Gimthinaldal;Binaorhik|
+Gilonainhik|county|dwarf|0|3;11||Krigt;Ovinain;Gimthinaldal|
+Dwonalode|barony|dwarf|0|2;11||Krigt;Ovinain;Gimthinaldal;Gilonainhik|
+Thoripolode|barony|dwarf|0|2;6||Krigt;Ovinain;Gimthinaldal;Gilonainhik|
+Thonaorhik|county|dwarf|0|6;15||Krigt;Ovinain;Gimthinaldal|
+Norolalode|barony|human|0|4;11||Krigt;Ovinain;Gimthinaldal|
+Nalbigimdal|duchy|dwarf|0|8;5||Krigt;Ovinain|
+Dwalhik|county|dwarf|0|3;7||Krigt;Ovinain;Nalbigimdal|
+Bofolaklode|barony|dwarf|0|1;6||Krigt;Ovinain;Nalbigimdal|
+Thrilaarhik|county|human|0|2;5||Krigt;Ovinain;Nalbigimdal|
+Gimonarlode|barony|dwarf|0|1;5||Krigt;Ovinain;Nalbigimdal|
+Throlaihik|county|dwarf|0|2;4||Krigt;Ovinain;Nalbigimdal|
+Doraorlode|barony|human|1|2;10||Krigt;Ovinain;Nalbigimdal;Throlaihik|
+Moripolode|barony|dwarf|0|2;10||Krigt;Ovinain;Nalbigimdal;Throlaihik|
+Imperial Court of Krigt|imperial court|dwarf|0|0;26|||
+Abru|kingdom|human|0|11;12|||
+Alveigtrudil|grand duchy|elf|0|6;18||Abru|
+Cireynasar|duchy|zarden|1|7;12||Abru;Alveigtrudil|
+Freirekbutil|county|human|0|2;7||Abru;Alveigtrudil;Cireynasar|
+Efrlogilacar|barony|human|0|3;7||Abru;Alveigtrudil;Cireynasar;Freirekbutil|
+Stondlacar|barony|human|1|3;9||Abru;Alveigtrudil;Cireynasar;Freirekbutil|
+Havildbutil|county|human|0|1;11||Abru;Alveigtrudil;Cireynasar|
+Baralacar|barony|zarden|0|4;9||Abru;Alveigtrudil;Cireynasar;Havildbutil|
+Idvildlacar|barony|human|0|3;8||Abru;Alveigtrudil;Cireynasar;Havildbutil|
+Ogringlacar|barony|human|0|1;5||Abru;Alveigtrudil;Cireynasar;Havildbutil|
+Hroningbutil|county|human|0|2;8||Abru;Alveigtrudil;Cireynasar|
+Amirlancar|barony|zarden|0|4;11||Abru;Alveigtrudil;Cireynasar;Hroningbutil|
+Hedvallacar|barony|human|0|4;10||Abru;Alveigtrudil;Cireynasar;Hroningbutil|
+Toldinglacar|barony|human|0|2;2||Abru;Alveigtrudil;Cireynasar;Hroningbutil|
+Peleynasar|duchy|elf|0|1;12||Abru;Alveigtrudil|
+Amlaugbutil|county|human|0|1;6||Abru;Alveigtrudil;Peleynasar|
+Eirirlacar|barony|zarden|0|3;8||Abru;Alveigtrudil;Peleynasar;Amlaugbutil|
+Osvalacar|barony|human|0|2;12||Abru;Alveigtrudil;Peleynasar;Amlaugbutil|
+Gisbutil|county|zarden|0|4;9||Abru;Alveigtrudil;Peleynasar|
+Himdirlacar|barony|elf/human|1|2;6||Abru;Alveigtrudil;Peleynasar;Gisbutil|
+Throrlodlacar|barony|elf|0|1;10||Abru;Alveigtrudil;Peleynasar;Gisbutil|
+Utarlacar|barony|elf|0|1;7||Abru;Alveigtrudil;Peleynasar;Gisbutil|
+Horvildbutil|county|human|0|4;2||Abru;Alveigtrudil;Peleynasar|
+Gjulloflacar|barony|human|0|3;4||Abru;Alveigtrudil;Peleynasar;Horvildbutil|
+Hjorlacar|barony|zarden|1|1;5||Abru;Alveigtrudil;Peleynasar;Horvildbutil|
+Hostlodbutil|county|human|0|1;6||Abru;Alveigtrudil;Peleynasar|
+Adringlacar|barony|human|0|3;9||Abru;Alveigtrudil;Peleynasar;Hostlodbutil|
+Agmundlacar|barony|human|0|3;7||Abru;Alveigtrudil;Peleynasar;Hostlodbutil|
+Odmarlacar|barony|human|0|2;7||Abru;Alveigtrudil;Peleynasar;Hostlodbutil|
+Hyfrlingbutil|county|human|0|6;13||Abru;Alveigtrudil;Peleynasar|
+Hokilacar|barony|zarden|0|2;8||Abru;Alveigtrudil;Peleynasar;Hyfrlingbutil|
+Orlugilacar|barony|zardelen|0|4;10||Abru;Alveigtrudil;Peleynasar;Hyfrlingbutil|
+Sviringlacar|barony|human|0|4;6||Abru;Alveigtrudil;Peleynasar;Hyfrlingbutil|
+Solaznasar|duchy|human|0|8;7||Abru;Alveigtrudil|
+Alrodmingbutil|county|zarden|0|3;9||Abru;Alveigtrudil;Solaznasar|
+Hanthaenalacar|barony|zarden|1|4;3||Abru;Alveigtrudil;Solaznasar;Alrodmingbutil|
+Thvostlodlacar|barony|zarden|0|1;8||Abru;Alveigtrudil;Solaznasar;Alrodmingbutil|
+Geitibutil|county|zarden|0|5;9||Abru;Alveigtrudil;Solaznasar|
+Hjardlacar|barony|zarden|0|3;8||Abru;Alveigtrudil;Solaznasar;Geitibutil|
+Imsaringlacar|barony|human|0|4;6||Abru;Alveigtrudil;Solaznasar;Geitibutil|
+Okarlacar|barony|zarden|0|1;3||Abru;Alveigtrudil;Solaznasar;Geitibutil|
+Grimarbutil|county|zarden|0|4;14||Abru;Alveigtrudil;Solaznasar|
+Gonnbarrilacar|barony|zarden|0|2;7||Abru;Alveigtrudil;Solaznasar;Grimarbutil|
+Hodgreidlacar|barony|human|0|3;10||Abru;Alveigtrudil;Solaznasar;Grimarbutil|
+Hokibutil|county|human|0|3;13||Abru;Alveigtrudil;Solaznasar|
+Hogunnlacar|barony|elf|0|3;8||Abru;Alveigtrudil;Solaznasar;Hokibutil|
+Ifninglacar|barony|elf|0|4;6||Abru;Alveigtrudil;Solaznasar;Hokibutil|
+Thaeringlacar|barony|zarden|0|4;6||Abru;Alveigtrudil;Solaznasar;Hokibutil|
+Wikumnasar|duchy|zarden|0|4;4||Abru;Alveigtrudil|
+Kjolfhildbutil|county|human|0|6;8||Abru;Alveigtrudil;Wikumnasar|
+Ingadvalacar|barony|human|0|4;5||Abru;Alveigtrudil;Wikumnasar;Kjolfhildbutil|
+Stondarlacar|barony|human|0|3;5||Abru;Alveigtrudil;Wikumnasar;Kjolfhildbutil|
+Snatridbutil|county|human|0|1;6||Abru;Alveigtrudil;Wikumnasar|
+Hridilacar|barony|human|0|3;4||Abru;Alveigtrudil;Wikumnasar;Snatridbutil|
+Onthormlacar|barony|human|0|3;5||Abru;Alveigtrudil;Wikumnasar;Snatridbutil|
+Snorrilacar|barony|zarden|0|4;7||Abru;Alveigtrudil;Wikumnasar;Snatridbutil|
+Lushlandil|grand duchy|human|1|7;18||Abru|
+Greatercoasar|duchy|human|0|4;12||Abru;Lushlandil|
+Lagoonatil|county|human|0|2;8||Abru;Lushlandil;Greatercoasar|
+Fenhavenacar|barony|human|0|4;10||Abru;Lushlandil;Greatercoasar;Lagoonatil|
+Marsiacar|barony|zarden|0|1;4||Abru;Lushlandil;Greatercoasar;Lagoonatil|
+Midlantil|county|human|0|2;5||Abru;Lushlandil;Greatercoasar|
+Cragsdellicar|barony|human|1|1;10||Abru;Lushlandil;Greatercoasar;Midlantil|
+Glademarchecar|barony|human|0|4;6||Abru;Lushlandil;Greatercoasar;Midlantil|
+Harvesthomeacar|barony|zarden|0|4;7||Abru;Lushlandil;Greatercoasar;Midlantil|
+Northbeatil|county|human|0|3;8||Abru;Lushlandil;Greatercoasar|
+Nomooricar|barony|human|0|3;8||Abru;Lushlandil;Greatercoasar;Northbeatil|
+Port Firstlightocar|barony|zarden|0|3;6||Abru;Lushlandil;Greatercoasar;Northbeatil|
+Somooricar|barony|human|0|4;6||Abru;Lushlandil;Greatercoasar;Northbeatil|
+Nunciltil|county|elf|0|2;6||Abru;Lushlandil;Greatercoasar|
+Nenilossecar|barony|elf|0|3;9||Abru;Lushlandil;Greatercoasar;Nunciltil|
+Tindorecar|barony|elf|0|3;7||Abru;Lushlandil;Greatercoasar;Nunciltil|
+Southbeatil|county|human|0|4;7||Abru;Lushlandil;Greatercoasar|
+Port Gildacar|barony|human|1|4;3||Abru;Lushlandil;Greatercoasar;Southbeatil|
+Port Spanocar|barony|human|0|4;9||Abru;Lushlandil;Greatercoasar;Southbeatil|
+Verdanacar|barony|human|0|3;6||Abru;Lushlandil;Greatercoasar;Southbeatil|
+Lessercaosar|duchy|zarden|0|4;14||Abru;Lushlandil|
+Almildetil|county|elf|0|2;10||Abru;Lushlandil;Lessercaosar|
+Erramecar|barony|elf|0|1;9||Abru;Lushlandil;Lessercaosar;Almildetil|
+Lasserilcar|barony|elf|0|1;9||Abru;Lushlandil;Lessercaosar;Almildetil|
+Eastbeatil|county|zarden|0|1;4||Abru;Lushlandil;Lessercaosar|
+Glassanducar|barony|zarden|0|2;5||Abru;Lushlandil;Lessercaosar;Eastbeatil|
+Port Clifficar|barony|human|0|1;4||Abru;Lushlandil;Lessercaosar;Eastbeatil|
+Port Sanducar|barony|zarden|0|2;9||Abru;Lushlandil;Lessercaosar;Eastbeatil|
+Mountinpeakatil|county|human|0|6;6||Abru;Lushlandil;Lessercaosar|
+Cavernacar|barony|human|0|2;9||Abru;Lushlandil;Lessercaosar;Mountinpeakatil|
+Orocar|barony|zarden|0|4;9||Abru;Lushlandil;Lessercaosar;Mountinpeakatil|
+Wintspiracar|barony|human|0|4;10||Abru;Lushlandil;Lessercaosar;Mountinpeakatil|
+Terimandotil|county|zardelen|0|4;3||Abru;Lushlandil;Lessercaosar|
+Fandecar|barony|elf|0|1;5||Abru;Lushlandil;Lessercaosar;Terimandotil|
+Ronnarcar|barony|elf|0|1;5||Abru;Lushlandil;Lessercaosar;Terimandotil|
+Vilormeldatil|county|elf/human|1|3;4||Abru;Lushlandil;Lessercaosar|
+Artamocar|barony|elf|0|2;5||Abru;Lushlandil;Lessercaosar;Vilormeldatil|
+Eramaldacar|barony|elf|0|2;8||Abru;Lushlandil;Lessercaosar;Vilormeldatil|
+Solannurcar|barony|elf|0|4;3||Abru;Lushlandil;Lessercaosar;Vilormeldatil|
+Mesasar|duchy|human|0|7;16||Abru;Lushlandil|
+Andelintil|county|elf|0|5;8||Abru;Lushlandil;Mesasar|
+Ealantarcar|barony|elf|0|2;3||Abru;Lushlandil;Mesasar;Andelintil|
+Faliromecar|barony|zardelen|0|3;3||Abru;Lushlandil;Mesasar;Andelintil|
+Nestorilcar|barony|zardelen|0|4;5||Abru;Lushlandil;Mesasar;Andelintil|
+Highmesatil|county|human|0|3;13||Abru;Lushlandil;Mesasar|
+Altincar|barony|human|0|1;10||Abru;Lushlandil;Mesasar;Highmesatil|
+Loftincar|barony|human|0|1;10||Abru;Lushlandil;Mesasar;Highmesatil|
+Towerincar|barony|human|0|1;5||Abru;Lushlandil;Mesasar;Highmesatil|
+Littlecanyontil|county|human|0|5;10||Abru;Lushlandil;Mesasar|
+Petitaclefticar|barony|zarden|0|3;4||Abru;Lushlandil;Mesasar;Littlecanyontil|
+Smaligapicar|barony|human|0|2;8||Abru;Lushlandil;Mesasar;Littlecanyontil|
+Lowmesatil|county|zarden|0|2;7||Abru;Lushlandil;Mesasar|
+Lessencar|barony|human|0|4;11||Abru;Lushlandil;Mesasar;Lowmesatil|
+Netherincar|barony|human|0|2;4||Abru;Lushlandil;Mesasar;Lowmesatil|
+Underincar|barony|zarden|0|1;9||Abru;Lushlandil;Mesasar;Lowmesatil|
+Tengarindetil|county|elf|0|4;3||Abru;Lushlandil;Mesasar|
+Armilcar|barony|elf|0|2;4||Abru;Lushlandil;Mesasar;Tengarindetil|
+Elaracar|barony|zardelen|0|4;4||Abru;Lushlandil;Mesasar;Tengarindetil|
+Lainotancar|barony|elf|0|2;8||Abru;Lushlandil;Mesasar;Tengarindetil|
+Pebblesar|duchy|human|0|1;9||Abru;Lushlandil|
+Anderiontil|county|elf|0|6;10||Abru;Lushlandil;Pebblesar|
+Malminwecar|barony|zardelen|0|1;5||Abru;Lushlandil;Pebblesar;Anderiontil|
+Quangiltalincar|barony|elf|0|2;7||Abru;Lushlandil;Pebblesar;Anderiontil|
+Filarenwetil|county|zardelen|0|5;11||Abru;Lushlandil;Pebblesar|
+Orioncar|barony|elf|0|2;6||Abru;Lushlandil;Pebblesar;Filarenwetil|
+Sulirnomecar|barony|elf/human|1|4;3||Abru;Lushlandil;Pebblesar;Filarenwetil|
+Veanorecar|barony|elf|0|2;9||Abru;Lushlandil;Pebblesar;Filarenwetil|
+Norantil|county|elf|0|2;8|Commons|Abru;Lushlandil;Pebblesar|
+Nocanocar|barony|zardelen|1|3;6||Abru;Lushlandil;Pebblesar;Norantil|
+Raucocar|barony|elf/human|1|2;3||Abru;Lushlandil;Pebblesar;Norantil|
+Westbeatil|county|human|0|6;6||Abru;Lushlandil;Pebblesar|
+Inpebblecar|barony|human|1|3;10||Abru;Lushlandil;Pebblesar;Westbeatil|
+Port Shellacar|barony|human|0|4;8||Abru;Lushlandil;Pebblesar;Westbeatil|
+Taliltresar|duchy|elf|0|3;16||Abru;Lushlandil|
+Artauretil|county|elf|0|2;6||Abru;Lushlandil;Taliltresar|
+Aurtelcar|barony|elf|0|3;6||Abru;Lushlandil;Taliltresar;Artauretil|
+Sauryoncar|barony|elf|0|3;6||Abru;Lushlandil;Taliltresar;Artauretil|
+Eldessaranwetil|county|elf|0|6;8||Abru;Lushlandil;Taliltresar|
+Andarancar|barony|elf|0|3;4||Abru;Lushlandil;Taliltresar;Eldessaranwetil|
+Tyelminwecar|barony|zardelen|0|1;11||Abru;Lushlandil;Taliltresar;Eldessaranwetil|
+Lanyantil|county|elf|0|1;9||Abru;Lushlandil;Taliltresar|
+Lainarecar|barony|zardelen|0|4;8||Abru;Lushlandil;Taliltresar;Lanyantil|
+Minwarinwecar|barony|elf/human|1|4;7||Abru;Lushlandil;Taliltresar;Lanyantil|
+Merossetil|county|zardelen|0|6;10||Abru;Lushlandil;Taliltresar|
+Eloryerilcar|barony|elf|0|1;7||Abru;Lushlandil;Taliltresar;Merossetil|
+Mingamarquarcar|barony|zardelen|0|4;3||Abru;Lushlandil;Taliltresar;Merossetil|
+Tirnarietil|county|elf|0|1;14||Abru;Lushlandil;Taliltresar|
+Firenarcar|barony|elf|0|3;7||Abru;Lushlandil;Taliltresar;Tirnarietil|
+Hirilcar|barony|elf|0|3;10||Abru;Lushlandil;Taliltresar;Tirnarietil|
+Turmalincar|barony|elf|0|2;11||Abru;Lushlandil;Taliltresar;Tirnarietil|
+Sissidil|grand duchy|zarden|0|3;7||Abru|
+Rhocasar|duchy|zardelen|1|2;10||Abru;Sissidil|
+Pexessoctil|county|zardelen|0|2;14||Abru;Sissidil;Rhocasar|
+Gozilcar|barony|zardelen|0|4;7||Abru;Sissidil;Rhocasar;Pexessoctil|
+Hethusscar|barony|zarden|0|1;6||Abru;Sissidil;Rhocasar;Pexessoctil|
+Huzeccar|barony|zarden|0|2;10||Abru;Sissidil;Rhocasar;Pexessoctil|
+Puvuxoztil|county|zarden|0|4;13||Abru;Sissidil;Rhocasar|
+Hilichcar|barony|zarden|0|2;9||Abru;Sissidil;Rhocasar;Puvuxoztil|
+Nuzosochcar|barony|zardelen|0|3;2||Abru;Sissidil;Rhocasar;Puvuxoztil|
+Zazekcar|barony|zardelen|0|4;9||Abru;Sissidil;Rhocasar;Puvuxoztil|
+Razustil|county|zarden|0|2;10||Abru;Sissidil;Rhocasar|
+Daloscar|barony|zarden|0|2;6||Abru;Sissidil;Rhocasar;Razustil|
+Dethechuccar|barony|zarden|0|4;3||Abru;Sissidil;Rhocasar;Razustil|
+Fokizzakcar|barony|zarden|0|4;10||Abru;Sissidil;Rhocasar;Razustil|
+Ruzzasoxtil|county|zardelen|0|5;5||Abru;Sissidil;Rhocasar|
+Cochithuthcar|barony|zarden|1|1;9||Abru;Sissidil;Rhocasar;Ruzzasoxtil|
+Givilcar|barony|zarden|0|1;8||Abru;Sissidil;Rhocasar;Ruzzasoxtil|
+Xachiltil|county|zardelen|0|4;10||Abru;Sissidil;Rhocasar|
+Beziscar|barony|zarden|0|1;6||Abru;Sissidil;Rhocasar;Xachiltil|
+Sichotholcar|barony|zarden|0|1;7||Abru;Sissidil;Rhocasar;Xachiltil|
+Sovochcar|barony|zarden|0|1;7||Abru;Sissidil;Rhocasar;Xachiltil|
+Rissisar|duchy|zarden|0|2;4||Abru;Sissidil|
+Docethestil|county|zarden|0|6;2||Abru;Sissidil;Rissisar|
+Hilochcar|barony|zarden|0|3;5||Abru;Sissidil;Rissisar;Docethestil|
+Pacizzcar|barony|zarden|0|4;7||Abru;Sissidil;Rissisar;Docethestil|
+Xikozzukcar|barony|zarden|0|2;9||Abru;Sissidil;Rissisar;Docethestil|
+Paluchtil|county|zarden|0|1;8||Abru;Sissidil;Rissisar|
+Qalessixcar|barony|zarden|0|4;7||Abru;Sissidil;Rissisar;Paluchtil|
+Yelessichcar|barony|zardelen|0|4;4||Abru;Sissidil;Rissisar;Paluchtil|
+Thithisar|duchy|zarden|1|3;4||Abru;Sissidil|
+Cevashuvtil|county|zarden|0|1;14||Abru;Sissidil;Thithisar|
+Jucaccar|barony|zarden|0|1;8||Abru;Sissidil;Thithisar;Cevashuvtil|
+Tachalcar|barony|zarden|0|2;6||Abru;Sissidil;Thithisar;Cevashuvtil|
+Culothtil|county|zarden|0|6;9||Abru;Sissidil;Thithisar|
+Buvechcar|barony|zardelen|0|2;8||Abru;Sissidil;Thithisar;Culothtil|
+Qithissuchcar|barony|zarden|0|2;4||Abru;Sissidil;Thithisar;Culothtil|
+Tazzicokcar|barony|zarden|0|3;10||Abru;Sissidil;Thithisar;Culothtil|
+Kokachosstil|county|zarden|0|5;8||Abru;Sissidil;Thithisar|
+Daxizcar|barony|zarden|0|4;7||Abru;Sissidil;Thithisar;Kokachosstil|
+Qisozzuvcar|barony|zardelen|0|2;12||Abru;Sissidil;Thithisar;Kokachosstil|
+Yoxixtil|county|zarden|0|5;14||Abru;Sissidil;Thithisar|
+Russukcar|barony|zarden|0|3;6||Abru;Sissidil;Thithisar;Yoxixtil|
+Sosusscar|barony|zarden|0|3;7||Abru;Sissidil;Thithisar;Yoxixtil|
+Tussoxisscar|barony|zarden|0|1;8||Abru;Sissidil;Thithisar;Yoxixtil|
+Whissisar|duchy|zarden|0|7;9||Abru;Sissidil|
+Cilizztil|county|zarden|0|3;11||Abru;Sissidil;Whissisar|
+Gazzoscar|barony|zarden|0|4;7||Abru;Sissidil;Whissisar;Cilizztil|
+Kazoxechcar|barony|zarden|0|3;8||Abru;Sissidil;Whissisar;Cilizztil|
+Nesithazzcar|barony|zarden|0|2;7||Abru;Sissidil;Whissisar;Cilizztil|
+Cuvassictil|county|zarden|0|6;7||Abru;Sissidil;Whissisar|
+Qesosezcar|barony|zarden|0|3;6||Abru;Sissidil;Whissisar;Cuvassictil|
+Ticusscar|barony|zarden|0|1;8||Abru;Sissidil;Whissisar;Cuvassictil|
+Dethakochtil|county|zardelen|0|4;10||Abru;Sissidil;Whissisar|
+Pazzokcar|barony|zardelen|0|2;6||Abru;Sissidil;Whissisar;Dethakochtil|
+Socikechcar|barony|zarden|0|4;5||Abru;Sissidil;Whissisar;Dethakochtil|
+Yuzzuccar|barony|zarden|0|2;7||Abru;Sissidil;Whissisar;Dethakochtil|
+Paxektil|county|zarden|1|5;9||Abru;Sissidil;Whissisar|
+Macusosscar|barony|zardelen|0|1;4||Abru;Sissidil;Whissisar;Paxektil|
+Tasexuthcar|barony|zarden|0|1;4||Abru;Sissidil;Whissisar;Paxektil|
+Wizzissextil|county|zardelen|0|3;15||Abru;Sissidil;Whissisar|
+Savossasscar|barony|zarden|0|1;7||Abru;Sissidil;Whissisar;Wizzissextil|
+Vuzzevcar|barony|zarden|0|4;5||Abru;Sissidil;Whissisar;Wizzissextil|
+Xisekcar|barony|zarden|0|2;7||Abru;Sissidil;Whissisar;Wizzissextil|
+Vi Gwenalladil|grand duchy|human|0|1;19||Abru|had a woman as it's first leader
+Xi Aunelsar|duchy|human|0|3;6||Abru;Vi Gwenalladil|
+Li Foinestil|county|human|0|4;8||Abru;Vi Gwenalladil;Xi Aunelsar|
+Ci Foineuscar|barony|human|0|3;9||Abru;Vi Gwenalladil;Xi Aunelsar;Li Foinestil|
+Ci Guiomarcar|barony|human|0|3;11||Abru;Vi Gwenalladil;Xi Aunelsar;Li Foinestil|
+Ci Monantcar|barony|elf|0|1;8||Abru;Vi Gwenalladil;Xi Aunelsar;Li Foinestil|
+Li Rindustil|county|zarden|0|4;9||Abru;Vi Gwenalladil;Xi Aunelsar|
+Ci Canemaircar|barony|zarden|0|2;8||Abru;Vi Gwenalladil;Xi Aunelsar;Li Rindustil|
+Ci Evdaradancar|barony|elf/human|1|1;7||Abru;Vi Gwenalladil;Xi Aunelsar;Li Rindustil|
+Ci Lundononcar|barony|human|1|4;4||Abru;Vi Gwenalladil;Xi Aunelsar;Li Rindustil|
+Xi Caletsar|duchy|human|1|8;7||Abru;Vi Gwenalladil|
+Li Aliontil|county|human|0|4;9||Abru;Vi Gwenalladil;Xi Caletsar|had a woman as it's first leader
+Ci Adyescar|barony|human|0|2;6||Abru;Vi Gwenalladil;Xi Caletsar;Li Aliontil|
+Ci Givancar|barony|elf|0|3;8||Abru;Vi Gwenalladil;Xi Caletsar;Li Aliontil|
+Ci Hanielvancar|barony|human|1|3;9||Abru;Vi Gwenalladil;Xi Caletsar;Li Aliontil|
+Li Byantil|county|zarden|0|1;14||Abru;Vi Gwenalladil;Xi Caletsar|
+Ci Nililoncar|barony|human|0|1;7||Abru;Vi Gwenalladil;Xi Caletsar;Li Byantil|
+Ci Phallenoncar|barony|human|0|1;5||Abru;Vi Gwenalladil;Xi Caletsar;Li Byantil|
+Li Jollettil|county|human|0|3;6||Abru;Vi Gwenalladil;Xi Caletsar|had a woman as it's first leader
+Ci Costancar|barony|elf|0|1;6||Abru;Vi Gwenalladil;Xi Caletsar;Li Jollettil|
+Ci Malelamcar|barony|zarden|0|2;4||Abru;Vi Gwenalladil;Xi Caletsar;Li Jollettil|
+Li Tedgistil|county|human|0|4;11||Abru;Vi Gwenalladil;Xi Caletsar|
+Ci Ercauscar|barony|zardelen|0|2;7||Abru;Vi Gwenalladil;Xi Caletsar;Li Tedgistil|
+Ci Gwalkmycar|barony|human|0|1;10||Abru;Vi Gwenalladil;Xi Caletsar;Li Tedgistil|
+Xi Jombesar|duchy|human|1|8;11||Abru;Vi Gwenalladil|
+Li Amustil|county|human|0|4;4||Abru;Vi Gwenalladil;Xi Jombesar|
+Ci Senstencecar|barony|human|1|3;10|Commons;Merchants|Abru;Vi Gwenalladil;Xi Jombesar;Li Amustil|
+Ci Serluscar|barony|zarden|0|4;7||Abru;Vi Gwenalladil;Xi Jombesar;Li Amustil|
+Li Isairestil|county|human|0|3;10||Abru;Vi Gwenalladil;Xi Jombesar|had a woman as it's first leader
+Ci Edwescar|barony|human|0|1;10||Abru;Vi Gwenalladil;Xi Jombesar;Li Isairestil|
+Ci Etriancar|barony|human|0|2;5||Abru;Vi Gwenalladil;Xi Jombesar;Li Isairestil|
+Ci Helogancar|barony|human|0|4;5||Abru;Vi Gwenalladil;Xi Jombesar;Li Isairestil|
+Li Kasenetil|county|human|0|1;14||Abru;Vi Gwenalladil;Xi Jombesar|
+Ci Ciecar|barony|human|1|2;8||Abru;Vi Gwenalladil;Xi Jombesar;Li Kasenetil|
+Ci Lugediscar|barony|human|0|2;10||Abru;Vi Gwenalladil;Xi Jombesar;Li Kasenetil|
+Ci Peleinecar|barony|zarden|0|4;5||Abru;Vi Gwenalladil;Xi Jombesar;Li Kasenetil|
+Li Tyviantil|county|elf|0|3;12||Abru;Vi Gwenalladil;Xi Jombesar|
+Ci Ermederncar|barony|elf|0|3;10||Abru;Vi Gwenalladil;Xi Jombesar;Li Tyviantil|
+Ci Lirianecar|barony|human|0|4;5||Abru;Vi Gwenalladil;Xi Jombesar;Li Tyviantil|had a woman as it's first leader
+Ci Sesamascar|barony|human|0|3;5||Abru;Vi Gwenalladil;Xi Jombesar;Li Tyviantil|
+Xi Pametsar|duchy|human|0|5;13||Abru;Vi Gwenalladil|
+Li Dimantil|county|zardelen|0|4;15||Abru;Vi Gwenalladil;Xi Pametsar|
+Ci Lombecar|barony|human|0|3;7||Abru;Vi Gwenalladil;Xi Pametsar;Li Dimantil|
+Ci Merailoncar|barony|human|0|3;6||Abru;Vi Gwenalladil;Xi Pametsar;Li Dimantil|
+Ci Vaitcar|barony|human|0|4;10||Abru;Vi Gwenalladil;Xi Pametsar;Li Dimantil|
+Li Gadencantil|county|zarden|0|4;9||Abru;Vi Gwenalladil;Xi Pametsar|
+Ci Amailescar|barony|zarden|0|4;5||Abru;Vi Gwenalladil;Xi Pametsar;Li Gadencantil|
+Ci Mencardcar|barony|human|0|3;3||Abru;Vi Gwenalladil;Xi Pametsar;Li Gadencantil|
+Imperial Court of Abru|imperial court|human|0|0;16|||
+Eldent|kingdom|eldent|0|10;9|||
+Kinunera|grand duchy|eldent|0|8;21||Eldent|
+More|duchy|eldent|0|6;11||Eldent;Kinunera|
+Mani|county|eldent|0|6;8||Eldent;Kinunera;More|
+Teni|barony|eldent|0|2;10||Eldent;Kinunera;More;Mani|
+Tuira|barony|eldent|0|3;5||Eldent;Kinunera;More;Mani|
+Wheta|barony|eldent|0|2;3||Eldent;Kinunera;More;Mani|
+Pika|county|eldent|0|4;13||Eldent;Kinunera;More|
+Nemi|barony|eldent|0|4;7||Eldent;Kinunera;More;Pika|
+Retane|barony|eldent|0|2;3||Eldent;Kinunera;More;Pika|
+Tinga|barony|eldent|0|4;3||Eldent;Kinunera;More;Pika|
+Wheru|county|eldent|0|1;4||Eldent;Kinunera;More|
+Meha|barony|eldent|0|2;7||Eldent;Kinunera;More;Wheru|
+Mita|barony|eldent|0|4;7||Eldent;Kinunera;More;Wheru|
+Pai|barony|eldent|0|4;8||Eldent;Kinunera;More;Wheru|
+Tereho|duchy|eldent|0|1;15||Eldent;Kinunera|
+Ihu|county|eldent/human|1|4;9||Eldent;Kinunera;Tereho|
+Peko|barony|eldent|0|4;2||Eldent;Kinunera;Tereho;Ihu|
+Pira|barony|eldent|0|4;3||Eldent;Kinunera;Tereho;Ihu|
+Tira|barony|eldent|0|4;7||Eldent;Kinunera;Tereho;Ihu|
+Kire|county|eldent|0|3;9||Eldent;Kinunera;Tereho|
+Ke|barony|eldent|0|2;2||Eldent;Kinunera;Tereho;Kire|
+Yootha|barony|eldent|0|1;4||Eldent;Kinunera;Tereho;Kire|
+Mongo|grand duchy|eldent|0|3;17||Eldent|
+Kang|duchy|eldent|0|8;11||Eldent;Mongo|
+Kena|county|eldent|0|2;6||Eldent;Mongo;Kang|
+Kumai|barony|eldent|0|2;5||Eldent;Mongo;Kang;Kena|
+Kwimbe|barony|eldent|0|2;7||Eldent;Mongo;Kang;Kena|
+Minkoma|barony|eldent|0|1;6||Eldent;Mongo;Kang;Kena|
+Kipingti|county|eldent|0|2;13||Eldent;Mongo;Kang|
+Kolta|barony|eldent|0|3;6||Eldent;Mongo;Kang;Kipingti|
+Kungande|barony|eldent|0|1;8||Eldent;Mongo;Kang;Kipingti|
+Muri|county|eldent|0|3;9||Eldent;Mongo;Kang|
+En|barony|eldent|0|4;5||Eldent;Mongo;Kang;Muri|
+Pond|barony|eldent|0|4;9||Eldent;Mongo;Kang;Muri|
+Tupal|barony|eldent|0|2;8||Eldent;Mongo;Kang;Muri|
+Siro|county|eldent|0|3;10||Eldent;Mongo;Kang|
+Konitoia|barony|eldent|0|3;10||Eldent;Mongo;Kang;Siro|
+Souw|barony|eldent|0|2;7||Eldent;Mongo;Kang;Siro|
+Wemp|barony|eldent|0|1;7||Eldent;Mongo;Kang;Siro|
+Lowai|duchy|eldent|0|5;17||Eldent;Mongo|
+Henjinga|county|eldent|0|5;9||Eldent;Mongo;Lowai|
+Ati|barony|eldent|0|1;5||Eldent;Mongo;Lowai;Henjinga|
+Isinuka|barony|eldent|0|3;7||Eldent;Mongo;Lowai;Henjinga|
+Soniro|barony|eldent|0|2;12||Eldent;Mongo;Lowai;Henjinga|
+Kenai|county|eldent|0|3;8||Eldent;Mongo;Lowai|
+Tater|barony|eldent|0|4;11||Eldent;Mongo;Lowai;Kenai|
+Un|barony|eldent|0|1;8||Eldent;Mongo;Lowai;Kenai|
+Kulowai|county|eldent|0|5;14||Eldent;Mongo;Lowai|
+Goma|barony|eldent|0|2;8||Eldent;Mongo;Lowai;Kulowai|
+Kupia|barony|eldent|0|2;7||Eldent;Mongo;Lowai;Kulowai|
+Moiba|barony|eldent|0|3;8||Eldent;Mongo;Lowai;Kulowai|
+Ota|county|eldent|0|6;14||Eldent;Mongo;Lowai|
+Imokei|barony|eldent/human|1|1;5||Eldent;Mongo;Lowai;Ota|
+Kund|barony|eldent|0|2;9||Eldent;Mongo;Lowai;Ota|
+Nuri|grand duchy|eldent|0|8;19||Eldent|
+Kaeru|duchy|eldent|0|3;18||Eldent;Nuri|
+Kora|county|eldent|0|4;5||Eldent;Nuri;Kaeru|
+Pingi|barony|eldent|0|3;10||Eldent;Nuri;Kaeru;Kora|
+Tuka|barony|eldent|0|4;9||Eldent;Nuri;Kaeru;Kora|
+Moe|county|eldent|0|5;8||Eldent;Nuri;Kaeru|
+Miri|barony|eldent/human|1|1;2||Eldent;Nuri;Kaeru;Moe|
+Pomuna|barony|eldent|0|3;6||Eldent;Nuri;Kaeru;Moe|
+Orenuti|county|eldent|0|4;11||Eldent;Nuri;Kaeru|
+Epi|barony|eldent|0|1;6||Eldent;Nuri;Kaeru;Orenuti|
+Terau|barony|eldent|0|2;8||Eldent;Nuri;Kaeru;Orenuti|
+Koreihui|duchy|eldent/human|1|4;11||Eldent;Nuri|
+Taine|county|eldent|0|3;8||Eldent;Nuri;Koreihui|
+Nare|barony|eldent|0|2;9||Eldent;Nuri;Koreihui;Taine|
+Pera|barony|eldent|0|1;7||Eldent;Nuri;Koreihui;Taine|
+Tunera|county|eldent|0|6;11||Eldent;Nuri;Koreihui|
+Kiretaki|barony|eldent|0|2;10||Eldent;Nuri;Koreihui;Tunera|
+Tinu|barony|eldent|0|4;7||Eldent;Nuri;Koreihui;Tunera|
+Urirau|county|eldent|0|5;8||Eldent;Nuri;Koreihui|
+Kupari|barony|eldent|0|1;9||Eldent;Nuri;Koreihui;Urirau|
+Mutenui|barony|eldent|0|4;4||Eldent;Nuri;Koreihui;Urirau|
+Tinui|barony|eldent|0|2;6||Eldent;Nuri;Koreihui;Urirau|
+Pituia|duchy|eldent|0|3;11||Eldent;Nuri|
+Anuri|county|eldent|0|6;13||Eldent;Nuri;Pituia|
+Mura|barony|eldent|0|4;12||Eldent;Nuri;Pituia;Anuri|
+Niraki|barony|eldent|0|3;8||Eldent;Nuri;Pituia;Anuri|
+Pita|barony|eldent|0|4;8||Eldent;Nuri;Pituia;Anuri|
+Kari|county|eldent|0|2;10||Eldent;Nuri;Pituia|
+Ori|barony|eldent|0|4;7||Eldent;Nuri;Pituia;Kari|
+Witini|barony|eldent|0|4;4||Eldent;Nuri;Pituia;Kari|
+Whanui|county|eldent|0|5;4||Eldent;Nuri;Pituia|
+Komgia|barony|eldent|0|4;9||Eldent;Nuri;Pituia;Whanui|
+Tainui|barony|eldent|0|3;7||Eldent;Nuri;Pituia;Whanui|
+Ura|barony|eldent|0|1;5||Eldent;Nuri;Pituia;Whanui|
+Teke|duchy|eldent|0|5;12||Eldent;Nuri|
+Kirori|county|eldent|0|2;5||Eldent;Nuri;Teke|
+Mikaeru|barony|eldent|0|4;8||Eldent;Nuri;Teke;Kirori|
+Orereta|barony|eldent|0|2;8||Eldent;Nuri;Teke;Kirori|
+Peora|county|eldent|0|6;13||Eldent;Nuri;Teke|
+Nire|barony|eldent|0|3;7||Eldent;Nuri;Teke;Peora|
+Tari|barony|eldent|0|3;9||Eldent;Nuri;Teke;Peora|
+Imperial Court of Eldent|imperial court|eldent|0|0;37|||
+Nemsuria|province|human|1|8;8|Commons;Merchants||
+Bitozudeu|district|human|1|2;11|Commons;Merchants|Nemsuria|
+Pavahekei|barony|human|1|3;8|Commons;Merchants|Nemsuria;Bitozudeu|
+Sobakequo|barony|human|1|3;7|Commons;Merchants|Nemsuria;Bitozudeu|
+Yexakawei|barony|human|1|1;5|Commons;Merchants|Nemsuria;Bitozudeu|
+Ganlend|district|human|1|5;7|Commons;Merchants|Nemsuria|
+Ocsand|barony|human|1|4;9|Commons;Merchants|Nemsuria;Ganlend|
+Swael|barony|human|1|3;9|Commons;Merchants|Nemsuria;Ganlend|
+Overmount|district|human|1|1;9|Commons;Merchants|Nemsuria|
+Borderton|barony|human|1|4;3|Commons;Merchants|Nemsuria|
+Ialatrasu|province|human|1|5;4|Commons;Merchants||
+Gilonakhik|district|human|1|3;11|Commons;Merchants|Ialatrasu|
+Belalalode|barony|human|1|4;8|Commons;Merchants|Ialatrasu|
+Li Herause|district|human|1|6;9|Commons;Merchants|Ialatrasu|
+Ci Bellerec|barony|human|1|4;4|Commons;Merchants;Nobles;Martial|Ialatrasu;Li Herause|
+Ci Tren|barony|human|1|3;7|Commons;Merchants|Ialatrasu;Li Herause|
+Nozama|district|human|1|5;4|Commons;Merchants|Ialatrasu|
+Mayna|barony|human|1|3;6|Commons;Merchants;Nobles|Ialatrasu;Nozama|
+Sachopeaur|barony|human|1|1;8|Commons;Merchants|Ialatrasu;Nozama|
+Strayfields|district|gnome/human|1|2;10|Commons;Merchants|Ialatrasu|
+Diggerrest|barony|gnome/human|1|4;3|Commons;Merchants|Ialatrasu;Strayfields|
+Plentifulpaths|barony|halfling/human|1|4;10|Commons;Merchants|Ialatrasu;Strayfields|
+Ilacend|province|human|1|6;18|||
+Gimanahik|district|human|1|1;6||Ilacend|
+Balainiplode|barony|human|1|3;9||Ilacend|
+Namotto|district|human|1|1;9|Commons;Merchants|Ilacend|
+Naci|barony|human|1|3;9|Commons;Merchants|Ilacend;Namotto|
+Srope|barony|human|1|4;4|Commons;Merchants;Martial|Ilacend;Namotto|
+Wesia|barony|human|1|4;7|Commons;Merchants|Ilacend;Namotto|
+Wiquakiba|district|human|1|3;11|Commons;Merchants|Ilacend|
+Jaquivebo|barony|human|1|4;6|Commons;Merchants|Ilacend;Wiquakiba|
+Toquiquobe|barony|human|1|2;12|Commons;Merchants|Ilacend;Wiquakiba|
+Oiboquodu|province|human|1|4;8|||
+Marshy Valley|district|human|1|2;8||Oiboquodu|
+Boaton|barony|zarden|1|4;9|Commons;Merchants|Oiboquodu;Marshy Valley|
+Swaville|barony|human|1|2;11|Commons;Merchants|Oiboquodu;Marshy Valley|
+Valeburg|barony|zarden|1|3;7|Commons;Merchants|Oiboquodu;Marshy Valley|
+Rocky Plateau|district|human|1|1;9|Commons;Merchants;Nobles|Oiboquodu|
+Brighton|barony|human|1|3;3|Commons;Merchants;Nobles|Oiboquodu|
+Wibozuqua|district|human|1|1;12||Oiboquodu|
+Ewmaneka|barony|human|1|2;10|Commons;Merchants|Oiboquodu;Wibozuqua|
+Wuyudesu|barony|human|1|1;8||Oiboquodu;Wibozuqua|
+Zuvukoxa|barony|human|1|1;5||Oiboquodu;Wibozuqua|
+Zadupako|province|human|1|4;15|||
+Bobutujei|district|human|1|6;4||Zadupako|
+Juravuru|barony|human|1|3;9||Zadupako;Bobutujei|
+Quavekajei|barony|human|1|3;10||Zadupako;Bobutujei|
+Green Fastness|district|human|1|1;8||Zadupako|
+Desertport|barony|zarden|1|1;7|Commons;Merchants;Nobles|Zadupako;Green Fastness|
+Oasisville|barony|human|1|4;8|Commons;Merchants|Zadupako;Green Fastness|
+Swamport|barony|human|1|2;5||Zadupako;Green Fastness|
+Ouzevozi|province|human|1|4;4|||
+Dinakakhik|district|human|1|6;9||Ouzevozi|
+Balode|barony|human|1|2;10||Ouzevozi|
+Iehukowa|district|human|1|4;10|Commons;Merchants|Ouzevozi|
+Kohejaquei|barony|human|1|1;5|Commons;Merchants;Nobles|Ouzevozi;Iehukowa|
+Resohuquo|barony|human|1|2;5|Commons;Merchants|Ouzevozi;Iehukowa|
+Xi Torrius|province|human|1|4;12|||
+Free Pass|district|human|1|1;10|Commons;Merchants|Xi Torrius|
+Motleville|barony|human|1|4;2|Commons;Merchants;Nobles|Xi Torrius|
+Li Dorsiane|district|human|1|4;15||Xi Torrius|
+Ci Herone|barony|human|1|1;11|Commons;Merchants|Xi Torrius;Li Dorsiane|
+Ci Trais|barony|human|1|2;4||Xi Torrius;Li Dorsiane|
+Xi Pernans|province|human|1|1;9|||
+Gnomefort|district|halfling/human|1|5;15|Commons;Merchants|Xi Pernans|
+Rockhome Den|barony|halfling/human|1|2;3|Commons;Merchants|Xi Pernans;Gnomefort|
+Overlook Den|barony|halfling/human|1|3;7|Commons;Merchants;Martial|Xi Pernans;Gnomefort|
+Li Kalias|district|human|1|2;11||Xi Pernans|
+Ci Astlewes|barony|human|1|3;8||Xi Pernans;Li Kalias|
+Ci Bale|barony|human|1|1;2|Commons;Merchants|Xi Pernans;Li Kalias|
+Whoriangi|district|eldent/human|1|6;10||Xi Pernans|
+Haripo|barony|eldent/human|1|4;2|Commons;Merchants|Xi Pernans;Whoriangi|
+Tuia|barony|eldent/human|1|1;4||Xi Pernans;Whoriangi|
+Uki|barony|eldent/human|1|3;5|Commons;Merchants|Xi Pernans;Whoriangi|
+Xi Pedwin|province|human|1|2;12|||
+Li Mases|district|human|1|4;13|Commons;Merchants|Xi Pedwin|
+Ci Baurnas|barony|human|1|3;5|Commons;Merchants|Xi Pedwin;Li Mases|
+Ci Begalan|barony|human|1|4;7|Commons;Merchants|Xi Pedwin;Li Mases|
+Ci Begnerelarrant|barony|human|1|4;12|Commons;Merchants|Xi Pedwin;Li Mases|
+Petro|district|eldent/human|1|3;12|Commons;Merchants;Nobles;Martial|Xi Pedwin|
+Wemezae|barony|eldent/human|1|4;11|Commons;Merchants;Nobles;Martial|Xi Pedwin|
+Sindrastinetil|district|elf/human|1|1;3||Xi Pedwin|
+Egnorcar|barony|elf/human|1|4;8|Commons;Merchants;Nobles;Martial|Xi Pedwin;Sindrastinetil|
+Theneteruscar|barony|elf/human|1|3;8||Xi Pedwin;Sindrastinetil|
+Eagle's Watch|province|human|1|6;7|||
+Blue Lake|district|human|1|3;10|Commons;Merchants;Nobles|Eagle's Watch|
+Aquaville|barony|human|1|4;9|Commons;Merchants;Nobles|Eagle's Watch|
+Forrest Valley|district|zarden|1|3;9||Eagle's Watch|
+Brancburg|barony|zarden|1|4;10|Commons;Merchants|Eagle's Watch;Forrest Valley|
+Lefville|barony|human|1|2;7||Eagle's Watch;Forrest Valley|
+Rooton|barony|zarden|1|4;7|Commons;Merchants|Eagle's Watch;Forrest Valley|
+Minnostil|district|elf/human|1|2;9|Commons;Merchants|Eagle's Watch|
+Alcutetuscar|barony|elf/human|1|1;8|Commons;Merchants|Eagle's Watch|
+Ice Guard|province|human|1|8;14|||
+Rakibur|district|human|1|3;5||Ice Guard|
+Fronglan|barony|human|1|2;7|Commons;Nobles|Ice Guard;Rakibur|
+Haetildlan|barony|human|1|4;3|Commons;Merchants|Ice Guard;Rakibur|
+Hradirlan|barony|human|1|1;3|Commons;Nobles|Ice Guard;Rakibur|
+Rockknoll|district|halfling/human|1|5;11|Commons;Merchants;Martial|Ice Guard|
+Homeport Den|barony|halfling/human|1|2;7|Commons;Merchants;Martial|Ice Guard;Rockknoll|
+Swiftriver Den|barony|halfling/human|1|2;7|Commons;Merchants;Martial|Ice Guard;Rockknoll|
+Iron Pass|province|human|1|2;16|||
+Farolahik|district|human|1|3;9||Iron Pass|
+Bonlode|barony|human|1|4;8|Commons;Nobles|Iron Pass;Farolahik|
+Ovininalode|barony|human|1|2;7|Commons;Merchants|Iron Pass;Farolahik|
+Thalalode|barony|human|1|4;2|Commons;Merchants|Iron Pass;Farolahik|
+Frabbibur|district|human|1|1;9||Iron Pass|
+Gurdlan|barony|human|1|2;3||Iron Pass;Frabbibur|
+Silodlan|barony|human|1|4;9||Iron Pass;Frabbibur|
+Sjaldlan|barony|human|1|4;7|Commons;Merchants|Iron Pass;Frabbibur|
+Silverlake|district|gnome/human|1|2;9|Commons;Merchants|Iron Pass|
+East Silverlake|barony|gnome/human|1|4;10|Commons;Merchants|Iron Pass;Silverlake|
+Goldenhill|barony|gnome/human|1|4;8|Commons;Merchants;Nobles|Iron Pass;Silverlake|
+West Silverlake|barony|gnome/human|1|4;6|Commons;Merchants|Iron Pass;Silverlake|
+Culich|province|human|1|7;8|||
+Hichik|district|zarden|1|2;5||Culich|
+Salacel|barony|zarden|1|1;8||Culich;Hichik|
+Fuxuk|barony|zarden|1|2;5|Commons;Merchants|Culich;Hichik|
+Vantil|district|elf/human|1|6;13|Commons;Merchants|Culich|
+Chosorcar|barony|elf/human|1|1;7|Commons;Merchants|Culich;Vantil|
+Allcar|barony|elf/human|1|2;6|Commons;Merchants|Culich;Vantil|
+Vekdacar|barony|elf/human|1|2;6|Commons;Merchants;Martial|Culich;Vantil|
+Vontamosar|province|human|1|5;6|||
+Kingi|district|eldent/human|1|3;7|Commons;Merchants|Vontamosar|
+Kaeruti|barony|eldent/human|1|3;10|Commons;Merchants|Vontamosar;Kingi|
+Tongia|barony|eldent/human|1|2;8|Commons;Merchants|Vontamosar;Kingi|
+Rokotil|district|human|1|4;12|Commons;Merchants|Vontamosar|
+Mefrehcar|barony|human|1|3;7||Vontamosar;Rokotil|
+Reedacar|barony|human|1|3;11|Commons;Merchants|Vontamosar;Rokotil|
+Sahtincar|barony|human|1|4;10|Commons;Merchants;Nobles|Vontamosar;Rokotil|
+Firgarnar|province|human|1|4;10|||
+Dwainimhik|district|human|1|5;9||Firgarnar|
+Giliplode|barony|human|1|2;5||Firgarnar;Dwainimhik|
+Noriplode|barony|human|1|1;8|Commons;Merchants|Firgarnar;Dwainimhik|
+Sifrleifbur|district|human|1|2;13|Commons;Merchants|Firgarnar|
+Bjorglan|barony|human|1|3;8||Firgarnar;Sifrleifbur|
+Haslodlan|barony|human|1|1;10|Commons;Merchants|Firgarnar;Sifrleifbur|
+Leimundlan|barony|human|1|4;9|Commons;Merchants|Firgarnar;Sifrleifbur|
+Risescar|province|human|1|2;16|||
+Luzzassizsar|district|zarden|1|4;10||Risescar|
+Cizzilathcar|barony|zarden|1|3;10|Commons;Merchants|Risescar;Luzzassizsar|
+Yuzovulcar|barony|zarden|1|1;3||Risescar;Luzzassizsar|
+Naripenu|district|eldent/human|1|2;9||Risescar|
+Era|barony|eldent/human|1|1;4||Risescar;Naripenu|
+Fanui|barony|eldent/human|1|1;7|Commons;Merchants|Risescar;Naripenu|
+Xi Caeligruglecar|province|human|1|7;13|||
+Hai|district|eldent/human|1|4;5|Commons;Merchants|Xi Caeligruglecar|
+Motia|barony|eldent/human|1|2;5|Commons;Merchants;Nobles|Xi Caeligruglecar;Hai|
+Pake|barony|eldent/human|1|3;4|Commons;Merchants|Xi Caeligruglecar;Hai|
+Tairemu|barony|eldent/human|1|2;7|Commons;Merchants;Nobles|Xi Caeligruglecar;Hai|
+Li Bellencetil|district|human|1|1;13|Commons;Merchants|Xi Caeligruglecar|
+Ci Adrencecar|barony|human|1|4;11|Commons;Merchants;Nobles|Xi Caeligruglecar;Li Bellencetil|
+Ci Carlancar|barony|zarden|1|2;7|Commons;Merchants|Xi Caeligruglecar;Li Bellencetil|
+Ci Belonecar|barony|zardelen|1|3;9|Commons;Merchants|Xi Caeligruglecar;Li Bellencetil|

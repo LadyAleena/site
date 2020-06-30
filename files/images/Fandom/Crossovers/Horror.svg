@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 802 1661"
+  width="802"
+  height="1661"
+  id="Horror"
+>
+  <title id="Westphall_crossovers_title">Horror franchise crossovers</title>
+  <metadata id="Westphall_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Horror franchise crossovers</dc:title>
+        <dc:date>2020-04-23</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+path               { fill:none; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+g.spinoff       path,
+path.spinoff       { stroke: #0000ff; }
+g.semi_spinoff  path,
+path.semi_spinoff  { stroke: #0000ff; stroke-dasharray: 6 4; }
+g.non_spinoff   path,
+path.non_spinoff   { stroke: #000099; stroke-dasharray: 3 4; }
+g.one_cross     path,
+path.one_cross     { stroke: #009900; }
+g.soft          path,
+path.soft          { stroke: #ffcc00; }
+
+g:target rect   { stroke: #027; stroke-width: 10; }
+rect          { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+rect.film     { fill: #ffffff; }
+rect.starz, rect.syn      { fill: #eee }
+
+text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+tspan { font-size: 90%; font-style: normal; }
+  </style>
+  <g id="Horror_chart" transform="translate(5,5)">
+    <title id="Horror_chart_title">Horror franchise crossovers</title>
+    <!--<text id="Horror_chart_title_text" x="0" y="14">Horror franchise crossovers</text>-->
+
+    <g id="Evil_Dead_franchise" transform="translate(0,1006)">
+      <title id="Evil_Dead_franchise_title">The Evil Dead</title>
+      <g class="spinoff" id="Evil_Dead_spinoff_group" transform="translate(13)">
+        <title id="Evil_Dead_spinoff_group_title">The The Evil Dead spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Evil_Dead_to_Evil_Dead_II" />
+        <path d="m 0,  55 v 39 h 15" id="Evil_Dead_to_Army_of_Darkness" />
+        <path d="m 0,  95 v 39 h 15" id="Evil_Dead_to_Evil_Dead_2013" class="semi_spinoff"/>
+        <path d="m 0, 135 v 39 h 15" id="Evil_Dead_to_Ash_vs_Evil_Dead" />
+      </g>
+      <g id="Evil_Dead" transform="translate(0,0)">
+        <title id="Evil_Dead_title">The Evil Dead</title>
+        <g id="Evil_Dead_crossovers" class="soft" transform="translate(115,14)">
+          <title id="Evil_Dead_crossovers_title">The Evil Dead crossovers</title>
+          <path d="m 0,0 h 73" id="Evil_Dead_to" />
+          <g transform="translate(73,0)">
+            <path d="m 0,0 h 27 m 6,0 h 12" id="Evil_Dead_to_Jason_Goes_to_Hell" />
+            <path d="m 0,0 v 540 h 27 m 6,0 h 12" id="Evil_Dead_to_Pumpkinhead_II" />
+          </g>
+        </g>
+        <rect id="Evil_Dead_box" x="0" y="0" rx="10" width="113" height="28" class="film" />
+        <text id="Evil_Dead_text" x="6" y="14">The Evil Dead</text>
+      </g>
+      <g id="Evil_Dead_2" transform="translate(30,40)">
+        <title id="Evil_Dead_2_title">Evil Dead II</title>
+        <rect id="Evil_Dead_2_box" x="0" y="0" rx="10" width="95" height="28" class="film" />
+        <text id="Evil_Dead_2_text" x="6" y="14">Evil Dead II</text>
+      </g>
+      <g id="Army_of_Darkness" transform="translate(30,80)">
+        <title id="Army_of_Darkness_title">Army of Darkness</title>
+        <rect id="Army_of_Darkness_box" x="0" y="0" rx="10" width="140" height="28" class="film" />
+        <text id="Army_of_Darkness_text" x="6" y="14">Army of Darkness</text>
+      </g>
+      <g id="Evil_Dead_2013" transform="translate(30,120)">
+        <title id="Evil_Dead_2013_title">Evil Dead (2013)</title>
+        <rect id="Evil_Dead_2013_box" x="0" y="0" rx="10" width="130" height="28" class="film" />
+        <text id="Evil_Dead_2013_text" x="6" y="14">Evil Dead <tspan id="Evil_Dead_2013_year">(2013)</tspan></text>
+      </g>
+      <g id="Ash_vs_Evil_Dead" transform="translate(30,160)">
+        <title id="Ash_vs_Evil_Dead_title">Ash vs Evil Dead</title>
+        <rect id="Ash_vs_Evil_Dead_box" x="0" y="0" width="136" height="28" class="starz" />
+        <text id="Ash_vs_Evil_Dead_text" x="6" y="14">Ash vs Evil Dead</text>
+      </g>
+    </g>
+    <g id="Halloween_franchise" transform="translate(205,123)">
+      <title id="Halloween_franchise_title">Halloween</title>
+      <g class="spinoff" id="Halloween_spinoff_group" transform="translate(13)">
+        <title id="Halloween_spinoff_group_title">The Halloween spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Halloween_to_Halloween_2" />
+        <path d="m 0,  55 v 39 h 15" id="Halloween_to_Halloween_3" class="non_spinoff" />
+        <path d="m 0,  95 v 39 h 15" id="Halloween_to_Halloween_4" />
+        <path d="m 0, 135 v 39 h 15" id="Halloween_to_Halloween_5" />
+        <path d="m 0, 175 v 39 h 15" id="Halloween_to_Halloween_Curse_of_Michael_Myers" />
+        <path d="m 0, 215 v 39 h 15" id="Halloween_to_Halloween_H20_20_Years_Later" />
+        <path d="m 0, 255 v 79 h 15" id="Halloween_to_Halloween_2007" class="non_spinoff" />
+        <path d="m 0, 335 v 79 h 15" id="Halloween_to_Halloween_2018" />
+      </g>
+      <g id="Halloween" transform="translate(0,0)">
+        <title id="Halloween_title">Halloween</title>
+        <path d="m 91,14 h 332 m 6,0 h 12" class="soft" id="Halloween_to_Bride_of_Chucky" />
+        <rect id="Halloween_box" x="0" y="0" rx="10" width="89" height="28" class="film" />
+        <text id="Halloween_text" x="6" y="14">Halloween</text>
+      </g>
+      <g id="Halloween_2" transform="translate(30,40)">
+        <title id="Halloween_2_title">Halloween II</title>
+        <rect id="Halloween_2_box" x="0" y="0" rx="10" width="102" height="28" class="film" />
+        <text id="Halloween_2_text" x="6" y="14">Halloween II</text>
+      </g>
+      <g id="Halloween_3" transform="translate(30,80)">
+        <title id="Halloween_3_title">Halloween III: Season of the Witch</title>
+        <rect id="Halloween_3_box" x="0" y="0" rx="10" width="255" height="28" class="film" />
+        <text id="Halloween_3_text" x="6" y="14">Halloween III: Season of the Witch</text>
+      </g>
+      <g id="Halloween_4" transform="translate(30,120)">
+        <title id="Halloween_4_title">Halloween 4: The Return of Michael Myers</title>
+        <rect id="Halloween_4_box" x="0" y="0" rx="10" width="315" height="28" class="film" />
+        <text id="Halloween_4_text" x="6" y="14">Halloween 4: The Return of Michael Myers</text>
+      </g>
+      <g id="Halloween_5" transform="translate(30,160)">
+        <title id="Halloween_5_title">Halloween 5: The Revenge of Michael Myers</title>
+        <rect id="Halloween_5_box" x="0" y="0" rx="10" width="332" height="28" class="film" />
+        <text id="Halloween_5_text" x="6" y="14">Halloween 5: The Revenge of Michael Myers</text>
+      </g>
+      <g id="Halloween_Curse_of_Michael_Myers" transform="translate(30,200)">
+        <title id="Halloween_Curse_of_Michael_Myers_title">Halloween: The Curse of Michael Myers</title>
+        <rect id="Halloween_Curse_of_Michael_Myers_box" x="0" y="0" rx="10" width="297" height="28" class="film" />
+        <text id="Halloween_Curse_of_Michael_Myers_text" x="6" y="14">Halloween: The Curse of Michael Myers</text>
+      </g>
+      <g id="Halloween_H20_20_Years_Later_franchise" transform="translate(30,240)">
+        <title id="Halloween_H20_20_Years_Later_franchise_title">Halloween H20: 20 Years Later</title>
+        <path class="spinoff" d="m 13, 30 v 24 h 15" id="Halloween_H20_20_Years_Later_to_Halloween_Resurrection" />
+        <g id="Halloween_H20_20_Years_Later" transform="translate(0,0)">
+          <title id="Halloween_H20_20_Years_Later_title">Halloween H20: 20 Years Later</title>
+          <rect id="Halloween_H20_20_Years_Later_box" x="0" y="0" rx="10" width="237" height="28" class="film" />
+          <text id="Halloween_H20_20_Years_Later_text" x="6" y="14">Halloween H20: 20 Years Later</text>
+        </g>
+        <g id="Halloween_Resurrection" transform="translate(30,40)">
+          <title id="Halloween_Resurrection_title">Halloween: Resurrection</title>
+          <rect id="Halloween_Resurrection_box" x="0" y="0" rx="10" width="188" height="28" class="film" />
+          <text id="Halloween_Resurrection_text" x="6" y="14">Halloween: Resurrection</text>
+        </g>
+      </g>
+      <g id="Halloween_2007_franchise" transform="translate(30,320)">
+        <title id="Halloween_2007_franchise_title">Halloween (2007)</title>
+        <path class="spinoff" d="m 13, 30 v 24 h 15" id="Halloween_2007_to_Halloween_II_2009" />
+        <g id="Halloween_2007" transform="translate(0,0)">
+          <title id="Halloween_2007_title">Halloween (2007)</title>
+          <rect id="Halloween_2007_box" x="0" y="0" rx="10" width="136" height="28" class="film" />
+          <text id="Halloween_2007_text" x="6" y="14">Halloween <tspan id="Halloween_2007_year">(2007)</tspan></text>
+        </g>
+        <g id="Halloween_II_2009" transform="translate(30,40)">
+          <title id="Halloween_II_2009_title">Halloween II (2009)</title>
+          <rect id="Halloween_II_2009_box" x="0" y="0" rx="10" width="149" height="28" class="film" />
+          <text id="Halloween_II_2009_text" x="6" y="14">Halloween II <tspan id="Halloween_II_2009_year">(2009)</tspan></text>
+        </g>
+      </g>
+      <g id="Halloween_2018_franchise" transform="translate(30,400)">
+        <title id="Halloween_2018_franchise_title">Halloween (2018)</title>
+        <g class="spinoff" id="Halloween_2018_spinoff_group" transform="translate(13)">
+          <title id="Halloween_2018_spinoff_group_title">The Halloween (2018) spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Halloween_2018_to_Halloween_Kills" />
+          <path d="m 0, 55 v 39 h 15" id="Halloween_2018_to_Halloween_Ends" />
+        </g>
+        <g id="Halloween_2018" transform="translate(0,0)">
+          <title id="Halloween_2018_title">Halloween (2018)</title>
+          <rect id="Halloween_2018_box" x="0" y="0" rx="10" width="136" height="28" class="film" />
+          <text id="Halloween_2018_text" x="6" y="14">Halloween <tspan id="Halloween_2018">(2018)</tspan></text>
+        </g>
+        <g id="Halloween_Kills" transform="translate(30,40)">
+          <title id="Halloween_Kills_title">Halloween Kills</title>
+          <rect id="Halloween_Kills_box" x="0" y="0" rx="10" width="125" height="28" class="film" />
+          <text id="Halloween_Kills_text" x="6" y="14">Halloween Kills</text>
+        </g>
+        <g id="Halloween_Ends" transform="translate(30,80)">
+          <title id="Halloween_Ends_title">Halloween Ends</title>
+          <rect id="Halloween_Ends_box" x="0" y="0" rx="10" width="131" height="28" class="film" />
+          <text id="Halloween_Ends_text" x="6" y="14">Halloween Ends</text>
+        </g>
+      </g>
+    </g>
+    <g id="Friday_13th_franchise" transform="translate(205,643)">
+      <title id="Friday_13th_franchise_title">Friday the 13th</title>
+      <g class="spinoff" id="Friday_13th_spinoff_group" transform="translate(13)">
+        <title id="Friday_13th_spinoff_group_title">The Friday the 13th spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Friday_13th_to_Friday_13th_2" />
+        <path d="m 0,  55 v 39 h 15" id="Friday_13th_to_Friday_13th_3" />
+        <path d="m 0,  95 v 39 h 15" id="Friday_13th_to_Friday_13th_Final_Chapter" />
+        <path d="m 0, 135 v 39 h 15" id="Friday_13th_to_Friday_13th_New_Beginning" />
+        <path d="m 0, 175 v 39 h 15" id="Friday_13th_to_Friday_13th_6" />
+        <path d="m 0, 215 v 39 h 15" id="Friday_13th_to_Friday_13th_Series" />
+        <path d="m 0, 255 v 39 h 15" id="Friday_13th_to_Friday_13th_7" />
+        <path d="m 0, 295 v 39 h 15" id="Friday_13th_to_Friday_13th_8" />
+        <path d="m 0, 335 v 36 h 15" id="Friday_13th_to_Jason_Goes_to_Hell_Final_Friday" />
+        <path d="m 0, 372 v 42 h 15" id="Friday_13th_to_Jason_X" />
+        <path d="m 0, 415 v 24 h 391 v 182 h 15" id="Friday_13th_to_Freddy_vs_Jason" />
+        <path d="m 0, 440 v 24 h 15" id="Friday_13th_to_Friday_13th_2009" class="non_spinoff" />
+      </g>
+      <g id="Friday_13th" transform="translate(0,0)">
+        <title id="Friday_13th_title">Friday the 13th</title>
+        <path d="m 120,14 h 284 v -520 h 19 m 6,0 h 12" class="soft" id="Friday_13th_to_Bride_of_Chucky" />
+        <rect id="Friday_13th_box" x="0" y="0" rx="10" width="118" height="28" class="film" />
+        <text id="Friday_13th_text" x="6" y="14">Friday the 13th</text>
+      </g>
+      <g id="Friday_13th_2" transform="translate(30,40)">
+        <title id="Friday_13th_2_title">Friday the 13th Part 2</title>
+        <rect id="Friday_13th_2_box" x="0" y="0" rx="10" width="164" height="28" class="film" />
+        <text id="Friday_13th_2_text" x="6" y="14">Friday the 13th Part 2</text>
+      </g>
+      <g id="Friday_13th_Part_3" transform="translate(30,80)">
+        <title id="Friday_13th_Part_3_title">Friday the 13th Part III</title>
+        <rect id="Friday_13th_Part_3_box" x="0" y="0" rx="10" width="168" height="28" class="film" />
+        <text id="Friday_13th_Part_3_text" x="6" y="14">Friday the 13th Part III</text>
+      </g>
+      <g id="Friday_13th_Final_Chapter" transform="translate(30,120)">
+        <title id="Friday_13th_Final_Chapter_title">Friday the 13th: The Final Chapter</title>
+        <rect id="Friday_13th_Final_Chapter_box" x="0" y="0" rx="10" width="257" height="28" class="film" />
+        <text id="Friday_13th_Final_Chapter_text" x="6" y="14">Friday the 13th: The Final Chapter</text>
+      </g>
+      <g id="Friday_13th_New_Beginning" transform="translate(30,160)">
+        <title id="Friday_13th_New_Beginning_title">Friday the 13th: A New Beginning</title>
+        <rect id="Friday_13th_New_Beginning_box" x="0" y="0" rx="10" width="252" height="28" class="film" />
+        <text id="Friday_13th_New_Beginning_text" x="6" y="14">Friday the 13th: A New Beginning</text>
+      </g>
+      <g id="Friday_13th_Part_6" transform="translate(30,200)">
+        <title id="Friday_13th_6_title">Friday the 13th Part VI: Jason Lives</title>
+        <rect id="Friday_13th_Part_6_box" x="0" y="0" rx="10" width="264" height="28" class="film" />
+        <text id="Friday_13th_Part_6_text" x="6" y="14">Friday the 13th Part VI: Jason Lives</text>
+      </g>
+      <g id="Friday_13th_Series" transform="translate(30,240)">
+        <title id="Friday_13th_Series_title">Friday the 13th: The Series</title>
+        <rect id="Friday_13th_Series_box" x="0" y="0" width="205" height="28" class="syn" />
+        <text id="Friday_13th_Series_text" x="6" y="14">Friday the 13th: The Series</text>
+      </g>
+      <g id="Friday_13th_Part_7" transform="translate(30,280)">
+        <title id="Friday_13th_7_title">Friday the 13th Part VII: The New Blood</title>
+        <rect id="Friday_13th_7_box" x="0" y="0" rx="10" width="294" height="28" class="film" />
+        <text id="Friday_13th_7_text" x="6" y="14">Friday the 13th Part VII: The New Blood</text>
+      </g>
+      <g id="Friday_13th_Part_8" transform="translate(30,320)">
+        <title id="Friday_13th_8_title">Friday the 13th Part VIII: Jason Takes Manhattan</title>
+        <rect id="Friday_13th_8_box" x="0" y="0" rx="10" width="356" height="28" class="film" />
+        <text id="Friday_13th_8_text" x="6" y="14">Friday the 13th Part VIII: Jason Takes Manhattan</text>
+      </g>
+      <g id="Jason_Goes_to_Hell_Final_Friday" transform="translate(30,360)">
+        <title id="Jason_Goes_to_Hell_Final_Friday_title">Jason Goes to Hell: The Final Friday</title>
+        <rect id="Jason_Goes_to_Hell_Final_Friday_box" x="0" y="0" rx="10" width="273" height="28" class="film" />
+        <text id="Jason_Goes_to_Hell_Final_Friday_text" x="6" y="14">Jason Goes to Hell: The Final Friday</text>
+      </g>
+      <g id="Jason_X" transform="translate(30,400)">
+        <title id="Jason_X_title">Jason X</title>
+        <rect id="Jason_X_box" x="0" y="0" rx="10" width="72" height="28" class="film" />
+        <text id="Jason_X_text" x="6" y="14">Jason X</text>
+      </g>
+      <g id="Friday_13th_2009" transform="translate(30,450)">
+        <title id="Friday_13th_2009_title">Friday the 13th (2009)</title>
+        <rect id="Friday_13th_2009_box" x="0" y="0" rx="10" width="165" height="28" class="film" />
+        <text id="Friday_13th_2009_text" x="6" y="14">Friday the 13th <tspan id="Friday_13th_2009">(2009)</tspan></text>
+      </g>
+    </g>
+    <g id="Nightmare_on_Elm_Street_franchise" transform="translate(205,1133)">
+      <title id="Nightmare_on_Elm_Street_franchise_title">A Nightmare on Elm Street</title>
+      <g class="spinoff" id="Nightmare_on_Elm_Street_spinoff_group" transform="translate(13)">
+        <title id="Nightmare_on_Elm_Street_spinoff_group_title">The A Nightmare on Elm Street spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Nightmare_on_Elm_Street_to_Nightmare_on_Elm_Street_2" />
+        <path d="m 0,  55 v 39 h 15" id="Nightmare_on_Elm_Street_to_Nightmare_on_Elm_Street_3" />
+        <path d="m 0,  95 v 39 h 15" id="Nightmare_on_Elm_Street_to_Nightmare_on_Elm_Street_4" />
+        <path d="m 0, 135 v 39 h 15" id="Nightmare_on_Elm_Street_to_Freddys_Nightmares" />
+        <path d="m 0, 175 v 39 h 15" id="Nightmare_on_Elm_Street_to_Nightmare_on_Elm_Street_5" />
+        <path d="m 0, 215 v 39 h 15" id="Nightmare_on_Elm_Street_to_Freddys_Dead_Final_Nightmare" />
+        <path d="m 0, 255 v 39 h 15" id="Nightmare_on_Elm_Street_to_Wes_Cravens_New_Nightmare" />
+        <path d="m 0, 295 v 24 h 391 v -182 h 15" id="Nightmare_on_Elm_Street_to_Freddy_vs_Jason" />
+        <path d="m 0, 320 v 24 h 15" id="Nightmare_on_Elm_Street_to_Nightmare_on_Elm_Street_2010" class="non_spinoff" />
+      </g>
+      <g id="Nightmare_on_Elm_Street" transform="translate(0,0)">
+        <title id="Nightmare_on_Elm_Street_title">A Nightmare on Elm Street</title>
+        <path d="m 206,14 h 195 m 6,0 h 7 v -1010 h 9 m 6,0 h 12" id="Nightmare_on_Elm_Street_to_Bride_of_Chucky" class="soft" />
+        <rect id="Nightmare_on_Elm_Street_box" x="0" y="0" rx="10" width="204" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_text" x="6" y="14">A Nightmare on Elm Street</text>
+      </g>
+      <g id="Nightmare_on_Elm_Street_2" transform="translate(30,40)">
+        <title id="Nightmare_on_Elm_Street_2_title">A Nightmare on Elm Street 2: Freddy&#700;s Revenge</title>
+        <rect id="Nightmare_on_Elm_Street_2_box" x="0" y="0" rx="10" width="353" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_2_text" x="6" y="14">A Nightmare on Elm Street 2: Freddy&#700;s Revenge</text>
+      </g>
+      <g id="Nightmare_on_Elm_Street_3_Dream_Warriors" transform="translate(30,80)">
+        <title id="Nightmare_on_Elm_Street_3_title">A Nightmare on Elm Street 3: Dream Warriors</title>
+        <rect id="Nightmare_on_Elm_Street_3_box" x="0" y="0" rx="10" width="336" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_3_text" x="6" y="14">A Nightmare on Elm Street 3: Dream Warriors</text>
+      </g>
+      <g id="Nightmare_on_Elm_Street_4_Dream_Master" transform="translate(30,120)">
+        <title id="Nightmare_on_Elm_Street_4_title">A Nightmare on Elm Street 4: The Dream Master</title>
+        <rect id="Nightmare_on_Elm_Street_4_box" x="0" y="0" rx="10" width="357" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_4_text" x="6" y="14">A Nightmare on Elm Street 4: The Dream Master</text>
+      </g>
+      <g id="Freddys_Nightmares" transform="translate(30,160)">
+        <title id="Freddys_Nightmares_title">Freddy&#700;s Nightmares</title>
+        <rect id="Freddys_Nightmares_box" x="0" y="0" width="160" height="28" class="syn" />
+        <text id="Freddys_Nightmares_text" x="6" y="14">Freddy&#700;s Nightmares</text>
+      </g>
+      <g id="Nightmare_on_Elm_Street_5" transform="translate(30,200)">
+        <title id="Nightmare_on_Elm_Street_5_title">A Nightmare on Elm Street 5: The Dream Child</title>
+        <rect id="Nightmare_on_Elm_Street_5_box" x="0" y="0" rx="10" width="346" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_5_text" x="6" y="14">A Nightmare on Elm Street 5: The Dream Child</text>
+      </g>
+      <g id="Freddys_Dead_Final_Nightmare" transform="translate(30,240)">
+        <title id="Freddys_Dead_Final_Nightmare_title">Freddy&#700;s Dead: The Final Nightmare</title>
+        <rect id="Freddys_Dead_Final_Nightmare_box" x="0" y="0" rx="10" width="270" height="28" class="film" />
+        <text id="Freddys_Dead_Final_Nightmare_text" x="6" y="14">Freddy&#700;s Dead: The Final Nightmare</text>
+      </g>
+      <g id="Wes_Cravens_New_Nightmare" transform="translate(30,280)">
+        <title id="Wes_Cravens_New_Nightmare_title">Wes Craven&#700;s New Nightmare</title>
+        <rect id="Wes_Cravens_New_Nightmare_box" x="0" y="0" rx="10" width="224" height="28" class="film" />
+        <text id="Wes_Cravens_New_Nightmare_text" x="6" y="14">Wes Craven&#700;s New Nightmare</text>
+      </g>
+      <g id="Nightmare_on_Elm_Street_2010" transform="translate(30,330)">
+        <title id="Nightmare_on_Elm_Street_2010_title">A Nightmare on Elm Street (2010)</title>
+        <rect id="Nightmare_on_Elm_Street_2010_box" x="0" y="0" rx="10" width="251" height="28" class="film" />
+        <text id="Nightmare_on_Elm_Street_2010_text" x="6" y="14">A Nightmare on Elm Street <tspan id="Nightmare_on_Elm_Street_2010">(2010)</tspan></text>
+      </g>
+    </g>
+    <g id="Freddy_vs_Jason" transform="translate(626,1253)">
+      <title id="Freddy_vs_Jason_title">Freddy vs. Jason</title>
+      <rect id="Freddy_vs_Jason_box" x="0" y="0" rx="10" width="133" height="28" class="film" />
+      <text id="Freddy_vs_Jason_text" x="6" y="14">Freddy vs. Jason</text>
+    </g>
+    <g id="Pumpkinhead_franchise" transform="translate(205,1503)">
+      <title id="Pumpkinhead_franchise_title">Pumpkinhead</title>
+      <g class="spinoff" id="Pumpkinhead_spinoff_group" transform="translate(13)">
+        <title id="Pumpkinhead_spinoff_group_title">The Pumpkinhead spinoffs</title>
+        <path d="m 0, 30 v 21 h 15" id="Pumpkinhead_to_Pumpkinhead_2" />
+        <path d="m 0, 52 v 42 h 15" id="Pumpkinhead_to_Pumpkinhead_Ashes_to_Ashes" />
+        <path d="m 0, 95 v 39 h 15" id="Pumpkinhead_to_Pumpkinhead_Blood_Feud" />
+      </g>
+      <g id="Pumpkinhead" transform="translate(0,0)">
+        <title id="Pumpkinhead_title">Pumpkinhead</title>
+        <rect id="Pumpkinhead_box" x="0" y="0" rx="10" width="112" height="28" class="film" />
+        <text id="Pumpkinhead_text" x="6" y="14">Pumpkinhead</text>
+      </g>
+      <g id="Pumpkinhead_2" transform="translate(30,40)">
+        <title id="Pumpkinhead_2_title">Pumpkinhead II: Blood Wings</title>
+        <rect id="Pumpkinhead_2_box" x="0" y="0" rx="10" width="223" height="28" class="film" />
+        <text id="Pumpkinhead_2_text" x="6" y="14">Pumpkinhead II: Blood Wings</text>
+      </g>
+      <g id="Pumpkinhead_Ashes_to_Ashes" transform="translate(30,80)">
+        <title id="Pumpkinhead_Ashes_to_Ashes_title">Pumpkinhead: Ashes to Ashes</title>
+        <rect id="Pumpkinhead_Ashes_to_Ashes_box" x="0" y="0" rx="10" width="231" height="28" class="film" />
+        <text id="Pumpkinhead_Ashes_to_Ashes_text" x="6" y="14">Pumpkinhead: Ashes to Ashes</text>
+      </g>
+      <g id="Pumpkinhead_Blood_Feud" transform="translate(30,120)">
+        <title id="Pumpkinhead_Blood_Feud_title">Pumpkinhead: Blood Feud</title>
+        <rect id="Pumpkinhead_Blood_Feud_box" x="0" y="0" rx="10" width="203" height="28" class="film" />
+        <text id="Pumpkinhead_Blood_Feud_text" x="6" y="14">Pumpkinhead: Blood Feud</text>
+      </g>
+    </g>
+    <g id="Childs_Play_franchise" transform="translate(618,0)">
+      <title id="Childs_Play_franchise_title">Child&apos;s Play</title>
+      <g class="spinoff" id="Childs_Play_spinoff_group" transform="translate(13)">
+        <title id="Childs_Play_spinoff_group_title">The Child&apos;s Play spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Childs_Play_to_Childs_Play2" />
+        <path d="m 0,  55 v 39 h 15" id="Childs_Play_to_Childs_Play_3" />
+        <path d="m 0,  95 v 36 h 15" id="Childs_Play_to_Bride_of_Chucky" />
+        <path d="m 0, 132 v 42 h 15" id="Childs_Play_to_Seed_of_Chucky" />
+        <path d="m 0, 175 v 39 h 15" id="Childs_Play_to_Curse_of_Chucky" />
+        <path d="m 0, 215 v 39 h 15" id="Childs_Play_to_Cult_of_Chucky" />
+        <path d="m 0, 255 v 39 h 15" id="Childs_Play_to_Childs_Play_2019" class="non_spinoff" />
+      </g>
+      <g id="Childs_Play" transform="translate(0,0)">
+        <title id="Childs_Play_title">Child&#700;s Play</title>
+        <rect id="Childs_Play_box" x="0" y="0" rx="10" width="97" height="28" class="film" />
+        <text id="Childs_Play_text" x="6" y="14">Child&#700;s Play</text>
+      </g>
+      <g id="Childs_Play2" transform="translate(30,40)">
+        <title id="Childs_Play_2_title">Child&#700;s Play 2</title>
+        <rect id="Childs_Play_2_box" x="0" y="0" rx="10" width="109" height="28" class="film" />
+        <text id="Childs_Play_2_text" x="6" y="14">Child&#700;s Play 2</text>
+      </g>
+      <g id="Childs_Play3" transform="translate(30,80)">
+        <title id="Childs_Play_3_title">Child&#700;s Play 3</title>
+        <rect id="Childs_Play_3_box" x="0" y="0" rx="10" width="109" height="28" class="film" />
+        <text id="Childs_Play_3_text" x="6" y="14">Child&#700;s Play 3</text>
+      </g>
+      <g id="Bride_of_Chucky" transform="translate(30,120)">
+        <title id="Bride_of_Chucky_title">Bride of Chucky</title>
+        <rect id="Bride_of_Chucky_box" x="0" y="0" rx="10" width="126" height="28" class="film" />
+        <text id="Bride_of_Chucky_text" x="6" y="14">Bride of Chucky</text>
+      </g>
+      <g id="Seed_of_Chucky" transform="translate(30,160)">
+        <title id="Seed_of_Chucky_title">Seed of Chucky</title>
+        <rect id="Seed_of_Chucky_box" x="0" y="0" rx="10" width="125" height="28" class="film" />
+        <text id="Seed_of_Chucky_text" x="6" y="14">Seed of Chucky</text>
+      </g>
+      <g id="Curse_of_Chucky" transform="translate(30,200)">
+        <title id="Curse_of_Chucky_title">Curse of Chucky</title>
+        <rect id="Curse_of_Chucky_box" x="0" y="0" rx="10" width="130" height="28" class="film" />
+        <text id="Curse_of_Chucky_text" x="6" y="14">Curse of Chucky</text>
+      </g>
+      <g id="Cult_of_Chucky" transform="translate(30,240)">
+        <title id="Cult_of_Chucky_title">Cult of Chucky</title>
+        <rect id="Cult_of_Chucky_box" x="0" y="0" rx="10" width="116" height="28" class="film" />
+        <text id="Cult_of_Chucky_text" x="6" y="14">Cult of Chucky</text>
+      </g>
+      <g id="Childs_Play_2019" transform="translate(30,280)">
+        <title id="Childs_Play_2019_title">Child&#700;s Play (2019)</title>
+        <rect id="Childs_Play_2019_box" x="0" y="0" rx="10" width="144" height="28" class="film" />
+        <text id="Childs_Play_2019_text" x="6" y="14">Child&#700;s Play <tspan id="Childs_Play_2019">(2019)</tspan></text>
+      </g>
+    </g>
+</g>
+</svg>

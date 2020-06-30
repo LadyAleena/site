@@ -1,0 +1,3 @@
+PSPs|71
+Psychokinesis|Detonate;Project Force;Telekinesis|Animate Object;Ballistic Attack;Control Body;Inertial Barrier;Levitation;Molecular Agitation;Soften
+Telepathy||Intellect Fortress;Mind Blank

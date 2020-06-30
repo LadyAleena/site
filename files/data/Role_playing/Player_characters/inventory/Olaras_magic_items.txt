@@ -1,0 +1,39 @@
+elixir:health:4,madness
+philter:glibness:2,love:3,persuasiveness,stammering and stuttering:2
+oil:acid resistance,bug repellence:2,crossing,disenchantment:2,etherealness:6,fiery burning,impact:2,timelessness
+oil of elemental invulnerability:air,fire
+poison:type g:1,type i:1,type j:1
+potion of animal control:reptile:2,amphibian:7
+potion of undead control:general:6,ghouls:1
+potion of dragon breath, sapphire
+potion of dragon control, brass
+potion of giant strength, frost:2
+potion:clairaudience,clairvoyance,climbing,delusion:3,diminution:2,elasticity,esp:5,extra-healing,fire breath:4,fire immunity,fire resistance,flying:7,gaseous form:5,growth,healing:3,human control,invisibility:4,invulnerability:2,levitation,luck,mind control:2,mind fogging:2,polymorph self:4,polymorphing,rainbow hues:6,speed,super-heroism,ventriloquism,vitality:2,water breathing:3
+scroll:equipment,protection from dragon breath,protection from elementals,protection from fire,protection from gas,protection from lycanthropes,protection from petrification,protection from poison
+rod:absorption:2,cancellation:4,flailing,lordly might,necromancy,resurrection,security,smiting,terror
+staff:healing,thunder and lightning:2,withering
+staff of the elements, earth
+hellstaff +4 power gems
+wand of earth passage, Orgle's
+wand:banishment,conjuration:2,fear,fire,force,frost,lightning,magic missiles:2,meteors,negation,paralyzation,polymorphing:3,size alteration
+alchemy jug
+bag of many bags
+belt of protection +2
+book of exalted deeds
+boots of flying 
+bugle of collapsing
+cloak of elvenkind
+cloak of protection +2
+cube of abilities
+globe:continual light,detonation
+heward's handy haversack
+horn:blasting,Valhalla (brass)
+inkwell of scrollmaking
+kettle of breathing
+Libram of Silver Magic
+mist tent
+mug of plenty
+Murlynd's spoon
+phaseship
+robe of powerlessness
+rope:climbing:3,constriction

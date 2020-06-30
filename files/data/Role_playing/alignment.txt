@@ -1,0 +1,9 @@
+lg|lawful good
+ng|neutral good
+cg|chaotic good
+ln|lawful neutral
+tn|true neutral
+cn|chaotic neutral
+le|lawful evil
+ne|neutral evil 
+ce|chaotic evil

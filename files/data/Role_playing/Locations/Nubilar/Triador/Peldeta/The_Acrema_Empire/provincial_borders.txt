@@ -1,0 +1,17 @@
+Nemsuria|Acrem;Yreth;Satex
+Ilacend|Acrem;Yreth;Krigt
+Ialatrasu|Acrem;Vecile;Strafet;Krigt
+Oiboquodu|Yreth;Satex;Zilarb
+Zadupako|Yreth;Zilarb
+Ouzevozi|Yreth;Krigt
+Xi Torrius|Vecile;Satex
+Xi Pernans|Vecile;Strafet;Eldent
+Xi Pedwin|Vecile;Telanna;Eldent
+Eagle's Watch|Satex;Zilarb;Telanna
+Culich|Zilarb;Telanna
+Ice Guard|Strafet;Teglan
+Iron Pass|Strafet;Teglan;Krigt
+Vontamosar|Telanna;Eldent
+Firgarnar|Teglan;Krigt
+Risescar|Abru;Eldent
+Xi Caeligruglecar|Abru;Eldent

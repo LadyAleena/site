@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 462 398"
+  width="462"
+  height="398"
+  id="Better_Fast"
+>
+  <title id="Better_Fast_title">Better Luck Tomorrow cross with The Fast and Furious</title>
+  <metadata id="Fast_Gremlins_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Better Luck Tomorrow crossed with The Fast and the Furious</dc:title>
+        <dc:date>2019-08-20</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Better_Fast_chart" transform="translate(5,5)">
+    <title id="Better_Fast_chart_title">Better Luck Tomorrow cross with The Fast and Furious</title>
+    <g id="Better_Luck_Tomorrow" transform="translate(0,83)">
+      <title id="Better_Luck_Tomorrow_title">Better Luck Tomorrow</title>
+      <path class="one_cross" d="m 171,14 h 13 m 4,0 h 13" id="Better_Luck_Tomorrow_to_Fast_Furious_Tokyo_Drift" />
+      <rect id="Better_Luck_Tomorrow_box"  x="0" y="0" rx="10" width="169" height="28" class="film" />
+      <text id="Better_Luck_Tomorrow_text" x="6" y="14">Better Luck Tomorrow</text>
+    </g>
+    <g id="Fast_Furious_franchise" transform="translate(173,0)">
+      <title id="Fast_Furious_franchise_title">The Fast and the Furious</title>
+      <g class="spinoff" id="Fast_Furious_spinoff_lines" transform="translate(13)">
+        <title id="Fast_Furious_spinoff_lines_title">The The Fast and the Furious spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Fast_Furious_to_two_Fast_2_Furious" />
+        <path d="m 0,  55 v 36 h 15" id="Fast_Furious_to_Fast_Furious_Tokyo_Drift" />
+        <path d="m 0,  92 v 42 h 15" id="Fast_Furious_to_Los_Bandoleros" />
+        <path d="m 0, 135 v 39 h 15" id="Fast_Furious_to_Fast_and_Furious" />
+        <path d="m 0, 175 v 39 h 15" id="Fast_Furious_to_Fast_Five" />
+        <path d="m 0, 215 v 39 h 15" id="Fast_Furious_to_Fast_and_Furious_6" />
+        <path d="m 0, 255 v 39 h 15" id="Fast_Furious_to_Furious_7" />
+        <path d="m 0, 295 v 39 h 15" id="Fast_Furious_to_Fate_of_Furious" />
+        <path d="m 0, 335 v 39 h 15" id="Fast_Furious_to_Fast_and_Furious_Hobbs_and_Shaw" />
+      </g>
+      <g id="Fast_Furious" transform="translate(0,0)">
+        <title id="Fast_Furious_title">The Fast and the Furious</title>
+        <rect id="Fast_Furious_box"  x="0" y="0" rx="10" width="189" height="28" class="film" />
+        <text id="Fast_Furious_text" x="6" y="14">The Fast and the Furious</text>
+      </g>
+      <g id="Two_Fast_2_Furious" transform="translate(30,40)">
+        <title id="two_Fast_2_Furious_title">2 Fast 2 Furious</title>
+        <rect id="two_Fast_2_Furious_box"  x="0" rx="10" y="0" width="128" height="28" class="film" />
+        <text id="two_Fast_2_Furious_text" x="6" y="14">2 Fast 2 Furious</text>
+      </g>
+      <g id="Fast_Furious_Tokyo_Drift" transform="translate(30,80)">
+        <title id="Fast_Furious_Tokyo_Drift_title">The Fast and Furious: Tokyo Drift</title>
+        <rect id="Fast_Furious_Tokyo_Drift_box"  x="0" y="0" rx="10" width="249" height="28" class="film" />
+        <text id="Fast_Furious_Tokyo_Drift_text" x="6" y="14">The Fast and Furious: Tokyo Drift</text>
+      </g>
+      <g id="Los_Bandoleros" transform="translate(30,120)">
+        <title id="Los_Bandoleros_title">Los Bandoleros</title>
+        <rect id="Los_Bandoleros_box"  x="0" y="0" rx="10" width="125" height="28" class="film" />
+        <text id="Los_Bandoleros_text" x="6" y="14">Los Bandoleros</text>
+      </g>
+      <g id="Fast_and_Furious" transform="translate(30,160)">
+        <title id="Fast_and_Furious_title">Fast &amp; Furious</title>
+        <rect id="Fast_and_Furious_box"  x="0" y="0" rx="10" width="117" height="28" class="film" />
+        <text id="Fast_and_Furious_text" x="6" y="14">Fast &amp; Furious</text>
+      </g>
+      <g id="Fast_Five" transform="translate(30,200)">
+        <title id="Fast_Five_title">Fast Five</title>
+        <rect id="Fast_Five_box"  x="0" y="0" rx="10" width="78" height="28" class="film" />
+        <text id="Fast_Five_text" x="6" y="14">Fast Five</text>
+      </g>
+      <g id="Fast_and_Furious_6" transform="translate(30,240)">
+        <title id="Fast_and_Furious_6_title">Fast &amp; Furious 6</title>
+        <rect id="Fast_and_Furious_6_box"  x="0" y="0" rx="10" width="130" height="28" class="film" />
+        <text id="Fast_and_Furious_6_text" x="6" y="14">Fast &amp; Furious 6</text>
+      </g>
+      <g id="Furious_7" transform="translate(30,280)">
+        <title id="Furious_7_title">Furious 7</title>
+        <rect id="Furious_7_box"  x="0" y="0" rx="10" width="80" height="28" class="film" />
+        <text id="Furious_7_text" x="6" y="14">Furious 7</text>
+      </g>
+      <g id="Fate_of_Furious" transform="translate(30,320)">
+        <title id="Fate_of_Furious_title">The Fate of the Furious</title>
+        <rect id="Fate_of_Furious_box"  x="0" y="0" rx="10" width="176" height="28" class="film" />
+        <text id="Fate_of_Furious_text" x="6" y="14">The Fate of the Furious</text>
+      </g>
+      <g id="Fast_and_Furious_Hobbs_and_Shaw" transform="translate(30,360)">
+        <title id="Fast_and_Furious_Hobbs_and_Shaw_title">Fast &amp; Furious: Hobbs &amp; Shaw</title>
+        <rect id="Fast_and_Furious_Hobbs_and_Shaw_box"  x="0" y="0" rx="10" width="232" height="28" class="film" />
+        <text id="Fast_and_Furious_Hobbs_and_Shaw_text" x="6" y="14">Fast &amp; Furious: Hobbs &amp; Shaw</text>
+      </g>
+    </g>
+  </g>
+</svg>

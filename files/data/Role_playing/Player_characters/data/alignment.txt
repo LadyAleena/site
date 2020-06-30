@@ -1,0 +1,58 @@
+Awnday Ar'iemay|Neutral Good|Chaotic Good|N(C)G
+Amelda Bacoulan|Neutral Good|Lawful Good|N(L)G
+Sarria Bagada|Lawful Good||LG
+Lysiandra Bo'javarian|Chaotic Good||CG
+Verago Brystar|Neutral Good||NG
+Presolia Copturan|Chaotic Good|Chaotic Neutral|CG(N)
+Rojeana Decant|Chaotic Neutral|Chaotic Good|CN(G)
+Ryceva Derman|Chaotic Good||CG
+Myleara Disstar|Neutral Good|Lawful Good|N(L)G
+Oalirya Disstar|Lawful Good|Neutral Good|L(N)G
+Visilma Do'ranicy|Chaotic Good|Neutral Good|C(N)G
+Lourijul Edyara|Neutral Good||NG
+Faerinna Escar|Chaotic Neutral|Chaotic Good|CN(G)
+Matea Fi'nashari|Chaotic Good|Neutral Good|C(N)G
+Tymara Fi'ranicy|Chaotic Good||CG
+Janily Flassur|Chaotic Good|Neutral Good|C(N)G
+Olacadas Flyglee|Chaotic Good||CG
+Nemidia Ge'mardian|Neutral Good|True Neutral|NG(N)
+Tandria Goldmoon|Chaotic Good||CG
+Rechrapee Hardimod|lawful neutral||NN
+Xyrena Hewlett-Packard-Bell|Chaotic Good|Neutral Good|C(N)G
+Ulari Ilan|Chaotic Good||NG
+Summerica Jammic|Neutral Good||NG
+Rajnilia Al-Afyali bint Jazar|Chaotic Good|Neutral Good|C(N)G
+Balnari Ka'natrian|Neutral Good|Lawful Good|N(L)G
+Niona Kilson|Neutral Good||NG
+Myra Kyllia|Lawful Evil|Lawful Neutral|LE(N)
+Risa Kyllia|Chaotic Good|Neutral Good|C(N)G
+Sorack Linsandin'viniar|Neutral Good|Lawful Good|N(L)G
+Zamia Lo'rena|Neutral Good||NG
+Desolenna Marder'bastiar|Neutral Good|Lawful Good|N(L)G
+Driastan Marder'bastiar|Neutral Good||NG
+Nwadira Mazan|Chaotic Neutral|Chaotic Good|CN(G)
+Patrina Meysa Rast|Chaotic Good|Chaotic Neutral|CG
+Lestra Newmoon|Lawful Neutral||LN
+Carri Notha|Lawful Neutral|Lawful Good|LN(G)
+Alexana Olara|Neutral Good|True Neutral|NG(N)
+Eileen Olara|True Neutral|Neutral Good|NN(G)
+Ducismetapopolis OreGrinder|Neutral Good|Lawful Good|N(L)G
+Lamaria Peacyle|Neutral Good||NG
+Yenedra Peacyle|Chaotic Good|Neutral Good|C(N)G
+Bryzarlyn Qi'lanari|Neutral Good|Chaotic Good|N(C)G
+Tanyani Qi'mardian|Chaotic Good|Neutral Good|C(N)G
+Ejenna Quara|True Neutral|Neutral Good|NN(G)
+Artis Sadir|Chaotic Good|Neutral Good|C(N)G
+Hylene Serill|Neutral Good||NG
+Calsanna Sorlastryl|Chaotic Good|Chaotic Neutral|CG(N)
+Ducolin StoneGrip|Lawful Neutral||LN
+Drianna StrongOak-Guard|Neutral Good|Chaotic Good|N(C)G
+Amori Tamdenar|Neutral Good|Chaotic Good|N(C)G
+Wijora Urlubint|Lawful Good|Lawful Neutral|LG(N)
+Aegyn Valchae|Neutral Good|Chaotic Good|N(C)G
+Handira Warnir|Lawful Neutral||LN
+Elora Windblown|Chaotic Good|Neutral Good|C(N)G
+Inary Xeru|True Neutral|Neutral Good|NN(G)
+Eshandra Yanraya|Chaotic Good||CG
+Aztema Zavgar|Chaotic Good|Neutral Good|C(N)G
+Kymaria Zendelic'tronyara|Neutral Good|Chaotic Good|N(C)G

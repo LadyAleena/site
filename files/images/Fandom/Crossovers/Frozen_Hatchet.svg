@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 222 158"
+  width="222"
+  height="158"
+  id="Frozen_Hatchet"
+>
+  <title id="Frozen_Hatchet_crossovers_title">Frozen crossed into Hatchet II</title>
+  <metadata id="Westphall_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Frozen crossed into Hatchet II</dc:title>
+        <dc:date>2020-04-23</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+path               { fill:none; stroke-width: 2; stroke-opacity: 1; stroke-linejoin: round; stroke-linecap: round; }
+g.spinoff       path,
+path.spinoff       { stroke: #0000ff; }
+g.one_cross     path,
+path.one_cross     { stroke: #009900; }
+
+g:target rect   { stroke: #027; stroke-width: 10; }
+rect          { paint-order: stroke; stroke: #666666; stroke-width: 4; stroke-opacity: 1; fill-opacity: 1; fill: #ffffff; }
+rect.film     { fill: #ffffff; }
+
+text  { fill: #000000; font-family: arial, sans-serif; font-size: 16px; font-style: italic; line-height: 1.2; text-align: center; text-anchor: start; dominant-baseline: middle; }
+tspan { font-size: 90%; font-style: normal; }
+  </style>
+  <g id="Frozen_Hatchet_chart" transform="translate(5,5)">
+    <title id="Frozen_Hatchet_chart_title">Frozen crossed into Hatchet II</title>
+    <!--<text id="Frozen_Hatchet_chart_title_text" x="0" y="14">Frozen Hatchet</text>-->
+    <g id="Frozen" transform="translate(0,43)">
+      <title id="Frozen_title">Frozen</title>
+      <path d="m 64,14 h 12 m 6,0 h 12" id="Frozen_to_Hatchet_II" class="one_cross" />
+      <rect id="Frozen_box" x="0" y="0" rx="10" width="62" height="28" class="film" />
+      <text id="Frozen_text" x="6" y="14">Frozen</text>
+    </g>
+    <g id="Hatchet_franchise" transform="translate(66,0)">
+      <title id="Hatchet_franchise_title">Hatchet</title>
+      <g class="spinoff" id="Hatchet_spinoff_group" transform="translate(13)">
+        <title id="Hatchet_spinoff_group_title">The Hatchet spinoffs</title>
+        <path d="m 0, 30 v 21 h 15" id="Hatchet_to_Hatchet_II" />
+        <path d="m 0, 52 v 42 h 15" id="Hatchet_to_Hatchet_III" />
+        <path d="m 0, 95 v 39 h 15" id="Hatchet_to_Victor_Crowley" />
+      </g>
+      <g id="Hatchet" transform="translate(0,0)">
+        <title id="Hatchet_title">Hatchet</title>
+        <rect id="Hatchet_box" x="0" y="0" rx="10" width="69" height="28" class="film" />
+        <text id="Hatchet_text" x="6" y="14">Hatchet</text>
+      </g>
+      <g id="Hatchet_II" transform="translate(30,40)">
+        <title id="Hatchet_II_title">Hatchet II</title>
+        <rect id="Hatchet_II_box" x="0" y="0" rx="10" width="80" height="28" class="film" />
+        <text id="Hatchet_II_text" x="6" y="14">Hatchet II</text>
+      </g>
+      <g id="Hatchet_III" transform="translate(30,80)">
+        <title id="Hatchet_III_title">Hatchet III</title>
+        <rect id="Hatchet_III_box" x="0" y="0" rx="10" width="84" height="28" class="film" />
+        <text id="Hatchet_III_text" x="6" y="14">Hatchet III</text>
+      </g>
+      <g id="Victor_Crowley" transform="translate(30,120)">
+        <title id="Victor_Crowley_title">Victor Crowley</title>
+        <rect id="Victor_Crowley_box" x="0" y="0" rx="10" width="116" height="28" class="film" />
+        <text id="Victor_Crowley_text" x="6" y="14">Victor Crowley</text>
+      </g>
+    </g>
+  </g>
+</svg>

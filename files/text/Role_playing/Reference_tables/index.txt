@@ -1,0 +1,4 @@
+Lady Aleena has put together some B<reference tables> to help look things up quickly.
+2 References
+& pages
+There are charts for A<weapon|href="Weapons.pl"> and A<non-weapon proficiencies|href="Proficiencies.pl"> too.

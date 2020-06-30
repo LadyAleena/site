@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 351 278"
+  width="351"
+  height="278"
+  id="Terminator"
+>
+  <title id="Terminator_title">Terminator in the Abyss</title>
+  <metadata id="Terminator_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Terminator in the Abyss</dc:title>
+        <dc:date>2019-08-20</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Terminator_chart" transform="translate(5,5)">
+    <title id="Terminator_chart_title">Terminator in the Abyss</title>
+    <g id="Terminator_franchise" transform="translate(0,0)">
+      <title id="Terminator_franchise_title">The Terminator</title>
+      <g class="spinoff" id="Terminator_spinoff_lines" transform="translate(13)">
+        <title id="Terminator_spinoff_lines_title">The The Terminator spinoffs</title>
+        <path d="m 0,  30 v 24 h 15" id="Terminator_to_Terminator_2" />
+        <path d="m 0,  55 v 39 h 15" id="Terminator_to_Terminator_3" />
+        <path d="m 0,  95 v 39 h 15" id="Terminator_to_Terminator_Sarah_Connor_Chronicles" />
+        <path d="m 0, 135 v 39 h 15" id="Terminator_to_Terminator_Salvation" />
+        <path d="m 0, 175 v 39 h 15" id="Terminator_to_Terminator_Genisys" />
+        <path d="m 0, 215 v 39 h 15" id="Terminator_to_Terminator_Dark_Fate" />
+      </g>
+      <g id="Terminator" transform="translate(0,0)">
+        <title id="Terminator_title">The Terminator</title>
+        <path d="m 123,14 h 144 v 17 h 15" class="soft" id="Terminator_to_Abyss" />
+        <rect id="Terminator_box"  x="0" y="0" rx="10" width="121" height="28" class="film" />
+        <text id="Terminator_text" x="6" y="14">The Terminator</text>
+      </g>
+      <g id="Terminator_2" transform="translate(30,40)">
+        <title id="Terminator_2_title">Terminator 2: Judgement Day</title>
+        <path d="m 223,14 h 15 v -17 h 15" class="one_cross" id="Terminator_2_Judgement_Day_to_Abyss" />
+        <rect id="Terminator_2_box"  x="0" y="0" rx="10" width="221" height="28" class="film" />
+        <text id="Terminator_2_text" x="6" y="14">Terminator 2: Judgement Day</text>
+      </g>
+      <g id="Terminator_3" transform="translate(30,80)">
+        <title id="Terminator_3_title">Terminator 3: Rise of the Machines</title>
+        <rect id="Terminator_3_box"  x="0" y="0" rx="10" width="258" height="28" class="film" />
+        <text id="Terminator_3_text" x="6" y="14">Terminator 3: Rise of the Machines</text>
+      </g>
+      <g id="Terminator_Sarah_Connor_Chronicles" transform="translate(30,120)">
+        <title id="Terminator_Sarah_Connor_Chronicles_title">Terminator: The Sarah Connor Chronicles</title>
+        <rect id="Terminator_Sarah_Connor_Chronicles_box"  x="0" y="0" width="309" height="28" class="fox" />
+        <text id="Terminator_Sarah_Connor_Chronicles_text" x="6" y="14">Terminator: The Sarah Connor Chronicles</text>
+      </g>
+      <g id="Terminator_Salvation" transform="translate(30,160)">
+        <title id="Terminator_Salvation_title">Terminator: Salvation</title>
+        <rect id="Terminator_Salvation_box"  x="0" y="0" rx="10" width="162" height="28" class="film" />
+        <text id="Terminator_Salvation_text" x="6" y="14">Terminator: Salvation</text>
+      </g>
+      <g id="Terminator_Genisys" transform="translate(30,200)">
+        <title id="Terminator_Genisys_title">Terminator: Genisys</title>
+        <rect id="Terminator_Genisys_box"  x="0" y="0" rx="10" width="154" height="28" class="film" />
+        <text id="Terminator_Genisys_text" x="6" y="14">Terminator: Genisys</text>
+      </g>
+      <g id="Terminator_Dark_Fate" transform="translate(30,240)">
+        <title id="Terminator_Dark_Fate_title">Terminator: Dark Fate</title>
+        <rect id="Terminator_Dark_Fate_box"  x="0" y="0" rx="10" width="165" height="28" class="film" />
+        <text id="Terminator_Dark_Fate_text" x="6" y="14">Terminator: Dark Fate</text>
+      </g>
+    </g>
+    <g id="Abyss" transform="translate(283,20)">
+      <title id="Abyss_title">Abyss</title>
+      <rect id="Abyss_box"  x="0" y="0" rx="10" width="58" height="28" class="film" />
+      <text id="Abyss_text" x="6" y="14">Abyss</text>
+    </g>
+  </g>
+</svg>

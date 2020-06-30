@@ -1,0 +1,12 @@
+adamantite|50
+bronze|0.95
+copper|0.9
+electrum|2.5
+gold|5
+iron|1
+obsidian|75
+platinum|25
+silver|9
+wood|5
+mithral|100
+ironwood|25

@@ -1,0 +1,957 @@
+1950 10 21 I<The George Burns and Gracie Allen Show> first airs.
+1951 06 15 I<I Love Lucy> first airs.
+1952 09 20 I<The Jackie Gleason Show> spins off I<The Honeymooners>.
+1953 02 01 I<Private Secretary> first airs.
+1953 09 29 I<Make Room for Daddy> first airs.
+1954 10 03 I<Father Knows Best> first airs.
+1955 01 02 I<The Bob Cummings Show> first airs.
+1955 10 01 I<The Honeymooners> first airs.
+1957 06 10 Bob Collins from I<The Bob Cummings Show> appears on I<The George Burns and Gracie Allen Show> Q<A Marital Mix-Up>.
+1957 10 04 I<Leave It to Beaver> first airs.
+1957 11 06 I<I Love Lucy> is renamed to I<The Lucy-Desi Comedy Hour>.
+1957 11 06 Susie McNamera from I<Private Secretary> appears on I<The Lucy-Desi Comedy Hour> Q<Lucy Takes a Cruise to Havana>.
+1958 05 26 I<Make Room for Daddy> is renamed to I<The Danny Thomas Show>.
+1958 09 30 I<Naked City> first airs.
+1958 10 06 I<The Ann Sothern Show> first airs.
+1958 12 01 Danny Williams and the rest of the Williams family from I<The Danny Thomas Show> appear on I<The Lucy-Desi Comedy Hour> Q<Lucy Makes Room for Danny>.
+1959 01 05 Lucy and Ricky Ricardo from I<The Lucy-Desi Comedy Hour> appear on I<The Danny Thomas Show> Q<Lucy Upsets the Williams Household>.
+1959 10 05 Lucy Richardo from I<The Lucy-Desi Comedy Hour> appears on I<The Ann Sothern Show> Q<The Lucy Story>.
+1960 06 16 I<A<Psycho|href="../Movies_by_series.pl?series=Psycho">> released; the first sighting Etruscan horse Morley?
+1960 10 03 I<The Danny Thomas Show> Q<Danny Meets Andy Griffith> spins off I<The Andy Griffith Show>.
+1961 01 05 I<Mister Ed> first airs.
+1961 04 05 I<Naked City> Q<Tombstone for a Derelict> has Etruscan horse Morley brand.
+1961 09 21 I<The Danny Thomas Show> spins off I<The Joey Bishop Show>.
+1961 10 03 I<The Dick Van Dyke Show> first airs.
+1961 10 11 Danny Williams from I<Make Room for Daddy> appears on I<The Joey Bishop Show> Q<This Is Your Life>.
+1962 09 26 I<The Beverly Hillbillies> first airs.
+1962 10 01 I<The Lucy Show> first airs.
+1963 09 22 I<The Danny Thomas Show> spins off I<The Bill Dana Show>.
+1963 09 24 I<Petticoat Junction> first airs.
+1963 09 29 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> first airs.
+1963 10 21 Maurice Sorrell from I<The Dick Van Dyke Show> appears on I<The Danny Thomas Show> Q<The Woman Behind the Jokes>.
+1964 01 25 Barney Fife from I<The Andy Griffith Show> appears on on I<The Joey Bishop Show> Q<Joey's Hideaway Cabin>.
+1964 09 17 I<A<Bewitched|href="../Movies_by_series.pl?series=Bewitched#Bewitched">> first airs.
+1964 09 25 I<The Andy Griffith Show> spins off I<Gomer Pyle, U.S.M.C.>.
+1964 09 26 I<Gilligan's Island> first airs.
+1965 09 15 I<Green Acres> first airs.
+1965 09 15 Uncle Joe Carson and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<Oliver Buys a Farm>.
+1965 09 17 I<Hogan's Heroes> first airs.
+1965 09 18 I<I Dream of Jeannie> first airs.
+1965 09 21 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<The Baffling Raffle>.
+1965 09 22 Uncle Joe Carson, Kate Bradley, Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<Lisa's First Day on the Farm>.
+1965 09 28 Oliver Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<The Dog Turns Playboy>.
+1965 09 29 Kate Bradley, Bobbie Jo Bradley and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<The Decorator>.
+1965 10 05 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<The Good Luck Ring>.
+1965 10 10 Granny Clampett from I<The Beverly Hillbillies> appears on I<Mister Ed> Q<Love and the Single Horse>.
+1965 10 12 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<Joe Carson, General Contractor>.
+1965 10 26 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<Bobbie Jo's Sorority>.
+1965 10 27 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<Neighborliness>.
+1965 11 02 Oliver Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<A Doctor in the House>.
+1965 11 03 Uncle Joe Carson and Kate Bradley from I<Petticoat Junction> appear on I<Green Acres> Q<Lisa the Helpmate>.
+1965 11 09 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<Hooterville a Go Go>.
+1965 11 10 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<You Can't Plug in a 2 with a 6>.
+1965 11 17 Uncle Joe Carson and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<Don't Call Us, We'll Call You>.
+1965 11 23 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<Betty Jo Goes to New York>.
+1965 12 08 Uncle Joe Carson and Kate Bradley from I<Petticoat Junction> appear on I<Green Acres> Q<Lisa Has a Calf>.
+1965 12 14 Oliver Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<Uncle Joe Plays Post Office>.
+1965 12 15 Uncle Joe Carson and Kate Bradley from I<Petticoat Junction> appear on I<Green Acres> Q<The Wedding Anniversary>.
+1965 12 22 Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<What Happened in Scranton?>.
+1966 01 19 Uncle Joe Carson and Kate Bradley from I<Petticoat Junction> appear on I<Green Acres> Q<I Didn't Raise My Husband to Be a Fireman>.
+1966 01 25 Oliver Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<Yogurt, Anyone?>.
+1966 01 26 Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<Lisa Bakes a Cake>.
+1966 02 02 Bobbie Jo Bradley from I<Petticoat Junction> appears on I<Green Acres> Q<Sprained Ankle, Country Style>.
+1966 02 08 Mr. Haney from I<Green Acres> appears on I<Petticoat Junction> Q<The County Fair>.
+1966 02 16 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<What's in a Name?>.
+1966 02 23 Uncle Joe Carson, Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<The Day of Decision>.
+1966 03 16 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<The Deputy>.
+1966 04 05 Oliver Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<Kate Bradley, Peacemaker>.
+1966 04 26 Lisa Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<The Young Matchmakers>.
+1966 05 25 Selma Plout from I<Petticoat Junction> appears on I<Green Acres> Q<Culture>.
+1966 09 08 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> first airs.
+1966 09 13 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<Young Love>.
+1966 09 14 Colonel Hogan from I<Hogan's Heroes> is mentioned on I<Green Acres> Q<Wings Over Hooterville>.
+1966 09 17 I<Mission: Impossible> first airs.
+1966 10 11 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<The All-Night Party>.
+1966 11 09 Betty Jo and Bobbie Jo Bradley from I<Petticoat Junction> appear on I<Green Acres> Q<Eb Discovers the Birds and the Bees>.
+1966 11 14 Pvt. Gomer Pyle from I<Gomer Pyle, U.S.M.C.> appears on I<The Lucy Show> Q<Lucy Gets Caught Up in the Draft>.
+1966 11 16 Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<The Hooterville Image>.
+1966 11 29 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<The Runt Strikes Back>.
+1966 12 20 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<The Santa Claus Special>.
+1966 12 28 Charley Pratt and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<Never Trust a Little Old Lady>.
+1967 03 28 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<Author! Author!>.
+1967 09 06 Uncle Joe Carson and Floyd Smoot from I<Petticoat Junction> appear on I<Green Acres> Q<The Man for the Job>.
+1967 09 16 I<Mannix> first airs.
+1967 09 23 Eb Dawson from I<Green Acres> appears on I<Petticoat Junction> Q<One Dozen Roses>.
+1967 10 22 I<Mission: Impossible> Q<Operation 'Heart'> has Etruscan horse Morley brand.
+1968 09 23 I<Here's Lucy> first airs.
+1968 09 23 I<The Andy Griffith Show> spins off I<Mayberry R.F.D.>.
+1968 09 26 I<A<Hawaii 5-O|href="../Movies_by_series.pl?series=Hawaii+Five-O">> first airs.
+1968 09 30 Ralph Kramden from I<The Honeymooners> appears on I<Here's Lucy> Q<Lucy Visits Jack Benny>.
+1968 10 26 Oliver and Lisa Douglas from I<Green Acres> appear on I<Petticoat Junction> Q<The Valley Has a Baby>.
+1968 10 30 Uncle Joe Carson and Sam Drucker from I<Petticoat Junction> appear on I<The Beverly Hillbillies> Q<Granny Goes to Hooterville>.
+1968 11 02 Granny Clampett from I<The Beverly Hillbillies> appears on I<Petticoat Junction> Q<Granny, the Baby Expert>.
+1968 11 06 Sam Drucker from I<Petticoat Junction> and I<Green Acres> appears on I<The Beverly Hillbillies> Q<The Italian Cook>.
+1968 11 27 Oliver Douglas, Lisa Douglas and Eb Dawson from I<Green Acres> appear on I<The Beverly Hillbillies> Q<The Thanksgiving Spirit>.
+1968 11 27 Uncle Joe Carson, Sam Drucker, Bobbie Jo Bradley and Billie Jo Bradley from I<Petticoat Junction> appear on I<The Beverly Hillbillies> Q<The Thanksgiving Spirit>.
+1968 12 04 Sam Drucker and Eb Dawson from I<Green Acres> appear on I<The Beverly Hillbillies> Q<The Courtship of Homer Noodleman>.
+1968 12 11 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<How Hooterville was Floundered>.
+1968 12 18 Sam Drucker, Bobbie Jo Bradley and Billie Jo Bradley from I<Petticoat Junction> appear on I<The Beverly Hillbillies> Q<The Week Before Christmas>.
+1968 12 21 Granny Clampett and Jane Hathaway from I<The Beverly Hillbillies> appear on I<Petticoat Junction> Q<A Cake from Granny>.
+1968 12 25 Eb Dawson from I<Green Acres> appears on I<The Beverly Hillbillies> Q<Christmas in Hooterville>.
+1968 12 25 Uncle Joe Carson, Sam Drucker, Bobbie Jo Bradley and Billie Jo Bradley from I<Petticoat Junction> appear on I<The Beverly Hillbillies> Q<Christmas in Hooterville>.
+1969 01 01 Sam Drucker from I<Petticoat Junction> appears on I<The Beverly Hillbillies> Q<Drysdale and Friend>.
+1969 01 04 Lisa Douglas from I<Green Acres> appears on I<Petticoat Junction> Q<The Ballad of the Everyday Housewife>.
+1969 02 10 Mary Jane Lewis from I<The Lucy Show> appears on I<Here's Lucy> Q<A Date for Lucy>.
+1969 02 19 Homer Bedloe from I<Petticoat Junction> appears on I<The Beverly Hillbillies> Q<The Hired Gun>.
+1969 02 22 I<Mannix> Q<All Around the Money Tree> has Etruscan horse Morley brand.
+1969 03 05 Sam Drucker and Bobbie Jo Bradley from I<Petticoat Junction> appear on I<The Beverly Hillbillies> Q<Sam Drucker's Visit>.
+1969 09 26 I<The Brady Bunch> first airs.
+1969 10 04 Uncle Joe Carson from I<Petticoat Junction> appears on I<Green Acres> Q<Everybody Tries to Love a Countess>.
+1969 10 11 Mr. Haney from I<Green Acres> appears on I<Petticoat Junction> Q<The Other Woman>.
+1969 11 22 Mr. Haney from I<Green Acres> appears on I<Petticoat Junction> Q<A Most Momentous Occasion>.
+1969 12 31 Sam Drucker from I<Petticoat Junction> and I<Green Acres> appears on I<The Beverly Hillbillies> Q<Buzz Bodine, Boy General>.
+1970 01 07 Sam Drucker from I<Petticoat Junction> and I<Green Acres> appears on I<The Beverly Hillbillies> Q<The Clampett-Hewes Empire>.
+1970 01 25 I<MASH> is released.
+1970 02 27 Hank Thackery from I<Petticoat Junction> appears on I<The Brady Bunch> Q<The Possible Dream>.
+1970 09 23 I<Make Room for Daddy> spins off I<Make Room For Granddaddy>.
+1971 01 08 I<The Andy Griffith Show> spins off I<The New Andy Griffith Show>.
+1971 01 12 I<All in the Family> first airs.
+1971 01 21 Lucy Carter from I<Here's Lucy> appears on I<Make Room for Granddaddy> Q<Lucy and the Lecher>.
+1971 02 02 Bobbie Jo Bradley from I<Petticoat Junction> appears on I<The Beverly Hillbillies> Q<The Teahouse of Jed Clampett>.
+1971 02 09 Bobbie Jo Bradley from I<Petticoat Junction> appears on I<The Beverly Hillbillies> Q<The Palace of Clampett-San>.
+1971 10 04 Joe Mannix from I<Mannix> appears on I<Here's Lucy> Q<Lucy and Mannix Are Held Hostage>
+1972 02 07 Bob Collins from I<The Bob Cummings Show> appears on I<Here's Lucy> Q<Lucy's Punctured Romance>.
+1972 09 12 I<All in the Family> spins off I<Maude>.
+1972 09 16 I<The Bob Newhart Show> first airs.
+1972 09 17 I<MASH> spins off the non-contiguous I<M*A*S*H>.
+1973 08 15 I<Man About the House> first airs.
+1973 09 08 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek: The Animated Series|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1973">>.
+1974 01 15 I<Happy Days> first airs.
+1974 02 08 I<Maude> spins off I<Good Times>.
+1975 01 18 I<All in the Family> spins off I<The Jeffersons>.
+1975 09 05 I<Space: 1999> first airs.
+1976 01 27 I<Happy Days> spins off I<Laverne &amp; Shirley>.
+1976 05 07 I<A<Bewitched|href="../Movies_by_series.pl?series=Bewitched#Bewitched">> spins off I<A<Tabitha|href="../Movies_by_series.pl?series=Bewitched#Tabitha">>.
+1976 09 06 I<Man About the House> spins off I<George &amp; Mildred>.
+1976 09 22 I<Charlie's Angels> first airs.
+1977 01 11 I<Man About the House> spins off I<Robin's Nest>.
+1977 01 12 I<Happy Days> spins off I<Blansky's Beauties>.
+1977 01 14 I<Fantasy Island> first airs.
+1977 03 15 I<Man About the House> spins off non-contiguous I<Three's Company>.
+1977 05 05 I<The Love Boat> first airs.
+1977 05 25 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> is released.
+1978 01 16 I<M*A*S*H> spins off I<The Fighting Nightingales>.
+1978 05 18 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(1978)">> first airs.
+1978 09 13 Dan Tanna from I<Vega$> appears on I<Charlie's Angels> Q<Angels in Vegas>.
+1978 09 14 I<Happy Days> spins off I<Mork &amp; Mindy>.
+1978 09 17 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(1978)">> spins off I<Battlestar Galactica> (1978 TV series).
+1978 09 20 I<Vega$> first airs.
+1978 10 14 I<Gilligan's Island> spins off I<Rescue from Gilligan's Island>.
+1978 11 03 I<Diff'rent Strokes> first airs.
+1978 11 27 I<The White Shadow> first airs.
+1979 01 26 I<Hello, Larry> first airs.
+1979 03 13 I<Three's Company> spins off I<The Ropers>.
+1979 03 30 I<Diff'rent Strokes> Q<The Trip: Part 1> concludes on I<Hello, Larry> Q<The Trip: Part 2>.
+1979 05 03 I<Gilligan's Island> spins off I<The Castaways on Gilligan's Island>.
+1979 06 22 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> is released; Weyland-Yutani first appears.
+1979 08 08 I<Maude> spins off non-contiguous I<Hanging In>.
+1979 08 24 I<Diff'rent Strokes> spins off I<The Facts of Life>.
+1979 09 09 I<Happy Days> spins off I<Out of the Blue>.
+1979 09 12 The cast of I<The Love Boat> appears on I<Charlie's Angels> Q<Love Boat Angels>.
+1979 09 23 I<All in the Family> spins off I<Archie Bunker's Place>.
+1979 09 23 I<MASH> spins off the non-contiguos I<Trapper John, M.D.>
+1979 09 28 I<Diff'rent Strokes> Q<Feudin' and Fussin': Part 1> concludes on I<Hello, Larry> Q<Feudin' and Fussin': Part 2>.
+1979 11 28 I<Diff'rent Strokes> Q<Thanksgiving Crossover: Part 1> concludes on I<Hello, Larry> Q<Thanksgiving Crossover: Part 2>.
+1979 12 08 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<Star Trek: The Motion Picture>.
+1980 01 27 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(1978)">> spins off I<Galactica 1980>.
+1980 06 20 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: The Empire Strikes Back>.
+1980 11 22 I<The Love Boat> Q<Secretary to the Stars> concludes on I<Fantasy Island> Q<The Love Doctor>.
+1980 12 11 I<Magnum P.I.> first airs.
+1981 01 15 I<Hill Street Blues> first airs.
+1981 01 15 Steve McGarrett from I<A<Hawaii 5-O|href="../Movies_by_series.pl?series=Hawaii+Five-O">> is mentioned on I<Magnum P.I.> Q<Skin Deep>.
+1981 02 06 I<The Brady Bunch> spins off I<The Brady Girls Get Married>.
+1981 03 06 I<The Brady Bunch> spins off I<The Brady Brides>.
+1981 04 09 I<The Jeffersons> spins off I<Checking In>.
+1981 05 15 I<Gilligan's Island> spins off I<The Harlem Globetrotters on Gilligan's Island>.
+1981 06 12 I<Raiders of the Lost Ark> is released.
+1981 10 06 I<The Beverly Hillbillies> spins off I<The Return of the Beverly Hillbillies>.
+1981 10 30 I<Hitchhiker's Guide to the Galaxy> first airs.
+1981 11 24 I<Simon &amp; Simon> first airs.
+1981 12 28 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> spins off I<K-9 and Company>.
+1982 03 23 I<Happy Days> spins off I<Joanie Loves Chachi>.
+1982 06 04 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> spins off I<Star Trek II: The Wrath of Khan>.
+1982 06 11 I<E.T. the Extra-Terrestrial> is released.
+1982 06 25 I<Blade Runner> is released.
+1982 09 22 I<Family Ties> first airs.
+1982 09 25 I<Silver Spoons> first airs.
+1982 09 26 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> first airs.
+1982 09 26 I<All in the Family> spins off I<Gloria>.
+1982 09 27 I<Square Pegs> first airs.
+1982 09 30 I<Cheers> first airs.
+1982 10 02 I<Newhart> first airs.
+1982 10 07 I<Magnum P.I.> Q<Ki'is Don't Lie> concludes on I<Simon &amp; Simon> Q<Emeralds Are Not a Girl's Best Friend>.
+1982 10 11 Father Guido Sarducci appears on I<Square Pegs> Q<Pac Man Fever>.
+1982 10 26 I<St. Elsewhere> first airs.
+1982 11 06 Arnold Jackson-Drummond from I<Diff'rent Strokes> appears on I<Silver Spoons> Q<The Great Computer Caper>.
+1982 11 30 Dr. Mark Craig wins the Cushing Left Anterior Descending Artery Award in I<St. Elsewhere> Q<Samuels and the Kid>.
+1983 03 19 I<Still the Beaver> spins off I<The New Leave It to Beaver>.
+1983 05 25 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: Return of the Jedi>.
+1983 06 03 I<A<Psycho|href="../Movies_by_series.pl?series=Psycho">> spins off I<Psycho II>.
+1983 09 16 I<Webster> first airs.
+1983 09 26 I<M*A*S*H> spins off I<After MASH>.
+1983 10 05 I<Whiz Kids> first airs.
+1983 10 26 A.J. Simon from I<Simon &amp; Simon> appears on I<Whiz Kids> Q<Deadly Access>.
+1983 10 27 Richie and Irene Adler from I<Whiz Kids> appear on I<Simon &amp; Simon> Q<Fly the Alibi Skies>.
+1984 04 08 David Dalton, who will be from I<Code of Vengeance>, appears on I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">>.
+1984 05 16 Dr. Warren Coolidge from I<The White Shadow> appears on and joins I<St. Elsewhere> in Q<Hello, Goodbye>.
+1984 05 23 I<Raiders of the Lost Ark> spins off I<Indiana Jons and the Temple of Doom>.
+1984 06 01 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> spins off I<Star Trek III: The Search for Spock>.
+1984 06 08 I<A<Ghostbusters|href="../Movies_by_series.pl?series=Ghostbusters">> released.
+1984 07 17 I<M*A*S*H> spins off I<W*A*L*T*E*R>.
+1984 09 16 George Jefferson from I<The Jeffersons> appears on I<E/R> pilot.
+1984 09 16 I<E/R> first airs.
+1984 09 20 I<The Cosby Show> first airs.
+1984 09 25 I<Three's Company> spins off I<Three's a Crowd>.
+1984 09 30 I<Murder, She Wrote> first airs.
+1984 11 07 I<Leave It to Beaver> spins off I<Still the Beaver>.
+1984 11 25 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Caravan of Courage: The Ewok Adventure>.
+1985 03 27 Carla Tortelli, Norm Peterson, and Cliff Clavin from I<Cheers> appear on I<St. Elsewhere> Q<Cheers>.
+1985 06 30 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> spins off I<Code of Vengeance>.
+1985 07 03 I<A<Back to the Future|href="../Movies_by_series.pl?series=Back+to+the+Future">> is released.
+1985 09 29 I<A<MacGyver|href="../Movies_by_series.pl?series=MacGyver">> first airs.
+1985 10 20 I<I Dream of Jeannie> spins off I<I Dream of Jeannie... Fifteen Years Later>.
+1985 11 20 Elliot Carlin from I<The Bob Newhart Show> appears on I<St. Elsewhere> Q<Close Encounters>.
+1985 11 24 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Ewoks: The Battle for Endor>.
+1985 12 18 Dr. B. J. Hunnicut from I<M*A*S*H> is mentioned by Dr. Mark Craig on I<St. Elsewhere> Q<Santa Claus Is Dead>.
+1986 03 03 I<Matlock> first airs.
+1986 07 02 I<A<Psycho|href="../Movies_by_series.pl?series=Psycho">> spins off I<Psycho III>.
+1986 07 18 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> spins off I<Aliens>.
+1986 09 10 I<It's Garry Shandling's Show> first airs.
+1986 09 15 I<L.A. Law> first airs.
+1986 11 19 I<Magnum P.I.> Q<Novel Connection> concludes on I<Murder, She Wrote> Q<Magnum on Ice>.
+1986 11 23 I<Murder, She Wrote> Q<Magnum on Ice> concludes I<Magnum P.I.> Q<Novel Connection>.
+1986 11 26 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> spins off I<Star Trek IV: The Voyage Home>.
+1987 01 21 I<Cheers> spins off I<The Tortellis>.
+1987 02 27 Betty and Margaret Anderson from I<Father Knows Best> appear on I<The Love Boat> Q<Who Killed Maxwell Thorn?>.
+1987 02 27 June, Wally, and Beaver Cleaver from I<Leave It to Beaver> appear on I<The Love Boat> Q<Who Killed Maxwell Thorn?>.
+1987 02 27 Mike and Carol Brady from I<The Brady Bunch> appear on I<The Love Boat> Q<Who Killed Maxwell Thorn?>.
+1987 06 12 I<A<Predator|href="../Movies_by_series.pl?series=Predator">> is released.
+1987 07 05 I<A<Psycho|href="../Movies_by_series.pl?series=Psycho">> spins off I<Bates Hotel>.
+1987 07 11 I<Good Morning, Miss Bliss> first airs.
+1987 08 27 I<Family Ties> spins off I<The Art of Being Nick>.
+1987 09 22 I<Full House> first airs.
+1987 09 24 I<The Cosby Show> spins off I<A Different World>.
+1987 09 26 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">>.
+1987 09 26 I<Jake and the Fatman> first airs.
+1987 09 27 I<Murder, She Wrote> spins off I<The Law &amp; Harry McGraw>
+1987 11 05 I<Hill Street Blues> spins off I<Beverly Hills Buntz>.
+1988 03 09 I<Chelmsford 123> first airs.
+1988 03 09 The TARDIS from I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> appears on I<Chelmsford 123> Q<Arrivederci Roma>.
+1988 07 20 I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> is released.
+1988 10 23 I<Mission: Impossible> spins off I<Mission: Impossible> (1988).
+1988 10 26 I<Tattinger's> first airs.
+1988 11 02 Kenny Axelrod from I<Tattingers> Q<The Sonny Also Rises> is a cousin of Dr. Elliot Axelrod from I<St. Elsewhere>.
+1988 11 14 I<Murphy Brown> first airs.
+1988 11 21 Elliot Carlin from I<The Bob Newhart Show> appears on I<Newhart> Q<I Married Dick>.
+1988 12 18 I<The Brady Bunch> spins off I<A Very Brady Christmas>.
+1989 02 03 Cunningham Hardware in Milwalkee, WI from I<Happy Days> is mentioned on I<Perfect Strangers> Q<Games People Play>.
+1989 03 10 Warf from I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> appears on I<Webster> Q<Webtrek>.
+1989 03 25 I<Perfect Strangers> first airs.
+1989 04 20 I<Tattinger's> is renamed to I<Nick &amp; Hillary> in Q<Half a Loaf>.
+1989 05 24 I<Raiders of the Lost Ark> spins off I<Indiana Jones and the Last Crusade>.
+1989 06 09 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<Star Trek V: The Final Frontier>.
+1989 06 16 I<A<Ghostbusters|href="../Movies_by_series.pl?series=Ghostbusters">> spins off I<Ghostbusters II>.
+1989 07 05 I<Seinfeld> first airs.
+1989 08 20 I<Good Morning, Miss Bliss> spins off I<Saved by the Bell>.
+1989 09 18 I<The Famous Teddy Z> first airs.
+1989 09 22 I<Perfect Strangers> spins off I<Family Matters>.
+1989 09 23 I<Coach> first airs.
+1989 09 23 The shuttle craft Indiana Jones appears on I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> Q<Evolution>.
+1989 11 13 Al Floss from I<The Famous Teddy Z> appears on I<Murphy Brown> Q<And the Whiner Is>.
+1989 11 21 The TARDIS from I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> appears on I<Red Dwarf> Q<Marooned>.
+1989 11 22 I<A<Back to the Future|href="../Movies_by_series.pl?series=Back+to+the+Future">> spins off I<Back to the Future Part II>.
+1990 01 26 Howard Sprague from I<The Andy Griffith Show> appears on I<It's Garry Shandling's Show> Q<The Day Howard Moved In>.
+1990 02 09 I<The Brady Bunch> spins off I<The Bradys>.
+1990 02 12 I<The Love Boat> spins off I<The Love Boat: A Valentine Voyage>.
+1990 04 08 I<Twin Peaks> first airs.
+1990 04 19 I<Wings> first airs.
+1990 05 18 I<Green Acres> spins off I<Return to Green Acres>.
+1990 05 25 I<A<Back to the Future|href="../Movies_by_series.pl?series=Back+to+the+Future">> spins off I<Back to the Future Part III>.
+1990 07 04 I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> spins off I<Die Hard 2>.
+1990 09 10 I<The Fresh Prince of Bel Air> first airs.
+1990 09 13 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> first airs.
+1990 09 20 I<The Flash> first airs.
+1990 09 26 I<Cop Rock> first airs.
+1990 10 02 Norm Peterson and Cliff Clavin from I<Cheers> appear on I<Wings> Q<The Story of Joe>.
+1990 10 04 I<Beverly Hills, 90210> first airs.
+1990 10 28 Bud Bundy from I<Married with Children> appears on I<Parker Lewis Can't Lose> Q<Musso &amp; Frank>.
+1990 11 07 Lt. Howard Hunter from I<Hill Street Blues> appears on I<Cop Rock> Q<Cop-a-Felliac>.
+1990 11 21 I<A<Predator|href="../Movies_by_series.pl?series=Predator">> spins off I<Predator 2>.
+1990 11 21 Victor Sifuentes and Abby Perkins from I<L.A. Law> appear on I<Cop Rock> Q<Potts Don't Fail Me Now>.
+1991 01 03 I<Blossom> first airs.
+1991 01 11 Steve Urkel from I<Family Matters> appears on I<Full House> Q<Ol' Brown Eyes>.
+1991 01 25 Steve Urkel from I<Family Matters> appears on I<Full House> Q<Stephanie Gets Framed>.
+1991 04 14 I<Married with Children> spins off I<Top of the Heap>.
+1991 05 19 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> spins off I<Knight Rider 2000>.
+1991 08 11 Eddie Haskell from I<Leave it to Beaver> appears on I<Parker Lewis Can't Lose> Q<Father Knows Less>.
+1991 09 08 I<Herman's Head> first airs.
+1991 09 17 I<Home Improvement> first airs.
+1991 09 20 I<Step by Step> first airs.
+1991 09 27 Steve Urkel from I<Family Matters> appears on I<Step by Step> Q<The Dance>.
+1991 10 20 I<I Dream of Jeannie> spins off I<I Still Dream of Jeannie>.
+1991 11 20 I<Civil Wars> first airs.
+1991 11 23 Howard Borden from I<The Bob Newhart Show 19th Anniversary Special> mentioned he dreamt he was Roger Healey from I<I Dream Of Jeannie>.
+1991 11 23 I<The Bob Newhart Show> spins off I<The Bob Newhart Show 19th Anniversary Special>.
+1991 12 06 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> spins off I<Star Trek VI: The Undiscovered Country>.
+1992 01 19 Andrew Keaton from I<Family Ties> appears on I<Parker Lewis Can't Lose> Q<Civil Wars>.
+1992 02 13 Frasier and Lilith Sternin-Crane from I<Cheers> appear on I<Wings> Q<Planes, Trains and Visiting Cranes>.
+1992 02 24 Hilary Banks from I<The Fresh Prince of Bel-Air> appears on I<Blossom> Q<Wake Up Little Suzy>.
+1992 03 04 I<Raiders of the Lost Ark> spins off I<The Young Indiana Jones Chronicles>.
+1992 05 22 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> spins off I<AlienSUP<3>>.
+1992 05 30 I<Top of the Heap> spins off I<Vinnie &amp; Bobby>.
+1992 07 08 I<Beverly Hills, 90210> spins off I<Melrose Place>.
+1992 07 31 I<A<Buffy the Vampire Slayer|../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer">> is released.
+1992 08 27 I<Martin> first airs.
+1992 08 28 I<Twin Peaks> spins off I<Twin Peaks: Fire Walk with Me>.
+1992 09 13 I<Bob> first airs.
+1992 09 16 I<Beverly Hills 90210> Q<The Back Story>, first(?) sighting of red box Morley
+1992 09 18 I<Picket Fences> first airs.
+1992 09 19 I<Out All Night> first airs.
+1992 09 21 I<Love &amp; War> first airs.
+1992 09 22 I<Hangin' with Mr. Cooper> first airs.
+1992 09 23 I<Mad About You> first airs.
+1992 09 29 Michelle Tanner of I<Full House> appears on I<Hangin' With Mr. Cooper> Q<Hangin' with Michelle>.
+1992 11 11 Cosmo Kramer from I<Seinfeld> appears on I<Mad About You> Q<The Apartment>.
+1992 12 10 Hilary Banks from I<The Fresh Prince of Bel-Air> appears on I<Out All Night> Q<The Great Pretender>.
+1993 01 31 I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> first airs.
+1993 04 21 I<Walker, Texas Ranger> first airs.
+1993 06 03 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek: Deep Space Nine|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_Deep_Space_Nine">>.
+1993 08 28 I<Power Rangers> first airs under the title I<Mighty Morphin Power Rangers>.
+1993 09 02 I<The John Larroquette Show> first airs.
+1993 09 10 I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> premier, red box Morley
+1993 09 11 I<Saved by the Bell> spins off I<Saved by the Bell: The New Class>.
+1993 09 14 I<Saved by the Bell> spins off I<Saved by the Bell: The College Years>.
+1993 09 16 I<Cheers> spins off I<Frasier>.
+1993 09 21 I<NYPD Blue> first airs.
+1993 09 24 I<Boy Meets World> first airs.
+1993 09 28 Father Guido Sarducci appears on I<A<Tales of the City|href="../Movies_by_series.pl?series=Tales+of+the+City#Tales_of_the_City">>.
+1993 09 28 I<A<Tales of the City|href="../Movies_by_series.pl?series=Tales+of+the+City#Tales_of_the_City">> first airs.
+1993 09 29 I<Grace Under Fire> first airs.
+1993 10 04 Father Guido Sarducci appears on I<Blossom> Q<Kiss and Tell>.
+1993 10 07 A Klingon Bird of Prey from I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> appears on I<Red Dwarf> Q<Psirens>.
+1993 10 07 A Narcissus escape shuttle from I<A<Alien|href="../Movies_by_series.pl?series=Alien">> appears on I<Red Dwarf> Q<Psirens>.
+1993 10 07 Sally Rogers and Maurice Sorrell from I<The Dick Van Dyke Show> appear on I<Herman's Head> Q<When Hairy Met Hermy>.
+1993 10 07 The Eagle from I<Space: 1999> appears on I<Red Dwarf> Q<Psirens>.
+1993 10 29 I<Jake and the Fatman> spins off I<Diagnosis Murder>.
+1993 11 03 I<The Nanny> first airs.
+1993 11 07 Eli Levinson and Denise Ianello from I<Civil Wars> appear and join I<L.A. Law> on Q<Book of Renovation, Chapter 1>.
+1993 12 31 Jerry Robinson from I<The Bob Newhart Show> appears on I<Bob> Q<Better To Have Loved And Flossed> (unaired).
+1994 01 04 Buck Naked from I<Hill Street Blues> appears on I<NYPD Blue> Q<Up on the Roof> and recurs thereafter.
+1994 03 09 I<Thunder Alley> first airs.
+1994 03 14 Carol Bondurant from I<The Bob Newhart Show> appears on I<Murphy Brown> Q<Anything But Cured>.
+1994 03 29 I<These Friends of Mine> first airs.
+1994 04 11 I<All in the Family> spins off I<704 Hauser>.
+1994 06 29 I<Melrose Place> spins off I<Models, Inc.>
+1994 09 09 I<A<New York Undercover|href="../Movies_by_series.pl?series=New+York+Undercover">> first airs.
+1994 09 12 I<Party of Five> first airs.
+1994 09 18 I<A<Chicago Hope|href="../Movies_by_series.pl?series=Chicago+Hope">> first airs.
+1994 09 19 I<A<ER|href="../Movies_by_series.pl?series=ER">> first airs.
+1994 09 21 I<These Friends of Mine> is renamed to I<Ellen>.
+1994 09 21 I<Touched by an Angel> first airs.
+1994 09 22 I<Friends> first airs.
+1994 09 22 I<Madman of the People> first airs.
+1994 09 26 The cast of I<Murphy Brown> are seen on television in I<Love &amp; War> Q<A Nation Turns Its Lonely Eyes to You>.
+1994 10 12 Brad Taylor from I<Home Improvement> appears on I<Thunder Alley> Q<First Date>.
+1994 11 03 Blackout 1: I<Mad About You> Q<Pandora's Box>
+1994 11 03 Blackout 2: I<Madman of the People> Q<Birthday in the Big House>
+1994 11 03 Blackout 3: I<Friends> Q<The One with the Blackout>
+1994 11 11 Doctors Jeffrey Geiger and Phillip Waters from I<A<Chicago Hope|href="../Movies_by_series.pl?series=Chicago+Hope">> appears on I<Picket Fences> Q<Rebels with Causes>.
+1994 11 18 I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> spins off I<Star Trek: Generations>.
+1994 12 09 I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> Q<Red Museum> which will be mentioned in I<Picket Fences> Q<Away in the Manger>.
+1994 12 16 I<Picket Fences> Q<Away in the Manger> mentions I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> Q<Red Museum>.
+1995 01 04 I<Double Rush> first airs.
+1995 01 11 I<Unhappily Ever After> first airs.
+1995 01 16 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek: Voyager|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_Voyager">>.
+1995 01 18 Meg Tynan from I<Love &amp; War> appears on I<Double Rush> Q<Comings and Goings>.
+1995 01 23 Douglas Wambaugh from I<Picket Fences> appears on I<A<Chicago Hope|href="../Movies_by_series.pl?series=Chicago+Hope">> Q<Small Sacrifices>.
+1995 02 16 Alan Brady from I<The Dick Van Dyke Show> appears on I<Mad About You> Q<The Alan Brady Show>.
+1995 02 23 Jamie Buchman, Fran Devanow, and Urusla Buffay from I<Mad About You> appear on I<Friends> Q<The One with Two Parts: Part 1>.
+1995 03 09 I<Hope and Gloria> first airs.
+1995 04 10 I<In the House> first airs.
+1995 05 19 I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> spins off I<Die Hard with a Vengeance>.
+1995 05 26 Doctor Raymond Stantz from I<A<Ghostbusters|href="../Movies_by_series.pl?series=Ghostbusters">> appears on I<A<Casper|href="../Movies_by_series.pl?series=Casper#Casper">>.
+1995 05 26 Father Guido Sarducci appears on I<A<Casper|href="../Movies_by_series.pl?series=Casper#Casper">>.
+1995 05 26 I<A<Casper|href="../Movies_by_series.pl?series=Casper#Casper">> released.
+1995 07 19 I<Clueless> released.
+1995 09 02 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> spins off I<Downtime>.
+1995 09 13 I<The Drew Carey Show> first airs.
+1995 09 15 I<Strange Luck> first airs.
+1995 09 18 Carlton and Ashley Banks from I<The Fresh Prince of Bel-Air> appear on I<In the House> Q<Dog Catchers>.
+1995 09 18 I<Can't Hurry Love> first airs.
+1995 09 21 I<Caroline in the City> first airs.
+1995 09 21 I<The Single Guy> first airs.
+1995 09 23 I<A<JAG|href="../Movies_by_series.pl?series=JAG">> first airs.
+1995 09 24 I<A<Space: Above and Beyond|href="../Movies_by_series.pl?series=Space:+Above+and+Beyond">> first airs.
+1995 09 30 John Hemingway om I<The John Larroquette Show> Q<More Changes> calls Dr. Frasier Crane's radio show from I<Frasier>.
+1995 10 01 Father Guido Sarducci appears on I<Married with Children> Q<Requiem for a Dead Briard>.
+1995 10 12 Daphne Moon and Niles Crane from I<Frasier> appear on I<Caroline in the City> Q<Caroline and the Bad Back>.
+1995 10 22 I<A<Space: Above and Beyond|href="../Movies_by_series.pl?series=Space:+Above+and+Beyond">> Q<Ray Butts>, red box Morley
+1995 10 30 I<High Society> first airs.
+1995 11 02 Chandler Bing from I<Friends> appears on I<Caroline in the City> Q<Caroline and the Folks>.
+1995 11 02 Jonathan Eliot from I<The Single Guy> appears on I<Caroline in the City> Q<Caroline and the Folks>.
+1995 11 02 Ross Geller from I<Friends> appears on I<The Single Guy> Q<Neighbors>.
+1995 12 01 Doctor Jeffrey Geiger from I<A<Chicago Hope|href="../Movies_by_series.pl?series=Chicago+Hope">> appears on I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<A Doll's Eyes>.
+1996 01 23 I<Moesha> first airs.
+1996 02 02 Phoebe Buffay from I<Friends> appears on I<Hope and Gloria> Q<A New York Story>.
+1996 02 07 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Charm City> concludes on I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<For God and Country>.
+1996 02 09 I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<For God and Country> concludes I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Charm City>.
+1996 02 12 Dr. Kate Austin wins the Cushing Left Anterior Descending Artery Award in I<Chicago Hope> Q<Women on the Verge>.
+1996 02 23 Fox Mulder of I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> is mentioned on I<Strange Luck> Q<Struck by Lightning>.
+1996 02 26 Liz Taylor's pearls 1: I<The Nanny> Q<Where's the Pearls?>
+1996 02 26 Liz Taylor's pearls 2: I<Can't Hurry Love> Q<The Elizabeth Taylor Episode>
+1996 02 26 Liz Taylor's pearls 3: I<Murphy Brown> Q<Trick or Retreat>
+1996 02 26 Liz Taylor's pearls 4: I<High Society> Q<The Family Jewels>
+1996 03 05 I<Home Improvement> spins off I<Buddies>.
+1996 03 29 I<A<Nash Bridges|href="../Movies_by_series.pl?series=Nash+Bridges">> first airs.
+1996 05 10 Dana Foster from I<Step by Step> appears on I<Boy Meets World> Q<The Happiest Show On Earth>.
+1996 05 14 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> spins off I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (1996).
+1996 05 16 I<Seinfeld> Q<The Invitations> has Etruscan horse Morley brand.
+1996 05 20 George and Louise Jefferson and Florence Johnston from I<The Jeffersons> appears on I<Fresh Prince of Bel-Air> Q<I, Done: Part 2>.
+1996 05 20 Philip Drummond and Arnold Jackson-Drummond from I<Diff'rent Strokes> appears on I<Fresh Prince of Bel-Air> Q<I, Done: Part 2>.
+1996 08 31 I<Something So Right> first airs.
+1996 09 13 I<Everybody Loves Raymond> first airs.
+1996 09 16 I<Cosby> first airs.
+1996 09 17 I<Spin City> first airs.
+1996 09 17 I<Touched by an Angel> spins off I<Promised Land>.
+1996 09 18 Jim Dial of I<Murphy Brown> appears on television in I<The Nanny> Q<The Tart with Heart>.
+1996 09 20 I<Clueless> spins off the non-contiguous I<Clueless> (1995).
+1996 09 27 I<Sabrina, the Teenage Witch> first airs.
+1996 09 28 I<Early Edition> first airs.
+1996 10 21 I<Ink> first airs.
+1996 10 25 I<Millennium> first airs.
+1996 10 30 I<Public Morals> first airs; John Irvin from I<NYPD Blue> appears on Q<The Blue Cover>, the only episode aired.
+1996 11 07 Doctor Elizabeth Olivet from I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> appears on I<A<New York Undercover|href="../Movies_by_series.pl?series=New+York+Undercover">> Q<Smack Is Back>.
+1996 11 18 Jack Stein from I<Love &amp; War> appears on I<Ink> Q<High Noon>.
+1996 11 22 I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> spins off I<Star Trek: First Contact>; the Millennium Falcon from I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> appears.
+1997 01 30 Ben Matlock from I<Matlock> appears on I<Diagnosis Murder> Q<Murder Two> (part 1).
+1997 02 06 Ben Matlock from I<Matlock> appears on I<Diagnosis Murder> Q<Murder Two> (part 2).
+1997 02 13 Joe Mannix from I<Mannix> appears on I<Diagnosis Murder> Q<Hard-Boiled Murder>.
+1997 02 13 Julie McCoy, Doctor Adam Bricker, Isaac Washington, and Vicki Stubing from I<The Love Boat> appear on I<Martin> Q<Goin' Overboard>.
+1997 02 24 Jack Stein from I<Love &amp; War> appears on I<Ink> Q<Life Without Mikey>.
+1997 02 26 Viva Las Vegas 1: I<Grace Under Fire> Q<Vegas>: Luther Horatio Van Dam from I<Coach> and Drew Carey from I<The Drew Carey Show> appear.
+1997 02 26 Viva Las Vegas 2: I<Coach> Q<Viva Las Ratings>: Drew Carey and Mimi from I<The Drew Carey Show> and Paige Clark and Spence Kovak from I<Ellen> appear.
+1997 02 26 Viva Las Vegas 3: I<The Drew Carey Show> Q<Drew Gets Married>: Grace Kelly from I<Grace Under Fire>, Luther Horatio Van Dam from I<Coach>, Paige Clark and Spence Kovak from I<Ellen> appear.
+1997 02 26 Viva Las Vegas 4: I<Ellen> Q<Secrets &amp; Ellen>: Grace Kelly from I<Grace Under Fire> and Drew Carey from I<The Drew Carey Show> appear.
+1997 02 27 Sabrina Spellman from I<Sabrina, the Teenage Witch> appears on I<Clueless> Q<Mr. Wright>.
+1997 03 04 I<The Practice> first airs.
+1997 03 10 I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer">> spins off the semi-contiguous I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> (1997).
+1997 04 14 I<Soul Man> first airs.
+1997 04 21 Jack Stein from I<Love &amp; War> appears on I<Ink> Q<Logan's Run>.
+1997 04 22 Tim Taylor from I<Home Improvement> appears on I<Soul Man> Q<Communion Wine and Convicts>.
+1997 04 29 Al Borland from I<Home Improvement> appears on I<Soul Man> Q<Cinderella and the Funeral>.
+1997 05 12 Murphy Brown from I<Muphy Brown> appears on I<Ink> Q<Murphy's Law>.
+1997 05 14 Detective James Martinez from I<NYPD Blue> appears on I<The Drew Carey Show> Q<New York and Queens>.
+1997 05 14 Larry, Darryl, and Darryl from I<Newhart> appears on I<Coach> Q<Leaving Orlando>, parts 2 and 3.
+1997 07 12 I<Oz> first airs.
+1997 09 08 I<Ally McBeal> first airs.
+1997 09 09 I<A<Casper|href="../Movies_by_series.pl?series=Casper#Casper">> spins off I<Capser: A Spirited Begining>.
+1997 09 12 I<Ninja Turtles: The Next Mutation> first airs.
+1997 09 19 I<Meego> first airs.
+1997 09 26 I<Teen Angel> first airs.
+1997 09 26 I<You Wish> first airs.
+1997 09 26 Steve Urkel from I<Family Matters> appears on I<Meego> Q<Love and Money>.
+1997 09 26 Steve Urkel from I<Family Matters> appears on I<Step by Step> Q<A Star Is Born>.
+1997 09 28 Father Guido Sarducci appears on I<Unhappily Ever After> Q<Exorcising Jennie>.
+1997 09 29 I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> Q<School Hard>, red box Morley
+1997 10 03 Steve Urkel from I<Family Matters> appears on I<Meego> Q<The Truth About Cars and Dogs>.
+1997 10 06 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> spins off I<Team Knight Rider>.
+1997 10 08 Mr. Roper from I<Three's Company> appears on I<Ellen> Q<Roommates>.
+1997 10 24 Gilligan, Mary Ann and the Professor from I<Gilligan's Island> appear on I<Meego> Q<Mommy 'n' Meego>, this date is when the last I<Meego> episode aired as this episode was unaired.
+1997 10 31 Sabrina Spellman from I<Sabrina, the Teenage Witch> appears on I<Boy Meets World> Q<The Witches of Pennbrook>.
+1997 11 04 Brad Taylor from I<Home Improvement> appears on I<Soul Man> Q<Public Embarrassment and Todd's First Sermon>.
+1997 11 07 Time bomb 1: Time bomb starts on I<Sabrina, the Teenage Witch> Q<Inna-Gadda-Sabrina>.
+1997 11 07 Time bomb 2: Sabrina Spellman and Salem, the cat, from I<Sabrina, the Teenage Witch> appear on I<Boy Meets World> Q<No Guts, No Cory>.
+1997 11 07 Time bomb 3: Sabrina Spellman and Salem, the cat, from I<Sabrina, the Teenage Witch> appear on I<You Wish> Q<Genie Without a Cause>.
+1997 11 07 Time bomb 4: Sabrina Spellman and Salem, the cat, from I<Sabrina, the Teenage Witch> appear on I<Teen Angel> Q<One Dog Night>.
+1997 11 12 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Baby, It's You> concludes on I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<Baby, It's You>.
+1997 11 13 Cinnamon Carter from I<Mission: Impossible> appears on I<Diagnosis Murder> Q<Discards>.
+1997 11 14 I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<Baby, It's You> concludes I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Baby, It's You>.
+1997 11 16 John Munch from I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> appears on I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> Q<Unusual Suspects>.
+1997 11 17 Ray Barone from I<Everybody Loves Raymond> appears on I<Cosby> Q<Lucas Raymondicus>.
+1997 11 18 Revered Mike Weber from I<Soul Man> appears on I<Home Improvement> Q<Losing My Religion>.
+1997 11 26 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> spins off I<Alien: Resurrection>.
+1997 12 25 I<The Postman> is released.
+1998 02 12 Doctor Emil Skoda from I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> appears on I<A<New York Undercover|href="../Movies_by_series.pl?series=New+York+Undercover">> Q<Mob Street>.
+1998 02 27 Teenage Mutant Ninja Turtles from I<Ninja Turtles: The Next Mutation> appear on I<Power Rangers in Space> Q<Shell Shocked>.
+1998 02 29 I<Day by Day> first airs.
+1998 03 11 I<Two Guys, a Girl and a Pizza Place> first airs.
+1998 03 17 Paul Lassiter from I<Spin City> appears on I<Something So Right> Q<Something About the 'Men' in Menstruation>.
+1998 03 20 Dr. Roxanne Turner from I<St. Elsewhere> appears on I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<Mercy>.
+1998 03 25 Ray Barone of I<Everybody Loves Raymond> appears on I<The Nanny> Q<The Reunion Show>.
+1998 04 04 Doctors Phillip Waters, Keith Wilkes, and Diane Grad from I<A<Chicago Hope|href="../Movies_by_series.pl?series=Chicago+Hope">> appear on I<Early Edition> Q<Mum's the Word>.
+1998 04 13 I<The Love Boat> spins off I<The Love Boat: The Next Wave>.
+1998 04 23 I<Promised Land> Q<Total Security> concludes on I<Diagnosis Murder> Q<Promises to Keep>.
+1998 04 27 I<Ally McBeal> Q<The Inmates> concludes on I<The Practice> Q<Axe Murderer>.
+1998 05 04 Dr. Jackson Roykirk mentioned on I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> Q<The Changeling> appears on I<Team Knight Rider> Q<Apocalypse Maybe>.
+1998 05 14 Rob Petrie appeared on I<Diagnosis Murder> Q<Obsession: Part 2>.
+1998 06 06 I<The Simple Life> first airs.
+1998 06 07 I<Tales of the City> spins off I<More Tales of the City>.
+1998 06 17 Sylvia Fine from I<The Nanny> appears on I<The Simple Life> Q<The Other Mother>.
+1998 06 19 I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> spins off I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> (1998).
+1998 08 23 I<That '70s Show> first airs.
+1998 09 21 I<The Kings of Queens> first airs.
+1998 09 22 I<A<Casper|href="../Movies_by_series.pl?series=Casper#Casper">> spins off I<Casper Meets Wendy>.
+1998 09 22 I<Sports Night> first airs.
+1998 09 22 I<The Hughleys> first airs.
+1998 09 26 I<Fantasy Island> spins off I<Fantasy Island> (1998).
+1998 09 26 I<Martial Law> first airs.
+1998 10 23 I<Soldier> is released; a M41A Pulse Rifle and USCM Smart Gun from I<Aliens> appear; the battles of Tannhauser Gate and Shoulder of Orion and the spinners from I<Blade Runner> appear.
+1998 10 28 Mimi Bobeck Carey from I<The Drew Carey Show> appears on I<Two Guys, a Girl and a Pizza Place> Q<Two Guys, a Girl and a Psycho Halloween>.
+1998 11 02 I<Becker> first airs.
+1998 11 08 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off I<Law &amp; Order: Exiled>.
+1998 11 16 Doug Heffernan from I<The King Of Queens> appears on I<Cosby> Q<Judgment Day>.
+1998 11 16 Doug Heffernan from I<The King of Queens> appears on I<Everybody Loves Raymond> Q<The Lone Barone>.
+1998 11 16 Ray, Robert, and Frank Barone from I<Everybody Loves Raymond> appears on I<The Kings of Queens> Q<Road Rayge>.
+1998 11 27 Steven and Andrew Keaton from I<Family Ties> appear on I<Day by Day> Q<Trading Places>.
+1998 12 11 I<Star Trek: The Next Generation> spins off I<Star Trek: Insurrection>.
+1999 02 09 I<Spin City> Q<Internal Affairs> segues into I<Sports Night>.
+1999 02 17 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Sideshow> concludes on I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<Sideshow>.
+1999 02 19 I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> Q<Sideshow> concludes I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Sideshow>.
+1999 02 22 Doug Heffernan from I<The King of Queens> appears on I<Everybody Loves Raymond> Q<Ray Home Alone>.
+1999 03 01 Ray and Marie Barone from I<Everybody Loves Raymond> appear on I<The Kings of Queens> Q<Rayny Day>.
+1999 03 24 I<The Norm Show> first airs.
+1999 04 08 I<Friends> Q<The One Where Rachel Smokes> has Etruscan horse Morley brand.
+1999 04 16 I<A<Nash Bridges|href="../Movies_by_series.pl?series=Nash+Bridges">> Q<Power Play>, red box Morley
+1999 04 17 I<Walker, Texas Ranger> spins off I<Sons of Thunder>.
+1999 04 18 The graves of Nicholas and Diane Salinger from I<Party of Five> appear on I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> Q<Milagro>.
+1999 05 03 Doug Heffernan from I<The King of Queens> appears on I<Becker> Q<Drive, They Said>.
+1999 05 03 Hilton Lucas from I<Cosby> appears on I<Becker> Q<Drive, They Said>.
+1999 05 03 Ray Barone from  I<Everybody Loves Raymond> appears on I<Becker> Q<Drive, They Said>.
+1999 05 08 Sammo Law from I<Martial Law> appeared on I<Early Edition> Q<Play It Again, Sammo>.
+1999 05 11 Hakeem Campbell and Niecy Jackson from I<Moesha> appear on I<Clueless> Q<Prom Misses, Prom Misses>.
+1999 05 19 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: Episode I - The Phantom Menace>; the alien species from I<E.T. The Extra-Terrestrial> appears.
+1999 05 19 I<Tool Time> from I<Home Improvement> appears on I<The Drew Carey Show> Q<Up on the Roof>.
+1999 07 05 I<Passions> first airs.
+1999 09 17 Dr. Bombay from I<A<Bewitched|href="../Movies_by_series.pl?series=Bewitched#Bewitched">> appears on I<Passions>.
+1999 09 20 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off I<Law &amp; Order: Special Victims Unit>; John Munch I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> joins.
+1999 09 22 I<The Norm Show> is renamed I<Norm>.
+1999 09 22 I<Two Guys, a Girl and a Pizza Place> is renamed to I<Two Guys and a Girl>.
+1999 09 24 Mimi Bobeck Carey from I<The Drew Carey Show> appears on I<The Hughleys> Q<Young Guns>.
+1999 09 26 I<A<Third Watch|href="../Movies_by_series.pl?series=Third+Watch">> first airs.
+1999 09 28 I<Ally McBeal> spins off I<Ally>.
+1999 09 30 I<Moesha> spins off I<The Parkers>.
+1999 10 05 I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> (1997) spins off I<A<Angel|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Angel">>.
+1999 10 25 I<Party of Five> spins off I<Time of Your Life>.
+1999 10 27 Gallifrey from I<Doctor Who> is mentioned on I<Rangers Lost Galaxy> Q<Green Courage>.
+1999 11 08 Ray and Patricia Barone from I<Everybody Loves Raymond> appear on I<The Kings of Queens> Q<Dire Strayts>.
+1999 11 10 I<A<Psycho|href="../Movies_by_series.pl?series=Psycho">> spins off I<Psycho IV: The Beginning>.
+1999 11 28 Frank and Jordan Black from I<Millennium> appear on I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> Q<Millennium>.
+1999 11 30 I<That '70s Show> Q<Eric Gets Suspended>, red box Morley
+1999 12 13 I<Becker> Q<Santa On Ice>, red box Morley
+2000 01 09 I<Malcolm in the Middle> first airs.
+2000 02 13 I<A<Homicide: Life on the Street|href="../Movies_by_series.pl?series=Homicide">> spins off I<Homicide: The Movie>; Miss Sally from I<Oz> appears.
+2000 02 18 I<Law &amp; Order: Special Victims Unit> Q<Entitled> concludes on I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Entitled>.
+2000 02 19 I<Martial Law> Q<Honor Among Strangers> concludes on I<Walker, Texas Ranger> Q<The Day of Cleansing>.
+2000 03 21 I<The Beat> first airs.
+2000 03 28 John Munch from I<Law &amp; Order: Special Victims Unit> appears on I<The Beat> Q<They Say It's Your Birthday>.
+2000 04 02 I<Malcolm in the Middle> Q<Stock Car Races>, red box Morley
+2000 04 06 I<Frasier> Q<Morning Becomes Entertainment>, red box Adler
+2000 05 24 Alex P. Keaton from I<Family Ties> mentioned on I<Spin City> Q<Goodbye: Part 1>.
+2000 07 07 I<Scary Movie> is released; Andrew 'Squiggy' Squiggman from I<Laverne &amp; Shirley> appears.
+2000 09 11 I<Girlfriends> first airs.
+2000 10 02 I<Deadline> first airs.
+2000 10 06 I<CSI: Crime Scene Investigation> first airs.
+2000 10 08 I<Nikki> first airs.
+2000 10 10 I<Gideon's Crossing> first airs.
+2000 10 10 I<The Geena Davis Show> first airs.
+2000 10 22 I<Charlie's Angels> spins off I<Charlie's Angels> (2000).
+2000 10 23 I<Boston Public> first airs.
+2000 12 15 Mimi Bobeck Carey from I<The Drew Carey Show> appears on I<Norm> Q<Norm vs. Schoolin'>.
+2001 01 09 Drew Carey from I<The Drew Carey Show> appears on I<The Geena Davis Show> Q<Momma Bear>.
+2001 01 23 I<The Office> first airs.
+2001 02 11 Kevin Riley, Scott Gruber, Steven Harper, and Harold Shaw from I<Boston Public> appears on I<The Practice> Q<The Day After>.
+2001 02 12 Ellenor Frutt and Jimmy Berluti from I<The Practice> appear on I<Boston Public> Q<Chapter Thirteen>.
+2001 02 19 Darryl Hughley from I<The Hughleys> appears on I<The Parkers> Q<Who's Your Mama?>.
+2001 02 19 Maya Wilkes from I<Girlfriends> appears on I<Moesha> Q<That's My Mama>.
+2001 02 19 Niecy Jackson from I<Moesha> appears on I<Girlfriends> Q<Old Dog>.
+2001 02 19 Nikki Parker from I<The Parkers> appears on I<The Hughleys> Q<Forty Acres and a Fool>.
+2001 03 04 I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> spins off I<The Lone Gunmen>.
+2001 03 11 Doctor Ben Gideon from I<Gideon's Crossing> appears on I<The Practice> Q<Gideon's Crossover>.
+2001 03 12 Ellenor Frutt from I<The Practice> appears on I<Gideon's Crossing> Q<Flashpoint>.
+2001 04 11 I<A<Special Unit 2|href="../Movies_by_series.pl?series=Special+Unit+2">> first airs.
+2001 05 11 I<Sordid Lives> is released.
+2001 07 04 I<Scary Movie> spins off I<Scary Movie 2>.
+2001 09 24 I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> first airs.
+2001 09 26 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Enterprise|href="../Movies_by_series.pl?series=Star+Trek#Enterprise">>.
+2001 09 30 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off I<Law &amp; Order: Criminal Intent>.
+2001 09 30 I<Alias> first airs.
+2001 10 03 I<A<Special Unit 2|href="../Movies_by_series.pl?series=Special+Unit+2">> Q<The Grain>, red box Morley
+2001 10 07 Slusho! first appears on I<Alias> Q<It Begins>.
+2001 10 14 Marcy Rhoades D'Arcy from I<Married with Children> appears on I<Nikki> Q<Technical Knockup>.
+2001 10 29 Dr. Benjamin Harris from I<Ally McBeal> Q<The Wedding> appeared and then recurs on I<Boston Public> from Q<Chapter Twenty-Three>.
+2001 11 06 I<24> first airs.
+2002 01 10 I<A<ER|href="../Movies_by_series.pl?series=ER">> Q<Beyond Repair>, red box Morley
+2002 01 15 I<A<First Monday|href="../Movies_by_series.pl?series=First+Monday">> first airs.
+2002 01 23 I<That '70s Show> spins off I<That '80s Show>.
+2002 01 29 First appearance of Doublemeat Palace on I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> Q<Doublemeat Palace>
+2002 04 25 I<A<ER|href="../Movies_by_series.pl?series=ER">> Q<Brothers and Sisters> concludes on I<A<Third Watch|href="../Movies_by_series.pl?series=Third+Watch">> Q<Unleashed>.
+2002 04 29 I<A<Third Watch|href="../Movies_by_series.pl?series=Third+Watch">> Q<Unleashed> concludes I<A<ER|href="../Movies_by_series.pl?series=ER">> Q<Brothers and Sisters>.
+2002 05 16 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: Episode II - Attack of the Clones>.
+2002 06 02 I<The Wire> first airs.
+2002 07 12 I<Monk> first airs.
+2002 09 20 I<Firefly> first airs.
+2002 09 23 I<CSI: Crime Scene Investigation> spins off I<CSI: Miami>.
+2002 09 24 I<A<First Monday|href="../Movies_by_series.pl?series=First+Monday">> to I<A<JAG|href="../Movies_by_series.pl?series=JAG">> Q<Critical Condition>
+2002 09 26 I<Without a Trace> first airs.
+2002 10 14 The Sergio Georgini fashon line introduced on I<The Office> (UK) Q<Party>.
+2002 11 29 I<Tales of the City> spins off I<Further Tales of the City>.
+2002 12 13 I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> spins off I<Star Trek: Nemesis>.
+2002 12 20 An Imperial shuttle from I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> appears on I<Firefly> Q<Serenity>.
+2002 12 20 The logo of Weyland-Yutani from I<A<Alien|href="../Movies_by_series.pl?series=Alien">> appears on I<Firefly> Q<Serenity>.
+2003 01 17 I<That's So Raven> first airs.
+2003 02 09 It is found that R.N. Carol Grace worked at St. Eligius from I<St. Elsewhere> in I<Oz> Q<A Day in the Death>.
+2003 02 22 I<Touched by an Angel> Q<Song for My Father>, red box Morley
+2003 04 22 NCIS Agents Leroy Jethro Gibbs and Anthony DiNozzo, Abby Sciuto, and Lt. Cmdr. Faith Coleman will go to I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> after appearing on I<A<JAG|href="../Movies_by_series.pl?series=JAG">> Q<Ice Queen>.
+2003 04 29 NCIS Agents Leroy Jethro Gibbs and Anthony DiNozzo, Abby Sciuto, and Lt. Cmdr. Faith Coleman will go to I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> after appearing on I<A<JAG|href="../Movies_by_series.pl?series=JAG">> Q<Meltdown>.
+2003 05 12 Bartender Isaac Washington from I<The Love Boat> appears on I<The King of Queens> Q<Taste Buds>.
+2003 06 27 I<A<Dead Like Me|href="../Movies_by_series.pl?series=Dead+Like+Me">> first airs.
+2003 06 27 I<Charlie's Angels> (2000) spins off I<Charlie's Angels: Full Throttle>.
+2003 07 22 I<Nip/Tuck> first airs.
+2003 09 10 I<A<Jake 2.0|href="../Movies_by_series.pl?series=Jake+2.0">> first airs.
+2003 09 22 I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> first airs.
+2003 09 23 I<A<JAG|href="../Movies_by_series.pl?series=JAG">> spins off I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">>
+2003 09 26 I<Miss Match> first airs.
+2003 09 28 I<Cold Case> first airs.
+2003 09 30 Lt. Bud Roberts from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Hung Out to Dry>.
+2003 10 01 I<A<Jake 2.0|href="../Movies_by_series.pl?series=Jake+2.0">> Q<Arms and the Girl>, red box Morley
+2003 10 01 I<Karen Sisco> first airs.
+2003 10 24 I<Scary Movie> spins off I<Scary Movie 3>.
+2003 11 02 I<Arrested Development> first airs.
+2003 12 08 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(1978)">> spins off the non-contiguous I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003); a Firefly-class ship from I<Firefly> appears.
+2004 01 13 I<Shameless> first airs.
+2004 01 14 Weyland-Yutani from I<A<Alien|href="../Movies_by_series.pl?series=Alien">> appears on I<A<Angel|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Angel">> Q<Harm's Way>.
+2004 03 12 I<A<Wonderfalls|href="../Movies_by_series.pl?series=Wonderfalls">> first airs.
+2004 05 02 I<Cold Case> Q<The Plan>, red box Morley
+2004 06 16 I<Method &amp; Red> first airs.
+2004 08 11 Warren Coolidge from I<St. Elsewhere> appears on I<Method &amp; Red> Q<Da Shootout>.
+2004 08 13 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> and I<A<Predator|href="../Movies_by_series.pl?series=Predator">> spin off I<AVP: Alien vs. Predator>.
+2004 09 09 I<A<Medical Investigation|href="../Movies_by_series.pl?series=Medical+Investigation">> first airs.
+2004 09 09 I<Friends> spins off I<Joey>.
+2004 09 13 I<A<LAX|href="../Movies_by_series.pl?series=LAX">> first airs.
+2004 09 22 I<A<Lost|href="../Movies_by_series.pl?series=Lost">> first airs; Oceanic Airlines first appears.
+2004 09 22 I<CSI: Crime Scene Investigation> spins off I<CSI: NY>.
+2004 10 03 I<The Practice> spins off I<Boston Legal>.
+2004 10 03 Judge Isabel Hernandez from I<Miss Match> appears on I<Boston Legal> Q<Head Cases>.
+2004 10 18 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica> (2004).
+2004 11 07 I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> Q<What Happens in Vegas Dies in Boston> concludes on I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<Two of a Kind>.
+2004 11 07 I<Cold Case> Q<The Sleepover>, red box Morley
+2004 11 07 I<Huff> first airs.
+2004 11 08 I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<Two of a Kind> concludes I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> Q<What Happens in Vegas Dies in Boston>.
+2004 12 01 Gannon Car Rentals first appears on I<A<Lost|href="../Movies_by_series.pl?series=Lost">> Q<Raised by Another>?
+2004 12 05 I<A<The Librarian: Quest for the Spear|href="../Movies_by_series.pl?series=The+Librarian">> first airs.
+2005 01 03 I<A<Medium|href="../Movies_by_series.pl?series=Medium">> first airs.
+2005 01 05 Driveshaft, a fiction band from I<A<Lost|href="../Movies_by_series.pl?series=Lost">>, is mentioned on I<Alias> Q<Authorized Personnel Only, Part 2>.
+2005 02 13 Detective Mike Logan from I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> appears on I<Law &amp; Order: Criminal Intent> Q<Stress Position> then joins the cast.
+2005 02 18 I<A<Third Watch|href="../Movies_by_series.pl?series=Third+Watch">> Q<In the Family Way> concludes on I<A<Medical Investigation|href="../Movies_by_series.pl?series=Medical+Investigation">> Q<Half Life>.
+2005 02 18 The Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appears on I<Monk> Q<Mr. Monk Goes to Vegas>.
+2005 03 03 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off I<Law &amp; Order: Trial by Jury>.
+2005 03 13 Steven Harper from I<Boston Public> appears on I<Boston Legal> Q<Let Sales Ring>.
+2005 03 18 I<The Suite Life of Zack & Cody> first airs.
+2005 03 24 I<The Office> spins off I<The Office> (2005).
+2005 03 26 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> spins off I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (2005).
+2005 04 13 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Tombstone> concludes on I<Law &amp; Order: Trial by Jury> Q<Skeleton>.
+2005 04 15 I<Law &amp; Order: Trial by Jury> Q<Skeleton> concludes I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Tombstone>.
+2005 04 22 Oceanic Airlines from I<A<Lost|href="../Movies_by_series.pl?series=Lost">> mentioned on I<Alias> Q<A Clean Conscience>.
+2005 05 03 I<Law &amp; Order: Special Victims Unit> Q<Night> concludes on I<Law &amp; Order: Trial by Jury> Q<Day>.
+2005 05 19 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: Episode III - Revenge of the Sith>.
+2005 05 20 Mary Connell and The Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appear on I<Passions>.
+2005 05 23 Mary Connell and The Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appear on I<Passions>.
+2005 08 04 I<It's Always Sunny in Philadelphia> first airs.
+2005 08 29 I<Prison Break> first airs.
+2005 09 13 I<A<Bones|href="../Movies_by_series.pl?series=Bones+&+The+Finder#Bones">> first airs.
+2005 09 22 I<A<Criminal Minds|href="../Movies_by_series.pl?series=Criminal+Minds">> first airs.
+2005 09 22 I<Everybody Hates Chris> first airs.
+2005 09 27 I<Law &amp; Order: Special Victims Unit> Q<Design> concludes on I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Flaw>.
+2005 09 28 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> Q<Flaw> concludes I<Law &amp; Order: Special Victims Unit> Q<Design>.
+2005 09 30 I<Firefly> spins off I<Serenity>; a Holnist patch from I<The Postman> appears.
+2005 10 02 I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> Q<Luck Be a Lady> concludes on I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<Double Down, Triple Threat>.
+2005 10 03 I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<Double Down, Triple Threat> concludes I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> Q<Luck Be a Lady>.
+2005 11 28 Ray Barone from I<Everybody Loves Raymond> appears on I<The Kings of Queens> Q<Raygin' Bulls>.
+2005 12 25 Arthur Dent from I<The Hitchhiker's Guide to the Galaxy> is mentioned on I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> Q<The Christmas Invasion>.
+2006 01 02 The Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appears on I<A<Medium|href="../Movies_by_series.pl?series=Medium">> Q<Method to His Madness>.
+2006 02 10 John Munch from I<Law &amp; Order: Special Victims Unit> appears on I<Arrested Development> Q<Exit Strategy>.
+2006 03 03 Arthur Branch from I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> appears on I<Conviction>.
+2006 03 03 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off the non-contiguous I<Conviction>.
+2006 03 21 Judge Isabel Hernandez from I<Miss Match> appears on I<Boston Legal> Q<Chitty Chitty Bang Bang>.
+2006 03 24 I<Hannah Montana> first airs.
+2006 04 14 I<Scary Movie> spins off I<Scary Movie 4>.
+2006 04 16 Oceanic Airlines from I<A<Lost|href="../Movies_by_series.pl?series=Lost">> appears on I<A<LAX|href="../Movies_by_series.pl?series=LAX">> Q<Senator's Daughter>.
+2006 04 27 I<Everybody Hates Chris> Q<Everybody Hates Playboy>, red box Morley Lights
+2006 05 08 I<Prison Break> spins off I<Prison Break: Proof of Innocence>.
+2006 05 21 I<Huff> Q<Radio Silence>, red box Morley
+2006 07 18 I<A<EurSUP<e>ka|href="../Movies_by_series.pl?series=EUReKA">> first airs.
+2006 07 28 TSSLHM 1: Zack and Cody Martin and Marion Moseby from I<The Suite Life of Zack &amp; Cody> appear on I<That's So Raven> Q<Checkin' Out>.
+2006 07 28 TSSLHM 2a: Raven Baxter from I<That's So Raven> appears on I<The Suite Life of Zack &amp; Cody> Q<That's So Suite Life of Hannah Montana>.
+2006 07 28 TSSLHM 2b: Hannah Montana from I<Hannah Montana> appears on I<The Suite Life of Zack &amp; Cody> Q<That's So Suite Life of Hannah Montana>.
+2006 09 05 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: The Resistance>.
+2006 09 25 I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> first airs.
+2006 10 01 I<Dexter> first airs.
+2006 10 01 I<Girlfriends> spins off I<The Game>.
+2006 10 03 Melville's restaurant above the bar in I<Cheers> is mentioned on I<Boston Legal> Q<Desperately Seeking Shirley>.
+2006 10 16 The Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appears on I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> Q<Collision>.
+2006 10 22 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (2005) spins off I<Torchwood>.
+2006 11 01 I<A<Criminal Minds|href="../Movies_by_series.pl?series=Criminal+Minds">> Q<North Mammon>, red box Morley
+2006 11 07 Gannon Car Rentals appears on I<Nip/Tuck> Q<Conor McMamara, 2026>.
+2006 11 08 The fictional Tangiers hotel is first mentioned on I<A<Bones|href="../Movies_by_series.pl?series=Bones+&+The+Finder#Bones">> Q<The Woman in the Sand>.
+2006 11 10 The Dunder-Mifflin company from I<The Office> (U.S.) is mentioned on I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<The Story Of Owe>.
+2006 11 13 I<Prison Break> Q<Bolshoi Booze>, red box Morley
+2006 11 17 Jordan Cavanaugh and Woody Hoyt of I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> appear on I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> Q<History of Violins>.
+2006 12 03 I<A<The Librarian: Quest for the Spear|href="../Movies_by_series.pl?series=The+Librarian">> spins off I<The Librarian: Returns of King Solomon's Mines>.
+2006 12 10 Doublemeat Palace from I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> Q<Doublemeat Palace> appears on I<Dexter> Q<Truth Be Told>.
+2007 01 01 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (2005) spins off I<The Sarah Jane Adventures>.
+2007 01 12 I<That's So Raven> spins off I<Cory in the House>.
+2007 01 29 Gannon Car Rentals appears on I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> Q<The Fix>.
+2007 02 11 Danny McCoy of I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appeared on I<A<Crossing Jordan|href="../Movies_by_series.pl?series=Crossing+Jordan">> Q<Crazy Little Thing Called Love>.
+2007 03 15 I<Andy Barker, P.I.> first airs.
+2007 03 22 Doublemeat Palace from I<A<Buffy the Vampire Slayer|href="../Movies_by_series.pl?series=Buffy+the+Vampire+Slayer#Buffy_the_Vampire_Slayer_1997">> Q<Doublemeat Palace> appears on I<Andy Barker, P.I.> Q<Fairway, My Lovely>.
+2007 05 02 Detective Scotty Valens from I<Cold Case> appears on I<CSI:NY> Q<Cold Reveal>.
+2007 06 16 President Richard Martinez from I<Cory in the House> appears on I<Hannah Montana> Q<Take This Job and Love It>.
+2007 06 27 I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> spins off I<Live Free or Die Hard>.
+2007 06 28 I<A<Burn Notice|href="../Movies_by_series.pl?series=Burn+Notice#Burn_Notice">> first airs.
+2007 07 23 I<Saving Grace> first airs.
+2007 08 13 I<Californication> first airs.
+2007 09 24 I<A<Chuck|href="../Movies_by_series.pl?series=Chuck">> first airs.
+2007 09 25 I<A<Reaper|href="../Movies_by_series.pl?series=Reaper">> first airs.
+2007 10 01 Oceanic Airlines from I<A<Lost|href="../Movies_by_series.pl?series=Lost">> is mentioned on I<A<Chuck|href="../Movies_by_series.pl?series=Chuck">> Q<Chuck Versus the Helicopter>.
+2007 10 03 I<A<Pushing Daisies|href="../Movies_by_series.pl?series=Pushing+Daisies">> first airs.
+2007 10 05 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: Razor Flashbacks>.
+2007 10 12 I<Wizards of Waverly Place> first airs.
+2007 11 08 I<CSI: Crime Scene Investigation> Q<Who and What> concludes on I<Without a Trace> Q<Where and Why>.
+2007 11 19 Slusho! appears on I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> Q<Cautionary Tales>.
+2007 11 24 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: Razor>.
+2007 11 26 Slusho! appears on I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> Q<Truth or Consequences>.
+2007 12 25 I<AVP: Alien vs. Predator> spins off I<Aliens vs. Predators: Requiem>.
+2008 01 18 I<Cloverfield> is released; Slusho! appears.
+2008 01 20 I<Breaking Bad> first airs; red box Morley.
+2008 01 21 I<A<Medium|href="../Movies_by_series.pl?series=Medium">> Q<To Have and To Hold>, red box Morley
+2008 01 31 I<Eli Stone> first airs.
+2008 02 17 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> spins off I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> (2008 miniseries); the Montecito Resort and Casino from I<A<Las Vegas|href="../Movies_by_series.pl?series=Las+Vegas">> appears.
+2008 02 17 John Munch from I<Law &amp; Order: Special Victims Unit> appears on I<The Wire> Q<Took>.
+2008 03 04 I<A<New Amsterdam|href="../Movies_by_series.pl?series=New+Amsterdam">> first airs.
+2008 04 14 I<A<New Amsterdam|href="../Movies_by_series.pl?series=New+Amsterdam">> Q<Love Hurts>, red box Morley
+2008 05 22 I<Raiders of the Lost Ark> spins off I<Indiana Jones and the Kindgoms of the Crystal Skull>.
+2008 05 26 I<A<Reaper|href="../Movies_by_series.pl?series=Reaper">> Q<The Devil and Sam Oliver>, red box Morley
+2008 06 01 I<A<In Plain Sight|href="../Movies_by_series.pl?series=In+Plain+Sight">> first airs.
+2008 06 15 Mary Shannon from I<A<In Plain Sight|href="../Movies_by_series.pl?series=In+Plain+Sight">> appears on I<Law &amp; Order: Criminal Intent> Q<Contract>.
+2008 07 22 I<Sordid Lives> spins off I<Sordid Lives: The Series>.
+2008 07 25 I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> spins off I<The X-Files: I Want to Believe>.
+2008 08 04 I<Saving Grace> Q<It's a Fierce, White-Hot, Mighty Love>, red box Morley
+2008 08 06 I<Sordid Lives: The Series> Q<Pills, Poison and Penises>, red box Morley
+2008 08 07 I<A<Burn Notice|href="../Movies_by_series.pl?series=Burn+Notice#Burn_Notice">> Q<Scatter Point>, red box Morley menthols
+2008 08 15 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: The Clone Wars>.
+2008 09 08 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: The Plan>.
+2008 09 09 I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> first airs.
+2008 09 24 I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> spins off I<A<Knight Rider|href="../Movies_by_series.pl?series=Knight+Rider">> (2008 TV series).
+2008 09 26 I<The Suite Life of Zack &amp; Cody> spins off I<The Suite Life on Deck>.
+2008 09 29 I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> Q<One of Us, One of Them>, red box Morley
+2008 10 01 Happy Time Temp Agency from I<A<Dead Like Me|href="../Movies_by_series.pl?series=Dead+Like+Me">> is mentioned on I<A<Pushing Daisies|href="../Movies_by_series.pl?series=Pushing+Daisies">> Q<Bzzzzzzzzz!>.
+2008 10 14 Credit Dauphine, a fictional bank, from I<Alias> appeared on I<Eli Stone> Q<The Path>.
+2008 10 15 I<A<Pushing Daisies|href="../Movies_by_series.pl?series=Pushing+Daisies">> Q<Bad Habits>, red box Morley Lights
+2008 10 19 I<Californication> Q<The Raw &amp; the Cooked>, red box Morley
+2008 11 25 Oceanic Air airline on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> Q<The Dreamscape>.
+2008 12 03 Marianne Marie Beetle from I<A<Wonderfalls|href="../Movies_by_series.pl?series=Wonderfalls">> Q<Muffin Buffalo> appears on I<A<Pushing Daisies|href="../Movies_by_series.pl?series=Pushing+Daisies">> Q<Comfort Food>.
+2008 12 07 I<A<The Librarian: Quest for the Spear|href="../Movies_by_series.pl?series=The+Librarian">> spins off I<The Librarian: The Curse of the Judas Chalice>.
+2008 12 12 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: The Face of the Enemy>.
+2008 12 15 L.A.P.D. Police Sergeant Al Powell from I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> appears on I<A<Chuck|href="../Movies_by_series.pl?series=Chuck">> Q<Chuck Versus Santa Claus>.
+2009 01 18 I<The United States of Tara> pilot, red box Morley Lights
+2009 02 17 I<A<Dead Like Me|href="../Movies_by_series.pl?series=Dead+Like+Me">> spins off I<Dead Like Me: Life After Death>.
+2009 03 09 I<Castle> first airs.
+2009 03 13 A Constitution-class ship from I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> appears on I<Battlestar Galactica> Q<Daybreak> (2004).
+2009 04 10 I<Hannah Montana> spins off I<Hannah Montana: The Movie>.
+2009 05 05 Slusho! appears on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> Q<The Road Not Taken>.
+2009 05 08 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> (2009); R2-D2 from I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> and Slusho! appear.
+2009 05 18 I<A<Medium|href="../Movies_by_series.pl?series=Medium">> Q<The First Bite is the Deepest>, red box Morley Lights
+2009 05 19 I<Glee> first airs.
+2009 06 18 I<United States of Tara> first airs.
+2009 07 07 I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> first airs.
+2009 07 17 WDHM 1: Zack and Cody Martin, London Tipton, Bailey Pickett, and Marion Moseby from I<The Suite Life on Deck> appear I<Wizards of Waverly Place> Q<Cast-Away (to Another Show)>.
+2009 07 17 WDHM 2: Hannah Montana and Lola Luftnagle from I<Hannah Montana> appear on I<The Suite Life on Deck> Q<Double-Crossed>.
+2009 07 17 WDHM 3: Zack and Cody Martin, London Tipton, Bailey Pickett, and Marion Moseby from I<The Suite Life on Deck> appear on I<Hannah Montana> Q<Super(stitious) Girl>.
+2009 08 28 I<Wizards of Waverly Place> spins off I<Wizards of Waverly Place: The Movie>.
+2009 09 08 I<Melrose Place> spins off I<Melrose Place> (2009).
+2009 09 17 I<Community> first airs.
+2009 09 17 The X Division from I<A<The X-Files|href="../Movies_by_series.pl?series=The+X-Files">> is mentioned on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> Q<A New Day in the Old Town>.
+2009 09 22 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> spins off I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">>; NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears.
+2009 09 24 I<FlashForward> first airs.
+2009 09 24 Oceanic Airlines from I<A<Lost|href="../Movies_by_series.pl?series=Lost">> appears on I<FlashForward> Q<No More Good Days>.
+2009 09 30 I<The Middle> first airs.
+2009 10 13 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Search and Destroy>.
+2009 10 20 NCIS Director Leon Vance and Abby Sciuto from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appear on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Killshot>.
+2009 10 31 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (2005) spins off I<K9>.
+2009 11 10 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Pushback>.
+2009 11 12 The fictional Tangiers hotel is mentioned on I<CSI: Crime Scene Investigation> Q<The Lost Girls>.
+2009 11 17 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Ambush>.
+2009 11 17 The Sergio Georgini fashon line from I<The Office> (UK) Q<Party> appears on I<It's Always Sunny in Philadelphia> Q<A Very Sunny Christmas>.
+2009 11 24 NCIS Director Leon Vance and Abby Sciuto from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appear on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Random on Purpose>.
+2009 11 27 I<I'm in the Band> first airs.
+2010 01 22 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Caprica>.
+2010 01 24 I<24> Q<Day 8: 9:00 p.m. - 10:00 p.m.>, red box Morley
+2010 01 25 I<American Horror Story: Murder House> Q<Birth>, red box Morley Lights
+2010 02 02 I<A<Lost|href="../Movies_by_series.pl?series=Lost">> Q<LA X>, red box Morley
+2010 03 16 I<Justified> first airs.
+2010 03 23 I<Justified> Q<Riverbrook>, red box Morley
+2010 04 04 I<Good Luck Charlie> first airs.
+2010 05 11 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Hunted>.
+2010 07 09 I<A<Predator|href="../Movies_by_series.pl?series=Predator">> spins off I<Predators>, not contiguous with I<Alien vs. Predator>.
+2010 08 03 Douglas Fargo from I<A<EurSUP<e>ka|href="../Movies_by_series.pl?series=EUReKA">> appears on I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> Q<13.1>.
+2010 08 06 Claudia Donovan from I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> appears on I<A<EurSUP<e>ka|href="../Movies_by_series.pl?series=EUReKA">> Q<Crossing Over>.
+2010 09 20 I<A<Hawaii 5-O|href="../Movies_by_series.pl?series=Hawaii+Five-O">> spins off non-contiguous I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">>.
+2010 09 21 I<Running Wilde> first airs.
+2010 09 29 I<A<Law &amp; Order|href="../Movies_by_series.pl?series=Law+&+Order">> spins off I<Law &amp; Order: Los Angeles>.
+2010 10 07 The Wilde Oil company from I<Running Wilde> appears on I<Community> Q<The Psychology of Letting Go>.
+2010 10 11 Zack and Cody Martin and Marion Moseby from I<The Suite Life on Deck> appear on I<I'm in the Band> Q<Weasels on Deck>.
+2010 10 17 I<Luther> first airs.
+2010 10 24 I<Sherlock> first airs.
+2010 10 31 I<A<The Walking Dead|href="../Movies_by_series.pl?series=The+Walking+Dead">> first airs.
+2010 11 14 John Munch from I<Law &amp; Order: Special Victims Unit>  is mentioned on I<Luther> episode 1.5.
+2011 01 09 I<Shameless> spins off non-contiguous I<Shameless> (2011).
+2011 01 21 Doctor Lawrence Jacoby from I<Twin Peaks> is mentioned on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> Q<Firefly>.
+2011 02 01 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Freedom>, red box Morley
+2011 02 16 I<A<Criminal Minds|href="../Movies_by_series.pl?series=Criminal+Minds">> spins off I<Criminal Minds: Suspect Behavior>.
+2011 03 06 I<Prison Break> spins off I<Breakout Kings>.
+2011 03 25 I<The Suite Life of Zack &amp; Cody> spins off I<The Suite Life Movie>.
+2011 04 17 I<A<Burn Notice|href="../Movies_by_series.pl?series=Burn+Notice#Burn_Notice">> spins off I<Burn Notice: The Fall of Same Axe>.
+2011 05 14 The Bluth Company from I<Arrested Development> appears on I<Running Wilde> Q<The Pre-Nup>.
+2011 05 17 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Familia>.
+2011 06 10 I<Super 8> is released; Slusho! appears.
+2011 07 11 I<A<Alphas|href="../Movies_by_series.pl?series=Alphas">> first airs.
+2011 08 08 Doctor Vanessa Calder from I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> appears on I<A<Alphas|href="../Movies_by_series.pl?series=Alphas">> Q<Never Let Me Go>.
+2011 08 15 Douglas Fargo from I<A<EurSUP<e>ka|href="../Movies_by_series.pl?series=EUReKA">> appears on I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> Q<Don't Hate the Player>.
+2011 09 20 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Lange, H.>.
+2011 09 22 I<Charlie's Angels> spins off non-contiguous I<Charlie's Angels> (2011).
+2011 09 30 I<Jessie> first airs.
+2011 10 02 I<Homeland> first airs.
+2011 10 23 I<Once Upon a Time> first airs.
+2011 10 23 The Blue Sky meth from I<Breaking Bad> appears on I<A<The Walking Dead|href="../Movies_by_series.pl?series=The+Walking+Dead">> Q<Bloodletting>.
+2011 10 24 Kensi Blye from I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> appears on I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">> Q<Ka Hakaka Maika'i>.
+2011 12 02 I<Austin &amp; Ally> first airs.
+2012 01 08 The TARDIS from I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> appears on I<Sherlock> Q<The Hounds of Baskerville>.
+2012 01 11 I<The Middle> Q<The Map>, red box Morley
+2012 01 12 I<A<Bones|href="../Movies_by_series.pl?series=Bones+&+The+Finder#Bones">> spins off I<A<The Finder|href="../Movies_by_series.pl?series=Bones+&+The+Finder#The_Finder">>.
+2012 01 22 I<Shameless> Q<I'll Light a Candle for You Every Day>, red box Morley
+2012 01 24 Karen Sisco of I<Karen Sisco> appears on I<Justified> Q<Cut Ties>.
+2012 02 17 Slusho! appears on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">> Q<A Better Human Being>.
+2012 04 29 Oceanic Airlines from I<A<Lost|href="../Movies_by_series.pl?series=Lost">> appears on I<Once Upon a Time> Q<The Stranger>.
+2012 04 30 I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">> Q<Pa Make Loa> concludes on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Touch of Death>.
+2012 05 01 I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Touch of Death> concludes I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">> Q<Pa Make Loa>.
+2012 06 08 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> spins off I<Prometheus>.
+2012 09 13 Gannon Car Rentals appears on I<Glee> Q<The New Rachel>.
+2012 09 24 I<A<Warehouse 13|href="../Movies_by_series.pl?series=Warehouse+13">> Q<The Ones You Love>, red box Morley
+2012 10 10 I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">> first airs.
+2012 10 10 I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> first airs.
+2012 10 17 Alexandra Eames from I<Law &amp; Order: Criminal Intent> appears on I<Law &amp; Order: Special Victims Unit> Q<Acceptable Loss>.
+2012 11 09 I<A<Battlestar Galactica|href="../Movies_by_series.pl?series=Battlestar+Galactica+(2003)">> (2003) spins off I<Battlestar Galactica: Blood &amp; Chrome>.
+2012 12 07 Austin Moon, Ally Dawson, Trish de la Rosa, and Dez Wade from I<Austin & Ally> appear on I<Jessie> Q<Nanny in Miami>.
+2012 12 07 Jessie Prescott and the Rosses from I<Jessie> appear on I<Austin & Ally> Q<Big Dreams & Big Apples>.
+2013 01 27 I<Jo> first airs.
+2013 02 14 I<A<Die Hard|href="../Movies_by_series.pl?series=Die+Hard">> spins off I<A Good Day to Die Hard>.
+2013 03 07 Nicole Wallace from I<Law &amp; Order: Criminal Intent> appears on I<Jo> Q<Catacombs> under an assumed name.
+2013 03 15 I<Wizards of Waverly Place> spins off I<The Wizards Return: Alex vs. Alex>
+2013 04 04 I<A<Hannibal|href="../Movies_by_series.pl?series=Hannibal+(2013)">> first airs.
+2013 04 11 Gretchen Speck-Horowitz from I<A<Wonderfalls|href="../Movies_by_series.pl?series=Wonderfalls">> appears on I<A<Hannibal|href="../Movies_by_series.pl?series=Hannibal+(2013)">> Q<Amuse-bouche>.
+2013 04 12 I<Scary Movie> spins off I<Scary Movie 5>.
+2013 05 08 Alexandra Eames from I<Law &amp; Order: Criminal Intent> appears on I<Law &amp; Order: Special Victims Unit> Q<Poisoned Motive>.
+2013 05 14 Admiral Albert Jethro Chegwidden from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Damned If You Do>.
+2013 05 16 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> (2009) spins off I<Star Trek Into Darkness>; R2-D2 from I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> appears.
+2013 07 19 I<Live and Maddie> first airs.
+2013 09 16 I<Sleepy Hollow> first airs.
+2013 09 29 I<Instant Mom> first airs.
+2013 10 10 I<Once Upon a Time> spins off I<Once Upon a Time in Wonderland>.
+2013 10 24 The sarlacc from I<Star Wars: Return of the Jedi> is mentioned in I<Once Upon a Time in Wonderland> Q<Forget Me Not>.
+2013 11 29 Jessie Prescott from I<Jessie> appears on I<Good Luck Charlie> Q<Good Luck Jessie: NYC Christmas>.
+2013 12 15 The CNB news company from I<24> appears on I<Homeland> Q<The Star>.
+2014 01 08 I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> spins off I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">>.
+2014 01 27 I<Boy Meets World> spins off I<Girl Meets World>.
+2014 02 25 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Bulletproof>, red box Morley
+2014 02 26 I<Law &amp; Order: Special Victims Unit> Q<Comic Perversion> concludes on I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<Conventions>.
+2014 05 05 I<24> spins off I<24: Live Another Day>.
+2014 05 08 Carol Brady from I<The Brady Bunch> appears on I<Instant Mom> Q<Not Your Mother's Day>.
+2014 05 08 Elyse Keaton from I<Family Ties> appears on I<Instant Mom> Q<Not Your Mother's Day>.
+2014 05 08 Lisa Landry from I<Sister, Sister> appears on I<Instant Mom> Q<Not Your Mother's Day>.
+2014 05 08 Marion Cunningham from I<Happy Days> appears on I<Instant Mom> Q<Not Your Mother's Day>.
+2014 05 08 Vanessa Huxtable from I<The Cosby Show> appears on I<Instant Mom> Q<Not Your Mother's Day>.
+2014 06 24 I<Tyrant> first airs.
+2014 09 22 I<A<Scorpion|href="../Movies_by_series.pl?series=Scorpion">> first airs.
+2014 09 23 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> spins off I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">>; Doctor Donald Mallard from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears.
+2014 09 30 NCIS Director Leon Vance, NCIS Agent Anthony DiNozzo, and Abby Sciuto from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appear on I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">> Q<Carrier>.
+2014 10 07 I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">> spins off I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">> (2014).
+2014 10 07 NCIS Director Leon Vance and NCIS Agent Leroy Jethro Gibbs from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">> Q<Breaking Brig>.
+2014 10 08 I<Kingdom> first airs.
+2014 10 13 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Praesidium>.
+2014 10 21 NCIS Director Leon Vance from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">> Q<It Happened Last Night>.
+2014 10 24 Dominic Alonzo from I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">> Q<The Undertaking> was mentioned on I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">> Q<Ho'oilina>.
+2014 10 24 I<A<Constantine|href="../Movies_by_series.pl?series=Constantine+(2014)">> first airs.
+2014 10 27 Henrietta Lange from I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> appears on I<A<Scorpion|href="../Movies_by_series.pl?series=Scorpion">> Q<True Colors>.
+2014 11 11 I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> Q<Nobody Touches Anything>, continues on I<Law &amp; Order: Special Victims Unit> Q<Chicago Crossover>, and ends on I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<They'll Have To Go Through Me>.
+2014 11 12 I<Kingdom> Q<Please Refrain from Crying>, red box Morley
+2014 11 12 I<Law &amp; Order: Special Victims Unit> Q<Chicago Crossover>, and I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<They'll Have To Go Through Me> concluds I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> Q<Nobody Touches Anything>.
+2014 11 16 I<A<The Walking Dead|href="../Movies_by_series.pl?series=The+Walking+Dead">> Q<Consumed>, red box Morely
+2014 11 28 Joey and Parker Rooney from I<Liv and Maddie> appear on I<Jessie> Q<Jessie's Aloha Holidays with Parker and Joey>.
+2014 12 07 I<A<The Librarian: Quest for the Spear|href="../Movies_by_series.pl?series=The+Librarian">> spins off I<A<The Librarians|href="../Movies_by_series.pl?series=The+Librarian#The_Librarians">>.
+2015 02 08 I<Breaking Bad> spins off I<Better Call Saul>.
+2015 03 04 I<CSI: Crime Scene Investigation> spins off I<CSI: Cyber>.
+2015 03 27 Marion Moseby from I<The Suite Life on Deck> appears on I<Jessie> Q<Karate Kid-tastrophe>.
+2015 04 27 Oceanic Air airline appears on I<Castle> Q<In Plane Sight>, first seen on I<A<Fringe|href="../Movies_by_series.pl?series=Fringe">>.
+2015 04 28 I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> Q<We Called Her Jellybean>, continues on I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<The Number of Rats>, and ends on I<Law &amp; Order: Special Victims Unit> Q<Daydream Believer>.
+2015 04 29 I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<The Number of Rats> and I<Law &amp; Order: Special Victims Unit> Q<Daydream Believer> concludes I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> Q<We Called Her Jellybean>.
+2015 06 16 The CNB news company from I<24> appears on I<Tyrant>?
+2015 07 31 I<Jessie> spins off I<Bunk'd>.
+2015 08 23 I<A<The Walking Dead|href="../Movies_by_series.pl?series=The+Walking+Dead">> spins off the non-contiguous I<Fear the Walking Dead>.
+2015 09 24 I<A<Heroes|href="../Movies_by_series.pl?series=Heroes">> spins off I<Heroes: Reborn>.
+2015 09 27 I<CSI: Crime Scene Investigation> spins off I<CSI: Immortality>.
+2015 10 02 Monstober 2015 1: Logan Watson and Delia Delfano from I<I Didn't Do It> appear on I<Jessie> Q<The Ghostest with the Mostest>.
+2015 10 02 Monstober 2015 2: Austin Moon and Ally Dawson from I<Austin &amp; Ally> appear on I<Girl Meets World> Q<Girl Meets World: Of Terror 2>.
+2015 10 02 Monstober 2015 3: Trish de la Rosa and Dez Wade from I<Austin &amp; Ally> appear on I<I Didn't Do It> Q<The Bite Club>.
+2015 10 04 Monstober 2015 4: Emma and Zuri Ross from I<Jessie> appear on I<K.C. Undercover> Q<All Howls Eve>.
+2015 10 04 Monstober 2015 5: Riley Matthews and Lucas Friar from I<Girl Meets World> appear on I<Best Friends Whenever> Q<Cyd and Shelby's Haunted Escape>.
+2015 10 04 Monstober 2015 6: Ernie and Judy Cooper from I<K.C. Undercover> appear on I<Austin &amp; Ally>.
+2015 10 04 Monstober 2015 7: Cyd Ripley and Shelby Marcus from I<Best Friends Whenever> appear on I<Liv and Maddie> Q<Haunt-A-Rooney>.
+2015 10 19 NCIS Agent Anthony DiNozzo from I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Blame It on Rio>.
+2015 10 26 I<A<Supergirl|href="../Movies_by_series.pl?series=Supergirl+(2015)">> first airs.
+2015 10 29 I<A<Bones|href="../Movies_by_series.pl?series=Bones+&+The+Finder#Bones">> Q<The Resurrection in the Remains> concludes on I<Sleepy Hollow> Q<Dead Men Tell No Tales>.
+2015 11 04 John Constantine from I<A<Constantine|href="../Movies_by_series.pl?series=Constantine+(2014)">> appears on I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">> Q<Haunted>.
+2015 11 17 I<A<Chicago Fire|href="../Movies_by_series.pl?series=Chicago#Chicago_Fire">> spins off I<A<Chicago Med|href="../Movies_by_series.pl?series=Chicago#Chicago_Med">>.
+2015 12 18 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: The Force Awakens>.
+2015 12 27 Doc Brown's DeLorean from I<A<Back to the Future|href="../Movies_by_series.pl?series=Back+to+the+Future">> appears on I<A<The Librarians|href="../Movies_by_series.pl?series=The+Librarian#The Librarians">> Q<And the Final Curtain>.
+2015 12 27 The TARDIS from I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> appears on I<A<The Librarians|href="../Movies_by_series.pl?series=The+Librarian#The Librarians">> Q<And the Final Curtain>.
+2016 01 05 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Sister City, Part I> concludes on I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">> Q<Sister City, Part II>.
+2016 01 21 I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">> and I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">> spin off I<A<Legends of Tomorrow|href="../Movies_by_series.pl?series=Arrowverse#Legends_of_Tomorrow">>.
+2016 02 10 I<Law &amp; Order: Special Victims Unit> Q<Nationwide Manhunt> concludes on I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> Q<The Song of Gregory William Yates>.
+2016 02 26 I<Full House> spins off I<Fuller House>.
+2016 03 16 I<A<Criminal Minds|href="../Movies_by_series.pl?series=Criminal+Minds">> spins off I<Criminal Minds: Beyond Borders>.
+2016 04 15 I<A<Doctor Who|href="../Movies_by_series.pl?series=Doctor+Who">> (2005) spins off I<Class>.
+2016 07 11 I<A<Ghostbusters|href="../Movies_by_series.pl?series=Ghostbusters">> spins off non-contiguous I<Ghostbusters> (2016).
+2016 07 22 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek">> (2009) spins off I<Star Trek Beyond>.
+2016 09 20 Captain Bud Roberts from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Rogue>.
+2016 09 23 I<A<MacGyver|href="../Movies_by_series.pl?series=MacGyver">> spins off the non-contiguous I<A<MacGyver|href="../Movies_by_series.pl?series=MacGyver+(2016)">> (2016).
+2016 11 28 I<A<Supergirl|href="../Movies_by_series.pl?series=Supergirl+(2015)">> Q<Medusa> leads into Q<Invasion!> on I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">>.
+2016 11 29 Part 1 of Q<Invasion!> takes place on I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">>.
+2016 11 30 Part 2 of Q<Invasion!> takes place on I<A<Arrow|href="../Movies_by_series.pl?series=Arrowverse#Arrow">>.
+2016 12 01 Part 3 of Q<Invasion!> takes place on I<A<Legends of Tomorrow|href="../Movies_by_series.pl?series=Arrowverse#Legends_of_Tomorrow">>.
+2017 02 05 I<24> spins off I<24: Legacy>.
+2017 02 14 I<A<NCIS|href="../Movies_by_series.pl?series=NCIS#NCIS">> Q<Pandora's Box, Part I> concludes on I<A<NCIS: New Orleans|href="../Movies_by_series.pl?series=NCIS#NCIS:_New_Orleans">> Q<Pandora's Box, Part II>.
+2017 02 19 Admiral Albert Jethro Chegwidden from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Payback>.
+2017 03 01 I<A<Chicago P.D.|href="../Movies_by_series.pl?series=Chicago#Chicago_P.D.">> spins off I<A<Chicago Justice|href="../Movies_by_series.pl?series=Chicago#Chicago_Justice">>.
+2017 03 10 Chin Ho Kelly, Kono Kalakaua, and Kamekona from I<A<Hawaii 5-0|href="../Movies_by_series.pl?series=Hawaii+Five-0">> appear on I<A<MacGyver|href="../Movies_by_series.pl?series=MacGyver+(2016)">> (2016) Q<Flashlight>.
+2017 03 20 I<A<Supergirl|href="../Movies_by_series.pl?series=Supergirl+(2015)">> Q<Star-Crossed> leads into I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">> Q<Duet>.
+2017 03 21 I<A<The Flash|href="../Movies_by_series.pl?series=Arrowverse#The_Flash">> Q<Duet> concludes I<A<Supergirl|href="../Movies_by_series.pl?series=Supergirl+(2015)">> Q<Star-Crossed>.
+2017 04 23 Admiral Albert Jethro Chegwidden from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Battle Scars>.
+2017 04 30 Admiral Albert Jethro Chegwidden from I<A<JAG|href="../Movies_by_series.pl?series=JAG">> appears on I<A<NCIS: Los Angeles|href="../Movies_by_series.pl?series=NCIS#NCIS:_Los_Angeles">> Q<Golden Days>.
+2017 05 19 I<A<Alien|href="../Movies_by_series.pl?series=Alien">> spins off I<Alien: Covenant>.
+2017 05 21 I<Twin Peaks> spins off I<Twin Peaks> (2017).
+2017 06 04 I<Twin Peaks> (2017) "Part 5", red box Morley
+2017 07 21 I<That's So Raven> spins off I<Raven's Home>.
+2017 09 24 I<A<Star Trek|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek_1966">> spins off I<A<Star Trek: Discovery|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_Discovery">>.
+2017 10 06 I<Blade Runner> spins off I<Blade Runner 2049>.
+2017 12 15 I<A<Star Wars|href="../Movies_by_series.pl?series=Star+Wars">> spins off I<Star Wars: The Last Jedi>.
+2007 09 24 The I<San Francisco Register> from I<A<Star Trek: The Next Generation|href="../Movies_by_series.pl?series=Star+Trek#Star_Trek:_The_Next_Generation">> Q<Time's Arrow> was the place of employment for Dan Vasser on I<Journeyman>.

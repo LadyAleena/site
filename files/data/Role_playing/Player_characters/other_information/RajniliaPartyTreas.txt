@@ -1,0 +1,41 @@
+Party Treasure
+CP: 3
+SP: 1
+EP: 1
+GP: 1900
+PP: 
+Gems:
+Amber (100 gp)
+Aquamarine (500 gp)
+Blue Quartz-2 (10 gp)
+Garnet (500 gp)
+Lapis Lazuli (10gp)
+Malachite (10 gp)
+Sardonyx (50 gp)
+Topaz (15 gp)
+Topaz (500 gp)
+Turquoise (10 gp)
+
+Magic Items:
+Bangles-Armor Frost Resistance, Weapon Fear
+Bracers of AC 4
+Decanter of Endless Water
+Murlynd's Spoon
+Portable Hole
+Sheet of Smallness
+Statuette-Spellfocus
+Sword of Wounding
+Sword, Short -2
+
+Scrolls:
+3 Misc.
+6 Spells (Clerical 1st Level)
+2 Spells (Clerical 3rd Level)
+6 Spells (Clerical 5th Level)
+7 Spells (Clerical 6th Level)
+7 Spells (Clerical 7th Level)
+4 Spells (Mage 1st Level)
+1 Spells (Mage 3rd Level)
+7 Spells (Mage 5th Level)
+3 Spells (Mage 6th Level)
+Protection from Water

@@ -1,0 +1,32 @@
+. column 1
+1|Spinel (Purple)|Arctic|-4|-2
+2|Hauyne|Sub-Arctic|-2|-1
+3|Peridot|Temperate|0|0
+4|Citrine|Tropical|-2|-1
+. column 2
+1|Smokey Quartz|Plain/Scrub|0|0
+2|Zircon (Green)|Forest|0|0
+3|Titanite|Rough/Hill|-1|-1
+4|Chrysoberyl|Mountain|-2|-2
+5|Alexandrite|Swamp|-4|-4
+6|Fire Opal|Desert|-2|-4
+. column 3
+1|Rock Crystal|Calm|0|0
+2|Moonstone|Windy|0|0
+3|Milky Quartz|Cloudy|-1|0
+4|Pearl (Grey)|Fog|-2|-1
+5|Garnet|Humid|-4|-3
+6|Aquamarine|Rain|-1|-3
+7|Agate|Hurricane|-5|-4
+8|Amethyst|Cold|-3|-4
+9|Ivory|Snow|-1|-3
+10|Hemitite|Blizzard|-5|-4
+11|Sunstone|Drought|0|0
+12|Adventurine Quartz|Environmental|var.|var.
+. column 4
+1|Diamond|Friendly|N/A|N/A|Total Illusion, no damage
+2|Sapphire|Indifferent|N/A|N/A|Partial Illusion, 1/4 damage
+3|Emerald|Cautious|N/A|N/A|Partial Illusion, 1/2 damage
+4|Topaz|Threatening|N/A|N/A|Partial Illusion, 3/4 damage
+5|Ruby|Hostile|N/A|N/A|Real, full damage
+# first number THAC0, second number Reaction

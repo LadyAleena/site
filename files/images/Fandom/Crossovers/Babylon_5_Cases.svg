@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="../../../css/crossover.css" ?>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  viewBox="0 0 325 358"
+  width="325"
+  height="358"
+  id="Babylon_5"
+>
+  <title id="Babylon_5_title">Babylon 5 crossed with Space Cases</title>
+  <metadata id="Babylon_5_metadata">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Babylon 5 cross with Space Cases</dc:title>
+        <dc:date>2019-08-20</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style type="text/css" id="Crossover_styles">
+    @import url(../../../css/crossover.css);
+  </style>
+  <g id="Babylon_5_chart" transform="translate(5,5)">
+    <title id="Babylon_5_chart_title">Babylon 5 crossed with Space Cases</title>
+    <g id="Babylon_5_Gathering_franchise" transform="translate(0,0)">
+      <title id="Babylon_5_Gathering_franchise_title">Babylon 5: The Gathering</title>
+      <g class="spinoff" id="Babylon_5_Gathering_spinoff_lines" transform="translate(13)">
+        <title id="Babylon_5_Gathering_spinoff_lines_title">The Babylon 5: The Gathering spinoffs</title>
+        <path d="m 0, 30 v 24 h 15" id="Babylon_5_Gathering_to_Babylon_5" />
+      </g>
+      <g id="Babylon_5_Gathering" transform="translate(0,0)">
+        <title id="Babylon_5_Gathering_title">Babylon 5: The Gathering</title>
+        <rect id="Babylon_5_Gathering_box"  x="0" y="0" width="195" height="28" class="pten tv_film" />
+        <text id="Babylon_5_Gathering_text" x="6" y="14">Babylon 5: The Gathering</text>
+      </g>
+      <g id="Babylon_5_franchise" transform="translate(30,40)">
+        <title id="Babylon_5_franchise_title">Babylon 5</title>
+        <g class="spinoff" id="Babylon_5_spinoff_lines" transform="translate(13)">
+          <title id="Babylon_5_spinoff_lines_title">The Babylon 5 spinoffs</title>
+          <path d="m 0, 30 v 24 h 15" id="Babylon_5_to_Babylon_5_In_Beginning" />
+          <path d="m 0, 55 v 39 h 15" id="Babylon_5_to_Babylon_5_Thirdspace" />
+          <path d="m 0, 95 v 39 h 15" id="Babylon_5_to_Babylon_5_River_of_Souls" />
+          <path d="m 0, 135 v 39 h 15" id="Babylon_5_to_Babylon_5_Call_to_Arms" />
+          <path d="m 0, 175 v 39 h 15" id="Babylon_5_to_Crusade" />
+          <path d="m 0, 215 v 39 h 15" id="Babylon_5_to_Babylon_5_Legend_of_Rangers" />
+          <path d="m 0, 255 v 39 h 15" id="Babylon_5_to_Babylon_5_Lost_Tales" />
+        </g>
+        <g id="Babylon_5" transform="translate(0,0)">
+          <title id="Babylon_5_title">Babylon 5</title>
+          <path d="m 87,14 h 24" class="one_cross" id="Babylon_5_to_Space_Cases" />
+          <rect id="Babylon_5_box_1" x="0" y="0" width="85" height="28" class="pten" />
+          <rect id="Babylon_5_box_2" x="4" y="4" width="77" height="20" class="tnt inner" />
+          <text id="Babylon_5_text"  x="6" y="14">Babylon 5</text>
+        </g>
+        <g id="Babylon_5_In_Beginning" transform="translate(30,40)">
+          <title id="Babylon_5_In_Beginning_title">Babylon 5: In the Beginning</title>
+          <rect id="Babylon_5_In_Beginning_box"  x="0" y="0" width="209" height="28" class="tnt tv_film" />
+          <text id="Babylon_5_In_Beginning_text" x="6" y="14">Babylon 5: In the Beginning</text>
+        </g>
+        <g id="Babylon_5_Thirdspace" transform="translate(30,80)">
+          <title id="Babylon_5_Thirdspace_title">Babylon 5: Thirdspace</title>
+          <rect id="Babylon_5_Thirdspace_box"  x="0" y="0" width="172" height="28" class="tnt tv_film" />
+          <text id="Babylon_5_Thirdspace_text" x="6" y="14">Babylon 5: Thirdspace</text>
+        </g>
+        <g id="Babylon_5_River_of_Souls" transform="translate(30,120)">
+          <title id="Babylon_5_River_of_Souls_title">Babylon 5: The River of Souls</title>
+          <rect id="Babylon_5_River_of_Souls_box"  x="0" y="0" width="225" height="28" class="tnt tv_film" />
+          <text id="Babylon_5_River_of_Souls_text" x="6" y="14">Babylon 5: The River of Souls</text>
+        </g>
+        <g id="Babylon_5_Call_to_Arms" transform="translate(30,160)">
+          <title id="Babylon_5_Call_to_Arms_title">Babylon 5: A Call to Arms</title>
+          <rect id="Babylon_5_Call_to_Arms_box"  x="0" y="0" width="195" height="28" class="tnt tv_film" />
+          <text id="Babylon_5_Call_to_Arms_text" x="6" y="14">Babylon 5: A Call to Arms</text>
+        </g>
+        <g id="Crusade" transform="translate(30,200)">
+          <title id="Crusade_title">Crusade</title>
+          <rect id="Crusade_box"  x="0" y="0" width="72" height="28" class="tnt" />
+          <text id="Crusade_text" x="6" y="14">Crusade</text>
+        </g>
+        <g id="Babylon_5_Legend_of_Rangers" transform="translate(30,240)">
+          <title id="Babylon_5_Legend_of_Rangers_title">Babylon 5: Legend of the Rangers</title>
+          <rect id="Babylon_5_Legend_of_Rangers_box"  x="0" y="0" width="255" height="28" class="syfy tv_film" />
+          <text id="Babylon_5_Legend_of_Rangers_text" x="6" y="14">Babylon 5: Legend of the Rangers</text>
+        </g>
+        <g id="Babylon_5_Lost_Tales" transform="translate(30,280)">
+          <title id="Babylon_5_Lost_Tales_title">Babylon 5: The Lost Tales</title>
+          <rect id="Babylon_5_Lost_Tales_box"  x="0" y="0" width="199" height="28" class="wb tv_film" />
+          <text id="Babylon_5_Lost_Tales_text" x="6" y="14">Babylon 5: The Lost Tales</text>
+        </g>
+      </g>
+    </g>
+    <g id="Space_Cases" transform="translate(143,40)">
+      <title id="Space_Cases_title">Space Cases</title>
+      <rect id="Space_Cases_box"  x="0" y="0" width="108" height="28" class="nickelodeon" />
+      <text id="Space_Cases_text" x="6" y="14">Space Cases</text>
+    </g>
+  </g>
+</svg>

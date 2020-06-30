@@ -1,0 +1,58 @@
+Awnday Ar'iemay|leather armor +4 of blending|leather armor +4 of blending
+Amelda Bacoulan|scale mail|scale mail
+Sarria Bagada|chain mail|chain mail
+Lysiandra Bo'javarian|
+Verago Brystar|plate mail +4|plate mail +4;plate mail
+Presolia Copturan|bracers of defense, ac 2;cloak of displacement;ring of protection +1|bracers of defense, ac 2
+Rojeana Decant|bracers of defense, ac 4;cloak of displacement;ring of protection +3|bracers of defense, ac 4;bracers of brachiation;gauntlets:dexterity,swimming and climbing;helmet:comprehending languages and reading magic,teleportation
+Ryceva Derman|chain mail;ring of protection +1|chain mail
+Myleara Disstar|leather armor +3 of blending|leather armor +3 of blending
+Oalirya Disstar|chain mail +3;ring of protection +2|chain mail +3
+Visilma Do'ranicy|cloak of displacement
+Lourijul Edyara|ring of protection +2
+Faerinna Escar|leather armor;bracelet of protection +3|leather armor
+Matea Fi'nashari|elven chain mail +2;ring of protection +1|elven chain mail +2
+Tymara Fi'ranicy|leather armor|leather armor
+Janily Flassur|
+Olacadas Flyglee|ring of protection +2
+Nemidia Ge'mardian|leather armor|leather armor
+Tandria Goldmoon|plate mail +3|plate mail +3
+Rechrapee Hardimod|
+Xyrena Hewlett-Packard-Bell|elven chain mail +5|leather armor +1;elven chain mail +5
+Ulari Ilan|cloak of protection +2;ring of protection +2
+Summerica Jammic|
+Rajnilia Al-Afyali bint Jazar|bracers of defense, ac 4;belt of protection +3;cloak of protection +2;ring of protection +3|bracers of defense, ac 4
+Balnari Ka'natrian|leather armor;bracers of defense, ac 5;helmet of brilliance|leather armor;bracers of defense, ac 5;helmet of brilliance
+Niona Kilson|scale mail|scale mail
+Myra Kyllia|elven chain mail +5;cloak of displacement|elven chain mail +5
+Risa Kyllia|
+Sorack Linsandin'viniar|leather armor|leather armor:2
+Zamia Lo'rena|bracers of defense, ac 5|bracers of defense, ac 5
+Desolenna Marder'bastiar|
+Driastan Marder'bastiar|leather armor|leather armor:2
+Nwadira Mazan|choker of defense (ac 4);ring of protection +4
+Lestra Newmoon|leather armor;bracers of defense, ac 0;ring of protection +2|leather armor;bracers of defense, ac 3;bracers of defense, ac 0;gauntlets of weapon mastery
+Carri Notha|elven chain mail +3;ring of protection +2|elven chain mail;elven chain mail +3
+Alexana Olara|elven chain mail +5;arm of valor|file
+Eileen Olara|elven chain mail +5;arm of valor|file
+Ducismetapopolis OreGrinder|plate mail +2;ring of protection +2|plate mail +2
+Lamaria Peacyle|field plate|field plate
+Yenedra Peacyle|leather armor|leather armor
+Bryzarlyn Qi'lanari|elven chain mail +5;ring of protection +1|elven chain mail +5;gauntlets of dexterity
+Tanyani Qi'mardian|leather armor;bracers of defense, ac 4;ring of protection +3|leather armor
+Ejenna Quara|leather armor|leather armor
+Patrina Meysa Rast|
+Artis Sadir|leather armor;ring of protection +3|leather armor
+Hylene Serill|chain mail;bracers of defense, ac 6;shield +3;ring of protection +3|chain mail;gauntlets of giant power, ogre
+Calsanna Sorlastryl|bracers of defense, ac 4;ring of protection +1|bracers of defense, ac 6;gauntlets of giant power, ogre
+Ducolin StoneGrip|full plate|full plate
+Drianna StrongOak-Guard|bracers of defense, ac 0;cloak of displacement;ring of protection +5;staff of power|bracers of defense, ac 0;dragon scale armor:red +5,blue +4,green +3,black +2,white +1;dragon scale shield:red +5:2,blue +4:2,green +3:2,black +2:2,white +1:2
+Amori Tamdenar|leather armor +1|leather armor +1;helmet, open-faced:2;helmet, mail coif:2;helmet, basinet|2 of the helmets are dwarven, 3 are human.
+Wijora Urlubint|bracers of defense, ac 4;ring of protection +3|ring mail;bracers of defense, ac 4
+Aegyn Valchae|elven chain mail +5;ring of protection +3|elven chain mail +5;gauntlets of the necromancer
+Handira Warnir|full plate|full plate
+Elora Windblown|robe of the archmagi;bracers of defense, ac 4;ring of protection +2|bracers of defense, ac 4
+Inary Xeru|bracers of defense, ac 2;ring of protection +3;helmet of brilliance|bracers of defense, ac 2;helmet of brilliance
+Eshandra Yanraya|bracers of defense, ac 2|bracers of defense, ac 2
+Aztema Zavgar|bracers of defense, ac 6;ring of protection +2|bracers of defense, ac 6
+Kymaria Zendelic'tronyara|leather armor|leather armor:3

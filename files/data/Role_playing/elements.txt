@@ -1,0 +1,18 @@
+Air|Aeromagist|Wind|Airy|Ice, Lightning, Smoke, Vacuum|Earth|Impact|||Stone based,dwelling,using Creatures
+Ash|Ceneromagist|Soot|Ashen|Dust, Fire, Magma, Negative, Smoke, Vacuum|Steam|Chill||Radiance based,dwelling,using Creatures|Steam based,dwelling,using Creatures
+Dust|Amathomagist|Silt|Dusty|Ash, Earth, Magma, Negative, Ooze, Salt|Lightning|Suffocation||Mineral based,dwelling,using Creatures|Lightning based,dwelling,using Creatures
+Earth|Geomagist|Stone|Earthen|Dust, Magma, Minerals, Ooze|Air|Impact|||Air based,dwelling,using Creatures
+Fire|Pyromagist|Flame|Fiery|Ash, Magma, Radiance, Smoke|Water|Fire|Regenerating Creatures||Water based,dwelling,using Creatures
+Ice|Pagomagist|Frost|Icy|Air, Lightning, Salt, Steam, Vacuum, Water|Magma|Piercing,Chill|Amorphs||Magma based,dwelling,using Creatures
+Lightning|Ceraunomagist|Bolt|Electric|Air, Ice, Positive, Radiance, Smoke, Steam|Dust|Electrical||Vaccum based,dwelling,using Creatures|Dust based,dwelling,using Creatures
+Magma|Magmamagist|Lava|Molten|Ash, Dust, Earth, Fire, Minerals, Radiance|Ice|Heat,Melting|Golems||Ice based,dwelling,using Creatures
+Minerals|Mineramagist|Shards|Sharp|Earth, Magma, Ooze, Positive, Radiance, Steam|Vaccum|Piercing||Dust based,dwelling,using Creatures|Vaccum based,dwelling,using Creatures
+Negative|Lygomagist|Dark||Ash, Dust, Salt, Vacuum|Positive|Draining|||Positive based,dwelling,using Creatures
+Ooze|Pelomagist|Mud|Oozing|Dust, Earth, Minerals, Salt, Steam, Water|Smoke|Impact,Suffocation|||Smoke based,dwelling,using Creatures
+Positive|Photomagist|Light||Lightning, Minerals, Radiance, Steam|Negative|Explosive|||Negative based,dwelling,using Creatures
+Radiance|Radiomagist|Heat|Radiant|Fire, Lightning, Magma, Minerals, Positive, Smoke|Salt|Radiation||Ash based,dwelling,using Creatures|Salt based,dwelling,using Creatures
+Salt|Halomagist|Acid|Salty|Dust, Ice, Negative, Ooze, Vacuum, Water|Radiance|Dehydration||Steam based,dwelling,using Creatures|Radiance based,dwelling,using Creatures
+Smoke|Capnomagist|Fumes|Smoky|Air, Ash, Fire, Lightning, Radiance, Vacuum|Ooze|Suffocation|||Ooze based,dwelling,using Creatures
+Steam|Homichlomagist|Mist|Steaming|Ice, Lightning, Minerals, Ooze, Positive, Water|Ash|Heat|Shapechangers|Salt based,dwelling,using Creatures|Ash based,dwelling,using Creatures
+Vacuum|Kenomagist|Void||Air, Ash, Ice, Negative, Salt, Smoke|Minerals|Suffocation||Lightning based,dwelling,using Creatures|Minerals based,dwelling,using Creatures
+Water|Hydromagist|Sea|Watery|Ice, Ooze, Salt, Steam|Fire|Impact,Suffocation|||Fire based,dwelling,using Creatures

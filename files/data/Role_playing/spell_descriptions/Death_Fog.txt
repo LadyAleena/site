@@ -1,0 +1,7 @@
+The casting of a death fog spell creates an area of solid fog that has the additional property of being highly acidic. The vapors are deadly to living things, so that vegetation exposed to them will die--grass and similar small plants in two rounds, bushes and shrubs in four, small trees in eight, and large trees in 16 rounds. Animal life not immune to acid suffers damage according to the length of time it is exposed to the vapors of a death fog, as follows:
+|- 1st round:|1 point
+|- 2nd round:|2 points
+|- 3rd round:|4 points
+|- 4th and each succeeding round:|8 points
+The death fog otherwise resembles the 2nd-level fog cloud spell: rolling, billowing vapors that can be moved only by a very strong wind. Any creature attempting to move through the death fog progresses at a rate of 1 foot per unit of normal movement rate per round. A gust of wind spell cannot affect it, but a fireball, flame strike, or wall of fire can burn it away in a single round.
+The material components are a pinch of dried and powdered peas, powdered animal hoof, and strong acid of any sort (including highly distilled vinegar or acid crystals), which must be obtained from an alchemist.

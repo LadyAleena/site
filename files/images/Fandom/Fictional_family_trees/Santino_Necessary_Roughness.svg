@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet href="../../../css/family_tree.css" type="text/css"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  viewBox="0 0 704 220"
+  width="704"
+  height="220"
+>
+  <title id="svg_title">The Santino family from Necessary Roughness</title>
+  <metadata id="Family_metadata">
+    <rdf:RDF>
+      <cc:work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>The Santino family from Necessary Roughness</dc:title>
+        <dc:creator>
+          <cc:agent>
+            <dc:title>Burge, Dawn M.</dc:title>
+          </cc:agent>
+        </dc:creator>
+        <dc:language>en-US</dc:language>
+        <dc:date>2020-03</dc:date>
+      </cc:work>
+    </rdf:RDF>
+  </metadata>
+  <style id="Family_styles" type="text/css">
+    @import url(../../../css/family_tree.css);
+    g.deceased.male   rect { fill: url(#m_dead); }
+    g.deceased.female rect { fill: url(#f_dead); }
+  </style>
+  <defs id="Family_defs">
+    <radialGradient id="m_dead">
+      <stop id="mds1" offset="75%" style="stop-color:#ccccff;stop-opacity:0.85;" />
+      <stop id="mds2" offset="25%" style="stop-color:#eeeeff;stop-opacity:0.85;" />
+    </radialGradient>
+    <radialGradient id="f_dead">
+      <stop id="fds1" offset="75%" style="stop-color:#ffcccc;stop-opacity:0.85;" />
+      <stop id="fds2" offset="25%" style="stop-color:#ffeeee;stop-opacity:0.85;" />
+    </radialGradient>
+  </defs>
+  <!--
+    Edited with Geany 1.33 (built on 2018-04-16 with GTK 3.22.29, GLib 2.56.1)
+    Generated using the Perl SVG Module V2.84 by Ronan Oger Info: http://www.roitsystems.com/
+  -->
+  <g class="graph" id="Necessary Roughness" transform="translate(5, 215)">
+    <title>The Santino family from Necessary Roughness</title>
+    <text class="chart_title" x="352" y="-203">The Santino family from <tspan style="font-style:italic">Necessary Roughness</tspan></text>
+    <g id="Romano-family" class="child" transform="translate(495, -152)">
+      <title>Children of Angela</title>
+      <path d="m 0,0  v  20" id="mAngela-cAngela" />
+      <path d="m 0,20 h -169 v 20" id="cAngela-DanielleRomano" />
+      <path d="m 0,20 h  169 v 20" id="cAngela-RonnieRomano" />
+      <circle cx="0" cy="20" id="cAngela" r="1.5" />
+    </g>
+    <g id="Careles-siblings" class="child" transform="translate(504, -122)">
+      <title>Careles siblings</title>
+      <path d="m 0,0 h -80 v 10" id="sibCareles-DominicEugeneCareles" />
+      <path d="m 0,0 h 0 v 10" id="sibCareles-threeunnamedCareleses" />
+      <path d="m 0,0 h 80 v 10" id="sibCareles-twounnamedCareleses" />
+      <circle cx="0" cy="0" id="sibCareles" r="1.5" />
+    </g>
+    <g id="Pittman-family" class="marriage" transform="translate(79, -94)">
+      <title>Marriage of Gabrielle and Marshall Pittman</title>
+      <path d="m 0,0 h -19" id="mGabMar-MarshallPittman" />
+      <path d="m 0,0 h  19" id="mGabMar-Gabrielle" />
+      <g class="child" id="Pittman-children">
+        <title>Juliette Pittman, child of Gabrielle and Marshall Pittman</title>
+        <path d="m 0,0 v  58" id="mGabMar-JuliettePittman" />
+      </g>
+      <circle cx="0" cy="0" id="mGabMar" r="1.5" />
+    </g>
+    <g id="RomanoSantino-family" class="marriage" transform="translate(277, -94)">
+      <title>Marriage of Danielle Romano and Ray Santino1</title>
+      <path d="m 0,0 h -19" id="mDanRay-RaySantino1" />
+      <path d="m 0,0 h  19" id="mDanRay-DanielleRomano" />
+      <g class="child" id="RomanoSantino-children">
+        <title>Children of Danielle Romano and Ray Santino1</title>
+        <path d="m 0,0  v  38" id="mDanRay-cDanRay" />
+        <path d="m 0,38 h -45 v 20" id="cDanRay-RaySantino2" />
+        <path d="m 0,38 h  45 v 20" id="cDanRay-LindsaySantino" />
+        <circle cx="0" cy="38" id="cDanRay" r="1.5" />
+      </g>
+      <circle cx="0" cy="0" id="mDanRay" r="1.5" />
+    </g>
+    <g id="RomanoCareles-relationship" class="dating" transform="translate(375, -94)">
+      <title>Relationship of Danielle Romano and Dominic Careles</title>
+      <path d="m 0,0 h -19" id="dDanDom-DanielleRomano" />
+      <path d="m 0,0 h  19" id="dDanDom-DominicCareles" />
+      <circle cx="0" cy="0" id="dDanDom" r="1.5" />
+    </g>
+    <g id="PittmanSantino-relationship" class="dating" transform="translate(150, -18)">
+      <title>Relationship of Juliette Pittman and Ray Santino</title>
+      <path d="m 0,0 h -41" id="dJulRay-JuliettePittman" />
+      <path d="m 0,0 h  41" id="dJulRay-RaySantino" />
+      <circle cx="0" cy="0" id="dJulRay" r="1.5" />
+    </g>
+
+    <g id="Angela" class="female" transform="translate(465, -188)">
+      <title>Angela</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="18">Angela</text>
+    </g>
+    <g id="MarshallPittman" class="male deceased" transform="translate(0, -112)">
+      <title>Marshall Pittman</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="12">Marshall</text>
+      <text x="30" y="24">Pittman</text>
+    </g>
+    <g id="Gabrielle" class="female" transform="translate(98, -112)">
+      <title>Gabrielle</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="18">Gabrielle</text>
+    </g>
+    <g id="RaySantino1" class="male" transform="translate(178, -112)">
+      <title>Ray Santino, Sr.</title>
+      <rect height="36" width="80" x="0" y="0" />
+      <text x="40" y="12">Ray</text>
+      <text x="40" y="24">Santino, Sr.</text>
+    </g>
+    <g id="DanielleRomano" class="female main" transform="translate(296, -114)">
+      <title>Danielle Romano (Dani)</title>
+      <rect height="40" width="60" x="0" y="0" />
+      <text x="30" y="8">Danielle</text>
+      <text x="30" y="20">Romano</text>
+      <text x="30" y="32" class="nickname">(Dani)</text>
+    </g>
+    <g id="DominicEugeneCareles" class="male main" transform="translate(394, -114)">
+      <title>Dominic Eugene Careles, (Nico)</title>
+      <rect height="40" width="60" x="0" y="0" />
+      <text x="30" y="8">Dominic</text>
+      <text x="30" y="20">Eugene</text>
+      <text x="30" y="32">Careles</text>
+    </g>
+    <g id="threeunnamedCareleses" class="male unnamed" transform="translate(474, -114)">
+      <title>three unnamed Careleses</title>
+      <rect height="40" width="60" x="0" y="0" />
+      <text x="30" y="8">three</text>
+      <text x="30" y="20">unnamed</text>
+      <text x="30" y="32">Careleses</text>
+    </g>
+    <g id="twounnamedCareleses" class="female unnamed" transform="translate(554, -114)">
+      <title>two unnamed Careleses</title>
+      <rect height="40" width="60" x="0" y="0" />
+      <text x="30" y="8">two</text>
+      <text x="30" y="20">unnamed</text>
+      <text x="30" y="32">Careleses</text>
+    </g>
+    <g id="RonnieRomano" class="female" transform="translate(634, -112)">
+      <title>Ronnie Romano</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="12">Ronnie</text>
+      <text x="30" y="24">Romano</text>
+    </g>
+    <g id="JuliettePittman" class="female" transform="translate(49, -36)">
+      <title>Juliette Pittman</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="12">Juliette</text>
+      <text x="30" y="24">Pittman</text>
+    </g>
+    <g id="RaySantino2" class="male main" transform="translate(192, -38)">
+      <title>Ray Santino, Jr. (Ray-Jay)</title>
+      <rect height="40" width="80" x="0" y="0" />
+      <text x="40" y="8">Ray</text>
+      <text x="40" y="20">Santino, Jr.</text>
+      <text x="40" y="32" class="nickname">(Ray-Jay)</text>
+    </g>
+    <g id="LindsaySantino" class="female main" transform="translate(292, -36)">
+      <title>Lindsay Santino</title>
+      <rect height="36" width="60" x="0" y="0" />
+      <text x="30" y="12">Lindsay</text>
+      <text x="30" y="24">Santino</text>
+    </g>
+  </g>
+</svg>

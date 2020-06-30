@@ -1,0 +1,13 @@
+This spell enables the wizard to conjure a vertical, opaque wall--a shimmering, multicolored plane of light that protects him from all forms of attack. The wall flashes with all colors of the visible spectrum, seven of which have a distinct power and purpose. The wall is immobile, and the spellcaster can pass through the wall without harm. However, any creature with fewer than 8 Hit Dice that is within 20 feet of the wall and does not shield its vision is blinded for 2d4 rounds by the colors.
+Each color in the wall has a special effect. Each color can also be negated by a specific magical effect, but the colors must be negated in the precise order of the spectrum. The accompanying table shows the seven colors of the wall, the order in which they appear, their effects on creatures trying to attack the spellcaster, and the magic needed to negate each color.
+The wall's maximum proportions are 4 feet wide per level of experience of the caster and 2 feet high per level of experience.  A prismatic wall spell cast to materialize in a space occupied by a creature is disrupted and the spell is wasted.
+|| full
+|* c4 Prismatic Wall Effects
+|* Color|Order|Effect of Color|Spell Negated By
+|- Red|1st|Stops nonmagical missiles and inflicts 20 points of damage, save for half|cone of cold
+|- Orange|2nd|Stops magical missiles and inflicts 40 points of damage, save for half|gust of wind
+|- Yellow|3rd|Stops poisons, gases, and petrifaction and inflicts 80 points of damage, save for half|disintegrate
+|- Green|4th|Stops breath weapons-save vs. poison or die; survivors suffer 20 points of damage|passwall
+|- Blue|5th|Stops location/detection and mental attacks and save vs. petrifaction or turn to stone|magic missile
+|- Indigo|6th|Stops magical spells and save vs. wand or go insane|continual light
+|- Violet|7th|Force field protection and save vs. spell or be sent to another plane|dispel magic

@@ -1,0 +1,42 @@
+banded mail|200
+brigandine armor|120
+chain mail|75
+cord armor|10
+field plate|2000
+half-plate|300
+three-quarter plate|800
+full plate|4000
+hide armor|35
+improved mail|180
+leather armor|5
+light scale armor|80
+lamellar armor|250
+padded armor|4
+plate mail|600
+ring mail|100
+scale mail|120
+splint mail|80
+studded leather armor|20
+helmet, cap|4
+helmet, closed-face|20
+helmet, mail coif|10
+helmet, great|30
+helmet, basinet|8
+helmet, open-faced|12
+shield, body|10
+shield, buckler|1
+shield, buckler, discus|2
+shield, medium|7
+shield, medium, discus|14
+shield, small|3
+shield, small, discus|6
+back-and-breast|80
+chain hauberk|75
+chain lamellar|125
+Gallic armor|30
+Hoplite armor|160
+lamellar shirt|100
+lorica hamata armor|120
+lorica segmata armor|175
+mail and plate|150
+elven chain mail|2500
