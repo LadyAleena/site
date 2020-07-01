@@ -40,8 +40,8 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 * [Random::Xanth::Dragon](Xanth/Dragon.pm) generates random dragons from the *Xanth* series by Piers Anthony.
 
 ## Random::RPG
+All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons*, Second Edition. Please see the [Random::RPG::World readme](RPG/World/readme.md) for more on those modules.
 
-All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons*, Second Edition.
 * [Random::RPG::AbilityScores](RPG/AbilityScores.pm) selects random ability scores and their game effects.
 * [Random::RPG::Alignment](RPG/Alignment.pm) selects random alignments.
 * [Random::RPG::Class](RPG/Class.pm) selects random adventurer classes.
@@ -57,5 +57,3 @@ All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons
 * [Random::RPG::MagicItem](RPG/MagicItem.pm) selects random magic items. It also depends on Lingua::EN::Inflect, Random::Range, and Random::SpecialDice.
 * [Random::RPG::MagicItem::Giant](RPG/MagicItem/Giant.pm) selects random magic items based on giants. It also depends on Random::RPG::MagicItem.
 * [Random::RPG::MagicItem::Ring::SpellDoubling](RPG/MagicItem/Ring/SpellDoubling.pm) makes or randomly generates a Ring of Spell Doubling. It also depends on Lingua::EN::Inflect, List::Util, Fancy::Join::Grammatical, and [Util::Number](../Util/Number.pm).
-
-Please see the [Random RPG World readme](RPG/World/readme.md) for more on those modules.
