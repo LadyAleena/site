@@ -9,7 +9,7 @@ use List::MoreUtils qw(uniq);
 
 sub fancy_rand {
   my ($list, $user_input, $opt) = @_;
-  
+
   my $random_item;
   if ($user_input && $user_input =~ /(?:help|options)/) {
     my $keys = join("\n  ", sort keys %{$list});
@@ -45,7 +45,7 @@ sub fancy_rand {
     @random_list = shuffle(@random_list);
     $random_item = $random_list[rand @random_list];
   }
-  
+
   return $random_item;
 }
 
@@ -65,7 +65,7 @@ B<Fancy::Rand> selects random items from sets of lists.
   use Fancy::Rand qw(fancy_rand fancy_rand_from_array tiny_rand instant_rand);
 
   my $random_thing = fancy_rand($hash_of_arrays, $selected_list, { additions => [@additional_items], caller => $caller });
- 
+
   my $fancy_rand_from_array = fancy_rand_from_array(qw(red yellow green cyan blue magenta black white));
 
 =head1 DESCRIPTION
@@ -80,7 +80,7 @@ C<fancy_rand> takes a hash of arrays and returns a random result based on the li
     'general' => [qw(red yellow green cyan blue magenta white black gray)]
     'eye'  => [qw(amber black blue brown gray green hazel red violet)],
     'hair' => [qw(auburn brown black blond gray red white)],
-    'rainbow'  => [qw(red orange yellow green blue indigo violet)],  
+    'rainbow'  => [qw(red orange yellow green blue indigo violet)],
   );
 
   sub random_color {
@@ -133,7 +133,7 @@ Using C<fancy_rand> by itself:
 Using the newly created C<random_color>:
 
   my $random_color_key = random_color('by keys');
-  
+
 Both of the above will return a random key from C<%colors>: hair, eye, rainbow.
 
 =head4 keys

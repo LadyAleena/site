@@ -26,7 +26,7 @@ $saving_throw_modifiers{'arm of valor'} = 3;
 
 sub saving_throw_modifier {
   my ($modifiers) = @_;
-  
+
   my $st_mod = 0;
   for my $modifier (@{$modifiers}) {
     $st_mod += $saving_throw_modifiers{lc $modifier} ? $saving_throw_modifiers{lc $modifier} : 0;
@@ -38,7 +38,7 @@ sub saving_throw_modifier {
 sub saving_throws {
   my ($class, $opt) = @_;
   $class = convert_class($class, 'SavingThrows');
-  
+
   my %saving_throws;
   if ($class eq 'warrior') {
     $saving_throws{$_} = { 'ppd' => 14, 'rsw' => 16, 'pp' => 15, 'breath weapon' => 17, 'spell' => 17 } for 1..2;
@@ -100,13 +100,13 @@ sub saving_throws {
     $saving_throws{$_} = { 'ppd' => 10, 'rsw' => 5,  'pp' => 7,  'breath weapon' => 9,  'spell' => 4 }  for 13..16;
     $saving_throws{17} = { 'ppd' => 8,  'rsw' => 3,  'pp' => 5,  'breath weapon' => 7,  'spell' => 2 };
   }
-  
+
   my $saves;
   my $modifiers = $opt->{'modifiers'} ? saving_throw_modifier($opt->{'modifiers'}) : 0;
   if (ref($class) eq 'ARRAY') {
     my $class_saving_throws;
     $$class_saving_throws{$_} = saving_throws($_, { 'experience' => $opt->{'experience'} }) for (@{$class});
-    
+
     for my $save ('ppd', 'rsw', 'pp', 'breath weapon', 'spell') {
       $$saves{$save} = min(map $_->{$save}, values %{ $class_saving_throws }) - $modifiers; # Thank you yitzchak!
     }
@@ -132,7 +132,7 @@ sub saving_throw_table_rows {
     my $pthrow = $throw =~ /(?:ppd|rsw|pp)/i ? uc $throw : $throw;
     push @data_rows, [$pthrow,$value];
   }
-  
+
   my @rows = (
     [ 'header', [['Save', 'Throw']] ],
     [ 'whead', \@data_rows ]
@@ -141,7 +141,7 @@ sub saving_throw_table_rows {
     push @rows, [ 'header', [[['Modifiers', { 'colspan' => 2}]]]];
     push @rows, [ 'data', [[[ 'list', { 'class' => "info", 'colspan' => 2, 'list' => ['u', $modifiers] }]]] ];
   }
-  
+
   return \@rows;
 }
 

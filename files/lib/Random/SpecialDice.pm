@@ -16,9 +16,9 @@ sub random_die {
 sub d16 {
   my $d6 = roll('1d6');
   my $d8 = roll('1d8');
-  
+
   my $d16 = $d6 < 4 ? $d8 : $d8 + 8;
-  
+
   return $d16;
 }
 
@@ -55,7 +55,7 @@ sub permyriad {
      $roll =~ s/^0//;
 
   my $permyriad = $roll == '0000' ? 10000 : $roll;
-  
+
   return $permyriad;
 }
 
@@ -66,13 +66,13 @@ B<Random::SpecialDice> rolls for a random die, d16, percentile, permille, and pe
 =head1 SYNOPSIS
 
   use Random::SpecialDice qw(random_die percentile permille permyriad d16);
-  
+
   my $die        = random_die;    # returns a die (1d4, 1d6, 1d8, 1d10, 1d12, 1d20)
   my $rolled_die = random_die(1); # rolls the random die and returns the result
   my $percent    = percentile;    # rolls a percentile using d10s
   my $permille   = permille;      # rolls a permille using d10s
   my $permyriad  = permyriad;     # rolls a permyriad using d10s
-  
+
 =head1 AUTHOR
 
 Lady Aleena with help from GrandFather on PerlMonks.

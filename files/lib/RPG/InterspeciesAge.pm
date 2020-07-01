@@ -40,7 +40,7 @@ sub interspecies_age {
     'venerable'  => round(0, $venerable / $divisor),
     'max age'    => round(0, $max       / $divisor)
   );
-  
+
   return \%new_ages;
 }
 

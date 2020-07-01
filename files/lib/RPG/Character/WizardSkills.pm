@@ -21,7 +21,7 @@ sub wizard_magic_item_creation {
   push @creations, 'scrolls' if ( $class eq 'wizard' && $level >= 9 || $class eq 'priest' && $level >= 7 );
   push @creations, 'potions' if ( $level >= 9 );
   push @creations, 'other magic items', if ( $level >= 11 );
-  
+
   return \@creations;
 }
 

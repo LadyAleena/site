@@ -3,7 +3,7 @@ CP: 3
 SP: 1
 EP: 1
 GP: 1900
-PP: 
+PP:
 Gems:
 Amber (100 gp)
 Aquamarine (500 gp)

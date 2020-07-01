@@ -26,7 +26,7 @@ sub proficiency_slots {
     my $frequency     = $slots{$class}{$type}{'frequency'};
 
     my $multiplier = int($level / $frequency);
-    
+
     if ($opt->{'by the book'}) {
       $slots->{$type} = $initial_slots + $multiplier;
     }
@@ -35,7 +35,7 @@ sub proficiency_slots {
     }
   }
   $slots->{'languages'} = $opt->{'# of languages'} if $opt->{'# of languages'};
-  
+
   return $slots;
 }
 

@@ -16,7 +16,7 @@ sub attacks_per_round {
   my ($class, $opt) = @_;
   $class = convert_class($class,'AttacksPerRound');
   my $level = $opt->{'level'} ? $opt->{'level'} : class_level($class, $opt->{'experience'});
-  
+
   $class = 'warrior' if $class =~ /(?:fighter|paladin|ranger)/;
 
   my $attacks = 1;
@@ -29,7 +29,7 @@ sub attacks_per_round {
       $attacks .= '/2';
     }
   }
-  
+
   return $attacks;
 }
 
@@ -49,7 +49,7 @@ To get the number of attacks per round a character has, you will need the charac
 
   my $attacks_per_round = attacks_per_round($class, { 'level' => $level });
   my $attacks_per_round = attacks_per_round($class, { 'experience' => $xp });
-  
+
 C<attacks_per_round> will return C<1> for any class other than C<warrior> or C<chaos warden> because that is all your character gets. If you see a fraction returned, it means you get the first number of attacks every two rounds.
 
 =head1 NOTE

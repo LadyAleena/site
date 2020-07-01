@@ -48,7 +48,7 @@ $settlement_pattern{kingdom}{$_} = 'northwest quadrant' for 99..100;
 sub random_settlement_pattern {
   my $pattern = shift;
   warn "You need to choose either 'race', 'culture', or 'kingdom' patterns." if !$pattern;
-  
+
   my $pattern_type = $pattern eq 'culture' ? 'race' : $pattern;
   my $percent = percentile;
   return $settlement_pattern{$pattern_type}{$percent};

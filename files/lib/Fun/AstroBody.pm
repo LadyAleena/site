@@ -10,7 +10,7 @@ sub astro_body {
     star => ['', qw(falling twinkling)],
     moon => ['', qw(full cresent new harvest blue)],
   );
-  
+
   my $a_body = $astronomical_body[rand @astronomical_body];
 
   if ($astronomical_adjectives{$a_body}) {

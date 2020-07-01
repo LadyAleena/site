@@ -64,7 +64,7 @@ sub armor_list {
 
 sub armor_class_modifier {
   my ($armor) = @_;
-  
+
   my $armor_mod = 0;
   for my $armor (@{$armor}) {
     warn $armor." is not on the list." if !$defense_modifiers{lc $armor};
@@ -76,7 +76,7 @@ sub armor_class_modifier {
 
 sub mental_armor_class {
   my ($intelligence, $wisdom) = @_;
-  
+
   my $MAC = 10;
   my %MACmod;
   $MACmod{$_} = 0  for 1..15;
@@ -90,7 +90,7 @@ sub mental_armor_class {
     my $max = max(@ability);
     $MAC += $MACmod{$max};
   }
-  
+
   return $MAC;
 }
 
@@ -129,7 +129,7 @@ sub armor_class_table_rows {
     push @rows, [ 'header', [[[ 'Armor', { 'colspan' => 3 } ]]] ];
     push @rows, [ 'data', [[[ 'list', { 'class' => 'info', 'colspan' => 3, 'list' => ['u', $armor] } ]]] ];
   }
-  
+
   return \@rows;
 }
 

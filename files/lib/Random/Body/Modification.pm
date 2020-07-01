@@ -18,7 +18,7 @@ my %body_parts;
    @body_parts{(1..8)} = (qw(eye ear lip nail nose hair skin),'entire body');
 
 my %adj_info = (
-  asinine  => 'donkey', 
+  asinine  => 'donkey',
   bovine   => 'cattle',
   canine   => 'dog',
   caprine  => 'goat',
@@ -29,7 +29,7 @@ my %adj_info = (
   ovine    => 'sheep',
   porcine  => 'pig',
   serpentine => 'snake',
-  simian	 => 'monkey',
+  simian   => 'monkey',
   ursine   => 'bear',
   vulpine  => 'fox'
 );

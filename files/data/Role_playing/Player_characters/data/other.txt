@@ -6,18 +6,18 @@ Must make a Wisdom Check against purchasing new Magic Items
 .Rojeana Decant|Permanent wild surges
 Hornung's Baneful Delfector At will
 Hornung's Surge Selector-Continuous
-Wild Magic Zone	100' Radius
+Wild Magic Zone 100' Radius
 Any spell cast into Wild Magic Zone causes a surge
 Bite causes Petrification
 Never makes a critical fumble
 Resurrect the Dead 1/year
 Bones made of Diamond
-Eyes are Pearls	Vision normal
+Eyes are Pearls Vision normal
 Can see in absolute darkness
 Identify Gems On sight
 Read Any Language
 Chance to Learn Spells 110%
-Regenerate Fire and Acid Damage	1hp/hr
+Regenerate Fire and Acid Damage 1hp/hr
 Invisible from behind
 Foot prints are hand prints that fossilize and are twice as big
 Smells like normal animal At will
@@ -26,7 +26,7 @@ Fly like eagle when naked
 Wake every morning naked w/clothes folded nearby
 Touch causes flowers to sing
 Cause Peanuts to Rain 3×Day
-Fade Cloth On touch 
+Fade Cloth On touch
 Fill clothing with flees and ticks
 Keep made of Cardboard
 Immune to next Conjuration
@@ -65,7 +65,7 @@ Gain attributes of natural animals 3/day
 Disappear for 8 hours when asleep
 Regenerate 1 hp/rd
 Paralyze when disrobed
-Low intelligence undead will ignore her unless attacked	
+Low intelligence undead will ignore her unless attacked
 .Bryzarlyn Qi'lanari
 Identify w/ 100% accuracy by touch
 Immune to Curses on Items Identified.

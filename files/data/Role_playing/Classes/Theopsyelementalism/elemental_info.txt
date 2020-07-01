@@ -4,7 +4,7 @@ Being A Report On The Complete Quasi Elemental Planes
 By Kristias Fireflight, Aasimar Cleric/Mage And Scholar
 From The Silver Tome, a circulation popular amongst certain magical associations:
 
-Being of celestial parentage, one would assume that I have had little interest in the workings of the Inner Planes. After all, why hang around such single-minded places when there's so much more to see where belief holds sway, right? 
+Being of celestial parentage, one would assume that I have had little interest in the workings of the Inner Planes. After all, why hang around such single-minded places when there's so much more to see where belief holds sway, right?
 That's where you're wrong, cutter. Maybe it's the monadic deva in me, maybe it's just curiosity, but I want to know just how the Inner Planes work...all 26 of them.
 
 "But wait", you cry. "26 Inner Planes??" Yes, there are -- it's simply that the lesser-known planes, those quasi elementals which are created from the para-elemental planes, are infernally hard to find, much less travel to. But through years of research, a few uses of legend lore, and a lot of footwork, I've found them all.
@@ -14,19 +14,19 @@ Here, for the edification of others, are my preliminary notes. Further expansion
 The Quasi Elemental Planareae Exotica
 
 Much like the true elemental planes, the para-elementals have border planes between themselves and the Energy planes. For a reason as yet unknown to myself, it is virtually impossible to travel to these border planes; perhaps simply because no one expects them to exist, perhaps because the links between them and the other Inner Planes are weaker than is usual. Whatever the reason, the other eight quasi-elemental planes are as follows:
- 
-Ice + Positive Energy ==> Crystal 
-Ice + Negative Energy ==> Frost 
-Ooze + Positive Energy ==> Clay 
-Ooze + Negative Energy ==> Silt 
-Magma + Positive Energy ==> Obsidian 
-Magma + Negative Energy ==> Pumice 
-Smoke + Positive Energy ==> Spark 
-Smoke + Negative Energy ==> Fumes 
+
+Ice + Positive Energy ==> Crystal
+Ice + Negative Energy ==> Frost
+Ooze + Positive Energy ==> Clay
+Ooze + Negative Energy ==> Silt
+Magma + Positive Energy ==> Obsidian
+Magma + Negative Energy ==> Pumice
+Smoke + Positive Energy ==> Spark
+Smoke + Negative Energy ==> Fumes
 
 Physical conditions of these planes, as I experienced them during my expedition, are as follows. I will describe the planes in simple alphabetical order in order to avoid any sense of importance being attached to any one plane; some planes were explored to a greater extent than others, thus necessitating a second foray...
 
-I am a little ashamed to admit that I spent little time on the plane of Clay, as compared to the other positive planes. Being made up of thick, wet clay in a multitude of colours and shades, the place is not terribly appealing -- unless you prefer to live in a riverbank. While riddled by pockets of other elements (I encountered pockets of Mineral, Salt, Water, and Air -- the last only stable where the clay is especially stiff), and bored through with tunnels of varying sizes, the plane simply did not seem very attractive. 
+I am a little ashamed to admit that I spent little time on the plane of Clay, as compared to the other positive planes. Being made up of thick, wet clay in a multitude of colours and shades, the place is not terribly appealing -- unless you prefer to live in a riverbank. While riddled by pockets of other elements (I encountered pockets of Mineral, Salt, Water, and Air -- the last only stable where the clay is especially stiff), and bored through with tunnels of varying sizes, the plane simply did not seem very attractive.
 Occasionally I saw small burrowing creatures zipping through the tunnels or digging new ones. About the same size as a compact halfling or a rather chunky mephit, the glimpses I had of them revealed their thick, slick hide, long, flat tails (as if someone had taken the tail of a Prime beaver and stretched it), and huge spade-like digging claws. They didn't respond to any queries, and I decided not to press the issue for now; if I was pursued I would certainly break my neck by slipping in the slick clay tunnels.
 
 Other than an encounter with a huge mudman-like creature, accompanied by actual mudmen, there was little to see on this particular plane. Then again, some of the clay samples I brought back with me detected as magical...perhaps I shouldn't dismiss the place too quickly.
@@ -37,7 +37,7 @@ On the Clay Plane I came across a cavern or ten, connected by huge funnel-like p
 
 The only other time I saw anything like this was during a foray through the swamps of Belerin, on Elysium. That time I was nearly slain by a band of guardinals who chased me halfway to infinity across the plane. Better figure that I didn't fancy sticking around here to find out who'd gouged the holes. But what I found's surely a feather in the cap for the Prime Philosophers, eh? Maybe I should tell Magnum Opus about this...I'm sure she'd be most curious...
 
-Superficially the quasi-elemental plane of Crystal resembles the plane of Mineral, as it is also a near-solid mass of sharp, bladelike edges. However, after I regained my bearings I was awestruck by the sheer beauty of the place. 
+Superficially the quasi-elemental plane of Crystal resembles the plane of Mineral, as it is also a near-solid mass of sharp, bladelike edges. However, after I regained my bearings I was awestruck by the sheer beauty of the place.
 The plane -- or at least those parts of it which I was able to chart -- is composed almost entirely of a crystalline substance (real surprise, right blood?) resembling quartz. In some parts of the plane the crystals are opaque and whitish, in others softly translucent, and in yet other patches entirely transparent. Scattered throughout the plane are the usual pockets of foreign elemental matter; in my travels I discovered Air pockets (lined with fiendishly sharp crystals like monstrous geodes), Water pockets (only one, from which I escaped death only though the use of a no breath spell), and Radiance pockets (which reflect and refract through the crystals, lighting the plane and often blinding any encountering them). The native inhabitants(of whom I'll speak of later) informed me of the existence of other types, including Magma pockets which create deadly flows of crystal, like molten glass.
 
 Threading through the crystals are veins of other types, mainly gemstones of unbelievable variety, richness and hue. Collecting these gems, however, means braving the wicked edges of the crystals and the ire of the inhabitants. And if that wasn't enough of a deterrent, some crystals, when severed or broken, release magical or elemental effects including fire, acid and cold (although I did encounter one which released healing energy). *
@@ -48,14 +48,14 @@ I had the pleasure -- and misfortune -- to encounter some of the natives of the 
 
 [* According to the Rii'tilla, there are certain special crystals scattered in remote parts of the plane. These gems, which continually swirl with colours and glow slightly, may have to powers of a gem of brightness, any other magical gem, or other special properties.]
 
-This plane consists only of an infinite, eternal blizzard; no solid surface to stand on, no sky above you. Bitterly cold sleet, snow and hail are whipped around and cut through nearly all protective coverings one can devise. Just about the only means of protection from the cold is through magic. 
+This plane consists only of an infinite, eternal blizzard; no solid surface to stand on, no sky above you. Bitterly cold sleet, snow and hail are whipped around and cut through nearly all protective coverings one can devise. Just about the only means of protection from the cold is through magic.
 The only things I could discover here were what I've termed wind-wolves; vaguely lupine creatures of ice and sleet with dark pits for eyes. What it was they chased so ardently, I am not certain; perhaps ice mephits also inhabit the plane.
 
 I fully intend to return to the plane of Frost again on my second expedition -- this time more surely protected against the hazards.
 
 I would recommend travelling here about as much as I would a trip to Vacuum. There is nothing on the plane save toxic, stinking, acidic gases which eat away at everything they touch; skin, hair, clothing, the lot. I managed to escape the plane, and I have no intention of ever going back. I lost an eye to the ravenous fumes, and that's enough for me....
 
-In my own personal opinion, the plane of Obsidian is simply a gleaming black horror. While there is an actual "up" and "down", the craggy black plains -- only occasionally relieved by a bit of colour or a snowflake pattern -- are rough, sharper than any blade where the outcroppings reach for what passes for a sky, and crisscrossed with rivers of molten obsidian. The place is oppressively hot, and the "sky" is, in actuality, an all-encompassing dome of pure black obsidian which stretches off into infinity. 
+In my own personal opinion, the plane of Obsidian is simply a gleaming black horror. While there is an actual "up" and "down", the craggy black plains -- only occasionally relieved by a bit of colour or a snowflake pattern -- are rough, sharper than any blade where the outcroppings reach for what passes for a sky, and crisscrossed with rivers of molten obsidian. The place is oppressively hot, and the "sky" is, in actuality, an all-encompassing dome of pure black obsidian which stretches off into infinity.
 In some places the surface is riddled with fissures; exploration into one of these led to a series of irregular caverns which seemed to continue on forever. I discontinued my brief journey when an encounter with a fiend-like creature of molten obsidian (a magma beast, perhaps?) led to an attempt on its part to make me a part of its meals.
 
 However, I had another, more interesting meeting while making my way back to the surface. In addition to encountering a few Ash and Earth pockets, I met briefly with a pair of rather interesting creatures. In appearance, they resembled huge horned serpents of glossy obsidian. A triple row of wicked spines ran down their backs, and one bore a set of snowflake markings scattered over its black skin. Upon spotting me, one serpent sprouted obsidian spines over its entire body; the other gave me a measuring look -- and suddenly took on a humanoid form, retaining its serpent's head, tail and dorsal ridge. Introducing itself as a surath, it gave me what I thought at the time was a cordial invitation to a city on the surface. Then the two surath departed again.
@@ -64,12 +64,12 @@ I had full intentions to travel to this city, if only to record it, but one furt
 
 When I investigated the locale where the barter had taken place, I discovered a dagger which had fallen from a sledge. Upon study, it proved to be harder and much sharper than any metal I am familiar with. Perhaps there are other properties to the substance of the blade, but if so I haven't found them yet. In any case, I have no doubt -- had I travelled to the surath city -- that I would have been either put to work as a slave or traded away to the fiends.
 
-The only negative plane of the four to have any kind of surface, the plane of Pumice is nonetheless extremely difficult to travel. Under the dusty grey sky, the equally dusty grey surface is bubbled through with uncountable tiny holes -- and is extremely friable. I can't recall how many times the surface beneath me crumbled away, sending me plummeting and forcing me to either attempt to climb out or use magic for the same ends. On one occasion I encountered a Water pocket under the surface; the liquid had been absorbed into the myriad of holes. 
+The only negative plane of the four to have any kind of surface, the plane of Pumice is nonetheless extremely difficult to travel. Under the dusty grey sky, the equally dusty grey surface is bubbled through with uncountable tiny holes -- and is extremely friable. I can't recall how many times the surface beneath me crumbled away, sending me plummeting and forcing me to either attempt to climb out or use magic for the same ends. On one occasion I encountered a Water pocket under the surface; the liquid had been absorbed into the myriad of holes.
 In all cases, the fragments of pumice grinding against me were very painful, and when they grated against bare skin they wore said skin right off of me. Most definitely not a pleasant experience.
 
 Surprisingly enough, there are a few creatures living on the plane. I was able to observe two in particular; one was a small, rather amorphous thing, the other a flyer of sorts. The smaller creature resembled a mobile puddle of grainy jelly, crawling over the low crests of the plane and absorbing the substance of the plane directly into itself. Contact with one of the creatures explained their absorption ability in great clarity -- they secrete a very powerful acid which dissolves the pumice, which is subsequently absorbed by the creature. Months later, my leg still burns on occasion. The other creature is not bothered by the acid; in fact it hunts the jellies avidly. This creature, which I call a manta-drake, resembles a coarse-skinned manta with a long, ruddered tail and two equally long necks bearing small heads and maws like fine-toothed pinking shears. Their undersides have six pairs of multi jointed legs folded close against their belly; I have never seen one land, however.
 
-This was nothing more than a horrible place to be. Surely this is the plane the inhabitants of that prime world, Athas, worship as a place of power.. 
+This was nothing more than a horrible place to be. Surely this is the plane the inhabitants of that prime world, Athas, worship as a place of power..
 Being immersed in an endless sinkhole of fine, silky particles, unable to see past your nose, is not an enjoyable experience. Only the occasional encounter with a pocket of Magma (quickly being encased in a shell of clinging silt), Earth, or Salt broke up the maddening sensation of being slowly smothered to death.
 
 I did see some of the native inhabitants, which seem to correspond to descriptions of silt drakes and silt beasts. I avoided being attacked only by teleporting blindly to another part of the plane.
@@ -77,7 +77,7 @@ I did see some of the native inhabitants, which seem to correspond to descriptio
 Some of the chunks drifting through the silt were, to my surprise, inhabited. I caught brief glimpses of small, slender creatures, some long and lizard-like, some possibly humanoid. Regardless, they scattered as I approached--perhaps fearing the larger beasts, or that I was also a hunter. There was little else of note during my explorations on the plane.
 
 
-I must say, I am tempted to call the plane of Spark the Plane of Shooting Stars. As an offshoot of the para-elemental plane of Smoke, one would expect the plane of Spark to be rather dull -- an endless void, occasionally scattered through with small flickering lights. Nothing could be further from the truth. 
+I must say, I am tempted to call the plane of Spark the Plane of Shooting Stars. As an offshoot of the para-elemental plane of Smoke, one would expect the plane of Spark to be rather dull -- an endless void, occasionally scattered through with small flickering lights. Nothing could be further from the truth.
 In actuality, the plane is a deep, rich black, filled with pulsing, racing, exploding, glittering lights of all colours. Hanging suspended in the "air", watching the show, is like falling into a kaleidoscope crossed with a fireworks display.
 
 Unfortunately, there is quite a hazard in travelling the plane unprotected. The sparks, while insubstantial, are quite hot and can deal out substantial injury to those who are unprotected -- as I discovered quite painfully when I was sideswiped by a passing starburst.

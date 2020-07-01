@@ -80,14 +80,14 @@ sub random_letter {
   $key = 'consonants' if $letter =~ /(c|b|h|k|l|n|p|r|t|w|x|C|B|D)/;
   $key = 'vowels'     if $letter =~ /(v|a|e|i|o|u|y|V|A|E)/;
   $key = 'integers'   if $letter eq '#';
-  
+
   $subkey = 'single'     if $letter =~ /(c|v)/;
   $subkey = 'double'     if $letter =~ /(C|V)/;
   $subkey = 'all_combos' if $letter =~ /(B|A)/;
   $subkey = 'all'        if $letter =~ /(D|E)/;
   $subkey = 'a_or_e'     if $letter =~ /e/;
   $subkey = 'o_or_u'     if $letter =~ /u/;
-  
+
   $subkey = "combo_$letter" if $letter =~ m/[bhklnprtwaiyo]/;
   $subkey = 'combo_other'   if ($letter eq "x");
 
@@ -122,7 +122,7 @@ B<Random::Name::Pattern> generates random names by a specified pattern, based on
 
 =head1 SYNOPSIS
 
-	use Random::Name::Pattern qw(random_name);
+  use Random::Name::Pattern qw(random_name);
 
   random_name('cv');  # returns a random name with a single consonant and a single vowel.
   random_name('vc');  # returns a random name with a single vowel and a single consonant.
@@ -158,7 +158,7 @@ To generate a random name with this module, see the table below to build your pa
   y   ay ey oy uy
   x   ng qu rth
   o   ae ao au eo eu ie io ou ue
-  
+
   #   any single digit
   ^   capitalize next character
 
@@ -167,7 +167,7 @@ To generate a random name with this module, see the table below to build your pa
 If you want to repeat the next character in the pattern, put the amount of repeats directly in front of the character.
 
   random_name('L2v') # will return any letter followed by any two single vowels.
-  
+
 If you want to repeat a group in the pattern, put the amount of repeats directly in front of the character, however you must surround the repeat in parentheses.
 
   random_name('L2(vc)') # will return any letter followed by two repeated syllables each comprised of a single vowel and a single consonant.

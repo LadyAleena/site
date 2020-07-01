@@ -12,7 +12,7 @@ use Util::Data qw(make_hash);
 
 sub spellbook {
   my ($directory, $file) = @_;
-  
+
   my $spells = make_hash( 'file' => [$directory, $file], 'headings' => ['+'] );
 
   my $spell_list;

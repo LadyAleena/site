@@ -19,7 +19,7 @@ while (my $line = <DATA>) {
 
 sub hit_dice {
   my ($class,$opt) = @_;
-  
+
   my $die;
   if (ref($class) eq 'ARRAY') {
     my @die_array = map(hit_dice($_,$opt),@{$class});
@@ -45,7 +45,7 @@ sub hit_dice {
 
 sub roll_hit_points {
   my ($class,$opt) = @_;
-  
+
   my $roll;
   if (ref($class) eq 'ARRAY') {
     $roll += roll(hit_dice($_,$opt)) for @{$class};
@@ -80,7 +80,7 @@ or
 
   hit_dice($class, { experience => $xp });
   hit_dice([$class1,$class2], { experience => $xp});
-  
+
 =head2 C<roll_hit_points>
 
   roll_hit_points($class, { level => $level });

@@ -26,7 +26,7 @@ sub get_parents {
   if ( $mother || $father ) {
     my ($birth_mother, $adoptive_mother) = $mother ? @$mother : (undef, undef);
     my ($birth_father, $adoptive_father) = $father ? @$father : (undef, undef);
-    
+
     my $birth_parents = undef;
     if ( $birth_mother || $birth_father ) {
       my $birth_mother_name = $birth_mother && $birth_mother ne 'unknown' ? character_link($birth_mother) : undef;
@@ -42,7 +42,7 @@ sub get_parents {
 
       $adoptive_parents = join_defined(' and ', ($adoptive_mother_name, $adoptive_father_name));
     }
-    
+
     if ( $birth_parents && $adoptive_parents ) {
       $parent_text = "$child_type of $birth_parents and was adopted by $adoptive_parents";
     }
@@ -98,7 +98,7 @@ sub get_children {
       }
       push @children, $child_text;
     }
-    
+
     $children = grammatical_join('and', map { character_link($_) } @children);
   }
   return $children;
@@ -130,7 +130,7 @@ sub get_family {
   my $widowed       = $family->{widowed}  ? group_character_link($family->{widowed}) : undef;
   my $widowed_text  = $widowed ? $gendering->{widowed}." of $widowed" : undef;
   push @family_list, $widowed_text if $widowed_text;
-  
+
   my $exspouse      = $family->{exspouse} ? group_character_link($family->{exspouse}) : undef;
   my $exspouse_text = $exspouse ? 'ex-'.$gendering->{spouse}." of $exspouse" : undef;
   push @family_list, $exspouse_text if $exspouse_text;
@@ -180,7 +180,7 @@ sub get_family {
   my $whole_family = @family_list ? grammatical_join('and', @family_list): undef;
   my $family_text  = $whole_family =~ /^(ancestor|descendant|cousin)/ ? A($whole_family) :
                      $whole_family =~ /related/ ? $whole_family : "the $whole_family";
-  
+
   return $family_text;
 }
 

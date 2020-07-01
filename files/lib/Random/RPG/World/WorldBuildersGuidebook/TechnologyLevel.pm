@@ -29,7 +29,7 @@ $technology_level{PlayOpt}{$_} = 'Renaissance'   for 90..100;
 sub random_technology_level {
   my $book = shift;
   warn "You need to choose either 'DMG' or more 'PlayOpt' technology levels." if !$book;
-  
+
   my $percent = percentile;
   return $technology_level{$book}{$percent};
 }

@@ -5,5 +5,5 @@ ln|lawful neutral
 tn|true neutral
 cn|chaotic neutral
 le|lawful evil
-ne|neutral evil 
+ne|neutral evil
 ce|chaotic evil

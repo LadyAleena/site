@@ -91,15 +91,15 @@ sub twitter_accounts {
     LadyAleena_home
     LadyAleena_test
   );
-  
+
   return @accounts;
 }
 
 sub tweet_date {
   my $date = shift;
-  
+
   my @units = qw(year month day hour minute second);
-  
+
   my $Strp = new DateTime::Format::Strptime(
     pattern => '%a %b %d %T %z %Y',
   );
@@ -164,28 +164,28 @@ sub seconds_since {
 
 sub time_since {
   my $date = shift;
-  
+
   if ($date) {
     my $base_seconds = seconds_since($date);
     my $seconds = $base_seconds % 60;
 
     my $base_minutes = int($base_seconds / 60);
     my $minutes = $base_minutes % 60;
-    
+
     my $base_hours = int($base_minutes / 60);
     my $hours = $base_hours % 24;
-    
+
     my $base_days = int($base_hours / 24);
     my $days = $base_days % 7;
-    
+
     my $base_weeks = int($base_days / 7);
     my $weeks = $base_weeks % 4.33;
-    
+
     my $base_months = int($base_weeks / 4.33);
     my $months = $base_months % 12;
-    
+
     my $years = int($base_months / 12);
-    
+
     my @units = qw(year month week day hour minute second);
     my @times = ($years,$months,$weeks,$days,$hours,$minutes,$seconds);
 
@@ -205,7 +205,7 @@ sub time_since {
 
 sub tweet_wrap {
   my ($tweet_tag,$tweeter_array) = @_;
-  
+
   my $space = 139 - length($tweet_tag);
   my $tweeters = '';
 
@@ -218,7 +218,7 @@ sub tweet_wrap {
     $tweeters .= " \@$tweeter";
   }
   push @tweets, $tweet_tag . $tweeters if length($tweeters);
-  
+
   return @tweets;
 }
 
@@ -226,7 +226,7 @@ sub target_new_subscribers {
   my ($members,$subscribers) = @_;
 
   my $square_root = sqrt($members);
-  my $int_root = ceil($square_root); 
+  my $int_root = ceil($square_root);
   my $target = $int_root ** 2;
   $target++ if $target == $members;
   my $result = $target - $subscribers;

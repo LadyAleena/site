@@ -77,13 +77,13 @@ sub random_gem_expanded {
   else {
     $gem = $base_gem;
   }
-  
+
   return $gem;
 }
 
 sub random_gem {
   my ($user_gem) = @_;
-  
+
   $gem_varieties{'no metal'} = [map { @$_ } @gem_varieties{ grep $_ ne 'metal', keys %gem_varieties }];
 
   my $gem = $user_gem ? random_gem_variety($user_gem) : random_gem_variety('no metal');

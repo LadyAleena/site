@@ -38,12 +38,12 @@ $distributions{'very high'}{other}    = '95%';
 
 sub local_distribution {
   my ($population_level) = @_;
-  
+
   for (qw(villages towns cities)) {
     my $dice = $distributions{$population_level}{$_};
     $distributions{$population_level}{$_} = roll($dice)." miles apart";
   }
-  
+
   return $distributions{$population_level};
 }
 

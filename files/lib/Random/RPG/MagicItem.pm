@@ -113,7 +113,7 @@ sub magic_item_quirk {
   }
 
   my $quirks = $quirked ? $quirks_roll{percentile()} : 0;
-  
+
   return $quirks;
 }
 

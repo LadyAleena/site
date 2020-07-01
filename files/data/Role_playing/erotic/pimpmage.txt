@@ -170,7 +170,7 @@ With this spell, a Pimpmage who has a small or non-profitable "stable" of Ho's c
 Upon completion of the casting of this spell, all the Ho's that "belonged" to the caster shift ownership to a named Pimp mage, and the named Pimp mage's Ho's become the casters. Each Pimp mage has all the knowledge that the other did about their former Ho's. This may confuse customers and friends who are/were used to seeing/hearing about certain Ho's that now the Pimp mage has no knowledge of (which could be the only tip-off that the victim has of the spell).
 The affected Pimp mage can resist this spell with a S/T vs spells at a minus of 1/2 the level of the Pimp mage casting the spell, rounded down.
 
-Special note: The Pimp mage casting this spell MUST know and use the "Truename" of the Pimp mage to be affected, not his street handle, AND, this spell has a mixed result for the caster - they lose all former knowledge of their former Ho's as well, so when/if buddies bring up "unknown" Ho's, the caster has no idea if he was the original caster or the victim of the spell 
+Special note: The Pimp mage casting this spell MUST know and use the "Truename" of the Pimp mage to be affected, not his street handle, AND, this spell has a mixed result for the caster - they lose all former knowledge of their former Ho's as well, so when/if buddies bring up "unknown" Ho's, the caster has no idea if he was the original caster or the victim of the spell
 -----
 Magic Items
 
@@ -192,5 +192,3 @@ The ink for this card is a mixture of giant squid ink, blood from the Pimp Mage,
 
 Cane of Chauncey
 This is a pimp cane, further enchanted with the following attributes. With a tap on the ground, the cane can elongate into a quarterstaff with bears a +3 enchantment. When in its natural state, the cane can be spun and can deflect any missile fire, even of magical nature, gratned that the pimp forego any attack that round. If a button near the pommel is pressed, the cane will extend rapidly and carry its bearer upward(Dakuwan-style). A second press will retract the cane.
-
-

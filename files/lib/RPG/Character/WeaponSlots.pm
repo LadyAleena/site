@@ -109,7 +109,7 @@ The options for C<group> are:
   single weapon
   tight group
   broad group
-    
+
 =head2 Putting it all together
 
   my $slots = slots_needed(

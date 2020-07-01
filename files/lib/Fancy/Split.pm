@@ -9,7 +9,7 @@ our @EXPORT_OK = qw(fancy_split);
 # written with help, but I'm embarrassed I didn't note them.
 sub fancy_split {
   my ($character, $string, $number) = @_;
-  
+
   my @split_array = split(/$character/, $string);
 
   my $rejoined;

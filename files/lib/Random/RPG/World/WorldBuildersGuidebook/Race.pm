@@ -227,7 +227,7 @@ $races{marine}{minor}{100} = 'scrag troll';
 sub random_race {
   my ($location,$prominence) = @_;
   warn "You did not specify if you wanted the 'dominant', 'major', or 'minor' race." if !$prominence;
-  
+
   my $percent = percentile;
   return $races{$location}{$prominence}{$percent};
 }

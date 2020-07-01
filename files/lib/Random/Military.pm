@@ -26,7 +26,7 @@ sub rank {
 
 sub unit {
   my ($unit_type, $subunits) = @_;
-  
+
   my $unit_leader = rank($unit_type);
 
   my $totals;
@@ -36,7 +36,7 @@ sub unit {
     $totals->{$_} += $unit_totals->{$_} for keys %$unit_totals;
   }
   $totals->{total}++;
-  
+
   return { 'unit' => $subunits, 'unit type' => $unit_type, 'unit leader' => $unit_leader, totals => $totals }
 }
 
@@ -44,7 +44,7 @@ sub squad {
   my $roll = roll('2d4');
   my $unit_type = 'squad';
   my $unit_leader = rank($unit_type);
- 
+
   my $totals;
   $totals->{$unit_leader} = 1;
   $totals->{soldiers} = $roll;
