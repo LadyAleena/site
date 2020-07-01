@@ -42,7 +42,7 @@ sub recurse {
       $file_sizes{$file}{'megabytes'} = ($file_size/1024)/1024;
       $file_sizes_sum += $file_size;
     }
-    if (-d $full) {
+    if (-d $full && !/^\./) {
       recurse($full, $new_visible);
     }
   }
