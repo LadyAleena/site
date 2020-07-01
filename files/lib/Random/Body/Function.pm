@@ -69,7 +69,7 @@ sub random_body_function {
   else {
     $body_function = fancy_rand(\%body_functions, $user_function, { caller => 'random_body_function', additions => $user_additions ? $user_additions : undef });
   }
- 
+
   return $body_function;
 }
 
@@ -92,7 +92,7 @@ sub random_body_functions {
     ['sleep','bathe','eat','drink']
   );
   my $functions = random_body_function(tiny_rand(@body_functions));
-  
+
   return $functions;
 }
 

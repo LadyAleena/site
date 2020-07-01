@@ -37,7 +37,7 @@ sub armor_value {
   my $base_value = $opt{'base'};
   my $value;
   $value = $opt{'material'} ? $base_value * $material_modifiers->{$opt{'material'}} : $base_value;
-  $value = $opt{'plus'} && $opt{'plus'} =~ /[1-4]/ ? $value + ($opt{'plus'} * 5000) : 
+  $value = $opt{'plus'} && $opt{'plus'} =~ /[1-4]/ ? $value + ($opt{'plus'} * 5000) :
            $opt{'plus'} ? $value + 30000 : $value;
   return $value;
 }
@@ -128,7 +128,7 @@ for my $base_weapon (keys %weapons) {
   if ($base_weapon =~ /^(?:club|quarterstaff)/) {
     $assets->{"$base_weapon, ironwood"} = $base_value * 25;
   }
-  
+
   my $staff_spear_cost = 5000;
   my $throwing_cost = 1250;
   for my $plus (1..5) {
@@ -152,7 +152,7 @@ for my $base_weapon (keys %weapons) {
     if ($base_weapon =~ /^(?:dagger|knife|sword)/) {
       $assets->{"$magic_weapon of sharpness"} = $magic_value + 35000;
       $assets->{"$magic_weapon, Luck Blade"}  = $magic_value + 9000;
-      
+
       my $mod_cost = $base_value;
       if ($plus > 1) {
         $mod_cost += ($plus - 1) * 5000;
@@ -199,7 +199,7 @@ while (my $raw_ammo = <$ammo_file>) {
   $assets->{$base_ammo} = $base_value;
   $assets->{"$base_ammo -1 (cursed)"} = 1000;
   add_ammo_of($base_ammo, $base_value);
-  
+
   for my $plus (1..5) {
     my $magic_ammo = "$base_ammo +$plus";
     my $magic_value = $plus =~ /(?:1|2)/ ? $base_value + 5000 : $plus =~ /(?:3|4)/ ? $base_value + 10000 : $base_value + 20000;
@@ -365,7 +365,7 @@ sub asset_data {
     'base value' => $base_value  ? $base_value  : 0,
     'value'      => $total_value ? $total_value : 0
   };
-  
+
   return $asset_data;
 }
 

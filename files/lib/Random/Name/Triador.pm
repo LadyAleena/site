@@ -48,20 +48,20 @@ $addition{'Alveigtrudil'}{'village'}     = '';
 
 sub additions {
   my ($bare_name,$location,$place) = @_;
-  
+
   my $name;
   $name = $addition{'Vecile'}{$place}.' '.$bare_name.$addition{'Telanna'}{$place} if $location eq 'Vi Gwenalladil';
   $name = $bare_name.$addition{$location}{$place} if $location =~ /(?:Telanna|Abru|Teglan|Krigt|Alveigtrudil)/;
   $name = $addition{$location}{$place}.' '.$bare_name if $location eq 'Vecile';
-  
+
   return $name;
 }
 
 sub Yrethi_place_name {
   my $syllables = shift;
-  
+
   my $first_syllable = random_name('^Lv');
-  
+
   my @syllable_parts = ($first_syllable);
   my $end = $syllables - 1;
   for (1..$end) {
@@ -72,7 +72,7 @@ sub Yrethi_place_name {
        $part =~ s/(q)/$1u/gi;
     push @syllable_parts, $part if ($part ne lc $syllable_parts[-1]);
   }
-    
+
   my $name = join('',@syllable_parts);
 
   if ($name =~ /quu/i) {
@@ -110,7 +110,7 @@ sub Zilarban_place_name {
     my $syllable = random_name('v').$consonent;
     push @syllable_parts, $syllable;
   }
-  
+
   my $name = join('',@syllable_parts);
   return $name;
 }

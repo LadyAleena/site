@@ -19,10 +19,10 @@ sub abbr {
     for my $word (split(/[ _-]/,$name)) {
       push @abbr, substr($word,0,1);
     }
-    
+
     my $raw_abbr = $opt{'periods'} && $opt{'periods'} =~ /^[yt1]/i ? join('.',@abbr).'.' : join('',@abbr);
     my $final_abbr = $opt{'ALLCAPS'} && $opt{'ALLCAPS'} =~ /^[yt1]/i ? uc $raw_abbr : $raw_abbr;
-    
+
     if ($opt{'HTML'} && $opt{'HTML'} =~ /^[yt1]/i) {
       return qq(<abbr title="$opt{name}">$final_abbr</abbr>);
     }
@@ -43,7 +43,7 @@ B<Util::Abbreviation> returns an abbreviation for a string.
 =head1 SYNOPSIS
 
   use Util::Abbreviation qw(abbr initial);
-  
+
   my $abbr = abbr(
     name    => 'The Lady Aleena',
     article => 'drop',
@@ -77,7 +77,7 @@ C<ALLCAPS> is the option to make the abbreviation all capital letters. The Inter
 
 =item HTML
 
-C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain Old Documentation would be returned as follows: 
+C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain Old Documentation would be returned as follows:
 
   <abbr title="Plain Old Documentation">POD</abbr>
 

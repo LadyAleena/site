@@ -58,7 +58,7 @@ sub get_novels {
 
   my @novels = map { style_novel($_) } @$in;
   my $text   = "<strong>Novels:</strong> ".join(', ', @novels);
-  
+
   return $text;
 }
 

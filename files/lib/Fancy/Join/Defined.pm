@@ -24,7 +24,7 @@ B<Fancy::Join::Defined> joins only defined values in a list.
 =head1 DESCRIPTION
 
 C<join_defined> can be exported and returns a string of only defined values from a list. It takes two parameters: the character which will join the list and a reference to the list.
- 
+
 =head1 AUTHOR
 
 Lady Aleena

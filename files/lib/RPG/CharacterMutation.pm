@@ -211,7 +211,7 @@ sub random_mutations {
         my $modifier = sum(map(random_sign.random_die(1),(1..$rolls)));
         $game_effects{$game_effect} = $modifier > 0 ? "+$modifier" : $modifier;
       }
-      
+
       for my $game_effect (sort keys %game_effects) {
         push @mutations, "<strong>Game effect modifier:</strong> $game_effect ".$game_effects{$game_effect};
       }

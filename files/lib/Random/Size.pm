@@ -32,7 +32,7 @@ B<Random::Size> selects random relative sizes.
 =head1 SYNOPSIS
 
   use RolePlaying::Random::Size qw(random_size);
-  
+
   my $random_amount      = random_size('amount')  # selects more or less
   my $random_consistency = random_size('consistency') # selects thicker or thinner
   my $random_density     = random_size('density') # selects thicker or thinner

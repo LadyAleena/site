@@ -21,7 +21,7 @@ my %game_effects = (
 
 my %abilities;
 for my $ability (@abilities) {
-  $abilities{$ability} = make_hash( 
+  $abilities{$ability} = make_hash(
     'file' => ['Role_playing/Abilities', "$ability.txt"],
     'headings' => ['score', @{$game_effects{$ability}}]
   );
@@ -47,7 +47,7 @@ sub game_effect {
       pop @scores;
     }
     $score = $scores[1];
-  } 
+  }
   return $abilities{$ability}{$score}{$game_effect};
 }
 
@@ -79,7 +79,7 @@ sub ability_score_table {
     push @game_effects, $abilities{$ability}{$ability_score}{$_};
   }
   push @rows, ['data',[\@game_effects]];
-  
+
   my $colspan = scalar(@{$col_widths{$ability}}) + 1;
   if ($ability eq 'wisdom' and $ability_score >= 19) {
     my $wisdom_spell_immunity = $abilities{wisdom}{$ability_score}{'Spell Immunity'};

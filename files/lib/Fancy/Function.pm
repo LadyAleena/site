@@ -27,14 +27,14 @@ B<Fancy::Function> is a collection of functions that have been given a bit of ad
 =head1 SYNOPSIS
 
   use Fancy::Function qw(fancy_map fancy_splice fancy_split join_defined grammatical_join);
-  
+
 =head2 fancy_map
 
   my $colors = [fancy_map(
                  { 'before => 'glass', 'after' => 'beads' },
                  [map("sparkley $_", ('red', 'yellow', 'green', 'cyan', 'blue', 'magenta')), 'white', 'black', 'gray']
                )];
-  
+
   [
     'glass sparkley red beads',
     'glass sparkley yellow beads',
@@ -102,7 +102,7 @@ C<fancy_map> can be exported and returns a list of mapped values from a list whi
   my @array = fancy_map( { 'before' => $before_value, 'after' => $after_value }, $list_with_a_map_in_it );
 
 You can use C<fancy_map> here or from L<Fancy::Map>.
- 
+
 =head2 fancy_splice
 
 C<fancy_splice> can be exported and returns a referenced array of arrays spliced by a user specified amount. It takes two paraments: the size of the groups and the list. The size can be any integer, and the list is an array.

@@ -22,12 +22,12 @@ my %regions = (
 sub masses {
   my ($regional_distribution) = @_;
   my %masses;
-  
+
   for (keys %$regional_distribution) {
     $masses{land}{regions}  += $$regional_distribution{$_} if $_ =~ /land/;
     $masses{water}{regions} += $$regional_distribution{$_} if $_ =~ /water/;
   }
-  
+
   return \%masses;
 }
 

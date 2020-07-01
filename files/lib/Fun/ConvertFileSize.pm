@@ -42,14 +42,14 @@ sub convert_filesize {
 
   # I took out bits and nibbles just to keep me sane.
   my @filesizes = grep($_ =~ /byte/,@filesize_names);
-  
+
   my $from = firstidx { $_ eq make_singular($opt{from}) } @filesizes;
   my $to   = firstidx { $_ eq make_singular($opt{to}) } @filesizes;
   my $dec  = $opt{decimals} ? $opt{decimals} : 0;
   my $base = $opt{base} ? $opt{base} : 1024;
-  
+
   my ($diff, $converted);
-  
+
   if ( $from > $to ) {
     $diff = $from - $to;
     $converted = $opt{size} * ($base ** $diff);
@@ -61,7 +61,7 @@ sub convert_filesize {
   else {
     $converted = $opt{size};
   }
-  
+
   my $org_filesize = pretty_number($dec,$opt{size});
   my $new_filesize = pretty_number($dec,$converted);
   return "$org_filesize $opt{from} is $new_filesize $opt{to}";
@@ -86,7 +86,7 @@ To use this script, please use the following.
     base => 1000,
   );
   #10,101,101 megabytes is 10,101,101,000 kb
-  
+
 
 =head1 DESCRIPTION
 
@@ -132,13 +132,13 @@ For the from and to fields, you do not have to worry about case.
   zettabyte(s) or zb
   yottabyte(s) or yb
 
-  
+
 =head2 random_filesize
 
 To use the random generator if you happen to have a secret agent protecting a file of a size you don't feel like coming up with, you'd do...
 
   my $random_filesize = random_filesize();
-  
+
 You could get anything from a bit to a yottabyte.
 
 =head1 AUTHOR

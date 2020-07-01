@@ -33,7 +33,7 @@ sub resist_roll {
 
 sub random_spell_class {
   my ($all) = @_;
-  
+
   my @classes = keys %spells;
   push @classes, 'all' if $all;
 
@@ -47,7 +47,7 @@ sub random_spell_level {
   my @levels = @{$spells{$class}{$level_list}};
   my $r_level = tiny_rand(@levels);
   my $level = $class eq 'psionisist' ? "$r_level in the" : $r_level == 1 ? ORD($r_level).' level' : 'up to '.ORD($r_level).' level';
-  
+
   return $level;
 }
 

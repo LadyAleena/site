@@ -9,7 +9,7 @@ use Date::Calc qw(:all);
 
 sub four_digit_year {
  my $year = shift;
-  
+
   if ($year !~ /\d{4}/) {
     die "Sorry, please use the four digit year. Stopped $!";
   }
@@ -19,10 +19,10 @@ sub four_digit_year {
 
 sub month_name {
   my ($month) = @_;
-  
+
   if (is_integer($month)) {
     if (is_between($month, 1, 12)) {
-      $month = Month_to_Text($month); 
+      $month = Month_to_Text($month);
     }
     else {
       die "Sorry, the month number you entered is invalid. Stopped $!";
@@ -38,13 +38,13 @@ sub month_name {
       die "Sorry, your month name is a little short. Stopped $!";
     }
   }
-  
+
   return $month;
 }
 
 sub month_number {
   my ($month) = @_;
-  
+
   if (is_integer($month)) {
     if (is_between($month, 1, 12)) {
       $month = $month;
@@ -63,7 +63,7 @@ sub month_number {
       die "Sorry, your month name is a little short. Stopped $!";
     }
   }
-  
+
   return $month;
 }
 
@@ -71,11 +71,11 @@ sub day_number {
   my ($year, $month, $day) = @_;
 
   my $days = Days_in_Month($year, month_number($month));
-  
+
   if ($day > $days) {
     die "Sorry, there are only $days days in $month $year. Stopped $!";
   }
-  
+
   return $day;
 }
 

@@ -29,15 +29,15 @@ sub duration {
   my $total_hours   = int($total_minutes/60);
   my $total_days    = int($total_hours/24);
   my $total_weeks   = int($total_days/7);
-  
+
   my $mod_seconds = $total_seconds % 60;
   my $mod_minutes = $total_minutes % 60;
   my $mod_hours   = $total_hours % 24;
   my $mod_days    = $total_days % 7;
-  
+
   my @times = ($mod_days, $mod_hours, $mod_minutes, $mod_seconds);
   shift @times while @times && $times[0] == 0;
-  
+
   return join(":", @times)."\n";
 }
 
@@ -47,7 +47,7 @@ sub half_life_date {
   my ($double_year, $double_month, $double_day) = Add_Delta_Days(@$meeting,$date_difference);
   my $birthday = $birthdate->[2]." ".Month_to_Text($birthdate->[1])." ".$birthdate->[0];
   my $double_date = $double_day." ".Month_to_Text($double_month)." ".$double_year;
-  
+
   my %half_life;
   $half_life{birthday} = $birthday;
   $half_life{days_from_birth} = $date_difference;

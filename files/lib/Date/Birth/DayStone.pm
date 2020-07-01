@@ -19,7 +19,7 @@ while (<DATA>) {
 sub day_stone {
   my ($year, $month, $day) = @_;
   $month = month_number($month);
-  
+
   my $dow       = Day_of_Week($year, $month, $day);
   my $day_word  = Day_of_Week_to_Text($dow);
 

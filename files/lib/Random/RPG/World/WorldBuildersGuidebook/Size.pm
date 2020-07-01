@@ -75,7 +75,7 @@ $size{kingdom}{$_}{miles} = roll('10d10') * '20' for 86..100;
 sub random_size {
   my ($area) = @_;
   my $percent = percentile;
-  
+
   return $size{$area}{$percent};
 }
 

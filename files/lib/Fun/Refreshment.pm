@@ -6,7 +6,7 @@ our @EXPORT = qw(refreshment);
 
 use Lingua::EN::Inflect qw(A);
 
-my @refreshments = ('cookies','carrots','chips','chocolate mousse','soda','wine','coffee'); 
+my @refreshments = ('cookies','carrots','chips','chocolate mousse','soda','wine','coffee');
 my %containers = (
   'cookies' => 'platter',
   'carrots' => 'tray',
@@ -20,6 +20,6 @@ my %containers = (
 sub refreshment {
   my @table = map(A($containers{$_})." of ".$_, @refreshments);
   return "puts out ".$table[rand @table];
-}  
+}
 
 1;

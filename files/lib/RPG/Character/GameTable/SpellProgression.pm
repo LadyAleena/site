@@ -15,7 +15,7 @@ my @classes = qw(wizard priest paladin ranger bard theopsyelementalist);
 
 sub spell_progression {
   my ($class, $opt) = @_;
-  
+
   my $spell_progression;
   if (ref($class) eq 'ARRAY') {
     for (@{$class}) {
@@ -35,16 +35,16 @@ sub spell_progression {
       );
 
       my $max_available_level = max(keys %$spell_progression_table);
-      
+
       if ($level > $max_available_level) {
         $level = $max_available_level;
         $spell_progression_table->{$level}{'note'} = "I only have spell progression up to level $level.";
       }
-      
+
       $spell_progression = $spell_progression_table->{$level};
     }
   }
- 
+
   return $spell_progression ? $spell_progression : undef;
 }
 

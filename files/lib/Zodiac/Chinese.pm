@@ -28,11 +28,11 @@ B<Zodiac::Chinese> generates one's Chinese zodiac. However, for those born in la
 
 To use this module, please enter the following.
 
-	use qw(chinese_zodiac);
-  
+  use qw(chinese_zodiac);
+
 To generate one's Chinese zodiac sign, please use the example below.
 
-	chinese_zodiac(YEAR,MONTH)	YEAR is the 4-digit year, MONTH is the digit for the month (1-12)
+  chinese_zodiac(YEAR,MONTH)  YEAR is the 4-digit year, MONTH is the digit for the month (1-12)
 
 =head1 AUTHOR
 

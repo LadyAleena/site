@@ -5,14 +5,14 @@ Ranger Skills:
  Move Silently: 26%
 Primary Terrain: Forrest
 Species Enemy: Green Dragons
-Animal Empathy: -1 to animal's saving throw 
+Animal Empathy: -1 to animal's saving throw
 2 Rechrapee Hardimod
 Racial/Personal:
 Gaseous Form
 Fly-12 rds.
 Monstrous Sight
 Monstrous Smell
-Lazy until magic used against her	
+Lazy until magic used against her
 Shaman:
 School: Alteration
 2 Rajnilia Al-Afyali bint Jazar
@@ -29,7 +29,7 @@ Mage Sight: 85% (1 round to activate)
 These two are my most powerful characters. There is a lot the goes along with playing them. DMs would be nuts to allow them to be played and could be evil by pitting them against players.
 Fighter:
 # of Attacks: 2/1 round
-Breech Immunity	vs. +4 to hit
+Breech Immunity vs. +4 to hit
 Intimidation: -6 to opp. saving throw
 Crit Hit on Att 16 +5 or better
 Mage-Alexana:
@@ -44,7 +44,7 @@ Mage Sight*: 100% (1 rd to activate)
 Spell Strike*: 1/day/2 lvl
 2 Drianna StrongOak-Guard
 Mage:
-Reduce Magic Resistance	150%
+Reduce Magic Resistance 150%
 Does not need to memorize spells
 2 Amori Tamdenar
 Racial: Special: +4 Attack vs. Orcs

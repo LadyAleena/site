@@ -33,14 +33,14 @@ $densities{'very high'}{city}    = '10d10';
 
 sub local_population {
   my ($population_level) = @_;
-  
+
   for (qw(village town city)) {
     my $dice = $densities{$population_level}{$_};
     my $roll = roll($dice);
     my $population = $roll > 0 ? $roll * 500 : roll('20d20');
     $densities{$population_level}{$_} = "$population people";
   }
-  
+
   return $densities{$population_level};
 }
 

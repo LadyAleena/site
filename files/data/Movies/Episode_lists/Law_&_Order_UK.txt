@@ -37,11 +37,11 @@ Intent
 Deal
 .
 Survivor’s Guilt
-Immune 
-Haunted 
-Trial 
-Line Up 
-Dawn Till Dusk 
+Immune
+Haunted
+Trial
+Line Up
+Dawn Till Dusk
 Fault Lines
 .
 Tracks

@@ -38,7 +38,7 @@ sub get_see {
 
 sub get_open {
   my ($character, $opt) = @_;
-  
+
   my $name  = $character->{Name};
   my $text  = textify($name);
   my @books = @{$character->{book}};
@@ -87,7 +87,7 @@ sub get_description {
   my $name = $character->{Name};
   my $text = textify($name);
   my $line_magic = Xanth_line_magic('character');
-  
+
   my $challenge_text = $character->{challenge} ? get_challenge($character->{challenge}) : undef;
   my $other_text     = $character->{other}     ? convert_string($character->{other}, $line_magic) : undef;
 
@@ -113,7 +113,7 @@ sub get_description {
       $description = "$text $challenge_text.";
     }
   }
-  
+
   return $description;
 }
 

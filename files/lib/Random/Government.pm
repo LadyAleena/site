@@ -139,7 +139,7 @@ B<Random::Government> returns a random government type.
 
   use Random::Government qw(random_government);
   my $government = random_government;
-  
+
 =head1 NOTE
 
 The options of this module came from L<The Phrontistery|http://phrontistery.info/> except magocracy which came from I<The World Builder's Guidebook>.

@@ -22,7 +22,7 @@ sub round {
 sub pretty_number {
   my ($number, $precision) = @_;
   my $pretty_number = commify(round($number, $precision));
-  return $pretty_number;  
+  return $pretty_number;
 }
 
 =head1 NAME
@@ -32,13 +32,13 @@ B<Util::Number> adds commas, rounds, and returns pretty numbers.
 =head1 SYNOPSIS
 
   use Util::Number qw(commify round pretty_number);
-  
+
   my $comma_number = commify(2468);
   # returns 2,468
-  
+
   my $rounded_number = round(0.2468, 3);
   # returns .247
-  
+
   my $pretty_number = pretty_number(2468.13579, 3);
   # returns 2,468.136
 

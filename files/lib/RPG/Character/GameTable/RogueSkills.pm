@@ -28,7 +28,7 @@ sub know_magic_item {
   return $knowing;
 }
 
-sub influence { 
+sub influence {
   my $level = shift;
   my $influence = -1 * int($level / 3);
   return $influence;
@@ -41,7 +41,7 @@ sub thief_skills {
   my $list;
   push @{$list}, "backstab &#215;$backstab";
   push @{$list}, 'can read spell scrolls' if read_scroll($level);
-  
+
   return $list;
 }
 
@@ -49,12 +49,12 @@ sub bard_skills {
   my $level = shift;
   my $influence = influence($level);
   my $knowing   = know_magic_item($level);
-  
+
   my $list;
   push @{$list}, "can reduce a crowd's reaction by $influence";
   push @{$list}, "has a $knowing/% chance to know the function of a magic item";
   push @{$list}, 'can inspire companions and give a +1 to attack rolls or saving throws or +2 to morale';
-  
+
   return $list;
 }
 

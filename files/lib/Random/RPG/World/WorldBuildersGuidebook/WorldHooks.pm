@@ -103,7 +103,7 @@ sub world_hook {
 
   my $roll;
   my $world_hook;
-  
+
   if ($hook eq 'climate or landform') {
     $roll = d16;
     $world_hook = $climate_or_landform{$roll};
@@ -124,7 +124,7 @@ sub world_hook {
     $roll = roll('d8');
     $world_hook = $historical{$roll};
   }
-  
+
   return $world_hook;
 }
 

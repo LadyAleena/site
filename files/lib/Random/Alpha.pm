@@ -33,7 +33,7 @@ B<Random::Alpha> selects random letters of the English alphabet.
 =head1 SYNOPSIS
 
   use Random::Alpha qw(random_alpha);
-  
+
   my $upper_case   = random_alpha('upper');            # selects an upper case letter
   my $lower_case   = random_alpha('lower');            # selects a lower case letter
   my $upper_vowel  = random_alpha('upper vowels');     # selects an A, E, I, O, or U

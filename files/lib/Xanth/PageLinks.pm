@@ -20,8 +20,8 @@ sub locations_page_link {
   my $link     = anchor($text, { href => "Locations.pl#$id"});
   my $article  = $main ne 'Mundania' ? get_article($location) : undef;
   my $out      = join_defined(' ', ($article, $link));
-  
-  return $out;  
+
+  return $out;
 }
 
 # End getting link to Locations.pl
@@ -33,8 +33,8 @@ sub species_page_link {
   my $text = textify($species);
   my $id   = idify($species);
   my $link = anchor($text, { href => "Species.pl#$id"});
-  
-  return $link;  
+
+  return $link;
 }
 
 # End getting link to Species.pl

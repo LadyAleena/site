@@ -17,7 +17,7 @@ my %descriptors = (
 sub random_descriptor {
   my ($user_descriptor, $user_additions) = @_;
   my $descriptor = fancy_rand(\%descriptors, $user_descriptor, { caller => 'random_descriptor', additions => $user_additions ? $user_additions : undef });
-  return $descriptor;  
+  return $descriptor;
 }
 
 =head1 NAME
@@ -34,7 +34,7 @@ B<Random::Descriptor> selects a random descriptor.
   my $quality  = random_descriptor('quality');  # selects a random quality
   my $rarity   = random_descriptor('rarity');   # selects a random rarity
   my $reaction = random_descriptor('reaction'); # selects a random reaction
-  
+
 =head1 AUTHOR
 
 Lady Aleena

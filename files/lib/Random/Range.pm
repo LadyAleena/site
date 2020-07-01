@@ -33,7 +33,7 @@ sub random_range {
   else {
     $full_range = $range;
   }
-  
+
   return $full_range;
 }
 
@@ -53,16 +53,16 @@ B<Random::Range> selects random ranges or radiuses.
 
 To use this module, please enter the following.
 
-	use Random::Range qw(random_range random_radius);
+  use Random::Range qw(random_range random_radius);
 
 When you want to generate a random range with this module, you can choose from the following.
 
-	random_range('simple','imperial')    # selects 1, 5, 10, 20, 50, or 100 in, ft, yd, or mi.
-	random_range('simple','metric')      # selects 1, 5, 10, 20, 50, or 100 cm, dm, m, or km.
-	random_range('simple','your choice') # selects 1, 5, 10, 20, 50, or 100 and your measurement choice.
-	random_range('touch','imperial')     # selects 1, 5, 10, 20, 50, or 100 in, ft, yd, or mi or touch.
-	random_range('touch','metric')       # selects 1, 5, 10, 20, 50, or 100 cm, dm, m, or km or touch.
-	random_range('touch','your choice')  # selects 1, 5, 10, 20, 50, or 100 and your measurement choice or touch.
+  random_range('simple','imperial')    # selects 1, 5, 10, 20, 50, or 100 in, ft, yd, or mi.
+  random_range('simple','metric')      # selects 1, 5, 10, 20, 50, or 100 cm, dm, m, or km.
+  random_range('simple','your choice') # selects 1, 5, 10, 20, 50, or 100 and your measurement choice.
+  random_range('touch','imperial')     # selects 1, 5, 10, 20, 50, or 100 in, ft, yd, or mi or touch.
+  random_range('touch','metric')       # selects 1, 5, 10, 20, 50, or 100 cm, dm, m, or km or touch.
+  random_range('touch','your choice')  # selects 1, 5, 10, 20, 50, or 100 and your measurement choice or touch.
 
 You can substitute C<random_range> with C<random_radius> to get some extra text with the returned value.
 

@@ -22,9 +22,9 @@ sub primes {
 
     # numbers where the sum of the digits are evenly divisible by 3 are divisible by 3.
     next if sum(split(//,$number)) % 3 == 0;
-    
+
     # There are other tests like the one above, however, they require breaking the number
-    # and doing other calculations based on the number. I decided to skip those as they 
+    # and doing other calculations based on the number. I decided to skip those as they
     # are computation heavy.
 
     my $match = 0;
@@ -32,7 +32,7 @@ sub primes {
       $match++, last if ($number != $divisor && $number % $divisor == 0);
     }
     push @primes, $number if $match == 0;
-    
+
     # adding 2, 3, and 5 back to the list since they were excluded above.
     push @primes, (2,3,5) if $number == 1;
   }
@@ -97,7 +97,7 @@ my %big_Roman_numerals = (
 
 sub list_Roman_numerals_values {
   my ($big_numeral) = @_;
-  
+
   my @RSN = (qw(I V X L C D M),     @{$big_Roman_numerals{'simple'}{$big_numeral}});  # Roman simple numerals
   my @RCN = (qw(IV IX XL XC CD CM), @{$big_Roman_numerals{'complex'}{$big_numeral}}); # Roman complex numerals
 
@@ -106,7 +106,7 @@ sub list_Roman_numerals_values {
       1 5 10 50 100 500 1000 5000 10000 50000 100000 500000 1000000
       4 9 40 90 400 900 4000 9000 40000 90000 400000 900000
   ); # numeric values
-  
+
   return %R2A;
 }
 

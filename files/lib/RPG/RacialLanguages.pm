@@ -28,9 +28,9 @@ B<RPG::RacialLanguages> returns the racial languages for player characters.
 =head1 SYNOPSIS
 
   use RPG::RacialLanguages qw(get_racial_languages);
-  
+
   my $racial_languages = racial_languages('gnome');
-  
+
   [
     'dwarf',
     'halfling',

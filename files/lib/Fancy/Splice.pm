@@ -7,7 +7,7 @@ our $VERSION   = '1.0';
 our @EXPORT_OK = qw(fancy_splice);
 
 # written with the help of farang and wjw on PerlMonks
-sub fancy_splice { 
+sub fancy_splice {
   my ($amount, @in_list) = @_;
   my @list;
   while (@in_list) {

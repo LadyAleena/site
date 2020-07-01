@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(grammatical_join);
 
 # Written with the help of DrForr in #perlcafe on freenode.
 sub grammatical_join {
-  my $conj = shift(@_) . ' '; 
+  my $conj = shift(@_) . ' ';
   return $_[0] if @_ <= 1;
   return join( ' '.$conj, @_ ) if @_ == 2;
   my $punc = grep( /,/, @_ ) ? '; ' : ', ';

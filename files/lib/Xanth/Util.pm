@@ -48,7 +48,7 @@ sub gendering {
   my $gendering;
   $gendering->{text}      = $gender ne 'neuter' ? $gender : undef;
   $gendering->{pronoun}   = $gender eq 'male' ? 'he'        : $gender eq 'female' ? 'she'        : 'it';
-  $gendering->{possesive} = $gender eq 'male' ? 'his'       : $gender eq 'female' ? 'her'        : 'its'; 
+  $gendering->{possesive} = $gender eq 'male' ? 'his'       : $gender eq 'female' ? 'her'        : 'its';
   $gendering->{sibling}   = $gender eq 'male' ? 'brother'   : $gender eq 'female' ? 'sister'     : 'sibling';
   $gendering->{pibling}   = $gender eq 'male' ? 'uncle'     : $gender eq 'female' ? 'aunt'       : 'pibling';
   $gendering->{nibling}   = $gender eq 'male' ? 'nephew'    : $gender eq 'female' ? 'neice'      : 'nibling';

@@ -24,7 +24,7 @@ sub get_birth {
   my $birth_type = $species->[0] =~ /centaur/ || $places->[0]->[0] =~ /(Mundania|Two Moons)/ ? 'born' : 'delivered';
   my $birth_link = $birth ? timeline_link($birth) : undef;
   my $birth_text = $birth ? "was $birth_type in $birth_link" : undef;
-  
+
   return $birth_text;
 }
 
@@ -65,9 +65,9 @@ sub get_age {
   my $current_year = current_year();
   my $birth = $dates->{birth};
   my $last  = $dates->{death} ? $dates->{death} : $current_year;
-  
+
   $age = $last - $birth;
-  
+
   if ($dates->{suspension}) {
     my @suspensions = @{$dates->{suspension}};
     for my $suspension (@suspensions) {
@@ -76,12 +76,12 @@ sub get_age {
       $age = $age - $suspension_modifier;
     }
   }
-  
+
   if ($dates->{reage}) {
     my $reage = $dates->{reage};
     $age = $reage->{age}  + ($last - $reage->{year});
   }
-  
+
   return $age;
 }
 
@@ -117,14 +117,14 @@ sub get_age_suspension {
 
     my $begin_link = timeline_link($begin_year);
     my $end_link   = timeline_link($end_year) if $end_year;
-    
+
     my $prep = $begin_event =~ /past|future/ ? 'from' : 'in';
-    
+
     my $age_text;
     if ($birth_year) {
       $age_text = "was $begin_age years old when $pronoun";
     }
-    
+
     my $event_text = "$begin_event $prep $begin_link";
     if ($end_year && $end_event) {
       $event_text .= " and began aging again when $pronoun $end_event in $end_link";
@@ -144,7 +144,7 @@ sub get_age_suspension {
     my $suspension_text = join_defined(' ', ($age_text, $event_text));
     push @suspensions_text, $suspension_text;
   }
-  
+
   return @suspensions_text;
 }
 
@@ -177,7 +177,7 @@ sub get_reage {
 
   my $start_verb = $reage_event && $reage_event =~ /compressed/ ? 'would have been' : 'was';
   my $start_text = "$start_verb $age_reage years old in $year_link" if $age_reage > 0;
-  
+
   my $pre_event;
   if (($reage_event && $reage_event =~ /takes/) && $age_reage > 0) {
     $pre_event = "but $pronoun";
@@ -214,7 +214,7 @@ sub get_reage {
 
 sub get_dates_family {
   my ($character, $gendering) = @_;
-  
+
   my $name    = $character->{Name};
   my $text    = textify($name);
   my $dates   = $character->{dates};
@@ -226,7 +226,7 @@ sub get_dates_family {
   my $dates_family = undef;
   if ($dates || $family) {
     my $verb = $dates && $dates->{death} ? 'was' : 'is';
-    
+
     my @dates_and_family;
     push @dates_and_family, get_dates($dates, $species, $places)          if ($dates && !$family);
     push @dates_and_family, get_birth($dates->{birth}, $species, $places) if ($dates->{birth} && $family);
@@ -235,7 +235,7 @@ sub get_dates_family {
     push @dates_and_family, get_reage($dates, $pronoun)                   if $dates->{reage};
     push @dates_and_family, get_death($dates)                             if ($dates->{death} && $family);
     push @dates_and_family, "$verb ".get_age($dates).' years old'         if $dates->{birth};
-    
+
     my $first = shift @dates_and_family;
     @dates_and_family = map { ucfirst "$pronoun $_." } @dates_and_family;
     unshift @dates_and_family, "$first.";
@@ -243,7 +243,7 @@ sub get_dates_family {
     $dates_family = join(' ', @dates_and_family);
   }
   my $full_text = $dates_family ? "$text $dates_family" : undef;
-  
+
   return $full_text;
 }
 

@@ -34,7 +34,7 @@ B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a
 =head1 SYNOPSIS
 
   use Random::SciFi qw(random_HHGTTG_sector random_MIB_agent);
-  
+
   my $random_HHGTTG_sector = random_HHGTTG_sector(); # returns a random sector based on HHTTG sectors mentioned.
   my $random_MIB_agent     = random_MIB_agent();     # returns a random MIB agent, either single or double letter.
 

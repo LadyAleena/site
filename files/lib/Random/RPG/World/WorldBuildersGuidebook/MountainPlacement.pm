@@ -32,7 +32,7 @@ $fantastic_mountain_properties{100} = 'mountains are home of gods and goddesses'
 sub random_mountain_placement {
   my $rm_percent = percentile;
   my $fan_percent = percentile;
-  
+
   my $regional_mountain = $regional_mountains{$rm_percent};
   my $fantastic_mountain = $fantastic_mountain_properties{$fan_percent};
      $fantastic_mountain =~ s/mountains/$regional_mountain/;

@@ -29,7 +29,7 @@ sub get_merfolk {
   my $text;
   if ($gender eq 'female') {
     my ($merspecies, $mertype) = split(/, /, $in);
-    if ($mertype eq 'fresh') { 
+    if ($mertype eq 'fresh') {
       $text = 'mermaid';
     }
     elsif ($mertype eq 'salt') {
@@ -87,7 +87,7 @@ sub get_gendered_species {
       $text = join_defined(' ', ($gender_text, $species));
     }
   }
-  
+
   return $text;
 }
 

@@ -79,12 +79,12 @@ sub random_pantheon_type {
 sub random_pantheon_organization {
   my ($size) = @_;
   my $percent = percentile;
-  
+
   $percent += 10 if $size eq 'large';
   $percent += 25 if $size eq 'huge';
-  
+
   $percent = $percent > 100 ? 100 : $percent;
-  
+
   return $pantheon_organization{$percent};
 }
 
@@ -96,11 +96,11 @@ sub random_pantheon_involvement {
 sub random_pantheon_size {
   my ($rolled_type) = @_;
   my $percent = percentile;
-  
+
   my $type = $rolled_type ? $rolled_type : random_pantheon_type;
   $percent += 25 if $type =~ /universal/;
   $percent = $percent > 100 ? 100 : $percent;
-  
+
   my %pantheon;
   for my $power (keys %{$number_of_powers{$percent}}) {
     next if $power eq 'size';
@@ -109,7 +109,7 @@ sub random_pantheon_size {
   $pantheon{'size'} = $number_of_powers{$percent}{'size'};
   $pantheon{'orgnization'} = random_pantheon_organization($pantheon{'size'});
   $pantheon{'involvement'} = random_pantheon_involvement;
-  
+
   return \%pantheon;
 }
 

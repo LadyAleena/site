@@ -9,7 +9,7 @@ our @EXPORT_OK = qw(fancy_map);
 # Written with the help of GotToBTru, RonW, and toolic of Perl Monks.
 sub fancy_map {
   my ($opt, $list) = @_;
-  map { 
+  map {
     if (ref($_)) {
       fancy_map($opt, $_);
     }
@@ -31,7 +31,7 @@ B<Fancy::Map> maps within a map.
                  { 'before => 'glass', 'after' => 'beads' },
                  [map("sparkley $_", ('red', 'yellow', 'green', 'cyan', 'blue', 'magenta')), 'white', 'black', 'gray']
                )];
-  
+
   [
     'glass sparkley red beads',
     'glass sparkley yellow beads',
@@ -49,7 +49,7 @@ B<Fancy::Map> maps within a map.
 C<fancy_map> can be exported and returns a list of mapped values from a list which already has a map in it. It takes three parameters. The first two are in a hash reference with the values to be mapped before and after the values of the list. The third is a reference to the list.
 
   fancy_map( { 'before' => $before_value, 'after' => $after_value }, $list_with_a_map_in_it );
- 
+
 =head1 AUTHOR
 
 Lady Aleena

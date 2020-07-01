@@ -12,8 +12,8 @@ use RPG::Character::Class qw(class_level);
 sub psionics_by_level {
   my ($class, $opt) = @_;
   my $level = $opt->{'level'} ? $opt->{'level'} : class_level($class, $opt->{'experience'});
-  
-  my $psionics = make_hash( 
+
+  my $psionics = make_hash(
     'file' => ['Role_playing/Classes/Psionics', 'progression.txt'],
     'headings' => ['level', 'disciplines', 'sciences', 'devotions', 'defense modes'],
   );
@@ -28,7 +28,7 @@ sub psionics_table_rows {
   my $psionics = psionics_by_level('psionisist', { 'experience' => $xp });
   my @data_rows;
   push @data_rows, [ucfirst $_, $psionics->{$_}] for ('disciplines', 'sciences', 'devotions', 'defense modes');
-  
+
   my @rows = (
     ['header', [['&nbsp;','Amount']]],
     ['whead', \@data_rows]
