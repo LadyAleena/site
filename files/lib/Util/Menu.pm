@@ -100,7 +100,7 @@ sub base_menu {
         $file_list = "$curr_cwd/$0" =~ /$index/ && $class =~ / active$/ && $opt->{'file menu'} ? $opt->{'file menu'} : undef;
       }
 
-      my $next_list = base_menu($long_content, $opt);
+      my $next_list = base_menu($long_content, $opt) if $text !~ /^\./;
       push @$next_list, @$file_list if $file_list;
       my $inlist = $next_list ? ['u', $next_list] : undef;
       $class =~ s/^(?:open|closed) // if !$inlist;
