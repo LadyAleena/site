@@ -984,7 +984,7 @@ Hidey|human|male|Xanth Reality 6|hiding from anything||30|
 Higgs|illusion|male|Xanth|holding the universe together|is on the illusionary Air Plane. He is the boatswain.|31|
 High Horse|horse|male|Xanth|making folks snooty||26|
 Hilarion|human|male|Xanth, Isle of Adamant|banishing specific memories from himself and others|looked for his lost bethrothee for 20 years.|M34, m37, m41|
-Hilda|human|female|Xanth|sewing magic into cloth||M46
+Hilda|human|female|Xanth|sewing magic into cloth||M0
 Ho|human|male|Xanth|selective amnesia|The ^Dastard^ made him forget about marrying Ida.|24|
 Hoarfrost|human|male|Mundania||is a great uncle of Goar.|m41|
 Hoary Harributtes|harpy|female|Xanth||Her caustic manner of speech does not quite hide her sincere concern for ^Gloha^.|m17|
@@ -1052,7 +1052,7 @@ Interface|thing||Xanth|making things relate to each other easier or harder|has a
 Intoxi Cate|human|male|Xanth|making revelers happy||33|3
 Intoxicated|human|female|Xanth||was seen through the Rings of Power.|25|
 Io|human|female|Xanth Reality 8|||m30|
-Ion|human|male|Xanth|immunity to all elixers||M46
+Ion|human|male|Xanth|immunity to all elixers||M0
 Ione|human|female|Xanth|making lies the truth, provided the liar with the lie does not know her talent||37|
 Irene (CaR)|human|female|Xanth, Castle Roogna|causing plants to grow rapidly and completing full life cycles in minutes, a green thumb|was originally classified as a sub-magician, she was deemed a full Sorceress so she could served as King pro tem during the NextWave invasion. She has green hair. ^Weedles^ and ^Zilch^ were her childhood pets.|3, M4, 5, 6, M7, 8, m9, 10, 11, 12, m13, 14, 15, m17, m18, 19, 20, m21, 22, m24, m25, m26, m28, m29, m30, m31, m36|
 Irene (LOTD)|human|female|Xanth||was a women of the day used by ^Harmony^ when she was trying to win ^Bryce^.|36|
