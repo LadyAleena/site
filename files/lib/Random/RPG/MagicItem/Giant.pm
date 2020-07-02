@@ -6,6 +6,7 @@ our @EXPORT_OK = qw(random_gauntlets random_girdle);
 
 use Fancy::Rand qw(tiny_rand);
 use Random::RPG::MagicItem qw(magic_item_enhancement magic_item_quirk);
+
 my @giants = (
   { giant => 'ogre',  strength => '18(00)', xp  => { gauntlets => 1000 , girdle => 1500 } },
   { giant => 'hill',  strength => 19, xp => { gauntlets => 1250, girdle => 2000 } },
