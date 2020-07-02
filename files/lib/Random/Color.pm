@@ -5,14 +5,15 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(random_color);
 
 use Fancy::Rand qw(fancy_rand);
-use Util::Data qw(data_file);
 
-open(my $Crayola_fh, '<', data_file('Random/Colors', 'Crayola_crayon_colors.txt')) ||
-  die "Can not open Crayola_crayon_colors.txt, died$!";
+my $directory = '../../data/Random/Colors';
+
+open(my $Crayola_fh, '<', "$directory/Crayola_crayon_colors.txt") ||
+  die "Can not open $directory/Crayola_crayon_colors.txt. $!";
 my @Crayola_crayons = map { chomp($_); $_ } <$Crayola_fh>;
 
-open(my $MandMs_fh,  '<', data_file('Random/Colors', 'MandMs_colors.txt')) ||
-  die "Can not open MandMs_colors.txt, died$!";
+open(my $MandMs_fh,  '<', "$directory/MandMs_colors.txt") ||
+  die "Can not open $directory/MandMs_colors.txt. $!";
 my @MandMs = map { chomp($_); $_ } <$MandMs_fh>;
 
 my %colors = (

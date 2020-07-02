@@ -13,18 +13,19 @@ our @EXPORT_OK = qw(
 );
 
 use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
-use Util::Data qw(data_file);
 use Random::Color qw(random_color);
 use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
 use Random::RPG::Monster qw(random_RPG_dragon);
 
-open(my $DreamWorks_fh,  '<', data_file('Random/Dragons', 'DreamWorks_dragons.txt')) ||
-  die "Can not open DreamWorks_dragons.txt. $!";
+my $directory = '../../data/Random/Dragons';
+
+open(my $DreamWorks_fh,  '<', "$directory/DreamWorks_dragons.txt") ||
+  die "Can not open $directory/DreamWorks_dragons.txt. $!";
 my @DreamWorks_dragons = map { chomp($_); $_ } <$DreamWorks_fh>;
 close($DreamWorks_fh);
 
-open(my $Harry_Potter_fh, '<', data_file('Random/Dragons', 'Harry_Potter_dragons.txt')) ||
-  die "Can not open Harry_Potter_dragons.txt. $!";
+open(my $Harry_Potter_fh, '<', "$directory/Harry_Potter_dragons.txt") ||
+  die "Can not open $directory/Harry_Potter_dragons.txt. $!";
 my @Harry_Potter_dragons = map { chomp($_); $_ } <$Harry_Potter_fh>;
 close($Harry_Potter_fh);
 
