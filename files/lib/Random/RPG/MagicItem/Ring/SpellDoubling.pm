@@ -4,11 +4,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(make_ring random_ring);
 
-use Lingua::EN::Inflect qw(ORD);
-use List::Util qw(sum);
-
-use Util::Number qw(commify);
-use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Rand qw(tiny_rand);
 
 my %stats = (
