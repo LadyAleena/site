@@ -6,7 +6,6 @@ our @EXPORT_OK = qw(word_find);
 
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
-use IO::All;
 
 use Util::Convert qw(filify);
 use Util::Data qw(data_file);
@@ -21,12 +20,12 @@ sub word_find {
   my $boards_dir = 'Role_playing/Word_finds/boards';
   my $lists_dir  = 'Role_playing/Word_finds/lists';
 
-  open(my $word_find_board, '<', data_file($boards_dir, $word_find_file)) || die "Can't open $boards_dir/$word_find_file. $!";
-  open(my $word_find_list,  '<', data_file($lists_dir,  $word_find_file)) || die "Can't open $lists_dir/$word_find_file. $!";
+  open(my $word_find_board, '<:encoding(utf-8)', data_file($boards_dir, $word_find_file)) || die "Can't open $boards_dir/$word_find_file. $!";
+  open(my $word_find_list,  '<:encoding(utf-8)', data_file($lists_dir,  $word_find_file)) || die "Can't open $lists_dir/$word_find_file. $!";
   my @monsters = map { chomp $_; [uc $_] } <$word_find_list>;
 
   my $find_out = { 'list' => \@monsters, 'lonely' => $lone_sent };
-  $find_out->{'board'} = io(data_file('Role_playing/Word_finds/boards',$word_find_file))->slurp;
+  $find_out->{'board'} = do { local $/; readline($word_find_board) };
 
   return $find_out;
 }
