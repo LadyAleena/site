@@ -6,29 +6,29 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 
 * [Random::Alpha](Alpha.pm) selects random letters of the English alphabet.
 * [Random::Descriptor](Descriptor.pm) selects a random descriptor.
-* [Random::Dragon](Dragon.pm) generates random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, and Random::RPG::Monster.
+* [Random::Dragon](Dragon.pm) generates random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, and Random::RPG::Monster. It needs the [dragon data files](../../data/Random/Dragons) to run.
 * [Random::Food](Food.pm) selects either a random food or drink. It also depends on [Fancy::Map](../Fancy/Map.pm).
 * [Random::GemMetalJewelry](GemMetalJewelry.pm) selects random gems, metals, and jewelry. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm) and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
 * [*Random::Government*](Government.pm) returns a random government type.
-* [*Random::Insanity*](Insanity.pm) returns a random mental disorder.
+* [*Random::Insanity*](Insanity.pm) returns a random mental disorder. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [*Random::Military*](Military.pm) returns a random fictional and fantasy military unit. It depends on [Games::Dice](https://metacpan.org/pod/Games::Dice).
-* [Random::Misc](Misc.pm) selects random miscellaneous things.
+* [Random::Misc](Misc.pm) selects random miscellaneous things. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Month](Month.pm) selects a random month by language. It also depends on [Date::Calc](https://metacpan.org/pod/Date::Calc).
-* [Random::Range](Range.pm) selects random ranges or radiuses.
+* [Random::Range](Range.pm) selects random ranges or radiuses. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::SciFi](SciFi.pm) returns a random *Hitchhikers' Guide to the Galaxy* sector or a random *Men in Black* agent id. It also depends on Random::Alpha.
 * [Random::Size](Size.pm) selects random relative sizes.
-* [Random::SpecialDice](SpecialDice.pm) rolls for a random die, d16, percentile, permille, and permyriad. It also depends on Games::Dice.
-* [Random::Thing](Thing.pm) selects random things. It also depends on Random::RPG::MagicItem, Random::RPG::Monster, and Random::RPG::Weapon.
-* [Random::Time](Time.pm) selects a random time unit, random day part, random time, or random frequency. It also depends on Random::SpecialDice and Lingua::EN::Inflect.
+* [Random::SpecialDice](SpecialDice.pm) rolls for a random die, d16, percentile, permille, and permyriad. It also depends on Games::Dice. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [Random::Thing](Thing.pm) selects random things. It also depends on Random::RPG::MagicItem, Random::RPG::Monster, and Random::RPG::Weapon. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [Random::Time](Time.pm) selects a random time unit, random day part, random time, or random frequency. It also depends on Random::SpecialDice and Lingua::EN::Inflect. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Title](Title.pm) selects random titles given to people.
 * [Random::Water](Water.pm) selects random running or standing waters and precipitation.
 
 ## Random::Body
-* [Random::Body::Function](Body/Function.pm) selects random body functions. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm).
-* [Random::Body::Modification](Body/Modification.pm) selects random body modifications. It also depends on Random::Color, Random::GemMetalJewelry, Random::Size, Random::Misc, Random::RPG::Alignment, [Games::Dice](https://metacpan.org/pod/Games::Dice), and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
+* [Random::Body::Function](Body/Function.pm) selects random body functions. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm). It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [Random::Body::Modification](Body/Modification.pm) selects random body modifications. It also depends on Random::Color, Random::GemMetalJewelry, Random::Size, Random::Misc, Random::RPG::Alignment, [Games::Dice](https://metacpan.org/pod/Games::Dice), and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect). It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 
 ## Random::Color
-* [Random::Color](Color.pm) selects random colors.
+* [Random::Color](Color.pm) selects random colors. It needs the [color data files](../../data/Random/Colors) to run.
 * [*Random::Color::Hex*](Color/Hex.pm) returns random colors. It depends on [Fancy::Split](../Fancy/Split.pm).
 * [Random::Color::VisiBone](Color/VisiBone.pm) selects random colors based on the Web Designer's Color Reference Poster by [VisiBone](http://www.visibone.com/color/poster4x.html).
 
@@ -40,7 +40,7 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 * [Random::Xanth::Dragon](Xanth/Dragon.pm) generates random dragons from the *Xanth* series by Piers Anthony.
 
 ## Random::RPG
-All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons*, Second Edition. Please see the [Random::RPG::World readme](RPG/World/readme.md) for more on those modules.
+All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons*, Second Edition. All of the modules listed below are used in the [character mutation generator](../RPG/CharacterMutation.pm) except the specific magic item generators. Please see the [Random::RPG::World readme](RPG/World/readme.md) for more on those modules.
 
 * [Random::RPG::AbilityScores](RPG/AbilityScores.pm) selects random ability scores and their game effects.
 * [Random::RPG::Alignment](RPG/Alignment.pm) selects random alignments.
