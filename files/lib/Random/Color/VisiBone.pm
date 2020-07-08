@@ -38,6 +38,14 @@ sub random_VisiBone_color {
 
 B<Random::Color::VisiBone> selects random colors based on the Web Designer's Color Reference Poster by L<VisiBone|http://www.visibone.com/color/poster4x.html>.
 
+=head1 SYNOPSIS
+
+  use Random::Color::VisiBone qw(random_VisiBone_color);
+
+=head1 DEPENDENCIES
+
+Random::Color::VisiBone depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena

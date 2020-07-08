@@ -290,89 +290,93 @@ sub random_RPG_dragon {
 
 =head1 NAME
 
-B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and its compendiums from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and its compendiums from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::Monster qw(random_moster);
 
-  my $random_monster = random_monster;
+  my $monster = random_monster;
     # returns a random moster from the flattened list of monsters.
 
-  my $general_random_monster = random_monster('by keys');
+  my $general_monster = random_monster('by keys');
     # returns a random monster from just the keys of the data.
 
-  my $random_monster_list = random_monster('keys');
+  my $monster_list = random_monster('keys');
     # returns a list of the keys you can choose from
     # should you want to be more specific about what monster
     # you want
 
-  my $random_monster_data = random_monster('data');
+  my $monster_data = random_monster('data');
     # returns a hash listing of all monsters data
 
   # The following will return a monster from a specific group
 
-  my $random_amorphous_creature = random_monster('amorphous creature');
+  my $amorphous_creature = random_monster('amorphous creature');
 
-  my $random_amphibian_creature = random_monster('amphibian creature');
+  my $amphibian_creature = random_monster('amphibian creature');
 
-  my $random_antherion = random_monster('antherion');
+  my $antherion = random_monster('antherion');
 
-  my $random_avian_creature = random_monster('avian creature');
+  my $avian_creature = random_monster('avian creature');
 
-  my $random_beholder = random_monster('beholder');
+  my $beholder = random_monster('beholder');
 
-  my $random_centaur = random_monster('centaur');
+  my $centaur = random_monster('centaur');
 
-  my $random_construct = random_monster('construct');
+  my $construct = random_monster('construct');
 
-  my $random_dragon = random_monster('dragon');
+  my $dragon = random_monster('dragon');
   # or
-  my $random_dragon = random_RPG_dragon;
+  my $dragon = random_RPG_dragon;
 
-  my $random_equine_creature = random_monster('equine creature');
+  my $equine_creature = random_monster('equine creature');
 
-  my $random_faerie = random_monster('faerie');
+  my $faerie = random_monster('faerie');
 
-  my $random_gargantua = random_monster('gargantua');
+  my $gargantua = random_monster('gargantua');
 
-  my $random_giant = random_monster('giant');
+  my $giant = random_monster('giant');
 
-  my $random_specil_gith = random_monster('gith (special)');
+  my $specil_gith = random_monster('gith (special)');
 
-  my $random_goblinoid = random_monster('goblinoid');
+  my $goblinoid = random_monster('goblinoid');
 
-  my $random_grell = random_monster('grell');
+  my $grell = random_monster('grell');
 
-  my $random_gremlin = random_monster('gremlin');
+  my $gremlin = random_monster('gremlin');
 
-  my $random_hag = random_monster('hag');
+  my $hag = random_monster('hag');
 
-  my $random_harpy = random_monster('harpy');
+  my $harpy = random_monster('harpy');
 
-  my $random_humanoid = random_monster('humanoid');
+  my $humanoid = random_monster('humanoid');
 
-  my $random_illithid = random_monster('illithid');
+  my $illithid = random_monster('illithid');
 
-  my $random_insectoid_creature = random_monster('insectoid creature');
+  my $insectoid_creature = random_monster('insectoid creature');
 
-  my $random_lycanthrope = random_monster('lycanthrope');
+  my $lycanthrope = random_monster('lycanthrope');
 
-  my $random_medusa = random_monster('medusa');
+  my $medusa = random_monster('medusa');
 
-  my $random_planar_creature = random_monster('planar creature');
+  my $planar_creature = random_monster('planar creature');
 
-  my $random_reptilian_creature = random_monster('reptilian creature');
+  my $reptilian_creature = random_monster('reptilian creature');
 
-  my $random_saurial = random_monster('saurial');
+  my $saurial = random_monster('saurial');
 
-  my $random_spacefaring_creature = random_monster('spacefaring');
+  my $spacefaring_creature = random_monster('spacefaring');
 
-  my $random_sphinx = random_monster('sphinx');
+  my $sphinx = random_monster('sphinx');
 
-  my $random_undead = random_monster('undead');
+  my $undead = random_monster('undead');
 
-  my $random_underwater_creature = random_monster('underwater creature');
+  my $underwater_creature = random_monster('underwater creature');
+
+=head1 DEPENDENCIES
+
+Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, L<Lingua::EN::Inflect>, and L<List::Util>.
 
 =head1 AUTHOR
 

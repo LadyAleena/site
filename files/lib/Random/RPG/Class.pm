@@ -40,11 +40,15 @@ sub random_class_special {
 
 =head1 NAME
 
-B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::Class qw(random_class random_class_special);
+
+=head1 DEPENDENCIES
+
+Random::RPG::Class depends on L<Fancy::Rand> and L<Lingua::EN::Inflect>.
 
 =head1 AUTHOR
 

@@ -16,8 +16,9 @@ use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
 use Random::Color qw(random_color);
 use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
 use Random::RPG::Monster qw(random_RPG_dragon);
+use Util::Data qw(file_directory);
 
-my $directory = '../../data/Random/Dragons';
+my $directory = file_directory('Random/Dragons', 'data');
 
 open(my $DreamWorks_fh,  '<', "$directory/DreamWorks_dragons.txt") ||
   die "Can not open $directory/DreamWorks_dragons.txt. $!";
@@ -61,7 +62,7 @@ sub random_dragon {
 
 =head1 NAME
 
-B<Random::Dragon> generates random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
+B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
 
 =head1 SYNOPSIS
 
@@ -76,30 +77,30 @@ B<Random::Dragon> generates random dragons from the DreamWorks Dragons, Harry Po
   );
 
   my $DreamWorks_dragon = random_DreamWorks_dragon;
-    # returns a random dragon from the DreamWorks dragon franchise
+    # selects a random dragon from the DreamWorks dragon franchise
     # based on the novels by Cressida Cowell
 
   my $Harry_Potter_dragon = random_Harry_Potter_dragon;
-    # returns a random dragon from the Harry Potter series by J.K. Rowling
+    # selects a random dragon from the Harry Potter series by J.K. Rowling
 
   my $Pern_dragon = random_Pern_dragon;
-    # returns a random dragon or fire lizard from the Pern series by Anne McCaffrey
+    # selects a random dragon or fire lizard from the Pern series by Anne McCaffrey
 
   my $Xanth_dragon = random_Xanth_dragon;
-    # returns a random new dragon from the Xanth series by Piers Anthony
+    # selects a random new dragon from the Xanth series by Piers Anthony
 
   my $old_Xanth_dragon = random_old_Xanth_dragon;
-    # returns a random old dragon from the Xanth series by Piers Anthony
+    # selects a random old dragon from the Xanth series by Piers Anthony
 
   my $RPG_dragon = random_RPG_dragon;
-    # returns a random dragon from AD&D, 2nd ed.
+    # selects a random dragon from AD&D, 2nd ed.
 
   my $dragon = random_dragon;
-    # returns a random dragon from all of the above
+    # selects a random dragon from all of the above
 
-=head1 SEE ALSO
+=head1 DEPENDENCIES
 
-This module uses L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon> for generating those dragons.
+Random::Dragon depends on L<Fancy::Rand>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, and L<Util::Data>.
 
 =head1 AUTHOR
 

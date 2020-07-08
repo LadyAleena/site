@@ -22,11 +22,15 @@ sub random_saving_throw {
 
 =head1 NAME
 
-B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::SavingThrow qw(random_saving_throw);
+
+=head1 DEPENDENCY
+
+Random::RPG::SavingThrow depends on L<Fancy::Rand>.
 
 =head1 AUTHOR
 

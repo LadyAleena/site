@@ -100,6 +100,14 @@ sub random_body_functions {
 
 B<Random::Body::Function> selects random body functions.
 
+=head1 SYNOPSIS
+
+  use Random::Body::Function qw(random_body_function random_body_functions);
+
+=head1 DEPENDENCIES
+
+Random::Body::Function depends on L<Fancy::Rand> and L<Fancy::Join::Grammatical>.
+
 =head1 AUTHOR
 
 Lady Aleena

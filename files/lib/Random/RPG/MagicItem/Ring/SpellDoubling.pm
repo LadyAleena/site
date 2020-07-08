@@ -60,6 +60,14 @@ sub random_ring {
 
 B<Random::RPG::MagicItem::Ring::SpellDoubling> makes or randomly generates a Ring of Spell Doubling.
 
+=head1 SYNOPSIS
+
+  use Random::RPG::MagicItem::Ring::SpellDoubling qw(make_ring random_ring);
+
+=head1 DEPENDENCY
+
+Random::RPG::MagicItem::Ring::SpellDoubling depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena

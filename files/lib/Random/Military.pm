@@ -137,4 +137,59 @@ sub random_military_by_location {
   return random_military($unit);
 }
 
+=head1 NAME
+
+B<Random::Military> generates a fictional and fantasy military unit.
+
+=head1 SYNOPSIS
+
+  use Random::Military qw(random_military random_military_by_location);
+
+  my $army       = random_military('army');
+  my $division   = random_military('division');
+  my $brigade    = random_military('brigade');
+  my $regiment   = random_military('regiment');
+  my $battallion = random_military('batallion');
+  my $company    = random_military('company');
+  my $platoon    = random_military('platoon');
+  my $squad      = random_military('squad');
+
+  my $kingdom_military     = random_military_by_location('kingdom');
+    # this is the same as random_military('army')
+
+  my $grand_duchy_military = random_military_by_location('grand duchy');
+    # this is the same as random_military('division')
+
+  my $duchy_military       = random_military_by_location('duchy');
+    # this is the same as random_military('brigade')
+
+  my $county_military      = random_military_by_location('county');
+    # this is the same as random_military('regiment')
+
+  my $barony_military      = random_military_by_location('barony');
+    # this is the same as random_military('batallion')
+
+  my $large_town_military  = random_military_by_location('large town');
+    # this is the same as random_military('company')
+
+  my $small_town_military  = random_military_by_location('small town');
+    # this is the same as random_military('platoon')
+
+  my $village_military     = random_military_by_location('village');
+    # this is the same as random_military('squad')
+
+=head1 DESCRIPTION
+
+The expors of Random::Military will return a hash with the statistics of the selected military unit. The larger the military, the larger and deeper the hash will be.
+
+The hash for each unit and any subunits will include the leader of the unit, the amount of each subordinate type, and the total amount of soldiers in the unit. To see the full unit, use your favorite data dumping module.
+
+C<random_military_by_location> was written for fun even though it mimics C<random_military>.
+
+=head1 DEPENDENCY
+
+Random::Military depends on L<Games::Dice>.
+
+=cut
+
 1;

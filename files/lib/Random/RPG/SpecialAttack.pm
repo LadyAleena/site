@@ -39,11 +39,15 @@ sub random_special_attack {
 
 =head1 NAME
 
-B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::SpecialAttack qw(random_special_attack);
+
+=head1 DEPENDENCIES
+
+Random::RPG::SpecialAttack depends on L<Fancy::Rand>, L<Fancy::Join::Defined>, L<Random::SpecialDice>, and L<Random::Time>.
 
 =head1 AUTHOR
 

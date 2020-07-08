@@ -73,6 +73,10 @@ B<Random::SpecialDice> rolls for a random die, d16, percentile, permille, and pe
   my $permille   = permille;      # rolls a permille using d10s
   my $permyriad  = permyriad;     # rolls a permyriad using d10s
 
+=head1 DEPENDENCY
+
+Random::SpecialDice depends on L<Games::Dice>.
+
 =head1 AUTHOR
 
 Lady Aleena with help from GrandFather on PerlMonks.

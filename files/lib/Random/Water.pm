@@ -26,14 +26,24 @@ B<Random::Water> selects random running or standing waters and precipitation.
 
   use Random::Water qw(random_water);
 
-  my $random_running_water  = random_water('running');      # selects a body of running water like a stream or river.
-  my $random_standing_water = random_water('standing');     # selects a body of standing water like a pond or lake.
-  my $random_precipitation  = random_water('precipitation') # selects a type of precipitation like rain or snow.
+  my $random_water = random_water();
+    # selects any body of water or precipitation.
 
-  my $random_water = random_water(); # selects any type of body of water or precipitation.
+  my $random_running_water  = random_water('running');
+    # selects a body of running water like a stream or river.
+
+  my $random_standing_water = random_water('standing');
+    # selects a body of standing water like a pond or lake.
+
+  my $random_precipitation  = random_water('precipitation')
+    # selects a type of precipitation like rain or snow.
 
   print random_water('help'); # get random_water options
 
+
+=head1 DEPENDENCY
+
+Random::Water depends on L<Fancy::Rand>.
 
 =head1 AUTHOR
 

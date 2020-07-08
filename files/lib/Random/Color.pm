@@ -5,8 +5,9 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(random_color);
 
 use Fancy::Rand qw(fancy_rand);
+use Util::Data qw(file_directory);
 
-my $directory = '../../data/Random/Colors';
+my $directory = file_directory('Random/Colors', 'data');
 
 open(my $Crayola_fh, '<', "$directory/Crayola_crayon_colors.txt") ||
   die "Can not open $directory/Crayola_crayon_colors.txt. $!";
@@ -111,6 +112,16 @@ B<Random::Color> selects random colors.
 
   my $Pern_dragon_color     = random_color('Pern dragon');
     # selects from blue, green, brown, bronze, and gold.
+
+  print random_color('help'); # get random_color options
+
+=head1 DEPENDENCIES
+
+Random::Color depends on L<Fancy::Rand> and L<Util::Data>.
+
+=head1 SEE ALSO
+
+More random colors can be found in L<Random::GemMetalJewelry>.
 
 =head1 NOTE
 

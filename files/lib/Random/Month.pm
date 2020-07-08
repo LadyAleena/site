@@ -94,6 +94,10 @@ B<Random::Month> selects a random month by language.
 
   print random_month('help') # get random_month options
 
+=head1 DEPENDENCIES
+
+Random::Month depends on L<Fancy::Rand> and L<Date::Calc>.
+
 =head1 AUTHOR
 
 Lady Aleena

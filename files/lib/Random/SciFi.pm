@@ -38,6 +38,10 @@ B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a
   my $random_HHGTTG_sector = random_HHGTTG_sector(); # returns a random sector based on HHTTG sectors mentioned.
   my $random_MIB_agent     = random_MIB_agent();     # returns a random MIB agent, either single or double letter.
 
+=head1 DEPENDENCY
+
+Random::SciFi depends on L<Random::Alpha>.
+
 =head1 AUTHOR
 
 Lady Aleena

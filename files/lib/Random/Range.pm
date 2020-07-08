@@ -66,6 +66,10 @@ When you want to generate a random range with this module, you can choose from t
 
 You can substitute C<random_range> with C<random_radius> to get some extra text with the returned value.
 
+=head1 DEPENDENCY
+
+Random::Range depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena

@@ -83,6 +83,10 @@ The five weapons are: fire, smoke, steam, suction, and prehensile tongue.
 
 The five environments are: land, water, air, tunneling, and jumping.
 
+=head1 DEPENDENCY
+
+Random::Xanth::Dragon depends on L<Fancy::Rand>.
+
 =head1 SEE ALSO
 
 This module is used in L<Random::Dragon>.

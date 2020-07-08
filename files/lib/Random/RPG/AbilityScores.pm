@@ -29,11 +29,15 @@ sub random_game_effect_expanded {
 
 =head1 NAME
 
-B<Random::RPG::AbilityScores> selects random ability scores and their game effects from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::AbilityScores> selects random ability scores and their game effects from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::AbilityScores qw(random_ability);
+
+=head1 DEPENDENCY
+
+Random::RPG::AbilityScroes depends on L<Fancy::Rand>.
 
 =head1 AUTHOR
 

@@ -46,6 +46,54 @@ sub random_zstuff             { fancy_rand(\%misc, 'zstuff'            , { 'call
 
 B<Random::Misc> selects random miscellaneous things.
 
+=head1 SYNOPSIS
+
+  use Random::Misc qw(
+    random_divinity
+    random_emotion
+    random_game
+    random_generation
+    random_group
+    random_henchmen
+    random_language_common
+    random_non
+    random_parent
+    random_proficiency_type
+    random_relationship
+    random_sexual_orientation
+    random_shadow
+    random_sign
+    random_zstuff
+  );
+
+  my $divinity           = random_divinity;           # selects a random A&D divinity
+  my $emotion            = random_emotion;            # selects a random emotion
+  my $game               = random_game;               # selects a random type of game
+  my $generation         = random_generation;         # selects a random generation
+  my $group              = random_group;              # selects a random group type
+  my $henchmen           = random_henchmen;           # selects random AD&D henchmen
+  my $language_common    = random_language_common;    # selects a random AD&D common language
+  my $non                = random_non;                # selects either an empty string or non
+  my $parent             = random_parent;             # selects a random parent, mother or father
+  my $proficiency_type   = random_proficiency_type;   # selects a random AD&D proficiency type
+  my $relationship       = random_relationship;       # selects a random relationship status
+  my $sexual_orientation = random_sexual_orientation; # selects a random sexual orientation
+  my $shadow             = random_shadow;             # selects a random shadow
+  my $sign               = random_sign;               # selects either a + or a -
+  my $zstuff             = random_zstuff;             # selects random stuff
+
+=head1 DESCRIPTION
+
+Random::Misc is a catch all for lists that can not be classified as anything else.
+
+=head1 DEPENDENCY
+
+Random::Misc depends on L<Fancy::Rand>.
+
+=head1 SEE ALSO
+
+L<Random::Things>
+
 =head1 AUTHOR
 
 Lady Aleena

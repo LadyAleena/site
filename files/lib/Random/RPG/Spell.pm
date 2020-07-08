@@ -4,10 +4,11 @@ use warnings FATAL => qw(all);
 use Exporter qw(import);
 our @EXPORT_OK = qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
 
+use Lingua::EN::Inflect qw(ORD);
+
 use Fancy::Rand qw(tiny_rand);
 use Random::SpecialDice qw(percentile);
 
-use Lingua::EN::Inflect qw(ORD);
 
 my %spells = (
   wizard => {
@@ -102,11 +103,15 @@ sub random_spell_casting {
 
 =head1 NAME
 
-B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
-  use Random::RPG::Class qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
+  use Random::RPG::Spell qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
+
+=head1 DEPENDENCIES
+
+Random::RPG::Spell depends on L<Fancy::Rand>, L<Random::SpecialDice>, and L<Lingua::EN::Inflect>.
 
 =head1 AUTHOR
 

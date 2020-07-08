@@ -24,6 +24,40 @@ sub random_title {
 
 B<Random::Title> selects random titles given to people.
 
+=head1 SYNOPSIS
+
+  use Random::Title qw(random_title);
+
+  my $title            = random_title;
+  # or
+  my $title            = random_title('all');
+
+  my $noble_male       = random_title('noble male');
+    # selects from emperor, king, prince, archduke, duke, count,
+    # viscount, baron, squire, master, and lord
+
+  my $noble_female     = random_title('noble female');
+    # selects from empress, queen, princess, archduchess, duchess,
+    # countess, viscountess, baroness, dame, mistress, and lady
+
+  my $military_rank    = random_title('military');
+    # selects from marshal, general, colonel, major, captain,
+    # lieutenant, sergeant, corporal, and private
+
+  my $naval_rank       = random_title('naval');
+    # selects from admiral, captain, commander, lieutenant,
+    # ensign, and seaman
+
+  my $government_title = random_title('government');
+    # selects from president, secretary, senator, governor, director,
+    # commissioner, mayor, administrator, and manager
+
+  print random_title('help'); # get random_title options
+
+=head1 DEPENDENCY
+
+Random::Title depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena

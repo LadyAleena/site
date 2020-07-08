@@ -6,19 +6,19 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 
 * [Random::Alpha](Alpha.pm) selects random letters of the English alphabet.
 * [Random::Descriptor](Descriptor.pm) selects a random descriptor.
-* [Random::Dragon](Dragon.pm) generates random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, and Random::RPG::Monster. It needs the [dragon data files](../../data/Random/Dragons) to run.
+* [Random::Dragon](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, and Random::RPG::Monster. It needs the [dragon data files](../../data/Random/Dragons) to run.
 * [Random::Food](Food.pm) selects either a random food or drink. It also depends on [Fancy::Map](../Fancy/Map.pm).
 * [Random::GemMetalJewelry](GemMetalJewelry.pm) selects random gems, metals, and jewelry. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm) and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
-* [*Random::Government*](Government.pm) returns a random government type.
-* [*Random::Insanity*](Insanity.pm) returns a random mental disorder. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
-* [*Random::Military*](Military.pm) returns a random fictional and fantasy military unit. It depends on [Games::Dice](https://metacpan.org/pod/Games::Dice).
+* [*Random::Government*](Government.pm) selects a random government type.
+* [*Random::Insanity*](Insanity.pm) selects a random mental disorder. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [*Random::Military*](Military.pm) generates a random fictional and fantasy military unit. It depends on [Games::Dice](https://metacpan.org/pod/Games::Dice).
 * [Random::Misc](Misc.pm) selects random miscellaneous things. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Month](Month.pm) selects a random month by language. It also depends on [Date::Calc](https://metacpan.org/pod/Date::Calc).
 * [Random::Range](Range.pm) selects random ranges or radiuses. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::SciFi](SciFi.pm) returns a random *Hitchhikers' Guide to the Galaxy* sector or a random *Men in Black* agent id. It also depends on Random::Alpha.
 * [Random::Size](Size.pm) selects random relative sizes.
 * [Random::SpecialDice](SpecialDice.pm) rolls for a random die, d16, percentile, permille, and permyriad. It also depends on Games::Dice. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
-* [Random::Thing](Thing.pm) selects random things. It also depends on Random::RPG::MagicItem, Random::RPG::Monster, and Random::RPG::Weapon. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [Random::Thing](Thing.pm) selects random things. It also depends on Random::RPG::MagicItem, Random::RPG::Monster, Random::RPG::Weapon, and Lingua::EN::Inflect. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Time](Time.pm) selects a random time unit, random day part, random time, or random frequency. It also depends on Random::SpecialDice and Lingua::EN::Inflect. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Title](Title.pm) selects random titles given to people.
 * [Random::Water](Water.pm) selects random running or standing waters and precipitation.

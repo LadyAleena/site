@@ -77,4 +77,22 @@ sub random_girdle {
   return $girdle;
 }
 
+=head1 NAME
+
+B<Random::RPG::MagicItem::Giant> returns either a gauntlet or girdle of giant strength from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 SYNOPSIS
+
+  use Random::MagicItem::Giant qw(random_gauntlets random_girdle);
+
+=head1 DEPENDENCIES
+
+Random::RPG::MagicItem::Giant depends on L<Fancy::Rand> and L<Random::RPG::MagicItem>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
+
 1;

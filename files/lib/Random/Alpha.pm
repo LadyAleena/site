@@ -9,12 +9,12 @@ use Fancy::Rand qw(fancy_rand);
 my @vowels = (0,4,8,14,20);
 
 my %alphabet = (
-  'upper case'       => ['A'..'Z'],
-  'lower case'       => ['a'..'z']
+  'upper case' => ['A'..'Z'],
+  'lower case' => ['a'..'z']
 );
 $alphabet{'upper vowels'} = [@{$alphabet{'upper case'}}[@vowels]];
 $alphabet{'lower vowels'} = [@{$alphabet{'lower case'}}[@vowels]];
-$alphabet{'ascenders'}    = ['b', 'd', 'f', 'h', 'k', 'l', 't'],
+$alphabet{'ascenders'}    = ['b', 'd', 'f', 'h', 'k', 'l', 't'];
 $alphabet{'descenders'}   = ['g', 'j', 'p', 'q', 'y'];
 $alphabet{'crosses and dots'} = ['f', 'i', 'j', 't'];
 
@@ -45,6 +45,10 @@ B<Random::Alpha> selects random letters of the English alphabet.
   my $Greek        = random_alpha('Greek'); # selects a Greek letter spelled out
 
   print random_alpha('help') # get random_alpha options
+
+=head1 DEPENDENCY
+
+Random::Alpha depends on L<Fancy::Rand>.
 
 =head1 AUTHOR
 

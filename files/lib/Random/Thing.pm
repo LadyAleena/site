@@ -2,6 +2,7 @@ package Random::Thing;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
+
 use Lingua::EN::Inflect qw(PL_N);
 
 use Fancy::Rand qw(fancy_rand);
@@ -39,6 +40,72 @@ sub random_musical_instruments { my $user_addition = shift; random_things('music
 =head1 NAME
 
 B<Random::Thing> selects random things.
+
+=head1 SYNOPSIS
+
+  use Random::Thing;
+
+  my $things              = random_things;
+
+  my $animals             = random_things('animals');
+  # or
+  my $animals             = random_animals;
+    # selects from animals, amphibians, arthropods, birds, fish, mammals, reptiles,
+    # insects, and spiders
+
+  my $armor               = random_things('armor');
+  # or
+  my $armor               = random_armor;
+    # selects from armor, helmets, and shields
+
+  my $magic_items         = random_things('magic items');
+  # or
+  my $magic_items         = random_magic_items;
+    # see Random::RPG::Magic_item for details
+
+  my $monsters            = random_things('monsters');
+  # or
+  my $monsters            = PL_N(random_monster, 2);
+    # see Random::RPG::Monster for details
+
+  my $musical_instruments = random_things('musical instruments');
+  # or
+  my $musical_instruments = random_musical_instruments;
+    # selects from musical instruments, brass instruments, percussion instruments,
+    # string instruments, and woodwind instruments
+
+  my $plants              = random_things('plants');
+  # or
+  my $plants              = random_plants;
+    # selects from plants, ferns, flowers, mosses, trees, and weeds
+
+  my $utensils            = random_things('utensils');
+  # or
+  my $utensils            = random_utensils;
+    # selects from utensils, cooking utensils, eating utensils, and writing utensils
+
+  my $weapons             = random_things('weapons');
+  # or
+  my $weapons             = random_weapons;
+    # see Random::RPG::Weapons for details
+
+  my $other_things        = random_things('other');
+    # selects from bedding, boats, books, clothing, dishes, furniture, inanimate objects,
+    # jewelry, religious symbols, rocks, rugs, tools, and wagons
+
+  print random_thing('help'); # get random_thing options
+
+=head1 DESCRIPTION
+
+Random::Thing selects random animals, plants, armor, musicial intruments, utensils, magic items, monsters, weapons, and a general other category.
+
+=head1 DEPENDENCIES
+
+Random::Thing depends on L<Fancy::Rand>, I<Random::RPG::MagicItem>, I<Random::RPG::Monster>, and L<Random::RPG::Weapon>.
+
+=head1 SEE ALSO
+
+L<Random::Misc>
 
 =head1 AUTHOR
 

@@ -85,6 +85,10 @@ B<Random::Time> selects a random time unit, random day part, random time, or ran
 
   my $frequency = random_frequency; # selects a frequency by time unit
 
+=head1 DEPENDENCIES
+
+Random::Time depends on L<Fancy::Rand>, L<Random::SpecialDice>, and I<Lingua::EN::Inflect>.
+
 =head1 AUTHOR
 
 Lady Aleena

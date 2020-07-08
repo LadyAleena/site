@@ -38,11 +38,15 @@ sub random_event {
 
 =head1 NAME
 
-B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::Event qw(random_event);
+
+=head1 DEPENDENCIES
+
+Random::RPG::Event depends on L<Fancy::Rand>, L<Random::RPG::AbilityScores>, and L<Random::RPG::SavingThrow>.
 
 =head1 AUTHOR
 

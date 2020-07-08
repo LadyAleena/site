@@ -46,6 +46,14 @@ sub hex_color_with_number {
 
 B<Random::Color::Hex> returns random colors.
 
+=head1 SYNOPSIS
+
+  use Random::Color::Hex qw(random_hex_color hex_color_with_number);
+
+=head1 DEPENDENCIES
+
+Random::Color::Hex depends on L<Fancy::Split>.
+
 =head1 AUTHOR
 
 Lady Aleena

@@ -139,11 +139,15 @@ sub random_magic_item_action {
 
 =head1 NAME
 
-B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::MagicItem qw(random_magic_items random_magic_item_action);
+
+=head1 DEPENDENCIES
+
+Random::RPG::MagicItem depends on L<Fancy::Rand>, L<Random::Range>, L<Random::SpecialDice>, and L<Lingua::EN::Inflect>.
 
 =head1 AUTHOR
 

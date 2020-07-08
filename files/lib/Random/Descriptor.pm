@@ -35,6 +35,12 @@ B<Random::Descriptor> selects a random descriptor.
   my $rarity   = random_descriptor('rarity');   # selects a random rarity
   my $reaction = random_descriptor('reaction'); # selects a random reaction
 
+  print random_descriptor('help'); # get random_descriptor options
+
+=head1 DEPENDENCY
+
+Random::Descriptor depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena

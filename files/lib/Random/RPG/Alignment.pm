@@ -50,7 +50,7 @@ sub full {
 
 =head1 NAME
 
-B<Random::RPG::Alignment> selects random alignments for AD&D 2nd Edition from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Alignment> selects random alignments from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
@@ -73,6 +73,10 @@ When you want to generate a random alignment with this module, you can choose fr
 
 The default random result is C<random_alignment('all')>.
 
+=head1 DEPENDENCY
+
+Random::RPG::Alignment depends on L<Fancy::Rand>.
+
 =head1 AUTHOR
 
 Lady Aleena with lots of help from DrForr, whoppix, and rindolf in the #perlcafe on freenode.
@@ -80,7 +84,6 @@ Lady Aleena with lots of help from DrForr, whoppix, and rindolf in the #perlcafe
 =head1 SEE ALSO
 
 You can expand alignment abbreviations with B<L<RPG::Character::Alignment>>.
-
 
 =cut
 

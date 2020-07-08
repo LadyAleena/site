@@ -47,13 +47,18 @@ B<Random::Size> selects random relative sizes.
   my $random_size        = random_size('all')     # selects a random selection from all of the above except keys
   my $keys = random_size('keys')    # the keys
   my $hash = random_size('list')    # the hash
-  my $help = random_size('help')    # a helpful message if you forget what your options are
+
+  print random_size('help'); # get random_size options
 
 =head1 DESCRIPTION
 
 The options for B<random_size> are: amount, consistency, density, depth, height, length, speed, weight, width, or general.
 
 If you can not remember what you want, you can always use C<random_size('help')> to retrieve the list of options.
+
+=head1 DEPENDENCY
+
+Random::Size depends on L<Fancy::Rand>.
 
 =head1 AUTHOR
 

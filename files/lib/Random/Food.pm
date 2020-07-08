@@ -59,12 +59,21 @@ B<Random::Food> selects either a random food or drink.
   my $Klondike_bar = random_food('Klondike bar'); # selects a Klondike bar flavor
   my $MandM        = random_food('M&Ms');         # selects an M&M flavor
 
+  print random_food('help'); # get random_food options
+
   my $drink = random_drink('all');       # selects any drink on the list
   my $beer  = random_drink('beer');      # selects a beer or ale
   my $hot   = random_drink('hot drink'); # selects a hot drink
   my $juice = random_drink('juice');     # selects a juice
 
   my $KoolAid = random_drink('Kool-Aid'); # selects a Kool-Aid flavor
+
+  print random_drink('help'); # get random_drink options
+
+
+=head1 DEPENDENCIES
+
+Random::Food depends on L<Fancy::Rand> and L<Fancy::Map>.
 
 =head1 AUTHOR
 

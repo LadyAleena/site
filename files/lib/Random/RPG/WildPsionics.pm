@@ -241,11 +241,27 @@ sub random_wild_psionic_talent {
 
 =head1 NAME
 
-B<Random::RPG::WildPsionics> selects random wild psionic talents from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::WildPsionics> selects random a wild psionic talent from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::WildPsionics qw(random_wild_psionic_talent);
+
+  my $psionic_talent = random_wild_psionic_talent;
+
+=head1 DESCRIPTION
+
+Random::RPG::WildPsionics selects a wild psionic talent with all of its prerequisites and total amount of PSPs.
+
+You can roll for more than one wild psionic talent:
+
+  my $wild_talent = random_wild_psionic_talent(2);
+
+That could return something like: C<wild psionic talents: (PSPs: 47) animate shadow, combat mind, telekinesis>
+
+=head1 DEPENDENCIES
+
+Random::RPG::WildPsionics depends on L<Fancy::Rand>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<List::MoreUtils>.
 
 =head1 AUTHOR
 

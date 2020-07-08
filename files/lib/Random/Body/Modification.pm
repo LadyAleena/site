@@ -300,6 +300,14 @@ sub random_aura {
 
 B<Random::Body::Modification> selects random body modifications.
 
+=head1 SYNOPSIS
+
+  use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
+
+=head1 DEPENDENCIES
+
+Random::Body::Modification depends on L<Fancy::Rand>, L<Random::Color>, L<Random::GemMetalJewelry>, L<Random::Size>, L<Random::Misc>, L<Random::RPG::Alignment>, L<Games::Dice>, and L<Lingua::EN::Inflect>.
+
 =head1 AUTHOR
 
 Lady Aleena

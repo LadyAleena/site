@@ -8,10 +8,10 @@ use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
 use String::Util qw(collapse);
 
-use Util::Data   qw(make_hash);
 use Fancy::Rand  qw(fancy_rand tiny_rand);
 use Random::Misc qw(random_non);
 use RPG::WeaponName qw(display_weapon);
+use Util::Data   qw(make_hash);
 
 my $weapons = make_hash(
   file => ['Role_playing/Reference_tables', 'Weapons.txt'],
@@ -74,11 +74,15 @@ sub random_weapon_damage {
 
 =head1 NAME
 
-B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons, Second Edition>.
+B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons>, Second Edition.
 
 =head1 SYNOPSIS
 
   use Random::RPG::Weapon qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
+
+=head1 DEPENDENCIES
+
+Random::RPG::Weapon depends on L<Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<String::Util>.
 
 =head1 AUTHOR
 
