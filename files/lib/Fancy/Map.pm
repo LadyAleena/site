@@ -28,7 +28,7 @@ B<Fancy::Map> maps within a map.
 =head1 SYNOPSIS
 
   my $colors = [fancy_map(
-                 { 'before => 'glass', 'after' => 'beads' },
+                 { 'before' => 'glass', 'after' => 'beads' },
                  [map("sparkley $_", ('red', 'yellow', 'green', 'cyan', 'blue', 'magenta')), 'white', 'black', 'gray']
                )];
 
