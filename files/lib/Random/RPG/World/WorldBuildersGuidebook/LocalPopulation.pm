@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::LocalPopulation;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(local_population);
+our @EXPORT_OK = qw(local_population);
 
 use Games::Dice qw(roll);
 

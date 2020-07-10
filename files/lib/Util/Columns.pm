@@ -2,22 +2,24 @@ package Util::Columns;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(number_of_columns);
+our @EXPORT_OK = qw(number_of_columns);
 
 use Lingua::EN::Inflect qw(NUMWORDS);
 
 sub number_of_columns {
   my ($max_cols, $amount, $word) = @_;
+  my $columns;
   if ($amount <= $max_cols ** 2) {
     for my $num (1..$max_cols) {
       if ($amount >= $num ** 2 && $amount < ($num + 1) ** 2) {
-        return $word && $word =~ /^[yt1]/i ? NUMWORDS($num) : $num;
+        $columns = $word && $word =~ /^[yt1]/i ? NUMWORDS($num) : $num;
       }
     }
   }
   else {
-    return $word && $word =~ /^[yt1]/i ? NUMWORDS($max_cols) : $max_cols;
+    $columns = $word && $word =~ /^[yt1]/i ? NUMWORDS($max_cols) : $max_cols;
   }
+  return $columns;
 }
 
 =head1 NAME

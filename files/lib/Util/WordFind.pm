@@ -27,6 +27,9 @@ sub word_find {
   my $find_out = { 'list' => \@monsters, 'lonely' => $lone_sent };
   $find_out->{'board'} = do { local $/; readline($word_find_board) };
 
+  close($word_find_board);
+  close($word_find_list);
+
   return $find_out;
 }
 

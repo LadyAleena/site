@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_technology_level);
+our @EXPORT_OK = qw(random_technology_level);
 
 use Random::SpecialDice qw(percentile);
 

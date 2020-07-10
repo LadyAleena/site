@@ -2,7 +2,7 @@ package Date::Birth::DayStone;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(day_stone);
+our @EXPORT_OK = qw(day_stone);
 
 use Date::Calc qw(:all);
 use String::Util qw(trim);

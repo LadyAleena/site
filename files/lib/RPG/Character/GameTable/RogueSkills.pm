@@ -62,8 +62,15 @@ sub rogue_skills {
   my ($class, $opt) = @_;
   my $level = $opt->{'level'} ? $opt->{'level'} : class_level($class, $opt->{'experience'});
 
-  return thief_skills($level) if $class eq 'thief';
-  return bard_skills($level)  if $class eq 'bard';
+  my $skills;
+  if ($class eq 'thief') {
+    $skills = thief_skills($level);
+  }
+  elsif ($class eq 'bard') {
+    $skills = bard_skills($level);
+  }
+
+  return $skills;
 }
 
 sub rogue_skills_table_rows {

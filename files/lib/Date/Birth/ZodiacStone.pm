@@ -2,7 +2,7 @@ package Date::Birth::ZodiacStone;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(sign zodiac_stone);
+our @EXPORT_OK = qw(sign zodiac_stone);
 
 use String::Util qw(trim);
 

@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::GovernmentForm;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_government_form);
+our @EXPORT_OK = qw(random_government_form);
 
 use Random::SpecialDice qw(percentile);
 

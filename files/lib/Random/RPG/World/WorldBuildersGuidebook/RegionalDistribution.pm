@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(regional_distribution);
+our @EXPORT_OK = qw(regional_distribution);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Regional Land and Water Distribution Chart (Table 5)
@@ -106,3 +106,5 @@ sub regional_distribution {
   my ($display, $hydrology) = @_;
   return $distribution{$display}{$hydrology};
 }
+
+1;

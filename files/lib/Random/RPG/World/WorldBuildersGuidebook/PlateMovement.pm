@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::PlateMovement;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_plate_movement);
+our @EXPORT_OK = qw(random_plate_movement);
 
 use Random::SpecialDice qw(percentile);
 

@@ -74,6 +74,7 @@ while (my $raw_armor = <$armor_file>) {
     }
   }
 }
+close($armor_file);
 
 # End armor
 
@@ -208,6 +209,7 @@ while (my $raw_ammo = <$ammo_file>) {
     add_vs($magic_ammo, $magic_value);
   }
 }
+close($ammo_file);
 
 # End ammunition
 

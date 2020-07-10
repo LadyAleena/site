@@ -2,7 +2,7 @@ package RPG::RacialLanguages;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT = qw(racial_languages);
+our @EXPORT_OK = qw(racial_languages);
 
 my %racial_languages = (
   'dwarf'      => [qw(kobold gnome goblin)],

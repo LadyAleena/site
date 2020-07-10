@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_prevailing_winds);
+our @EXPORT_OK = qw(random_prevailing_winds);
 
 use Games::Dice qw(roll);
 

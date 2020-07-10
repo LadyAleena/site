@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::VolcanicActivity;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_volcanic_activity);
+our @EXPORT_OK = qw(random_volcanic_activity);
 
 use Random::SpecialDice qw(percentile);
 

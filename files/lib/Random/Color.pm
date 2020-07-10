@@ -12,10 +12,12 @@ my $directory = file_directory('Random/Colors', 'data');
 open(my $Crayola_fh, '<', "$directory/Crayola_crayon_colors.txt") ||
   die "Can not open $directory/Crayola_crayon_colors.txt. $!";
 my @Crayola_crayons = map { chomp; $_ } <$Crayola_fh>;
+close($Crayola_fh);
 
 open(my $MandMs_fh,  '<', "$directory/MandMs_colors.txt") ||
   die "Can not open $directory/MandMs_colors.txt. $!";
 my @MandMs = map { chomp; $_ } <$MandMs_fh>;
+close($MandMs_fh);
 
 my %colors = (
   'additive primary'      => [qw(red green blue)],

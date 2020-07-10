@@ -8,9 +8,9 @@ use CGI::Minimal;
 use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
-use Base::Page qw(page story);
+use Base::Page     qw(page story);
 use HTML::Elements qw(section heading list anchor);
-use Util::Columns;
+use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(searchify);
 use Util::Data     qw(file_directory file_list);
 use Util::Menu     qw(file_menu);

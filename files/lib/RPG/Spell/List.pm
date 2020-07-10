@@ -16,6 +16,7 @@ sub spell_description_from_file {
   my $spell_file = shift;
   open(my $spell_fh, '<:encoding(utf-8)', $spell_file) || die "Can't open $spell_file. $!";
   my $spell_description = do { local $/; readline($spell_fh) };
+  close($spell_fh);
   return $spell_description;
 }
 

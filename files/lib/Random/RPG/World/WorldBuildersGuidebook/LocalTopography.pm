@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::LocalTopography;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(local_topography);
+our @EXPORT_OK = qw(local_topography);
 
 use Random::SpecialDice qw(percentile);
 

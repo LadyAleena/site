@@ -2,7 +2,7 @@ package Util::QuoteAttribute;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(quote_attributes);
+our @EXPORT_OK = qw(quote_attributes);
 
 sub quote_attributes {
   my ($line) = @_;

@@ -10,13 +10,15 @@ use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(get_article);
 
-open(my $moons_file, '<', data_file('Fandom/Xanth', 'moons.txt'));
-my @moons_list = map { chomp; $_ } <$moons_file>;
+open(my $moons_fh, '<', data_file('Fandom/Xanth', 'moons.txt'));
+my @moons_list = map { chomp; $_ } <$moons_fh>;
 my $moon_list = join('|', @moons_list);
+close($moons_fh);
 
-open(my $worlds_file, '<', data_file('Fandom/Xanth', 'worlds.txt'));
-my @worlds_list = map { chomp; $_ } <$worlds_file>;
+open(my $worlds_fh, '<', data_file('Fandom/Xanth', 'worlds.txt'));
+my @worlds_list = map { chomp; $_ } <$worlds_fh>;
 my $world_list = join('|', @worlds_list);
+close($worlds_fh);
 
 sub section_link {
   my ($main, $section) = @_;

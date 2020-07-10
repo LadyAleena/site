@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::WorldHooks;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(world_hook);
+our @EXPORT_OK = qw(world_hook);
 
 use Games::Dice qw(roll);
 

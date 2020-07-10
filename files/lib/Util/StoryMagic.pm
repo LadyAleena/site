@@ -27,8 +27,8 @@ sub program_magic {
 
 sub pc_magic {
   open(my $pc_fh, '<', data_file('Role_playing','player_characters_list.txt')) || die $!;
-  my @pcs = <$pc_fh>;
-  chomp @pcs;
+  my @pcs = map { chomp; $_ } <$pc_fh>;
+  close($pc_fh);
 
   my $pc_links;
   for my $pc (@pcs) {

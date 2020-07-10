@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::Size;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_size);
+our @EXPORT_OK = qw(random_size);
 
 use Games::Dice qw(roll);
 

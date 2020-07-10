@@ -35,6 +35,7 @@ my %weapon_groups = (
 sub random_weapon {
   my @weapon_list = (map(display_weapon('text' => $_, 'plural' => 'singular', 'full' => 'yes'), keys %$weapons));
   my $weapon = tiny_rand(@weapon_list);
+  return $weapon;
 }
 
 sub random_weapons {

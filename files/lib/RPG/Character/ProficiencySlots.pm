@@ -2,7 +2,7 @@ package RPG::Character::ProficiencySlots;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(proficiency_slots);
+our @EXPORT_OK = qw(proficiency_slots);
 
 use RPG::Character::Class qw(convert_class class_level);
 

@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::Coastlines;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_coastlines);
+our @EXPORT_OK = qw(random_coastlines);
 
 use Random::SpecialDice qw(percentile);
 

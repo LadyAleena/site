@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::MountainPlacement;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_mountain_placement);
+our @EXPORT_OK = qw(random_mountain_placement);
 
 use Random::SpecialDice qw(percentile);
 

@@ -2,8 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::Race;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_race);
-our @EXPORT_OK = qw(random_dominant_race random_major_race random_minor_race random_racial_makeup);
+our @EXPORT_OK = qw(random_race random_dominant_race random_major_race random_minor_race random_racial_makeup);
 
 use Random::SpecialDice qw(percentile);
 

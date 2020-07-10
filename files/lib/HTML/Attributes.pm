@@ -2,7 +2,7 @@ package HTML::Attributes;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(attributes);
+our @EXPORT_OK = qw(attributes);
 
 my %string_eq = (
   area   => ['nohref'],

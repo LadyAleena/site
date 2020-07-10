@@ -2,7 +2,7 @@ package Fun::Refreshment;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(refreshment);
+our @EXPORT_OK = qw(refreshment);
 
 use Lingua::EN::Inflect qw(A);
 

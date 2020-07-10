@@ -17,7 +17,7 @@ use Util::Movie     qw(movie genre movie_option display_option textify_movie
                        start_year end_year
                        display_movie display_simple_movie
                        print_series print_movie);
-use Util::Columns;
+use Util::Columns   qw(number_of_columns);
 use Util::Convert   qw(idify);
 use Util::Data      qw(file_directory alpha_hash alpha_array first_alpha);
 use Util::Menu      qw(alpha_menu file_menu);

@@ -56,6 +56,9 @@ sub monster_info {
     }
     push @{$monster->{$heading}}, $line;
   }
+
+  close($fh);
+
   return $monster;
 }
 

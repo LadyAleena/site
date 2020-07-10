@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::Hydrology;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_hydrology);
+our @EXPORT_OK = qw(random_hydrology);
 
 use Random::SpecialDice qw(percentile);
 

@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::SocialAlignment;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_social_alignment);
+our @EXPORT_OK = qw(random_social_alignment);
 
 use Random::SpecialDice qw(percentile);
 

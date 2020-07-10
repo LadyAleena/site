@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::WorldShape;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_world_shape);
+our @EXPORT_OK = qw(random_world_shape);
 
 use Games::Dice qw(roll);
 

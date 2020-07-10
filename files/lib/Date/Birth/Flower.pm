@@ -2,7 +2,7 @@ package Date::Birth::Flower;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(birth_flower);
+our @EXPORT_OK = qw(birth_flower);
 
 use String::Util qw(trim);
 

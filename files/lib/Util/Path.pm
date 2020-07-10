@@ -2,7 +2,7 @@ package Util::Path;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(base_path);
+our @EXPORT_OK = qw(base_path);
 
 my $server = $ENV{SERVER_NAME} ? $ENV{SERVER_NAME} : 'localhost';
 my $http   = $ENV{HTTPS} && $ENV{HTTPS} eq 'on' ? 'https' : 'http';

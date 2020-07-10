@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::MountainSize;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(mountain_size_adjustment);
+our @EXPORT_OK = qw(mountain_size_adjustment);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Mountain Size Adjustment for Gravity World (Table 8)

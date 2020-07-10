@@ -4,6 +4,8 @@ use warnings FATAL => qw( all );
 use Exporter qw(import);
 our @EXPORT_OK = qw(crossover_magic);
 
+use List::Util qw(any);
+
 use HTML::Elements qw(anchor object figure);
 use Util::Convert  qw(textify searchify);
 use Util::Data     qw(file_directory file_list);
@@ -22,15 +24,16 @@ sub crossover_magic {
   my @cross_files = file_list($open_directory);
   my @big_images = $opt{big} ? @{$opt{big}} : ();
   for my $cross_file (@cross_files) {
+    my $big   = any { /\b$_\b/i } @big_images;
     my $link  = "$link_directory/$cross_file";
     my $text  = textify($cross_file);
     my $class = 'svg_group';
-       $class .= ' right' unless grep( $text =~ /\b$_\b/i, @big_images );
+       $class .= ' right' unless $big;
     my $title = "$text chart";
 
     $magic->{$text} = sub {
       figure(6, sub {
-        line(7, anchor( '', { 'href' => $link, 'target' => 'new' } )) if grep( $text =~ /\b$_\b/i, @big_images );
+        line(7, anchor( '', { 'href' => $link, 'target' => 'new' } )) if $big;
         line(7, object( '', { 'data' => $link, 'type' => 'image/svg+xml'} )); # object used instead of img, b/c img won't render svg properly
       }, { 'class' => "$class", 'title' => $title });
     };

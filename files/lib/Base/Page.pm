@@ -380,7 +380,7 @@ sub row_line {
 
 sub list_type {
   my %type = ( '*' => 'u', '#' => 'o' );
-  $type{ substr shift, -1 }
+  return $type{ substr shift, -1 }
 }
 
 sub list_opts {
@@ -409,6 +409,8 @@ sub list_opts {
     $maxlevel--;
   }
   @lines = grep { $_->[0] } @lines;
+
+  return @lines;
 }
 
 # End lists

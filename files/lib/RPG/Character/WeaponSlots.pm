@@ -2,7 +2,7 @@ package RPG::Character::WeaponSlots;
 use strict;
 use warnings FATAL => ( 'all' );
 use Exporter qw(import);
-our @EXPORT = qw(slots_needed);
+our @EXPORT_OK = qw(slots_needed);
 
 use RPG::Character::Class qw(convert_class);
 

@@ -2,7 +2,7 @@ package Fun::AstroBody;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(astro_body);
+our @EXPORT_OK = qw(astro_body);
 
 sub astro_body {
   my @astronomical_body = qw(world sun moon star comet);

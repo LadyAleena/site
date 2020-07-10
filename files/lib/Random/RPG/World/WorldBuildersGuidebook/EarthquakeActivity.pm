@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::EarthquakeActivity;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_earthquake_activity);
+our @EXPORT_OK = qw(random_earthquake_activity);
 
 use Random::SpecialDice qw(percentile);
 

@@ -161,6 +161,9 @@ sub make_hash {
       $n++;
     }
   }
+
+  close($fh);
+
   return \%hash;
 }
 
@@ -179,6 +182,9 @@ sub make_array {
 
     push @array, \%hash;
   }
+
+  close($fh);
+
   return \@array;
 }
 
@@ -260,6 +266,7 @@ sub array_from_file {
     chomp $line;
     push @array, $line;
   }
+  close($fh);
   return @array
 }
 

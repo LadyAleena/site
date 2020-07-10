@@ -2,7 +2,7 @@ package Util::TransformName;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(name_transform);
+our @EXPORT_OK = qw(name_transform);
 
 use List::MoreUtils qw(firstidx lastidx);
 

@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(THAC0_base THAC0 THAC0_table_rows);
 use List::Util qw(min sum);
 use POSIX qw(ceil);
 
-use RPG::WeaponName qw(display_weapon display_weapon_group);
+use RPG::WeaponName       qw(display_weapon display_weapon_group);
 use RPG::Character::Class qw(convert_class class_level);
-use Util::Columns;
+use Util::Columns         qw(number_of_columns);
 
 # part of the Character Building table suite.
 

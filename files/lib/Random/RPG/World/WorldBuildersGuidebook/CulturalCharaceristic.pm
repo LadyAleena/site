@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::CulturalCharaceristic;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_cultural_characteristic);
+our @EXPORT_OK = qw(random_cultural_characteristic);
 
 use Random::SpecialDice qw(percentile);
 

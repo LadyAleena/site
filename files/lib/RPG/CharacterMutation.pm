@@ -134,6 +134,8 @@ sub fate {
     'will become '.A(random_divinity)
   );
   my $fate = tiny_rand(@fates);
+
+  return $fate;
 }
 
 sub random_mutation {

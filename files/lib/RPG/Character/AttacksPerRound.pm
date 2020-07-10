@@ -2,7 +2,7 @@ package RPG::Character::AttacksPerRound;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT = qw(attacks_per_round);
+our @EXPORT_OK = qw(attacks_per_round);
 
 use POSIX qw(floor);
 

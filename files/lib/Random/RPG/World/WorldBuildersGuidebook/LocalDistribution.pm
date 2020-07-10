@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::LocalDistribution;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(local_distribution);
+our @EXPORT_OK = qw(local_distribution);
 
 use Games::Dice qw(roll);
 

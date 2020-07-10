@@ -14,7 +14,7 @@ sub data_compare {
 
   my $old = $old_data;
   my $new = $new_data;
-  my $main_c = new Data::Compare($old, $new);
+  my $main_c = Data::Compare->new($old, $new);
   if ($main_c->Cmp == 0) {
     line($tab, $data);
 
@@ -26,7 +26,7 @@ sub data_compare {
     }
     elsif (ref($old) eq 'ARRAY' && ref($new) eq 'ARRAY') {
       for my $ix ( 0 .. $#{ $old } ) {
-        data_compare($tab + 2, map $_->[ $ix ], $old, $new);
+        data_compare($tab + 2, map { $_->[ $ix ] } ($old, $new));
       }
     }
     else {

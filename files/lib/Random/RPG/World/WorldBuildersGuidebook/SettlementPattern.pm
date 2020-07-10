@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::SettlementPattern;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_settlement_pattern);
+our @EXPORT_OK = qw(random_settlement_pattern);
 
 use Random::SpecialDice qw(percentile);
 

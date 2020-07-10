@@ -7,17 +7,19 @@ our @EXPORT_OK = qw(movie series franchise genre sources movie_option start_year
 
 use File::Spec;
 use Lingua::EN::Inflect qw(A PL_N NUM NO NUMWORDS inflect);
-use List::Util qw(min max first);
+use List::Util qw(any min max first);
 
 use HTML::Elements qw(footer section nav heading paragraph list span anchor);
-use Fancy::Join::Defined qw(join_defined);
+
+use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Util::Columns;
-use Util::Convert qw(filify textify idify searchify);
-use Util::Data    qw(data_file make_hash get_data);
-use Util::ExternalLinks;
-use Util::Path    qw(base_path);
-use Util::People  qw(people_list);
+
+use Util::Columns       qw(number_of_columns);
+use Util::Convert       qw(filify textify idify searchify);
+use Util::Data          qw(data_file make_hash get_data);
+use Util::ExternalLinks qw(external_links);
+use Util::Path          qw(base_path);
+use Util::People        qw(people_list);
 
 my $movies     = make_hash( 'file' => ['Movies','movies.txt'],     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );
 my $seriess    = make_hash( 'file' => ['Movies','series.txt'],     'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
@@ -120,15 +122,16 @@ for my $movie (values %$movies) {
   next if ($movie->{'media'} ne 'tv' || grep($_ =~ 'show', @{$movie->{'genre'}}));
   # adding TV episodes
   my $show_file = data_file('Movies/Episode_lists', filify($title).".txt");
-  my $file;
+  my $show_fh;
   if (-f $show_file) {
-    open($file, '<', $show_file) || die "Can not open $show_file $!";
+    open($show_fh, '<', $show_file) || die "Can not open $show_file $!";
   }
   else {
     next;
   }
-  my @data = <$file>;
+  my @data = <$show_fh>;
   chomp @data;
+  close($show_fh);
 
   my $season;
   my $inc;

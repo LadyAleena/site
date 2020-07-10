@@ -2,7 +2,7 @@ package Date::Verify;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(four_digit_year month_name month_number day_number);
+our @EXPORT_OK = qw(four_digit_year month_name month_number day_number);
 
 use Data::Validate qw(is_integer is_between);
 use Date::Calc qw(:all);

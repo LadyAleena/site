@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(masses);
+our @EXPORT_OK = qw(masses);
 
 use Games::Dice qw(roll);
 

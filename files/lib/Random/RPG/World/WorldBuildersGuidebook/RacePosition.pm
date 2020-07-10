@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::RacePosition;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_race_position);
+our @EXPORT_OK = qw(random_race_position);
 
 use Random::SpecialDice qw(percentile);
 

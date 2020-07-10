@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::SeasonalVariations;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_seasonal_variations);
+our @EXPORT_OK = qw(random_seasonal_variations);
 
 use Random::SpecialDice qw(percentile);
 

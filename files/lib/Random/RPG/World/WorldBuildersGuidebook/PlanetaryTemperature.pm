@@ -2,7 +2,7 @@ package Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_planetary_temperature);
+our @EXPORT_OK = qw(random_planetary_temperature);
 
 use Random::SpecialDice qw(percentile);
 

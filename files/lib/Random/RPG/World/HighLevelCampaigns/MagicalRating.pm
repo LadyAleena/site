@@ -2,7 +2,7 @@ package Random::RPG::World::HighLevelCampaigns::MagicalRating;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_magical_rating);
+our @EXPORT_OK = qw(random_magical_rating);
 
 use Games::Dice qw(roll);
 

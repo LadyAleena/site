@@ -21,8 +21,9 @@ my $see_char = make_hash(
   'file' => ['Fandom/Xanth', 'see_character.txt'],
 );
 
-open(my $book_file, '<', data_file('Fandom/Xanth', 'books.txt'));
-my @book_list = map { chomp; $_ } <$book_file>;
+open(my $book_fh, '<', data_file('Fandom/Xanth', 'books.txt'));
+my @book_list = map { chomp; $_ } <$book_fh>;
+close($book_fh);
 
 sub Xanth_line_magic {
   my $type = shift;

@@ -2,7 +2,7 @@ package Random::RPG::World::HighLevelCampaigns::ChronologicalRating;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT = qw(random_chronological_rating);
+our @EXPORT_OK = qw(random_chronological_rating);
 
 use Games::Dice qw(roll);
 
