@@ -116,7 +116,7 @@ sub get_age_suspension {
     my $end_event = $suspension->{'end event'} ? $suspension->{'end event'} : undef;
 
     my $begin_link = timeline_link($begin_year);
-    my $end_link   = timeline_link($end_year) if $end_year;
+    my $end_link   = $end_year ? timeline_link($end_year) : undef;
 
     my $prep = $begin_event =~ /past|future/ ? 'from' : 'in';
 
@@ -176,7 +176,7 @@ sub get_reage {
   }
 
   my $start_verb = $reage_event && $reage_event =~ /compressed/ ? 'would have been' : 'was';
-  my $start_text = "$start_verb $age_reage years old in $year_link" if $age_reage > 0;
+  my $start_text = $age_reage > 0 ? "$start_verb $age_reage years old in $year_link" : undef;
 
   my $pre_event;
   if (($reage_event && $reage_event =~ /takes/) && $age_reage > 0) {

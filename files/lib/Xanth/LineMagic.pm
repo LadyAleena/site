@@ -22,7 +22,7 @@ my $see_char = make_hash(
 );
 
 open(my $book_file, '<', data_file('Fandom/Xanth', 'books.txt'));
-my @book_list = map { chomp $_; $_ } <$book_file>;
+my @book_list = map { chomp; $_ } <$book_file>;
 
 sub Xanth_line_magic {
   my $type = shift;

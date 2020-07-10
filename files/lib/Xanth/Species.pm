@@ -13,7 +13,7 @@ use Util::Data     qw(data_file);
 use Xanth::Util    qw(gendering);
 
 open(my $gendered_file, '<', data_file('Fandom/Xanth', 'gendered_species.txt'));
-my @gendered_species_list = map{chomp $_; $_} <$gendered_file>;
+my @gendered_species_list = map { chomp; $_} <$gendered_file>;
 my $gendered_species = join('|', @gendered_species_list);
 
 sub species_link {

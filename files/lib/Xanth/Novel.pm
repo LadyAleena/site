@@ -14,7 +14,7 @@ use Xanth::Util      qw(character_link);
 use Xanth::PageLinks qw(timeline_link);
 
 open(my $book_file, '<', data_file('Fandom/Xanth', 'books.txt'));
-my @book_list = map { chomp $_; $_ } <$book_file>;
+my @book_list = map { chomp; $_ } <$book_file>;
 
 my $novel_headings = [qw(Title main published year abbr)];
 my $novels = make_hash(

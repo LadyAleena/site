@@ -11,11 +11,11 @@ use Util::Data     qw(data_file);
 use Xanth::Util    qw(get_article);
 
 open(my $moons_file, '<', data_file('Fandom/Xanth', 'moons.txt'));
-my @moons_list = map { chomp $_; $_ } <$moons_file>;
+my @moons_list = map { chomp; $_ } <$moons_file>;
 my $moon_list = join('|', @moons_list);
 
 open(my $worlds_file, '<', data_file('Fandom/Xanth', 'worlds.txt'));
-my @worlds_list = map { chomp $_; $_ } <$worlds_file>;
+my @worlds_list = map { chomp; $_ } <$worlds_file>;
 my $world_list = join('|', @worlds_list);
 
 sub section_link {

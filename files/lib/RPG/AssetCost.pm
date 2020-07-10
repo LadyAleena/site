@@ -6,7 +6,7 @@ our @EXPORT_OK = qw(assets asset_data);
 
 use Lingua::EN::Inflect qw(ORD);
 
-use Util::Data qw(make_hash);
+use Util::Data qw(make_hash data_file);
 
 my $directory = 'Role_playing/Reference_tables';
 
@@ -94,14 +94,14 @@ sub add_vs {
   }
 }
 
-my %weapons = make_hash(
+my $weapons = make_hash(
   'file' => [$directory, 'Weapons.txt'],
   'headings' => ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group','value']
 );
 
-for my $base_weapon (keys %weapons) {
-  next if !$weapons{$base_weapon}{'value'};
-  my $base_value = $weapons{$base_weapon}{'value'};
+for my $base_weapon (keys %$weapons) {
+  next if !$weapons->{$base_weapon}{'value'};
+  my $base_value = $weapons->{$base_weapon}{'value'};
   $assets->{$base_weapon}                            = $base_value;
   $assets->{"$base_weapon -1 (cursed)"}              = 1000;
   $assets->{"$base_weapon of defending"}             = $base_value + 500;
@@ -345,12 +345,12 @@ sub asset_data {
   my $base_value;
   my $total_value;
 
-  if ($raw_value =~ /\*/) {
-    $total_value = eval($raw_value);
+  if ($raw_value && $raw_value =~ /(\d+)\*(\d+)/) {
+    $total_value = $1 * $2;
     ($amount, $base_value) = split(/\*/,$raw_value);
   }
-  elsif ($raw_value =~ /\//) {
-    $base_value = eval($raw_value);
+  elsif ($raw_value && $raw_value =~ /(\d+)\/(\d+)/) {
+    $base_value = $1 / $2;
     ($total_value, $amount) = split(/\//, $raw_value);
   }
   else {

@@ -246,7 +246,7 @@ sub passage {
         pre($tab, sub { print join("\n", map(substr($_, 2), @list_lines)) }, { 'class' => $class });
       }
       elsif ($match eq '|') {
-        my @list = map { $_ =~ s/^\|(.+)/$1/; $_; } @list_lines;
+        my @list = map { s/^\|(.+)/$1/r } @list_lines;
         my $opts = table_opts(\@list, $opt);
         table($tab, $opts);
       }
@@ -318,7 +318,6 @@ sub table_opts {
       $thead_end++ while ($thead_end < $#$lines and $lines->[$thead_end + 1] eq '*');
 
       my @table_rows = map {
-        $_ =~ s/^[\*\+-] (.+)/$1/;
         row_line($_, $opt);
       } @{$lines}[$thead_start..$thead_end];
 
@@ -332,7 +331,6 @@ sub table_opts {
       $tfoot_end++ while ($tfoot_end < $#$lines and $lines->[$tfoot_end + 1] eq '*');
 
       my @table_rows = map {
-        $_ =~ s/^[\*\+-] (.+)/$1/;
         row_line($_, $opt);
       } @{$lines}[$tfoot_start..$tfoot_end];
 
@@ -346,7 +344,6 @@ sub table_opts {
       $row_end++ while ($row_end < $#$lines and $lines->[$row_end + 1] =~ /^[$match]/);
 
       my @table_rows = map {
-        $_ =~ s/^[\+-] (.+)/$1/;
         row_line($_, $opt);
       } @{$lines}[$row_start..$row_end];
 
@@ -365,12 +362,13 @@ sub table_opts {
 
 sub row_line {
   my ($line, $opt) = @_;
+  $line =~ s/^[\*\+-] (.+)/$1/;
   my @row = split(/\|/, $line);
   my $row_data;
   for my $cell (@row) {
     push @{$row_data}, $cell =~ /^r(\d+)\s(.+)$/ ? [inline(convert_string($2, $opt->{'line magic'})), { 'rowspan' => $1 }] :
                        $cell =~ /^c(\d+)\s(.+)$/ ? [inline(convert_string($2, $opt->{'line magic'})), { 'colspan' => $1 }] :
-                       $cell && length $cell    ? inline(convert_string($cell, $opt->{'line magic'})) : '&nbsp';
+                       $cell && length $cell     ?  inline(convert_string($cell, $opt->{'line magic'})) : '&nbsp';
   }
   return $row_data;
 }

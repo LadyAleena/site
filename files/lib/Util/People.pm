@@ -17,7 +17,7 @@ sub people_list {
   my $people = undef;
   if (-f $people_file) {
     open(my $fh, '<', $people_file) || die "Can not open $people_file $!";
-    my @people_lines = map { chomp $_; [ split(/\|/, $_) ] } <$fh>;
+    my @people_lines = map { chomp; [ split(/\|/, $_) ] } <$fh>;
 
     for my $line (sort { name_sort($a->[0], $b->[0]) } @people_lines) {
       my $name = $line->[0];

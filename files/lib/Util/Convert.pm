@@ -31,20 +31,19 @@ sub textify {
 sub idify {
   my @base = @_;
   my @ids = map {
-    $_ =~ s/<.+?>//g;
-    $_ =~ s/^(\d+([stnrdh]{2}|))/NUMWORDS($1)/e;
-    $_ =~ s/(.)\.\w{2,5}?$/$1/;
-    $_ =~ s/&amp/and/g;
-    $_ =~ s/&/and/g;
-    $_ =~ s/Æ/Ae/g;
-    $_ =~ s/Ç/C/g;
-    $_ =~ s/Ü/U/g;
-    $_ =~ s/(è|é|ê)/e/g;
-    $_ =~ s/#/No/g;
-    $_ =~ s/ /_/g;
-    $_ =~ s/[^\w:.\-]//g;
-    $_;
-  } grep {defined($_)} @base;
+       s/<.+?>//gr
+    =~ s/^(\d+([stnrdh]{2}|))/NUMWORDS($1)/er
+    =~ s/(.)\.\w{2,5}?$/$1/r
+    =~ s/&amp/and/gr
+    =~ s/&/and/gr
+    =~ s/Æ/Ae/gr
+    =~ s/Ç/C/gr
+    =~ s/Ü/U/gr
+    =~ s/(è|é|ê)/e/gr
+    =~ s/#/No/gr
+    =~ s/ /_/gr
+    =~ s/[^\w:.\-]//gr
+  } grep { defined } @base;
   return encode('UTF-8',join('_',@ids));
 }
 

@@ -22,12 +22,12 @@ my $directory = file_directory('Random/Dragons', 'data');
 
 open(my $DreamWorks_fh,  '<', "$directory/DreamWorks_dragons.txt") ||
   die "Can not open $directory/DreamWorks_dragons.txt. $!";
-my @DreamWorks_dragons = map { chomp($_); $_ } <$DreamWorks_fh>;
+my @DreamWorks_dragons = map { chomp; $_ } <$DreamWorks_fh>;
 close($DreamWorks_fh);
 
 open(my $Harry_Potter_fh, '<', "$directory/Harry_Potter_dragons.txt") ||
   die "Can not open $directory/Harry_Potter_dragons.txt. $!";
-my @Harry_Potter_dragons = map { chomp($_); $_ } <$Harry_Potter_fh>;
+my @Harry_Potter_dragons = map { chomp; $_ } <$Harry_Potter_fh>;
 close($Harry_Potter_fh);
 
 my $dragons;

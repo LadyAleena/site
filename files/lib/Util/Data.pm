@@ -48,7 +48,7 @@ sub file_list {
 
   @files = grep { -f "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^f/;
   @files = grep { -d "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^d/;
-  @files = grep { /^\p{uppercase}/ }  @files if $opt->{'uppercase'} && $opt->{'uppercase'} =~ /^[yt1]/;  # Thank you [tye]!
+  @files = grep { /^\p{uppercase}/ }   @files if $opt->{'uppercase'} && $opt->{'uppercase'} =~ /^[yt1]/;  # Thank you [tye]!
 
   if ($opt->{'sort'}) {
     my $sort = $opt->{'sort'};
@@ -149,7 +149,7 @@ sub make_hash {
         my $split = $r_heading =~ /\+$/ ? 1 : 0;
         (my $heading = $r_heading) =~ s/\+$//;
 
-        my $value = $split == 1 ? [map { $_ =~ s/^ //; $_ } split(/; ?/,$values[$n])] : $values[$n];
+        my $value = $split == 1 ? [map { s/^ //r } split(/; ?/,$values[$n])] : $values[$n];
 
         if (scalar @headings > 1) {
           $hash{$key}{$heading} = $value;

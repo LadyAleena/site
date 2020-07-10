@@ -22,7 +22,7 @@ sub word_find {
 
   open(my $word_find_board, '<:encoding(utf-8)', data_file($boards_dir, $word_find_file)) || die "Can't open $boards_dir/$word_find_file. $!";
   open(my $word_find_list,  '<:encoding(utf-8)', data_file($lists_dir,  $word_find_file)) || die "Can't open $lists_dir/$word_find_file. $!";
-  my @monsters = map { chomp $_; [uc $_] } <$word_find_list>;
+  my @monsters = map { chomp; [uc $_] } <$word_find_list>;
 
   my $find_out = { 'list' => \@monsters, 'lonely' => $lone_sent };
   $find_out->{'board'} = do { local $/; readline($word_find_board) };

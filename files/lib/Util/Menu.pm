@@ -56,7 +56,7 @@ sub base_menu {
   if (!$opt->{'full'} || $opt->{'full'} !~ /^[yt1]/) {
     my $text_dir = $directory;
        $text_dir =~ s|(\Q$root_path\E)|$1/files/text|;
-    my @text_files = sort { $sort->($a, $b, { 'misc' => $opt->{'misc'} }) } file_list($text_dir, { 'uppercase' => 1 }) if -e $text_dir;
+    my @text_files = -e $text_dir ? sort { $sort->($a, $b, { 'misc' => $opt->{'misc'} }) } file_list($text_dir, { 'uppercase' => 1 }) : undef;
     for my $text_file (@text_files) {
       my $text   = textify($text_file);
       my $select = searchify($text_file);
@@ -100,7 +100,7 @@ sub base_menu {
         $file_list = "$curr_cwd/$0" =~ /$index/ && $class =~ / active$/ && $opt->{'file menu'} ? $opt->{'file menu'} : undef;
       }
 
-      my $next_list = base_menu($long_content, $opt) if $text !~ /^\./;
+      my $next_list = $text !~ /^\./ ? base_menu($long_content, $opt) : undef;
       push @$next_list, @$file_list if $file_list;
       my $inlist = $next_list ? ['u', $next_list] : undef;
       $class =~ s/^(?:open|closed) // if !$inlist;

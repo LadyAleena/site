@@ -7,17 +7,16 @@ our $VERSION   = '1.0';
 our @EXPORT_OK = qw(fancy_map);
 
 # Written with the help of GotToBTru, RonW, and toolic of Perl Monks.
+# Rewritten by Tux on Perl Monks. 2020-07-09
 sub fancy_map {
   my ($opt, $list) = @_;
-  map {
-    if (ref($_)) {
-      fancy_map($opt, $_);
-    }
-    else {
-      my $before = $opt->{'before'} ? $opt->{'before'}.' ' : '';
-      my $after  = $opt->{'after'}  ? ' '.$opt->{'after'}  : '';
-      $_ = $before.$_.$after;
-    }
+  map { ref $_
+    ? fancy_map ($opt, $_)
+    : do {
+        my $before = $opt->{'before'} ?     $opt->{'before'}.' ' : '';
+        my $after  = $opt->{'after'}  ? ' '.$opt->{'after'}      : '';
+        $before.$_.$after;
+      }
   } @{$list};
 }
 
@@ -28,7 +27,7 @@ B<Fancy::Map> maps within a map.
 =head1 SYNOPSIS
 
   my $colors = [fancy_map(
-                 { 'before => 'glass', 'after' => 'beads' },
+                 { 'before' => 'glass', 'after' => 'beads' },
                  [map("sparkley $_", ('red', 'yellow', 'green', 'cyan', 'blue', 'magenta')), 'white', 'black', 'gray']
                )];
 
