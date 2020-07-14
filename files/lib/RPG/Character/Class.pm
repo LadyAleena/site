@@ -48,15 +48,18 @@ sub class_level {
   my $level = $user_level ? $user_level : 1;
   my $next_level = $level + 1;
 
-  if ($level == 100) {
-    return 100;
+  my $current_level;
+  if ($level >= 100) {
+    $current_level = $level;
+    warn "The XP charts do not go above level 100.";
   }
   elsif ($xp >= $xpchart->{$level}{$class} && $xp < $xpchart->{$next_level}{$class}) {
-    return $level;
+    $current_level = $level;
   }
   else {
-    class_level($class, $xp, $next_level);
+    $current_level = class_level($class, $xp, $next_level);
   }
+  return $current_level;
 }
 
 sub player_classes {

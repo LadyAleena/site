@@ -260,7 +260,7 @@ sub hash_from_arrays {
 
 sub array_from_file {
   my $path = shift;
-  open my $fh, '<:encoding(utf-8)', $path;
+  open my $fh, '<:encoding(utf-8)', $path || die "Can't open $path. $!";
   my @array;
   while ( my $line = <$fh> ) {
     chomp $line;

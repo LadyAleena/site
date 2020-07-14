@@ -247,14 +247,14 @@ B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.
 
 =head2 random_gem_expanded usage
 
-  my $gem_expanded = random_gem_expanded('all');
-  my $gem_expanded = random_gem_expanded('unsorted');
-  my $gem_expanded = random_gem_expanded('beryl');      # or use random_gem_variety or random_gem
-  my $gem_expanded = random_gem_expanded('chalcedony'); # or use random_gem_variety or random_gem
-  my $gem_expanded = random_gem_expanded('corundum');
-  my $gem_expanded = random_gem_expanded('quartz');     # or use random_gem_variety or random_gem
-  my $gem_expanded = random_gem_expanded('organic');    # or use random_gem_variety or random_gem
-  my $gem_expanded = random_gem_expanded('metal');
+  my $gem_expanded        = random_gem_expanded('all');
+  my $unsorted_expanded   = random_gem_expanded('unsorted');
+  my $beryl_expanded      = random_gem_expanded('beryl');      # or use random_gem_variety or random_gem
+  my $chalcedony_expanded = random_gem_expanded('chalcedony'); # or use random_gem_variety or random_gem
+  my $corundum_expanded   = random_gem_expanded('corundum');
+  my $quartz_expanded     = random_gem_expanded('quartz');     # or use random_gem_variety or random_gem
+  my $organic_expanded    = random_gem_expanded('organic');    # or use random_gem_variety or random_gem
+  my $metal_expanded      = random_gem_expanded('metal');
 
   # selects a random gem with color if it has a list of colors
   # see random_gem_variety for the gems

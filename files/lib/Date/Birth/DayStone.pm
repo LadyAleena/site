@@ -10,9 +10,9 @@ use String::Util qw(trim);
 use Date::Verify qw(month_number);
 
 my $day_stones;
-while (<DATA>) {
-  chomp($_);
-  my ($day, $stone) = split(/\|/, $_);
+while (my $line = <DATA>) {
+  chomp($line);
+  my ($day, $stone) = split(/\|/, $line);
   $day_stones->{trim($day)} = $stone;
 }
 

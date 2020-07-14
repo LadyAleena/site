@@ -13,7 +13,8 @@ use Util::Data     qw(data_file make_hash);
 use Xanth::Util      qw(character_link);
 use Xanth::PageLinks qw(timeline_link);
 
-open(my $book_fh, '<', data_file('Fandom/Xanth', 'books.txt'));
+my $books_fn = data_file('Fandom/Xanth', 'books.txt');
+open(my $book_fh, '<', $books_fn) || die "Can't open $books_fn. $!";
 my @book_list = map { chomp; $_ } <$book_fh>;
 close($book_fh);
 

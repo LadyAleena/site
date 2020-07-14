@@ -10,12 +10,14 @@ use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(get_article);
 
-open(my $moons_fh, '<', data_file('Fandom/Xanth', 'moons.txt'));
+my $moons_fn = data_file('Fandom/Xanth', 'moons.txt');
+open(my $moons_fh, '<', $moons_fn) || die "Can't open $moons_fn. $!";
 my @moons_list = map { chomp; $_ } <$moons_fh>;
 my $moon_list = join('|', @moons_list);
 close($moons_fh);
 
-open(my $worlds_fh, '<', data_file('Fandom/Xanth', 'worlds.txt'));
+my $worlds_fn = data_file('Fandom/Xanth', 'worlds.txt');
+open(my $worlds_fh, '<', $worlds_fn) || die "Can't open $worlds_fn. $!";
 my @worlds_list = map { chomp; $_ } <$worlds_fh>;
 my $world_list = join('|', @worlds_list);
 close($worlds_fh);

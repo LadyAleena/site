@@ -15,9 +15,9 @@ my @filesize_names = qw(bit nibble byte kilobyte megabyte gigabyte terabyte peta
 
 # I put the these sizes here just for my information.
 my %little_filesizes;
-$little_filesizes{bit} = 1;
+$little_filesizes{bit}    = 1;
 $little_filesizes{nibble} = $little_filesizes{bit} * 4;
-$little_filesizes{byte} = $little_filesizes{bit} * 8;
+$little_filesizes{byte}   = $little_filesizes{bit} * 8;
 
 # I never know when I'll want a random file size.
 sub random_filesize_unit {
@@ -27,7 +27,7 @@ sub random_filesize_unit {
 sub make_singular {
   my $word = shift;
      $word =~ s/s$//;
-  my @short_sizes = apply {$_ =~ s/^(\w)\w{1,}$/$1b/} @filesize_names;
+  my @short_sizes = apply { s/^(\w)\w{1,}$/$1b/ } @filesize_names;
   if (grep(/^\L$word\E$/, @short_sizes)) {
     $word = $filesize_names[firstidx { $_ eq lc $word } @short_sizes];
   }
@@ -41,7 +41,7 @@ sub convert_filesize {
   my %opt = @_;
 
   # I took out bits and nibbles just to keep me sane.
-  my @filesizes = grep($_ =~ /byte/,@filesize_names);
+  my @filesizes = grep(/byte/, @filesize_names);
 
   my $from = firstidx { $_ eq make_singular($opt{from}) } @filesizes;
   my $to   = firstidx { $_ eq make_singular($opt{to}) } @filesizes;
@@ -62,8 +62,8 @@ sub convert_filesize {
     $converted = $opt{size};
   }
 
-  my $org_filesize = pretty_number($dec,$opt{size});
-  my $new_filesize = pretty_number($dec,$converted);
+  my $org_filesize = pretty_number($opt{size}, $dec);
+  my $new_filesize = pretty_number($converted, $dec);
   return "$org_filesize $opt{from} is $new_filesize $opt{to}";
 }
 
@@ -76,7 +76,7 @@ There is also a random filesize generator included for fun.
 
 To use this script, please use the following.
 
-  use Fun::ConvertFileSize
+  use Fun::ConvertFileSize qw(convert_filesize random_filesize);
 
   my $conversion = convert_filesize(
     size => 10101101,
@@ -140,6 +140,10 @@ To use the random generator if you happen to have a secret agent protecting a fi
   my $random_filesize = random_filesize();
 
 You could get anything from a bit to a yottabyte.
+
+=head1 DEPENDENCIES
+
+Fun::ConvertFileSize depends on L<Util::Number> and L<List::MoreUtils>.
 
 =head1 AUTHOR
 

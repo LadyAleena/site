@@ -67,18 +67,15 @@ sub ability_score_table {
 
   my @rows;
   my @top_row;
+  my @game_data;
   push @top_row, [ucfirst $ability.$append_enhanced, { class=> 'ability_name', rowspan => '2' }];
   push @top_row, [$ability_score_text, { class => 'ability_score', rowspan => '2', type_override => 'd' }];
-  for my $game_effect_heading (grep($_ ne 'Spell Immunity',@{$game_effects{$ability}})) {
-    push @top_row, [$game_effect_heading, { class => 'sub_score' }];
+  for my $game_effect (grep($_ ne 'Spell Immunity',@{$game_effects{$ability}})) {
+    push @top_row, [$game_effect, { class => 'sub_score' }];
+    push @game_data, $abilities{$ability}{$ability_score}{$game_effect};
   }
   push @rows, ['header',[\@top_row]];
-
-  my @game_effects;
-  for (grep($_ ne 'Spell Immunity',@{$game_effects{$ability}})) {
-    push @game_effects, $abilities{$ability}{$ability_score}{$_};
-  }
-  push @rows, ['data',[\@game_effects]];
+  push @rows, ['data',[\@game_data]];
 
   my $colspan = scalar(@{$col_widths{$ability}}) + 1;
   if ($ability eq 'wisdom' and $ability_score >= 19) {

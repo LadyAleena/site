@@ -23,7 +23,7 @@ my $SoM = {
 sub SoM_song {
   my ($user_song) = @_;
   my @song_notes = split(/[ ,;]/, $user_song);
-  my @new_song = map { $_ =~ /^[a-g]$/ ? $notes{$_} : 'not a note' } @song_notes;
+  my @new_song = map { /^[a-g]$/ ? $notes{$_} : 'not a note' } @song_notes;
   return \@new_song;
 }
 

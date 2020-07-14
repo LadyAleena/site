@@ -21,7 +21,8 @@ my $see_char = make_hash(
   'file' => ['Fandom/Xanth', 'see_character.txt'],
 );
 
-open(my $book_fh, '<', data_file('Fandom/Xanth', 'books.txt'));
+my $book_fn = data_file('Fandom/Xanth', 'books.txt');
+open(my $book_fh, '<', $book_fn) || die "Can't open $book_fn. $!";
 my @book_list = map { chomp; $_ } <$book_fh>;
 close($book_fh);
 

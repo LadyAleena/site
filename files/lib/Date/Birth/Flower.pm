@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(birth_flower);
 use String::Util qw(trim);
 
 my $flowers;
-while (<DATA>) {
-  chomp($_);
-  my ($month, $us_flower, $bi_flower) = split(/\|/, $_);
+while (my $line = <DATA>) {
+  chomp($line);
+  my ($month, $us_flower, $bi_flower) = split(/\|/, $line);
   $month = trim($month);
 
   $flowers->{$month}{US} = trim($us_flower);

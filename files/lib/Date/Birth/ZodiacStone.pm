@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(sign zodiac_stone);
 use String::Util qw(trim);
 
 my $zodiac;
-while (<DATA>) {
-  chomp($_);
-  my ($sign, $start_month, $start_day, $end_month, $end_day, $stone) = split(/\|/, $_);
+while (my $line = <DATA>) {
+  chomp($line);
+  my ($sign, $start_month, $start_day, $end_month, $end_day, $stone) = split(/\|/, $line);
   $sign = trim($sign);
 
   $zodiac->{$sign}{name}        = $sign;

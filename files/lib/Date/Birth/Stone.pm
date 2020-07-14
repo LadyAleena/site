@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(birth_stone);
 use String::Util qw(trim);
 
 my $stones;
-while (<DATA>) {
-  chomp($_);
-  my ($month, $stone) = split(/\|/, $_);
+while (my $line = <DATA>) {
+  chomp($line);
+  my ($month, $stone) = split(/\|/, $line);
   $month = trim($month);
 
   $stones->{$month} = trim($stone);

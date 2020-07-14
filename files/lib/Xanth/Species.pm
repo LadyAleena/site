@@ -12,7 +12,8 @@ use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(gendering);
 
-open(my $gendered_fh, '<', data_file('Fandom/Xanth', 'gendered_species.txt'));
+my $gendered_fn = data_file('Fandom/Xanth', 'gendered_species.txt');
+open(my $gendered_fh, '<', $gendered_fn) || die "Can't open $gendered_fn. $!";
 my @gendered_species_list = map { chomp; $_} <$gendered_fh>;
 my $gendered_species = join('|', @gendered_species_list);
 close($gendered_fh);
@@ -94,7 +95,6 @@ sub get_gendered_species {
 
 sub get_species {
   my ($in_species, $gender) = @_;
-  my @list;
   my $species_text;
   for ( my $species_no = 0; $species_no < @$in_species; $species_no++ ) {
     my $curr_species = $in_species->[$species_no];
