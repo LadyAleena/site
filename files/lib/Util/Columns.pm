@@ -22,6 +22,10 @@ sub number_of_columns {
   return $columns;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::Columns> generates a number for getting columns based on exponential numbers.

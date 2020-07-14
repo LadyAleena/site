@@ -131,6 +131,10 @@ sub random_government {
   return "$random_government (ruled by $gov_description)";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Government> selects a random government type.

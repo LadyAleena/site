@@ -73,6 +73,10 @@ sub random_weapon_damage {
   return tiny_rand(@damage);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons>, Second Edition.

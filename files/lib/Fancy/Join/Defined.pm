@@ -11,6 +11,10 @@ sub join_defined {
   return join($joiner, grep(defined, @_));
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Join::Defined> joins only defined values in a list.

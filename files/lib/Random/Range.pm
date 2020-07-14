@@ -45,6 +45,10 @@ sub random_radius {
   return $full_radius;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Range> selects random ranges or radiuses.

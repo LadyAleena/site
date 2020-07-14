@@ -59,6 +59,10 @@ sub permyriad {
   return $permyriad;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::SpecialDice> rolls for a random die, d16, percentile, permille, and permyriad.

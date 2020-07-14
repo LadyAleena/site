@@ -25,6 +25,10 @@ sub random_size {
   return $size;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Size> selects random relative sizes.

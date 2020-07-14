@@ -38,6 +38,10 @@ sub random_class_special {
   return tiny_rand(@class_specials);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeons & Dragons>, Second Edition.

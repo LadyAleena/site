@@ -20,6 +20,10 @@ sub random_descriptor {
   return $descriptor;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Descriptor> selects a random descriptor.

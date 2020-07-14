@@ -115,6 +115,10 @@ sub Zilarban_place_name {
   return $name;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Name::Triador> is a name generator for the world of Triador that I am slowly building.

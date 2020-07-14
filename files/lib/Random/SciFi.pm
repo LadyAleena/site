@@ -27,6 +27,10 @@ sub random_MIB_agent {
   return random_letters($letter);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a random I<Men in Black> agent id.

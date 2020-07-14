@@ -41,6 +41,10 @@ sub random_drink {
   return $drink;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Food> selects either a random food or drink.

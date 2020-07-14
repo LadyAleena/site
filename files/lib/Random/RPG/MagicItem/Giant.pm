@@ -77,6 +77,10 @@ sub random_girdle {
   return $girdle;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::MagicItem::Giant> returns either a gauntlet or girdle of giant strength from I<Advanced Dungeons & Dragons>, Second Edition.

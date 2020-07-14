@@ -60,6 +60,10 @@ sub roll_hit_points {
   return $roll;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::Character::HitDice> returns the die type and amount of dice needed to roll the hit points for your character with C<hit_dice> or just rolls your character's hit points with C<roll_hit_points>.

@@ -20,6 +20,10 @@ sub chinese_zodiac {
   return $zodiac;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Zodiac::Chinese> generates one's Chinese zodiac. However, for those born in late January to early February, it may be wrong.

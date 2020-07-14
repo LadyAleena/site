@@ -26,6 +26,10 @@ sub random_alpha {
   return $random_alpha;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Alpha> selects random letters of the English alphabet.

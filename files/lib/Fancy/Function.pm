@@ -20,6 +20,10 @@ our @EXPORT_OK = qw(
   grammatical_join
 );
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Function> is a collection of functions that have been given a bit of additional functionality.
@@ -136,4 +140,5 @@ L<Lingua::EN::Inflect> has C<WORDLIST> and L<Lingua::EN::Inflexion> has C<wordli
 Lady Aleena
 
 =cut
+
 1;

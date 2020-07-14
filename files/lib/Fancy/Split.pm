@@ -21,6 +21,10 @@ sub fancy_split {
   return $rejoined;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Split> splits a string into groups.

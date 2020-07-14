@@ -26,6 +26,10 @@ sub month_number {
   return $months{$month};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::MonthNumber> returns the number for a month.

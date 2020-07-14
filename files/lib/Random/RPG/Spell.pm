@@ -101,6 +101,10 @@ sub random_spell_casting {
   return join(' ',grep(length,($verb,$spell_frequency,$spell_type)))." as a natural ability $time_frequency <small>(See the $class progession.)</small>";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Dungeons & Dragons>, Second Edition.

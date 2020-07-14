@@ -18,6 +18,10 @@ sub random_water {
   return $water;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Water> selects random running or standing waters and precipitation.

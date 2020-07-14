@@ -84,6 +84,10 @@ sub linkify {
   return $link;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::Convert> converts strings into various formats.

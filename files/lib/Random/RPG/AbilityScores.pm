@@ -27,6 +27,10 @@ sub random_game_effect_expanded {
   return qq{$game_effect <small>($ability)</small>};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::AbilityScores> selects random ability scores and their game effects from I<Advanced Dungeons & Dragons>, Second Edition.

@@ -96,6 +96,10 @@ sub random_body_functions {
   return $functions;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Body::Function> selects random body functions.

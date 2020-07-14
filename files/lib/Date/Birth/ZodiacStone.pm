@@ -38,6 +38,10 @@ sub zodiac_stone {
   return $zodiac->{$sign}{stone};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Zodiac::Stone> returns the stone associated with zodiac signs.

@@ -16,6 +16,10 @@ sub fancy_splice {
   return \@list;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Splice> splices an array into groups.

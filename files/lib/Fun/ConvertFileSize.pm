@@ -67,6 +67,10 @@ sub convert_filesize {
   return "$org_filesize $opt{from} is $new_filesize $opt{to}";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fun::ConvertFileSize> converts one filesize to another filesize like gigabytes to kilobytes and the reverse.

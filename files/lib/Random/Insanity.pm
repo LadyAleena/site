@@ -14,6 +14,10 @@ sub random_mental_condition {
   return $disorder[rand @disorder];
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Insanity> selects a random mental disorder.

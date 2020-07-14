@@ -20,6 +20,10 @@ sub random_title {
   return $title;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Title> selects random titles given to people.

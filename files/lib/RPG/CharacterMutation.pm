@@ -241,6 +241,10 @@ sub random_mutations {
   return \@mutations;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::CharacterMutation> allows a DM to mutate characters by generating enhancements, diminishments, and mutations.

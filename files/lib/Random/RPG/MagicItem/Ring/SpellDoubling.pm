@@ -56,6 +56,10 @@ sub random_ring {
   return make_ring($ring_class,\@levels);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::MagicItem::Ring::SpellDoubling> makes or randomly generates a Ring of Spell Doubling.

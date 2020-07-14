@@ -36,6 +36,10 @@ sub initials {
   abbr(@_);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::Abbreviation> returns an abbreviation for a string.

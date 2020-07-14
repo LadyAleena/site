@@ -76,6 +76,10 @@ sub slots_needed {
   return $slots;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::Character::WeaponSlots> returns the amount of slots for weapon proficiency, specialization, and mastery for your character's class or classes.

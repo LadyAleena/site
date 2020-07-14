@@ -116,6 +116,10 @@ sub random_name {
   return $result;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Name::Pattern> generates random names by a specified pattern, based on Random Name by Jason Seeley.

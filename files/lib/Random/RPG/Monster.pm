@@ -288,6 +288,10 @@ sub random_RPG_dragon {
   return random_monster('dragon');
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and its compendiums from I<Advanced Dungeons & Dragons>, Second Edition.

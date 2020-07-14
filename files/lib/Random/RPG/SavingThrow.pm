@@ -20,6 +20,10 @@ sub random_saving_throw {
   return $saving_throw;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeons & Dragons>, Second Edition.

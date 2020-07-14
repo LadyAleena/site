@@ -640,6 +640,10 @@ sub html {
 
 # End elements
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<HTML::Element> generates HTML tags for most of the HTML elements.

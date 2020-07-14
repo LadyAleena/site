@@ -37,6 +37,10 @@ sub random_special_attack {
   return "$attack - ".join_defined(' ', ($effect, $damage, $freqency));
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced Dungeons & Dragons>, Second Edition.

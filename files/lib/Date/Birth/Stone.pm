@@ -20,6 +20,10 @@ sub birth_stone {
   return $stones->{$month};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Date::Birth::Stone> returns the birth stone associated with months.

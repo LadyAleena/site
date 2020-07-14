@@ -37,6 +37,10 @@ sub random_plants              { my $user_addition = shift; random_things('plant
 sub random_utensils            { my $user_addition = shift; random_things('utensils', $user_addition) }
 sub random_musical_instruments { my $user_addition = shift; random_things('musical instruments', $user_addition) }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Thing> selects random things.

@@ -38,6 +38,10 @@ sub shortest_value {
   return $short_list;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::ListLengths> returns the value of the longest or shortest value or the length of the longest or shortest value.

@@ -137,6 +137,10 @@ sub random_magic_item_action {
   return $magic_item_action;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & Dragons>, Second Edition.

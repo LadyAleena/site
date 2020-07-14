@@ -53,6 +53,10 @@ sub name_transform {
   return [$surname,$first_name,$other_names,$prefix,$suffix];
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::TransformName> returns parts of names in an array.

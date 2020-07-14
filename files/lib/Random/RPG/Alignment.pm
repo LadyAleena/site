@@ -48,6 +48,10 @@ sub full {
   return $alignment;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Alignment> selects random alignments from I<Advanced Dungeons & Dragons>, Second Edition.

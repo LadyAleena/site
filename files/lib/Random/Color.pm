@@ -52,6 +52,10 @@ sub random_color {
   return $color;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Color> selects random colors.

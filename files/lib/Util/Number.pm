@@ -25,6 +25,10 @@ sub pretty_number {
   return $pretty_number;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::Number> adds commas, rounds, and returns pretty numbers.

@@ -51,6 +51,10 @@ sub random_Xanth_dragon {
   return "$gender $size $nature $mental $weapon $environment dragon";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Dragon::Xanth> generates random dragons from the I<Xanth> series by Piers Anthony.

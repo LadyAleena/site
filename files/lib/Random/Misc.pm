@@ -42,6 +42,10 @@ sub random_shadow             { fancy_rand(\%misc, 'shadow'            , { 'call
 sub random_sign               { fancy_rand(\%misc, 'sign'              , { 'caller' => (caller(0))[3] }) }
 sub random_zstuff             { fancy_rand(\%misc, 'zstuff'            , { 'caller' => (caller(0))[3] }) }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Misc> selects random miscellaneous things.

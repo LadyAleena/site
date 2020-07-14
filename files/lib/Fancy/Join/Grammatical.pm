@@ -16,6 +16,10 @@ sub grammatical_join {
   join($punc, @_);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Join::Grammatical> joins a list with a final conjunction.

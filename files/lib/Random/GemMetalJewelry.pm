@@ -133,6 +133,10 @@ sub random_jewelry {
   }
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.

@@ -21,6 +21,10 @@ sub racial_languages {
   return $racial_languages{$race} ? $racial_languages{$race} : undef;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::RacialLanguages> returns the racial languages for player characters.

@@ -20,6 +20,10 @@ sub fancy_map {
   } @{$list};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Map> maps within a map.

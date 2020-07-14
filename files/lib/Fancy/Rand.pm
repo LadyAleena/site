@@ -56,6 +56,10 @@ sub fancy_rand_from_array {
 sub tiny_rand    { fancy_rand_from_array(@_); }
 sub instant_rand { fancy_rand_from_array(@_); }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Fancy::Rand> selects random items from sets of lists.

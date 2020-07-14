@@ -296,6 +296,10 @@ sub random_aura {
   return tiny_rand(@auras);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Body::Modification> selects random body modifications.

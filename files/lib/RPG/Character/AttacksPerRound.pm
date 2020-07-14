@@ -33,6 +33,10 @@ sub attacks_per_round {
   return $attacks;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::Character::AttacksPerRound> returns the amount of attacks characters can make in combat. Most classes receive only 1 attack per round with only B<warriors> and B<chaos wardens> (a new class of my creation) receiving more as they advance in level.

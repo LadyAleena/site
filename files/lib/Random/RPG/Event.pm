@@ -36,6 +36,10 @@ sub random_event {
   return tiny_rand(@events);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & Dragons>, Second Edition.

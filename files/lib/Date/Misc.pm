@@ -56,6 +56,10 @@ sub half_life_date {
   return \%half_life;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::TimeStuff> returns durations and half life date.

@@ -75,6 +75,10 @@ sub random_month {
   return $random_month;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Month> selects a random month by language.

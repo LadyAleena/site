@@ -34,6 +34,10 @@ sub random_VisiBone_color {
   }
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Color::VisiBone> selects random colors based on the Web Designer's Color Reference Poster by L<VisiBone|http://www.visibone.com/color/poster4x.html>.

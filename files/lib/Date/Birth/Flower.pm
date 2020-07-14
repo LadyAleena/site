@@ -21,6 +21,10 @@ sub birth_flower {
   return $flowers->{$month}{$country};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Date::Birth::Flower> returns the birth flower associated with months.

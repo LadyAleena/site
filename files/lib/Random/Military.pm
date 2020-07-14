@@ -137,6 +137,10 @@ sub random_military_by_location {
   return random_military($unit);
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Military> generates a fictional and fantasy military unit.

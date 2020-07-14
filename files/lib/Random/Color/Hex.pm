@@ -42,6 +42,10 @@ sub hex_color_with_number {
   return "$hex_color (".join(' ', @$rgb).")";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Color::Hex> returns random colors.

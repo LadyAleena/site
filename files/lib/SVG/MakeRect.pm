@@ -59,6 +59,10 @@ sub make_rect {
   return $new_value;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<SVG::MakeRect> is a tool to convert four-sided polygons in SVG files into rectangles.

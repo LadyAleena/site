@@ -32,6 +32,10 @@ sub alignment_class {
   return $class;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<RPG::Character::Alignment> expands alignments for AD&D 2nd Edition.

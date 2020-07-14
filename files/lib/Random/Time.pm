@@ -65,6 +65,10 @@ sub random_frequency {
   return "$frequency $plural $time_unit";
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Time> selects a random time unit, random day part, random time, or random frequency.

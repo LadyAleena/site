@@ -26,6 +26,10 @@ sub day_stone {
   return $day_stones->{$day_word};
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Date::Birth::DayStone> returns the birthday stone for the day of the week you were born.

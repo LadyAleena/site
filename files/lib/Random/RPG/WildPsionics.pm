@@ -239,6 +239,10 @@ sub random_wild_psionic_talent {
   return @talents ? "$lead: (PSPs: $psp_total) ".join(', ',sort @talents) : undef;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::RPG::WildPsionics> selects random a wild psionic talent from I<Advanced Dungeons & Dragons>, Second Edition.

@@ -150,6 +150,10 @@ sub split_sort {
   }
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::Sort> performs various sorts on lists.

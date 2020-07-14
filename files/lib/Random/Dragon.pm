@@ -60,6 +60,10 @@ sub random_dragon {
   return $dragon;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.

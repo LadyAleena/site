@@ -11,6 +11,10 @@ sub quote_attributes {
   return $line;
 }
 
+=pod
+
+=encoding utf8
+
 =head1 NAME
 
 B<Util::QuoteAttribute> quotes attributes within html element tags which are not already quoted.
