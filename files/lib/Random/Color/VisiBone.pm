@@ -23,15 +23,18 @@ sub random_VisiBone_color {
   my $vividness = random_VisiBone_color_attribute('vividness');
   my $hue = random_VisiBone_color_attribute('hue');
 
+  my $color;
   if ($brightness eq 'white'||$brightness eq 'black') {
-    return $brightness;
+    $color = $brightness;
   }
   elsif ($vividness eq 'grey') {
-    return "$brightness $vividness";
+    $color = "$brightness $vividness";
   }
   else {
-    return "$brightness $vividness $hue";
+    $color = "$brightness $vividness $hue";
   }
+
+  return $color;
 }
 
 =pod

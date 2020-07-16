@@ -24,7 +24,7 @@ my %magic_items = (
   'girdles and helms'   => [qw(belts buckles caps circlets girdles hats headbands helmets masks sashes turbans)],
   'containers'          => [qw(bags barrels basins beakers bottles bowls boxes braziers cabinets cages cans canisters canteens cases casks cauldrons censers chalices chests coffins containers decanters flagons flasks coblets horns jars jugs kettles mugs pitchers prisons scabbards tubs urns)],
   'dust and stones'     => [qw(apples beads berries bones candles chesses dust eggs feathers fingers incense marbles pies powders rocks roses seeds smoke soaps stones tarts tooth waxes weeds), 'air spores', 'ioun stones'],
-  'household items'     => [qw(anvils aprons art awls banners bellows benches blankets brooms brushes buttons carpets chairs cords cots curtains desks doors fans forks gavels hammocks handkerchiefs harnesses hasps hinges hourglasses inkwells irons keys maps ladders ladles lamps locks logs matches mirrors muzzles nails needles pans pens picks pills plates poker rakes razors ropes saws seals shakers shovels spoons stairs strings sundials tables tapestries teas telescopes tents threads thrones torches utensils vanes yokes), 'balance scales', 'candle snuffers', 'fishing poles', 'grappling irons', 'mortars and pestles', 'quill pens', 'smoking_pipes', 'spinning wheels', 'tool sets'],
+  'household items'     => [qw(anvils aprons art awls banners bellows benches blankets brooms brushes buttons carpets chairs cords cots curtains desks doors fans forks gavels hammocks handkerchiefs harnesses hasps hinges hourglasses inkwells irons keys maps ladders ladles lamps locks logs matches mirrors muzzles nails needles pans pens picks pills plates poker rakes razors ropes saws seals shakers shovels spoons stairs strings sundials tables tapestries teas telescopes tents threads thrones torches utensils vanes yokes), 'balance scales', 'candle snuffers', 'fishing poles', 'grappling irons', 'mortars and pestles', 'quill pens', 'smoking pipes', 'spinning wheels', 'tool sets'],
   'musical instruments' => [map( "$_ instruments", qw(percussion stringed wind brass) )],
   'weird stuff'         => [qw(anchors arms astrolabes balls balloons beacons boats bridles casts castles chains chariots coins cubes devices dice disks figureheads figurines fire fountains globes horseshoes huts idols kites locators masts mobiles nests oars oracles orbs pedestals pools rudders saddles sails ships skulls sledges spheres statues transportation trees turrets wells wheels wings), 'chess games', 'crystal balls', 'decks of cards', 'spelljamming hemls'],
   'humorous items'      => ['humorous items'],
@@ -35,7 +35,7 @@ my %magic_items = (
 
 my %reverse_magic_items;
 for my $key (keys %magic_items) {
-    $reverse_magic_items{$_} = $key for @{$magic_items{$key}};
+  $reverse_magic_items{$_} = $key for @{$magic_items{$key}};
 }
 
 my %magic_item_enhancement = (

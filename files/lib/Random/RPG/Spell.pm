@@ -9,7 +9,6 @@ use Lingua::EN::Inflect qw(ORD);
 use Fancy::Rand qw(tiny_rand);
 use Random::SpecialDice qw(percentile);
 
-
 my %spells = (
   wizard => {
     groups => [qw(abjuration air alteration conjuration/summoning divination earth enchantment/charm fire illusion/phantasm invocation/evocation necromancy water)],

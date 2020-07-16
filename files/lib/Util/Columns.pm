@@ -47,7 +47,7 @@ B<Util::Columns> generates a number for getting columns based on exponential num
 
 B<Util::Columns> exports C<number_of_columns> by default.
 
-C<number_of_columns> takes three parameters. The first parameter is the maximum amount of columns allowed. The second parameter is the amount of items on the list. The third parameter is the option to return a number word instead of an integer.
+C<number_of_columns> takes three parameters. The first parameter is the maximum amount of columns allowed. The second parameter is the amount of items on the list. The third parameter is the option to return a number word instead of an integer, this is optional.
 
 =head1 AUTHOR
 

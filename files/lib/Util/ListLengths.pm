@@ -48,7 +48,7 @@ B<Util::ListLengths> returns the value of the longest or shortest value or the l
 
 =head1 SYNOPSIS
 
-  use Util::ListLengths qw(get_longest_value get_shortest_value get_longest_length get_shortest_length);
+  use Util::ListLengths qw(longest_value shortest_value longest_length shortest_length);
 
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
                 'blue', 'violet', 'magenta', 'pink', 'white', 'black', 'gray');
