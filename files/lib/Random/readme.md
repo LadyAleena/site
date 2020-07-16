@@ -4,10 +4,10 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 
 ## General randomness
 
-* [Random::Alpha](Alpha.pm) selects random letters of the English alphabet.
+* [Random::Alpha](Alpha.pm) selects random letters of the English alphabet. It also depends on [Util::Data](../Util/Data.pm). It needs the [alpha data files](../../data/Random/Alpha) to run.
 * [Random::Descriptor](Descriptor.pm) selects a random descriptor.
-* [Random::Dragon](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, and Random::RPG::Monster. It needs the [dragon data files](../../data/Random/Dragons) to run.
-* [Random::Food](Food.pm) selects either a random food or drink. It also depends on [Fancy::Map](../Fancy/Map.pm).
+* [Random::Dragon](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Random::Color, Random::Xanth::Dragon, Random::RPG::Monster, and Util::Data. It needs the [dragon data files](../../data/Random/Dragons) to run.
+* [Random::Food](Food.pm) selects either a random food or drink. It also depends on [Fancy::Map](../Fancy/Map.pm) and Util::Data. It needs the [food data files](../../data/Random/Food) to run.
 * [Random::GemMetalJewelry](GemMetalJewelry.pm) selects random gems, metals, and jewelry. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm) and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
 * [*Random::Government*](Government.pm) selects a random government type.
 * [*Random::Insanity*](Insanity.pm) selects a random mental disorder. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
@@ -28,7 +28,7 @@ Most of these modules depend on [Fancy::Rand](../Fancy/Rand.pm), those that do n
 * [Random::Body::Modification](Body/Modification.pm) selects random body modifications. It also depends on Random::Color, Random::GemMetalJewelry, Random::Size, Random::Misc, Random::RPG::Alignment, [Games::Dice](https://metacpan.org/pod/Games::Dice), and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect). It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 
 ## Random::Color
-* [Random::Color](Color.pm) selects random colors. It needs the [color data files](../../data/Random/Colors) to run.
+* [Random::Color](Color.pm) selects random colors. It also depends on [Util::Data](../Util/Data.pm). It needs the [color data files](../../data/Random/Colors) to run.
 * [*Random::Color::Hex*](Color/Hex.pm) returns random colors. It depends on [Fancy::Split](../Fancy/Split.pm).
 * [Random::Color::VisiBone](Color/VisiBone.pm) selects random colors based on the Web Designer's Color Reference Poster by [VisiBone](http://www.visibone.com/color/poster4x.html).
 
