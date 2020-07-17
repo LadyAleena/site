@@ -22,6 +22,6 @@
 
 [data](/files/data): All of the data that is used in more than one place on my site.
 
-[image](/files/images): All of the images that are used on my site.
+[images](/files/images): All of the images that are used on my site.
 
 [text](/files/text): All of the text that is used on my site to generate pages.
