@@ -380,7 +380,7 @@ B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and
 
 =head1 DEPENDENCIES
 
-Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, L<Lingua::EN::Inflect>, and L<List::Util>.
+Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, L<Lingua::EN::Inflect>, L<List::Util>, and L<Exporter>.
 
 =head1 AUTHOR
 

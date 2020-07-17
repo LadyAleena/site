@@ -100,7 +100,7 @@ B<Random::Month> selects a random month by language.
 
 =head1 DEPENDENCIES
 
-Random::Month depends on L<Fancy::Rand> and L<Date::Calc>.
+Random::Month depends on L<Fancy::Rand>, L<Date::Calc>, and L<Exporter>.
 
 =head1 AUTHOR
 

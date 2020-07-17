@@ -2,6 +2,8 @@ package Fun::Numbers;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(primes fraction_value fractions_values list_Roman_numerals_values list_values_Roman_numerals Roman_overline);
 
 use List::Util qw(sum);
@@ -142,5 +144,46 @@ sub Roman_overline {
 
   return $string;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Fun::Numbers> can return primes, fraction values, or Roman numerals.
+
+=head1 SYNOPSIS
+
+  use Fun::Numbers qw(
+    primes
+    fraction_value
+    fractions_values
+    list_Roman_numerals_values
+    list_values_Roman_numerals
+    Roman_overline
+  );
+
+  my @primes_list = primes($highest_number); # returns all primes below the number entered.
+
+  # for fractions
+  my $number = 28;
+
+  my $fraction_value = fraction_value(78, 99, $number);
+    # returns 78/99 of 28
+  my %fractions      = fractions_values(99, $number)
+    # retrns a hash of all the fractional values from 1/2 to 98/99 of 28
+
+  # Roman numerals section is incomplete
+
+=head1 DEPENDENCIES
+
+Fun::Numbers depends on L<Exporter> and L<List::Util>.
+
+=head1 AUTHOR
+
+Lady Aleena with lots of help from PerlMonks.
+
+=cut
 
 1;

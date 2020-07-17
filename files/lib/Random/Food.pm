@@ -95,7 +95,7 @@ B<Random::Food> selects either a random food or drink.
 
 =head1 DEPENDENCIES
 
-Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, and L<Util::Data>.
+Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

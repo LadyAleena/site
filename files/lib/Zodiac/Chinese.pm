@@ -42,6 +42,10 @@ To generate one's Chinese zodiac sign, please use the example below.
 
 Lady Aleena with help of ik and mofino in the #perlcafe on freenode.
 
+=head2 Author note
+
+Chinese::Zodiac was packaged and uploaded to CPAN by Rene Schickbauer.
+
 =cut
 
 1;

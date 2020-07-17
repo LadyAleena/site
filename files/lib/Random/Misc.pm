@@ -90,9 +90,9 @@ B<Random::Misc> selects random miscellaneous things.
 
 Random::Misc is a catch all for lists that can not be classified as anything else.
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Misc depends on L<Fancy::Rand>.
+Random::Misc depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 SEE ALSO
 

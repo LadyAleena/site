@@ -49,6 +49,10 @@ C<racial_languages> returns the racial languages for characters.
 
 The options are dwarf, high elf, grey elf, sylvan elf, half-elf, gnome, halfling, ogre-mage, and chaos elemental-kin. More racial languages will be added later.
 
+=head1 DEPENDENCY
+
+RPG::RacialLanguages depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

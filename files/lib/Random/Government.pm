@@ -148,6 +148,10 @@ B<Random::Government> selects a random government type.
 
 The options of this module came from L<The Phrontistery|http://phrontistery.info/> except magocracy which came from I<The World Builder's Guidebook>.
 
+=head1 DEPENDENCY
+
+Random::Government depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

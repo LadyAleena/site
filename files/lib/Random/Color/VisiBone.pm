@@ -51,7 +51,7 @@ B<Random::Color::VisiBone> selects random colors based on the Web Designer's Col
 
 =head1 DEPENDENCIES
 
-Random::Color::VisiBone depends on L<Fancy::Rand>.
+Random::Color::VisiBone depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

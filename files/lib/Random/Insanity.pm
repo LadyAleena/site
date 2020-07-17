@@ -27,6 +27,10 @@ B<Random::Insanity> selects a random mental disorder.
   use Random::Insanity qw(random_mental_condition);
   my $insanity = random_mental_condition;
 
+=head1 DEPENDENCY
+
+Random::Insanity depends on L<Exporter>.
+
 =head1 NOTE
 
 Please know this module is for fun but not making light of real disorders that affect so many people. I am very of the toll mental disorders take on people and their families.

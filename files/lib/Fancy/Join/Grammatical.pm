@@ -40,6 +40,10 @@ C<grammatical_join> can be exported and returns a string of joined array values 
 
 L<Lingua::EN::Inflect> has C<WORDLIST> and L<Lingua::EN::Inflexion> has C<wordlist> which does a little more than C<grammatical_join>.
 
+=head1 DEPENDENCY
+
+Fancy::Join::Grammatical depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

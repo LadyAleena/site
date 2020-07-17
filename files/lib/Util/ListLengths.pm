@@ -75,15 +75,23 @@ B<Util::ListLengths> returns the value of the longest or shortest value or the l
 
 =head2 longest_value
 
+C<longest_value> returns an arrayref with all the values that are the longest length.
+
 =head2 shortest_value
 
-C<longest_value> and C<shortest_value> return an arrayref with all the values that are either the longest or the shortest.
+C<shortest_value> returns an arrayref with all the values that are the shortest length.
 
 =head2 longest_length
 
+C<longest_length> returns the longest integer length of the values of an array.
+
 =head2 shortest_length
 
-C<longest_length> and C<shortest_length> return the longest or shortest integer length of the values of an array.
+C<shortest_length> returns the shortest integer length of the values of an array.
+
+=head1 DEPENDENCY
+
+Util::ListLengths depends on L<Exporter>.
 
 =head1 AUTHOR
 

@@ -45,6 +45,10 @@ B<Fancy::Splice> splices an array into groups.
 
 C<fancy_splice> can be exported and returns a referenced array of arrays spliced by a user specified amount. It takes two paraments: the size of the groups and the list. The size can be any integer, and the list is an array.
 
+=head1 DEPENDENCY
+
+Fancy::Splice depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

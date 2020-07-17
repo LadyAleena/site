@@ -2,6 +2,8 @@ package Date::Birth::Flower;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(birth_flower);
 
 use String::Util qw(trim);
@@ -37,6 +39,10 @@ B<Date::Birth::Flower> returns the birth flower associated with months.
 =head1 DESCRIPTION
 
 C<birth_flower> is exported by default and returns the birth flower associated with the month and country entered. There are currently only two countries with birth flowers, the US and the UK, as far as I know.
+
+=head1 DEPENDENCIES
+
+Date::Birth::Flower depends on L<Exporter> and L<String::Util>.
 
 =head1 AUTHOR
 

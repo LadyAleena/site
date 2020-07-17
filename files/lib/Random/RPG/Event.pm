@@ -50,7 +50,7 @@ B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & 
 
 =head1 DEPENDENCIES
 
-Random::RPG::Event depends on L<Fancy::Rand>, L<Random::RPG::AbilityScores>, and L<Random::RPG::SavingThrow>.
+Random::RPG::Event depends on L<Fancy::Rand>, L<Random::RPG::AbilityScores>, L<Random::RPG::SavingThrow>, and L<Exporter>.
 
 =head1 AUTHOR
 

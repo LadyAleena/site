@@ -114,7 +114,7 @@ B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Du
 
 =head1 DEPENDENCIES
 
-Random::RPG::Spell depends on L<Fancy::Rand>, L<Random::SpecialDice>, and L<Lingua::EN::Inflect>.
+Random::RPG::Spell depends on L<Fancy::Rand>, L<Random::SpecialDice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

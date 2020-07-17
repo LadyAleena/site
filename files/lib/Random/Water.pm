@@ -45,9 +45,9 @@ B<Random::Water> selects random running or standing waters and precipitation.
   print random_water('help'); # get random_water options
 
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Water depends on L<Fancy::Rand>.
+Random::Water depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

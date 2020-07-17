@@ -104,7 +104,7 @@ B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Pott
 
 =head1 DEPENDENCIES
 
-Random::Dragon depends on L<Fancy::Rand>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, and L<Util::Data>.
+Random::Dragon depends on L<Fancy::Rand>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

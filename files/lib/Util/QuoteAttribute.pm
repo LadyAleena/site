@@ -19,6 +19,10 @@ sub quote_attributes {
 
 B<Util::QuoteAttribute> quotes attributes within html element tags which are not already quoted.
 
+=head1 DEPENDENCY
+
+Util::QuoteAttribute depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

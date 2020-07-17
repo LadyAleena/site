@@ -6,6 +6,7 @@ use Exporter qw(import);
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
 
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(
   join_defined
   grammatical_join
@@ -52,6 +53,10 @@ You can use C<grammatical_join> here or from L<Fancy::Join> or L<Fancy::Join::Gr
 =head3 Note
 
 L<Lingua::EN::Inflect> has C<WORDLIST> and L<Lingua::EN::Inflexion> has C<wordlist> which does a little more than C<grammatical_join>.
+
+=head1 DEPENDENCIES
+
+Fancy::Join depends on L<Exporter>, L<Fancy::Join::Defined>, and L<Fancy::Join::Grammatical>.
 
 =head1 AUTHOR
 

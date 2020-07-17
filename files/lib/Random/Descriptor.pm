@@ -41,9 +41,9 @@ B<Random::Descriptor> selects a random descriptor.
 
   print random_descriptor('help'); # get random_descriptor options
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Descriptor depends on L<Fancy::Rand>.
+Random::Descriptor depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

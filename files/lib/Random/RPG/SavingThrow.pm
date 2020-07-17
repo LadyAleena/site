@@ -32,9 +32,9 @@ B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeon
 
   use Random::RPG::SavingThrow qw(random_saving_throw);
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::RPG::SavingThrow depends on L<Fancy::Rand>.
+Random::RPG::SavingThrow depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

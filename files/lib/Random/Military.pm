@@ -190,9 +190,13 @@ The hash for each unit and any subunits will include the leader of the unit, the
 
 C<random_military_by_location> was written for fun even though it mimics C<random_military>.
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Military depends on L<Games::Dice>.
+Random::Military depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
 
 =cut
 

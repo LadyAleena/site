@@ -77,9 +77,9 @@ When you want to generate a random alignment with this module, you can choose fr
 
 The default random result is C<random_alignment('all')>.
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::RPG::Alignment depends on L<Fancy::Rand>.
+Random::RPG::Alignment depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

@@ -50,6 +50,10 @@ B<Fancy::Split> splits a string into groups.
 
 C<fancy_split> can be exported and returns a referenced array split by a user specified amount. It takes two paraments: the size of the groups and the string to be split. The size can be any integer.
 
+=head1 DEPENDENCY
+
+Fancy::Split depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

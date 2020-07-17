@@ -91,7 +91,7 @@ B<Random::RPG::MagicItem::Giant> returns either a gauntlet or girdle of giant st
 
 =head1 DEPENDENCIES
 
-Random::RPG::MagicItem::Giant depends on L<Fancy::Rand> and L<Random::RPG::MagicItem>.
+Random::RPG::MagicItem::Giant depends on L<Fancy::Rand>, L<Random::RPG::MagicItem>, and L<Exporter>.
 
 =head1 AUTHOR
 

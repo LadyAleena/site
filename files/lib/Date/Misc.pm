@@ -2,6 +2,8 @@ package Date::Misc;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(duration half_life_date);
 
 use Date::Calc qw(:all);
@@ -62,7 +64,11 @@ sub half_life_date {
 
 =head1 NAME
 
-B<Util::TimeStuff> returns durations and half life date.
+B<Date::Misc> returns time durations and half life date.
+
+=head1 DEPENDENCIES
+
+Date::Misc depends on L<Exporter> and L<Date::Calc>.
 
 =head1 AUTHOR
 

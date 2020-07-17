@@ -39,9 +39,9 @@ B<Random::RPG::AbilityScores> selects random ability scores and their game effec
 
   use Random::RPG::AbilityScores qw(random_ability);
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::RPG::AbilityScroes depends on L<Fancy::Rand>.
+Random::RPG::AbilityScroes depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

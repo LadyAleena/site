@@ -63,9 +63,9 @@ B<Random::Alpha> selects random letters of the English alphabet.
 
   print random_alpha('help') # get random_alpha options
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Alpha depends on L<Fancy::Rand> and L<Util::Data>.
+Random::Alpha depends on L<Fancy::Rand>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

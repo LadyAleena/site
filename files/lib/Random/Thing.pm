@@ -105,7 +105,7 @@ Random::Thing selects random animals, plants, armor, musicial intruments, utensi
 
 =head1 DEPENDENCIES
 
-Random::Thing depends on L<Fancy::Rand>, I<Random::RPG::MagicItem>, I<Random::RPG::Monster>, and L<Random::RPG::Weapon>.
+Random::Thing depends on L<Fancy::Rand>, I<Random::RPG::MagicItem>, I<Random::RPG::Monster>, L<Random::RPG::Weapon>, and L<Exporter>.
 
 =head1 SEE ALSO
 

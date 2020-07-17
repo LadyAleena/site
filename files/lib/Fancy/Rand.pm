@@ -2,6 +2,8 @@ package Fancy::Rand;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(fancy_rand fancy_rand_from_array tiny_rand instant_rand);
 
 use List::Util qw(shuffle);
@@ -224,6 +226,10 @@ C<fancy_rand_from_array> takes an array and returns a random result. C<tiny_rand
   my $fancy_rand_from_array = fancy_rand_from_array(qw(black white red yellow green cyan blue magenta));
   my $tiny_rand    = tiny_rand(qw(black white));
   my $instant_rand = instant_rand(qw(red yellow green cyan blue magenta));
+
+=head1 DEPENDENCIES
+
+Fancy::Rand depends on L<Exporter>, L<List::Util>, and L<List::MoreUtils>.
 
 =head1 AUTHOR
 

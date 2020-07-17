@@ -48,7 +48,7 @@ B<Util::Number> adds commas, rounds, and returns pretty numbers.
 
 =head1 DESCRIPTION
 
-B<Util::Number> contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
+Util::Number contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
 
 =head2 commify
 
@@ -67,6 +67,10 @@ B<C<round>> rounds a decimal number by a set precision. If you want the number r
 B<C<pretty_number>> puts commify and round together so you can get rounded numbers with commas.
 
   pretty_number($number, $precision);
+
+=head1 DEPENDENCY
+
+Util::Number depends on L<Exporter>.
 
 =head1 AUTHOR
 

@@ -91,7 +91,7 @@ B<Random::Time> selects a random time unit, random day part, random time, or ran
 
 =head1 DEPENDENCIES
 
-Random::Time depends on L<Fancy::Rand>, L<Random::SpecialDice>, and I<Lingua::EN::Inflect>.
+Random::Time depends on L<Fancy::Rand>, L<Random::SpecialDice>, I<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

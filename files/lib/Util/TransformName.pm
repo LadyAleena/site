@@ -61,6 +61,10 @@ sub name_transform {
 
 B<Util::TransformName> returns parts of names in an array.
 
+=head1 DEPENDENCIES
+
+Util::TransformName depends on L<List::MoreUtils> and L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

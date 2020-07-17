@@ -110,7 +110,7 @@ B<Random::Body::Function> selects random body functions.
 
 =head1 DEPENDENCIES
 
-Random::Body::Function depends on L<Fancy::Rand> and L<Fancy::Join::Grammatical>.
+Random::Body::Function depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, and L<Exporter>.
 
 =head1 AUTHOR
 

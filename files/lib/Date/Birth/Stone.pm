@@ -2,6 +2,8 @@ package Date::Birth::Stone;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(birth_stone);
 
 use String::Util qw(trim);
@@ -36,6 +38,10 @@ B<Date::Birth::Stone> returns the birth stone associated with months.
 =head1 DESCRIPTION
 
 C<birth_stone> is exported by default and returns the birth stone associated with the month entered.
+
+=head1 DEPENDENCIES
+
+Date::Birth::Stone depends on L<Exporter> and L<String::Util>.
 
 =head1 AUTHOR
 

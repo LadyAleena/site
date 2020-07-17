@@ -2,6 +2,8 @@ package Fun::AstroBody;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(astro_body);
 
 sub astro_body {
@@ -21,5 +23,30 @@ sub astro_body {
     return $a_body;
   }
 }
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Fun::AstroBody> returns a random astronomical body to use instead of "World" in "Hello World!".
+
+=head1 SYNOPSIS
+
+  use Fun::AstroBody qw(astro_body);
+
+  my $astrobody = astro_body();
+
+  print $astrobody;
+
+=head1 DEPENDENCY
+
+Fun::AstroBody depends on L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

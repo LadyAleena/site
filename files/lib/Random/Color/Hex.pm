@@ -56,7 +56,7 @@ B<Random::Color::Hex> returns random colors.
 
 =head1 DEPENDENCIES
 
-Random::Color::Hex depends on L<Fancy::Split>.
+Random::Color::Hex depends on L<Fancy::Split> and L<Exporter>.
 
 =head1 AUTHOR
 

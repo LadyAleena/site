@@ -2,6 +2,8 @@ package Date::Birth::DayStone;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(day_stone);
 
 use Date::Calc qw(:all);
@@ -42,6 +44,10 @@ B<Date::Birth::DayStone> returns the birthday stone for the day of the week you 
 =head1 DESCRIPTION
 
 C<day_stone> is exported by default and returns the birthday stone associated with the day of the week you were born. Enter the 4-digit year, the month, and day you were born.
+
+=head1 DEPENDENCIES
+
+Date::Birth::DayStone depends on L<Exporter>, L<Date::Calc>, L<String::Util>, and L<Date::Verify>.
 
 =head1 AUTHOR
 

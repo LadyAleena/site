@@ -151,7 +151,7 @@ B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & 
 
 =head1 DEPENDENCIES
 
-Random::RPG::MagicItem depends on L<Fancy::Rand>, L<Random::Range>, L<Random::SpecialDice>, and L<Lingua::EN::Inflect>.
+Random::RPG::MagicItem depends on L<Fancy::Rand>, L<Random::Range>, L<Random::SpecialDice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

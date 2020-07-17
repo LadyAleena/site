@@ -275,7 +275,7 @@ B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.
 
 =head1 DEPENDENCIES
 
-Random::GemMetalJewelry depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, and L<Lingua::EN::Inflect>.
+Random::GemMetalJewelry depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

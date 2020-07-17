@@ -53,6 +53,10 @@ C<fancy_map> can be exported and returns a list of mapped values from a list whi
 
   fancy_map( { 'before' => $before_value, 'after' => $after_value }, $list_with_a_map_in_it );
 
+=head1 DEPENDENCY
+
+Fancy::Map depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

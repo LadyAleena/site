@@ -68,9 +68,9 @@ B<Random::RPG::MagicItem::Ring::SpellDoubling> makes or randomly generates a Rin
 
   use Random::RPG::MagicItem::Ring::SpellDoubling qw(make_ring random_ring);
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::RPG::MagicItem::Ring::SpellDoubling depends on L<Fancy::Rand>.
+Random::RPG::MagicItem::Ring::SpellDoubling depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

@@ -1422,6 +1422,10 @@ L<HTML::HTML5::Builder> and L<Template::Declare::Tags> also build HTML elements.
 
 There are many other modules out there which can build HTML elements, but most are object oriented. I find it easier to deal with functions over objects when printing.
 
+=head1 DEPENDENCIES
+
+HTML::Elements depnds on L<Exporter> and I<Util::Line>.
+
 =head1 AUTHOR
 
 Lady Aleena with a lot of help from the L<PerlMonks|http://www.perlmonks.org>.

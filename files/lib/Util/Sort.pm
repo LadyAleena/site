@@ -158,6 +158,10 @@ sub split_sort {
 
 B<Util::Sort> performs various sorts on lists.
 
+=head1 DEPENDENCIES
+
+Util::Sort depends on L<HTML::Entities> and L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

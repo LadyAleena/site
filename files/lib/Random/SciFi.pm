@@ -42,9 +42,11 @@ B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a
   my $random_HHGTTG_sector = random_HHGTTG_sector(); # returns a random sector based on HHTTG sectors mentioned.
   my $random_MIB_agent     = random_MIB_agent();     # returns a random MIB agent, either single or double letter.
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::SciFi depends on L<Random::Alpha>.
+Random::SciFi depends on L<Random::Alpha> and L<Exporter>.
+
+Random::Alpha depends on L<Fancy::Rand> and L<Util::Data>.
 
 =head1 AUTHOR
 

@@ -52,7 +52,7 @@ B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeo
 
 =head1 DEPENDENCIES
 
-Random::RPG::Class depends on L<Fancy::Rand> and L<Lingua::EN::Inflect>.
+Random::RPG::Class depends on L<Fancy::Rand>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

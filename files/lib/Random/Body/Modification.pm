@@ -310,7 +310,7 @@ B<Random::Body::Modification> selects random body modifications.
 
 =head1 DEPENDENCIES
 
-Random::Body::Modification depends on L<Fancy::Rand>, L<Random::Color>, L<Random::GemMetalJewelry>, L<Random::Size>, L<Random::Misc>, L<Random::RPG::Alignment>, L<Games::Dice>, and L<Lingua::EN::Inflect>.
+Random::Body::Modification depends on L<Fancy::Rand>, L<Random::Color>, L<Random::GemMetalJewelry>, L<Random::Size>, L<Random::Misc>, L<Random::RPG::Alignment>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

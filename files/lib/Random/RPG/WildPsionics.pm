@@ -265,7 +265,7 @@ That could return something like: C<wild psionic talents: (PSPs: 47) animate sha
 
 =head1 DEPENDENCIES
 
-Random::RPG::WildPsionics depends on L<Fancy::Rand>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<List::MoreUtils>.
+Random::RPG::WildPsionics depends on <Fancy::Rand>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, and L<Exporter>.
 
 =head1 AUTHOR
 

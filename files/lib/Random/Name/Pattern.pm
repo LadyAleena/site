@@ -176,6 +176,10 @@ If you want to repeat a group in the pattern, put the amount of repeats directly
 
   random_name('L2(vc)') # will return any letter followed by two repeated syllables each comprised of a single vowel and a single consonant.
 
+=head1 DEPENDENCY
+
+Random::Name::Pattern depends on L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena with help of simcop2387 of #perlcafe and #buubot on freenode and from the PerlMonks and others in #perlcafe.

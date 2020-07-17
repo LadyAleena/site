@@ -123,7 +123,7 @@ B<Random::Color> selects random colors.
 
 =head1 DEPENDENCIES
 
-Random::Color depends on L<Fancy::Rand> and L<Util::Data>.
+Random::Color depends on L<Fancy::Rand>, L<Util::Data>, and L<Exporter>.
 
 =head1 SEE ALSO
 

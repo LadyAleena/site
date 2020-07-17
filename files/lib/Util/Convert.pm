@@ -160,6 +160,10 @@ C<hashtagify> returns a string that can be used as a hashtag.
 
   hashtagify('This & That') # returns #ThisandThat
 
+=head1 DEPENDENCIES
+
+Util::Convert depends on L<Encode>, L<Lingua::EN::Inflect>, L<Util::Path>, and L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena

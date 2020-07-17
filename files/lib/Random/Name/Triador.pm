@@ -129,7 +129,7 @@ B<Random::Name::Triador> is a name generator for the world of Triador that I am 
 
 =head1 DEPENDENCIES
 
-Random::Name::Triador depends on L<Random::Name::Pattern> and L<Games::Dice>.
+Random::Name::Triador depends on <Random::Name::Pattern>, L<Games::Dice>, and L<Exporter>.
 
 =head1 AUTHOR
 

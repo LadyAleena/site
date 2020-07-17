@@ -2,6 +2,8 @@ package Date::Verify;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(four_digit_year month_name month_number day_number);
 
 use Data::Validate qw(is_integer is_between);
@@ -78,5 +80,23 @@ sub day_number {
 
   return $day;
 }
+
+=pod
+
+=encoding utf8
+
+=NAME
+
+B<Date::Verify> makes sure the input matches the date criteria.
+
+=head1 DEPENDENCIES
+
+Date::Verify depends on L<Exporter>, L<Date::Calc>, and L<Date::Validate>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

@@ -2,6 +2,8 @@ package Date::Birth::ZodiacStone;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(sign zodiac_stone);
 
 use String::Util qw(trim);
@@ -56,6 +58,10 @@ B<Zodiac::Stone> returns the stone associated with zodiac signs.
 C<zodiac_stone> is exported by default and returns the stone associated with the sign entered.
 
 If you do not know your zodiac sign, you can use C<sign> to determine your sign using your birth month and day.
+
+=head1 DEPENDENCIES
+
+Date::Birth::ZodiacStone depends on L<Exporter> and L<String::Util>.
 
 =head1 AUTHOR
 

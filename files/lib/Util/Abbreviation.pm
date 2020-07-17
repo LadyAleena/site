@@ -11,8 +11,9 @@ sub abbr {
   my $name = $opt{'name'};
      $name =~ s/^(?:The|An?) //i if $opt{'article'} && $opt{'article'} eq 'drop';
 
+  my $abbreviation;
   if ($name !~ /[ _-]/) {
-    return $opt{'name'};
+    $abbreviation = $opt{'name'};
   }
   else {
     my @abbr;
@@ -24,12 +25,14 @@ sub abbr {
     my $final_abbr = $opt{'ALLCAPS'} && $opt{'ALLCAPS'} =~ /^[yt1]/i ? uc $raw_abbr : $raw_abbr;
 
     if ($opt{'HTML'} && $opt{'HTML'} =~ /^[yt1]/i) {
-      return qq(<abbr title="$opt{name}">$final_abbr</abbr>);
+      $abbreviation = qq(<abbr title="$opt{name}">$final_abbr</abbr>);
     }
     else {
-      return $final_abbr;
+      $abbreviation = $final_abbr;
     }
   }
+
+  return $abbreviation;
 }
 
 sub initials {
@@ -59,17 +62,17 @@ B<Util::Abbreviation> returns an abbreviation for a string.
 
 =head1 DESCRIPTION
 
-In B<Util::Abbreviation> C<abbr> and C<initial> can be exported. C<initial> is an alias for C<abbr>.
+In Util::Abbreviation C<abbr> and C<initial> can be exported. C<initial> is an alias for C<abbr>.
 
 =over
 
 =item name
 
-C<name> is the name to be abbreviated.
+C<name> is the name to be abbreviated. If the name does not have any spaces, underscores, or hyphens in it; it will be returned without being abbreviated.
 
 =item article
 
-C<article> is the option to C<drop> the article from the abbreviation. The World Wide Web would drop the article "The".
+C<article> is the option to C<drop> the article from the abbreviation. The World Wide Web would drop the article "The" and be abbriviated as WWW.
 
 =item periods
 
@@ -86,6 +89,10 @@ C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain O
   <abbr title="Plain Old Documentation">POD</abbr>
 
 =back
+
+=head1 DEPENDENCY
+
+Util::Abbreviation depends on L<Exporter>.
 
 =head1 AUTHOR
 

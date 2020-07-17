@@ -51,7 +51,7 @@ B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced
 
 =head1 DEPENDENCIES
 
-Random::RPG::SpecialAttack depends on L<Fancy::Rand>, L<Fancy::Join::Defined>, L<Random::SpecialDice>, and L<Random::Time>.
+Random::RPG::SpecialAttack depends on <Fancy::Rand>, L<Fancy::Join::Defined>, L<Random::SpecialDice>, L<Random::Time>, and L<Exporter>.
 
 =head1 AUTHOR
 

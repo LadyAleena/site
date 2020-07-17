@@ -58,9 +58,9 @@ B<Random::Title> selects random titles given to people.
 
   print random_title('help'); # get random_title options
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Title depends on L<Fancy::Rand>.
+Random::Title depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 

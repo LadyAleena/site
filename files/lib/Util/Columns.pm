@@ -32,7 +32,7 @@ B<Util::Columns> generates a number for getting columns based on exponential num
 
 =head1 SYNOPSIS
 
-  use Util::Colums;
+  use Util::Colums qw(number_of_columns);
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
                 'blue', 'violet', 'magenta', 'pink', 'white', 'black', 'gray');
 
@@ -45,9 +45,13 @@ B<Util::Columns> generates a number for getting columns based on exponential num
 
 =head1 DESCRIPTION
 
-B<Util::Columns> exports C<number_of_columns> by default.
+Util::Columns exports C<number_of_columns> by default.
 
 C<number_of_columns> takes three parameters. The first parameter is the maximum amount of columns allowed. The second parameter is the amount of items on the list. The third parameter is the option to return a number word instead of an integer, this is optional.
+
+=head1 DEPENDENCIES
+
+Util::Columns depends on L<Lingua::EN::Inflect> and L<Exporter>.
 
 =head1 AUTHOR
 

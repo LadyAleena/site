@@ -2,6 +2,8 @@ package Fun::ConvertFileSize;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(convert_filesize random_filesize);
 
 use List::MoreUtils qw(firstidx apply);
@@ -147,11 +149,11 @@ You could get anything from a bit to a yottabyte.
 
 =head1 DEPENDENCIES
 
-Fun::ConvertFileSize depends on L<Util::Number> and L<List::MoreUtils>.
+Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Util::Number>.
 
 =head1 AUTHOR
 
-Lady_Aleena with lots of help from PerlMonks.
+Lady Aleena with lots of help from PerlMonks.
 
 =cut
 

@@ -60,9 +60,9 @@ The options for B<random_size> are: amount, consistency, density, depth, height,
 
 If you can not remember what you want, you can always use C<random_size('help')> to retrieve the list of options.
 
-=head1 DEPENDENCY
+=head1 DEPENDENCIES
 
-Random::Size depends on L<Fancy::Rand>.
+Random::Size depends on L<Fancy::Rand> and  L<Exporter>.
 
 =head1 AUTHOR
 

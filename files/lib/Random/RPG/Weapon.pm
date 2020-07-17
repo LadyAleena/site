@@ -87,7 +87,7 @@ B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons
 
 =head1 DEPENDENCIES
 
-Random::RPG::Weapon depends on L<Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<String::Util>.
+Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<String::Util>, and L<Exporter>.
 
 =head1 AUTHOR
 
