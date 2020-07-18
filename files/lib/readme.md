@@ -18,6 +18,8 @@ I wrote these modules for my site, but some were written just for fun. Those tha
 
 [SVG](SVG): These modules were all written to help me write the [SVGs](../images) for my site and are specific to my needs.
 
+**[Time](Time)**: These modules were written so I could find out durations and when some event has been half the person's life.
+
 [Util](Util): These modules are almost all helpers for my site and are very specific to my needs. There are not many in here that I would want to share. Those I may want to share would need new names.
 
 [Xanth](Xanth): These modules were written to help me display my [Xanth Character Database](../../../Fandom/Xanth/Characters.pl).
