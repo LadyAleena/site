@@ -1,12 +1,10 @@
-package Date::Misc;
+package Time::Duration;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
 
 our $VERSION   = '1.0';
-our @EXPORT_OK = qw(duration half_life_date);
-
-use Date::Calc qw(:all);
+our @EXPORT_OK = qw(duration);
 
 sub duration {
   my ($var) = @_;
@@ -43,32 +41,17 @@ sub duration {
   return join(":", @times)."\n";
 }
 
-sub half_life_date {
-  my ($meeting, $birthdate) = @_;
-  my $date_difference = Delta_Days(@$birthdate, @$meeting);
-  my ($double_year, $double_month, $double_day) = Add_Delta_Days(@$meeting,$date_difference);
-  my $birthday = $birthdate->[2]." ".Month_to_Text($birthdate->[1])." ".$birthdate->[0];
-  my $double_date = $double_day." ".Month_to_Text($double_month)." ".$double_year;
-
-  my %half_life;
-  $half_life{birthday} = $birthday;
-  $half_life{days_from_birth} = $date_difference;
-  $half_life{half_life_date} = $double_date;
-
-  return \%half_life;
-}
-
 =pod
 
 =encoding utf8
 
 =head1 NAME
 
-B<Date::Misc> returns time durations and half life date.
+B<Time::Duration> returns time duration.
 
 =head1 DEPENDENCIES
 
-Date::Misc depends on L<Exporter> and L<Date::Calc>.
+Time::Duration depends on L<Exporter>.
 
 =head1 AUTHOR
 
