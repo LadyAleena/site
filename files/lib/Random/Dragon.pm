@@ -13,22 +13,15 @@ our @EXPORT_OK = qw(
 );
 
 use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
+use Fancy::Open qw(fancy_open);
 use Random::Color qw(random_color);
 use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
 use Random::RPG::Monster qw(random_RPG_dragon);
 use Util::Data qw(file_directory);
 
 my $directory = file_directory('Random/Dragons', 'data');
-
-open(my $DreamWorks_fh,  '<', "$directory/DreamWorks_dragons.txt") ||
-  die "Can not open $directory/DreamWorks_dragons.txt. $!";
-my @DreamWorks_dragons = map { chomp; $_ } <$DreamWorks_fh>;
-close($DreamWorks_fh);
-
-open(my $Harry_Potter_fh, '<', "$directory/Harry_Potter_dragons.txt") ||
-  die "Can not open $directory/Harry_Potter_dragons.txt. $!";
-my @Harry_Potter_dragons = map { chomp; $_ } <$Harry_Potter_fh>;
-close($Harry_Potter_fh);
+my @DreamWorks_dragons   = fancy_open("$directory/DreamWorks_dragons.txt");
+my @Harry_Potter_dragons = fancy_open("$directory/Harry_Potter_dragons.txt");
 
 my $dragons;
 $dragons->{'DreamWorks'}   = [@DreamWorks_dragons];
@@ -104,7 +97,7 @@ B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Pott
 
 =head1 DEPENDENCIES
 
-Random::Dragon depends on L<Fancy::Rand>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.
+Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

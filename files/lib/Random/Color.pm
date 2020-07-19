@@ -5,19 +5,12 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(random_color);
 
 use Fancy::Rand qw(fancy_rand);
+use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
 
 my $directory = file_directory('Random/Colors', 'data');
-
-open(my $Crayola_fh, '<', "$directory/Crayola_crayon_colors.txt") ||
-  die "Can not open $directory/Crayola_crayon_colors.txt. $!";
-my @Crayola_crayons = map { chomp; $_ } <$Crayola_fh>;
-close($Crayola_fh);
-
-open(my $MandMs_fh,  '<', "$directory/MandMs_colors.txt") ||
-  die "Can not open $directory/MandMs_colors.txt. $!";
-my @MandMs = map { chomp; $_ } <$MandMs_fh>;
-close($MandMs_fh);
+my @Crayola_crayons = fancy_open("$directory/Crayola_crayon_colors.txt");;
+my @MandMs          = fancy_open("$directory/MandMs_colors.txt");
 
 my %colors = (
   'additive primary'      => [qw(red green blue)],
@@ -123,7 +116,7 @@ B<Random::Color> selects random colors.
 
 =head1 DEPENDENCIES
 
-Random::Color depends on L<Fancy::Rand>, L<Util::Data>, and L<Exporter>.
+Random::Color depends on L<Fancy::Rand>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
 =head1 SEE ALSO
 

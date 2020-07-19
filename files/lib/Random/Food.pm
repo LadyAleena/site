@@ -6,24 +6,13 @@ our @EXPORT_OK = qw(random_food random_drink);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Map qw(fancy_map);
+use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
 
 my $directory = file_directory('Random/Food', 'data');
-
-open(my $Klondike_fh, '<', "$directory/Klondike_flavors.txt") ||
-  die "Can not open $directory/Klondike_flavors.txt. $!";
-my @Klondike_flavors = map { chomp; "$_ Klondike bar" } <$Klondike_fh>;
-close($Klondike_fh);
-
-open(my $Kool_Aid_fh, '<', "$directory/Kool-Aid_flavors.txt") ||
-  die "Can not open $directory/Kool-Aid_flavors.txt. $!";
-my @Kool_Aid_flavors = map { chomp; "$_ Kool-Aid" } <$Kool_Aid_fh>;
-close($Kool_Aid_fh);
-
-open(my $MandMs_fh, '<', "$directory/MandMs_flavors.txt") ||
-  die "Can not open $directory/MandMs_flavors.txt. $!";
-my @MandMs_flavors = map { chomp; "$_ M&M" } <$MandMs_fh>;
-close($MandMs_fh);
+my @Klondike_flavors = fancy_open("$directory/Klondike_flavors.txt", { 'after' => " Klondike bar" });
+my @Kool_Aid_flavors = fancy_open("$directory/Kool-Aid_flavors.txt", { 'after' => " Kool-Aid" });
+my @MandMs_flavors   = fancy_open("$directory/MandMs_flavors.txt",   { 'after' => " M&M" });
 
 my %foods = (
   'fruit' => [qw(apple apricot banana blueberry cherry cranberry grape grapefruit lemon lime orange peach pear plum raspberry strawberry tomato)],
@@ -95,7 +84,7 @@ B<Random::Food> selects either a random food or drink.
 
 =head1 DEPENDENCIES
 
-Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, L<Util::Data>, and L<Exporter>.
+Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, J<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

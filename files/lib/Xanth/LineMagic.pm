@@ -4,6 +4,7 @@ use warnings FATAL => qw( all );
 use Exporter qw(import);
 our @EXPORT_OK = qw(Xanth_line_magic);
 
+use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(textify idify searchify);
 use Util::Data    qw(data_file make_hash);
 
@@ -21,10 +22,7 @@ my $see_char = make_hash(
   'file' => ['Fandom/Xanth', 'see_character.txt'],
 );
 
-my $book_fn = data_file('Fandom/Xanth', 'books.txt');
-open(my $book_fh, '<', $book_fn) || die "Can't open $book_fn. $!";
-my @book_list = map { chomp; $_ } <$book_fh>;
-close($book_fh);
+my @book_list = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
 
 sub Xanth_line_magic {
   my $type = shift;

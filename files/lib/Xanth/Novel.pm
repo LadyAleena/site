@@ -6,6 +6,7 @@ our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char
 
 use Lingua::EN::Inflect qw(NUMWORDS ORD);
 
+use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
@@ -13,10 +14,7 @@ use Util::Data     qw(data_file make_hash);
 use Xanth::Util      qw(character_link);
 use Xanth::PageLinks qw(timeline_link);
 
-my $books_fn = data_file('Fandom/Xanth', 'books.txt');
-open(my $book_fh, '<', $books_fn) || die "Can't open $books_fn. $!";
-my @book_list = map { chomp; $_ } <$book_fh>;
-close($book_fh);
+my @book_list = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
 
 my $novel_headings = [qw(Title main published year abbr)];
 my $novels = make_hash(

@@ -5,14 +5,11 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(random_alpha);
 
 use Fancy::Rand qw(fancy_rand);
+use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
 
 my $directory = file_directory('Random/Colors', 'data');
-
-open(my $Greek_fh, '<', "$directory/Greek_letters.txt") ||
-  die "Can not open $directory/Greek_letters.txt. $!";
-my @Greek_letters = map { chomp; $_ } <$Greek_fh>;
-close($Greek_fh);
+my @Greek_letters = fancy_open("$directory/Greek_letters.txt");;
 
 my @consonants = (1,2,3,5,6,7,9,10,11,12,13,15,16,17,18,19,21,22,23,24,25);
 my @vowels     = (0,4,8,14,20);
@@ -65,7 +62,7 @@ B<Random::Alpha> selects random letters of the English alphabet.
 
 =head1 DEPENDENCIES
 
-Random::Alpha depends on L<Fancy::Rand>, L<Util::Data>, and L<Exporter>.
+Random::Alpha depends on L<Fancy::Rand>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
 =head1 AUTHOR
 

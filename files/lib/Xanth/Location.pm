@@ -4,23 +4,18 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(section_link location_link get_locations);
 
+use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined grammatical_join);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(get_article);
 
-my $moons_fn = data_file('Fandom/Xanth', 'moons.txt');
-open(my $moons_fh, '<', $moons_fn) || die "Can't open $moons_fn. $!";
-my @moons_list = map { chomp; $_ } <$moons_fh>;
+my @moons_list = fancy_open(data_file('Fandom/Xanth', 'moons.txt'));
 my $moon_list = join('|', @moons_list);
-close($moons_fh);
 
-my $worlds_fn = data_file('Fandom/Xanth', 'worlds.txt');
-open(my $worlds_fh, '<', $worlds_fn) || die "Can't open $worlds_fn. $!";
-my @worlds_list = map { chomp; $_ } <$worlds_fh>;
+my @worlds_list = fancy_open(data_file('Fandom/Xanth', 'worlds.txt'));
 my $world_list = join('|', @worlds_list);
-close($worlds_fh);
 
 sub section_link {
   my ($main, $section) = @_;

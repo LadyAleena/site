@@ -8,30 +8,21 @@ our @EXPORT_OK = qw(fancy_open);
 
 sub fancy_open {
   my ($filename, $opt) = @_;
-  my $encoding = $opt->{'encoding'} ? $opt->{'encoding'} : 'utf-8';
-  open my $fh, "<:encoding($encoding)", $filename || die "Can't open $filename. $!";
+  my $encoding = $opt->{'encoding'} // 'utf-8';
+  open(my $fh, "<:encoding($encoding)", $filename) or die "Can't open $filename. $!";
+
+  my $before = $opt->{'before'} // '';
+  my $after  = $opt->{'after'}  // '';
+
   my @array;
   while ( my $line = <$fh> ) {
     chomp $line;
-
-    my $final_line;
-    if ( $opt->{'before'} && $opt->{'after'} ) {
-      $final_line = $opt->{'before'}.$line.$opt->{'after'};
-    }
-    elsif ( $opt->{'before'} ) {
-      $final_line = $opt->{'before'}.$line;
-    }
-    elsif ( $opt->{'after'} ) {
-      $final_line = $line.$opt->{'after'}
-    }
-    else {
-      $final_line = $line;
-    }
+    my $final_line = $before . $line . $after;
     push @array, $final_line;
   }
   close($fh);
 
-  return @array
+  return @array;
 }
 
 =pod
