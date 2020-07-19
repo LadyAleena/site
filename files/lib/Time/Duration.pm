@@ -7,9 +7,9 @@ our $VERSION   = '1.0';
 our @EXPORT_OK = qw(duration);
 
 sub duration {
-  my ($var) = @_;
+  my ($time_list) = @_;
   my $total_seconds;
-  for my $duration (@{$var}) {
+  for my $duration (@{$time_list}) {
     my $split = ($duration =~ tr/\://);
     my ($hours,$minutes,$seconds);
     if ($split == 1) {
@@ -47,7 +47,16 @@ sub duration {
 
 =head1 NAME
 
-B<Time::Duration> returns time duration.
+B<Time::Duration> returns total time from a list of smaller durations.
+
+=head1 SYNOPSIS
+
+  use Time::Duration qw(duration);
+
+  my @times = qw(3:58 2:48 4:28 5:06 6:50 5:33 4:05 3:29 4:48 6:19);
+
+  my $total_time = duration(\@times);
+    # returns 47:24
 
 =head1 DEPENDENCIES
 
