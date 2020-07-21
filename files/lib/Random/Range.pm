@@ -1,10 +1,13 @@
 package Random::Range;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_range random_radius);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_range random_radius);
 
 my %units = (
   'imperial' => [qw(in ft yd mi)],
@@ -52,6 +55,10 @@ sub random_radius {
 =head1 NAME
 
 B<Random::Range> selects random ranges or radiuses.
+
+=head1 VERSION
+
+This document describes Random::Range version 1.000.
 
 =head1 SYNOPSIS
 

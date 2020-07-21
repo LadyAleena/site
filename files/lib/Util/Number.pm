@@ -1,7 +1,10 @@
 package Util::Number;
+use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(commify round pretty_number);
 
 # commify, round, and pretty_number all make my numbers more readable.
@@ -32,6 +35,10 @@ sub pretty_number {
 =head1 NAME
 
 B<Util::Number> adds commas, rounds, and returns pretty numbers.
+
+=head1 VERSION
+
+This document describes Util::Number version 1.0.
 
 =head1 SYNOPSIS
 

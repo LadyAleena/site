@@ -1,13 +1,16 @@
 package Random::Food;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_food random_drink);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Map qw(fancy_map);
 use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_food random_drink);
 
 my $directory = file_directory('Random/Food', 'data');
 my @Klondike_flavors = fancy_open("$directory/Klondike_flavors.txt", { 'after' => " Klondike bar" });
@@ -55,6 +58,10 @@ sub random_drink {
 =head1 NAME
 
 B<Random::Food> selects either a random food or drink.
+
+=head1 VERSION
+
+This document describes Random::Food version 1.000.
 
 =head1 SYNOPSIS
 

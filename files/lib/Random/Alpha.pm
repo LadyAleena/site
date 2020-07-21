@@ -1,12 +1,15 @@
 package Random::Alpha;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_alpha);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_alpha);
 
 my $directory = file_directory('Random/Colors', 'data');
 my @Greek_letters = fancy_open("$directory/Greek_letters.txt");;
@@ -41,6 +44,10 @@ sub random_alpha {
 =head1 NAME
 
 B<Random::Alpha> selects random letters of the English alphabet.
+
+=head1 VERSION
+
+This document describes Random::Alpha version 1.000.
 
 =head1 SYNOPSIS
 

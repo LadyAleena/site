@@ -1,12 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::Race;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_race random_dominant_race random_major_race random_minor_race random_racial_makeup);
 
 use Random::SpecialDice qw(percentile);
 
-use Random::RPG::World::WorldBuildersGuidebook::RacePosition qw(random_race_position);
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_race random_dominant_race random_major_race random_minor_race random_race_position random_racial_makeup);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Dominant Races (Table 19)
@@ -223,6 +224,16 @@ $races{marine}{minor}{$_} = 'tako'                for 90..93;
 $races{marine}{minor}{$_} = 'triton'              for 94..99;
 $races{marine}{minor}{100} = 'scrag troll';
 
+# Race Position (Table 22)
+
+my %race_position;
+$race_position{$_} = 'completely intermixed' for 1..15;
+$race_position{$_} = 'common communities, separate districts; one race is dominant over the others' for 16..25;
+$race_position{$_} = 'common communities, separate districts; one race is dominant but secondary races considered equal' for 26..40;
+$race_position{$_} = 'separate communities; one race is dominant' for 41..65;
+$race_position{$_} = 'separate communities; one race is dominant but secondary races considered equal' for 66..85;
+$race_position{$_} = 'one race enslaves the other' for 89..100;
+
 sub random_race {
   my ($location,$prominence) = @_;
   warn "You did not specify if you wanted the 'dominant', 'major', or 'minor' race." if !$prominence;
@@ -246,6 +257,11 @@ sub random_minor_race {
   return random_race($location,'minor');
 }
 
+sub random_race_position {
+  my $percent = percentile;
+  return $race_position{$percent};
+}
+
 sub random_racial_makeup {
   my %races;
   for my $location ('land','subterranean','marine') {
@@ -257,5 +273,40 @@ sub random_racial_makeup {
 
   return \%races;
 }
+
+Random::SpecialDice depends on L<Games::Dice>.
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::Race> randomly selects the dominatant, major, and minor land, subterranean, and marine races the of the new location and their positions in society.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::Race version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::Race qw(
+    random_race
+    random_dominant_race
+    random_major_race
+    random_minor_race
+    random_race_position
+    random_racial_makeup
+  );
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::Race depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

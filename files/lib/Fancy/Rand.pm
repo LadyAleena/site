@@ -1,13 +1,14 @@
 package Fancy::Rand;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
 
-our $VERSION   = '1.0';
-our @EXPORT_OK = qw(fancy_rand fancy_rand_from_array tiny_rand instant_rand);
-
 use List::Util qw(shuffle);
 use List::MoreUtils qw(uniq);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(fancy_rand fancy_rand_from_array tiny_rand instant_rand);
 
 sub fancy_rand {
   my ($list, $user_input, $opt) = @_;
@@ -65,6 +66,10 @@ sub instant_rand { fancy_rand_from_array(@_); }
 =head1 NAME
 
 B<Fancy::Rand> selects random items from sets of lists.
+
+=head1 VERSION
+
+This document describes Fancy::Rand version 1.0.
 
 =head1 SYNOPSIS
 

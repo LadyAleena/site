@@ -1,10 +1,13 @@
 package Random::SciFi;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_HHGTTG_sector random_MIB_agent);
 
 use Random::Alpha qw(random_alpha);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_HHGTTG_sector random_MIB_agent);
 
 sub random_letters {
   my ($number) = @_;
@@ -34,6 +37,10 @@ sub random_MIB_agent {
 =head1 NAME
 
 B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a random I<Men in Black> agent id.
+
+=head1 VERSION
+
+This document describes Random::SciFi version 1.000.
 
 =head1 SYNOPSIS
 

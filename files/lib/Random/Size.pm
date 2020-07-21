@@ -1,10 +1,13 @@
 package Random::Size;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_size);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_size);
 
 my %relative_sizes = (
   'amount'  => ['more',    'less'],
@@ -32,6 +35,10 @@ sub random_size {
 =head1 NAME
 
 B<Random::Size> selects random relative sizes.
+
+=head1 VERSION
+
+This document describes Random::Size version 1.000.
 
 =head1 SYNOPSIS
 
@@ -63,6 +70,10 @@ If you can not remember what you want, you can always use C<random_size('help')>
 =head1 DEPENDENCIES
 
 Random::Size depends on L<Fancy::Rand> and  L<Exporter>.
+
+=head1 NOTE
+
+L<Random::RPG::World::WorldBuildersGuidebook::Size> also has a function called C<random_size>. Do not use these two modules together.
 
 =head1 AUTHOR
 

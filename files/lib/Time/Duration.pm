@@ -1,4 +1,5 @@
 package Time::Duration;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -48,6 +49,10 @@ sub duration {
 =head1 NAME
 
 B<Time::Duration> returns total time from a list of smaller durations.
+
+=head1 VERSION
+
+This document describes Time::Duration version 1.0.
 
 =head1 SYNOPSIS
 

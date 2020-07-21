@@ -1,10 +1,13 @@
 package Random::SpecialDice;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_die percentile permille permyriad d16);
 
 use Games::Dice qw(roll roll_array);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_die percentile permille permyriad d16);
 
 sub random_die {
   my $roll = shift;
@@ -66,6 +69,10 @@ sub permyriad {
 =head1 NAME
 
 B<Random::SpecialDice> rolls for a random die, d16, percentile, permille, and permyriad.
+
+=head1 VERSION
+
+This document describes Random::SpecialDice version 1.0.
 
 =head1 SYNOPSIS
 

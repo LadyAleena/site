@@ -1,10 +1,13 @@
 package Random::RPG::Alignment;
+use v5.10.0;
 use strict;
 use warnings FATAL => ( 'all' );
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_alignment);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_alignment);
 
 my %alignments = (
   'parts'             => [qw(lawful chaotic good evil neutral)],
@@ -55,6 +58,10 @@ sub full {
 =head1 NAME
 
 B<Random::RPG::Alignment> selects random alignments from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Alignment version 1.000.
 
 =head1 SYNOPSIS
 

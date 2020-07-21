@@ -1,8 +1,8 @@
 package Random::RPG::Weapon;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
 
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
@@ -12,6 +12,9 @@ use Fancy::Rand  qw(fancy_rand tiny_rand);
 use Random::Misc qw(random_non);
 use RPG::WeaponName qw(display_weapon);
 use Util::Data   qw(make_hash);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
 
 my $weapons = make_hash(
   file => ['Role_playing/Reference_tables', 'Weapons.txt'],
@@ -80,6 +83,10 @@ sub random_weapon_damage {
 =head1 NAME
 
 B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Weapon version 1.000.
 
 =head1 SYNOPSIS
 

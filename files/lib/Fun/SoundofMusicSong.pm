@@ -1,4 +1,5 @@
 package Fun::SoundofMusicSong;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
@@ -56,6 +57,10 @@ sub random_SoM_song {
 =head1 NAME
 
 B<Fun::SoundofMusicSong> returns songs based on the note names from the film I<The Sound of Music>.
+
+=head1 VERSION
+
+This document describes Fun::SoundofMusicSong version 1.0.
 
 =head1 SYNOPSIS
 

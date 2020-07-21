@@ -1,10 +1,13 @@
 package Random::Color::VisiBone;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_VisiBone_color);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_VisiBone_color);
 
 my %VisiBone_colors = (
   'brightness' => [qw(white pale light medium dark obscure black)],
@@ -44,6 +47,10 @@ sub random_VisiBone_color {
 =head1 NAME
 
 B<Random::Color::VisiBone> selects random colors based on the Web Designer's Color Reference Poster by L<VisiBone|http://www.visibone.com/color/poster4x.html>.
+
+=head1 VERSION
+
+This document describes Random::Color::VisiBone version 1.000.
 
 =head1 SYNOPSIS
 

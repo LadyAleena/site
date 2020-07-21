@@ -1,4 +1,5 @@
 package Fancy::Function;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
@@ -28,6 +29,10 @@ our @EXPORT_OK = qw(
 =head1 NAME
 
 B<Fancy::Function> is a collection of functions that have been given a bit of additional functionality.
+
+=head1 VERSION
+
+This document describes Fancy::Function version 1.0.
 
 =head1 SYNOPSIS
 

@@ -1,11 +1,14 @@
 package Random::Misc;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_divinity random_emotion random_generation random_group random_henchmen random_language_common random_non random_parent
-                    random_proficiency_type random_relationship random_sexual_orientation random_shadow random_sign random_zstuff);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_divinity random_emotion random_generation random_group random_henchmen random_language_common random_non random_parent
+                    random_proficiency_type random_relationship random_sexual_orientation random_shadow random_sign random_zstuff);
 
 my %misc = (
   'emotion'            => [qw(joy sorrow trust fear love hate indifference)],
@@ -49,6 +52,10 @@ sub random_zstuff             { fancy_rand(\%misc, 'zstuff'            , { 'call
 =head1 NAME
 
 B<Random::Misc> selects random miscellaneous things.
+
+=head1 VERSION
+
+This document describes Random::Misc version 1.000.
 
 =head1 SYNOPSIS
 

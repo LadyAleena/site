@@ -1,4 +1,5 @@
 package Fancy::Open;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -32,6 +33,10 @@ sub fancy_open {
 =head1 NAME
 
 B<Fancy::Open> opens and creates an array for a file.
+
+=head1 VERSION
+
+This document describes Fancy::Open version 1.0.
 
 =head1 SYNOPSIS
 

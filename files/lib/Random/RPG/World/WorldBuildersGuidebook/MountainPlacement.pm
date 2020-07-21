@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::MountainPlacement;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_mountain_placement);
 
 use Random::SpecialDice qw(percentile);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_mountain_placement);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Optional Regional Mountain Placement (Table 10)
@@ -40,4 +43,33 @@ sub random_mountain_placement {
 
   return $mountains;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::MountainPlacement> randomly selects the regional mountains and if they have fantasical qualities.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::MountainPlacement version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::MountainPlacement qw(random_mountain_placement);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::MountainPlacement depends on L<Random::SpecialDice> and L<Exporter>.
+
+Random::SpecialDice depends on L<Games::Dice>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
+
 1;

@@ -1,12 +1,15 @@
 package Random::RPG::World::WorldBuildersGuidebook::WorldHooks;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(world_hook);
 
 use Games::Dice qw(roll);
 
 use Random::SpecialDice qw(percentile d16);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(world_hook);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # World Hooks (Table 1)
@@ -127,5 +130,31 @@ sub world_hook {
 
   return $world_hook;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::WorldHooks> randomly selects the hook of the new setting.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::WorldHooks version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::WorldHooks qw(world_hook);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::WorldHooks depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

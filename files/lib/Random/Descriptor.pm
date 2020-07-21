@@ -1,10 +1,13 @@
 package Random::Descriptor;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_descriptor);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_descriptor);
 
 my %descriptors = (
   'good'     => [qw(good great wonderful glorious)],
@@ -27,6 +30,10 @@ sub random_descriptor {
 =head1 NAME
 
 B<Random::Descriptor> selects a random descriptor.
+
+=head1 VERSION
+
+This document describes Random::Descriptor version 1.000.
 
 =head1 SYNOPSIS
 

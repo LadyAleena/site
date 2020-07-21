@@ -1,10 +1,13 @@
 package Random::Water;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_water);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_water);
 
 my %waters = (
   'running'  => [qw(spring streamlet rivulet run brook creek stream estuary fjord river)],
@@ -25,6 +28,10 @@ sub random_water {
 =head1 NAME
 
 B<Random::Water> selects random running or standing waters and precipitation.
+
+=head1 VERSION
+
+This document describes Random::Water version 1.000.
 
 =head1 SYNOPSIS
 

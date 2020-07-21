@@ -1,14 +1,17 @@
 package Random::RPG::Monster;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_monster random_monster_list random_RPG_dragon);
 
 use Lingua::EN::Inflect qw(PL_N);
 use List::Util qw(shuffle);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Map qw(fancy_map);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_monster random_monster_list random_RPG_dragon);
 
 my @elements = qw(air earth fire water);
 my @paraelements = qw(ice magma ooze smoke);
@@ -295,6 +298,10 @@ sub random_RPG_dragon {
 =head1 NAME
 
 B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and its compendiums from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Monster version 1.000.
 
 =head1 SYNOPSIS
 

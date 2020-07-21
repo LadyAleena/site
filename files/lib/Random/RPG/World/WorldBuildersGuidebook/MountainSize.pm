@@ -1,7 +1,10 @@
 package Random::RPG::World::WorldBuildersGuidebook::MountainSize;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(mountain_size_adjustment);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
@@ -23,5 +26,31 @@ sub mountain_size_adjustment {
   my ($world_size) = @_;
   return $mountain_sizes{$world_size};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::MountainSize> adjusts the size of mountainds by world size.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::MountainSize version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::MountainSize qw(mountain_size_adjustment);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::MountainSize depends on L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

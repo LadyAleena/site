@@ -1,7 +1,10 @@
 package Random::Insanity;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
+
+our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_mental_condition);
 
 sub random_mental_condition {
@@ -21,6 +24,10 @@ sub random_mental_condition {
 =head1 NAME
 
 B<Random::Insanity> selects a random mental disorder.
+
+=head1 VERSION
+
+This document describes Random::Insanity version 1.000.
 
 =head1 SYNOPSIS
 

@@ -1,12 +1,13 @@
 package Fun::Numbers;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
 
+use List::Util qw(sum);
+
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(primes fraction_value fractions_values list_Roman_numerals_values list_values_Roman_numerals Roman_overline);
-
-use List::Util qw(sum);
 
 ## Primes function
 
@@ -152,6 +153,10 @@ sub Roman_overline {
 =head1 NAME
 
 B<Fun::Numbers> can return primes, fraction values, or Roman numerals.
+
+=head1 VERSION
+
+This document describes Fun::Numbers version 1.0.
 
 =head1 SYNOPSIS
 

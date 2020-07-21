@@ -1,10 +1,13 @@
 package Random::RPG::World::HighLevelCampaigns::EcologicalRating;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_ecological_rating);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_ecological_rating);
 
 # Table from the Dungeon Master Option: High-Level Campaigns  by Skip Williams (c) TSR.
 # Ecological Ratings (Table 5)
@@ -33,5 +36,31 @@ sub random_ecological_rating {
   my $roll = roll('2d10');
   return $ecological_rating{$roll};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::HighLevelCampaigns::EcologicalRating> randomly selects the ecological rating of the new world.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::HighLevelCampaigns::EcologicalRating version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::HighLevelCampaigns::EcologicalRating qw(random_ecological_rating);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::HighLevelCampaigns::EcologicalRating depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

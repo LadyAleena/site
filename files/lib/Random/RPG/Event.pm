@@ -1,12 +1,15 @@
 package Random::RPG::Event;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_event);
 
 use Fancy::Rand qw(tiny_rand);
 use Random::RPG::AbilityScores qw(random_ability);
 use Random::RPG::SavingThrow qw(random_saving_throw);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_event);
 
 my @base_events = (
   random_ability.' check',
@@ -43,6 +46,10 @@ sub random_event {
 =head1 NAME
 
 B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Event version 1.000.
 
 =head1 SYNOPSIS
 

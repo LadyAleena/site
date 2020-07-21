@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::LocalPopulation;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(local_population);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(local_population);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Village, Town, and City Population (Table 35)
@@ -43,5 +46,31 @@ sub local_population {
 
   return $densities{$population_level};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::LocalPopulation> randomly selects the population of the new village, town, or city.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::LocalPopulation version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::LocalPopulation qw(local_population);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::LocalPopulation depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

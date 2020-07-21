@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::Coastlines;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_coastlines);
 
 use Random::SpecialDice qw(percentile);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_coastlines);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 
@@ -47,5 +50,33 @@ sub random_coastlines {
   my $percent = percentile;
   return $coastlines{$land}{$percent};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::Coastlines> randomly selects the coastlines of the new region, kingdom, or city.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::Coastlines version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::Coastlines qw(random_coastlines);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::Coastlines depends on L<Random::SpecialDice> and L<Exporter>.
+
+Random::SpecialDice depends on L<Games::Dice>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

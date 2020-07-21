@@ -1,10 +1,13 @@
 package Random::RPG::MagicItem::Ring::SpellDoubling;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(make_ring random_ring);
 
 use Fancy::Rand qw(tiny_rand);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(make_ring random_ring);
 
 my %stats = (
   'wizard' => {
@@ -63,6 +66,10 @@ sub random_ring {
 =head1 NAME
 
 B<Random::RPG::MagicItem::Ring::SpellDoubling> makes or randomly generates a Ring of Spell Doubling.
+
+=head1 VERSION
+
+This document describes Random::RPG::MagicItem::SpellDoubling version 1.000.
 
 =head1 SYNOPSIS
 

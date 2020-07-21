@@ -1,12 +1,15 @@
 package Random::Color;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_color);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
 use Util::Data qw(file_directory);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_color);
 
 my $directory = file_directory('Random/Colors', 'data');
 my @Crayola_crayons = fancy_open("$directory/Crayola_crayon_colors.txt");;
@@ -52,6 +55,10 @@ sub random_color {
 =head1 NAME
 
 B<Random::Color> selects random colors.
+
+=head1 VERSION
+
+This document describes Random::Color version 1.000.
 
 =head1 SYNOPSIS
 

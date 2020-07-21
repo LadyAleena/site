@@ -1,12 +1,15 @@
 package Random::Month;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_month);
 
 use Date::Calc qw(Month_to_Text);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_month);
 
 my %months = (
   'English'      => [map(Month_to_Text($_,  1),(1..12))],
@@ -82,6 +85,10 @@ sub random_month {
 =head1 NAME
 
 B<Random::Month> selects a random month by language.
+
+=head1 VERSION
+
+This document describes Random::Month version 1.000.
 
 =head1 SYNOPSIS
 

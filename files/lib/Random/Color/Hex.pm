@@ -1,10 +1,13 @@
 package Random::Color::Hex;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_hex_color hex_color_with_number);
 
 use Fancy::Split qw(fancy_split);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_hex_color hex_color_with_number);
 
 my $num = 0;
 my %hex_colors;
@@ -49,6 +52,10 @@ sub hex_color_with_number {
 =head1 NAME
 
 B<Random::Color::Hex> returns random colors.
+
+=head1 VERSION
+
+This document describes Random::Color::Hex version 1.000.
 
 =head1 SYNOPSIS
 

@@ -1,13 +1,14 @@
 package Date::Birth::DayStone;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
 
-our $VERSION   = '1.0';
-our @EXPORT_OK = qw(day_stone);
-
 use Date::Calc qw(:all);
 use String::Util qw(trim);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(day_stone);
 
 use Date::Verify qw(month_number);
 
@@ -35,6 +36,10 @@ sub day_stone {
 =head1 NAME
 
 B<Date::Birth::DayStone> returns the birthday stone for the day of the week you were born.
+
+=head1 VERSION
+
+This document describes Date::Birth::DayStone version 1.0.
 
 =head1 SYNOPSIS
 

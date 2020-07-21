@@ -1,4 +1,5 @@
 package Fun::AstroBody;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
@@ -30,6 +31,10 @@ sub astro_body {
 =head1 NAME
 
 B<Fun::AstroBody> returns a random astronomical body to use instead of "World" in "Hello World!".
+
+=head1 VERSION
+
+This document describes Fun::AstroBody version 1.0.
 
 =head1 SYNOPSIS
 

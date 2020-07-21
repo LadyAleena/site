@@ -1,4 +1,5 @@
 package Random::Thing;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
@@ -10,6 +11,7 @@ use Random::RPG::MagicItem qw(random_magic_items);
 use Random::RPG::Monster   qw(random_monster);
 use Random::RPG::Weapon    qw(random_weapons);
 
+our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_things random_animals random_armor random_musical_instruments random_plants random_utensils
                     random_magic_items random_monster random_weapons);
 
@@ -44,6 +46,10 @@ sub random_musical_instruments { my $user_addition = shift; random_things('music
 =head1 NAME
 
 B<Random::Thing> selects random things.
+
+=head1 VERSION
+
+This document describes Random::Thing version 1.000.
 
 =head1 SYNOPSIS
 

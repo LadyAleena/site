@@ -1,14 +1,17 @@
 package Random::RPG::MagicItem;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_magic_items random_magic_item_action magic_item_enhancement magic_item_quirk);
 
 use Lingua::EN::Inflect qw(A PL_N);
 
 use Fancy::Rand   qw(fancy_rand tiny_rand);
 use Random::Range qw(random_radius);
 use Random::SpecialDice qw(percentile permille);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_magic_items random_magic_item_action magic_item_enhancement magic_item_quirk);
 
 my %magic_items = (
   'liquids' => [qw(elixers oils perfumes philters pigments potions salves water)],
@@ -144,6 +147,10 @@ sub random_magic_item_action {
 =head1 NAME
 
 B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::MagicItem version 1.000.
 
 =head1 SYNOPSIS
 

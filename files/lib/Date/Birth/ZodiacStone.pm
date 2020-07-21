@@ -1,12 +1,13 @@
 package Date::Birth::ZodiacStone;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
 
+use String::Util qw(trim);
+
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(sign zodiac_stone);
-
-use String::Util qw(trim);
 
 my $zodiac;
 while (my $line = <DATA>) {
@@ -47,6 +48,10 @@ sub zodiac_stone {
 =head1 NAME
 
 B<Zodiac::Stone> returns the stone associated with zodiac signs.
+
+=head1 VERSION
+
+This document describes Date::Birth::ZodiacStone version 1.0.
 
 =head1 SYNOPSIS
 

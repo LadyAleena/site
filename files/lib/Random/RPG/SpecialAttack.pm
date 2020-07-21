@@ -1,13 +1,16 @@
 package Random::RPG::SpecialAttack;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_attack random_special_attack);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
 use Fancy::Join::Defined qw(join_defined);
 use Random::SpecialDice qw(random_die);
 use Random::Time qw(random_frequency);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_attack random_special_attack);
 
 my %special_attacks = (
   'gaze' => [qw(paralysis stone stun death)],
@@ -44,6 +47,10 @@ sub random_special_attack {
 =head1 NAME
 
 B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::SpecialAttack version 1.000.
 
 =head1 SYNOPSIS
 

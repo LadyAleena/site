@@ -1,15 +1,16 @@
 package Fun::ConvertFileSize;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-
-our $VERSION   = '1.0';
-our @EXPORT_OK = qw(convert_filesize random_filesize);
 
 use List::MoreUtils qw(firstidx apply);
 
 use lib '../../fantasy/files/lib';
 use Util::Number qw(pretty_number);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(convert_filesize random_filesize);
 
 local $\ = "\n";
 
@@ -77,6 +78,10 @@ sub convert_filesize {
 
 B<Fun::ConvertFileSize> converts one filesize to another filesize like gigabytes to kilobytes and the reverse.
 There is also a random filesize generator included for fun.
+
+=head1 VERSION
+
+This document describes Fun::ConvertFileSize version 1.0.
 
 =head1 SYNOPSIS
 

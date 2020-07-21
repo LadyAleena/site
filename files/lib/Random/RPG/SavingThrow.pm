@@ -1,10 +1,13 @@
 package Random::RPG::SavingThrow;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_saving_throw);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_saving_throw);
 
 my %saving_throws = (
   'paralyzation/poison/death magic' => [qw(paralyzation poison), 'death magic'],
@@ -27,6 +30,10 @@ sub random_saving_throw {
 =head1 NAME
 
 B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::SavingThrow version 1.000.
 
 =head1 SYNOPSIS
 

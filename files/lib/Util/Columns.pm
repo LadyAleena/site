@@ -1,10 +1,13 @@
 package Util::Columns;
+use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT_OK = qw(number_of_columns);
 
 use Lingua::EN::Inflect qw(NUMWORDS);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(number_of_columns);
 
 sub number_of_columns {
   my ($max_cols, $amount, $word) = @_;
@@ -29,6 +32,10 @@ sub number_of_columns {
 =head1 NAME
 
 B<Util::Columns> generates a number for getting columns based on exponential numbers.
+
+=head1 VERSION
+
+This document describes Util::Columns version 1.0.
 
 =head1 SYNOPSIS
 

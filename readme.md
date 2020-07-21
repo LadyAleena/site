@@ -16,7 +16,7 @@
 
 [css](/files/css): All of the style sheets used on my site.
 
-[lib](/files/lib): The modules I have written for my site.
+[lib](/files/lib): The modules I have written for my site and for fun. I am considering moving those that are not used for my site to another repository.
 
 **The following may not always be up to date:**
 

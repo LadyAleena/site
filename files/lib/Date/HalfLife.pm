@@ -1,12 +1,13 @@
 package Date::HalfLife;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
 
+use Date::Calc qw(Delta_Days Add_Delta_Days Month_to_Text);
+
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(half_life_date);
-
-use Date::Calc qw(Delta_Days Add_Delta_Days Month_to_Text);
 
 sub half_life_date {
   my ($meeting, $birthdate) = @_;
@@ -30,6 +31,10 @@ sub half_life_date {
 =head1 NAME
 
 B<Date::HalfLife> returns when half a person's life has happened after an event.
+
+=head1 VERSION
+
+This document describes Date::HalfLife version 1.0.
 
 =head1 SYNOPSIS
 

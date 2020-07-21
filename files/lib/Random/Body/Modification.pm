@@ -1,8 +1,8 @@
 package Random::Body::Modification;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_body_modification random_body_color_change random_aura);
 
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N PL_V NO A);
@@ -13,6 +13,9 @@ use Random::GemMetalJewelry qw(random_gem random_metal);
 use Random::Size  qw(random_size);
 use Random::Misc  qw(random_emotion);
 use Random::RPG::Alignment qw(random_alignment);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_body_modification random_body_color_change random_aura);
 
 my %body_parts;
    @body_parts{(1..8)} = (qw(eye ear lip nail nose hair skin),'entire body');
@@ -303,6 +306,10 @@ sub random_aura {
 =head1 NAME
 
 B<Random::Body::Modification> selects random body modifications.
+
+=head1 VERSION
+
+This document describes Random::Body::Modification version 1.000.
 
 =head1 SYNOPSIS
 

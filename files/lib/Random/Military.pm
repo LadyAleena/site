@@ -1,10 +1,13 @@
 package Random::Military;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_military random_military_by_location);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_military random_military_by_location);
 
 # Get the rank of the leader of the unit.
 sub rank {
@@ -144,6 +147,10 @@ sub random_military_by_location {
 =head1 NAME
 
 B<Random::Military> generates a fictional and fantasy military unit.
+
+=head1 VERSION
+
+This document describes Random::Military version 1.0.
 
 =head1 SYNOPSIS
 

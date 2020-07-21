@@ -1,7 +1,10 @@
 package Util::ListLengths;
+use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(longest_value shortest_value longest_length shortest_length);
 
 sub longest_length {
@@ -45,6 +48,10 @@ sub shortest_value {
 =head1 NAME
 
 B<Util::ListLengths> returns the value of the longest or shortest value or the length of the longest or shortest value.
+
+=head1 VERSION
+
+This document describes Util::ListLengths version 1.0.
 
 =head1 SYNOPSIS
 

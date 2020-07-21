@@ -1,4 +1,5 @@
 package Fancy::Join::Defined;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -18,6 +19,10 @@ sub join_defined {
 =head1 NAME
 
 B<Fancy::Join::Defined> joins only defined values in a list.
+
+=head1 VERSION
+
+This document describes Fancy::Join::Defined version 1.0.
 
 =head1 SYNOPSIS
 

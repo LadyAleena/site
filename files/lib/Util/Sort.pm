@@ -1,10 +1,13 @@
 package Util::Sort;
+use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
-our @EXPORT_OK = qw(article_sort name_sort short_sorts split_sort);
 
 use HTML::Entities qw(decode_entities);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(article_sort name_sort short_sorts split_sort);
 
 sub split_out_leading_number {
     my $s = shift;
@@ -157,6 +160,10 @@ sub split_sort {
 =head1 NAME
 
 B<Util::Sort> performs various sorts on lists.
+
+=head1 VERSION
+
+This document describes Util::Sort version 1.0.
 
 =head1 DEPENDENCIES
 

@@ -1,7 +1,10 @@
 package Util::MonthNumber;
+use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(month_number);
 
 my %month_names = (
@@ -33,6 +36,10 @@ sub month_number {
 =head1 NAME
 
 B<Util::MonthNumber> returns the number for a month.
+
+=head1 VERSION
+
+This document describes Util::MonthNumber version 1.0.
 
 =head1 SYNOPSIS
 

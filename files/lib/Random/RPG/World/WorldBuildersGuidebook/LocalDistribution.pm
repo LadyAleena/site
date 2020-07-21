@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::LocalDistribution;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(local_distribution);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(local_distribution);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Town and City Distribution (Table 32)
@@ -46,5 +49,31 @@ sub local_distribution {
 
   return $distributions{$population_level};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::LocalDistribution> randomly selects the town or city distribution of the new world.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::LocalDistribution version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::LocalDistribution qw(local_distribution);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::LocalDistribution depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

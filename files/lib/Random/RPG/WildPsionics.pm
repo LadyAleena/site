@@ -1,8 +1,8 @@
 package Random::RPG::WildPsionics;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_wild_psionic_talent);
 
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
@@ -10,6 +10,9 @@ use List::MoreUtils qw(uniq);
 
 use Util::Data  qw(make_hash);
 use Fancy::Rand qw(tiny_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_wild_psionic_talent);
 
 # When adding PSPS, it is the initial cost + (maintenance * 4) for each talent.
 my $psps = make_hash(
@@ -246,6 +249,10 @@ sub random_wild_psionic_talent {
 =head1 NAME
 
 B<Random::RPG::WildPsionics> selects random a wild psionic talent from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::WildPsionics version 1.000.
 
 =head1 SYNOPSIS
 

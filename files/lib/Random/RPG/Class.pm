@@ -1,12 +1,15 @@
 package Random::RPG::Class;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_class random_class_special);
 
 use Lingua::EN::Inflect qw(PL_N);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_class random_class_special);
 
 my %classes = (
   'warrior'    => ['fighter', 'paladin', 'ranger'],
@@ -45,6 +48,10 @@ sub random_class_special {
 =head1 NAME
 
 B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Class version 1.000.
 
 =head1 SYNOPSIS
 

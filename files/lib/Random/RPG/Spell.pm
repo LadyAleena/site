@@ -1,13 +1,16 @@
 package Random::RPG::Spell;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
 
 use Lingua::EN::Inflect qw(ORD);
 
 use Fancy::Rand qw(tiny_rand);
 use Random::SpecialDice qw(percentile);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
 
 my %spells = (
   wizard => {
@@ -107,6 +110,10 @@ sub random_spell_casting {
 =head1 NAME
 
 B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::Spell version 1.000.
 
 =head1 SYNOPSIS
 

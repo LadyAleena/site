@@ -1,13 +1,16 @@
 package Util::Convert;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(textify idify searchify filify hashtagify linkify);
 
 use Encode;
 use Lingua::EN::Inflect qw(NUMWORDS);
 
 use Util::Path qw(base_path);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(textify idify searchify filify hashtagify linkify);
 
 sub textify {
   my ($text, $opt) = @_;
@@ -91,6 +94,10 @@ sub linkify {
 =head1 NAME
 
 B<Util::Convert> converts strings into various formats.
+
+=head1 VERSION
+
+This document describes Util::Convert version 1.0.
 
 =head1 SYNOPSIS
 

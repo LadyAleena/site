@@ -1,10 +1,13 @@
 package Random::RPG::AbilityScores;
+use v5.10.0;
 use strict;
 use warnings FATAL => ( 'all' );
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_ability random_game_effect_expanded);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_ability random_game_effect_expanded);
 
 my %abilities = (
   'strength'     => ['Hit Probability','Damage Adjustment','Weight Allow','Maximum Press','Open Doors','Bend Bars/Lift Gates'],
@@ -34,6 +37,10 @@ sub random_game_effect_expanded {
 =head1 NAME
 
 B<Random::RPG::AbilityScores> selects random ability scores and their game effects from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::AbilityScores version 1.000.
 
 =head1 SYNOPSIS
 

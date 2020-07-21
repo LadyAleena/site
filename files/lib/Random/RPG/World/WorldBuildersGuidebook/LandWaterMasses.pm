@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(masses);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(masses);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Land and Water Masses (Table 6)
@@ -30,5 +33,31 @@ sub masses {
 
   return \%masses;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses> randomly selects the land and water masses of the new world.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses qw(masses);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

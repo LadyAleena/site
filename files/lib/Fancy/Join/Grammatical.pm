@@ -1,4 +1,5 @@
 package Fancy::Join::Grammatical;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -23,6 +24,10 @@ sub grammatical_join {
 =head1 NAME
 
 B<Fancy::Join::Grammatical> joins a list with a final conjunction.
+
+=head1 VERSION
+
+This document describes Fancy::Join::Grammatical version 1.0.
 
 =head1 SYNOPSIS
 

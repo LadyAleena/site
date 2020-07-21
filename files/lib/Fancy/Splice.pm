@@ -1,4 +1,5 @@
 package Fancy::Splice;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -23,6 +24,10 @@ sub fancy_splice {
 =head1 NAME
 
 B<Fancy::Splice> splices an array into groups.
+
+=head1 VERSION
+
+This document describes Fancy::Splice version 1.0.
 
 =head1 SYNOPSIS
 

@@ -1,6 +1,10 @@
 # World Building random generators
 
-The following random generators are from tables in the *World Builder's Guidebook* by Richard Baker © TSR.
+At some point I am planning on writing Random::RPG::World::WorldBuildersGuidebook and Random::RPG::World::HighLevelCampaigns to combine the sub-modules into one larger one.
+
+## *World Builder's Guidebook*
+
+The following random generators are from tables in the *World Builder's Guidebook* by Richard Baker © TSR. Some of these may be merged into larger modules with simpler names.
 
 Table # | Module name | Notes
 --------|-------------|--------
@@ -25,7 +29,7 @@ Table # | Module name | Notes
  19 | [Random::RPG::World::WorldBuildersGuidebook::Race](WorldBuildersGuidebook/Race.pm)
  20 | [Random::RPG::World::WorldBuildersGuidebook::SettlementPattern](WorldBuildersGuidebook/SettlementPattern.pm)
  21 | [Random::RPG::World::WorldBuildersGuidebook::CulturalCharaceristic](WorldBuildersGuidebook/CulturalCharaceristic.pm)
- 22 | [Random::RPG::World::WorldBuildersGuidebook::RacePosition](WorldBuildersGuidebook/RacePosition.pm)
+ 22 | [Random::RPG::World::WorldBuildersGuidebook::Race](WorldBuildersGuidebook/Race.pm)
  23 | [Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel](WorldBuildersGuidebook/TechnologyLevel.pm)
  24 | [Random::RPG::World::WorldBuildersGuidebook::GovernmentForm](WorldBuildersGuidebook/GovernmentForm.pm)
  25 | [Random::RPG::World::WorldBuildersGuidebook::SocialAlignment](WorldBuildersGuidebook/SocialAlignment.pm)
@@ -43,6 +47,8 @@ Table # | Module name | Notes
  39 | [Random::RPG::World::WorldBuildersGuidebook::Pantheon](WorldBuildersGuidebook/Pantheon.pm)
  40 | [Random::RPG::World::WorldBuildersGuidebook::Pantheon](WorldBuildersGuidebook/Pantheon.pm)
  41 | [Random::RPG::World::WorldBuildersGuidebook::Pantheon](WorldBuildersGuidebook/Pantheon.pm)
+
+## *Dungeon Master Option: High-Level Campaigns*
 
 The following random generators are from tables in the *Dungeon Master Option: High-Level Campaigns* by Skip Williams © TSR.
 

@@ -1,4 +1,5 @@
 package Fancy::Map;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -27,6 +28,10 @@ sub fancy_map {
 =head1 NAME
 
 B<Fancy::Map> maps within a map.
+
+=head1 VERSION
+
+This document describes Fancy::Map version 1.0.
 
 =head1 SYNOPSIS
 

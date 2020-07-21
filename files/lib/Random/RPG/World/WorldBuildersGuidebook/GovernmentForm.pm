@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::GovernmentForm;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_government_form);
 
 use Random::SpecialDice qw(percentile);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_government_form);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Government Form (Table 24)
@@ -35,5 +38,33 @@ sub random_government_form {
   my $percent = percentile;
   return $government_form{$percent};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::GovernmentForm> randomly selects the government form of the new society.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::GovernmentForm version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::GovernmentForm qw(random_government_form);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::GovernmentForm depends on L<Random::SpecialDice> and L<Exporter>.
+
+Random::SpecialDice depends on L<Games::Dice>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

@@ -1,12 +1,13 @@
 package Fun::Refreshment;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
 
+use Lingua::EN::Inflect qw(A);
+
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(refreshment);
-
-use Lingua::EN::Inflect qw(A);
 
 my @refreshments = ('cookies','carrots','chips','chocolate mousse','soda','wine','coffee');
 my %containers = (
@@ -31,6 +32,10 @@ sub refreshment {
 =head1 NAME
 
 B<Fun::Refreshment> returns a random refreshment for you to put out on a surface.
+
+=head1 VERSION
+
+This document describes Fun::Refreshment version 1.0.
 
 =head1 SYNOPSIS
 

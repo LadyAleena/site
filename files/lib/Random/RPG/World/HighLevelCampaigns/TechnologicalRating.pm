@@ -1,10 +1,13 @@
 package Random::RPG::World::HighLevelCampaigns::TechnologicalRating;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_technological_rating);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_technological_rating);
 
 # Table from the Dungeon Master Option: High-Level Campaigns  by Skip Williams (c) TSR.
 # Technological Ratings (Table 4)
@@ -33,5 +36,31 @@ sub random_technological_rating {
   my $roll = roll('2d10');
   return $technological_rating{$roll};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::HighLevelCampaigns::TechnologicalRating> randomly selects the techonologial rating of the new world.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::HighLevelCampaigns::TechnologicalRating version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::HighLevelCampaigns::TechnologicalRating qw(random_technological_rating);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::HighLevelCampaigns::TechnologicalRating depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

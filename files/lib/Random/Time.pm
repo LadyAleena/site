@@ -1,13 +1,16 @@
 package Random::Time;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_time_unit random_day_part random_time random_frequency);
 
 use Lingua::EN::Inflect qw(PL_N A);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
 use Random::SpecialDice qw(random_die);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_time_unit random_day_part random_time random_frequency);
 
 my %times = (
   'general' => [qw(second minute hour day week month year decade century millennium)],
@@ -72,6 +75,10 @@ sub random_frequency {
 =head1 NAME
 
 B<Random::Time> selects a random time unit, random day part, random time, or random frequency.
+
+=head1 VERSION
+
+This document describes Random::Time version 1.000.
 
 =head1 SYNOPSIS
 

@@ -1,11 +1,14 @@
 package Random::Body::Function;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_body_function random_body_functions);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
 use Fancy::Join::Grammatical qw(grammatical_join);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_body_function random_body_functions);
 
 my %body_functions = (
   'sleep' => [
@@ -103,6 +106,10 @@ sub random_body_functions {
 =head1 NAME
 
 B<Random::Body::Function> selects random body functions.
+
+=head1 VERSION
+
+This document describes Random::Body::Function version 1.000.
 
 =head1 SYNOPSIS
 

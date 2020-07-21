@@ -1,10 +1,13 @@
-package Util::TransformName;
+package Name::Transform;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(name_transform);
 
 use List::MoreUtils qw(firstidx lastidx);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(name_transform);
 
 my @roman_numerals = qw(I II III IV V VI VII VIII IX X);
 my $roman_numerals_string = join('|',@roman_numerals);
@@ -59,11 +62,15 @@ sub name_transform {
 
 =head1 NAME
 
-B<Util::TransformName> returns parts of names in an array.
+B<Name::Transform> returns parts of names in an array.
+
+=head1 VERSION
+
+This document describes Name::Transform version 1.0.
 
 =head1 DEPENDENCIES
 
-Util::TransformName depends on L<List::MoreUtils> and L<Exporter>.
+Name::Transform depends on L<List::MoreUtils> and L<Exporter>.
 
 =head1 AUTHOR
 

@@ -1,10 +1,13 @@
 package Random::RPG::World::WorldBuildersGuidebook::RegionalClimate;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_regional_climate);
 
 use Games::Dice qw(roll);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_regional_climate);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
 # Regional Climate (Table 16)
@@ -28,5 +31,31 @@ sub random_regional_climate {
      $roll = roll('1d20') if $map_type eq 'polar_display';
   return $regional_climate{$map_type}{$roll};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::RegionalClimate> randomly selects the climate of the new region.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::RegionalClimate version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::RegionalClimate qw(random_regional_climate);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::RegionalClimate depends on L<Games::Dice> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

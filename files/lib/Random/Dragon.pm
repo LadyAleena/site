@@ -1,7 +1,17 @@
 package Random::Dragon;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
+
+use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
+use Fancy::Open qw(fancy_open);
+use Random::Color qw(random_color);
+use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
+use Random::RPG::Monster qw(random_RPG_dragon);
+use Util::Data qw(file_directory);
+
+our $VERSION   = '1.000';
 our @EXPORT_OK = qw(
   random_DreamWorks_dragon
   random_Harry_Potter_dragon
@@ -11,13 +21,6 @@ our @EXPORT_OK = qw(
   random_RPG_dragon
   random_dragon
 );
-
-use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
-use Fancy::Open qw(fancy_open);
-use Random::Color qw(random_color);
-use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
-use Random::RPG::Monster qw(random_RPG_dragon);
-use Util::Data qw(file_directory);
 
 my $directory = file_directory('Random/Dragons', 'data');
 my @DreamWorks_dragons   = fancy_open("$directory/DreamWorks_dragons.txt");
@@ -60,6 +63,10 @@ sub random_dragon {
 =head1 NAME
 
 B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
+
+=head1 VERSION
+
+This document describes Random::Dragon version 1.000.
 
 =head1 SYNOPSIS
 

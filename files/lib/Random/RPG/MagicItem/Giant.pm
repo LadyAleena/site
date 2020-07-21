@@ -1,11 +1,14 @@
 package Random::RPG::MagicItem::Giant;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_gauntlets random_girdle);
 
 use Fancy::Rand qw(tiny_rand);
 use Random::RPG::MagicItem qw(magic_item_enhancement magic_item_quirk);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(random_gauntlets random_girdle);
 
 my @giants = (
   { giant => 'ogre',  strength => '18(00)', xp  => { gauntlets => 1000 , girdle => 1500 } },
@@ -84,6 +87,10 @@ sub random_girdle {
 =head1 NAME
 
 B<Random::RPG::MagicItem::Giant> returns either a gauntlet or girdle of giant strength from I<Advanced Dungeons & Dragons>, Second Edition.
+
+=head1 VERSION
+
+This document describes Random::RPG::MagicItem::Giant version 1.000.
 
 =head1 SYNOPSIS
 

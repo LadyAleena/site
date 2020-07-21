@@ -1,7 +1,10 @@
 package Random::Name::Pattern;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_name);
 
 my %alpha = (
@@ -123,6 +126,10 @@ sub random_name {
 =head1 NAME
 
 B<Random::Name::Pattern> generates random names by a specified pattern, based on Random Name by Jason Seeley.
+
+=head1 VERSION
+
+This document describes Random::Name::Pattern version 1.000.
 
 =head1 SYNOPSIS
 

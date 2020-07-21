@@ -1,10 +1,13 @@
 package Random::Title;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_title);
 
 use Fancy::Rand qw(fancy_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_title);
 
 my %titles = (
   'noble male'   => [qw(emperor king prince archduke duke count viscount baron squire master lord)],
@@ -27,6 +30,10 @@ sub random_title {
 =head1 NAME
 
 B<Random::Title> selects random titles given to people.
+
+=head1 VERSION
+
+This document describes Random::Title version 1.000.
 
 =head1 SYNOPSIS
 

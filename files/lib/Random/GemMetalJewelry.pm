@@ -1,13 +1,16 @@
 package Random::GemMetalJewelry;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_gem random_gem_variety random_gem_color random_gem_cut random_metal random_jewelry random_gem_expanded);
 
 use Lingua::EN::Inflect qw(A);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Join::Grammatical qw(grammatical_join);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_gem random_gem_variety random_gem_color random_gem_cut random_metal random_jewelry random_gem_expanded);
 
 my %gem_varieties = (
   'unsorted'   => [qw(diamond garnet spinel topaz tourmaline zircon crystal)],
@@ -140,6 +143,10 @@ sub random_jewelry {
 =head1 NAME
 
 B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.
+
+=head1 VERSION
+
+This document describes Random::GemsMetalJewelry version 1.000.
 
 =head1 SYNOPSIS
 

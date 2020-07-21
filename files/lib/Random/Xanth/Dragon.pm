@@ -1,10 +1,13 @@
 package Random::Xanth::Dragon;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(random_Xanth_dragon random_old_Xanth_dragon);
 
 use Fancy::Rand qw(fancy_rand tiny_rand);
+
+our $VERSION   = '1.000';
+our @EXPORT_OK = qw(random_Xanth_dragon random_old_Xanth_dragon);
 
 my $dragon_attributes;
 $dragon_attributes->{size}        = [ qw(giant large medium small tiny) ];
@@ -58,6 +61,10 @@ sub random_Xanth_dragon {
 =head1 NAME
 
 B<Random::Dragon::Xanth> generates random dragons from the I<Xanth> series by Piers Anthony.
+
+=head1 VERSION
+
+This document describes Random::Dragon::Xanth version 1.000.
 
 =head1 SYNOPSIS
 

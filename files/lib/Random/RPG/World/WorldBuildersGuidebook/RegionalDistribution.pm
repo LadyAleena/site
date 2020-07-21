@@ -1,7 +1,10 @@
 package Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+
+our $VERSION   = '1.0';
 our @EXPORT_OK = qw(regional_distribution);
 
 # From the World Builder's Guidebook by Richard Baker (c) TSR
@@ -106,5 +109,31 @@ sub regional_distribution {
   my ($display, $hydrology) = @_;
   return $distribution{$display}{$hydrology};
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution> randomly selects the regional distribution of the new world.
+
+=head1 VERSION
+
+This document describes Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution version 1.0.
+
+=head1 SYNOPSIS
+
+  use Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution qw(regional_distribution);
+
+=head1 DEPENDENCIES
+
+Random::RPG::World::WorldBuildersGuidebook::RegionalDistribution depends on L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=cut
 
 1;

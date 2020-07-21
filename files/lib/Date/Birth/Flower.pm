@@ -1,12 +1,13 @@
 package Date::Birth::Flower;
+use v5.10.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
 
+use String::Util qw(trim);
+
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(birth_flower);
-
-use String::Util qw(trim);
 
 my $flowers;
 while (my $line = <DATA>) {
@@ -30,6 +31,10 @@ sub birth_flower {
 =head1 NAME
 
 B<Date::Birth::Flower> returns the birth flower associated with months.
+
+=head1 VERSION
+
+This document describes Date::Birth::Flower version 1.0.
 
 =head1 SYNOPSIS
 
