@@ -144,15 +144,15 @@ sub random_military_by_location {
 
 =encoding utf8
 
-=head1 Random::Military
+=head1 NAME
 
 B<Random::Military> generates a fictional and fantasy military unit.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Military version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Military qw(random_military random_military_by_location);
 
@@ -189,7 +189,7 @@ This document describes Random::Military version 1.0.
   my $village_military     = random_military_by_location('village');
     # this is the same as random_military('squad')
 
-=head2 Description
+=head1 DESCRIPTION
 
 The expors of Random::Military will return a hash with the statistics of the selected military unit. The larger the military, the larger and deeper the hash will be.
 
@@ -197,11 +197,11 @@ The hash for each unit and any subunits will include the leader of the unit, the
 
 C<random_military_by_location> was written for fun even though it mimics C<random_military>.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Military depends on L<Games::Dice> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

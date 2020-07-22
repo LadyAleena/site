@@ -84,23 +84,23 @@ sub random_girdle {
 
 =encoding utf8
 
-=head1 Random::RPG::MagicItem::Giant
+=head1 NAME
 
 B<Random::RPG::MagicItem::Giant> returns either a gauntlet or girdle of giant strength from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::MagicItem::Giant version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::MagicItem::Giant qw(random_gauntlets random_girdle);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::MagicItem::Giant depends on L<Fancy::Rand>, L<Random::RPG::MagicItem>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

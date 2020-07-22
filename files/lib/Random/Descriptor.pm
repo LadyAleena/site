@@ -27,15 +27,15 @@ sub random_descriptor {
 
 =encoding utf8
 
-=head1 Random::Descriptor
+=head1 NAME
 
 B<Random::Descriptor> selects a random descriptor.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Descriptor version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Descriptor qw(random_descriptor);
 
@@ -48,11 +48,11 @@ This document describes Random::Descriptor version 1.000.
 
   print random_descriptor('help'); # get random_descriptor options
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Descriptor depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

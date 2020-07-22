@@ -144,23 +144,23 @@ sub random_magic_item_action {
 
 =encoding utf8
 
-=head1 Random::RPG::MagicItem
+=head1 NAME
 
 B<Random::RPG::MagicItem> selects random magic items from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::MagicItem version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::MagicItem qw(random_magic_items random_magic_item_action);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::MagicItem depends on L<Fancy::Rand>, L<Random::Range>, L<Random::SpecialDice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -55,15 +55,15 @@ sub full {
 
 =encoding utf8
 
-=head1 Random::RPG::Alignment
+=head1 NAME
 
 B<Random::RPG::Alignment> selects random alignments from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::Alignment version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
 To use this module to return a random alignment, use the following.
 
@@ -84,15 +84,15 @@ When you want to generate a random alignment with this module, you can choose fr
 
 The default random result is C<random_alignment('all')>.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::Alignment depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena with lots of help from DrForr, whoppix, and rindolf in the #perlcafe on freenode.
 
-=head2 See also
+=head1 SEE ALSO
 
 You can expand alignment abbreviations with B<L<RPG::Character::Alignment>>.
 

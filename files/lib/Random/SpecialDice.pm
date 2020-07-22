@@ -66,15 +66,15 @@ sub permyriad {
 
 =encoding utf8
 
-=head1 Random::SpecialDice
+=head1 NAME
 
 B<Random::SpecialDice> rolls for a random die, d16, percentile, permille, and permyriad.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::SpecialDice version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::SpecialDice qw(random_die percentile permille permyriad d16);
 
@@ -84,11 +84,11 @@ This document describes Random::SpecialDice version 1.0.
   my $permille   = permille;      # rolls a permille using d10s
   my $permyriad  = permyriad;     # rolls a permyriad using d10s
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::SpecialDice depends on L<Games::Dice> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena with help from GrandFather on PerlMonks.
 

@@ -157,19 +157,19 @@ sub split_sort {
 
 =encoding utf8
 
-=head1 Util::Sort
+=head1 NAME
 
 B<Util::Sort> performs various sorts on lists.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::Sort version 1.0.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Util::Sort depends on L<HTML::Entities> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

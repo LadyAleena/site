@@ -27,15 +27,15 @@ sub random_title {
 
 =encoding utf8
 
-=head1 Random::Title
+=head1 NAME
 
 B<Random::Title> selects random titles given to people.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Title version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Title qw(random_title);
 
@@ -65,11 +65,11 @@ This document describes Random::Title version 1.000.
 
   print random_title('help'); # get random_title options
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Title depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -55,25 +55,25 @@ sub random_coastlines {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::Coastlines
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::Coastlines> randomly selects the coastlines of the new region, kingdom, or city.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::Coastlines version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::Coastlines qw(random_coastlines);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::Coastlines depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

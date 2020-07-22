@@ -33,30 +33,30 @@ sub month_number {
 
 =encoding utf8
 
-=head1 Util::MonthNumber
+=head1 NAME
 
 B<Util::MonthNumber> returns the number for a month.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::MonthNumber version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Util::MonthNumber qw(month_number);
 
   my $month_number = month_number('July');
   # 7
 
-=head2 Description
+=head1 DESCRIPTION
 
 Util::MonthNumber returns the number of the month entered. The languages supported are English and the English abbreviations, Dutch, French, German, Greek, Italian, and Spanish.
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Util::MonthNumber depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

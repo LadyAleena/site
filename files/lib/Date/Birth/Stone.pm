@@ -27,30 +27,28 @@ sub birth_stone {
 
 =encoding utf8
 
-=head1 Date::Birth::Stone
+=head1 NAME
 
 B<Date::Birth::Stone> returns the birth stone associated with months.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Date::Birth::Stone version 1.0.
 
-=head2 Synopsis
-
-  use Date::Birth::Stone qw(birth_stone);
+=head1 SYNOPSIS
 
   my $birth_stone = birth_stone('July');
   # ruby
 
-=head2 Description
+=head1 DESCRIPTION
 
 C<birth_stone> is exported by default and returns the birth stone associated with the month entered.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Date::Birth::Stone depends on L<Exporter> and L<String::Util>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

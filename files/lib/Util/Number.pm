@@ -32,15 +32,15 @@ sub pretty_number {
 
 =encoding utf8
 
-=head1 Util::Number
+=head1 NAME
 
 B<Util::Number> adds commas, rounds, and returns pretty numbers.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::Number version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Util::Number qw(commify round pretty_number);
 
@@ -53,33 +53,33 @@ This document describes Util::Number version 1.0.
   my $pretty_number = pretty_number(2468.13579, 3);
   # returns 2,468.136
 
-=head2 Description
+=head1 DESCRIPTION
 
 Util::Number contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
 
-=head3 commify
+=head2 commify
 
 B<C<commify>> returns a number with commas between every three digits in the number.
 
 The code was found in L<perlfaq5|http://perldoc.perl.org/perlfaq5.html#How-can-I-output-my-numbers-with-commas-added?>.
 
-=head3 round
+=head2 round
 
 B<C<round>> rounds a decimal number by a set precision. If you want the number returned with three digits after the decimal, the precision would be set to 3.
 
   round($number, $precision);
 
-=head3 pretty_number
+=head2 pretty_number
 
 B<C<pretty_number>> puts commify and round together so you can get rounded numbers with commas.
 
   pretty_number($number, $precision);
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Util::Number depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

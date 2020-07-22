@@ -21,15 +21,15 @@ sub fancy_splice {
 
 =encoding utf8
 
-=head1 Fancy::Splice
+=head1 NAME
 
 B<Fancy::Splice> splices an array into groups.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fancy::Splice version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
                 'blue', 'violet', 'magenta', 'pink', 'white', 'black', 'gray');
@@ -46,15 +46,15 @@ This document describes Fancy::Splice version 1.0.
     [gray']
   ];
 
-=head2 Description
+=head1 DESCRIPTION
 
 C<fancy_splice> can be exported and returns a referenced array of arrays spliced by a user specified amount. It takes two paraments: the size of the groups and the list. The size can be any integer, and the list is an array.
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Fancy::Splice depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

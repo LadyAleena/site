@@ -45,23 +45,23 @@ sub random_class_special {
 
 =encoding utf8
 
-=head1 Random::RPG::Classes
+=head1 NAME
 
 B<Random::RPG::Classes> selects random adventurer classes from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::Class version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::Class qw(random_class random_class_special);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::Class depends on L<Fancy::Rand>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -34,23 +34,23 @@ sub random_game_effect_expanded {
 
 =encoding utf8
 
-=head1 Random::RPG::AbilityScores
+=head1 NAME
 
 B<Random::RPG::AbilityScores> selects random ability scores and their game effects from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::AbilityScores version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::AbilityScores qw(random_ability);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::AbilityScroes depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

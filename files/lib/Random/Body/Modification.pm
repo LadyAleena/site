@@ -303,23 +303,23 @@ sub random_aura {
 
 =encoding utf8
 
-=head1 Random::Body::Modification
+=head1 NAME
 
 B<Random::Body::Modification> selects random body modifications.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Body::Modification version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Body::Modification depends on L<Fancy::Rand>, L<Random::Color>, L<Random::GemMetalJewelry>, L<Random::Size>, L<Random::Misc>, L<Random::RPG::Alignment>, L<Games::Dice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

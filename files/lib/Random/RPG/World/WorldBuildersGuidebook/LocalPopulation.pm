@@ -51,23 +51,23 @@ sub local_population {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::LocalPopulation
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::LocalPopulation> randomly selects the population of the new village, town, or city.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::LocalPopulation version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::LocalPopulation qw(local_population);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::LocalPopulation depends on L<Games::Dice> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

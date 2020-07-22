@@ -29,25 +29,25 @@ sub local_topography {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::LocalTopography
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::LocalTopography> randomly selects the local mountains, hills, and tablelands.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::LocalTopography version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::LocalTopography qw(local_topography);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::LocalTopography depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

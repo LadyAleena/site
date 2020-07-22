@@ -122,23 +122,23 @@ sub Zilarban_place_name {
 
 =encoding utf8
 
-=head1 Random::Name::Triador
+=head1 NAME
 
 B<Random::Name::Triador> is a name generator for the world of Triador that I am slowly building.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Name::Triador version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Name::Triador qw(Yrethi_place_name Zilarban_place_name additions);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Name::Triador depends on <Random::Name::Pattern>, L<Games::Dice>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

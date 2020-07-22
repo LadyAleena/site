@@ -45,15 +45,15 @@ sub shortest_value {
 
 =encoding utf8
 
-=head1 Util::ListLengths
+=head1 NAME
 
 B<Util::ListLengths> returns the value of the longest or shortest value or the length of the longest or shortest value.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::ListLengths version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Util::ListLengths qw(longest_value shortest_value longest_length shortest_length);
 
@@ -78,29 +78,29 @@ This document describes Util::ListLengths version 1.0.
   my $shortest_length = shortest_length(@colors);
   # 3
 
-=head2 Description
+=head1 DESCRIPTION
 
-=head3 longest_value
+=head2 longest_value
 
 C<longest_value> returns an arrayref with all the values that are the longest length.
 
-=head3 shortest_value
+=head2 shortest_value
 
 C<shortest_value> returns an arrayref with all the values that are the shortest length.
 
-=head3 longest_length
+=head2 longest_length
 
 C<longest_length> returns the longest integer length of the values of an array.
 
-=head3 shortest_length
+=head2 shortest_length
 
 C<shortest_length> returns the shortest integer length of the values of an array.
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Util::ListLengths depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

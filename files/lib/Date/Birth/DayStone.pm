@@ -33,30 +33,28 @@ sub day_stone {
 
 =encoding utf8
 
-=head1 Date::Birth::DayStone
+=head1 NAME
 
 B<Date::Birth::DayStone> returns the birthday stone for the day of the week you were born.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Date::Birth::DayStone version 1.0.
 
-=head2 Synopsis
-
-  use Date::Birth::Daystone qw(day_stone);
+=head1 SYNOPSIS
 
   my $day_stone = day_stone(1970, 'July', 3);
   # emerald or cat's eye
 
-=head2 Description
+=head1 DESCRIPTION
 
 C<day_stone> is exported by default and returns the birthday stone associated with the day of the week you were born. Enter the 4-digit year, the month, and day you were born.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Date::Birth::DayStone depends on L<Exporter>, L<Date::Calc>, L<String::Util>, and L<Date::Verify>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

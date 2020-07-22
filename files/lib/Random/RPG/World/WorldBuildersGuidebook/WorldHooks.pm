@@ -135,23 +135,23 @@ sub world_hook {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::WorldHooks
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::WorldHooks> randomly selects the hook of the new setting.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::WorldHooks version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::WorldHooks qw(world_hook);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::WorldHooks depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

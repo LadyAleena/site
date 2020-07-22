@@ -18,19 +18,19 @@ sub quote_attributes {
 
 =encoding utf8
 
-=head1 Util::QuoteAttribute
+=head1 NAME
 
 B<Util::QuoteAttribute> quotes attributes within html element tags which are not already quoted.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::QuoteAttribute version 1.0.
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Util::QuoteAttribute depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

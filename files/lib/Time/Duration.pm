@@ -46,15 +46,15 @@ sub duration {
 
 =encoding utf8
 
-=head1 Time::Duration
+=head1 NAME
 
 B<Time::Duration> returns total time from a list of smaller durations.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Time::Duration version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Time::Duration qw(duration);
 
@@ -63,11 +63,11 @@ This document describes Time::Duration version 1.0.
   my $total_time = duration(\@times);
     # returns 47:24
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Time::Duration depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -54,15 +54,15 @@ sub random_SoM_song {
 
 =encoding utf8
 
-=head1 Fun::SoundofMusicSong
+=head1 NAME
 
 B<Fun::SoundofMusicSong> returns songs based on the note names from the film I<The Sound of Music>.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fun::SoundofMusicSong version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Fun::SoundofMusicSong qw(
     SoM_song
@@ -76,11 +76,11 @@ This document describes Fun::SoundofMusicSong version 1.0.
   my $random_note = random_SoM_note();
   my $random_song = random_SoM_song(20);
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Fun::SoundofMusicSong depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena with lots of help from PerlMonks.
 

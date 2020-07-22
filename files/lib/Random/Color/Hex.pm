@@ -49,23 +49,23 @@ sub hex_color_with_number {
 
 =encoding utf8
 
-=head1 Random::Color::Hex
+=head1 NAME
 
 B<Random::Color::Hex> returns random colors.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Color::Hex version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Color::Hex qw(random_hex_color hex_color_with_number);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Color::Hex depends on L<Fancy::Split> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

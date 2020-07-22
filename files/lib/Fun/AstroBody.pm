@@ -28,15 +28,15 @@ sub astro_body {
 
 =encoding utf8
 
-=head1 Fun::AstroBody
+=head1 NAME
 
 B<Fun::AstroBody> returns a random astronomical body to use instead of "World" in "Hello World!".
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fun::AstroBody version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Fun::AstroBody qw(astro_body);
 
@@ -44,11 +44,11 @@ This document describes Fun::AstroBody version 1.0.
 
   print $astrobody;
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Fun::AstroBody depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

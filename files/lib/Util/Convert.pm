@@ -91,15 +91,15 @@ sub linkify {
 
 =encoding utf8
 
-=head1 Util::Convert
+=head1 NAME
 
 B<Util::Convert> converts strings into various formats.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Util::Convert version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   my $string = 'Mr & Mrs Smith';
 
@@ -109,12 +109,12 @@ This document describes Util::Convert version 1.0.
   my $file    = filify($string);     # returns Mr_&_Mrs_Smith
   my $hashtag = hashtagify($string); # returns #MrandMrsSmith
 
-=head2 Description
+=head1 General notes
 
 All of the subroutines remove html tags from the string with C<textify> having the option to leave them in the string.
 They also strip off file extensions from the ends of strings with the exception of C<filify>.
 
-=head3 textify
+=head1 textify
 
 C<textify> returns an HTML friendly UTF-8 encoded string and has two parameters.
 
@@ -136,14 +136,14 @@ If C<decode> is specified, the string will be UTF-8 decoded before it is reencod
 
   textify('This & That', { decode => 'yes' })
 
-=head3 idify
+=head1 idify
 
 C<idify> returns a string for use as an id. It accepts a list of paramters that will be joined together to make one id.
 
   idify('This & That')  # returns This_and_That
   idify('This', 'That') # returns This_That
 
-=head3 searchify
+=head1 searchify
 
 C<searchify> returns a string for use as a URL search parameter and has two parameters.
 
@@ -155,23 +155,23 @@ The second parameter is the optional section that is made into an id. This param
 
   searchify('This & That', ['The other thing']) # returns This+%26+That#The_other_thing
 
-=head3 filify
+=head1 filify
 
 C<filify> returns a string to be used as a file name. All characters not allowed in file names are removed from the string.
 
   filify('This & That') # returns This_&_That
 
-=head3 hashtagify
+=head1 hashtagify
 
 C<hashtagify> returns a string that can be used as a hashtag.
 
   hashtagify('This & That') # returns #ThisandThat
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Util::Convert depends on L<Encode>, L<Lingua::EN::Inflect>, L<Util::Path>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

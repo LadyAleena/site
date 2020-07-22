@@ -39,25 +39,25 @@ sub random_cultural_characteristic {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::CulturalCharacteristic
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::CulturalCharacteristic> randomly selects the cultural characteristics of the new society.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::CulturalCharacteristic version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::CulturalCharacteristic qw(random_cultural_characteristic);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::CulturalCharacteristic depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

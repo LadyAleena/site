@@ -138,28 +138,28 @@ sub random_government {
 
 =encoding utf8
 
-=head1 Random::Government
+=head1 NAME
 
 B<Random::Government> selects a random government type.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Government version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Government qw(random_government);
   my $government = random_government;
 
-=head2 Dependency
-
-Random::Government depends on L<Exporter>.
-
-=head2 Note
+=head1 NOTE
 
 The options of this module came from L<The Phrontistery|http://phrontistery.info/> except magocracy which came from I<The World Builder's Guidebook>.
 
-=head2 Author
+=head1 DEPENDENCY
+
+Random::Government depends on L<Exporter>.
+
+=head1 AUTHOR
 
 Lady Aleena
 

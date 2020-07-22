@@ -32,15 +32,15 @@ sub random_size {
 
 =encoding utf8
 
-=head1 Random::Size
+=head1 NAME
 
 B<Random::Size> selects random relative sizes.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Size version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use RolePlaying::Random::Size qw(random_size);
 
@@ -61,21 +61,21 @@ This document describes Random::Size version 1.000.
 
   print random_size('help'); # get random_size options
 
-=head2 Description
+=head1 DESCRIPTION
 
 The options for B<random_size> are: amount, consistency, density, depth, height, length, speed, weight, width, or general.
 
 If you can not remember what you want, you can always use C<random_size('help')> to retrieve the list of options.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Size depends on L<Fancy::Rand> and  L<Exporter>.
 
-=head2 Note
+=head1 NOTE
 
 L<Random::RPG::World::WorldBuildersGuidebook::Size> also has a function called C<random_size>. Do not use these two modules together.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

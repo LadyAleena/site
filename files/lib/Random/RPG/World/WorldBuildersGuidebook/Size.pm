@@ -86,27 +86,27 @@ sub random_size {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::Size
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::Size> randomly selects the size of the new world.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::Size version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::Size qw(random_size);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::Size depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
 
-=head2 Note
+=head1 NOTE
 
 L<Random::Size> also has a function called C<random_size>. Do not use these two modules together.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -54,23 +54,23 @@ sub local_distribution {
 
 =encoding utf8
 
-=head1 Random::RPG::World::WorldBuildersGuidebook::LocalDistribution
+=head1 NAME
 
 B<Random::RPG::World::WorldBuildersGuidebook::LocalDistribution> randomly selects the town or city distribution of the new world.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::LocalDistribution version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::World::WorldBuildersGuidebook::LocalDistribution qw(local_distribution);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::LocalDistribution depends on L<Games::Dice> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

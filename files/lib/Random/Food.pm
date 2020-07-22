@@ -55,15 +55,15 @@ sub random_drink {
 
 =encoding utf8
 
-=head1 Random::Food
+=head1 NAME
 
 B<Random::Food> selects either a random food or drink.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Food version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Food qw(random_food random_drink);
 
@@ -89,11 +89,11 @@ This document describes Random::Food version 1.000.
   print random_drink('help'); # get random_drink options
 
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, J<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

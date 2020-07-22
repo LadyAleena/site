@@ -63,23 +63,23 @@ sub random_ring {
 
 =encoding utf8
 
-=head1 Random::RPG::MagicItem::Ring::SpellDoubling
+=head1 NAME
 
 B<Random::RPG::MagicItem::Ring::SpellDoubling> makes or randomly generates a Ring of Spell Doubling.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::MagicItem::SpellDoubling version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::MagicItem::Ring::SpellDoubling qw(make_ring random_ring);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::MagicItem::Ring::SpellDoubling depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

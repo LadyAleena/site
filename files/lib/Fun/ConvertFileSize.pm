@@ -74,16 +74,16 @@ sub convert_filesize {
 
 =encoding utf8
 
-=head1 Fun::ConvertFileSize
+=head1 NAME
 
 B<Fun::ConvertFileSize> converts one filesize to another filesize like gigabytes to kilobytes and the reverse.
 There is also a random filesize generator included for fun.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fun::ConvertFileSize version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
 To use this script, please use the following.
 
@@ -99,9 +99,9 @@ To use this script, please use the following.
   #10,101,101 megabytes is 10,101,101,000 kb
 
 
-=head2 Description
+=head1 DESCRIPTION
 
-=head3 convert_filesize
+=head2 convert_filesize
 
 C<convert_filesize> has the following options.
 
@@ -129,7 +129,7 @@ C<base> is how many of a smaller is in a larger. Some use 1024 as the base while
 
 =back
 
-=head4 from and to
+=head3 from and to
 
 For the from and to fields, you do not have to worry about case.
 
@@ -144,7 +144,7 @@ For the from and to fields, you do not have to worry about case.
   yottabyte(s) or yb
 
 
-=head3 random_filesize
+=head2 random_filesize
 
 To use the random generator if you happen to have a secret agent protecting a file of a size you don't feel like coming up with, you'd do...
 
@@ -152,11 +152,11 @@ To use the random generator if you happen to have a secret agent protecting a fi
 
 You could get anything from a bit to a yottabyte.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Util::Number>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena with lots of help from PerlMonks.
 

@@ -16,29 +16,29 @@ sub join_defined {
 
 =encoding utf8
 
-=head1 Fancy::Join::Defined
+=head1 NAME
 
 B<Fancy::Join::Defined> joins only defined values in a list.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fancy::Join::Defined version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   my @base_colors = ('red', undef, 'green', undef, 'blue', undef);
   my $colors = join_defined(',', @base_colors);
   # red, green, blue
 
-=head2 Description
+=head1 DESCRIPTION
 
 C<join_defined> can be exported and returns a string of only defined values from a list. It takes two parameters: the character which will join the list and a reference to the list.
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Fancy::Join::Defined depends on L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

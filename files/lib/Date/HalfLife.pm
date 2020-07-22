@@ -28,15 +28,15 @@ sub half_life_date {
 
 =encoding utf8
 
-=head1 Date::HalfLife
+=head1 NAME
 
 B<Date::HalfLife> returns when half a person's life has happened after an event.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Date::HalfLife version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Date::HalfLife qw(half_life_date);
 
@@ -46,11 +46,11 @@ This document describes Date::HalfLife version 1.0.
   );
     # returns a hashref
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Date::HalfLife depends on L<Date::Calc> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

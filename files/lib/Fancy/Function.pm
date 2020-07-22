@@ -26,15 +26,15 @@ our @EXPORT_OK = qw(
 
 =encoding utf8
 
-=head1 Fancy::Function
+=head1 NAME
 
 B<Fancy::Function> is a collection of functions that have been given a bit of additional functionality.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Fancy::Function version 1.0.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Fancy::Function qw(fancy_map fancy_splice fancy_split join_defined grammatical_join);
 
@@ -103,9 +103,9 @@ This document describes Fancy::Function version 1.0.
   my $colors = grammatical_join('and', @color_array);
   # red, yellow, green, cyan, blue, and magenta
 
-=head2 Description
+=head1 DESCRIPTION
 
-=head3 fancy_map
+=head2 fancy_map
 
 C<fancy_map> can be exported and returns a list of mapped values from a list which already has a map in it. It takes three parameters. The first two are in a hash reference with the values to be mapped before and after the values of the list. The third is a reference to the list.
 
@@ -113,39 +113,39 @@ C<fancy_map> can be exported and returns a list of mapped values from a list whi
 
 You can use C<fancy_map> here or from L<Fancy::Map>.
 
-=head3 fancy_splice
+=head2 fancy_splice
 
 C<fancy_splice> can be exported and returns a referenced array of arrays spliced by a user specified amount. It takes two paraments: the size of the groups and the list. The size can be any integer, and the list is an array.
 
 You can use C<fancy_splice> here or from L<Fancy::Splice>.
 
-=head3 fancy_split
+=head2 fancy_split
 
 C<fancy_split> can be exported and returns a referenced array split by a user specified amount. It takes two paraments: the size of the groups and the string to be split. The size can be any integer.
 
 You can use C<fancy_split> here or from L<Fancy::Split>.
 
-=head3 join_defined
+=head2 join_defined
 
 C<join_defined> can be exported and returns a string of only defined values from a list. It takes two parameters: the character which will join the list and a reference to the list.
 
 You can use C<join_defined> here or from L<Fancy::Join> or L<Fancy::Join::Defined>.
 
-=head3 grammatical_join
+=head2 grammatical_join
 
 C<grammatical_join> can be exported and returns a string of joined array values with commas and a comma with a conjunction between the last two values. It takes two parameters: the conjunction and the array. If any values within the array already have commas, semicolons will be used in place of commas.
 
 You can use C<grammatical_join> here or from L<Fancy::Join> or L<Fancy::Join::Grammatical>.
 
-=head4 Note
+=head3 Note
 
 L<Lingua::EN::Inflect> has C<WORDLIST> and L<Lingua::EN::Inflexion> has C<wordlist> which does a little more than C<grammatical_join>.
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Fancy::Function depends on L<Exporter>, L<Fancy::Map>, L<Fancy::Rand>, L<Fancy::Spice>, L<Fancy::Split>, L<Fancy::Join::Defined>, and L<Fancy::Join::Grammatical>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

@@ -27,23 +27,23 @@ sub random_saving_throw {
 
 =encoding utf8
 
-=head1 Random::RPG::SavingThrow
+=head1 NAME
 
 B<Random::RPG::SavingThrow> selects random saving throws from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::RPG::SavingThrow version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::RPG::SavingThrow qw(random_saving_throw);
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::RPG::SavingThrow depends on L<Fancy::Rand> and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

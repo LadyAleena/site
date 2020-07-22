@@ -41,15 +41,15 @@ sub random_alpha {
 
 =encoding utf8
 
-=head1 Random::Alpha
+=head1 NAME
 
 B<Random::Alpha> selects random letters of the English alphabet.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Alpha version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Alpha qw(random_alpha);
 
@@ -67,11 +67,11 @@ This document describes Random::Alpha version 1.000.
 
   print random_alpha('help') # get random_alpha options
 
-=head2 Dependencies
+=head1 DEPENDENCIES
 
 Random::Alpha depends on L<Fancy::Rand>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 

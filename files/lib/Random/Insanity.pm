@@ -21,28 +21,28 @@ sub random_mental_condition {
 
 =encoding utf8
 
-=head1 Random::Insanity
+=head1 NAME
 
 B<Random::Insanity> selects a random mental disorder.
 
-=head2 Version
+=head1 VERSION
 
 This document describes Random::Insanity version 1.000.
 
-=head2 Synopsis
+=head1 SYNOPSIS
 
   use Random::Insanity qw(random_mental_condition);
   my $insanity = random_mental_condition;
 
-=head2 Dependency
+=head1 DEPENDENCY
 
 Random::Insanity depends on L<Exporter>.
 
-=head2 Note
+=head1 NOTE
 
 Please know this module is for fun but not making light of real disorders that affect so many people. I am very of the toll mental disorders take on people and their families.
 
-=head2 Author
+=head1 AUTHOR
 
 Lady Aleena
 
