@@ -25,15 +25,15 @@ sub fancy_map {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fancy::Map
 
 B<Fancy::Map> maps within a map.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fancy::Map version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   my $colors = [fancy_map(
                  { 'before' => 'glass', 'after' => 'beads' },
@@ -52,17 +52,17 @@ This document describes Fancy::Map version 1.0.
     'glass gray beads'
   ];
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<fancy_map> can be exported and returns a list of mapped values from a list which already has a map in it. It takes three parameters. The first two are in a hash reference with the values to be mapped before and after the values of the list. The third is a reference to the list.
 
   fancy_map( { 'before' => $before_value, 'after' => $after_value }, $list_with_a_map_in_it );
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Fancy::Map depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

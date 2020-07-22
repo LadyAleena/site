@@ -80,23 +80,23 @@ sub random_weapon_damage {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::Weapon
 
 B<Random::RPG::Weapon> selects random weapons from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::Weapon version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::Weapon qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<String::Util>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

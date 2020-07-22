@@ -38,23 +38,23 @@ sub masses {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses
 
 B<Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses> randomly selects the land and water masses of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses qw(masses);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::LandWaterMasses depends on L<Games::Dice> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

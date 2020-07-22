@@ -43,23 +43,23 @@ sub random_event {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::Event
 
 B<Random::RPG::Event> selects random game events based on I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::Event version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::Event qw(random_event);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::Event depends on L<Fancy::Rand>, L<Random::RPG::AbilityScores>, L<Random::RPG::SavingThrow>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

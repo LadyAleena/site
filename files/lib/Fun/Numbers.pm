@@ -150,15 +150,15 @@ sub Roman_overline {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fun::Numbers
 
 B<Fun::Numbers> can return primes, fraction values, or Roman numerals.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fun::Numbers version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Fun::Numbers qw(
     primes
@@ -181,11 +181,11 @@ This document describes Fun::Numbers version 1.0.
 
   # Roman numerals section is incomplete
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Fun::Numbers depends on L<Exporter> and L<List::Util>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena with lots of help from PerlMonks.
 

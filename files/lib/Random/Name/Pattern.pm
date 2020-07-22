@@ -123,22 +123,22 @@ sub random_name {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Name::Pattern
 
 B<Random::Name::Pattern> generates random names by a specified pattern, based on Random Name by Jason Seeley.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Name::Pattern version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Name::Pattern qw(random_name);
 
   random_name('cv');  # returns a random name with a single consonant and a single vowel.
   random_name('vc');  # returns a random name with a single vowel and a single consonant.
 
-=head1 DESCRIPTION
+=head2 Description
 
 To generate a random name with this module, see the table below to build your pattern.
 
@@ -173,7 +173,7 @@ To generate a random name with this module, see the table below to build your pa
   #   any single digit
   ^   capitalize next character
 
-=head2 Repetition
+=head3 Repetition
 
 If you want to repeat the next character in the pattern, put the amount of repeats directly in front of the character.
 
@@ -183,11 +183,11 @@ If you want to repeat a group in the pattern, put the amount of repeats directly
 
   random_name('L2(vc)') # will return any letter followed by two repeated syllables each comprised of a single vowel and a single consonant.
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Random::Name::Pattern depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena with help of simcop2387 of #perlcafe and #buubot on freenode and from the PerlMonks and others in #perlcafe.
 

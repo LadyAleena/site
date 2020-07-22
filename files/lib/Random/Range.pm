@@ -52,15 +52,15 @@ sub random_radius {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Range
 
 B<Random::Range> selects random ranges or radiuses.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Range version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
 To use this module, please enter the following.
 
@@ -77,11 +77,11 @@ When you want to generate a random range with this module, you can choose from t
 
 You can substitute C<random_range> with C<random_radius> to get some extra text with the returned value.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Range depends on L<Fancy::Rand> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

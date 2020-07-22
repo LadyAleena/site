@@ -34,28 +34,28 @@ sub random_MIB_agent {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::SciFi
 
 B<Random::SciFi> returns a random I<Hitckhikers Guide to the Galaxy> sector or a random I<Men in Black> agent id.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::SciFi version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::SciFi qw(random_HHGTTG_sector random_MIB_agent);
 
   my $random_HHGTTG_sector = random_HHGTTG_sector(); # returns a random sector based on HHTTG sectors mentioned.
   my $random_MIB_agent     = random_MIB_agent();     # returns a random MIB agent, either single or double letter.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::SciFi depends on L<Random::Alpha> and L<Exporter>.
 
 Random::Alpha depends on L<Fancy::Rand> and L<Util::Data>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

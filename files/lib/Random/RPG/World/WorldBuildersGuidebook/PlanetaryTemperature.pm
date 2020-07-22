@@ -28,25 +28,25 @@ sub random_planetary_temperature {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature
 
 B<Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature> randomly selects the planetary temperatute of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature qw(random_planetary_temperature);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::PlanetaryTemperature depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

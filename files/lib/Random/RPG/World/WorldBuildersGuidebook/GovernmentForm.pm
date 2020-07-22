@@ -43,25 +43,25 @@ sub random_government_form {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::GovernmentForm
 
 B<Random::RPG::World::WorldBuildersGuidebook::GovernmentForm> randomly selects the government form of the new society.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::GovernmentForm version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::GovernmentForm qw(random_government_form);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::GovernmentForm depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

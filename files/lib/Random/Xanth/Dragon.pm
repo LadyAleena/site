@@ -58,15 +58,15 @@ sub random_Xanth_dragon {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Dragon::Xanth
 
 B<Random::Dragon::Xanth> generates random dragons from the I<Xanth> series by Piers Anthony.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Dragon::Xanth version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Dragon::Xanth qw(random_Xanth_dragon random_old_Xanth_dragon);
 
@@ -76,11 +76,11 @@ This document describes Random::Dragon::Xanth version 1.000.
   my $old_Xanth_dragon = random_old_Xanth_dragon;
     # returns a soulless Xanthian dragon from prior to the events of Current Events.
 
-=head1 HISTORY
+=head2 History
 
 Prior to I<Current Events> there were three species of dragon in Xanth: fire dragons, smokers, and steamers. In I<Current Events> we find out these dragons are soulless and dying off in Xanth. Clio and Sherlock travelled to Dragon World, a moon of Ida, and began to bring the souls of dragons from there to repopulate Xanth with dragons. These new dragons have five attributes.
 
-=head2 New dragon attributes
+=head3 New dragon attributes
 
 The new drgaons in Xanth have five attributes: size, nature, mental, weapon, and environment. There are five possible values of the the five attributes.
 
@@ -94,15 +94,15 @@ The five weapons are: fire, smoke, steam, suction, and prehensile tongue.
 
 The five environments are: land, water, air, tunneling, and jumping.
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Random::Xanth::Dragon depends on L<Fancy::Rand>.
 
-=head1 SEE ALSO
+=head2 See also
 
 This module is used in L<Random::Dragon>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

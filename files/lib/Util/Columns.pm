@@ -29,15 +29,15 @@ sub number_of_columns {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Util::Columns
 
 B<Util::Columns> generates a number for getting columns based on exponential numbers.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Util::Columns version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Util::Colums qw(number_of_columns);
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
@@ -50,17 +50,17 @@ This document describes Util::Columns version 1.0.
   my $columns = number_of_columns($maximum_amount_of_colums, $amount_of_items_on_list, $number_word_returned);
   # 3
 
-=head1 DESCRIPTION
+=head2 Description
 
-Util::Columns exports C<number_of_columns> by default.
+Util::Columns exports C<number_of_columns>.
 
 C<number_of_columns> takes three parameters. The first parameter is the maximum amount of columns allowed. The second parameter is the amount of items on the list. The third parameter is the option to return a number word instead of an integer, this is optional.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Util::Columns depends on L<Lingua::EN::Inflect> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

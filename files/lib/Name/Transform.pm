@@ -60,19 +60,19 @@ sub name_transform {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Name::Transform
 
 B<Name::Transform> returns parts of names in an array.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Name::Transform version 1.0.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Name::Transform depends on L<List::MoreUtils> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

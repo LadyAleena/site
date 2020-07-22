@@ -44,23 +44,23 @@ sub random_VisiBone_color {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Color::VisiBone
 
 B<Random::Color::VisiBone> selects random colors based on the Web Designer's Color Reference Poster by L<VisiBone|http://www.visibone.com/color/poster4x.html>.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Color::VisiBone version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Color::VisiBone qw(random_VisiBone_color);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Color::VisiBone depends on L<Fancy::Rand> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

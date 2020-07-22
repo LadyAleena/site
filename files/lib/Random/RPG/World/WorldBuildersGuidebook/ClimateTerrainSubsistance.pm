@@ -341,15 +341,15 @@ sub climate_chart {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::ClimateTerrainSubsistance
 
 B<Random::RPG::World::WorldBuildersGuidebook::ClimateTerrainSubsistance> randomly selects the climate, terrain, and subsistance of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::ClimateTerrainSubsistance version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::ClimateTerrainSubsistance qw(
     random_climate
@@ -358,11 +358,11 @@ This document describes Random::RPG::World::WorldBuildersGuidebook::ClimateTerra
     climate_chart
   );
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::ClimateTerrainSubsistance depends on L<Random::SpecialDice>, L<Games::Dice>, L<List::Util>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

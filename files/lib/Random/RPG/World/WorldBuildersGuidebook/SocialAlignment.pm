@@ -32,25 +32,25 @@ sub random_social_alignment {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::SocialAlignment
 
 B<Random::RPG::World::WorldBuildersGuidebook::SocialAlignment> randomly selects the social alignment of the new region.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::SocialAlignment version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::SocialAlignment qw(random_social_alignment);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::SocialAlignment depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

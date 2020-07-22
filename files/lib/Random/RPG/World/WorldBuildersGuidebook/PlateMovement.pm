@@ -32,25 +32,25 @@ sub random_plate_movement {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::PlateMovement
 
 B<Random::RPG::World::WorldBuildersGuidebook::PlateMovement> randomly selects the plate movement of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::PlateMovement version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::PlateMovement qw(random_plate_movement);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::PlateMovement depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

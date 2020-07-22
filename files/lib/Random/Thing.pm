@@ -43,15 +43,15 @@ sub random_musical_instruments { my $user_addition = shift; random_things('music
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Thing
 
 B<Random::Thing> selects random things.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Thing version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Thing;
 
@@ -105,19 +105,19 @@ This document describes Random::Thing version 1.000.
 
   print random_thing('help'); # get random_thing options
 
-=head1 DESCRIPTION
+=head2 Description
 
 Random::Thing selects random animals, plants, armor, musicial intruments, utensils, magic items, monsters, weapons, and a general other category.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Thing depends on L<Fancy::Rand>, I<Random::RPG::MagicItem>, I<Random::RPG::Monster>, L<Random::RPG::Weapon>, and L<Exporter>.
 
-=head1 SEE ALSO
+=head2 See also
 
 L<Random::Misc>
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

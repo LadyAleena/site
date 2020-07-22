@@ -44,23 +44,23 @@ sub random_world_shape {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::WorldShape
 
 B<Random::RPG::World::WorldBuildersGuidebook::WorldShape> randomly selects the shape of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::WorldShape version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::WorldShape qw(random_world_shape);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::WorldShape depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

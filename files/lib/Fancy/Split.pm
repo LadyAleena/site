@@ -26,15 +26,15 @@ sub fancy_split {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fancy::Split
 
 B<Fancy::Split> splits a string into groups.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fancy::Split version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   my $string = "red, orange, yellow, spring, green, teal, cyan, azure,
                 blue, violet, magenta, pink, white, black, gray";
@@ -51,15 +51,15 @@ This document describes Fancy::Split version 1.0.
     'gray'
   ];
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<fancy_split> can be exported and returns a referenced array split by a user specified amount. It takes two paraments: the size of the groups and the string to be split. The size can be any integer.
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Fancy::Split depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

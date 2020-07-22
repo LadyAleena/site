@@ -30,15 +30,15 @@ sub fancy_open {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fancy::Open
 
 B<Fancy::Open> opens and creates an array for a file.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fancy::Open version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Fancy::Open qw(fancy_open);
 
@@ -54,7 +54,7 @@ This document describes Fancy::Open version 1.0.
   my @both_array   = fancy_open($file_name, { 'before' => 'foo', 'after' => 'bar' });
     # returns an array for the file with foo prepended and bar appended to each item
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<fancy_open> can be exported and returns a list of values. These values can be modified if the optional parameters C<before>, C<after>, or both are used. There is the additional option to choose your C<encoding>, the default is C<uft-8>.
 
@@ -62,11 +62,11 @@ C<fancy_open> can be exported and returns a list of values. These values can be 
 
 If the open fails, fancy_open will die with a message with the filename and the captured error.
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Fancy::Open depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

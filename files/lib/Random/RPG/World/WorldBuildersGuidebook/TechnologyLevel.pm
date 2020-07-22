@@ -41,29 +41,29 @@ sub random_technology_level {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel
 
 B<Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel> randomly selects the technology level of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel qw(random_technology_level);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::TechnologyLevel depends on L<Random::SpecialDice> and L<Exporter>.
 
 Random::SpecialDice depends on L<Games::Dice>.
 
-=head1 NOTE
+=head2 Note
 
 You can use this module with L<Random::RPG::World::HighLevelCampaigns::TechnologicalRating> to create truly unique technological levels.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

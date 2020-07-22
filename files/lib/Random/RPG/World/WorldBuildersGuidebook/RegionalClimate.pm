@@ -36,23 +36,23 @@ sub random_regional_climate {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::RegionalClimate
 
 B<Random::RPG::World::WorldBuildersGuidebook::RegionalClimate> randomly selects the climate of the new region.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::RegionalClimate version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::RegionalClimate qw(random_regional_climate);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::RegionalClimate depends on L<Games::Dice> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

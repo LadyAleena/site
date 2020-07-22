@@ -46,15 +46,15 @@ sub initials {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Util::Abbreviation
 
 B<Util::Abbreviation> returns an abbreviation for a string.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Util::Abbreviation version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Util::Abbreviation qw(abbr initial);
 
@@ -67,7 +67,7 @@ This document describes Util::Abbreviation version 1.0.
   );
   # LA
 
-=head1 DESCRIPTION
+=head2 Description
 
 In Util::Abbreviation C<abbr> and C<initial> can be exported. C<initial> is an alias for C<abbr>.
 
@@ -97,11 +97,11 @@ C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain O
 
 =back
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Util::Abbreviation depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

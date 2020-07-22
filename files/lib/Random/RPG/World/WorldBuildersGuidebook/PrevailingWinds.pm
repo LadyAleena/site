@@ -32,23 +32,23 @@ sub random_prevailing_winds {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds
 
 B<Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds> randomly selects the prevailing winds of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds qw(random_prevailing_winds);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::PrevailingWinds depends on L<Games::Dice> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

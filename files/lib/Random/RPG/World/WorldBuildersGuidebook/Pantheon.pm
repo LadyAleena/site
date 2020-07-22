@@ -120,15 +120,15 @@ sub random_pantheon_size {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::Pantheon
 
 B<Random::RPG::World::WorldBuildersGuidebook::Pantheon> randomly selects the pantheon of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::Pantheon version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::Pantheon qw(
     random_pantheon_size
@@ -137,11 +137,11 @@ This document describes Random::RPG::World::WorldBuildersGuidebook::Pantheon ver
     random_pantheon_involvement
   );
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::Pantheon depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

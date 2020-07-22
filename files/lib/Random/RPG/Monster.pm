@@ -295,15 +295,15 @@ sub random_RPG_dragon {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::Monster
 
 B<Random::RPG::Monster> selects random monsters from the I<Monstrous Manual> and its compendiums from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::Monster version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::Monster qw(random_moster);
 
@@ -385,11 +385,11 @@ This document describes Random::RPG::Monster version 1.000.
 
   my $underwater_creature = random_monster('underwater creature');
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, L<Lingua::EN::Inflect>, L<List::Util>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

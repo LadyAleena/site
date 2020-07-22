@@ -25,15 +25,15 @@ sub random_water {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Water
 
 B<Random::Water> selects random running or standing waters and precipitation.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Water version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Water qw(random_water);
 
@@ -52,11 +52,11 @@ This document describes Random::Water version 1.000.
   print random_water('help'); # get random_water options
 
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Water depends on L<Fancy::Rand> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

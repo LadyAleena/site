@@ -29,25 +29,25 @@ sub refreshment {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fun::Refreshment
 
 B<Fun::Refreshment> returns a random refreshment for you to put out on a surface.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fun::Refreshment version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Fun::Refreshment qw(refreshment);
 
   my $refreshment_offering = refreshment();
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Fun::Refreshment depends on L<Exporter> and L<Lingua::EN::Inflect>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

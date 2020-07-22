@@ -103,23 +103,23 @@ sub random_body_functions {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Body::Function
 
 B<Random::Body::Function> selects random body functions.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Body::Function version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Body::Function qw(random_body_function random_body_functions);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Body::Function depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

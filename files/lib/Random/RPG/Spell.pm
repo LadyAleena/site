@@ -107,23 +107,23 @@ sub random_spell_casting {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::Spell
 
 B<Random::RPG::Spell> selects random spells and spell actions from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::Spell version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::Spell qw(random_spell_casting random_spell_group random_spell_resistance random_spell_level random_spell_frequency);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::Spell depends on L<Fancy::Rand>, L<Random::SpecialDice>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

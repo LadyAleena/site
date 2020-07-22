@@ -44,23 +44,23 @@ sub random_special_attack {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::SpecialAttack
 
 B<Random::RPG::SpecialAttack> selects random special attacks based on I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::SpecialAttack version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::SpecialAttack qw(random_special_attack);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::SpecialAttack depends on <Fancy::Rand>, L<Fancy::Join::Defined>, L<Random::SpecialDice>, L<Random::Time>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

@@ -28,28 +28,30 @@ sub birth_flower {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Date::Birth::Flower
 
 B<Date::Birth::Flower> returns the birth flower associated with months.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Date::Birth::Flower version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
+
+  use Date::Birth::Flower qw(birth_flower);
 
   my $birth_flower = birth_flower('July', 'US');
   # water lily or delphinium
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<birth_flower> is exported by default and returns the birth flower associated with the month and country entered. There are currently only two countries with birth flowers, the US and the UK, as far as I know.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Date::Birth::Flower depends on L<Exporter> and L<String::Util>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

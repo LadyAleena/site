@@ -21,15 +21,15 @@ sub grammatical_join {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Fancy::Join::Grammatical
 
 B<Fancy::Join::Grammatical> joins a list with a final conjunction.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Fancy::Join::Grammatical version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   Use Fancy::Join::Grammatical qw(grammatical_join);
 
@@ -37,19 +37,19 @@ This document describes Fancy::Join::Grammatical version 1.0.
   my $colors = grammatical_join('and', @color_array);
   # red, yellow, green, cyan, blue, and magenta
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<grammatical_join> can be exported and returns a string of joined array values with commas and a comma with a conjunction between the last two values. It takes two parameters: the conjunction and the array. If any values within the array already have commas, semicolons will be used in place of commas.
 
-=head1 SEE ALSO
+=head2 See also
 
 L<Lingua::EN::Inflect> has C<WORDLIST> and L<Lingua::EN::Inflexion> has C<wordlist> which does a little more than C<grammatical_join>.
 
-=head1 DEPENDENCY
+=head2 Dependency
 
 Fancy::Join::Grammatical depends on L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

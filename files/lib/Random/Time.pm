@@ -72,15 +72,15 @@ sub random_frequency {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Time
 
 B<Random::Time> selects a random time unit, random day part, random time, or random frequency.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Time version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Time qw(random_time_unit random_day_part random_time random_frequency);
 
@@ -96,11 +96,11 @@ This document describes Random::Time version 1.000.
 
   my $frequency = random_frequency; # selects a frequency by time unit
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Time depends on L<Fancy::Rand>, L<Random::SpecialDice>, I<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

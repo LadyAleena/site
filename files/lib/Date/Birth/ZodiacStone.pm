@@ -45,30 +45,32 @@ sub zodiac_stone {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Date::Birth::ZodiacStone
 
-B<Zodiac::Stone> returns the stone associated with zodiac signs.
+B<Date::Birth::ZodiacStone> returns the stone associated with zodiac signs.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Date::Birth::ZodiacStone version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
+
+  use Date::Birth::ZodiacStone qw(zodiac_stone);
 
   my $zodiac_stone = zodiac_stone('Cancer');
   # emerald
 
-=head1 DESCRIPTION
+=head2 Description
 
 C<zodiac_stone> is exported by default and returns the stone associated with the sign entered.
 
 If you do not know your zodiac sign, you can use C<sign> to determine your sign using your birth month and day.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Date::Birth::ZodiacStone depends on L<Exporter> and L<String::Util>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

@@ -41,23 +41,23 @@ sub random_technological_rating {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::HighLevelCampaigns::TechnologicalRating
 
 B<Random::RPG::World::HighLevelCampaigns::TechnologicalRating> randomly selects the techonologial rating of the new world.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::HighLevelCampaigns::TechnologicalRating version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::HighLevelCampaigns::TechnologicalRating qw(random_technological_rating);
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::HighLevelCampaigns::TechnologicalRating depends on L<Games::Dice> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

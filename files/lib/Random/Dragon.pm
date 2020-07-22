@@ -60,15 +60,15 @@ sub random_dragon {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Dragon
 
 B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Dragon version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Dragon qw(
     random_DreamWorks_dragon
@@ -102,11 +102,11 @@ This document describes Random::Dragon version 1.000.
   my $dragon = random_dragon;
     # selects a random dragon from all of the above
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

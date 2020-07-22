@@ -49,15 +49,15 @@ sub random_zstuff             { fancy_rand(\%misc, 'zstuff'            , { 'call
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Misc
 
 B<Random::Misc> selects random miscellaneous things.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Misc version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Misc qw(
     random_divinity
@@ -93,19 +93,19 @@ This document describes Random::Misc version 1.000.
   my $sign               = random_sign;               # selects either a + or a -
   my $zstuff             = random_zstuff;             # selects random stuff
 
-=head1 DESCRIPTION
+=head2 Description
 
 Random::Misc is a catch all for lists that can not be classified as anything else.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Misc depends on L<Fancy::Rand> and L<Exporter>.
 
-=head1 SEE ALSO
+=head2 See also
 
 L<Random::Things>
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

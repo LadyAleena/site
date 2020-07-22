@@ -2,6 +2,8 @@
 
 I wrote these modules for my site, but some were written just for fun. Those that I would like to share on CPAN one day are in **bold** and have POD (Plain Old Documetation).
 
+## The directories and files
+
 [Base](Base): The module that begins the display of my pages. I am currently considering splitting it into two modules. Check your sanity before looking at it.
 
 **[Date](Date)**: These modules were written for fun and are not used on my site.
@@ -31,3 +33,13 @@ I wrote these modules for my site, but some were written just for fun. Those tha
 I am considering spinning the modules that I would like to share on CPAN off into their own repository.
 
 The one javascript file is for my collapsable site menu mainly.
+
+## The POD in my modules
+
+You will be able to see rather quickly that I do not use the standard headings in the postions you are used to them being in my POD.
+
+The first heading `head1` is the name of the module not just `NAME`. As more people are reading module descriptions on the web, the first heading should always be the title, in this case the module name.
+
+The remaining standard headings are all `head2` and in `Sentence case` even if the title of the section is not a full sentence.
+
+It may take some time to get used to reading my POD, but this is an experiment to see how people like it generally. This does give me only two additional levels down, but I can work with that. My personal opinion is that even in HTML documents, one should never go that far down. However, I have not writen any technical documents or research papers where that depth would be needed.

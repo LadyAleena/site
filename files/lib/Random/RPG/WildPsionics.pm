@@ -246,21 +246,21 @@ sub random_wild_psionic_talent {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::WildPsionics
 
 B<Random::RPG::WildPsionics> selects random a wild psionic talent from I<Advanced Dungeons & Dragons>, Second Edition.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::WildPsionics version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::WildPsionics qw(random_wild_psionic_talent);
 
   my $psionic_talent = random_wild_psionic_talent;
 
-=head1 DESCRIPTION
+=head2 Description
 
 Random::RPG::WildPsionics selects a wild psionic talent with all of its prerequisites and total amount of PSPs.
 
@@ -270,11 +270,11 @@ You can roll for more than one wild psionic talent:
 
 That could return something like: C<wild psionic talents: (PSPs: 47) animate shadow, combat mind, telekinesis>
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::WildPsionics depends on <Fancy::Rand>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

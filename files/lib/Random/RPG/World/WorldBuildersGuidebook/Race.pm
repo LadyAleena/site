@@ -280,15 +280,15 @@ Random::SpecialDice depends on L<Games::Dice>.
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::RPG::World::WorldBuildersGuidebook::Race
 
 B<Random::RPG::World::WorldBuildersGuidebook::Race> randomly selects the dominatant, major, and minor land, subterranean, and marine races the of the new location and their positions in society.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::RPG::World::WorldBuildersGuidebook::Race version 1.0.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::RPG::World::WorldBuildersGuidebook::Race qw(
     random_race
@@ -299,11 +299,11 @@ This document describes Random::RPG::World::WorldBuildersGuidebook::Race version
     random_racial_makeup
   );
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::RPG::World::WorldBuildersGuidebook::Race depends on L<Games::Dice> and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

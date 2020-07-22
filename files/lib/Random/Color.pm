@@ -52,15 +52,15 @@ sub random_color {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Color
 
 B<Random::Color> selects random colors.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Color version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   my $gray                  = random_color('gray'); # selects from white, gray, and black.
 
@@ -121,19 +121,19 @@ This document describes Random::Color version 1.000.
 
   print random_color('help'); # get random_color options
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Color depends on L<Fancy::Rand>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
 
-=head1 SEE ALSO
+=head2 See also
 
 More random colors can be found in L<Random::GemMetalJewelry>.
 
-=head1 NOTE
+=head2 Note
 
 I am always looking for more lists of colors to add, so please send your lists of colors.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

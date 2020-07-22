@@ -86,19 +86,19 @@ sub day_number {
 
 =encoding utf8
 
-=NAME
+=head1 Date::Verify
 
 B<Date::Verify> makes sure the input matches the date criteria.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Date::Verify version 1.0.
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Date::Verify depends on L<Exporter>, L<Date::Calc>, and L<Date::Validate>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

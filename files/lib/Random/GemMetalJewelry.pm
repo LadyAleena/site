@@ -140,15 +140,15 @@ sub random_jewelry {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::GemMetalJewelry
 
 B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::GemsMetalJewelry version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::GemMetalJewelry qw(
     random_gem_variety
@@ -160,7 +160,7 @@ This document describes Random::GemsMetalJewelry version 1.000.
     random_jewelry
   );
 
-=head2 random_gem_variety usage
+=head3 random_gem_variety usage
 
   my $gem_variety = random_gem_variety('all');
     # selects a random gem or metal
@@ -189,7 +189,7 @@ This document describes Random::GemsMetalJewelry version 1.000.
 
   print random_gem_variety('help'); # get random_gem_variety options
 
-=head2 random_gem_color usage
+=head3 random_gem_color usage
 
   my $gem_color = random_gem_color('all');
     # selects a random gem color
@@ -214,7 +214,7 @@ This document describes Random::GemsMetalJewelry version 1.000.
 
   print random_gem_color('help'); # get random_gem_color options
 
-=head2 random_gem_cut usage
+=head3 random_gem_cut usage
 
   my $gem_cut = random_gem_cut('all');
     # selects a random gem cut
@@ -236,7 +236,7 @@ This document describes Random::GemsMetalJewelry version 1.000.
 
   print random_gem_cut('help'); # get random_gem_cut options
 
-=head2 random_gem usage
+=head3 random_gem usage
 
   my $gem        = random_gem('all');
   my $unsorted   = random_gem('unsorted');
@@ -251,12 +251,12 @@ This document describes Random::GemsMetalJewelry version 1.000.
   # is random_gem_variety with more weight to gems
   # 'no metal' is 'all' without metals
 
-=head2 random_metal usage
+=head3 random_metal usage
 
   my $metal_3 = random_metal;
     # is random_gem_variety('metal')
 
-=head2 random_gem_expanded usage
+=head3 random_gem_expanded usage
 
   my $gem_expanded        = random_gem_expanded('all');
   my $unsorted_expanded   = random_gem_expanded('unsorted');
@@ -271,7 +271,7 @@ This document describes Random::GemsMetalJewelry version 1.000.
   # see random_gem_variety for the gems
   # see random_gem_color for the colors
 
-=head2 random_jewelry usage
+=head3 random_jewelry usage
 
   my $jewelry = random_jewelry(1); # or any number
 
@@ -280,11 +280,11 @@ This document describes Random::GemsMetalJewelry version 1.000.
   # pocket watch, and wrist watch
   # selects random gems to go on the jewelry by amount entered
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::GemMetalJewelry depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 

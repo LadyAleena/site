@@ -82,15 +82,15 @@ sub random_month {
 
 =encoding utf8
 
-=head1 NAME
+=head1 Random::Month
 
 B<Random::Month> selects a random month by language.
 
-=head1 VERSION
+=head2 Version
 
 This document describes Random::Month version 1.000.
 
-=head1 SYNOPSIS
+=head2 Synopsis
 
   use Random::Month qw(random_month);
 
@@ -105,11 +105,11 @@ This document describes Random::Month version 1.000.
 
   print random_month('help') # get random_month options
 
-=head1 DEPENDENCIES
+=head2 Dependencies
 
 Random::Month depends on L<Fancy::Rand>, L<Date::Calc>, and L<Exporter>.
 
-=head1 AUTHOR
+=head2 Author
 
 Lady Aleena
 
