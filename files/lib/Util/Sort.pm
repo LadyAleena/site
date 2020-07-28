@@ -1,5 +1,5 @@
 package Util::Sort;
-use v5.8.8;
+use v5.16.0;
 use strict;
 use warnings FATAL => qw( all );
 use Exporter qw(import);
@@ -7,7 +7,7 @@ use Exporter qw(import);
 use HTML::Entities qw(decode_entities);
 
 our $VERSION   = '1.0';
-our @EXPORT_OK = qw(article_sort name_sort short_sorts split_sort);
+our @EXPORT_OK = qw(article_sort name_sort split_sort);
 
 sub split_out_leading_number {
     my $s = shift;
@@ -99,58 +99,6 @@ sub name_sort {
     decode_entities($_);
   }
   return $c cmp $d;
-}
-
-sub short_sorts {
-  my ($a,$b,$type) = @_;
-
-  # Legend:
-  # s = case sensitive
-  # i = case insensitive
-  # a = ascending
-  # d = descending
-  # r = reverse (right to left)
-  # n = numbers
-  # l = length of value
-
-  my %sorts;
-  $sorts{$_} = sub { $_[0] cmp $_[1] } for qw(sa as);
-  $sorts{$_} = sub { $_[1] cmp $_[0] } for qw(sd ds);
-  $sorts{$_} = sub { uc $_[0] cmp uc $_[1] } for qw(ia ai);
-  $sorts{$_} = sub { uc $_[1] cmp uc $_[0] } for qw(id di);
-  $sorts{$_} = sub { $_[0] <=> $_[1] } for qw(na an);
-  $sorts{$_} = sub { $_[1] <=> $_[0] } for qw(nd dn);
-  $sorts{$_} = sub { reverse($_[0]) cmp reverse($_[1]) } for qw(sar sra asr ars rsa ras);
-  $sorts{$_} = sub { reverse($_[1]) cmp reverse($_[0]) } for qw(sdr srd dsr drs rsd rds);
-  $sorts{$_} = sub { uc reverse($_[0]) cmp uc reverse($_[1]) } for qw(iar ira air ari ria rai);
-  $sorts{$_} = sub { uc reverse($_[1]) cmp uc reverse($_[0]) } for qw(idr ird dir dri rid rdi);
-  $sorts{$_} = sub { reverse $_[0] <=> reverse $_[1] } for qw(nar nra anr arn rna ran);
-  $sorts{$_} = sub { reverse $_[1] <=> reverse $_[0] } for qw(ndr nrd dnr drn rnd rdn);
-  $sorts{$_} = sub { length($_[0]) <=> length($_[1]) } for qw(la al);
-  $sorts{$_} = sub { length($_[1]) <=> length($_[0]) } for qw(ld dl);
-
-  if ($type) {
-    die "$type is not supported" if !$sorts{$type};
-    return $sorts{$type}->($a,$b);
-  }
-  else {
-    die "A sort type was not selected.";
-  }
-}
-
-sub split_sort {
-  my ($in_a, $in_b, $split, $sort_type) = @_;
-  $split = qr($split);
-
-  my ($numa1, $numa2) = split(/$split/, $in_a);
-  my ($numb1, $numb2) = split(/$split/, $in_b);
-
-  if ($sort_type =~ /^num/) {
-    $numa1 <=> $numb1 || $numa2 <=> $numb2
-  }
-  elsif ($sort_type =~ /^(alpha|letter)/) {
-    $numa1 cmp $numb1 || $numa2 cmp $numb2
-  }
 }
 
 =pod
