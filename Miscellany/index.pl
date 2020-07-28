@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
@@ -22,7 +22,7 @@ use Random::Color              qw(random_color);
 use Random::Descriptor         qw(random_descriptor);
 use Random::Misc               qw(random_sexual_orientation random_relationship);
 
-my $cgi        = CGI::Minimal->new;
+my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir  = file_directory('Miscellany', 'text');
 my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });

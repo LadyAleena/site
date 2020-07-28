@@ -2,7 +2,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp           qw(fatalsToBrowser);
 use HTML::Entities      qw(encode_entities);
 use Lingua::EN::Inflect qw(NUM A NUMWORDS ORD PL_N PL_V NO classical);
@@ -249,7 +249,7 @@ for my $unnamed (@unnamed_list) {
 # End data crunching
 # Begin outputting
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $select_character = $cgi->param('character') ? encode_entities($cgi->param('character'), '<>"') : '';
 my $select_alpha     = $cgi->param('alpha')     ? encode_entities($cgi->param('alpha'),     '<>"') : '';
 my $select_novel     = $cgi->param('novel')     ? encode_entities($cgi->param('novel'),     '<>"') : '';

@@ -3,7 +3,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(A);
@@ -26,7 +26,7 @@ my $multi_monsters = {
 my $random_monster = A(random_monster);
 my @selects = ('Chaos elemental-kin', 'Daemar', 'Dark centaur', 'Demi-lycanthrope', 'Dragod', 'Eldent', 'Gobpry', 'Phase elemental', 'Rainbow dragonette', 'Throglin', 'Tralg', 'Trobold', 'Twarg', 'Zarden', 'Random monsters');
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $select = $cgi->param('monster') ? encode_entities($cgi->param('monster'),'/<>"') : undef;
 
 my $head = $select && grep(/\Q$select\E/, @selects) ? $select : undef;

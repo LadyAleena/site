@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
@@ -17,7 +17,7 @@ use Util::Menu     qw(file_menu);
 use Util::Sort     qw(article_sort);
 use Util::StoryMagic qw(story_magic);
 
-my $cgi       = CGI::Minimal->new;
+my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir = 'files/text';
 my $page_file = "$pages_dir/index.txt";

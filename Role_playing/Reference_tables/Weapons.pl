@@ -2,7 +2,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
@@ -14,7 +14,7 @@ use HTML::Forms qw(tiny_select);
 use RPG::WeaponName qw(display_weapon);
 use Util::Data qw(make_hash);
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $size  = $cgi->param('size') ? encode_entities($cgi->param('size'), '<>"') : undef;
 my $type  = $cgi->param('type') ? encode_entities($cgi->param('type'), '<>"') : undef;
 my $broad = $cgi->param('broad_group') ? encode_entities($cgi->param('broad_group'), '<>"') : undef;

@@ -3,7 +3,7 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
@@ -59,7 +59,7 @@ $error_codes->{508} = 'loop detected';
 $error_codes->{510} = 'not extended';
 $error_codes->{511} = 'netword authentication required';
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $error   = $cgi->param('error') ? encode_entities($cgi->param('error'),'/<>"') : '';
 
 my $error_line = q(You do not have an error here.);

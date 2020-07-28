@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
 use HTML::Entities qw(encode_entities);
@@ -27,7 +27,7 @@ my %scrolls = (
 
 my @selects = sort { article_sort($a,$b) } keys %scrolls;
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $select = encode_entities($cgi->param('spell scroll'),'<>"');
 my $head = $select && grep(/\Q$select\E/, @selects) ? $select : undef;
 my $file_menu = file_menu('spell scroll', \@selects);

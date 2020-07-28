@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../../files/lib';
@@ -16,7 +16,7 @@ use Util::Line     qw(line);
 use Util::Menu     qw(file_menu);
 use Util::Sort     qw(article_sort);
 
-my $cgi        = CGI::Minimal->new;
+my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir  = file_directory('Role_playing/Locations/Afma', 'text');
 my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });

@@ -3,7 +3,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use Encode;
 use HTML::Entities qw(encode_entities);
@@ -58,7 +58,7 @@ sub movies_beginning {
   return "List of movies beginning with $text" if $text;
 }
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $title    = get_cgi_param($cgi, 'title');
 my $year     = get_cgi_param($cgi, 'year');
 my $media    = get_cgi_param($cgi, 'media');

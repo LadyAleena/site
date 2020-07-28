@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
@@ -17,7 +17,7 @@ use Util::Data     qw(file_directory make_hash);
 use Util::Number   qw(commify);
 use RPG::Character::Alignment qw(expand_alignment);
 
-my $cgi  = CGI::Minimal->new;
+my $cgi  = CGI::Simple->new;
 my $page = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 
 my $player_characters = make_hash(

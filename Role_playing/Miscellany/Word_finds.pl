@@ -2,7 +2,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
 use HTML::Entities qw(encode_entities);
@@ -18,7 +18,7 @@ my %finds = (
   'Undead'          => 'UNDEAD SLAYER'
 );
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $select = $cgi->param('word find') ? encode_entities($cgi->param('word find'),'<>"') : undef;
 my $head = $select && $finds{$select} ? "$select word find" : undef;
 my $file_menu = file_menu('word find', [sort keys %finds], $select);

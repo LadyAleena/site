@@ -2,7 +2,7 @@
 use strict;
 use warnings FATAL => qw( all );
 
-use CGI::Minimal;
+use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
 use HTML::Entities qw(encode_entities);
@@ -19,7 +19,7 @@ use Util::Sort qw(name_sort);
 my $directory = 'Role_playing/Player_characters/Spellbooks';
 my @selects = sort { name_sort(lc $a,lc $b) } map { $_ =~ s/\.txt//; $_ =~ s/_/ /g; $_ } file_list(file_directory($directory));
 
-my $cgi = CGI::Minimal->new;
+my $cgi = CGI::Simple->new;
 my $select = encode_entities($cgi->param('spellbook'),'<>"');
 my $head = $select && grep(/\Q$select\E/, @selects) ? "$select\'s spellbook" : 'My characters\' spellbooks';
 my $file_menu = file_menu('spellbook', \@selects, $select);

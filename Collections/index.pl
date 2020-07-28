@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
-use CGI::Minimal;
+use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib '../files/lib';
@@ -18,7 +18,7 @@ use Util::StoryMagic qw(program_magic);
 use Util::StoryMagic::Collection qw(collection_magic);
 use Random::Dragon qw(random_DreamWorks_dragon random_Harry_Potter_dragon random_Pern_dragon);
 
-my $cgi        = CGI::Minimal->new;
+my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir  = file_directory('Collections', 'text');
 my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
