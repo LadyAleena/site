@@ -1,4 +1,4 @@
-package Util::Abbreviation;
+package String::Abbeviate;
 use v5.8.8;
 use strict;
 use warnings FATAL => qw( all );
@@ -48,15 +48,15 @@ sub initials {
 
 =head1 NAME
 
-B<Util::Abbreviation> returns an abbreviation for a string.
+B<String::Abbeviate> returns an abbreviation for a string.
 
 =head1 VERSION
 
-This document describes Util::Abbreviation version 1.0.
+This document describes String::Abbeviate version 1.0.
 
 =head1 SYNOPSIS
 
-  use Util::Abbreviation qw(abbr initial);
+  use String::Abbeviate qw(abbr initial);
 
   my $abbr = abbr(
     name    => 'The Lady Aleena',
@@ -69,7 +69,7 @@ This document describes Util::Abbreviation version 1.0.
 
 =head1 DESCRIPTION
 
-In Util::Abbreviation C<abbr> and C<initial> can be exported. C<initial> is an alias for C<abbr>.
+String::Abbeviate returns an abbreviation for a string. C<abbr> or C<initial> must be imported into your script. C<initial> is an alias for C<abbr>.
 
 =over
 
@@ -99,7 +99,7 @@ C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain O
 
 =head1 DEPENDENCY
 
-Util::Abbreviation depends on L<Exporter>.
+String::Abbeviate depends on L<Exporter>.
 
 =head1 AUTHOR
 
