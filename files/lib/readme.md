@@ -22,6 +22,8 @@ I wrote these modules for my site, but some were written just for fun. Those tha
 
 [SVG](SVG): These modules were all written to help me write the [SVGs](../images) for my site and are specific to my needs.
 
+**[String](String)**: The Abbreviation module was written for fun and is not used on my site.
+
 **[Time](Time)**: The Duration module was written so I could find out durations.
 
 [Util](Util): These modules are almost all helpers for my site and are very specific to my needs. There are not many in here that I would want to share. Those I may want to share would need new names.
