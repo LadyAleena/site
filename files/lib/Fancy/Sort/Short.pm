@@ -1,7 +1,7 @@
 package Fancy::Sort::Short;
 use v5.16.0;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 
 our $VERSION   = '1.0';
@@ -112,9 +112,13 @@ This document describes Fancy::Sort::Short version 1.0.
 
 =head1 DESCRIPTION
 
-Fancy::Sort::Short returns a subroutine to be used in L<sort|https://perldoc.perl.org/functions/sort.html> based on the code entered into C<short_sort>. These codes can be entered in any order. Some of these codes are redundant but were added for completeness.
+Fancy::Sort::Short returns a subroutine with the compariosn expression to be used in L<sort|https://perldoc.perl.org/functions/sort.html> based on the code entered into C<short_sort>. These codes can be entered in any order. Some of these codes are redundant but were added for completeness. C<short_sort> is not exported by default and has to be imported into your script.
+
+  use Fancy::Sort::Short qw(short_sort);
 
 C<short_sort> has three parameters. The first and second paremeters are C<$a> and C<$b> from C<sort>. The third parameter is the code you want to use for the sort.
+
+  short_sort($a, $b, 'code');
 
 It requires Perl version 5.16.0 or better.
 
