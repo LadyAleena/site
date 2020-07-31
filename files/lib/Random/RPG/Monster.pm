@@ -4,9 +4,6 @@ use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(PL_N);
-use List::Util qw(shuffle);
-
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Map qw(fancy_map);
 
@@ -387,7 +384,7 @@ This document describes Random::RPG::Monster version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, L<Lingua::EN::Inflect>, L<List::Util>, and L<Exporter>.
+Random::RPG::Monster depends on L<Fancy::Rand>, L<Fancy::Map>, and L<Exporter>.
 
 =head1 AUTHOR
 

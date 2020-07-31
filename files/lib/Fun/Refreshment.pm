@@ -1,10 +1,8 @@
 package Fun::Refreshment;
-use v5.10.0;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-
-use Lingua::EN::Inflect qw(A);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(refreshment);
@@ -16,7 +14,7 @@ my @cookies = (
   'chocolate chip', 'chocolate chunk', 'chocolate chocolate chip', 'brownie-style', 'brownie-style chocolate chip',
   'raisin', 'oatmeal raisin');
 
-my @chips = ( '', 'corn', 'potato');
+my @chips = ('', 'corn', 'potato');
 
 my @wines = ('', 'red', 'white');
 
@@ -48,7 +46,7 @@ sub refreshment {
     $refreshment = length($wine) ? "$wine $refreshment" : $refreshment;
   }
 
-  return "puts out a $container of $refreshment";
+  return "$container of $refreshment";
 }
 
 =pod
@@ -90,7 +88,7 @@ Cookies, chips, and wine may be prefaced with a more specific type.
 
 =head1 DEPENDENCIES
 
-Fun::Refreshment depends on L<Exporter> and L<Lingua::EN::Inflect>.
+Fun::Refreshment depends on L<Exporter>.
 
 =head1 AUTHOR
 

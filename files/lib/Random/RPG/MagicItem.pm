@@ -4,7 +4,7 @@ use strict;
 use warnings FATAL => qw(all);
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A PL_N);
+use Lingua::EN::Inflect qw(PL_N);
 
 use Fancy::Rand   qw(fancy_rand tiny_rand);
 use Random::Range qw(random_radius);

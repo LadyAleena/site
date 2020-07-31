@@ -5,7 +5,6 @@ use warnings FATAL => qw(all);
 use Exporter qw(import);
 
 use Games::Dice qw(roll);
-use Lingua::EN::Inflect qw(PL_N);
 use String::Util qw(collapse);
 
 use Fancy::Rand  qw(fancy_rand tiny_rand);
@@ -94,7 +93,7 @@ This document describes Random::RPG::Weapon version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<String::Util>, and L<Exporter>.
+Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<String::Util>, and L<Exporter>.
 
 =head1 AUTHOR
 

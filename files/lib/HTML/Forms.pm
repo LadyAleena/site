@@ -4,8 +4,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(tiny_select top_select);
 
-use Lingua::EN::Inflect qw(A PL_N);
-
 use HTML::Elements qw(form fieldset input selection);
 use Util::Convert qw(textify);
 use Util::Data qw(make_hash);
@@ -13,7 +11,7 @@ use Util::Data qw(make_hash);
 sub top_select {
   my ($tab, $opt) = @_;
   my $location = $opt->{'location'};
-  my $legend = A($opt->{'name'});
+  my $legend   = $opt->{'name'};
   my $select_name = $opt->{'name'};
   my $submit_value = $opt->{'button'} ? $opt->{'button'} : "List $select_name";
   my @options;
