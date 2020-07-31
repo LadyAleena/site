@@ -4,40 +4,44 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(PL_N);
-
 use Fancy::Rand qw(fancy_rand);
-use Random::RPG::MagicItem qw(random_magic_items);
-use Random::RPG::Monster   qw(random_monster);
-use Random::RPG::Weapon    qw(random_weapons);
 
 our $VERSION   = '1.000';
-our @EXPORT_OK = qw(random_things random_animals random_armor random_musical_instruments random_plants random_utensils
-                    random_magic_items random_monster random_weapons);
-
-my %things = (
-  'animals'             => [qw(animals amphibians arthropods birds fish mammals reptiles insects spiders)],
-  'plants'              => [qw(plants ferns flowers mosses trees weeds)],
-  'armor'               => [qw(armor helmets shields)],
-  'musical instruments' => ['musical instruments', map("$_ instruments", qw(brass percussion string woodwind))],
-  'utensils'            => ['utensils', map("$_ utensils", qw(cooking eating writing))],
-  'magic items'         => ['magical '.random_magic_items('all', ['items'])],
-  'monsters'            => ['monsters', PL_N(random_monster, 2)],
-  'weapons'             => [random_weapons('all', ['weapons'])],
-  'other'               => ['inanimate objects', 'religious symbols', qw(bedding boats books clothing dishes furniture jewelry rocks rugs tools wagons)],
+our @EXPORT_OK = qw(
+  random_thing
+  random_animal
+  random_armor
+  random_clothing
+  random_musical_instrument
+  random_plant
+  random_utensil
+  random_magic_item
+  random_monster
+  random_weapons
 );
 
-sub random_things {
+my %things = (
+  'animals'             => [qw(animal amphibian arthropod bird fish mammal reptile insect spider)],
+  'plants'              => [qw(plant fern flower moss tree weed)],
+  'armor'               => [qw(armor helmet shield)],
+  'clothing'            => [qw(clothing shirt sweater vest jacket coat pants skirt dress shorts sock cape robe)],
+  'musical instruments' => ['musical instrument', map("$_ instrument", qw(brass percussion string woodwind))],
+  'utensils'            => ['utensil', map("$_ utensil", qw(cooking eating writing))],
+  'other'               => ['inanimate object', 'religious symbol', qw(bedding boat book dish furniture jewelry rock rug tool wagon)],
+);
+
+sub random_thing {
   my ($user_thing, $user_additions) = @_;
   my $thing = fancy_rand(\%things, $user_thing, { caller => 'random_thing', additions => $user_additions ? $user_additions : undef });
   return $thing;
 }
 
-sub random_animals             { my $user_addition = shift; random_things('animals' , $user_addition) }
-sub random_armor               { my $user_addition = shift; random_things('armor'   , $user_addition) }
-sub random_plants              { my $user_addition = shift; random_things('plants'  , $user_addition) }
-sub random_utensils            { my $user_addition = shift; random_things('utensils', $user_addition) }
-sub random_musical_instruments { my $user_addition = shift; random_things('musical instruments', $user_addition) }
+sub random_animal             { my $user_addition = shift; random_thing('animals' , $user_addition) }
+sub random_armor              { my $user_addition = shift; random_thing('armor'   , $user_addition) }
+sub random_clothing           { my $user_addition = shift; random_thing('clothing', $user_addition) }
+sub random_plant              { my $user_addition = shift; random_thing('plants'  , $user_addition) }
+sub random_utensil            { my $user_addition = shift; random_thing('utensils', $user_addition) }
+sub random_musical_instrument { my $user_addition = shift; random_thing('musical instruments', $user_addition) }
 
 =pod
 
@@ -53,65 +57,63 @@ This document describes Random::Thing version 1.000.
 
 =head1 SYNOPSIS
 
-  use Random::Thing;
+  use Random::Thing qw(
+    random_thing
+    random_animal
+    random_armor
+    random_musical_instrument
+    random_plant
+    random_utensil
+  );
 
-  my $things              = random_things;
+  my $thing              = random_thing;
 
-  my $animals             = random_things('animals');
+  my $animal             = random_thing('animals');
   # or
-  my $animals             = random_animals;
-    # selects from animals, amphibians, arthropods, birds, fish, mammals, reptiles,
-    # insects, and spiders
+  my $animal             = random_animal;
+    # selects from animal, amphibian, arthropod, bird, fish, mammal, reptile,
+    # insect, and spider
 
-  my $armor               = random_things('armor');
+  my $armor               = random_thing('armor');
   # or
   my $armor               = random_armor;
-    # selects from armor, helmets, and shields
+    # selects from armor, helmet, and shield
 
-  my $magic_items         = random_things('magic items');
+  my $cloting             = random_thing('cloting');
   # or
-  my $magic_items         = random_magic_items;
-    # see Random::RPG::Magic_item for details
+  my $cloting             = random_cloting;
+    # selects from clothing, shirt, sweater, vest, jacket, coat, pants, skirt,
+    # dress, shorts, sock, cape, and robe
 
-  my $monsters            = random_things('monsters');
+  my $musical_instrument = random_thing('musical instruments');
   # or
-  my $monsters            = PL_N(random_monster, 2);
-    # see Random::RPG::Monster for details
+  my $musical_instrument = random_musical_instrument;
+    # selects from musical instrument, brass instrument, percussion instrument,
+    # string instrument, and woodwind instrument
 
-  my $musical_instruments = random_things('musical instruments');
+  my $plant              = random_thing('plants');
   # or
-  my $musical_instruments = random_musical_instruments;
-    # selects from musical instruments, brass instruments, percussion instruments,
-    # string instruments, and woodwind instruments
+  my $plant              = random_plant;
+    # selects from plant, fern, flower, moss, tree, and weed
 
-  my $plants              = random_things('plants');
+  my $utensil            = random_thing('utensils');
   # or
-  my $plants              = random_plants;
-    # selects from plants, ferns, flowers, mosses, trees, and weeds
+  my $utensil            = random_utensil;
+    # selects from utensil, cooking utensil, eating utensil, and writing utensil
 
-  my $utensils            = random_things('utensils');
-  # or
-  my $utensils            = random_utensils;
-    # selects from utensils, cooking utensils, eating utensils, and writing utensils
-
-  my $weapons             = random_things('weapons');
-  # or
-  my $weapons             = random_weapons;
-    # see Random::RPG::Weapons for details
-
-  my $other_things        = random_things('other');
-    # selects from bedding, boats, books, clothing, dishes, furniture, inanimate objects,
-    # jewelry, religious symbols, rocks, rugs, tools, and wagons
+  my $other_thing        = random_thing('other');
+    # selects from bedding, boat, book, clothing, dish, furniture, inanimate object,
+    # jewelry, religious symbol, rock, rug, tool, and wagon
 
   print random_thing('help'); # get random_thing options
 
 =head1 DESCRIPTION
 
-Random::Thing selects random animals, plants, armor, musicial intruments, utensils, magic items, monsters, weapons, and a general other category.
+Random::Thing selects random animals, plants, armor, clothing, musicial intruments, utensils, and a general other category.
 
 =head1 DEPENDENCIES
 
-Random::Thing depends on L<Fancy::Rand>, I<Random::RPG::MagicItem>, I<Random::RPG::Monster>, L<Random::RPG::Weapon>, and L<Exporter>.
+Random::Thing depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 SEE ALSO
 

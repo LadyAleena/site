@@ -76,8 +76,10 @@ flail, footman's|1|1d6+1|2d4||15|L|B|7|d12|Clubs, Flails, & Maces|Flails|15
 flail, horseman's|1|1d4+1|1d4+1||5|M|B|6|d10|Clubs, Flails, & Maces|Flails|8
 flail, grain|1|1d4|1d4||3|M|B|6|d8|Clubs, Flails, & Maces|Flails|0.5
 fork|1|1d6|1d6+1||6|L|P|7|d6||Farm weapons|0.8
-gaff/hook, attached|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|2
-gaff/hook, held|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|0.05
+gaff, attached|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|2
+gaff, held|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|0.05
+hook, attached|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|2
+hook, held|1|1d4|1d3||2|S|P|2|d4||Chain and Rope weapons|0.05
 glaive|1|1d6|1d10||8|L|S|8|d10|Polearms|Glaives|6
 glaive-guisarme|1|2d4|2d6||10|L|P/S|9|d10|Polearms|Billed polearms|10
 grapple|1/2|1d4|1d4|2-4-6|3|S|P/B|7|d6|||5

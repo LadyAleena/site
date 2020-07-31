@@ -11,29 +11,29 @@ use Random::Range qw(random_radius);
 use Random::SpecialDice qw(percentile permille);
 
 our $VERSION   = '1.000';
-our @EXPORT_OK = qw(random_magic_items random_magic_item_action magic_item_enhancement magic_item_quirk);
+our @EXPORT_OK = qw(random_magic_item random_magic_item_action magic_item_enhancement magic_item_quirk);
 
 my %magic_items = (
-  'liquids' => [qw(elixers oils perfumes philters pigments potions salves water)],
-  'scrolls' => [qw(papers parchments scrolls)],
-  'rings'   => ['rings'],
-  'rods'    => ['rods'],
-  'staves'  => [qw(canes gaffs staves)],
-  'wands'   => ['wands'],
-  'books'   => [qw(books librams manuals maps spellbooks tomes)],
-  'gems and jewelry' => [qw(amulets ankhs badges bracelets brooches cameos charms crowns crystals earrings eyeglasses gems glass goggles icons leaves lenses lockets medallions monocles necklaces pearls pendants periapts phyacteries prisms scarabs scepters scopes talismans torcs), 'holy symbols'],
-  'clothing'    => [qw(capes cloaks cloth coats dresses furs gowns robes shirts stockings tunics vests vestments)],
-  'accessories' => [qw(anklets armbands bands boots bracers claws collars gauntlets gloves hands peglegs shoes slippers socks)],
-  'girdles and helms'   => [qw(belts buckles caps circlets girdles hats headbands helmets masks sashes turbans)],
-  'containers'          => [qw(bags barrels basins beakers bottles bowls boxes braziers cabinets cages cans canisters canteens cases casks cauldrons censers chalices chests coffins containers decanters flagons flasks coblets horns jars jugs kettles mugs pitchers prisons scabbards tubs urns)],
-  'dust and stones'     => [qw(apples beads berries bones candles chesses dust eggs feathers fingers incense marbles pies powders rocks roses seeds smoke soaps stones tarts tooth waxes weeds), 'air spores', 'ioun stones'],
-  'household items'     => [qw(anvils aprons art awls banners bellows benches blankets brooms brushes buttons carpets chairs cords cots curtains desks doors fans forks gavels hammocks handkerchiefs harnesses hasps hinges hourglasses inkwells irons keys maps ladders ladles lamps locks logs matches mirrors muzzles nails needles pans pens picks pills plates poker rakes razors ropes saws seals shakers shovels spoons stairs strings sundials tables tapestries teas telescopes tents threads thrones torches utensils vanes yokes), 'balance scales', 'candle snuffers', 'fishing poles', 'grappling irons', 'mortars and pestles', 'quill pens', 'smoking pipes', 'spinning wheels', 'tool sets'],
-  'musical instruments' => [map( "$_ instruments", qw(percussion stringed wind brass) )],
-  'weird stuff'         => [qw(anchors arms astrolabes balls balloons beacons boats bridles casts castles chains chariots coins cubes devices dice disks figureheads figurines fire fountains globes horseshoes huts idols kites locators masts mobiles nests oars oracles orbs pedestals pools rudders saddles sails ships skulls sledges spheres statues transportation trees turrets wells wheels wings), 'chess games', 'crystal balls', 'decks of cards', 'spelljamming hemls'],
-  'humorous items'      => ['humorous items'],
-  'armor and shields'   => [qw(armor barding bonnets caparisons helmets shields)],
-  'weapons'   => [qw(arrows axes ballistae blowguns bows catapults clubs daggers darts flails hammers harpoons helmseekers javelins lances maces mattocks nets paddleboard pellets polearms quivers shots sickles slings spears swords whips), 'battering rams', 'explosive devices', 'spelljamming rams', 'throwing stars'],
-  'artifacts' => ['artifacts'],
+  'liquids' => [qw(elixer oil perfume philter pigment potion salve water)],
+  'scrolls' => [qw(paper parchment scroll)],
+  'rings'   => ['ring'],
+  'rods'    => ['rod'],
+  'staves'  => [qw(cane gaff staff)],
+  'wands'   => ['wand'],
+  'books'   => [qw(book libram manual map spellbook tome)],
+  'gems and jewelry' => [qw(amulet ankh badge bracelet brooche cameo charm crown crystal earring eyeglasses gem glass goggles icon leave lense locket medallion monocle necklace pearl pendant periapt phyactery prism scarab scepter scope talisman torc), 'holy symbol'],
+  'clothing'    => [qw(cape cloak cloth coat dress fur gown robe shirt stocking tunic vest vestment)],
+  'accessories' => [qw(anklet armband band boot bracer claw collar gauntlet glove hand pegleg shoe slipper sock)],
+  'girdles and helms'   => [qw(belt buckle cap circlet girdle hat headband helmet mask sash turban)],
+  'containers'          => [qw(bag barrel basin beaker bottle bowl box brazier cabinet cage can canister canteen case cask cauldron censer chalice chest coffin container decanter flagon flask goblet horn jar jug kettle mug pitcher prison scabbard tub urn)],
+  'dust and stones'     => [qw(apple bead berry bone candle cheese dust egg feather finger incense marble pie powder rock rose seed smoke soap stone tart tooth wax weed), 'air spore', 'ioun stone'],
+  'household items'     => [qw(anvil apron art awl banner bellow bench blanket broom brush button carpet chair cord cot curtain desk door fan fork gavel hammock handkerchief harness hasp hinge hourglass inkwell iron key map ladder ladle lamp lock log match mirror muzzle nail needle pan pen pick pill plate poker rake razor rope saw seal shaker shovel spoon stair string sundial table tapestry tea telescope tent thread throne torch utensil vane yoke), 'balance scale', 'candle snuffer', 'fishing pole', 'grappling iron', 'mortar and pestle', 'quill pen', 'smoking pipe', 'spinning wheel', 'tool set'],
+  'musical instruments' => [map( "$_ instrument", qw(percussion stringed wind brass) )],
+  'weird stuff'         => [qw(anchor arm astrolabe ball balloon beacon boat bridle cast castle chain chariot coin cube device dice disk figurehead figurine fire fountain globe horseshoe hut idol kite locator mast mobile nest oar oracle orb pedestal pool rudder saddle sail ship skull sledge sphere statue transportation tree turret well wheel wing), 'chess game', 'crystal ball', 'deck of cards', 'spelljamming heml'],
+  'humorous items'      => ['humorous item'],
+  'armor and shields'   => [qw(armor barding bonnet caparison helmet shield)],
+  'weapons'   => [qw(arrow axe ballista blowgun bow catapult club dagger dart flail hammer harpoon helmseeker javelin lance mace mattock net paddleboard pellet polearm quiver shot sickle sling spear sword whip), 'battering ram', 'explosive device', 'spelljamming ram', 'throwing star'],
+  'artifacts' => ['artifact'],
 );
 
 my %reverse_magic_items;
@@ -84,16 +84,15 @@ $quirks_roll{$_} = 1 for (87..94);
 $quirks_roll{$_} = 2 for (95..98);
 $quirks_roll{$_} = 3 for (99..100);
 
-sub random_magic_items {
+sub random_magic_item {
   my ($user_magic_item, $user_additions) = @_;
-  my $magic_item = fancy_rand(\%magic_items, $user_magic_item, { caller => 'random_magic_items', additions => $user_additions ? $user_additions : undef });
+  my $magic_item = fancy_rand(\%magic_items, $user_magic_item, { caller => 'random_magic_item', additions => $user_additions ? $user_additions : undef });
   return $magic_item;
 }
 
 sub magic_item_enhancement {
   my ($magic_item) = @_;
-  $magic_item = $magic_item !~ /.+s$/ ? PL_N($magic_item) : $magic_item;
-  my $group = $reverse_magic_items{$magic_item} ? $reverse_magic_items{$magic_item} : $magic_item;
+  my $group = $reverse_magic_items{$magic_item};
   return $group && permille() <= $magic_item_enhancement{$group} ? 1 : 0;
 }
 
@@ -129,12 +128,12 @@ sub magic_item_verb {
 }
 
 sub random_magic_item_action {
-  my $magic_item = random_magic_items('all', ['items']);
+  my $magic_item = random_magic_item('all', ['items']);
   my $verb = magic_item_verb($magic_item);
 
   my $magic_item_action = tiny_rand(
-    'can '.tiny_rand('use all', 'not use any')." magic $magic_item",
-    "$verb magic $magic_item ".random_radius('touch','imperial')
+    join(' ', ('can', tiny_rand('use all', 'not use any'), 'magical', PL_N($magic_item))),
+    join(' ', ($verb, 'magical', PL_N($magic_item), random_radius('touch','imperial')))
   );
 
   return $magic_item_action;
@@ -154,7 +153,7 @@ This document describes Random::RPG::MagicItem version 1.000.
 
 =head1 SYNOPSIS
 
-  use Random::RPG::MagicItem qw(random_magic_items random_magic_item_action);
+  use Random::RPG::MagicItem qw(random_magic_item random_magic_item_action);
 
 =head1 DEPENDENCIES
 

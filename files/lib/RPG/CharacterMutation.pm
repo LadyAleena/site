@@ -6,6 +6,8 @@ our @EXPORT_OK = qw(random_mutations parent_knows);
 
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N A ORD);
+use Lingua::EN::Inflexion qw(noun);
+use Lingua::EN::Inflect::Number qw(to_PL);
 use List::Util qw(sum max);
 
 use Fancy::Rand qw(tiny_rand);
@@ -13,24 +15,58 @@ use Fancy::Join::Defined qw(join_defined);
 use Util::Convert qw(textify);
 
 use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
-use Random::Body::Function     qw(random_body_functions);
+use Random::Body::Function qw(random_body_functions);
 use Random::Insanity       qw(random_mental_condition);
 use Random::Range          qw(random_range random_radius);
 use Random::SpecialDice    qw(random_die);
 use Random::Time           qw(random_time_unit random_frequency);
-use Random::Thing          qw(random_things random_animals);
+use Random::Thing          qw(random_thing random_animal);
 use Random::Misc           qw(random_divinity random_generation random_language_common random_parent random_proficiency_type random_sign);
 
 use Random::RPG::AbilityScores  qw(random_ability random_game_effect_expanded);
 use Random::RPG::Class          qw(random_class random_class_special);
 use Random::RPG::Event          qw(random_event);
-use Random::RPG::MagicItem      qw(random_magic_item_action);
+use Random::RPG::MagicItem      qw(random_magic_item random_magic_item_action);
 use Random::RPG::Monster        qw(random_monster);
 use Random::RPG::SavingThrow    qw(random_saving_throw);
 use Random::RPG::SpecialAttack  qw(random_attack random_special_attack);
 use Random::RPG::Spell          qw(random_spell_casting random_spell_group random_spell_resistance);
 use Random::RPG::Weapon         qw(random_weapons random_magic_weapon random_weapon_damage);
 use Random::RPG::WildPsionics   qw(random_wild_psionic_talent);
+
+# Note to anyone looking at this code.
+# This is not pretty. The code to make this random generator sometimes is extremely messy.
+# So, if you come up with a way to make a part of this code prettier,
+# let me know in an issue on GitHub.
+# Much of this is awful to look at, you have been warned.
+
+sub make_plural {
+  my $string = shift;
+
+  my $plural;
+  if ($string =~ /s\z/) {
+    my ($last_word) = ($string =~ /(\w+)\z/);
+    my $last_plural = to_PL($last_word);
+    $string =~ s/$last_word/$last_plural/;
+    $plural = $string;
+  }
+  else {
+    $plural = noun($string)->classical->plural;
+  }
+  return $plural;
+}
+
+# I already have random_thing and random_misc, so this got named random_stuff.
+# This was done to make Random::Thing generic and not use any Random::RPG modules.
+sub random_stuff {
+  my @stuffs = (
+    noun(random_thing)->classical->plural,
+    noun(random_monster('all', ['monsters']))->classical->plural,
+    'magical ' . noun(random_magic_item('all', ['item']))->classical->plural,
+    random_weapons('all', ['weapons'])
+  );
+  my $stuff = $stuffs[rand @stuffs];
+}
 
 sub random_check {
   my @base_checks = (
@@ -161,8 +197,8 @@ sub random_mutation {
     sub { return 'knows one '.random_proficiency_type.parent_knows },
     sub { return 'knows all '.PL_N(random_proficiency_type).parent_knows },
     sub { return 'attracts '.random_class.' followers' },
-    sub { return tiny_rand(qw(attracts repels)).' all '.random_animals.' '.random_radius('simple','imperial') },
-    sub { return tiny_rand('communicates with','knows history of').' '.random_things.' '.random_radius('touch','imperial') },
+    sub { return tiny_rand(qw(attracts repels)).' all '.PL_N(random_animal).' '.random_radius('simple','imperial') },
+    sub { return tiny_rand('communicates with','knows history of').' '.random_stuff.' '.random_radius('touch','imperial') },
     sub { return 'has '.A(random_aura) },
     sub { return 'touch '.random_attack('touch special') },
     sub { return effects() },

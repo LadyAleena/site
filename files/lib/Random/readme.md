@@ -18,7 +18,7 @@ All of these modules depend on [Exporter](). Most depend on [Fancy::Rand](../Fan
 * [Random::SciFi](SciFi.pm) returns a random *Hitchhikers' Guide to the Galaxy* sector or a random *Men in Black* agent id. It also depends on Random::Alpha.
 * [Random::Size](Size.pm) selects random relative sizes.
 * [Random::SpecialDice](SpecialDice.pm) rolls for a random die, d16, percentile, permille, and permyriad. It also depends on Games::Dice. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
-* [Random::Thing](Thing.pm) selects random things. It also depends on Random::RPG::MagicItem, Random::RPG::Monster, Random::RPG::Weapon, and Lingua::EN::Inflect. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [Random::Thing](Thing.pm) selects random things. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Time](Time.pm) selects a random time unit, random day part, random time, or random frequency. It also depends on Random::SpecialDice and Lingua::EN::Inflect. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Title](Title.pm) selects random titles given to people.
 * [Random::Water](Water.pm) selects random running or standing waters and precipitation.
