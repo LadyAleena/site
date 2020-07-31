@@ -15,9 +15,6 @@ our @EXPORT_OK = qw(
   random_musical_instrument
   random_plant
   random_utensil
-  random_magic_item
-  random_monster
-  random_weapons
 );
 
 my %things = (
