@@ -46,11 +46,11 @@ All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons
 * [Random::RPG::Alignment](RPG/Alignment.pm) selects random alignments.
 * [Random::RPG::Class](RPG/Class.pm) selects random adventurer classes.
 * [Random::RPG::Event](RPG/Event.pm) selects random game events. It also depends on Random::RPG::AbilityScores and Random::RPG::SavingThrow.
-* [Random::RPG::Monster](RPG/Monster.pm) selects random monsters from the I<Monstrous Manual> and its compendiums. It also depends on Fancy::Map, [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect), and [List::Util](https://metacpan.org/pod/List::Util).
+* [Random::RPG::Monster](RPG/Monster.pm) selects random monsters from the I<Monstrous Manual> and its compendiums. It also depends on Fancy::Map and [List::Util](https://metacpan.org/pod/List::Util).
 * [Random::RPG::SavingThrow](RPG/SavingThrow.pm) selects random saving throws.
 * [Random::RPG::SpecialAttack](RPG/SpecialAttack.pm) selects random special attacks. It also depends on [Fancy::Join::Defined](../Fancy/Join/Defined.pm), Random::SpecialDice, and Random::Time.
-* [Random::RPG::Spell](RPG/Spell.pm) selects random spells and spell actions. It also depends on Random::SpecialDice and Lingua::EN::Inflect.
-* [Random::RPG::Weapon](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), Lingua::EN::Inflect, [String::Util](https://metacpan.org/pod/String::Util), and Util::Data.
+* [Random::RPG::Spell](RPG/Spell.pm) selects random spells and spell actions. It also depends on Random::SpecialDice and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
+* [Random::RPG::Weapon](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), [String::Util](https://metacpan.org/pod/String::Util), and Util::Data.
 * [Random::RPG::WildPsionics](RPG/WildPsionics.pm) selects random wild psionic talents. It also depends on Games::Dice, Lingua::EN::Inflect, [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils), and Util::Data.
 
 ### Random::RPG::MagicItem
