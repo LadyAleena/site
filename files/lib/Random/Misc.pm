@@ -103,7 +103,7 @@ Random::Misc depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 SEE ALSO
 
-L<Random::Things>
+L<Random::Thing>
 
 =head1 AUTHOR
 
