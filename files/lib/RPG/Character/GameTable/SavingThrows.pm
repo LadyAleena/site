@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::SavingThrows;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(saving_throws get_multiclass_saving_throws saving_throw_table_rows);
 

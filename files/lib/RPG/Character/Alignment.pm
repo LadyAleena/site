@@ -1,6 +1,6 @@
 package RPG::Character::Alignment;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(expand_alignment alignment_class);
 

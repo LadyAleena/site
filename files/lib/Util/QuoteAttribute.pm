@@ -1,7 +1,7 @@
 package Util::QuoteAttribute;
 use v5.8.8;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 
 our $VERSION   = '1.0';

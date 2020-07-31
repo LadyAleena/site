@@ -1,6 +1,6 @@
 package RPG::Character::Class;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(convert_class class_level player_classes);
 

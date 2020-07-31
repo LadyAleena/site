@@ -1,7 +1,7 @@
 package Fancy::Rand;
 use v5.10.0;
 use strict;
-use warnings FATAL => qw(all);
+use warnings;
 use Exporter qw(import);
 
 use List::Util qw(shuffle);

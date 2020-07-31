@@ -1,6 +1,6 @@
 package Util::StoryMagic;
 use strict;
-use warnings FATAL => ('all');
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(program_magic pc_magic story_magic);
 

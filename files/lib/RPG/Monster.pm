@@ -1,6 +1,6 @@
 package RPG::Monster;
 use strict;
-use warnings; # FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(monster_info);
 

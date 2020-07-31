@@ -1,7 +1,7 @@
 package Util::Sort;
 use v5.16.0;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 
 use HTML::Entities qw(decode_entities);

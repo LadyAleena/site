@@ -1,6 +1,6 @@
 package Xanth::LineMagic;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(Xanth_line_magic);
 

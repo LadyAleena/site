@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::TurningUndead;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(turning_undead_table_rows);
 

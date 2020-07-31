@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::ArmorClass;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(armor_class_table_rows armor_class armor_class_modifier armor_list);
 

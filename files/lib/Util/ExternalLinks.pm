@@ -1,6 +1,6 @@
 package Util::ExternalLinks;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(external_link external_links);
 

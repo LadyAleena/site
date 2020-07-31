@@ -1,7 +1,7 @@
 package Random::RPG::AbilityScores;
 use v5.10.0;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 
 use Fancy::Rand qw(fancy_rand);

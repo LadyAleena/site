@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::Psionics;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(psionics_by_level psionics_table_rows);
 

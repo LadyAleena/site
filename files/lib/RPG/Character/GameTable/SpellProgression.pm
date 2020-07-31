@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::SpellProgression;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(spell_progression spell_progression_table_rows);
 

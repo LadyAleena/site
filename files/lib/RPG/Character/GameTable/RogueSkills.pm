@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::RogueSkills;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(thief_skills bard_skills rogue_skills rogue_skills_table_rows);
 

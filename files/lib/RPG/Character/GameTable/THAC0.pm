@@ -1,6 +1,6 @@
 package RPG::Character::GameTable::THAC0;
 use strict;
-use warnings FATAL => ( 'all' );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(THAC0_base THAC0 THAC0_table_rows);
 

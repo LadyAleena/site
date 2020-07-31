@@ -1,7 +1,7 @@
 package Util::Columns;
 use v5.8.8;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(NUMWORDS);

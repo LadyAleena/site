@@ -1,6 +1,6 @@
 package RPG::Character::HitDice;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(hit_dice roll_hit_points);
 

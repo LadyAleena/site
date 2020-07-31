@@ -1,6 +1,6 @@
 package Util::StoryMagic::Collection;
 use strict;
-use warnings FATAL => ('all');
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(collection_magic);
 

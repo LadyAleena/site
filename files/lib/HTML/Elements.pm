@@ -1,6 +1,6 @@
 package HTML::Elements;
 use strict;
-use warnings FATAL => qw( all );
+use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(html style body main div section article nav header footer heading head pre
                  paragraph address anchor img object span blockquote list definition_list table
