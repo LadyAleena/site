@@ -101,12 +101,12 @@ sub random_family_member {
 sub random_parent               { my $user_addition = shift; random_family_member('parents'              , $user_addition) }
 sub random_generational_parent  { my $user_addition = shift; random_family_member('generational parents' , $user_addition) }
 sub random_extended_parent      { my $user_addition = shift; random_family_member('extended parents'     , $user_addition) }
-sub random_ancestor             { my $user_addition = shift; random_family_member('ancestors'          , $user_addition) }
+sub random_ancestor             { my $user_addition = shift; random_family_member('ancestors'            , $user_addition) }
 
 sub random_child                { my $user_addition = shift; random_family_member('children'             , $user_addition) }
 sub random_generational_child   { my $user_addition = shift; random_family_member('generational children', $user_addition) }
 sub random_extended_child       { my $user_addition = shift; random_family_member('exteneded children'   , $user_addition) }
-sub random_descendent           { my $user_addition = shift; random_family_member('descendents'         , $user_addition) }
+sub random_descendent           { my $user_addition = shift; random_family_member('descendents'          , $user_addition) }
 
 sub random_sibling              { my $user_addition = shift; random_family_member('siblings'             , $user_addition) }
 sub random_extended_sibling     { my $user_addition = shift; random_family_member('extended siblings'    , $user_addition) }
