@@ -16,17 +16,19 @@ use Util::Convert qw(textify);
 
 use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
 use Random::Body::Function qw(random_body_functions);
+use Random::FamilyMember   qw(random_generational_parent);
 use Random::Insanity       qw(random_mental_condition);
 use Random::Range          qw(random_range random_radius);
 use Random::SpecialDice    qw(random_die);
 use Random::Time           qw(random_time_unit random_frequency);
 use Random::Thing          qw(random_thing random_animal);
-use Random::Misc           qw(random_divinity random_generation random_language_common random_parent random_proficiency_type random_sign);
+use Random::Misc           qw(random_sign);
 
 use Random::RPG::AbilityScores  qw(random_ability random_game_effect_expanded);
 use Random::RPG::Class          qw(random_class random_class_special);
 use Random::RPG::Event          qw(random_event);
 use Random::RPG::MagicItem      qw(random_magic_item random_magic_item_action);
+use Random::RPG::Misc           qw(random_divinity random_language_common random_proficiency_type);
 use Random::RPG::Monster        qw(random_monster);
 use Random::RPG::SavingThrow    qw(random_saving_throw);
 use Random::RPG::SpecialAttack  qw(random_attack random_special_attack);
@@ -100,11 +102,9 @@ sub game_rolls {
 }
 
 sub parent_knows {
-  my $generation = random_generation;
-     $generation = "one $generation" if $generation =~ /^g/;
-     $generation = "an $generation" if $generation eq 'ancestral ';
-  my $parent     = random_parent;
-  return " $generation$parent knows";
+  my $base_parent = random_generational_parent;
+  my $parent = $base_parent =~ /mother|father/ ? $base_parent : A($base_parent);
+  return " $parent knows";
 }
 
 sub learning {
