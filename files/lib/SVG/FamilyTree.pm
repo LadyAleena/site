@@ -4,9 +4,9 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(tree_paths tree_rect);
 
-use Fancy::Join qw(join_defined);
-use SVG::Box::Width qw(name_width);
-use Util::Convert qw(idify);
+use Fancy::Join::Defined qw(join_defined);
+use SVG::Box::Width      qw(name_width);
+use Util::Convert        qw(idify);
 
 use SVG ();
 
