@@ -68,45 +68,161 @@ This document describes Random::Thing version 1.000.
   my $animal             = random_thing('animals');
   # or
   my $animal             = random_animal;
-    # selects from animal, amphibian, arthropod, bird, fish, mammal, reptile,
-    # insect, and spider
 
   my $armor               = random_thing('armor');
   # or
   my $armor               = random_armor;
-    # selects from armor, helmet, and shield
 
   my $cloting             = random_thing('cloting');
   # or
   my $cloting             = random_cloting;
-    # selects from clothing, shirt, sweater, vest, jacket, coat, pants, skirt,
-    # dress, shorts, sock, cape, and robe
 
   my $musical_instrument = random_thing('musical instruments');
   # or
   my $musical_instrument = random_musical_instrument;
-    # selects from musical instrument, brass instrument, percussion instrument,
-    # string instrument, and woodwind instrument
 
   my $plant              = random_thing('plants');
   # or
   my $plant              = random_plant;
-    # selects from plant, fern, flower, moss, tree, and weed
 
   my $utensil            = random_thing('utensils');
   # or
   my $utensil            = random_utensil;
-    # selects from utensil, cooking utensil, eating utensil, and writing utensil
 
   my $other_thing        = random_thing('other');
-    # selects from bedding, boat, book, clothing, dish, furniture, inanimate object,
-    # jewelry, religious symbol, rock, rug, tool, and wagon
 
-  print random_thing('help'); # get random_thing options
+  print random_thing('help');
 
 =head1 DESCRIPTION
 
-Random::Thing selects random animals, plants, armor, clothing, musicial intruments, utensils, and a general other category.
+Random::Thing selects random animals, plants, armor, clothing, musicial intruments, utensils, and a general other category. All of the functions must be imported into your script.
+
+=head2 random_thing
+
+  random_thing();
+
+=head3 Options
+
+=head4 nothing, all, or undef
+
+  random_thing();
+  random_thing('all');
+  random_thing(undef);
+
+=head4 animals
+
+  random_thing('animals');
+
+The C<animals> option will select from animal, amphibian, arthropod, bird, fish, mammal, reptile, insect, and spider.
+
+=head4 armor
+
+  random_thing('armor');
+
+The C<armor> option will select from armor, helmet, and shield.
+
+=head4 clothing
+
+  random_thing('clothing');
+
+The C<clothing> option will select from clothing, cape, coat, dress, jacket, pants, robe, shirt, shorts, skirt, sock, sweater, and vest.
+
+=head4 musical instruments
+
+  random_thing('musical instruments');
+
+The C<muscial instruments> option will select from musical instrument, brass instrument, percussion instrument, string instrument, and woodwind instrument.
+
+=head4 plants
+
+  random_thing('plants');
+
+The C<plants> option will select from plant, fern, flower, moss, tree, and weed.
+
+=head4 utensils
+
+  random_thing('utensils');
+
+The C<utensils> option will select from utensil, cooking utensil, eating utensil, and writing utensil.
+
+=head4 other
+
+The C<other> option will select from bedding, boat, book, clothing, dish, furniture, inanimate object, jewelry, religious symbol, rock, rug, tool, and wagon.
+
+=head4 by keys
+
+  random_thing('by keys');
+
+The C<by keys> option will select a random key listed above.
+
+=head4 keys
+
+  random_thing('keys');
+
+The C<keys> option will list all of the available keys in an array reference.
+
+=head4 data
+
+  random_thing('data');
+
+The C<data> option will return the data used in a hash reference.
+
+=head4 help or options
+
+  random_thing('help');
+  random_thing('options');
+
+The C<help> and C<options> options will return a list of all of your options.
+
+=head3 Adding items to a list
+
+  my @additions = ('thing 1', 'thing 2');
+  random_thing('<your option>', \@additions);
+
+You can add items to the list by adding an array reference with the additional items as the second parameter.
+
+=head2 Other functions
+
+The following functions are shortcuts to the some of the options above. You can add items to the list by adding an array reference with the additional items as the first parameter in the following functions. If you want to add additional animals in C<random_animal>, you would do the following:
+
+  my @animal_additions = ('lion', 'tiger', 'bear'); # Oh my!
+  random_animal(\@animal_additions);
+
+=head3 random_animal
+
+ random_animal();
+
+C<random_animal> is the same using L</animals> in C<random_thing>.
+
+=head3 random_armor
+
+ random_armor();
+
+C<random_armor> is the same using L</armor> in C<random_thing>.
+
+=head3 random_clothing
+
+ random_clothing();
+
+C<random_clothing> is the same using L</clothing> in C<random_thing>.
+
+=head3 random_musical_instrument
+
+ random_musical_instrument();
+
+C<random_musical_instrument> is the same using L</musical instruments> in C<random_thing>.
+
+=head3 random_plant
+
+ random_plant();
+
+C<random_plant> is the same using L</plants> in C<random_thing>.
+
+=head3 random_utensil
+
+ random_utensil();
+
+C<random_utensil> is the same using L</utensils> in C<random_thing>.
 
 =head1 DEPENDENCIES
 
