@@ -69,13 +69,13 @@ This document describes Random::Thing version 1.000.
   # or
   my $animal             = random_animal;
 
-  my $armor               = random_thing('armor');
+  my $armor              = random_thing('armor');
   # or
-  my $armor               = random_armor;
+  my $armor              = random_armor;
 
-  my $cloting             = random_thing('cloting');
+  my $clothing           = random_thing('clothing');
   # or
-  my $cloting             = random_cloting;
+  my $clothing           = random_clothing;
 
   my $musical_instrument = random_thing('musical instruments');
   # or
@@ -146,6 +146,8 @@ The C<plants> option will select from plant, fern, flower, moss, tree, and weed.
 The C<utensils> option will select from utensil, cooking utensil, eating utensil, and writing utensil.
 
 =head4 other
+
+  random_thing('other');
 
 The C<other> option will select from bedding, boat, book, clothing, dish, furniture, inanimate object, jewelry, religious symbol, rock, rug, tool, and wagon.
 
