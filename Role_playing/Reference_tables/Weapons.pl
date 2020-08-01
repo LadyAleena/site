@@ -7,12 +7,12 @@ use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page qw(page);
-use Fancy::Join qw(join_defined);
-use HTML::Elements qw(section paragraph table anchor);
-use HTML::Forms qw(tiny_select);
-use RPG::WeaponName qw(display_weapon);
-use Util::Data qw(make_hash);
+use Base::Page           qw(page);
+use Fancy::Join::Defined qw(join_defined);
+use HTML::Elements       qw(section paragraph table anchor);
+use HTML::Forms          qw(tiny_select);
+use RPG::WeaponName      qw(display_weapon);
+use Util::Data           qw(make_hash);
 
 my $cgi = CGI::Simple->new;
 my $size  = $cgi->param('size') ? encode_entities($cgi->param('size'), '<>"') : undef;
