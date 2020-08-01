@@ -7,10 +7,11 @@ All of these modules depend on [Exporter](). Most depend on [Fancy::Rand](../Fan
 * [Random::Alpha](Alpha.pm) selects random letters of the English alphabet. It also depends on [Fancy::Open](../Fancy/Open.pm) and [Util::Data](../Util/Data.pm). It needs the [alpha data files](../../data/Random/Alpha) to run.
 * [Random::Descriptor](Descriptor.pm) selects a random descriptor.
 * [Random::Dragon](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Fancy::Open, Random::Color, Random::Xanth::Dragon, Random::RPG::Monster, and Util::Data. It needs the [dragon data files](../../data/Random/Dragons) to run.
+* [Random::FamilyMember](FamilyMember.pm) selects random family members. It also depends on [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils).  It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Food](Food.pm) selects either a random food or drink. It also depends on Fancy::Open, [Fancy::Map](../Fancy/Map.pm), and Util::Data. It needs the [food data files](../../data/Random/Food) to run.
 * [Random::GemMetalJewelry](GemMetalJewelry.pm) selects random gems, metals, and jewelry. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm) and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
 * [*Random::Government*](Government.pm) selects a random government type.
-* [*Random::Insanity*](Insanity.pm) selects a random mental disorder. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
+* [*Random::Insanity*](Insanity.pm) selects a random mental disorder. It is used in the character mutation generator.
 * [*Random::Military*](Military.pm) generates a random fictional and fantasy military unit. It depends on [Games::Dice](https://metacpan.org/pod/Games::Dice).
 * [Random::Misc](Misc.pm) selects random miscellaneous things. It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
 * [Random::Month](Month.pm) selects a random month by language. It also depends on [Date::Calc](https://metacpan.org/pod/Date::Calc).
@@ -46,6 +47,7 @@ All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons
 * [Random::RPG::Alignment](RPG/Alignment.pm) selects random alignments.
 * [Random::RPG::Class](RPG/Class.pm) selects random adventurer classes.
 * [Random::RPG::Event](RPG/Event.pm) selects random game events. It also depends on Random::RPG::AbilityScores and Random::RPG::SavingThrow.
+* [Random::RPG::Misc](RPG/Misc.pm) selects random miscellaneous things related to AD&D role-playing games.
 * [Random::RPG::Monster](RPG/Monster.pm) selects random monsters from the I<Monstrous Manual> and its compendiums. It also depends on Fancy::Map and [List::Util](https://metacpan.org/pod/List::Util).
 * [Random::RPG::SavingThrow](RPG/SavingThrow.pm) selects random saving throws.
 * [Random::RPG::SpecialAttack](RPG/SpecialAttack.pm) selects random special attacks. It also depends on [Fancy::Join::Defined](../Fancy/Join/Defined.pm), Random::SpecialDice, and Random::Time.
