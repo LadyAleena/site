@@ -1,6 +1,6 @@
 # Random generators
 
-All of these modules depend on [Exporter](). Most depend on [Fancy::Rand](../Fancy/Rand.pm), those that do not will be in *italics*.
+All of these modules depend on [Exporter](https://metacpan.org/pod/Exporter). Most depend on [Fancy::Rand](../Fancy/Rand.pm), those that do not will be in *italics*.
 
 ## General randomness
 
