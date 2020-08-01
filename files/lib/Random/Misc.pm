@@ -65,6 +65,7 @@ This document describes Random::Misc version 1.000.
 =head1 SYNOPSIS
 
   use Random::Misc qw(
+    random_misc
     random_emotion
     random_game
     random_group
