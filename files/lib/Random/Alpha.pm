@@ -11,7 +11,7 @@ use Util::Data qw(file_directory);
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_alpha);
 
-my $directory = file_directory('Random/Colors', 'data');
+my $directory = file_directory('Random/Alpha', 'data');
 my @Greek_letters = fancy_open("$directory/Greek_letters.txt");;
 
 my @consonants = (1,2,3,5,6,7,9,10,11,12,13,15,16,17,18,19,21,22,23,24,25);
