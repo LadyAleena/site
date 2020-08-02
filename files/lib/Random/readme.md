@@ -52,8 +52,8 @@ All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons
 * [Random::RPG::SavingThrow](RPG/SavingThrow.pm) selects random saving throws.
 * [Random::RPG::SpecialAttack](RPG/SpecialAttack.pm) selects random special attacks. It also depends on [Fancy::Join::Defined](../Fancy/Join/Defined.pm), Random::SpecialDice, and Random::Time.
 * [Random::RPG::Spell](RPG/Spell.pm) selects random spells and spell actions. It also depends on Random::SpecialDice and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
-* [Random::RPG::Weapon](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), [String::Util](https://metacpan.org/pod/String::Util), and Util::Data.
-* [Random::RPG::WildPsionics](RPG/WildPsionics.pm) selects random wild psionic talents. It also depends on Games::Dice, Lingua::EN::Inflect, [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils), and Util::Data.
+* [Random::RPG::Weapon](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), [String::Util](https://metacpan.org/pod/String::Util), [Text::CSV](https://metacpan.org/pod/Text::CSV), and Util::Data.
+* [Random::RPG::WildPsionics](RPG/WildPsionics.pm) selects random wild psionic talents. It also depends on Games::Dice, Lingua::EN::Inflect, [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils), [Text::CSV](https://metacpan.org/pod/Text::CSV), and Util::Data.
 
 ### Random::RPG::MagicItem
 * [Random::RPG::MagicItem](RPG/MagicItem.pm) selects random magic items. It also depends on Random::Range, Random::SpecialDice, and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
