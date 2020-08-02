@@ -6,18 +6,28 @@ use Exporter qw(import);
 
 use Games::Dice qw(roll);
 use String::Util qw(collapse);
+use Text::CSV qw(csv);
 
 use Fancy::Rand  qw(fancy_rand tiny_rand);
 use Random::Misc qw(random_non);
 use RPG::WeaponName qw(display_weapon);
-use Util::Data   qw(make_hash);
+use Util::Data   qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
 
-my $weapons = make_hash(
-  file => ['Role_playing/Reference_tables', 'Weapons.txt'],
-  headings => ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group'],
+my $weapons_dir     = file_directory('Role_playing/Reference_tables', 'data');
+my $weapons_fn      = "$weapons_dir/Weapons.txt";
+my $weapons_headers = ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group'];
+my $weapons = csv(
+  in      => $weapons_fn,
+  headers => $weapons_headers,
+  key     => $weapons_headers->[0],
+  sep_char         => '|',
+  quote_char       => undef,
+  blank_is_undef   => 1,
+  empty_is_undef   => 1,
+  allow_whitespace => 1,
 );
 
 my %weapon_groups = (
