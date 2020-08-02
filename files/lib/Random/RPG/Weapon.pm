@@ -103,7 +103,7 @@ This document describes Random::RPG::Weapon version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<String::Util>, and L<Exporter>.
+Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, L<Util::Data>, L<Games::Dice>, L<String::Util>, L<Text::CSV>, and L<Exporter>.
 
 =head1 AUTHOR
 
