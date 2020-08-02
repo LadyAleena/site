@@ -44,7 +44,7 @@ life draining|11|5
 metamorphosis|21|1
 shadow-form|12|3
 absorb disease|12|0
-adrenalin control|8|4
+adrenaline control|8|4
 aging|15|0
 biofeedback|6|3
 body control|7|5
@@ -92,7 +92,7 @@ psychic crush|7|0
 superior invisibility|18|5
 switch personality|48|0
 tower of iron will|6|0
-attaraction|18|8
+attraction|18|8
 aversion|18|8
 awe|18|4
 conceal thoughts|5|3
