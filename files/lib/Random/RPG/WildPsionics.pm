@@ -7,17 +7,27 @@ use Exporter qw(import);
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
 use List::MoreUtils qw(uniq);
+use Text::CSV qw(csv);
 
-use Util::Data  qw(make_hash);
+use Util::Data  qw(file_directory);
 use Fancy::Rand qw(tiny_rand);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_wild_psionic_talent);
 
 # When adding PSPS, it is the initial cost + (maintenance * 4) for each talent.
-my $psps = make_hash(
-  'file' => ['Role_playing/Classes/Psionics','powers.txt'],
-  'headings' => ['power', 'initial cost', 'maintenance cost']
+my $psps_dir     = file_directory('Role_playing/Classes/Psionics', 'data');
+my $psps_fn      = "$psps_dir/powers.txt";
+my $psps_headers = ['power', 'initial cost', 'maintenance cost'];
+my $psps = csv(
+  in      => $psps_fn,
+  headers => $psps_headers,
+  key     => $psps_headers->[0],
+  sep_char         => '|',
+  quote_char       => undef,
+  blank_is_undef   => 1,
+  empty_is_undef   => 1,
+  allow_whitespace => 1,
 );
 
 my %devotions = (
