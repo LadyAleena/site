@@ -170,6 +170,8 @@ This document describes Random::FamilyMember version 1.000.
   my $friend               = random_friend;
   my $extended_friend      = random_extended_friend;
 
+  print random_family_member('help') # get random_family_member options
+
 =head1 DESCRIPTION
 
 Random::FamilyMember selects random family members from many generations and of various relationships.

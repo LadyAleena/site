@@ -75,6 +75,8 @@ When you want to generate a random range with this module, you can choose from t
   random_range('touch','metric')       # selects 1, 5, 10, 20, 50, or 100 cm, dm, m, or km or touch.
   random_range('touch','your choice')  # selects 1, 5, 10, 20, 50, or 100 and your measurement choice or touch.
 
+  print random_unit('help') # get random_unit options
+
 You can substitute C<random_range> with C<random_radius> to get some extra text with the returned value.
 
 =head1 DEPENDENCIES

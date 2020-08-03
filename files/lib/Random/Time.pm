@@ -88,6 +88,9 @@ This document describes Random::Time version 1.000.
   my $standard_time_unit = random_time_unit('general'); # selects a general time unit from second to millennium
   my $game_time_unit     = random_time_init('game');    # selects a game time unit from segment to turn
 
+  print random_time_unit('help') # get random_time_unit options
+
+
   my $day_part = random_day_part; # selects part of the day such as dawn, noon, or dusk and more.
 
   my $time          = random_time;            # selects a random time unit, if the time unit is greater than a day, then adds a day part to it.

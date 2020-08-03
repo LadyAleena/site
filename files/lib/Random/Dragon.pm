@@ -102,6 +102,8 @@ This document describes Random::Dragon version 1.000.
   my $dragon = random_dragon;
     # selects a random dragon from all of the above
 
+  print random_dragon('help') # get random_dragon options
+
 =head1 DEPENDENCIES
 
 Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.

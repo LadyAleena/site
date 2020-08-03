@@ -87,6 +87,8 @@ This document describes Random::Misc version 1.000.
   my $sign               = random_sign;               # selects either a + or a -
   my $zstuff             = random_zstuff;             # selects random stuff
 
+  print random_misc('help') # get random_misc options
+
 =head1 DESCRIPTION
 
 Random::Misc is a catch all for lists that can not be classified as anything else. All of the functions must be imported into your script.

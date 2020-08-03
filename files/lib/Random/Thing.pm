@@ -91,7 +91,7 @@ This document describes Random::Thing version 1.000.
 
   my $other_thing        = random_thing('other');
 
-  print random_thing('help');
+  print random_thing('help'); # get random_thing options
 
 =head1 DESCRIPTION
 
