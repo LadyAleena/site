@@ -42,7 +42,7 @@ This document describes Random::Size version 1.000.
 
 =head1 SYNOPSIS
 
-  use RolePlaying::Random::Size qw(random_size);
+  use Random::Size qw(random_size);
 
   my $random_amount      = random_size('amount')  # selects more or less
   my $random_consistency = random_size('consistency') # selects thicker or thinner
