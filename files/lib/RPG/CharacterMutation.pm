@@ -16,7 +16,7 @@ use Util::Convert qw(textify);
 
 use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
 use Random::Body::Function qw(random_body_functions);
-use Random::FamilyMember   qw(random_generational_parent);
+use Random::FamilyMember   qw(random_family_member);
 use Random::Insanity       qw(random_mental_condition);
 use Random::Range          qw(random_range random_radius);
 use Random::SpecialDice    qw(random_die);
@@ -102,7 +102,7 @@ sub game_rolls {
 }
 
 sub parent_knows {
-  my $base_parent = random_generational_parent;
+  my $base_parent = random_family_member('generational parents');
   my $parent = $base_parent =~ /mother|father/ ? $base_parent : A($base_parent);
   return " $parent knows";
 }
