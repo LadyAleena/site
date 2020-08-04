@@ -9,28 +9,7 @@ use List::MoreUtils qw(uniq);
 use Fancy::Rand qw(fancy_rand);
 
 our $VERSION   = '1.000';
-our @EXPORT_OK = qw(
-  random_family_member
-  random_parent
-  random_generational_parent
-  random_extended_parent
-  random_ancestor
-  random_child
-  random_generational_child
-  random_extended_child
-  random_descendent
-  random_sibling
-  random_extended_sibling
-  random_nibling
-  random_generational_nibling
-  random_pibling
-  random_generational_pibling
-  random_cousin
-  random_spouse
-  random_extended_spouse
-  random_friend
-  random_extended_friend
-);
+our @EXPORT_OK = qw(random_family_member);
 
 my @generations = ('', 'grand', 'great-grand', 'ancestral ');
 
@@ -85,7 +64,7 @@ $family_members{'ancestors'} = [
     @{$family_members{'extended parents'}},
   )
 ];
-$family_members{'descendents'} = [
+$family_members{'descendants'} = [
   uniq(
     @{$family_members{'generational children'}},
     @{$family_members{'extended children'}},
@@ -97,33 +76,6 @@ sub random_family_member {
   my $family_type = fancy_rand(\%family_members, $user_member, { caller => 'random_family_member', additions => $user_additions ? $user_additions : undef });
   return $family_type;
 }
-
-sub random_parent               { my $user_addition = shift; random_family_member('parents'              , $user_addition) }
-sub random_generational_parent  { my $user_addition = shift; random_family_member('generational parents' , $user_addition) }
-sub random_extended_parent      { my $user_addition = shift; random_family_member('extended parents'     , $user_addition) }
-sub random_ancestor             { my $user_addition = shift; random_family_member('ancestors'            , $user_addition) }
-
-sub random_child                { my $user_addition = shift; random_family_member('children'             , $user_addition) }
-sub random_generational_child   { my $user_addition = shift; random_family_member('generational children', $user_addition) }
-sub random_extended_child       { my $user_addition = shift; random_family_member('exteneded children'   , $user_addition) }
-sub random_descendent           { my $user_addition = shift; random_family_member('descendents'          , $user_addition) }
-
-sub random_sibling              { my $user_addition = shift; random_family_member('siblings'             , $user_addition) }
-sub random_extended_sibling     { my $user_addition = shift; random_family_member('extended siblings'    , $user_addition) }
-
-sub random_nibling              { my $user_addition = shift; random_family_member('niblings'             , $user_addition) }
-sub random_generational_nibling { my $user_addition = shift; random_family_member('generational niblings', $user_addition) }
-
-sub random_pibling              { my $user_addition = shift; random_family_member('piblings'             , $user_addition) }
-sub random_generational_pibling { my $user_addition = shift; random_family_member('generational piblings', $user_addition) }
-
-sub random_cousin               { my $user_addition = shift; random_family_member('cousins'              , $user_addition) }
-
-sub random_spouse               { my $user_addition = shift; random_family_member('spouses'              , $user_addition) }
-sub random_extended_spouse      { my $user_addition = shift; random_family_member('extended spouses'     , $user_addition) }
-
-sub random_friend               { my $user_addition = shift; random_family_member('friends'              , $user_addition) }
-sub random_extended_friend      { my $user_addition = shift; random_family_member('extended friends'     , $user_addition) }
 
 =pod
 
@@ -143,32 +95,32 @@ This document describes Random::FamilyMember version 1.000.
 
   my $family_member = random_family_member;
 
-  my $parent               = random_parent;
-  my $generational_parent  = random_generational_parent;
-  my $extended_parent      = random_extended_parent;
-  my $ancestor             = random_ancestor;
+  my $parent               = random_family_member('parents');
+  my $generational_parent  = random_family_member('generational parents');
+  my $extended_parent      = random_family_member('extended parents');
+  my $ancestor             = random_family_member('ancestors');
 
-  my $child                = random_child;
-  my $generational_child   = random_generational_child;
-  my $extended_child       = random_extended_child;
-  my $descendent           = random_descendent;
+  my $child                = random_family_member('children');
+  my $generational_child   = random_family_member('generational children');
+  my $extended_child       = random_family_member('extended children');
+  my $descendant           = random_family_member('descendants');
 
-  my $sibling              = random_sibling;
-  my $extended_sibling     = random_extended_sibling;
+  my $sibling              = random_family_member('siblings');
+  my $extended_sibling     = random_family_member('extended siblings');
 
-  my $nibling              = random_nibling;
-  my $generational_nibling = random_generational_nibling;
+  my $nibling              = random_family_member('niblings');
+  my $generational_nibling = random_family_member('generational niblings');
 
-  my $pibling              = random_pibling;
-  my $generational_pibling = random_generational_pibling;
+  my $pibling              = random_family_member('piblings');
+  my $generational_pibling = random_family_member('generational piblings');
 
-  my $sousin               = random_cousin;
+  my $cousin               = random_family_member('cousins');
 
-  my $spouse               = random_spouse;
-  my $extended_spouse      = random_extended_spouse;
+  my $spouse               = random_family_member('spouses');
+  my $extended_spouse      = random_family_member('extended spouses');
 
-  my $friend               = random_friend;
-  my $extended_friend      = random_extended_friend;
+  my $friend               = random_family_member('friends');
+  my $extended_friend      = random_family_member('extended friends');
 
   print random_family_member('help') # get random_family_member options
 
@@ -184,6 +136,7 @@ It requires Perl version 5.10.0 or better.
 
 =head4 nothing, all, or undef
 
+  random_family_member;
   random_family_member();
   random_family_member('all');
   random_family_member(undef);
@@ -244,7 +197,7 @@ The C<extended children> option will select from daughter, son, step-daughter, s
 
 =item descendents
 
-  random_family_member('descendents');
+  random_family_member('descendants');
 
 The C<descendents> option will select from all of the other children options.
 
@@ -384,146 +337,13 @@ The C<help> and C<options> options will return a list of all of your options.
 
 You can add items to the list by adding an array reference with the additional items as the second parameter.
 
-=head2 Specific functions
-
-The following functions are shortcuts to the some of the options above. You can add items to the list by adding an array reference with the additional items as the first parameter in the following functions. If you want to add additional parents in C<random_base_parent>, you would do the following:
-
-  my @parent_additions = ('mom', 'dad');
-  random_base_parent(\@parent_additions);
-
-=head3 Parents
-
-=head4 random_parent
-
-  random_parent();
-
-C<random_parent> is the same as using L</parents> in C<random_family_member>.
-
-=head4 random_generational_parent
-
-  random_generational_parent();
-
-C<random_generational parent> is the same as using L</generational parents> in C<random_family_member>.
-
-=head4 random_extended_parent
-
-  random_extended_parent();
-
-C<random_extended_parent> is the same as using L</extended parents> in C<random_family_member>.
-
-=head4 random_ancestor
-
-  random_ancestor();
-
-C<random_ancestor> is the same as using L</ancestors> in C<random_family_member>.
-
-=head3 Children
-
-=head4 random_child
-
-  random_child();
-
-C<random_child> is the same as using L</children> in C<random_family_member>.
-
-=head4 random_generational_child
-
-  random_generational_child();
-
-C<random_generational_child> is the same as using L</generational children> in C<random_family_member>.
-
-=head4 random_extended_child
-
-  random_extended_child();
-
-C<random_extended_child> is the same as using L</extended children> in C<random_family_member>.
-
-=head4 random_descendent
-
-  random_descendent();
-
-C<random_descendent> is the same as using L</descedents> in C<random_family_member>.
-
-=head3 Siblings
-
-=head4 random_sibling
-
-  random_sibling();
-
-C<random_sibling> is the same as using L</siblings> in C<random_family_member>.
-
-=head4 random_extended_sibling
-
-  random_extended_sibling();
-
-C<random_extended_sibling> is the same as using L</exended siblings> in C<random_family_member>.
-
-=head3 Niblings
-
-=head4 random_nibling
-
-  random_nibling();
-
-C<random_nibling> is the same as using L</niblings> in C<random_family_member>.
-
-=head4 random_generational_nibling
-
-  random_generational_nibling();
-
-C<random_generational_nibling> is the same as using L</generational niblings> in C<random_family_member>.
-
-=head3 Piblings
-
-=head4 random_pibling
-
-  random_pibling();
-
-C<random_pibling> is the same as using L</piblings> in C<random_family_member>.
-
-=head4 random_generational_pibling
-
-  random_generational_pibling();
-
-C<random_generational_pibling> is the same as using L</piblings> in C<random_family_member>.
-
-=head3 Cousins
-
-=head4 random_cousin
-
-  random_cousin();
-
-C<random_cousin> is the same as using L</cousins> in C<random_family_member>.
-
-=head3 Spouses
-
-=head4 random_spouse
-
-  random_spouse();
-
-C<random_spouse> is the same as using L</spouses> in C<random_family_member>.
-
-=head4 random_extended_spouse
-
-  random_extended_spouse();
-
-C<random_extended_spouse> is the same as using L</extended spouses> in C<random_family_member>.
-
-=head3 Friends
-
-=head4 random_friend
-
-  random_friend();
-
-C<random_friend> is the same as using L</friends> in C<random_family_member>.
-
-=head4 random_extended_friend
-
-  random_extended_friend();
-
-C<random_extended_friend> is the same as using L</extended friends> in C<random_family_member>.
-
 =head1 DEPENDENCIES
 
 Random::FamilyMember depends on L<Fancy::Rand>, L<List::MoreUtils>, and L<Exporter>.
+
+=head1 NOTE
+
+While looking for collective nouns for niece and nephew and aunt and uncle, I came across the terms nibling and pibling in L<this article|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1570791/>.
 
 =head1 AUTHOR
 
