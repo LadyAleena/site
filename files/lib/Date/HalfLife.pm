@@ -54,6 +54,12 @@ Date::HalfLife depends on L<Date::Calc> and L<Exporter>.
 
 Lady Aleena
 
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
 =cut
 
 1;

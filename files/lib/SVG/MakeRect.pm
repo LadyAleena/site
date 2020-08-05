@@ -99,6 +99,12 @@ All attributes that were not points will be moved to the end of the attribute li
 
 Lady Aleena
 
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
 =cut
 
 1;

@@ -36,11 +36,19 @@ To use this module, please enter the following.
 
 To generate one's Chinese zodiac sign, please use the example below.
 
-  chinese_zodiac(YEAR,MONTH)  YEAR is the 4-digit year, MONTH is the digit for the month (1-12)
+  chinese_zodiac(YEAR,MONTH) # YEAR is the 4-digit year, MONTH is the digit for the month (1-12)
 
 =head1 AUTHOR
 
 Lady Aleena with help of ik and mofino in the #perlcafe on freenode.
+
+Rene Schickbauer provided the packaging needed for CPAN.
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2011, Lady Aleena C<<aleena@cpan.org>> and Rene Schickbauer C<<rene.schickbauer@magnapowertrain.com>>. All rights reserved.
 
 =head2 Author note
 
