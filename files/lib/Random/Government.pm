@@ -140,7 +140,7 @@ sub random_government {
 
 =head1 NAME
 
-B<Random::Government> selects a random government type.
+B<Random::Government> returns a random government type.
 
 =head1 VERSION
 

@@ -34,7 +34,7 @@ sub random_size {
 
 =head1 NAME
 
-B<Random::Size> selects random relative sizes.
+B<Random::Size> returns a random relative size.
 
 =head1 VERSION
 
@@ -44,18 +44,18 @@ This document describes Random::Size version 1.000.
 
   use Random::Size qw(random_size);
 
-  my $random_amount      = random_size('amount')  # selects more or less
-  my $random_consistency = random_size('consistency') # selects thicker or thinner
-  my $random_density     = random_size('density') # selects thicker or thinner
-  my $random_depth       = random_size('depth')   # selects deeper or shallower
-  my $random_height      = random_size('height')  # selects taller or shorter
-  my $random_length      = random_size('length')  # selects longer or shorter
-  my $random_speed       = random_size('speed')   # selects faster or slower
-  my $random_weight      = random_size('weight')  # selects heavier or lighter
-  my $random_width       = random_size('width')   # selects wider or narrower
-  my $random_general     = random_size('general') # selects bigger or smaller
-  my $random_key         = random_size('by keys') # selects a random key
-  my $random_size        = random_size('all')     # selects a random selection from all of the above except keys
+  my $random_amount      = random_size('amount')  # returns more or less
+  my $random_consistency = random_size('consistency') # returns thicker or thinner
+  my $random_density     = random_size('density') # returns thicker or thinner
+  my $random_depth       = random_size('depth')   # returns deeper or shallower
+  my $random_height      = random_size('height')  # returns taller or shorter
+  my $random_length      = random_size('length')  # returns longer or shorter
+  my $random_speed       = random_size('speed')   # returns faster or slower
+  my $random_weight      = random_size('weight')  # returns heavier or lighter
+  my $random_width       = random_size('width')   # returns wider or narrower
+  my $random_general     = random_size('general') # returns bigger or smaller
+  my $random_key         = random_size('by keys') # returns a random key
+  my $random_size        = random_size('all')     # returns a random selection from all of the above except keys
   my $keys = random_size('keys')    # the keys
   my $hash = random_size('list')    # the hash
 
@@ -63,9 +63,110 @@ This document describes Random::Size version 1.000.
 
 =head1 DESCRIPTION
 
-The options for B<random_size> are: amount, consistency, density, depth, height, length, speed, weight, width, or general.
+Random::Size returns a random relative size or other measure.
 
-If you can not remember what you want, you can always use C<random_size('help')> to retrieve the list of options.
+=head2 Options
+
+=head4 nothing, all, or undef
+
+  random_size;
+  random_size();
+  random_size('all');
+  random_size(undef);
+
+These options will return any value in any list. You can read the options below to see all of the potential values.
+
+=head4 amount
+
+  random_size('amount');
+
+The C<amount> option returns more or less.
+
+=head4 consistency
+
+  random_size('consistency');
+
+The C<consistency> option returns thicker or thinner.
+
+=head4 density
+
+  random_size('density');
+
+The C<density> option returns thicker or thinner.
+
+=head4 depth
+
+  random_size('depth');
+
+The C<depth> option returns deeper or shallower.
+
+=head4 height
+
+  random_size('height');
+
+The C<height> option returns taller or shorter.
+
+=head4 length
+
+  random_size('length');
+
+The C<length> option returns longer or shorter.
+
+=head4 speed
+
+  random_size('speed');
+
+The C<speed> option returns faster or slower.
+
+=head4 weight
+
+  random_size('weight');
+
+The C<weight> option returns heavier or lighter.
+
+=head4 width
+
+  random_size('width');
+
+The C<width> option returns wider or narrower.
+
+=head4 general
+
+  random_size('general');
+
+The C<general> option returns bigger or smaller.
+
+=head4 by keys
+
+  random_size('by keys');
+
+The C<by keys> option returns a random key listed above.
+
+=head4 keys
+
+  random_size('keys');
+
+The C<keys> option will list all of the available keys in an array reference.
+
+=head4 data
+
+  random_size('data');
+
+The C<data> option will return the data used in a hash reference.
+
+=head4 help or options
+
+  random_size('help');
+  random_size('options');
+
+The C<help> or C<options> options will return a list of all of your options.
+
+=head3 Adding items to a list
+
+You can add items to the list by adding an array reference with the additional items as the second parameter.
+
+  my @additions = ('size 1', 'size 2');
+  random_size('<your option>', \@additions);
 
 =head1 DEPENDENCIES
 
@@ -78,6 +179,12 @@ L<Random::RPG::World::WorldBuildersGuidebook::Size> also has a function called C
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

@@ -23,7 +23,7 @@ sub random_mental_condition {
 
 =head1 NAME
 
-B<Random::Insanity> selects a random mental disorder.
+B<Random::Insanity> returns a random mental disorder.
 
 =head1 VERSION
 

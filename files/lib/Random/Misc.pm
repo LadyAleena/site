@@ -56,7 +56,7 @@ sub random_zstuff             { my $user_addition = shift; random_misc('zstuffs'
 
 =head1 NAME
 
-B<Random::Misc> selects random miscellaneous things.
+B<Random::Misc> returns random miscellaneous things.
 
 =head1 VERSION
 
@@ -77,15 +77,15 @@ This document describes Random::Misc version 1.000.
     random_zstuff
   );
 
-  my $emotion            = random_emotion;            # selects a random emotion
-  my $game               = random_game;               # selects a random type of game
-  my $group              = random_group;              # selects a random group type
-  my $non                = random_non;                # selects either an empty string or non
-  my $relationship       = random_relationship;       # selects a random relationship status
-  my $sexual_orientation = random_sexual_orientation; # selects a random sexual orientation
-  my $shadow             = random_shadow;             # selects a random shadow
-  my $sign               = random_sign;               # selects either a + or a -
-  my $zstuff             = random_zstuff;             # selects random stuff
+  my $emotion            = random_emotion;            # returns a random emotion
+  my $game               = random_game;               # returns a random type of game
+  my $group              = random_group;              # returns a random group type
+  my $non                = random_non;                # returns either an empty string or non
+  my $relationship       = random_relationship;       # returns a random relationship status
+  my $sexual_orientation = random_sexual_orientation; # returns a random sexual orientation
+  my $shadow             = random_shadow;             # returns a random shadow
+  my $sign               = random_sign;               # returns either a + or a -
+  my $zstuff             = random_zstuff;             # returns random stuff
 
   print random_misc('help') # get random_misc options
 
@@ -101,65 +101,66 @@ It requires Perl version 5.10.0 or better.
 
 =head4 nothing, all, or undef
 
+  random_misc;
   random_misc();
   random_misc('all');
   random_misc(undef);
 
-These options will select any value in any list. You can read the options below to see all of the potential values.
+These options return any value in any list. You can read the options below to see all of the potential values.
 
 =head4 emotions
 
   random_misc('emotions');
 
-The C<emotions> option will select from fear, hate, indifference, joy, love, sorrow, and trust.
+The C<emotions> option returns fear, hate, indifference, joy, love, sorrow, or trust.
 
 =head4 games
 
   random_misc('games');
 
-The C<games> option will select from board game, card game, role-playing game, and video game.
+The C<games> option returns board game, card game, role-playing game, or video game.
 
 =head4 groups
 
   random_misc('groups');
 
-The C<groups> option will select from group, band, cabal, tribe, caravan, and army.
+The C<groups> option returns group, band, cabal, tribe, caravan, or army.
 
 =head4 non
 
   random_misc('non');
 
-The C<non> option will select from non- and a zero-width string. This was written to make something a non- or not.
+The C<non> option returns non- or a zero-width string. This was written to make something a non- or not.
 
 =head4 relationships
 
   random_misc('relationships');
 
-The C<relationships> option will select from single, attached, dating, engaged, married, divorced, and widowed.
+The C<relationships> option returns single, attached, dating, engaged, married, divorced, or widowed.
 
 =head4 sexual orientations
 
   random_misc('sexual orientations');
 
-The C<sexual orientations> option will select from heterosexual, heteroflexible, bisexual, homoflexible, homosexual, pansexual, polysexual, and asexual.
+The C<sexual orientations> option returns heterosexual, heteroflexible, bisexual, homoflexible, homosexual, pansexual, polysexual, or asexual.
 
 =head4 shadows
 
   random_misc('shadows');
 
-The C<shadows> option will select from umbra, penumbra, and antumbra.
+The C<shadows> option returns umbra, penumbra, or antumbra.
 
 =head4 signs
 
   random_misc('signs');
 
-The C<signs> option will select from + and -.
+The C<signs> option returns + or -.
 
 =head4 zstuffs
 
   random_misc('zstuffs');
 
-The C<zstuffs> option will select from thing, doodad, doohickey, gizmo, widget, thingamabob, and stuff.
+The C<zstuffs> option returns thing, doodad, doohickey, gizmo, widget, thingamabob, or stuff.
 
 =head4 by keys
 
@@ -184,7 +185,7 @@ The C<data> option will return the data used in a hash reference.
   random_misc('help');
   random_misc('options');
 
-The C<help> and C<options> options will return a list of all of your options.
+The C<help> or C<options> options will return a list of all of your options.
 
 =head3 Adding items to a list
 
@@ -281,6 +282,12 @@ L<Random::Thing>
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

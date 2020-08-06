@@ -109,7 +109,7 @@ sub random_jewelry {
   my $item = A("$metal $piece");
 
   if ($gem_varieties and $gem_varieties > 0) {
-    my @gems = map(random_gem,1..$gem_varieties);
+    my @gems = map(random_gem_expanded, 1..$gem_varieties);
     my $gems = grammatical_join('and',@gems);
     return "$gems on $item";
   }
@@ -142,7 +142,7 @@ sub random_jewelry {
 
 =head1 NAME
 
-B<Random::GemMetalJewelry> selects random gems, metals, and jewelry.
+B<Random::GemMetalJewelry> returns a random gem, metal, or piece of jewelry.
 
 =head1 VERSION
 
@@ -160,83 +160,57 @@ This document describes Random::GemsMetalJewelry version 1.000.
     random_jewelry
   );
 
-=head2 random_gem_variety usage
+  # random_gem_variety usage
 
-  my $gem_variety = random_gem_variety('all');
-    # selects a random gem or metal
+  my $gem_variety = random_gem_variety('all'); # returns a random gem or metal
 
-  my $unsorted_gem = random_gem_variety('unsorted');
-    # selects from diamond, garnet, spinel, topaz, tourmaline, zircon, and crystal
-
-  my $beryl_gem = random_gem_variety('beryl');
-    # selects from emerald and aquamarine
-
+  my $unsorted_gem   = random_gem_variety('unsorted');
+  my $beryl_gem      = random_gem_variety('beryl');
   my $chalcedony_gem = random_gem_variety('chalcedony');
-    # selects from agate, bloodstone, carnelian, jasper, onyx, sard, and sardonyx
-
-  my $corundum_gem = random_gem_variety('corundum');
-    # selects from ruby and sapphire
-
-  my $quartz_gem = random_gem_variety('quartz');
-    # selects from amethyst, citrine, milky quartz, rose quartz, and smokey quartz
-
-  my $organic_gem = random_gem_variety('organic');
-    # selects from amber, coral, ivory, jet, pearl, and seashell
-
-  my $metal = random_gem_variety('metal');
-    # selects from aluminum, brass, bronze, cobalt, copper, electrum, gold,
-    # iron, lead, nickel, pewter, platinum, silver, steel, tin, and titanium
+  my $corundum_gem   = random_gem_variety('corundum');
+  my $quartz_gem     = random_gem_variety('quartz');
+  my $organic_gem    = random_gem_variety('organic');
+  my $metal          = random_gem_variety('metal');
 
   print random_gem_variety('help'); # get random_gem_variety options
 
-=head2 random_gem_color usage
+  # random_gem_color usage
 
-  my $gem_color = random_gem_color('all');
-    # selects a random gem color
+  my $gem_color = random_gem_color('all'); # returns a random gem color
 
-  my $diamond_color = random_gem_color('diamond');
-    # selects from black, blue, brown, colorless, gray, green, pink, red, and yellow
-
-  my $garnet_color = random_gem_color('garnet');
-    # selects from black, brown, colorless, green, orange, pink, purple, red, violet, and yellow
-
+  my $diamond_color  = random_gem_color('diamond');
+  my $garnet_color   = random_gem_color('garnet');
   my $sapphire_color = random_gem_color('sapphire');
-    # selects from blue, colorless, green, pink, and yellow
-
-  my $spinel_color = random_gem_color('spinel');
-    # selects from blue, orange, pink, and red
-
-  my $topaz_color = random_gem_color('topaz');
-    # selects from blue, green, pink, yellow, brown, and orange
-
-  my $gold_color = random_gem_color('gold');
-    # selects from blue, black, green, gray, pink, purple, red, rose, white, and yellow
+  my $spinel_color   = random_gem_color('spinel');
+  my $topaz_color    = random_gem_color('topaz');
+  my $gold_color     = random_gem_color('gold');
 
   print random_gem_color('help'); # get random_gem_color options
 
-=head2 random_gem_cut usage
+  # random_gem_cut usage
 
-  my $gem_cut = random_gem_cut('all');
-    # selects a random gem cut
+  my $gem_cut = random_gem_cut('all'); # returns a random gem cut
 
   my $brilliant_cut = random_gem_cut('brilliant');
-    # selects from oval and round
-
-  my $fancy_cut = random_gem_cut('fancy');
-    # selects from marquise, pendeloque, and scissors
-
-  my $mixed_cut = random_gem_cut('mixed');
-    # selects from cushion and mixed
-
-  my $step_cut = random_gem_cut('step');
-    # selects from baguette, octagon, oval, square, and table
-
-  my $other_cut = random_gem_cut('other');
-    # selects from bead, carving, cabochon, and polished
+  my $fancy_cut     = random_gem_cut('fancy');
+  my $mixed_cut     = random_gem_cut('mixed');
+  my $step_cut      = random_gem_cut('step');
+  my $other_cut     = random_gem_cut('other');
 
   print random_gem_cut('help'); # get random_gem_cut options
 
-=head2 random_gem usage
+  # random_gem_expanded usage
+
+  my $gem_expanded        = random_gem_expanded('all');
+  my $unsorted_expanded   = random_gem_expanded('unsorted');
+  my $beryl_expanded      = random_gem_expanded('beryl');      # or use random_gem_variety or random_gem
+  my $chalcedony_expanded = random_gem_expanded('chalcedony'); # or use random_gem_variety or random_gem
+  my $corundum_expanded   = random_gem_expanded('corundum');
+  my $quartz_expanded     = random_gem_expanded('quartz');     # or use random_gem_variety or random_gem
+  my $organic_expanded    = random_gem_expanded('organic');    # or use random_gem_variety or random_gem
+  my $metal_expanded      = random_gem_expanded('metal');
+
+  # random_gem usage
 
   my $gem        = random_gem('all');
   my $unsorted   = random_gem('unsorted');
@@ -248,37 +222,237 @@ This document describes Random::GemsMetalJewelry version 1.000.
   my $metal_2    = random_gem('metal');
   my $no_metal   = random_gem('no metal');
 
-  # is random_gem_variety with more weight to gems
-  # 'no metal' is 'all' without metals
-
-=head2 random_metal usage
+  # random_metal usage
 
   my $metal_3 = random_metal;
-    # is random_gem_variety('metal')
 
-=head2 random_gem_expanded usage
-
-  my $gem_expanded        = random_gem_expanded('all');
-  my $unsorted_expanded   = random_gem_expanded('unsorted');
-  my $beryl_expanded      = random_gem_expanded('beryl');      # or use random_gem_variety or random_gem
-  my $chalcedony_expanded = random_gem_expanded('chalcedony'); # or use random_gem_variety or random_gem
-  my $corundum_expanded   = random_gem_expanded('corundum');
-  my $quartz_expanded     = random_gem_expanded('quartz');     # or use random_gem_variety or random_gem
-  my $organic_expanded    = random_gem_expanded('organic');    # or use random_gem_variety or random_gem
-  my $metal_expanded      = random_gem_expanded('metal');
-
-  # selects a random gem with color if it has a list of colors
-  # see random_gem_variety for the gems
-  # see random_gem_color for the colors
-
-=head2 random_jewelry usage
+  # random_jewelry usage
 
   my $jewelry = random_jewelry(1); # or any number
 
-  # selects a piece of jewelry from anklet, belt buckle, bracelet, brooch,
-  # chatelaine, crown, cuff link, earrings, necklace, ring, tiara, tie bar,
-  # pocket watch, and wrist watch
-  # selects random gems to go on the jewelry by amount entered
+=head1 DESCRIPTION
+
+Random::GemMetalJewelry returns a random gem, metal, or jewelry.
+
+=head2 Options
+
+=head3 nothing, all, or undef
+
+These options are applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  random_gem_variety;
+  random_gem_variety();
+  random_gem_variety('all');
+  random_gem_variety(undef);
+
+  random_gem_color;
+  random_gem_color();
+  random_gem_color('all');
+  random_gem_color(undef);
+
+  random_gem_cut;
+  random_gem_cut();
+  random_gem_cut('all');
+  random_gem_cut(undef);
+
+These options will select any value in any list related to the function. You can read the options below to see all of the potential values.
+
+=head3 random_gem_variety options
+
+=head4 unsorted
+
+  random_gem_variety('unsorted');
+
+The C<unsorted> option returns diamond, garnet, spinel, topaz, tourmaline, zircon, or crystal.
+
+=head4 beryl
+
+  random_gem_variety('beryl');
+
+The C<beryl> option returns emerald or aquamarine.
+
+=head4 chalcedony
+
+  random_gem_variety('chalcedony');
+
+The C<chalcedony> option returns agate, bloodstone, carnelian, jasper, onyx, sard, or sardonyx.
+
+=head4 corumdum
+
+  random_gem_variety('corondum');
+
+The C<corundum> option returns ruby or sapphire.
+
+=head4 quartz
+
+  random_gem_variety('quartz');
+
+The C<quartz> option returns milky quartz, rose quartz, smokey quartz, amethyst, or citrine.
+
+=head4 organic
+
+  random_gem_variety('organic');
+
+The C<organic> option returns amber, coral, ivory, jet, pearl, or seashell.
+
+=head4 metal
+
+  random_gem_variety('metal');
+
+The C<metal> option returns aluminum, brass, bronze, cobalt, copper, electrum, gold, iron, lead, nickel, pewter, platinum, silver, steel, tin, or titanium.
+
+=head3 random_gem_color options
+
+=head4 diamond
+
+  random_gem_color('diamond');
+
+The C<diamond> option returns black, blue, brown, colorless, gray, green, pink, red, or yellow.
+
+=head4 garnet
+
+  random_gem_color('garnet');
+
+The C<garnet> option returns black, brown, colorless, green, orange, pink, purple, red, violet, or yellow.
+
+=head4 sapphire
+
+  random_gem_color('sapphire');
+
+The C<sapphire> option returns blue, colorless, green, pink, or yellow.
+
+=head4 spinel
+
+  random_gem_color('spinel');
+
+The C<spinel> option returns blue, orange, pink, or red.
+
+=head4 topaz
+
+  random_gem_color('topaz');
+
+The C<topaz> option returns blue, green, pink, yellow, brown, or orange.
+
+=head4 gold
+
+  random_gem_color('gold');
+
+The C<gold> option returns blue, black, green, gray, pink, purple, red, rose, white, or yellow.
+
+=head3 random_gem_cut options
+
+=head4 brilliant
+
+  random_gem_cut('brilliant');
+
+The C<brilliant> option returns oval or round.
+
+=head4 fancy
+
+  random_gem_cut('fancy');
+
+The C<fancy> option returns marquise, pendeloque, or scissors.
+
+=head4 mixed
+
+  random_gem_cut('mixed');
+
+The C<mixed> option returns cushion or mixed.
+
+=head4 step
+
+  random_gem_cut('step');
+
+The C<step> option returns baguette, octagon, oval, square, or table.
+
+=head4 other
+
+  random_gem_cut('other');
+
+The C<other> option returns bead, carving, cabochon, or polished.
+
+=head4 random_gem_expanded options
+
+C<random_gem_expanded> is a combination of C<random_gem_variety> and C<random_gem_color> and has the same options as C<random_gem_variety>. If the gem variety returned has a corresponding color option, a random color will be returned for the gem variety. The combination will be returned. If "diamond" is returned as the variey, a "blue diamond" could be returned.
+
+=head4 random_metal
+
+C<random_metal> is an alias for C<random_gem_variety('metal')> and has no options.
+
+=head4 random_gem options
+
+C<random_gem> has the same options as C<random_gem_variety> with the addition of C<no metal>.
+
+=head4 random_jewelry option
+
+  random_jewelry();
+
+C<random_jewelry> returns a random piece of jewelry. The jewelry returned can be anklet, belt buckle, bracelet, brooch, chatelaine, crown, cuff link, earrings, necklace, ring, tiara, tie bar, pocket watch, or wrist watch with gems.
+
+  random_jewelry('0');
+
+If you do not want any gems on the piece of jewelry, use C<0>.
+
+  random_jewelry('2'); # or any number
+
+The number you enter will be the amount of gems attached to the jewelry.
+
+=head3 by keys
+
+C<by keys> is applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  random_gem_variety('by keys');
+  random_gem_color('by keys');
+  random_gem_cut('by keys');
+
+The C<by keys> option returns a random key listed above related to the function.
+
+=head3 keys
+
+C<keys> is applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  random_gem_variety('keys');
+  random_gem_color('keys');
+  random_gem_cut('keys');
+
+The C<keys> option will list all of the available keys related to the function in an array reference.
+
+=head3 data
+
+C<data> is applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  random_gem_variety('data');
+  random_gem_color('data');
+  random_gem_cut('data');
+
+The C<data> option will return the data used for the function in a hash reference.
+
+=head3 help or options
+
+These options are applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  random_gem_variety('help');
+  random_gem_color('help');
+  random_gem_cut('help');
+
+  random_gem_variety('options');
+  random_gem_color('options');
+  random_gem_cut('options');
+
+The C<help> or C<options> options will return a list of all of your options for the function.
+
+=head2 Adding items to a list
+
+You can add items to the list by adding an array reference with the additional items as the second parameter. This is only applicable to C<random_gem_variety>, C<random_gem_color>, and C<random_gem_cut>.
+
+  my @variety_additions = ('gem 1', 'gem 2');
+  random_gem_variety('<your option>', \@variety_additions);
+
+  my @color_additions = ('color 1', 'color 2');
+  random_gem_color('<your option>', \@color_additions);
+
+  my @cut_additions = ('cut 1', 'cut 2');
+  random_gem_cut('<your option>', \@cut_additions);
 
 =head1 DEPENDENCIES
 
@@ -287,6 +461,12 @@ Random::GemMetalJewelry depends on L<Fancy::Rand>, L<Fancy::Join::Grammatical>, 
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

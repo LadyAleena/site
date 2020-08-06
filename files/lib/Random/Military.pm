@@ -146,7 +146,7 @@ sub random_military_by_location {
 
 =head1 NAME
 
-B<Random::Military> generates a fictional and fantasy military unit.
+B<Random::Military> returns a fictional and fantasy military unit.
 
 =head1 VERSION
 
@@ -191,7 +191,7 @@ This document describes Random::Military version 1.0.
 
 =head1 DESCRIPTION
 
-The expors of Random::Military will return a hash with the statistics of the selected military unit. The larger the military, the larger and deeper the hash will be.
+The functions of Random::Military will return a hash with the statistics of the selected military unit. The larger the military, the larger and deeper the hash will be.
 
 The hash for each unit and any subunits will include the leader of the unit, the amount of each subordinate type, and the total amount of soldiers in the unit. To see the full unit, use your favorite data dumping module.
 

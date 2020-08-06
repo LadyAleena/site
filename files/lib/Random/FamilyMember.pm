@@ -83,7 +83,7 @@ sub random_family_member {
 
 =head1 NAME
 
-B<Random::FamilyMember> selects random family members.
+B<Random::FamilyMember> returns a random family member.
 
 =head1 VERSION
 
@@ -126,7 +126,7 @@ This document describes Random::FamilyMember version 1.000.
 
 =head1 DESCRIPTION
 
-Random::FamilyMember selects random family members from many generations and of various relationships.
+Random::FamilyMember returns a random family member from many generations and of various relationships.
 
 It requires Perl version 5.10.0 or better.
 
@@ -328,7 +328,7 @@ The C<data> option will return the data used in a hash reference.
   random_family_member('help');
   random_family_member('options');
 
-The C<help> and C<options> options will return a list of all of your options.
+The C<help> or C<options> options will return a list of all of your options.
 
 =head3 Adding items to a list
 
@@ -348,6 +348,12 @@ While looking for collective nouns for niece and nephew and aunt and uncle, I ca
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

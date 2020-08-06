@@ -46,7 +46,7 @@ sub random_musical_instrument { my $user_addition = shift; random_thing('musical
 
 =head1 NAME
 
-B<Random::Thing> selects random things.
+B<Random::Thing> returns random things.
 
 =head1 VERSION
 
@@ -95,7 +95,7 @@ This document describes Random::Thing version 1.000.
 
 =head1 DESCRIPTION
 
-Random::Thing selects random animals, plants, armor, clothing, musicial intruments, utensils, and a general other category. All of the functions must be imported into your script.
+Random::Thing returns a random animal, plant, armor, clothing, musicial intrument, utensil, or a general other category. All of the functions must be imported into your script.
 
 =head2 random_thing
 
@@ -113,43 +113,43 @@ Random::Thing selects random animals, plants, armor, clothing, musicial intrumen
 
   random_thing('animals');
 
-The C<animals> option will select from animal, amphibian, arthropod, bird, fish, mammal, reptile, insect, and spider.
+The C<animals> option returns animal, amphibian, arthropod, bird, fish, mammal, reptile, insect, or spider.
 
 =head4 armor
 
   random_thing('armor');
 
-The C<armor> option will select from armor, helmet, and shield.
+The C<armor> option returns armor, helmet, or shield.
 
 =head4 clothing
 
   random_thing('clothing');
 
-The C<clothing> option will select from clothing, cape, coat, dress, jacket, pants, robe, shirt, shorts, skirt, sock, sweater, and vest.
+The C<clothing> option returns clothing, cape, coat, dress, jacket, pants, robe, shirt, shorts, skirt, sock, sweater, or vest.
 
 =head4 musical instruments
 
   random_thing('musical instruments');
 
-The C<muscial instruments> option will select from musical instrument, brass instrument, percussion instrument, string instrument, and woodwind instrument.
+The C<muscial instruments> option returns musical instrument, brass instrument, percussion instrument, string instrument, or woodwind instrument.
 
 =head4 plants
 
   random_thing('plants');
 
-The C<plants> option will select from plant, fern, flower, moss, tree, and weed.
+The C<plants> option returns plant, fern, flower, moss, tree, or weed.
 
 =head4 utensils
 
   random_thing('utensils');
 
-The C<utensils> option will select from utensil, cooking utensil, eating utensil, and writing utensil.
+The C<utensils> option returns utensil, cooking utensil, eating utensil, or writing utensil.
 
 =head4 other
 
   random_thing('other');
 
-The C<other> option will select from bedding, boat, book, clothing, dish, furniture, inanimate object, jewelry, religious symbol, rock, rug, tool, and wagon.
+The C<other> option returns bedding, boat, book, clothing, dish, furniture, inanimate object, jewelry, religious symbol, rock, rug, tool, or wagon.
 
 =head4 by keys
 
@@ -174,7 +174,7 @@ The C<data> option will return the data used in a hash reference.
   random_thing('help');
   random_thing('options');
 
-The C<help> and C<options> options will return a list of all of your options.
+The C<help> or C<options> options will return a list of all of your options.
 
 =head3 Adding items to a list
 
@@ -237,6 +237,12 @@ L<Random::Misc>
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

@@ -62,7 +62,7 @@ sub random_dragon {
 
 =head1 NAME
 
-B<Random::Dragon> selects random dragons from the DreamWorks Dragons, Harry Potter, Pern, and Xanth series and dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
+B<Random::Dragon> returns a random dragon from the DreamWorks Dragons, Harry Potter, Pern, or Xanth series or dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
 
 =head1 VERSION
 
@@ -81,28 +81,67 @@ This document describes Random::Dragon version 1.000.
   );
 
   my $DreamWorks_dragon = random_DreamWorks_dragon;
-    # selects a random dragon from the DreamWorks dragon franchise
-    # based on the novels by Cressida Cowell
 
   my $Harry_Potter_dragon = random_Harry_Potter_dragon;
-    # selects a random dragon from the Harry Potter series by J.K. Rowling
 
   my $Pern_dragon = random_Pern_dragon;
-    # selects a random dragon or fire lizard from the Pern series by Anne McCaffrey
 
   my $Xanth_dragon = random_Xanth_dragon;
-    # selects a random new dragon from the Xanth series by Piers Anthony
 
   my $old_Xanth_dragon = random_old_Xanth_dragon;
-    # selects a random old dragon from the Xanth series by Piers Anthony
 
   my $RPG_dragon = random_RPG_dragon;
-    # selects a random dragon from AD&D, 2nd ed.
 
   my $dragon = random_dragon;
-    # selects a random dragon from all of the above
+    # returns a random dragon from all of the above
 
-  print random_dragon('help') # get random_dragon options
+=head1 DESCRIPTION
+
+Random::Dragon returns a random dragon from the DreamWorks Dragons, Harry Potter, Pern, or Xanth series or dragons from I<Advanced Dungeons & Dragons>, 2nd Edition.
+
+=head2 Functions
+
+=head3 random_DreamWorks_dragon
+
+  random_DreamWorks_dragon();
+
+C<random_DreamWorks_dragon> returns a random dragon from the DreamWorks dragon franchise based on the novels by Cressida Cowell.
+
+=head3 random_Harry_Potter_dragon
+
+  random_Harry_Potter_dragon();
+
+C<random_Harry_Potter_dragon> returns a random dragon from the I<Harry Potter> series by J.K. Rowling.
+
+=head3 random_Pern_dragon
+
+  random_Pern_dragon();
+
+C<random_Pern_dragon> returns a random dragon or fire lizard from I<The Dragonriders of Pern> series by Anne McCaffrey.
+
+=head3 random_Xanth_dragon
+
+  random_Xanth_dragon();
+
+C<randon_Xanth_dragon> returns a random new dragon from the I<Xanth> series by Piers Anthony. This is imported from L<Random::Xanth::Dragon>.
+
+=head3 random_old_Xanth_dragon
+
+  random_old_Xanth_dragon();
+
+C<random_old_Xanth_dragon> returns a random old dragon from the I<Xanth> series by Piers Anthony. This is imported from L<Random::Xanth::Dragon>.
+
+=head3 random_RPG_dragon
+
+  random_RPG_dragon();
+
+C<random_RPG_dragon> returns a random dragon from AD&D, 2nd ed. This is imported from L<Random::RPG::Monster>.
+
+=head3 random_dragon
+
+  random_dragon();
+
+C<random_dragon> returns a random dragon from any of the above functions.
 
 =head1 DEPENDENCIES
 
@@ -111,6 +150,12 @@ Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Ra
 =head1 AUTHOR
 
 Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 
