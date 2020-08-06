@@ -133,7 +133,7 @@ sub random_magic_item_action {
 
   my $magic_item_action = tiny_rand(
     join(' ', ('can', tiny_rand('use all', 'not use any'), 'magical', PL_N($magic_item))),
-    join(' ', ($verb, 'magical', PL_N($magic_item), random_radius('touch','imperial')))
+    join(' ', ($verb, 'magical', PL_N($magic_item), random_radius('imperial', 'touch')))
   );
 
   return $magic_item_action;

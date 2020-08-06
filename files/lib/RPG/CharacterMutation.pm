@@ -124,7 +124,7 @@ sub miscellaneous_magic {
     'a magic attracter',
     'addicted to magic energies',
     tiny_rand(qw(blessed cursed)),
-    'a '.random_range('simple', 'imperial').' radius '.tiny_rand('wild magic', 'magic dead').' zone',
+    'a '.random_range('imperial').' radius '.tiny_rand('wild magic', 'magic dead').' zone',
     A(random_monster('lycanthrope')),
   );
   return tiny_rand(@miscellaneous);
@@ -134,7 +134,7 @@ sub events {
   my ($game_time) = @_;
 
   my @events = (
-    'magic is used '.random_radius('touch', 'imperial'),
+    'magic is used '.random_radius('imperial', 'touch'),
     'every '.random_check,
     'seeing '.A(random_monster)
   );
