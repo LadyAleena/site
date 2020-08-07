@@ -30,10 +30,10 @@ sub find_modules {
       chomp $line;
       last if ($line eq '=head1 NAME');
       $uses->{$1}++ if $line =~ /^use ((\w|\:)+)(.+)$/;
-      die "$_ isn't using strict, $!"   if ($loop == 1 && $line !~ /use strict/ && $_ !~ /index/);
-      die "$_ isn't using strict, $!"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /index/);
-      die "$_ isn't using warnings, $!" if ($loop == 2 && $line !~ /use warnings/ && $_ !~ /index/);
-      die "$_ isn't using warnings, $!" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /index/);
+      warn "$_ isn't using strict, $!"   if ($loop == 1 && $line !~ /use strict/ && $_ !~ /index/);
+      warn "$_ isn't using strict, $!"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /index/);
+      warn "$_ isn't using warnings, $!" if ($loop == 2 && $line !~ /use warnings/ && $_ !~ /index/);
+      warn "$_ isn't using warnings, $!" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /index/);
       $loop++;
     }
   }
