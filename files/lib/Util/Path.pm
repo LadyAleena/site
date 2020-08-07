@@ -21,7 +21,7 @@ my %hosts = (
     'link' => "//local.site",
   },
   'fantasy.xecu.net' => {
-    'path' => '/www/fantasy/public_html',
+    'path' => '/home/fantasy/public_html',
     'link' => "//fantasy.xecu.net",
   }
 );
