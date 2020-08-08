@@ -13,6 +13,7 @@ our @EXPORT_OK = qw(
   random_game
   random_generation
   random_group
+  random_mental_condition
   random_non
   random_parent
   random_relationship
@@ -26,6 +27,12 @@ my %misc = (
   'emotions'            => [qw(joy sorrow trust fear love hate indifference)],
   'games'               => [map("$_ game", ('board', 'card', 'role-playing', 'video'))],
   'groups'              => [qw(group band cabal tribe caravan army)],
+  'mental conditions'   => [
+                             map("${_}active", qw(hypo hyper)),
+                             map("$_ psychosis", qw(hallucinatory delusional)),
+                             'addiction', 'amnesia', 'anxiety', 'catatonia', 'dementia', 'fugue', 'manic', 'melancholy',
+                             'obsessive-compulsive', 'panic', 'paranoia', 'schizophrenia', 'split personality'
+                           ],
   'non'                 => ['', 'non-'],
   'relationships'       => [qw(single dating attached engaged married divorced widowed)],
   'sexual orientations' => [qw(heterosexual heteroflexible bisexual homoflexible homosexual pansexual polysexual asexual)],
@@ -43,6 +50,7 @@ sub random_misc {
 sub random_emotion            { my $user_addition = shift; random_misc('emotions'           , $user_addition) }
 sub random_game               { my $user_addition = shift; random_misc('games'              , $user_addition) }
 sub random_group              { my $user_addition = shift; random_misc('groups'             , $user_addition) }
+sub random_mental_condition   { my $user_addition = shift; random_misc('mental condition'   , $user_addition) }
 sub random_non                { my $user_addition = shift; random_misc('non'                , $user_addition) }
 sub random_relationship       { my $user_addition = shift; random_misc('relationships'      , $user_addition) }
 sub random_sexual_orientation { my $user_addition = shift; random_misc('sexual orientations', $user_addition) }
@@ -125,6 +133,12 @@ The C<games> option returns board game, card game, role-playing game, or video g
   random_misc('groups');
 
 The C<groups> option returns group, band, cabal, tribe, caravan, or army.
+
+=head4 mental condition
+
+  random_misc('mental condition');
+
+The C<mental condition> option returns hypoactive, hyperactive, hallucinatory psychosis, delusional psychosis, addiction, amnesia, anxiety, catatonia, dementia, fugue, manic, melancholy, obsessive-compulsive, panic, paranoia, schizophrenia, or split personality. See L</NOTES>.
 
 =head4 non
 
@@ -225,6 +239,12 @@ C<random_generation> is the same using L</generations> in C<random_misc>.
 
 C<random_group> is the same using L</groups> in C<random_misc>.
 
+=head3 random_mental_condition
+
+ random_mental_condition();
+
+C<random_mental_condition> is the same using L</mental condition> in C<random_misc>.
+
 =head3 random_non
 
  random_non();
@@ -271,9 +291,11 @@ C<random_zstuff> is the same using L</zstuffs> in C<random_misc>.
 
 Random::Misc depends on L<Fancy::Rand> and L<Exporter>.
 
-=head1 NOTE
+=head1 NOTES
 
 Random::Misc will be very fluid between versions. Items will be added to the lists. New lists will be added. Current lists can be moved into their own modules for better grouping should other similar lists be found.
+
+Please know this module is for fun. The list for random mental conditions is not making light of real disorders that affect so many people. I am aware of the toll mental disorders take on people and their families.
 
 =head1 SEE ALSO
 

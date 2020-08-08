@@ -17,12 +17,11 @@ use Util::Convert qw(textify);
 use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
 use Random::Body::Function qw(random_body_functions);
 use Random::FamilyMember   qw(random_family_member);
-use Random::Insanity       qw(random_mental_condition);
 use Random::Range          qw(random_range random_radius);
 use Random::SpecialDice    qw(random_die);
 use Random::Time           qw(random_time_unit random_frequency);
 use Random::Thing          qw(random_thing random_animal);
-use Random::Misc           qw(random_sign);
+use Random::Misc           qw(random_mental_condition random_sign);
 
 use Random::RPG::AbilityScores  qw(random_ability random_game_effect_expanded);
 use Random::RPG::Class          qw(random_class random_class_special);
