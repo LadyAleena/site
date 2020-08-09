@@ -46,7 +46,7 @@ sub tree_paths {
   my $children = $data->{children};
 
   if ( $gen == 1 && $children ) {
-    die "Generation 1 families do not have children, you might want generation 2. tree-paths.pl died$!";
+    die "Generation 1 families do not have children, you might want generation 2. tree-paths.pl died";
   }
   my $Yyy     = $mother ? substr $mother, 0, 3 : undef;
   my $Xxx     = $father ? substr $father, 0, 3 : undef;

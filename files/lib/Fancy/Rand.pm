@@ -42,7 +42,7 @@ sub fancy_rand {
     }
     else {
       my $caller = $opt->{caller} ? " in ".$opt->{caller} : 'fancy_rand';
-      die "Your option '$user_input' is not a list $caller.\n\tStopped$!"
+      die "Your option '$user_input' is not a list $caller.\n\tStopped"
     }
     push @random_list, @{$opt->{'additions'}} if $opt->{'additions'};
     @random_list = shuffle(@random_list);

@@ -11,7 +11,7 @@ sub display_weapon {
   my %opt = @_;
   my $plural = $opt{'plural'} ? $opt{'plural'} : undef;
   my $full   = $opt{'full'}   ? $opt{'full'}   : undef;
-  my $text   = $opt{'text'} || die "No weapon name. Died$!";
+  my $text   = $opt{'text'} || die "No weapon name. Died";
      $text   =~ s/(.+) \((.+)\)/$2 $1/;
 
   my ($r_weapon, $accessory) = split(/ w\//,$text);
