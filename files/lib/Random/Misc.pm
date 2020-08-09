@@ -88,6 +88,7 @@ This document describes Random::Misc version 1.000.
   my $emotion            = random_emotion;            # returns a random emotion
   my $game               = random_game;               # returns a random type of game
   my $group              = random_group;              # returns a random group type
+  my $mental_condition   =random_mental_condition;    # returns a random mental condition
   my $non                = random_non;                # returns either an empty string or non
   my $relationship       = random_relationship;       # returns a random relationship status
   my $sexual_orientation = random_sexual_orientation; # returns a random sexual orientation
