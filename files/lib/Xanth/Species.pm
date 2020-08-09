@@ -1,8 +1,8 @@
 package Xanth::Species;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(species_link get_species);
 
 use Lingua::EN::Inflect qw(A);
 
@@ -12,6 +12,9 @@ use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(gendering);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(species_link get_species);
 
 my @gendered_species_list = fancy_open(data_file('Fandom/Xanth', 'gendered_species.txt'));;
 my $gendered_species = join('|', @gendered_species_list);
@@ -115,5 +118,29 @@ sub get_species {
   }
   return $species_text;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Species version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Species depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convet, Util::Data, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

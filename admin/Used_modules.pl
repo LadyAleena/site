@@ -28,12 +28,14 @@ sub find_modules {
     my $loop = 0;
     while (my $line = <$fh>) {
       chomp $line;
-      last if ($line eq '=head1 NAME');
+      last if ($line eq '=head1 pod');
       $uses->{$1}++ if $line =~ /^use ((\w|\:)+)(.+)$/;
-      die "$_ isn't using strict"   if ($loop == 1 && $line !~ /use strict/ && $_ !~ /index/);
+      die "$_ isn't using strict"   if ($loop == 1 && $line !~ /use strict/ && $_ !~ /(index|\.pm$)/);
       die "$_ isn't using strict"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /index/);
-      die "$_ isn't using warnings" if ($loop == 2 && $line !~ /use warnings/ && $_ !~ /index/);
+      die "$_ isn't using strict"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /\.pm$/);
+      die "$_ isn't using warnings" if ($loop == 2 && $line !~ /use warnings/ && $_ !~ /(index|\.pm$)/);
       die "$_ isn't using warnings" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /index/);
+      die "$_ isn't using warnings" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /\.pm$/);
       $loop++;
     }
   }

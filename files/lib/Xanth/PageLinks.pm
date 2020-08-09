@@ -1,13 +1,16 @@
 package Xanth::PageLinks;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(locations_page_link species_page_link timeline_link);
 
 use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Xanth::Util    qw(get_article);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(locations_page_link species_page_link timeline_link);
 
 # Begin getting link to Locations.pl
 
@@ -49,5 +52,29 @@ sub timeline_link {
 }
 
 # End getting link to Timeline.pl
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::PageLinks version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::PageLinks depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Xanth::Util, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

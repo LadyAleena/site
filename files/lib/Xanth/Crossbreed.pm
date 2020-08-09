@@ -1,10 +1,13 @@
 package Xanth::Crossbreed;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(get_crossbreed);
 
 use Fancy::Join::Defined qw(join_defined);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(get_crossbreed);
 
 sub get_crossbreed {
   my ($characters, $character) = @_;
@@ -35,5 +38,29 @@ sub get_crossbreed {
 
   return $full_species? $full_species : $species;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Crossbreed version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Crossbreed depends on L<Fancy::Join::Defined> and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

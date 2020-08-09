@@ -1,8 +1,8 @@
 package Xanth::LineMagic;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(Xanth_line_magic);
 
 use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(textify idify searchify);
@@ -11,6 +11,9 @@ use Util::Data    qw(data_file make_hash);
 use Xanth::Util      qw(character_link);
 use Xanth::Novel     qw(novel_link);
 use Xanth::PageLinks qw(timeline_link);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(Xanth_line_magic);
 
 my $headings = [qw(Name species origin location gender talent description book chapter)];
 my $characters = make_hash(
@@ -67,5 +70,29 @@ sub Xanth_line_magic {
   return $Xanth_line_magic;
 
 }
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::LineMagic version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::LineMagic depends on L<Fancy::Open>, Util::Convert, Util::Data, Xanth::Util, Xanth::Novel, Xanth::PageLinks, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

@@ -1,4 +1,5 @@
 package Util::StoryMagic::Collection;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);

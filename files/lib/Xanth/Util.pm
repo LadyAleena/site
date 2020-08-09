@@ -1,8 +1,8 @@
 package Xanth::Util;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(character_link group_character_link gendering get_article);
 
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
@@ -10,6 +10,9 @@ use Fancy::Join    qw(grammatical_join join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(make_hash);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(character_link group_character_link gendering get_article);
 
 my $see_char = make_hash(
   'file' => ['Fandom/Xanth', 'see_character.txt'],
@@ -103,5 +106,29 @@ sub get_article {
 }
 
 # End getting an article for groups and places
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Util version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Util depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

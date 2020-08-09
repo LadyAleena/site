@@ -1,8 +1,8 @@
 package Xanth::Character;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(get_open get_character);
 
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
@@ -15,6 +15,9 @@ use Xanth::Location  qw(get_locations);
 use Xanth::Novel     qw(char_intro_novel get_novels);
 use Xanth::Species   qw(get_species);
 use Xanth::Util      qw(character_link get_article gendering);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(get_open get_character);
 
 # Begin getting group character belongs to used in get_open
 
@@ -147,5 +150,29 @@ sub get_character {
 }
 
 # End putting the character together
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Character version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Character depends on L<Fancy::Join>, Base::Page, Util::Convert, Xanth::Dates, Xanth::LineMagic, Xanth::Location, Xanth::Novel, Xanth::Species, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

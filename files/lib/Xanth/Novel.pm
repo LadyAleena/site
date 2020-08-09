@@ -1,8 +1,8 @@
 package Xanth::Novel;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);
 
 use Lingua::EN::Inflect qw(NUMWORDS ORD);
 
@@ -13,6 +13,9 @@ use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file make_hash);
 use Xanth::Util      qw(character_link);
 use Xanth::PageLinks qw(timeline_link);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);
 
 my @book_list = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
 
@@ -133,5 +136,29 @@ sub current_year {
 }
 
 # End getting the current Xanthian year
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Novel version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Novel depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, Xanth::Util, Xanth::PageLinks, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

@@ -1,5 +1,5 @@
 package Util::Sort;
-use v5.16.0;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);

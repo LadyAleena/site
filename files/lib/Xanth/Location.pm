@@ -1,8 +1,8 @@
 package Xanth::Location;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(section_link location_link get_locations);
 
 use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined grammatical_join);
@@ -10,6 +10,9 @@ use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
 use Xanth::Util    qw(get_article);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(section_link location_link get_locations);
 
 my @moons_list = fancy_open(data_file('Fandom/Xanth', 'moons.txt'));
 my $moon_list = join('|', @moons_list);
@@ -60,5 +63,29 @@ sub get_locations {
   my $place_text = grammatical_join('then', @out_places);
   return $place_text;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Location version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Location depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, Xanth::Util, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;

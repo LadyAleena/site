@@ -14,7 +14,7 @@ sub four_digit_year {
  my $year = shift;
 
   if ($year !~ /\d{4}/) {
-    die "Sorry, please use the four digit year. Stopped $!";
+    die "Sorry, please use the four digit year. Stopped";
   }
 
   return $year;
@@ -28,7 +28,7 @@ sub month_name {
       $month = Month_to_Text($month);
     }
     else {
-      die "Sorry, the month number you entered is invalid. Stopped $!";
+      die "Sorry, the month number you entered is invalid. Stopped";
     }
   }
   else {
@@ -38,7 +38,7 @@ sub month_name {
       $month = Month_to_Text($decoded_month);
     }
     else {
-      die "Sorry, your month name is a little short. Stopped $!";
+      die "Sorry, your month name is a little short. Stopped";
     }
   }
 
@@ -53,7 +53,7 @@ sub month_number {
       $month = $month;
     }
     else {
-      die "Sorry, the month number you entered is invalid. Stopped $!";
+      die "Sorry, the month number you entered is invalid. Stopped";
     }
   }
   else {
@@ -63,7 +63,7 @@ sub month_number {
       $month = $decoded_month;
     }
     else {
-      die "Sorry, your month name is a little short. Stopped $!";
+      die "Sorry, your month name is a little short. Stopped";
     }
   }
 
@@ -76,7 +76,7 @@ sub day_number {
   my $days = Days_in_Month($year, month_number($month));
 
   if ($day > $days) {
-    die "Sorry, there are only $days days in $month $year. Stopped $!";
+    die "Sorry, there are only $days days in $month $year. Stopped";
   }
 
   return $day;

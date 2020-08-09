@@ -1,4 +1,5 @@
 package RPG::Character::WeaponSlots;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);

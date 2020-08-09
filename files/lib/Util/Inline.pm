@@ -1,4 +1,5 @@
 package Util::Inline;
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);

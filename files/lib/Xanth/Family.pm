@@ -1,14 +1,17 @@
 package Xanth::Family;
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(get_family);
 
 use Lingua::EN::Inflect qw(A);
 
 use Fancy::Join qw(join_defined grammatical_join);
 use Util::Data  qw(make_hash);
 use Xanth::Util qw(character_link group_character_link gendering);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(get_family);
 
 my $date_headings = [qw(Name birth death)];
 my $dates = make_hash(
@@ -185,5 +188,29 @@ sub get_family {
 }
 
 # End getting family for characters
+
+=pod
+
+=encoding utf8
+
+=head1 VERSION
+
+This document describes Xanth::Family version 1.0.
+
+=head1 DEPENDENCIES
+
+Xanth::Family depends on L<Fancy::Join>, Util::Data, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENCE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
+=cut
 
 1;
