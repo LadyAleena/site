@@ -12,7 +12,12 @@ our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_alpha);
 
 my $directory = file_directory('Random/Alpha', 'data');
-my @Greek_letters = fancy_open("$directory/Greek_letters.txt");;
+my @Greek_letters  = fancy_open("$directory/Greek_letters.txt");
+my @Greek_upper_ce = fancy_open("$directory/Greek_upper_ce.txt");
+my @Greek_lower_ce = fancy_open("$directory/Greek_lower_ce.txt");
+my @Hebrew_letters = fancy_open("$directory/Hebrew.txt");
+my @Hebrew_ce      = fancy_open("$directory/Hebrew_ce.txt");
+my @Hebew_final_ce = fancy_open("$directory/Hebrew_final_ce.txt");
 
 my @consonants = (1,2,3,5,6,7,9,10,11,12,13,15,16,17,18,19,21,22,23,24,25);
 my @vowels     = (0,4,8,14,20);
@@ -34,7 +39,17 @@ $alphabet{'upper bars'}   = ['A', 'E', 'F', 'H'];
 $alphabet{'lower bars'}   = ['e', 'f', 't'];
 $alphabet{'dots'}         = ['i', 'j'];
 
-$alphabet{'Greek'} = [@Greek_letters];
+$alphabet{'Greek named'}    = [@Greek_letters];
+$alphabet{'Greek upper'}    = [qw(Α Β Γ Δ Ε Ζ Η Θ Ι Κ Λ Μ Ν Ξ Ο Π Ρ Σ Τ Υ Φ Χ Ψ Ω)];
+$alphabet{'Greek lower'}    = [qw(α β γ δ ε ζ η θ ι κ λ μ ν ξ ο π ρ σ τ υ φ χ ψ ω)];
+$alphabet{'Greek upper ce'} = [@Greek_upper_ce];
+$alphabet{'Greek lower ce'} = [@Greek_lower_ce];
+
+$alphabet{'Hebrew named'}     = [@Hebrew_letters];
+$alphabet{'Hebrew letters'}   = [qw(א ב ג ד ה ו ז ח ט י כ ל מ נ ס ע פ צ ק ר ש ת װ ױ ײ)];
+$alphabet{'Hebrew finals'}    = [qw(א ב ג ד ה ו ז ח ט י ך ל ם ן ס ע ף ץ ק ר ש ת װ ױ ײ)];
+$alphabet{'Hebrew ce'}        = [@Hebrew_ce];
+$alphabet{'Hebrew finals ce'} = [@Hebew_final_ce];
 
 sub random_alpha {
   my ($user_alpha, $user_additions) = @_;
@@ -73,7 +88,17 @@ This document describes Random::Alpha version 1.000.
   my $lower_bar        = random_alpha('lower bars');       # returns an e, f, or t
   my $dot              = random_alpha('dots');             # returns an i or j
 
-  my $Greek            = random_alpha('Greek'); # returns a Greek letter spelled out
+  my $Greek_named      = random_alpha('Greek named');      # returns a Greek letter spelled out
+  my $Greek_upper      = random_alpha('Greek upper');      # returns a Greek uppercase letter
+  my $Greek_lower      = random_alpha('Greek lower');      # returns a Greek lowercase letter
+  my $Greek_upper_ce   = random_alpha('Greek upper ce');   # returns a Greek uppercase letter HTML character entity
+  my $Greek_lower_ce   = random_alpha('Greek lower ce');   # returns a Greek lowercase letter HTML character entity
+
+  my $Hebrew_named     = random_alpha('Hebrew named');     # returns a Hebrew letter spelled out
+  my $Hebrew_letter    = random_alpha('Hebrew letters');   # returns a Hebrew letter
+  my $Bebrew_final     = random_alpha{'Hewbrew finals'};   # returns a Hebrew letter for the final position
+  my $Hebrew_ce        = random_alpha('Hebrew ce');        # returns a Hebrew letter character entity
+  my $Hebrew_final_ce  = random_alpha('Hebrew finals ce'); # returns a Hebrew letter character entity for the final position
 
   print random_alpha('help') # get random_alpha options
 
@@ -178,11 +203,65 @@ The C<lower bars> option returns an e, f, or t.
 
 The C<dots> option returns an i or j.
 
-=head4 Greek
+=head4 Greek named
 
-  random_alpha('Greek');
+  random_alpha('Greek named');
 
-The C<Greek> option returns Alpha, Beta, Gamma, Delta, Epsilon, Digamma, Zeta, Eta, Theta, Iota, Kappa, Lambda, Mu, Nu, Xi, Omicron, Pi, San, Qoppa, Rho, Sigma, Tau, Upsilon, Phi, Chi, Psi, Omega, or Sampi.
+The C<Greek named> option returns Alpha, Beta, Gamma, Delta, Epsilon, Digamma, Zeta, Eta, Theta, Iota, Kappa, Lambda, Mu, Nu, Xi, Omicron, Pi, San, Qoppa, Rho, Sigma, Tau, Upsilon, Phi, Chi, Psi, Omega, or Sampi.
+
+=head4 Greek upper
+
+  random_alpha('Greek upper');
+
+The C<Greek upper> option returns Α , Β , Γ , Δ , Ε , Ζ , Η , Θ , Ι , Κ , Λ , Μ , Ν , Ξ , Ο , Π , Ρ , Σ , Τ , Υ , Φ , Χ , Ψ , or Ω .
+
+=head4 Greek lower
+
+  random_alpha('Greek lower');
+
+The C<Greek lower> option returns α , β , γ , δ , ε , ζ , η , θ , ϑ , ι , κ , λ , μ , ν , ξ , ο , π , ϖ , ρ , ς , σ , τ , υ ϒ , φ , χ , ψ , or ω .
+
+=head4 Greek upper ce
+
+  random_alpha('Greek upper ce');
+
+The C<Greek named> option returns an HTML character entity for a random Greek uppercase letter.
+
+=head4 Greek lower ce
+
+  random_alpha('Greek lower ce');
+
+The C<Greek named> option returns  an HTML character entity for a random Greek lowercase letter.
+
+=head4 Hebrew named
+
+  random_alpha('Hebrew named');
+
+The C<Hebrew named> option returns Alef, Bet, Gimel, Dalet, He, Vav, Zayin, Het, Tet, Yod, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Pe, Tsadi, Qof, Resh, Shin, or Tav.
+
+=head4 Hewbrew letters
+
+  random_alpha('Hebrew letters');
+
+The C<Hebrew letters> option returns א, ב, ג, ד, ה, ו, ז, ח, ט, י, כ, ל, מ, נ, ס, ע, פ, צ, ק, ר, ש, ת, װ, ױ, or ײ.
+
+=head4 Hebrew finals
+
+  random_alpha{'Hebrew finals'};
+
+The C<Hebrew fianls> option returns א, ב, ג, ד, ה, ו, ז, ח, ט, י, ך, ל, ם, ן, ס, ע, ף, ץ, ק, ר, ש, ת, װ, ױ, or ײ.
+
+=head4 Hebrew ce
+
+  random_alpha('Hebrew ce');
+
+The C<Hebrerw ce> option returns an HTML character entity for a random Hebrew letter.
+
+=head4 Hebrew final ce
+
+  random_alpha('Hebrew finals ce');
+
+The C<Hebrew finals ce> returns an HTML character entity for a random Hebrew letter in the final position.
 
 =head4 by keys
 
