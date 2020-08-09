@@ -19,7 +19,7 @@ sub random_letters {
 
 sub random_HHGTTG_sector {
   my @types = qw(Active Heavy Light Over Plural Passive Single Under);
-  my $Greek = sub { random_alpha('Greek') };
+  my $Greek = sub { random_alpha('Greek named') };
   my $type  = sub { $types[rand @types] };
   return random_letters(2)." ".&$type." ".random_letters(1)." ".&$Greek;
 }
