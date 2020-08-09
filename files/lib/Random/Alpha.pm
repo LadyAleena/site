@@ -73,8 +73,8 @@ This document describes Random::Alpha version 1.000.
 
   use Random::Alpha qw(random_alpha);
 
-  my $upper_case       = random_alpha('upper');            # returns an uppercase letter
-  my $lower_case       = random_alpha('lower');            # returns a lowercase letter
+  my $upper_case       = random_alpha('upper case');       # returns an uppercase letter
+  my $lower_case       = random_alpha('lower case');       # returns a lowercase letter
   my $upper_consonant  = random_alpha('upper consonants'); # returns an uppercase consonent
   my $lower_consonant  = random_alpha('lower consonants'); # returns a lowercase consonent
   my $upper_vowel      = random_alpha('upper vowels');     # returns an uppercase vowel
@@ -119,15 +119,15 @@ Random::Alpha returns a random letter of the English alphabet from whichever gro
 
 These options will return any value in any list. You can read the options below to see all of the potential values.
 
-=head4 upper
+=head4 upper case
 
-  random_alpha('upper');
+  random_alpha('upper case');
 
 The C<upper> option returns any uppercase letter in the English alphabet.
 
-=head4 lower
+=head4 lower case
 
-  random_alpha('lower');
+  random_alpha('lower case');
 
 The C<lower> option returns any lowercase letter in the English alphabet.
 
