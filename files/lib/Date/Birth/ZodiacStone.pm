@@ -7,7 +7,7 @@ use Exporter qw(import);
 use String::Util qw(trim);
 
 our $VERSION   = '1.0';
-our @EXPORT_OK = qw(sign zodiac_stone);
+our @EXPORT_OK = qw(zodiac_sign zodiac_stone);
 
 my $zodiac;
 while (my $line = <DATA>) {
@@ -23,7 +23,7 @@ while (my $line = <DATA>) {
   $zodiac->{$sign}{stone}       = $stone;
 }
 
-sub sign {
+sub zodiac_sign {
   my ($month, $day) = @_;
 
   my $sign_name;
@@ -55,18 +55,66 @@ This document describes Date::Birth::ZodiacStone version 1.0.
 
 =head1 SYNOPSIS
 
+  use Date::Birth::ZodiacStone qw(zodiac_stone zodiac_sign);
+
+  my $zodiac_sign = zodiac_sign('July', 3);
+  # Cancer
+
   my $zodiac_stone = zodiac_stone('Cancer');
   # emerald
 
 =head1 DESCRIPTION
 
-C<zodiac_stone> is exported by default and returns the stone associated with the sign entered.
+B<Date::Birth::ZodiacStone> returns the stone associated with zodiac signs when you use C<zodiac_stone>. C<zodiac_stone> needs to be imported into your script. It returns the stone associated with the sign entered.
 
-If you do not know your zodiac sign, you can use C<sign> to determine your sign using your birth month and day.
+If you do not know your zodiac sign, you can use C<zodiac_sign> to determine your sign using your birth month and day. C<sign> also needs to be imported into your script.
+
+Date::Birth::ZodiacStone requires Perl version 5.10.0 or better to run.
+
+=head2 The stones
+
+  Zodiac sign | Stone
+  ------------|-----------
+  Capricorn   | ruby
+  Aquarius    | garnet
+  Pisces      | amethyst
+  Aries       | bloodstone
+  Taurus      | sapphire
+  Gemini      | agate
+  Cancer      | emerald
+  Leo         | onyx
+  Virgo       | carnelian
+  Libra       | chrysolite
+  Scorpio     | beryl
+  Sagittarius | topaz
+
+=head1 FUNCTIONS
+
+Date::Birth::ZodiacStone has two functions that need to be imported into your script: C<zodiac_stone> and C<zodiac_sign>.
+
+=head2 zodiac_stone
+
+C<zodiac_stone> has one required parameter, the zodiac sign in English. You can see the list above for the names of the zodiac signs.
+
+  zodiac_stone($zodiac_sign);
+
+=head2 zodiac_sign
+
+C<zodiac_sign> has two required parameters, the month and day.
+
+  zodiac_sign($month, $day);
+
+=head3 month
+
+The month is the full month name in English.
+
+=head3 day
+
+The day is the day of the month.
 
 =head1 DEPENDENCIES
 
-Date::Birth::ZodiacStone depends on L<Exporter> and L<String::Util>.
+Date::Birth::ZodiacStone depends on L<String::Util> and L<Exporter>.
 
 =head1 AUTHOR
 
@@ -76,7 +124,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena (C<aleena@cpan.org>). All rights reserved.
 
 =cut
 
