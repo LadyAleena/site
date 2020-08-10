@@ -33,13 +33,13 @@ elsif ($page && $page eq 'irc') {
 
 my %irc = (
   freenode => {
-    web        => [qw(css html httpd svg javascript web design)],
+    web        => [qw(css html httpd svg javascript web)],
     linux      => [qw(linux debian linuxmint winehq alsa bash rsync sed awk)],
-    perl       => [qw(perlcafe cbstream)],
-    computing  => [qw(firefox hardware programming videolan sql yaml notepad++ geany gramps graphviz hexchat inkscape xchat vim emacs libreoffice)],
+    databases  => [qw(sql yaml)],
     mediawiki  => [qw(autowikibrowser mediawiki mediawiki-scripts wikimedia wikimedia-commons wikimedia-tech wikipedia wikipedia-en wikipedia-en-help wikipedia-plot wikipedia-social wp-doctor-who)],
-    social     => [qw(chat css-ot debian-offtopic linux-offtopic kde-chat web-social)],
-    general    => [qw(freenode comcast-users scifi)],
+    programs   => [qw(git firefox videolan notepad++ geany gramps graphviz hexchat inkscape xchat vim emacs libreoffice)],
+    social     => [qw(perlcafe chat css-ot debian-offtopic linux-offtopic kde-chat web-social git-offtopic)],
+    general    => [qw(freenode comcast-users scifi hardware programming design)],
     'desktop environments' => [qw(kde gnome xfce)],
     kde        => [qw(kde amarok kde-women kontact okular)],
   },
