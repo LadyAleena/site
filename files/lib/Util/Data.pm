@@ -34,7 +34,7 @@ sub file_directory {
 }
 
 # file_list returns a list of the contents in a directory.
-## There are two options:
+## There are options:
 ### 'type' returns only the wanted type files or directories.
 ### 'uppercase' returns only files that begin with an initial uppercase letter.
 ### 'full path' returns the list with the files' full paths.
