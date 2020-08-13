@@ -8,12 +8,12 @@ our $VERSION   = '1.0';
 our @EXPORT_OK = qw(month_number);
 
 my %month_names = (
-  'English'      => [qw(January February March April May June July August Spetember October November December)],
+  'English'      => [qw(January February March April May June July August September October November December)],
   'English abbr' => [qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Now Dec)],
   'Dutch'        => [qw(januari februari maart april mei juni juli augustus september oktober november december)],
-  'French'       => [qw(janvier février mars avril mai juin juillet août septembre octobre novembre décembre)],
-  'German'       => [qw(Januar Februar März April Mai Juni Juli August September Oktober November Dezember)],
-  'Greek'        => [qw(Ianuários Fevruários Mártios Aprílios Máios Iúnios Iúlios Avghustos Septémvrios Októvrios Noémvrios Thekémvrios)],
+  'French'       => [qw(janvier fÃ©vrier mars avril mai juin juillet aoÃ»t septembre octobre novembre dÃ©cembre)],
+  'German'       => [qw(Januar Februar MÃ¤rz April Mai Juni Juli August September Oktober November Dezember)],
+  'Greek'        => [qw(IanuÃ¡rios FevruÃ¡rios MÃ¡rtios AprÃ­lios MÃ¡ios IÃºnios IÃºlios Avghustos SeptÃ©mvrios OktÃ³vrios NoÃ©mvrios ThekÃ©mvrios)],
   'Italian'      => [qw(gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre)],
   'Spanish'      => [qw(enero febrero marzo abril mayo junio julio agosto septiembre octubre noviembre diciembre)],
 );
@@ -64,7 +64,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright Â© 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 
