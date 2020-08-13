@@ -76,8 +76,8 @@ sub convert_filesize {
 
 =head1 NAME
 
-B<Fun::ConvertFileSize> converts one filesize to another filesize like gigabytes to kilobytes and the reverse.
-There is also a random filesize generator included for fun.
+B<Fun::ConvertFileSize> converts one file size to another file size like gigabytes to kilobytes and the reverse.
+There is also a random file size unit generator included for fun.
 
 =head1 VERSION
 
@@ -101,33 +101,35 @@ To use this script, please use the following.
 
 =head1 DESCRIPTION
 
+Fun::ConvertFileSize converts one file size to another file size like gigabytes to kilobytes and the reverse. The C<convert_filesize> function must be imported into your script.
+
+C<random_filesize_unit> returns a random file size unit and is included for fun.
+
 =head2 convert_filesize
 
-C<convert_filesize> has the following options.
+C<convert_filesize> must be imported into your script and has the following parameters.
 
-=over
+=head3 Parameters
 
-=item size
+=head4 size
 
 C<size> is the original size you want to convert and is required.
 
-=item from
+=head4 from
 
-C<from> is the filesize name you want to convert from and is required.
+C<from> is the filesize unit name you want to convert from and is required.
 
-=item to
+=head4 to
 
-C<to> is the filesize name you want to convert to and is required.
+C<to> is the filesize unit name you want to convert to and is required.
 
-=item decimals
+=head4 decimals
 
 C<decimals> is the how many decimals you want returned. Conversions from smaller to larger can lead to a lot of decimals places. The default is 0.
 
-=item base
+=head4 base
 
-C<base> is how many of a smaller is in a larger. Some use 1024 as the base while others use 1000. Default is 1024.
-
-=back
+C<base> is how many of a smaller is in a larger. Some systems use 1024 as the base while others use 1000. The default is 1024.
 
 =head3 from and to
 

@@ -71,31 +71,33 @@ This document describes String::Abbeviate version 1.0.
 
 String::Abbeviate returns an abbreviation for a string. C<abbr> or C<initial> must be imported into your script. C<initial> is an alias for C<abbr>.
 
-=over
+=head2 abbr
 
-=item name
+C<abbr> has five parameters that are all optional except the C<name> option.
 
-C<name> is the name to be abbreviated. If the name does not have any spaces, underscores, or hyphens in it; it will be returned without being abbreviated.
+=head3 Parameters
 
-=item article
+=head4 name
+
+C<name> is the name to be abbreviated. If the name does not have any spaces, underscores, or hyphens in it; it will be returned without being abbreviated. If no name is given, the script will C<die>.
+
+=head4 article
 
 C<article> is the option to C<drop> the article from the abbreviation. The World Wide Web would drop the article "The" and be abbriviated as WWW.
 
-=item periods
+=head4 periods
 
 C<periods> is the option to add periods to the abbreviation with yes, true, or 1. With it on John Doe would be abbreviated J.D.
 
-=item ALLCAPS
+=head4 ALLCAPS
 
 C<ALLCAPS> is the option to make the abbreviation all capital letters. The International House of Pancakes would be abbreviated IHOP.
 
-=item HTML
+=head4 HTML
 
 C<HTML> is the option to add the HTML C<<abbr>> tag to the abbreviation. Plain Old Documentation would be returned as follows:
 
   <abbr title="Plain Old Documentation">POD</abbr>
-
-=back
 
 =head1 DEPENDENCY
 

@@ -126,33 +126,19 @@ It requires Perl version 5.16.0 or better.
 
 =over
 
-=item *
+=item * C<s> - The sort will be case I<sensitive>.
 
-C<s> - The sort will be case I<sensitive>.
+=item * C<i> - The sort will be case I<insensitive>.
 
-=item *
+=item * C<a> - The sort will be in I<ascending> order.
 
-C<i> - The sort will be case I<insensitive>.
+=item * C<d> - The sort will be in I<descending> order.
 
-=item *
+=item * C<r> - The items in the list will be I<reversed> (right to left), then sorted.
 
-C<a> - The sort will be in I<ascending> order.
+=item * C<n> - The sort will be I<numeric>.
 
-=item *
-
-C<d> - The sort will be in I<descending> order.
-
-=item *
-
-C<r> - The items in the list will be I<reversed> (right to left), then sorted.
-
-=item *
-
-C<n> - The sort will be I<numeric>.
-
-=item *
-
-C<l> - The list will be sorted by the I<length> of the values.
+=item * C<l> - The list will be sorted by the I<length> of the values.
 
 =back
 
