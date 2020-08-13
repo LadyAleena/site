@@ -151,25 +151,25 @@ These options will select any value in any list. You can read the options below 
 
   random_family_member('parents');
 
-The C<parents> option will select from mother and father.
+The C<parents> option returns mother or father.
 
 =item generational parents
 
   random_family_member('generational parents');
 
-The C<generational parents> option will select from mother, father, grandmother, grandfather, great-grandmother, great-grandfather, ancestal mother, and ancestral father.
+The C<generational parents> option returns mother, father, grandmother, grandfather, great-grandmother, great-grandfather, ancestal mother, or ancestral father.
 
 =item extended parents
 
   random_family_member('extended parents');
 
-The C<exented parents> option will select from mother, father, step-mother, step-father, mother-in-law, and father-in-law.
+The C<exented parents> option returns mother, father, step-mother, step-father, mother-in-law, or father-in-law.
 
 =item ancestors
 
   random_family_member('ancestors');
 
-The C<ancestors> option will select from all of the other parent options.
+The C<ancestors> option returns one from all of the other parent options.
 
 =back
 
@@ -181,25 +181,25 @@ The C<ancestors> option will select from all of the other parent options.
 
   random_family_member('children');
 
-The C<children> option will select from daughter and son.
+The C<children> option returns daughter or son.
 
 =item generational children
 
   random_family_member('generational children');
 
-The C<generational children> option will select from daughter, son, granddaughter, grandson, great-granddaughter, and great-grandson.
+The C<generational children> option returns daughter, son, granddaughter, grandson, great-granddaughter, or great-grandson.
 
 =item extended children
 
   random_family_member('extended children');
 
-The C<extended children> option will select from daughter, son, step-daughter, step-son, daughter-in-law, and son-in-law.
+The C<extended children> option returns daughter, son, step-daughter, step-son, daughter-in-law, or son-in-law.
 
 =item descendents
 
   random_family_member('descendants');
 
-The C<descendents> option will select from all of the other children options.
+The C<descendents> option returns one from all of the other children options.
 
 =back
 
@@ -211,13 +211,13 @@ The C<descendents> option will select from all of the other children options.
 
   random_family_member('siblings');
 
-The C<siblings> option will select from sister and brother.
+The C<siblings> option returns sister or brother.
 
 =item extended siblings
 
   random_family_member('extended siblings');
 
-The C<extended siblings> option will select from sister, brother, step-sister, step-brother, sister-in-law, and brother-in-law.
+The C<extended siblings> option returns sister, brother, step-sister, step-brother, sister-in-law, or brother-in-law.
 
 =back
 
@@ -229,13 +229,13 @@ The C<extended siblings> option will select from sister, brother, step-sister, s
 
   random_family_member('niblings');
 
-The C<niblings> option will select from niece and nephew.
+The C<niblings> option returns niece or nephew.
 
 =item generational niblings
 
   random_family_member('generational niblings');
 
-The C<generational niblings> option will select from niece, nephew, grandniece, grandnephew, great-grandniece, and great-grandnephew.
+The C<generational niblings> option returns niece, nephew, grandniece, grandnephew, great-grandniece, or great-grandnephew.
 
 =back
 
@@ -247,13 +247,13 @@ The C<generational niblings> option will select from niece, nephew, grandniece, 
 
   random_family_member('piblings');
 
-The C<piblings> option will select from aunt and uncle.
+The C<piblings> option returns aunt or uncle.
 
 =item generational piblings
 
   random_family_member('generational piblings');
 
-The C<generational piblings> option will select from aunt, uncle, grandaunt, granduncle, great-grandaunt, and great-granduncle.
+The C<generational piblings> option returns aunt, uncle, grandaunt, granduncle, great-grandaunt, or great-granduncle.
 
 =back
 
@@ -277,13 +277,13 @@ The C<cousins> option will return cousin.
 
   random_family_member('spouses');
 
-The C<spouses> option will select from wife and husband.
+The C<spouses> option returns wife or husband.
 
 =item extended spouses
 
   random_family_member('extended spouses');
 
-The C<extended spouses> option will select from wife, husband, ex-wife, and ex-husband.
+The C<extended spouses> option returns wife, husband, ex-wife, or ex-husband.
 
 =back
 
@@ -295,13 +295,13 @@ The C<extended spouses> option will select from wife, husband, ex-wife, and ex-h
 
   random_family_member('friends');
 
-The C<friends> option will select from girlfriend and boyfriend.
+The C<friends> option returns girlfriend or boyfriend.
 
 =item extended friends
 
   random_family_member('extended friends');
 
-The C<extended friends> option will select from girlfriend, boyfriend, ex-girlfriend, and ex-boyfriend.
+The C<extended friends> option returns girlfriend, boyfriend, ex-girlfriend, or ex-boyfriend.
 
 =back
 
@@ -309,26 +309,26 @@ The C<extended friends> option will select from girlfriend, boyfriend, ex-girlfr
 
   random_family_member('by keys');
 
-The C<by keys> option will select a random key listed above.
+The C<by keys> option returns a random key listed above.
 
 =head4 keys
 
   random_family_member('keys');
 
-The C<keys> option will list all of the available keys in an array reference.
+The C<keys> option returns all of the available keys in an array reference.
 
 =head4 data
 
   random_family_member('data');
 
-The C<data> option will return the data used in a hash reference.
+The C<data> option returns the data used in a hash reference.
 
 =head4 help or options
 
   random_family_member('help');
   random_family_member('options');
 
-The C<help> or C<options> options will return a list of all of your options.
+The C<help> or C<options> options returns a list of all of your options.
 
 =head3 Adding items to a list
 
