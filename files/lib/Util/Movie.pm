@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(movie series franchise genre sources movie_option start_year
 
 use File::Spec;
 use Lingua::EN::Inflect qw(A PL_N NUM NO NUMWORDS inflect);
-use List::Util qw(any min max first);
+use List::Util qw(min max);
 
 use HTML::Elements qw(footer section nav heading paragraph list span anchor);
 
