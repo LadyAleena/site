@@ -8,8 +8,7 @@ use Util::Convert  qw(textify idify searchify);
 use Fancy::Join qw(join_defined grammatical_join);
 use Xanth::Family    qw(get_family);
 use Xanth::Novel     qw(current_year);
-use Xanth::PageLinks qw(timeline_link);
-use Xanth::Util      qw(character_link);
+use Xanth::PageLinks qw(character_link timeline_link);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_dates_family);

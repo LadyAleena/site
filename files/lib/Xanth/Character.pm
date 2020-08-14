@@ -13,8 +13,9 @@ use Xanth::Dates     qw(get_dates_family);
 use Xanth::LineMagic qw(Xanth_line_magic);
 use Xanth::Location  qw(get_locations);
 use Xanth::Novel     qw(char_intro_novel get_novels);
+use Xanth::PageLinks qw(character_link);
 use Xanth::Species   qw(get_species);
-use Xanth::Util      qw(character_link get_article gendering);
+use Xanth::Util      qw(get_article gendering);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_open get_character);

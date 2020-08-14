@@ -8,9 +8,8 @@ use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(textify idify searchify);
 use Util::Data    qw(data_file make_hash);
 
-use Xanth::Util      qw(character_link);
 use Xanth::Novel     qw(novel_link);
-use Xanth::PageLinks qw(timeline_link);
+use Xanth::PageLinks qw(character_link timeline_link);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_line_magic);

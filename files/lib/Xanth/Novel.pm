@@ -11,8 +11,7 @@ use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file make_hash);
-use Xanth::Util      qw(character_link);
-use Xanth::PageLinks qw(timeline_link);
+use Xanth::PageLinks qw(character_link timeline_link);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);

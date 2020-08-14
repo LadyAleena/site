@@ -144,7 +144,7 @@ Ptero through Torus were explored in ^Faun and Games^. Cone through Motes were i
 #* B<Comic Strips|id="Comic_Strip"> are areas on Ptero that are filled with puns. To get from place to place on Ptero, one must sometimes cross them.
 #* B<Prince Town|id="Prince_Town"> is a city filled with unemployed princes being educated. It was visited in ^Zombie Lover^.
 #* B<Princess Town|id="Princess_Town"> is another city on Ptero, probably similar to Prince Town.
-# B<Pyramid|id="Pyramid"> is a four sided pyramid where each triangular face is a different color blue, red, green, and gray. The side a person lands on orients them to the world. One would need to be reoriented when going over the edge between sides. Generosity is power here.
+# B<Pyramid|id="Pyramid"> is a four sided pyramid where each triangular face is a different color SPAN<blue|id="Blue_Face">, SPAN<red|id="Red_Face">, SPAN<green|id="Green_Face">, and SPAN<gray|id="Gray_Face">. The side a person lands on orients them to the world. One would need to be reoriented when going over the edge between sides. Generosity is power here.
 # B<Torus|id="Torus"> is shaped like a doughnut. One who does a service for another comes to like that person or even love them. If you arrange to exchange favors, they cancel out.
 # B<Cone|id="Cone"> is a world of crossbreeds. People live on both the inside and outside of the cone. The inside is filled with water and people can breathe in it. All breeding must be done at the rim. Ida lives at the inside point of the cone and is also a crossbreed with the body of a human and the head of a horse.
 #* B<Nametag Castle> is the castle of the nametaggers in ^Air Apparent^.

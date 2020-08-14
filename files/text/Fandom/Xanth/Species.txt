@@ -23,8 +23,41 @@ The are many species of insects in Xanth such as ants, bees, butterflies, and fl
 * A B<letter bug|id="letter bug"> is found in a comic strip on A<Ptero|href="?select=Locations#Ptero">. The A's feel they are a superior species to all other letter bugs like the Bs, Cs, Ds, Gs, etc. They were introduced in ^Currant Events^.
 * There are many types of B<flies> such as the Fly Balls, Fruit Flies, Inland Flies, Mom Flies, Pop Flies, and Time Flies. These are on the A<Isle of Flies|href="?select=Locations#Isle_of_Flies"> and were introduced in ^Board Stiff^.
 * There are many types of B<ants>. Fire ants were introduced in ^Up in a Heaval^. Devi Ants, Domin Ants, Err Ants, Gi Ants, Inf Ants, Long P Ants, Milit Ants, Mut Ants, Sarge Ants, Short P Ants, Ten Ants, Tru Ants, and Tyr Ants were introduced in ^Fire Sail^.
+4 Tics
+A B<tic|id="tic"> is an insect that, when in a clock, measured time with tocks. In ^955^ the tics mutated and several sub-species appeared in ^Question Quest^. The subspecies are listed in order of appearance.
+*| two
+* A B<fran-tic> jumps around madly and is always rushing around.
+* A B<cri-tic> is critical of anything it encounters and does nothing useful.
+* An B<an-tic> is a former cri-tic.
+* A B<roman-tic> is as its name implies.
+* A B<poli-tic> infects creatures with ambition.
+* A B<luna-tic> makes people crazy.
+* A B<hera-tic> is concerned with matters of faith.
+* A B<dras-tic> takes desperate measures.
+* B<aqua-tic>
+* B<elas-tic>
+* A B<gymnas-tic> is the nimblest tic.
+* An B<acroba-tic> is similar to the gymnas-tic.
+* An B<enigma-tic> is hard to figure out.
+* A B<problema-tic> is the most difficult tic.
+* An B<orgias-tic> is the wildest tic.
+* A B<bombas-tic> is annoying.
+* A B<pedan-tic> is boring.
+* A B<dogma-tic> is not worth arguing with.
+* An B<empha-tic> is impossible to calm.
+* A B<sta-tic> is a former B<spas-tic>.
+* A B<gigan-tic> is the largest tic.
+* A B<fantas-tic> is the most interesting tic.
+* An B<arithma-tic> or a B<gramma-tic> is annoying to children.
+* An B<op-tic> helps people see better.
+* A B<clima-tic> affects the weather.
+* A B<climac-tic> affects great events.
+* A B<characteris-tic> helps distinguish between things.
+* A B<rus-tic> is well hidden.
+* An B<at-tic> lives in high places.
+* An B<ecsta-tic> is happy.
 3 Voles
-There are several sub-species of voles in Xanth. The largest are the SPAN<diggles|id="diggle">. The smallest visible voles are the SPAN<wiggles|id="wiggle">. There are also a medium sized vole called SPAN<squiggles|id="squiggle">. The smallest voles are the SPAN<giggles|id="giggle"> that are invisible.
+There are several sub-species of B<voles> in Xanth. The largest are the SPAN<diggles|id="diggle">. The smallest visible voles are the SPAN<wiggles|id="wiggle">. There are also medium sized voles called SPAN<squiggles|id="squiggle">. The smallest voles are the SPAN<giggles|id="giggle"> that are invisible.
 2 Demons
 B<Demons|id="demon">, with a lowercased "d", are mischeivios souless creatures who can change their shape, size, and mass to whatever they want. It is unknown how long they live.
 B<Half demons|id="half_demon"> can change their shape, size, and mass to whatever they wants; but it is very slow. They have souls and can die like mortals.

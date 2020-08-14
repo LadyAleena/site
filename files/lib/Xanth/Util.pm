@@ -4,44 +4,11 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A NUMWORDS ORD);
-
-use Fancy::Join    qw(grammatical_join join_defined);
-use HTML::Elements qw(anchor);
-use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(make_hash);
+use Fancy::Join::Defined qw(join_defined);
 
 our $VERSION   = "1.0";
-our @EXPORT_OK = qw(character_link group_character_link gendering get_article);
+our @EXPORT_OK = qw(gendering get_article);
 
-my $see_char = make_hash(
-  'file' => ['Fandom/Xanth', 'see_character.txt'],
-);
-
-# Begin creating links for characters
-
-sub character_link {
-  my ($in, $alt) = @_;
-  my $num_text;
-  if ($in =~ /^\d/) {
-    my ($num, $new_text) = split(/ /, $in, 2);
-    $num_text = NUMWORDS($num)." $new_text";
-  }
-  my $text   = $alt ? textify($alt) : textify($in);
-  my $search = $see_char->{$in} ? searchify($see_char->{$in}) : searchify($in);
-  my $link   = $in =~ /^[A-Z]/  ? anchor($text, { href => "Characters.pl?character=$search" }) :
-               $in =~ /^\d/     ? $num_text : A($text);
-  return $link;
-}
-
-sub group_character_link {
-  my $in = shift;
-#  my @characters = split(/; /, $in);
-  my $out = grammatical_join('and', map { character_link($_) } @$in);
-  return $out;
-}
-
-# End creating links for characters
 # Gets gender text for different relationships and species in Xanth
 ## pibling and nibling are referenced at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1570791/
 

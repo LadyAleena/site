@@ -20,9 +20,9 @@ use Util::Number             qw(commify);
 use Xanth::Character         qw(get_open get_character);
 use Xanth::Location          qw(location_link get_locations);
 use Xanth::Novel             qw(novel_link novel_nav novel_intro current_year);
-use Xanth::PageLinks         qw(locations_page_link species_page_link timeline_link);
+use Xanth::PageLinks         qw(character_link locations_page_link timeline_link);
 use Xanth::Species           qw(species_link get_species);
-use Xanth::Util              qw(character_link gendering get_article);
+use Xanth::Util              qw(gendering get_article);
 
 # Begin importing data
 

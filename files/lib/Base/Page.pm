@@ -30,7 +30,7 @@ my $root_link = base_path('link');
 sub contact_links {
   my $contacts = make_hash( 'file' => ['Util', 'other_sites.txt'] );
 
-  my @links;;
+  my @links;
   for my $link (sort { lc $a cmp lc $b } keys %$contacts) {
     my $address = $contacts->{$link};
     my $title = "Lady Aleena on $link";
