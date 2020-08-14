@@ -14,3 +14,4 @@ A<B<Miscellany>|href="Miscellany"> are my A<geeky thoughts|href="Miscellany/Geek
 2 Acknowledgements
 This website was built with the help of the A<PerlMonks|href="https://www.perlmonks.org" target="ex_tab"> and the users of A<#perl|href="irc://freenode/perl"> and A<#perlcafe|href="irc://freenode/perlcafe"> channels on freenode.
 My site is hosted on A<Xecu.net|href="https://www.xecu.net" target="ex_tab">, but they are not affiliated with my personal website. Please point all links to this site at CODE<A<fantasy.xecu.net|href="http://fantasy.xecu.net">>. Thank you!
+My site has a A<repository|href="https://github.com/LadyAleena/Lady_Aleena" target="GitHub"> on GitHub.
