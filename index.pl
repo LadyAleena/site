@@ -73,7 +73,7 @@ page(
       story($page_fh, { 'line magic' => $magic })
     }
     elsif ($page && $page eq 'irc') {
-      section(3, 'These are the <b>IRC channels</b> where I chat sometimes, though not all at once.');
+      section(3, 'These are the <b>IRC channels</b> where I chat sometimes, though not all at once. I am <code>Lady_Aleena</code> on IRC or other aliases with <code>Aleena</code> such as <code>Scary_Aleena</code> for Halloween.');
       for my $server (sort { lc $a cmp lc $b } keys %irc) {
         section(3, sub {
           list(4, 'u', irc_list($server, $irc{$server}{'general'}));
