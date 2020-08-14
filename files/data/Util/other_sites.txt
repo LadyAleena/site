@@ -1,9 +1,1 @@
-eBay|members.ebay.com/aboutme/lady_fantasy
-IMDb|www.imdb.com/user/ur1803466/
-PerlMonks|www.perlmonks.org/?node_id=161890
 twitter|twitter.com/Lady_Aleena
-Wikipedia|en.wikipedia.org/wiki/User:Lady_Aleena
-YouTube|www.youtube.com/user/LadyAleena
-GitHub|github.com/LadyAleena
-StackExchange|stackexchange.com/users/62646/lady-aleena?tab=accounts
-Amazon|www.amazon.com/gp/profile/amzn1.account.AH4RO3KOBRHQ4K5DXZVELRKKAN6A

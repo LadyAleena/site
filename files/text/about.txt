@@ -1,5 +1,6 @@
 This is everything you may want to know B<about Lady Aleena> and the site.
-2 This site
+2 My site
+STRONG<My site has a A<repository|href="https://github.com/LadyAleena/Lady_Aleena" target="GitHub"> on GitHub.>
 In the late 90s, I got 10 megabytes of complimentary web space from my internet service provider along with several e-mail addresses. Wanting to put my mark on the net, I created my first web page in Microsoft Word. Everything was going fine. My site got bigger and bigger, and Word even gave me frames. It was when I wanted to put some code on my site from somewhere else when the need to know how to write HTML caught up with me. No matter what I did in Word, the block would not go where I wanted it. I got the message, learn how to write a web page. Before then I did not care about the markup, I just wanted my pages to look pretty.
 At first I found a site here and there which told me what all those things meant in between the &#060; and &#062;. With just the basics, I started to rewrite my site. I kept the frames and still did a lot wrong. I had deprecated tags everywhere. The amount of &#060;font&#062; tags was enough to make some throw their hands up in the air in exasperation. Not only did I have a lot of deprecated tags, I had tags unclosed. I just plain did not get it.
 It took some very patient people talking me through my hysterics when something on my site did not work to finally get my site looking better and most areas working right. Then I ran out of space. I had filled my 10 megabytes rather quickly. Hysterics ensued. Then someone casually mentioned CSS. When I saw what one line of CSS could do to cut my page size down, I nearly cried (or did I actually feel a tear?). Within weeks the size of my site was down by more than 75%. After that my whole coding philosophy became small is beautiful.
@@ -12,18 +13,30 @@ When I came back to Perl, I had an even greater revelation and got down to the b
 Now, this is not to say in that since 2009 I have learned everything that I need to know about Perl. Learning Perl through online resources without any structure to it means I have gaping holes in my knowledge, unless learning what need when I need it is a good structure in which to learn. So I know most of the standard built-in functions, how to use a handful of modules from CPAN, and how to write scripts in a general sort of way. The biggest gaps are some of the basic building blocks of Perl. For example, I still do not know how or when to write objects. I can write modules, but do not know how to package or write tests for them. I do not understanding of the various web frameworks. And there is so much more.
 So, while Perl is the rock this site is built on, it could crumble and fall apart at any time.
 2 Me
-I was born on July 10th, 1971 at Fort George G. Meade, Maryland. My father was posted to Fort Huachuca, Arizona, and we lived in Sierra Vista, Arizona. My father's next post took us to Fort Jackson, South Carolina where we lived on base. My family moved to Marktsteft and then to Kitzingen in, then, West Germany. After living there for a few years, my father was posted to Fort Ord, California. This was the last military post on which we would live. When my father retired, my family moved to Frederick, Maryland. We briefly lived in Brunswick, Maryland. I now live in Woodsboro, Maryland with my fiancé. I have gone back to Germany on a student exchange program. I have briefly visited Mexico and France.
-I have ^Debian^ Stretch with ^KDE^ and ^XFCE^. I use ^Mozilla^ ^Firefox^ to browse the internet with A<Google|href="http://www.google.com"> as my preferred search engine. I connect with ^HexChat^ to chat on IRC. I used to send instant messages with A<Trillian|href="http://www.trillian.im">, but I now hang out on A<Twitter|href="http://www.twitter.com">. I do most of my editing off-line using ^Geany^. I use ^LibreOffice^ office sparingly. My favorite off-line computer games are those produced by ^PopCap Games^.
+I was born on 10 July 1971 at Fort George G. Meade, Maryland. My father was posted to Fort Huachuca, Arizona, and we lived in Sierra Vista, Arizona. My father's next post took us to Fort Jackson, South Carolina where we lived on base. My family moved to Marktsteft and then to Kitzingen in, then, West Germany. After living there for a few years, my father was posted to Fort Ord, California. This was the last military post on which we would live. When my father retired, my family moved to Frederick, Maryland. We briefly lived in Brunswick, Maryland. I now live in Woodsboro, Maryland with my fiancé. I have gone back to Germany on a student exchange program. I have briefly visited Mexico and France.
+I have ^Debian^ Buster with ^XFCE^ and ^KDE^. I use ^Mozilla^ ^Firefox^ to browse the internet with A<Google|href="http://www.google.com"> as my preferred search engine. I connect with ^HexChat^ to chat on IRC. I used to send instant messages with A<Trillian|href="http://www.trillian.im">, but I now hang out on A<Twitter|href="http://www.twitter.com">. I do most of my editing off-line using ^Geany^. I use ^LibreOffice^ office sparingly. My favorite off-line computer games are those produced by ^PopCap Games^.
 I like putting together jigsaw puzzles and enjoy playing A<chess|href="../Miscellany/Geeky_thoughts/index.pl?page=Chess+variants">, mahjong, and spades.
 When I was younger, I was simultaneously interested in astronomy and mythology. From my interest in those fields, I became interested in the various fields of divination. My interest in gemstones and minor interest in mineralogy sprang from playing Dungeons & Dragons which interested me in titles of nobility and geography. I no longer play Dungeons & Dragons.
 I am only mildly interested in politics and then only in theoretical applications.
-3 Pets
+3 My profiles on various services
+I have profiles on various services around the internet. They could give you more insight about me depending on the site.
+*| three
+* A<Amazon|href="www.amazon.com/gp/profile/amzn1.account.AH4RO3KOBRHQ4K5DXZVELRKKAN6A" target="other_me">
+* A<Blogspot|href="ladyaleena.blogspot.com" target="other_me"> - I lost intrest in blogging here.
+* A<eBay|href="members.ebay.com/aboutme/lady_fantasy" target="other_me">
+* A<IMDb|href="www.imdb.com/user/ur1803466/" target="other_me">
+* A<PerlMonks|href="www.perlmonks.org/?node_id=161890" target="other_me">
+* A<StackExchange|href="stackexchange.com/users/62646/lady-aleena?tab=accounts" target="other_me">
+* A<tumblr|href="ladyaleena.tumblr.com" target="other_me"> - I lost intrest in blogging here.
+* A<Wikipedia|href="en.wikipedia.org/wiki/User:Lady_Aleena" target="other_me">
+* A<YouTube|href="www.youtube.com/user/LadyAleena" target="other_me">
+3 Our pets
 We love cats. We have two cats. Nybble was given to us on 30 March 2016. Bitsy was brought home on 14 October 2018.
 Our cat Cache, previously owned by my mother and named Cash, died on 8 March 2016. Our cat Peepers died on 8 January 2010. We have had two other cats, Percher and Snowball, both deceased. Percher died from feline leukemia.
 While I lived with my mother and siblings, our family owned several cats: Critter, Casey, and Pepper; and dogs: Blackie and Tabitha; and a bird: Tweeter.
-3 Colors
+3 My favorite colors
 I do not have one favorite color but prefer shades of blue and yellow, though I do like other color combinations. This site used to use colors from the Maryland flag which I like.
-3 Birthstones and the Zodiac
+3 My birthstones and the Zodiac
 * B<Birth stone:> ruby
 * B<Birthday stone:> turquoise or diamond
 * B<Birth flowers>
