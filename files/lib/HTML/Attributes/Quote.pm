@@ -1,4 +1,4 @@
-package Util::QuoteAttribute;
+package Util::Attributes::Quote;
 use v5.8.8;
 use strict;
 use warnings;
