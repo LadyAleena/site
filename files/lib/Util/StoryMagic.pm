@@ -7,6 +7,7 @@ our @EXPORT_OK = qw(program_magic pc_magic story_magic);
 
 use File::Spec;
 
+use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(idify);
 use Util::Data    qw(data_file make_hash);
 use Util::Path    qw(base_path);
@@ -27,9 +28,7 @@ sub program_magic {
 # to be used on any story involving my player characters
 
 sub pc_magic {
-  open(my $pc_fh, '<', data_file('Role_playing','player_characters_list.txt')) || die $!;
-  my @pcs = map { chomp; $_ } <$pc_fh>;
-  close($pc_fh);
+  my @pcs = fancy_open(data_file('Role_playing','player_characters_list.txt'));
 
   my $pc_links;
   for my $pc (@pcs) {
