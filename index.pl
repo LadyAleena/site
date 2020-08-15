@@ -10,11 +10,7 @@ use HTML::Entities qw(encode_entities);
 use lib 'files/lib';
 use Base::Page     qw(page story);
 use HTML::Elements qw(section heading list anchor);
-use Util::Columns  qw(number_of_columns);
-use Util::Convert  qw(searchify);
-use Util::Data     qw(file_directory file_list);
-use Util::Menu     qw(file_menu);
-use Util::Sort     qw(article_sort);
+use Util::IRC      qw(irc_list);
 use Util::StoryMagic qw(story_magic);
 
 my $cgi       = CGI::Simple->new;
@@ -50,19 +46,6 @@ my %irc = (
     general => [qw(debian debian-apache debian-offtopic debian-kde)],
   },
 );
-
-sub irc_link {
-  my ($server, $channel) = @_;
-  my @double_bang = qw(chat windows linux gnome javascript linuxmint design hardware programming linux-offtopic css-ot);
-  my $channel_link = grep($_ eq $channel, @double_bang) ? '##'.$channel : $channel;
-  return anchor($channel, { href => "irc://$server/$channel_link" });
-}
-
-sub irc_list {
-  my ($server, $list, $subject) = @_;
-  my @channel_list = map { irc_link( $server, $_ ) } sort { lc $a cmp lc $b } @$list;
-  return (\@channel_list, { 'class' => number_of_columns(4, scalar @channel_list, 1) });
-}
 
 my $magic = story_magic;
 page(
