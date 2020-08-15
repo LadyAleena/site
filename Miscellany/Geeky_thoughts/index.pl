@@ -9,7 +9,8 @@ use HTML::Entities qw(encode_entities);
 use Math::BigInt;
 
 use lib '../../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use HTML::Elements qw(list anchor object figure img definition_list table);
 use Util::Convert  qw(searchify);
 use Util::Data     qw(file_directory file_list make_array);

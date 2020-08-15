@@ -7,7 +7,7 @@ use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page     qw(page);
+use Page::Base     qw(page);
 use Fancy::Join::Defined qw(join_defined);
 use HTML::Elements qw(section paragraph table anchor);
 use HTML::Forms    qw(tiny_select);

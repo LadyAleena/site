@@ -10,7 +10,8 @@ use Lingua::EN::Inflect qw(A);
 use File::Temp qw(tempfile);
 
 use lib '../../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use HTML::Elements qw(section paragraph list);
 use Random::RPG::Monster qw(random_monster random_monster_list);
 use RPG::Monster   qw(monster_info);

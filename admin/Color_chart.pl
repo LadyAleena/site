@@ -3,7 +3,8 @@ use strict;
 use warnings FATAL => qw( all );
 
 use lib '../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use HTML::Elements qw(table);
 
 sub color_opts {

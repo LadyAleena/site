@@ -8,7 +8,8 @@ use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use HTML::Elements qw(section heading list anchor);
 use Util::IRC      qw(irc_list);
 use Util::StoryMagic qw(story_magic);

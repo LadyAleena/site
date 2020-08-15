@@ -5,7 +5,7 @@ use warnings FATAL => qw( all );
 use CGI::Carp qw(fatalsToBrowser);
 
 use lib '../files/lib';
-use Base::Page qw(page);
+use Page::Base qw(page);
 use HTML::Elements qw(section nav list anchor);
 use Util::Data qw(data_file alpha_hash);
 use Util::Menu qw(alpha_menu);

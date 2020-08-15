@@ -8,7 +8,8 @@ use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../../files/lib';
-use Base::Page     qw(page story passage);
+use Page::Base     qw(page);
+use Page::Story    qw(story passage);
 use HTML::Elements qw(list anchor heading);
 use Util::Convert  qw(searchify);
 use Util::Data     qw(file_directory file_list);

@@ -8,7 +8,7 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(ORD NUMWORDS);
 
 use lib '../../files/lib';
-use Base::Page     qw(page);
+use Page::Base     qw(page);
 use HTML::Elements qw(section paragraph list form fieldset inputs);
 use RPG::CharacterMutation qw(random_mutations);
 

@@ -9,7 +9,8 @@ use HTML::Entities qw(encode_entities);
 use Date::Calc qw(Month_to_Text);
 
 use lib '../../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use HTML::Elements qw(section list paragraph);
 use Fancy::Join::Defined qw(join_defined);
 use Util::Convert  qw(textify filify);

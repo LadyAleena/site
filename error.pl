@@ -7,7 +7,8 @@ use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
-use Base::Page qw(page story);
+use Page::Base  qw(page);
+use Page::Story qw(story);
 
 my $error_codes;
 $error_codes->{300} = 'multiple choices';

@@ -9,7 +9,7 @@ use Lingua::EN::Inflect qw(NUM A NUMWORDS ORD PL_N PL_V NO classical);
 use List::MoreUtils     qw(first_index);
 
 use lib '../../files/lib';
-use Base::Page     qw(page);
+use Page::Base     qw(page);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(section nav paragraph list details anchor);
 use Util::Columns  qw(number_of_columns);

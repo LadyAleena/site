@@ -9,7 +9,8 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use Fancy::Join::Defined qw(join_defined);
 use HTML::Elements qw(section list table span);
 use Util::Convert  qw(idify);

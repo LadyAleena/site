@@ -8,7 +8,8 @@ use File::Basename;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page     qw(page passage);
+use Page::Base     qw(page);
+use Page::Story    qw(passage);
 use HTML::Elements qw(section paragraph list);
 use Util::Sort     qw(article_sort);
 use RPG::Spell::List qw(spell_data);

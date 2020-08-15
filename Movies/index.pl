@@ -10,7 +10,8 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../files/lib';
-use Base::Page     qw(page story);
+use Page::Base     qw(page);
+use Page::Story    qw(story);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(section nav div paragraph list form fieldset selection details input anchor);
 use Util::Movie    qw(movie genre movie_option display_option textify_movie start_year end_year
