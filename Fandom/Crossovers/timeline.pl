@@ -11,13 +11,13 @@ use Date::Calc qw(Month_to_Text);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
+use Page::Story::Inline qw(inline);
 use HTML::Elements qw(section list paragraph);
-use Fancy::Join::Defined qw(join_defined);
 use Util::Convert  qw(textify filify);
 use Util::Data     qw(file_directory file_list);
-use Util::Inline   qw(inline);
 use Util::Menu     qw(file_menu);
 use Util::Sort     qw(article_sort);
+use Fancy::Join::Defined qw(join_defined);
 
 sub convert_month {
   my $month = shift;

@@ -11,10 +11,10 @@ use List::Util qw(max);
 use HTML::Elements qw(nav section heading paragraph blockquote list table  pre anchor   );
 use Util::Convert  qw(idify textify searchify);
 use Util::Columns  qw(number_of_columns);
-use Util::Inline   qw(inline);
 use Util::Line     qw(line);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use Page::Link::External     qw(external_links);
+use Page::Story::Inline      qw(inline);
 
 # Start the story
 
