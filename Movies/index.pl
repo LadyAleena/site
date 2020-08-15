@@ -14,7 +14,8 @@ use Base::Page               qw(page story);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements           qw(section nav div paragraph list form fieldset selection details input anchor);
 use Util::Movie              qw(movie genre movie_option display_option textify_movie start_year end_year
-                                display_movie display_simple_movie print_series print_movie);
+                                display_movie display_simple_movie print_series print_movie
+                                get_genre get_media movies_beginning);
 use Util::Columns            qw(number_of_columns);
 use Util::Convert            qw(idify);
 use Util::Data               qw(file_directory alpha_hash alpha_array first_alpha);
@@ -28,32 +29,6 @@ sub get_cgi_param {
   my ($cgi, $param) = @_;
   my $ret = $cgi->param($param);
   return ($ret ? encode_entities($ret, '<>"') : '');
-}
-
-sub get_genre {
-  my ($genre_type, $opt) = @_;
-  my $text = $genre_type =~ /(?<!fantas)y|show|dram|musical|police procedural|spoof|slasher|western/ ? PL_N($genre_type) :
-             $opt->{'movie'} && $opt->{'movie'} =~ /^yt1/ ? "$genre_type movies" :
-             $genre_type;
-  return $text;
-}
-
-sub get_media {
-  my $media_type = shift;
-  my $text = $media_type eq 'film'    ? 'films' :
-             $media_type eq 'tv'      ? 'television series' :
-             $media_type eq 'tv film' ? 'television films' :
-             $media_type;
-  return $text;
-}
-
-sub movies_beginning {
-  my $first = shift;
-  my $text = $first eq '#' ? 'a number'    :
-             $first eq '!' ? 'punctuation' :
-             $first =~ /^\p{Alpha}/i ? uc($first) :
-             undef;
-  return "List of movies beginning with $text" if $text;
 }
 
 my $cgi = CGI::Simple->new;

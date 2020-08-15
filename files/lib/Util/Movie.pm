@@ -4,7 +4,8 @@ use strict;
 use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(movie series franchise genre sources movie_option start_year end_year
-  display_movie display_simple_movie display_option print_franchise print_series print_movie textify_movie);
+  display_movie display_simple_movie display_option print_franchise print_series print_movie
+  textify_movie get_genre get_media movies_beginning);
 
 use File::Spec;
 use Lingua::EN::Inflect qw(A PL_N NUM NO NUMWORDS inflect);
@@ -319,6 +320,32 @@ sub textify_movie {
             textify($title);
   }
   return $text;
+}
+
+sub get_genre {
+  my ($genre_type, $opt) = @_;
+  my $text = $genre_type =~ /(?<!fantas)y|show|dram|musical|police procedural|spoof|slasher|western/ ? PL_N($genre_type) :
+             $opt->{'movie'} && $opt->{'movie'} =~ /^yt1/ ? "$genre_type movies" :
+             $genre_type;
+  return $text;
+}
+
+sub get_media {
+  my $media_type = shift;
+  my $text = $media_type eq 'film'    ? 'films' :
+             $media_type eq 'tv'      ? 'television series' :
+             $media_type eq 'tv film' ? 'television films' :
+             $media_type;
+  return $text;
+}
+
+sub movies_beginning {
+  my $first = shift;
+  my $text = $first eq '#' ? 'a number'    :
+             $first eq '!' ? 'punctuation' :
+             $first =~ /^\p{Alpha}/i ? uc($first) :
+             undef;
+  return "List of movies beginning with $text" if $text;
 }
 
 # returns a single movie, the movies 'keys', or all movies 'data'
