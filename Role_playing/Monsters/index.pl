@@ -10,12 +10,12 @@ use Lingua::EN::Inflect qw(A);
 use File::Temp qw(tempfile);
 
 use lib '../../files/lib';
-use Base::Page qw(page story);
+use Base::Page     qw(page story);
 use HTML::Elements qw(section paragraph list);
 use Random::RPG::Monster qw(random_monster random_monster_list);
-use RPG::Monster qw(monster_info);
-use Util::Convert qw(searchify);
-use Util::Menu qw(file_menu);
+use RPG::Monster   qw(monster_info);
+use Util::Convert  qw(searchify);
+use Util::Menu     qw(file_menu);
 
 my $multi_monsters = {
   'Throglin' => ['Throglin', 'Freshwater throglin', 'Saltwater throglin'],

@@ -9,20 +9,20 @@ use Lingua::EN::Inflect qw(NUM A NUMWORDS ORD PL_N PL_V NO classical);
 use List::MoreUtils     qw(first_index);
 
 use lib '../../files/lib';
-use Base::Page               qw(page);
+use Base::Page     qw(page);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use HTML::Elements           qw(section nav paragraph list details anchor);
-use Util::Columns            qw(number_of_columns);
-use Util::Convert            qw(textify idify searchify);
-use Util::Data               qw(data_file make_hash alpha_hash);
-use Util::Menu               qw(alpha_menu);
-use Util::Number             qw(commify);
-use Xanth::Character         qw(get_open get_character);
-use Xanth::Location          qw(location_link get_locations);
-use Xanth::Novel             qw(novel_link novel_nav novel_intro current_year);
-use Xanth::PageLinks         qw(character_link locations_page_link timeline_link);
-use Xanth::Species           qw(species_link get_species);
-use Xanth::Util              qw(gendering get_article);
+use HTML::Elements qw(section nav paragraph list details anchor);
+use Util::Columns  qw(number_of_columns);
+use Util::Convert  qw(textify idify searchify);
+use Util::Data     qw(data_file make_hash alpha_hash);
+use Util::Menu     qw(alpha_menu);
+use Util::Number   qw(commify);
+use Xanth::Character qw(get_open get_character);
+use Xanth::Location  qw(location_link get_locations);
+use Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
+use Xanth::PageLinks qw(character_link locations_page_link timeline_link);
+use Xanth::Species   qw(species_link get_species);
+use Xanth::Util      qw(gendering get_article);
 
 # Begin importing data
 

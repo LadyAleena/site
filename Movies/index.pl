@@ -10,17 +10,17 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../files/lib';
-use Base::Page               qw(page story);
+use Base::Page     qw(page story);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use HTML::Elements           qw(section nav div paragraph list form fieldset selection details input anchor);
-use Util::Movie              qw(movie genre movie_option display_option textify_movie start_year end_year
-                                display_movie display_simple_movie print_series print_movie
-                                get_genre get_media movies_beginning);
-use Util::Columns            qw(number_of_columns);
-use Util::Convert            qw(idify);
-use Util::Data               qw(file_directory alpha_hash alpha_array first_alpha);
-use Util::Menu               qw(alpha_menu file_menu);
-use Util::Sort               qw(article_sort);
+use HTML::Elements qw(section nav div paragraph list form fieldset selection details input anchor);
+use Util::Movie    qw(movie genre movie_option display_option textify_movie start_year end_year
+                      display_movie display_simple_movie print_series print_movie
+                      get_genre get_media movies_beginning);
+use Util::Columns  qw(number_of_columns);
+use Util::Convert  qw(idify);
+use Util::Data     qw(file_directory alpha_hash alpha_array first_alpha);
+use Util::Menu     qw(alpha_menu file_menu);
+use Util::Sort     qw(article_sort);
 
 my ($sec,$min,$hour,$mday,$mon,$ltyear,$wday,$yday,$isdst) = localtime();
 my $current_year = ($ltyear + 1900);

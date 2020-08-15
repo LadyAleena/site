@@ -8,9 +8,9 @@ use File::Basename;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page qw(page);
+use Base::Page     qw(page);
 use HTML::Elements qw(section paragraph list span pre);
-use Util::Menu qw(file_menu);
+use Util::Menu     qw(file_menu);
 use Util::WordFind qw(word_find);
 
 my %finds = (

@@ -8,11 +8,11 @@ use File::Basename;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page qw(page passage);
+use Base::Page     qw(page passage);
 use HTML::Elements qw(section paragraph list);
-use Util::Sort qw(article_sort);
+use Util::Sort     qw(article_sort);
 use RPG::Spell::List qw(spell_data);
-use Util::Menu qw(file_menu);
+use Util::Menu     qw(file_menu);
 
 my %scrolls = (
   'Councilor\'s path scroll' => ['Hypnotism','Suggestion','Domination','Mass Suggestion'],
