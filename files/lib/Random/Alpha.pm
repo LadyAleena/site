@@ -312,7 +312,7 @@ Over the years I have gotten a lot of help writing Perl from the L<PerlMonks|htt
 
 Lady Aleena
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 

@@ -132,7 +132,7 @@ Random::SpecialDice depends on L<Games::Dice> and L<Exporter>.
 
 Lady Aleena with help from GrandFather on PerlMonks.
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 

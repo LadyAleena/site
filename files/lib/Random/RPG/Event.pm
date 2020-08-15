@@ -63,6 +63,12 @@ Random::RPG::Event depends on L<Fancy::Rand>, L<Random::RPG::AbilityScores>, L<R
 
 Lady Aleena
 
+=head1 LICENSE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+
 =cut
 
 1;

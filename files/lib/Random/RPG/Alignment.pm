@@ -88,13 +88,19 @@ The default random result is C<random_alignment('all')>.
 
 Random::RPG::Alignment depends on L<Fancy::Rand> and L<Exporter>.
 
+=head1 SEE ALSO
+
+You can expand alignment abbreviations with B<L<RPG::Character::Alignment>>.
+
 =head1 AUTHOR
 
 Lady Aleena with lots of help from DrForr, whoppix, and rindolf in the #perlcafe on freenode.
 
-=head1 SEE ALSO
+=head1 LICENSE AND COPYRIGHT
 
-You can expand alignment abbreviations with B<L<RPG::Character::Alignment>>.
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
 
 =cut
 

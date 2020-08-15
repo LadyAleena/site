@@ -45,7 +45,7 @@ Lady Aleena with help of ik and mofino in the #perlcafe on freenode.
 
 Rene Schickbauer provided the packaging needed for CPAN.
 
-=head1 LICENCE AND COPYRIGHT
+=head1 LICENSE AND COPYRIGHT
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
