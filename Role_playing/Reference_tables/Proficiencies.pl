@@ -7,11 +7,11 @@ use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Base::Page qw(page);
+use Base::Page     qw(page);
 use HTML::Elements qw(section paragraph table anchor);
-use HTML::Forms qw(tiny_select);
-use Util::Convert qw(idify);
-use Util::Data qw(make_hash);
+use HTML::Forms    qw(tiny_select);
+use Util::Convert  qw(idify);
+use Util::Data     qw(make_hash);
 
 my $cgi = CGI::Simple->new;
 my $alpha   = $cgi->param('alpha') ? encode_entities($cgi->param('alpha'),'<>"') : '';
