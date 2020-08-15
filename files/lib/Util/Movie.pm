@@ -13,15 +13,15 @@ use List::Util qw(min max);
 
 use HTML::Elements qw(footer section nav heading paragraph list span anchor);
 
-use Fancy::Join::Defined     qw(join_defined);
-use Fancy::Join::Grammatical qw(grammatical_join);
 
 use Util::Columns       qw(number_of_columns);
 use Util::Convert       qw(filify textify idify searchify);
 use Util::Data          qw(data_file make_hash get_data);
-use Util::ExternalLinks qw(external_links);
 use Util::Path          qw(base_path);
 use Util::People        qw(people_list);
+use Fancy::Join::Defined     qw(join_defined);
+use Fancy::Join::Grammatical qw(grammatical_join);
+use Page::Link::External     qw(external_links);
 
 my $movies     = make_hash( 'file' => ['Movies','movies.txt'],     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );
 my $seriess    = make_hash( 'file' => ['Movies','series.txt'],     'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );

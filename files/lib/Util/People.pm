@@ -5,11 +5,11 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(people_list);
 
-use HTML::Elements      qw(span);
-use Util::Convert       qw(filify searchify);
-use Util::Data          qw(data_file);
-use Util::ExternalLinks qw(external_links);
-use Util::Sort          qw(name_sort);
+use HTML::Elements qw(span);
+use Util::Convert  qw(filify searchify);
+use Util::Data     qw(data_file);
+use Util::Sort     qw(name_sort);
+use Page::Link::External qw(external_links);
 
 sub people_list {
   my ($file) = @_;

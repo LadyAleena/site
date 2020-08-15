@@ -1,4 +1,4 @@
-package Util::ExternalLinks;
+package Page::Link::External;
 use v5.8.8;
 use strict;
 use warnings;
