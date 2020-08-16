@@ -45,8 +45,8 @@ $magic->{'equipment'} = sub {
 $magic->{'alignment chart'} = sub {
   my $exp_align_link = '../../files/images/Role_playing/Expanded_alignments_scores.svg';
   figure(6, sub {
-    line(7, object( '', { 'data' => $exp_align_link, 'type' => 'image/svg+xml'})); # object used instead of img, b/c img won't render svg properly
-  }, { 'id' => 'alignment_chart', 'class' => 'svg_group centered'  });
+    line(7, object( '', { 'data' => $exp_align_link, 'type' => 'image/svg+xml', 'title' => 'Expanded Alignment Chart' })); # object used instead of img, b/c img won't render svg properly
+  }, { 'id' => 'alignment_chart', 'class' => 'svg_group centered' });
 };
 
 page(

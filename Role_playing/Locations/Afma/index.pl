@@ -37,7 +37,7 @@ $magic->{'pages'} = sub {
   list(4, 'u', $file_menu);
 };
 $magic->{'flag'} = sub {
-  line(6, img({ 'src' => '../../../files/images/flag.jpg', 'alt' => 'Aleenia flag', 'class' => 'right' }))
+  line(6, img({ 'src' => '../../../files/images/flag.jpg', 'alt' => 'Aleenia flag', 'title' => 'Flag of Aleenia', 'class' => 'right' }))
 };
 
 page(
