@@ -1,4 +1,4 @@
-package RPG::Monster;
+package Page::RolePlaying::Monster;
 use v5.8.8;
 use strict;
 use warnings;
