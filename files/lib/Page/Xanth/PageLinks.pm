@@ -78,7 +78,7 @@ sub timeline_link {
   my $in = shift;
      $in =~ s/\.\d+//;
   my $id = idify($in);
-  my $link = $in ? anchor($in, { href => "index.pl?page=Timeline#$id" }) : undef;
+  my $link = defined($in) ? anchor($in, { href => "index.pl?page=Timeline#$id" }) : undef;
   return $link;
 }
 
