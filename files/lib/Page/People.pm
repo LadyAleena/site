@@ -1,4 +1,4 @@
-package Util::People;
+package Page::People;
 use v5.8.8;
 use strict;
 use warnings;

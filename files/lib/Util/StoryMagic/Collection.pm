@@ -6,7 +6,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(collection_magic);
 
 use HTML::Elements qw(list);
-use Util::People qw(people_list);
+use Page::People qw(people_list);
 
 sub media_class {
   my ($class, $title) = @_;
