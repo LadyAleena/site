@@ -1,4 +1,4 @@
-package Util::StoryMagic::Movie;
+package Page::Story::Magic::Movie;
 use v5.10.0;
 use strict;
 use warnings;
@@ -15,7 +15,7 @@ sub movie_magic {
 
   # Start getting series links
 
-    my $series = series('data', 'Util::StoryMagic::Movie');
+    my $series = series('data', 'Page::Story::Magic::Movie');
     my $series_list = movie_option('series');
     for my $item (sort keys %$series_list) {
       my $magic_search;

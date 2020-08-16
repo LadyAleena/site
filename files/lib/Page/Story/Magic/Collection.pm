@@ -1,4 +1,4 @@
-package Util::StoryMagic::Collection;
+package Page::Story::Magic::Collection;
 use v5.8.8;
 use strict;
 use warnings;

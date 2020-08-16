@@ -1,4 +1,4 @@
-package Util::StoryMagic::MagicItem;
+package Page::Story::Magic::MagicItem;
 use v5.8.8;
 use strict;
 use warnings;

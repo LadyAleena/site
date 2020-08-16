@@ -1,4 +1,4 @@
-package Util::StoryMagic::Crossover;
+package Page::Story::Magic::Crossover;
 use v5.10.0;
 use strict;
 use warnings;
@@ -11,7 +11,7 @@ use HTML::Elements qw(anchor object figure);
 use Page::Line     qw(line);
 use Util::Convert  qw(textify searchify);
 use Util::Data     qw(file_directory file_list);
-use Util::StoryMagic::Movie qw(movie_magic);
+use Page::Story::Magic::Movie qw(movie_magic);
 
 sub crossover_magic {
   my %opt = @_;
