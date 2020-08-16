@@ -7,10 +7,10 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
 use Page::Story    qw(convert_string);
+use Page::Story::Magic::Xanth qw(Xanth_line_magic);
 use Fancy::Join    qw(join_defined);
 use Util::Convert  qw(textify idify searchify);
 use Page::Xanth::Dates     qw(get_dates_family);
-use Page::Xanth::LineMagic qw(Xanth_line_magic);
 use Page::Xanth::Location  qw(get_locations);
 use Page::Xanth::Novel     qw(char_intro_novel get_novels);
 use Page::Xanth::PageLinks qw(character_link);

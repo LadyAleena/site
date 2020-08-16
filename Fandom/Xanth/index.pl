@@ -11,7 +11,7 @@ use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::Line     qw(line);
-use Page::Xanth::LineMagic qw(Xanth_line_magic);
+use Page::Story::Magic::Xanth qw(Xanth_line_magic);
 use HTML::Elements qw(list anchor object div figure);
 use Util::Convert  qw(searchify textify);
 use Util::Data     qw(file_directory file_list);

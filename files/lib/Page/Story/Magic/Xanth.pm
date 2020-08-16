@@ -1,4 +1,4 @@
-package Page::Xanth::LineMagic;
+package Page::Story::Magic::Xanth;
 use v5.10.0;
 use strict;
 use warnings;
