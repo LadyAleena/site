@@ -14,7 +14,7 @@ use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(section nav div paragraph list form fieldset selection details input anchor);
-use Util::Movie    qw(movie genre movie_option display_option textify_movie start_year end_year
+use Page::Movie    qw(movie genre movie_option display_option textify_movie start_year end_year
                       display_movie display_simple_movie print_series print_movie
                       get_genre get_media movies_beginning);
 use Util::Columns  qw(number_of_columns);

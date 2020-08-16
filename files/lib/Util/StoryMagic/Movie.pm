@@ -6,7 +6,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(movie_magic);
 
 use Util::Convert  qw(textify searchify);
-use Util::Movie    qw(movie_option series textify_movie);
+use Page::Movie    qw(movie_option series textify_movie);
 
 sub movie_magic {
   my %opt = @_;

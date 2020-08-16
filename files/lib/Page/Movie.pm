@@ -1,4 +1,4 @@
-package Util::Movie;
+package Page::Movie;
 use v5.10.0;
 use strict;
 use warnings;
