@@ -15,8 +15,6 @@ our @EXPORT_OK = qw(get_dates_family);
 
 # Begin getting dates and age
 
-my $current_year = current_year();
-
 # Begin getting birth date and method
 # People in Xanth are delivered by storks, except centaurs and derivatives thereof, because live births are "painful and messy".
 
