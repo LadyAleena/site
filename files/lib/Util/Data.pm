@@ -33,10 +33,11 @@ sub file_directory {
   return base_path($type)."/$dir";
 }
 
-# file_list returns a list of the contents in a directory.
+# file_list returns a list of the contents in a directory but is not recursive.
 ## There are options:
 ### 'type' returns only the wanted type files or directories.
 ### 'uppercase' returns only files that begin with an initial uppercase letter.
+### 'sort' returns a the list sorted. The options are 'article' or 'name'.
 ### 'full path' returns the list with the files' full paths.
 
 sub file_list {
