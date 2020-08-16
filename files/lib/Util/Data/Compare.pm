@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(data_compare);
 use Data::Compare;
 use Data::Dumper;
 
-use Util::Line qw(line);
+use Page::Line qw(line);
 
 sub data_compare {
   my ($tab, $data, $old_data, $new_data) = @_;

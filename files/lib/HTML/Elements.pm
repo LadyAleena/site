@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(html style body main div section article nav header footer h
                  paragraph address anchor img object span blockquote list definition_list table
                  form fieldset selection datalist input inputs textarea figure details noscript);
 
-use Util::Line qw(line);
+use Page::Line qw(line);
 
 my @ics  = qw(id class style lang title);
 my @java = qw(onclick ondblclick onkeypress onkeydown onkeyup onmouseover onmousedown onmouseup onmousemove onmouseout);
@@ -1425,7 +1425,7 @@ There are many other modules out there which can build HTML elements, but most a
 
 =head1 DEPENDENCIES
 
-HTML::Elements depnds on L<Exporter> and I<Util::Line>.
+HTML::Elements depnds on L<Exporter> and I<Page::Line>.
 
 =head1 AUTHOR
 
