@@ -1,4 +1,4 @@
-package Util::IRC;
+package Page::IRC;
 use v5.8.8;
 use strict;
 use warnings;
