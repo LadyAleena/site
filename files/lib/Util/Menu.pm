@@ -3,47 +3,17 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(base_menu alpha_menu file_menu index_menu link_color);
+our @EXPORT_OK = qw(base_menu alpha_menu file_menu index_menu);
 
 use Cwd qw(cwd realpath);
 
 use HTML::Elements qw(anchor);
-use Page::Path     qw(base_path);
+use Page::Link::Color qw(link_color);
 use Util::Convert  qw(textify searchify);
 use Util::Data     qw(file_list);
 use Util::Sort     qw(article_sort name_sort);
 
-sub link_color {
-  my ($file,$style) = @_;
-  my $color = '000';
-
-  my %colors;
-  $colors{'pl'}    = 'f00';
-  $colors{'pm'}    = '900';
-  $colors{'html'}  = '00c';
-  $colors{'shtml'} = '009';
-  $colors{'svg'}   = '60c';
-  $colors{'css'}   = '060';
-  $colors{'csv'}   = '0f0';
-  $colors{'txt'}   = '090';
-  $colors{'zip'}   = '990';
-  $colors{'js'}    = '099';
-  $colors{'pdf'}   = 'c33';
-  $colors{'wav'}   = '939';
-  $colors{'xls'}   = '696';
-  $colors{'doc'}   = '669';
-  $colors{'pub'}   = '699';
-  $colors{'opx'}   = '036';
-  $colors{'ods'}   = '3c3';
-  $colors{'dot'}   = '3ca';
-  $colors{$_}      = 'c0c' for (qw(gif ico jpg png bmp));
-
-  my ($extension,$name) = reverse split(/\./, $file);
-  $color = $colors{$extension} ? $colors{$extension} : $color;
-
-  return qq(color:#$color);
-}
-
+# base_menu is the site's navigation menu on the left side of the pages
 sub base_menu {
   my ($directory, $opt) = @_;
   my $root_path = $opt->{'root path'};
@@ -141,7 +111,7 @@ sub index_menu {
   return $files;
 }
 
-# alpha_menu returns a line of links based on keys of a hash.
+# alpha_menu returns a string of links based on keys of a hash.
 sub alpha_menu {
   my ($hash, $opt) = @_;
 
@@ -175,7 +145,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
