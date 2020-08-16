@@ -1,5 +1,5 @@
 package SVG::MakeRect;
-use v5.8.8
+use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
