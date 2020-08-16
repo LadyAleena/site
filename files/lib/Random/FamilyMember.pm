@@ -15,7 +15,7 @@ my @generations = ('', 'grand', 'great-grand', 'ancestral ');
 
 sub get_generations {
   my $person = shift;
-  my $last = pop @generations if $person !~ /mother|father/;
+  my $last = $person !~ /mother|father/ ? pop @generations : undef;
   my @generational_people = map("${_}$person", @generations);
   push @generations, $last if $last;
   return @generational_people;
