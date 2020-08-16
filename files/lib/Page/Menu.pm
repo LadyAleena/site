@@ -1,4 +1,4 @@
-package Util::Menu;
+package Page::Menu;
 use v5.8.8;
 use strict;
 use warnings;

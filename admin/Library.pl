@@ -6,9 +6,9 @@ use CGI::Carp qw(fatalsToBrowser);
 
 use lib '../files/lib';
 use Page::Base qw(page);
+use Page::Menu qw(alpha_menu);
 use HTML::Elements qw(section nav list anchor);
 use Util::Data qw(data_file alpha_hash);
-use Util::Menu qw(alpha_menu);
 use Util::Number qw(commify);
 
 my @files = map { data_file('admin', "${_}_modules.txt") } ('local', 'xecu');

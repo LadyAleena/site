@@ -9,9 +9,9 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(file_menu);
 use Page::WordFind qw(word_find);
 use HTML::Elements qw(section paragraph list span pre);
-use Util::Menu     qw(file_menu);
 
 my %finds = (
   'Monsters Galore' => 'HUMAN',

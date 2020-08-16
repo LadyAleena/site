@@ -10,6 +10,7 @@ use List::MoreUtils     qw(first_index);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(alpha_menu);
 use Page::Xanth::Character qw(get_open get_character);
 use Page::Xanth::Location  qw(location_link get_locations);
 use Page::Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
@@ -21,7 +22,6 @@ use HTML::Elements qw(section nav paragraph list details anchor);
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file make_hash alpha_hash);
-use Util::Menu     qw(alpha_menu);
 use Util::Number   qw(commify);
 
 # Begin importing data

@@ -11,6 +11,7 @@ use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(alpha_menu file_menu);
 use Page::Story    qw(story);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(section nav div paragraph list form fieldset selection details input anchor);
@@ -20,7 +21,6 @@ use Page::Movie    qw(movie genre movie_option display_option textify_movie star
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(idify);
 use Util::Data     qw(file_directory alpha_hash alpha_array first_alpha);
-use Util::Menu     qw(alpha_menu file_menu);
 use Util::Sort     qw(article_sort);
 
 my ($sec,$min,$hour,$mday,$mon,$ltyear,$wday,$yday,$isdst) = localtime();

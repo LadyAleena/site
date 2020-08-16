@@ -9,13 +9,13 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Story::Magic qw(program_magic);
 use Page::Story::Magic::Collection qw(collection_magic);
 use HTML::Elements qw(list anchor);
 use Util::Convert  qw(searchify);
 use Util::Data     qw(file_directory file_list);
-use Util::Menu     qw(file_menu);
 use Util::Sort     qw(article_sort);
 use Random::Dragon qw(random_DreamWorks_dragon random_Harry_Potter_dragon random_Pern_dragon);
 

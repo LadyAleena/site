@@ -9,11 +9,11 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(file_menu);
 use Page::RolePlaying::Spell::Book qw(spellbook);
 use HTML::Elements qw(section paragraph list);
 use Util::Convert  qw(textify filify);
 use Util::Data     qw(file_directory file_list);
-use Util::Menu     qw(file_menu);
 use Util::Sort     qw(name_sort);
 
 my $directory = 'Role_playing/Player_characters/Spellbooks';

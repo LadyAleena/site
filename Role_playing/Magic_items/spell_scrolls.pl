@@ -9,11 +9,11 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Menu     qw(file_menu);
 use Page::Story    qw(passage);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use HTML::Elements qw(section paragraph list);
 use Util::Sort     qw(article_sort);
-use Util::Menu     qw(file_menu);
 
 my %scrolls = (
   'Councilor\'s path scroll' => ['Hypnotism','Suggestion','Domination','Mass Suggestion'],
