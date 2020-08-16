@@ -1,4 +1,4 @@
-package Util::TextTree;
+package Page::TextTree;
 use v5.8.8;
 use strict;
 use warnings;
