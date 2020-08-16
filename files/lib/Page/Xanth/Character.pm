@@ -6,7 +6,9 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
-use Base::Page     qw(convert_string);
+use Page::Story    qw(convert_string);
+use Fancy::Join    qw(join_defined);
+use Util::Convert  qw(textify idify searchify);
 use Page::Xanth::Dates     qw(get_dates_family);
 use Page::Xanth::LineMagic qw(Xanth_line_magic);
 use Page::Xanth::Location  qw(get_locations);
@@ -14,8 +16,6 @@ use Page::Xanth::Novel     qw(char_intro_novel get_novels);
 use Page::Xanth::PageLinks qw(character_link);
 use Page::Xanth::Species   qw(get_species);
 use Page::Xanth::Util      qw(get_article gendering);
-use Fancy::Join    qw(join_defined);
-use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_open get_character);
@@ -162,7 +162,7 @@ This document describes Page::Xanth::Character version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::Character depends on L<Fancy::Join>, Base::Page, Util::Convert, Page::Xanth::Dates, Page::Xanth::LineMagic, Page::Xanth::Location, Page::Xanth::Novel, Page::Xanth::Species, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Character depends on L<Fancy::Join>, Page::Story, Util::Convert, Page::Xanth::Dates, Page::Xanth::LineMagic, Page::Xanth::Location, Page::Xanth::Novel, Page::Xanth::Species, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

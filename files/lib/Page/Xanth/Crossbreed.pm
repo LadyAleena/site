@@ -1,4 +1,4 @@
-package Xanth::Crossbreed;
+package Page::Xanth::Crossbreed;
 use v5.10.0;
 use strict;
 use warnings;
@@ -49,7 +49,7 @@ This document describes Xanth::Crossbreed version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Crossbreed depends on L<Fancy::Join::Defined> and L<Exporter>.
+Page::Xanth::Crossbreed depends on L<Fancy::Join::Defined> and L<Exporter>.
 
 =head1 AUTHOR
 

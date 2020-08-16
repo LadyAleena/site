@@ -1,4 +1,4 @@
-package Xanth::Util;
+package Page::Xanth::Util;
 use v5.10.0;
 use strict;
 use warnings;
@@ -84,7 +84,7 @@ This document describes Xanth::Util version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Util depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Util depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 
