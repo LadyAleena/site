@@ -8,9 +8,9 @@ use File::Find;
 use lib '../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
+use Page::Path     qw(base_path);
 use HTML::Elements qw(table list);
 use Util::Data     qw(file_list);
-use Util::Path     qw(base_path);
 
 my $root_path = base_path('path');
 

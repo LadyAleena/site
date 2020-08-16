@@ -16,7 +16,7 @@ use File::Basename;
 use File::Spec;
 use List::Util qw(first);
 
-use Util::Path qw(base_path);
+use Page::Path qw(base_path);
 use Util::Sort qw(article_sort name_sort);
 
 # file_directory returns the directory by type of data wanted.

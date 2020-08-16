@@ -8,9 +8,9 @@ our @EXPORT_OK = qw(base_menu alpha_menu file_menu index_menu link_color);
 use Cwd qw(cwd realpath);
 
 use HTML::Elements qw(anchor);
+use Page::Path     qw(base_path);
 use Util::Convert  qw(textify searchify);
 use Util::Data     qw(file_list);
-use Util::Path     qw(base_path);
 use Util::Sort     qw(article_sort name_sort);
 
 sub link_color {

@@ -8,10 +8,10 @@ use URI::Encode qw(uri_encode);
 
 use lib 'files/lib';
 use HTML::Elements qw(html head body heading paragraph list table anchor);
+use Page::Path     qw(base_path);
 use Util::Data     qw(file_list);
 use Util::Menu     qw(base_menu link_color);
 use Util::Number   qw(pretty_number);
-use Util::Path     qw(base_path);
 
 my $root_path = base_path('path');
 my $root_link = base_path('link');

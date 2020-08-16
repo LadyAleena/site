@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Encode;
 use Lingua::EN::Inflect qw(NUMWORDS);
 
-use Util::Path qw(base_path);
+use Page::Path qw(base_path);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(textify idify searchify filify hashtagify linkify);

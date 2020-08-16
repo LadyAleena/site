@@ -13,11 +13,11 @@ use List::Util qw(max);
 
 use HTML::Elements      qw(html style noscript nav main section list div anchor img input);
 use Page::Link::Contact qw(contact_links);
+use Page::Path          qw(base_path);
 use Page::Style         qw(base_stylesheets);
 use Util::Convert       qw(idify textify);
 use Util::Line          qw(line);
 use Util::Menu          qw(base_menu);
-use Util::Path          qw(base_path);
 
 my $full_path = realpath($0);
 my $root_path = base_path('path');

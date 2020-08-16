@@ -8,9 +8,9 @@ our @EXPORT_OK = qw(program_magic pc_magic story_magic);
 use File::Spec;
 
 use Fancy::Open   qw(fancy_open);
+use Page::Path    qw(base_path);
 use Util::Convert qw(idify);
 use Util::Data    qw(data_file make_hash);
-use Util::Path    qw(base_path);
 
 sub program_magic {
   my $program_urls = make_hash( 'file' => ['Collections','programs.txt'] );
