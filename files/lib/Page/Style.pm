@@ -1,4 +1,4 @@
-package Util::Style;
+package Page::Style;
 use v5.8.8;
 use strict;
 use warnings;
