@@ -1,4 +1,4 @@
-package Util::Attributes::Quote;
+package HTML::Attributes::Quote;
 use v5.8.8;
 use strict;
 use warnings;
