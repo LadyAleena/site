@@ -1,4 +1,4 @@
-package RPG::Spell::List;
+package Page::RolePlaying::Spell::List;
 use v5.8.8;
 use strict;
 use warnings;
