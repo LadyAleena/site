@@ -10,13 +10,13 @@ use HTML::Entities qw(encode_entities);
 use lib '../../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story passage);
+use Page::Story::Magic qw(pc_magic);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use HTML::Elements qw(list anchor heading);
 use Util::Convert  qw(searchify);
 use Util::Data     qw(file_directory file_list);
 use Util::Menu     qw(file_menu);
 use Util::Sort     qw(article_sort);
-use Util::StoryMagic qw(pc_magic);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;

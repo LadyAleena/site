@@ -10,9 +10,9 @@ use HTML::Entities qw(encode_entities);
 use lib 'files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
+use Page::Story::Magic qw(story_magic);
 use Page::IRC      qw(irc_list);
 use HTML::Elements qw(section heading list anchor);
-use Util::StoryMagic qw(story_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
