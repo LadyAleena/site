@@ -1,4 +1,4 @@
-package Xanth::Family;
+package Page::Xanth::Family;
 use v5.10.0;
 use strict;
 use warnings;
@@ -6,10 +6,10 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A);
 
+use Page::Xanth::PageLinks qw(character_link group_character_link);
+use Page::Xanth::Util      qw(gendering);
 use Fancy::Join qw(join_defined grammatical_join);
 use Util::Data  qw(make_hash);
-use Xanth::PageLinks qw(character_link group_character_link);
-use Xanth::Util qw(gendering);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_family);
@@ -196,11 +196,11 @@ sub get_family {
 
 =head1 VERSION
 
-This document describes Xanth::Family version 1.0.
+This document describes Page::Xanth::Family version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Family depends on L<Fancy::Join>, Util::Data, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Family depends on L<Fancy::Join>, Util::Data, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

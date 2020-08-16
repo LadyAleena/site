@@ -1,14 +1,14 @@
-package Xanth::Dates;
+package Page::Xanth::Dates;
 use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
 
-use Util::Convert  qw(textify idify searchify);
+use Page::Xanth::Family    qw(get_family);
+use Page::Xanth::Novel     qw(current_year);
+use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Join qw(join_defined grammatical_join);
-use Xanth::Family    qw(get_family);
-use Xanth::Novel     qw(current_year);
-use Xanth::PageLinks qw(character_link timeline_link);
+use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_dates_family);
@@ -257,11 +257,11 @@ sub get_dates_family {
 
 =head1 VERSION
 
-This document describes Xanth::Dates version 1.0.
+This document describes Page::Xanth::Dates version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Dates depends on L<Fancy::Join>, Util::Convert, Xanth::Family, Xanth::Novel, Xanth::PageLinks, Xanth::Util, and L<Exporter>.
+Page::Xanth::Dates depends on L<Fancy::Join>, Util::Convert, Page::Xanth::Family, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, and L<Exporter>.
 
 =head1 AUTHOR
 

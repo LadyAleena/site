@@ -1,4 +1,4 @@
-package Xanth::Character;
+package Page::Xanth::Character;
 use v5.10.0;
 use strict;
 use warnings;
@@ -7,15 +7,15 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
 use Base::Page     qw(convert_string);
+use Page::Xanth::Dates     qw(get_dates_family);
+use Page::Xanth::LineMagic qw(Xanth_line_magic);
+use Page::Xanth::Location  qw(get_locations);
+use Page::Xanth::Novel     qw(char_intro_novel get_novels);
+use Page::Xanth::PageLinks qw(character_link);
+use Page::Xanth::Species   qw(get_species);
+use Page::Xanth::Util      qw(get_article gendering);
 use Fancy::Join    qw(join_defined);
 use Util::Convert  qw(textify idify searchify);
-use Xanth::Dates     qw(get_dates_family);
-use Xanth::LineMagic qw(Xanth_line_magic);
-use Xanth::Location  qw(get_locations);
-use Xanth::Novel     qw(char_intro_novel get_novels);
-use Xanth::PageLinks qw(character_link);
-use Xanth::Species   qw(get_species);
-use Xanth::Util      qw(get_article gendering);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_open get_character);
@@ -158,11 +158,11 @@ sub get_character {
 
 =head1 VERSION
 
-This document describes Xanth::Character version 1.0.
+This document describes Page::Xanth::Character version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Character depends on L<Fancy::Join>, Base::Page, Util::Convert, Xanth::Dates, Xanth::LineMagic, Xanth::Location, Xanth::Novel, Xanth::Species, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Character depends on L<Fancy::Join>, Base::Page, Util::Convert, Page::Xanth::Dates, Page::Xanth::LineMagic, Page::Xanth::Location, Page::Xanth::Novel, Page::Xanth::Species, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

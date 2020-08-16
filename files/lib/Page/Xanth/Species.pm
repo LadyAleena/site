@@ -1,4 +1,4 @@
-package Xanth::Species;
+package Page::Xanth::Species;
 use v5.10.0;
 use strict;
 use warnings;
@@ -6,12 +6,12 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A);
 
+use Page::Xanth::Util qw(gendering);
 use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(data_file);
-use Xanth::Util    qw(gendering);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(species_link get_species);
@@ -125,11 +125,11 @@ sub get_species {
 
 =head1 VERSION
 
-This document describes Xanth::Species version 1.0.
+This document describes Page::Xanth::Species version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::Species depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convet, Util::Data, Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Species depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convet, Util::Data, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

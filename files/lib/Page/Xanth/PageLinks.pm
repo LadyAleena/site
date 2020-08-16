@@ -1,4 +1,4 @@
-package Xanth::PageLinks;
+package Page::Xanth::PageLinks;
 use v5.10.0;
 use strict;
 use warnings;
@@ -6,11 +6,11 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
+use Page::Xanth::Util qw(get_article);
 use Fancy::Join    qw(join_defined grammatical_join);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
 use Util::Data     qw(make_hash);
-use Xanth::Util    qw(get_article);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(character_link group_character_link locations_page_link species_page_link timeline_link);
@@ -90,11 +90,11 @@ sub timeline_link {
 
 =head1 VERSION
 
-This document describes Xanth::PageLinks version 1.0.
+This document describes Page::Xanth::PageLinks version 1.0.
 
 =head1 DEPENDENCIES
 
-Xanth::PageLinks depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Xanth::Util, and L<Exporter>.
+Page::Xanth::PageLinks depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Page::Xanth::Util, and L<Exporter>.
 
 =head1 AUTHOR
 
