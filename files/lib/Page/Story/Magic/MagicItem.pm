@@ -7,6 +7,11 @@ our @EXPORT_OK = qw(magic_item_magic);
 
 use Lingua::EN::Inflect qw(NO);
 
+use HTML::Elements qw(list anchor);
+use Util::Convert  qw(searchify textify);
+use Util::Data     qw(file_directory file_list);
+use Util::Sort     qw(name_sort);
+
 sub magic_item_magic {
   my $magic;
 
@@ -20,6 +25,19 @@ sub magic_item_magic {
   $magic->{'MR'} = 'ABBR<MR|title="magic resistance">';
 
   $magic->{'magic items of the specialist'} = 'A<magic items of the specialist|href="?select=magic+items+of+the+specialist">';
+
+  $magic->{'spellbooks'} = sub {
+    my $spellbook_dir  = file_directory('Role_playing/Player_characters/Spellbooks');
+    my @spellbook_list = sort { name_sort(textify($a),textify($b)) } file_list($spellbook_dir);
+    my @spellbooks;
+    for my $spellbook (@spellbook_list) {
+      my $text = textify($spellbook);
+      my $search = searchify($text);
+      push @spellbooks, anchor($text, { href => qq(../Player_characters/Spellbooks.pl?spellbook=$search) });
+    }
+    list(4, 'u', \@spellbooks, { 'class' => 'three' })
+  };
+
   return $magic;
 }
 
@@ -35,7 +53,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

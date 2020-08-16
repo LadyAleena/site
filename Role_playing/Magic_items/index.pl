@@ -12,10 +12,8 @@ use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Story::Magic::MagicItem qw(magic_item_magic);
-use HTML::Elements qw(list anchor);
-use Util::Convert  qw(searchify textify);
+use HTML::Elements qw(list);
 use Util::Data     qw(file_directory file_list);
-use Util::Sort     qw(article_sort name_sort);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -39,17 +37,6 @@ my $magic = magic_item_magic;
 $magic->{'pages'} = sub {
   my $file_menu = file_menu('page', \@pages, $page);
   list(4, 'u', $file_menu, { 'class' => 'two' });
-};
-$magic->{'spellbooks'} = sub {
-  my $spellbook_dir  = file_directory('Role_playing/Player_characters/Spellbooks');
-  my @spellbook_list = sort { name_sort(textify($a),textify($b)) } file_list($spellbook_dir);
-  my @spellbooks;
-  for my $spellbook (@spellbook_list) {
-    my $text = textify($spellbook);
-    my $search = searchify($text);
-    push @spellbooks, anchor($text, { href => qq(../Player_characters/Spellbooks.pl?spellbook=$search) });
-  }
-  list(4, 'u', \@spellbooks, { 'class' => 'three' })
 };
 
 page(
