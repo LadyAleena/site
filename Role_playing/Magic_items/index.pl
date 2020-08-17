@@ -11,9 +11,9 @@ use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
-use Page::Story::Magic::MagicItem qw(magic_item_magic);
 use HTML::Elements qw(list);
 use Util::Data     qw(file_directory file_list);
+use Page::Story::Magic::MagicItem qw(magic_item_magic);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
