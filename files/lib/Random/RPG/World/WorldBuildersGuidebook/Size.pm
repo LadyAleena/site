@@ -69,11 +69,11 @@ $size{kingdom}{$_}{hexes} = roll('4d6') for 36..65;
 $size{kingdom}{$_}{hexes} = roll('6d6') for 66..85;
 $size{kingdom}{$_}{hexes} = roll('8d8') for 86..100;
 
-$size{kingdom}{$_}{miles} = roll('10d10') * '1'  for 1..20;
-$size{kingdom}{$_}{miles} = roll('10d10') * '5'  for 21..35;
-$size{kingdom}{$_}{miles} = roll('10d10') * '8'  for 36..65;
-$size{kingdom}{$_}{miles} = roll('10d10') * '10' for 66..85;
-$size{kingdom}{$_}{miles} = roll('10d10') * '20' for 86..100;
+$size{kingdom}{$_}{miles} = roll('10d10') * 1  for 1..20;
+$size{kingdom}{$_}{miles} = roll('10d10') * 5  for 21..35;
+$size{kingdom}{$_}{miles} = roll('10d10') * 8  for 36..65;
+$size{kingdom}{$_}{miles} = roll('10d10') * 10 for 66..85;
+$size{kingdom}{$_}{miles} = roll('10d10') * 20 for 86..100;
 
 sub random_size {
   my ($area) = @_;
@@ -101,6 +101,8 @@ This document describes Random::RPG::World::WorldBuildersGuidebook::Size version
 =head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::Size depends on L<Random::SpecialDice>, L<Games::Dice>, and L<Exporter>.
+
+Random::SpecialDice depends on L<Games::Dice>.
 
 =head1 NOTE
 
