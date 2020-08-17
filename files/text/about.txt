@@ -21,15 +21,15 @@ I am only mildly interested in politics and then only in theoretical application
 3 My profiles on various services
 I have profiles on various services around the internet. They could give you more insight about me depending on the site.
 *| three
-* A<Amazon|href="www.amazon.com/gp/profile/amzn1.account.AH4RO3KOBRHQ4K5DXZVELRKKAN6A" target="other_me">
-* A<Blogspot|href="ladyaleena.blogspot.com" target="other_me"> - I lost intrest in blogging here.
-* A<eBay|href="members.ebay.com/aboutme/lady_fantasy" target="other_me">
-* A<IMDb|href="www.imdb.com/user/ur1803466/" target="other_me">
-* A<PerlMonks|href="www.perlmonks.org/?node_id=161890" target="other_me">
-* A<StackExchange|href="stackexchange.com/users/62646/lady-aleena?tab=accounts" target="other_me">
-* A<tumblr|href="ladyaleena.tumblr.com" target="other_me"> - I lost intrest in blogging here.
-* A<Wikipedia|href="en.wikipedia.org/wiki/User:Lady_Aleena" target="other_me">
-* A<YouTube|href="www.youtube.com/user/LadyAleena" target="other_me">
+* A<Amazon|href="https://www.amazon.com/gp/profile/amzn1.account.AH4RO3KOBRHQ4K5DXZVELRKKAN6A" target="other_me">
+* A<Blogspot|href="https://ladyaleena.blogspot.com" target="other_me"> - I lost intrest in blogging here.
+* A<eBay|href="https://members.ebay.com/aboutme/lady_fantasy" target="other_me">
+* A<IMDb|href="https://www.imdb.com/user/ur1803466/" target="other_me">
+* A<PerlMonks|href="https://www.perlmonks.org/?node_id=161890" target="other_me">
+* A<StackExchange|href="https://stackexchange.com/users/62646/lady-aleena?tab=accounts" target="other_me">
+* A<tumblr|href="https://ladyaleena.tumblr.com" target="other_me"> - I lost intrest in blogging here.
+* A<Wikipedia|href="https://en.wikipedia.org/wiki/User:Lady_Aleena" target="other_me">
+* A<YouTube|href="https://www.youtube.com/user/LadyAleena" target="other_me">
 3 Our pets
 We love cats. We have two cats. Nybble was given to us on 30 March 2016. Bitsy was brought home on 14 October 2018.
 Our cat Cache, previously owned by my mother and named Cash, died on 8 March 2016. Our cat Peepers died on 8 January 2010. We have had two other cats, Percher and Snowball, both deceased. Percher died from feline leukemia.
