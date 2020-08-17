@@ -20,7 +20,7 @@ my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir  = file_directory('Fandom/The_Riftwar', 'text');
 my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map  { $_ =~ s/\.txt//; $_ =~ s/_/ /g; $_ } @pages_list;
+my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
 my $heading    = q(The Riftwar);
 my $page_file  = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {
