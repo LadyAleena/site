@@ -263,18 +263,16 @@ sub random_race_position {
 }
 
 sub random_racial_makeup {
-  my %races;
+  my %racial_makeup;
   for my $location ('land','subterranean','marine') {
-    $races{$location}{dominant} = random_dominant_race($location);
-    $races{$location}{major}    = random_major_race($location);
-    $races{$location}{minor}    = random_minor_race($location);
-    $races{$location}{'race postion'} = random_race_position;
+    $racial_makeup{$location}{dominant} = random_dominant_race($location);
+    $racial_makeup{$location}{major}    = random_major_race($location);
+    $racial_makeup{$location}{minor}    = random_minor_race($location);
+    $racial_makeup{$location}{'race position'} = random_race_position;
   }
 
   return \%races;
 }
-
-Random::SpecialDice depends on L<Games::Dice>.
 
 =pod
 
@@ -302,6 +300,8 @@ This document describes Random::RPG::World::WorldBuildersGuidebook::Race version
 =head1 DEPENDENCIES
 
 Random::RPG::World::WorldBuildersGuidebook::Race depends on L<Games::Dice> and L<Exporter>.
+
+Random::SpecialDice depends on L<Games::Dice>.
 
 =head1 AUTHOR
 
