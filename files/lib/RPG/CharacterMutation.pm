@@ -212,10 +212,10 @@ sub random_mutation {
 
 sub random_mutations {
   my ($user_rolls) = @_;
-  my $rolls = $user_rolls ? $user_rolls : random_die(1);
+  my $main_rolls = $user_rolls ? $user_rolls : random_die(1);
 
   my @effects;
-  for (1..$rolls) {
+  for (1..$main_rolls) {
     push @effects, random_mutation;
   };
 
