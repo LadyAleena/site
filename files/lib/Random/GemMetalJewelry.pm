@@ -109,9 +109,9 @@ sub random_jewelry {
   my $item = A("$metal $piece");
 
   if ($gem_varieties and $gem_varieties > 0) {
-    my @gems = map(random_gem_expanded, 1..$gem_varieties);
-    my $gems = grammatical_join('and',@gems);
-    return "$gems on $item";
+    my @jewlery_gems = map(random_gem_expanded, 1..$gem_varieties);
+    my $jewlery_gems_text = grammatical_join('and', @jewlery_gems);
+    return "$jewlery_gems_text on $item";
   }
   elsif ($gem_varieties != 0) {
     return "$item";
