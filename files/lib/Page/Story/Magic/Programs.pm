@@ -1,14 +1,20 @@
-package Page::Story::Magic;
+package Page::Story::Magic::Programs;
 use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(story_magic);
+our @EXPORT_OK = qw(program_magic);
 
-# Bring the magic!
+use Util::Data qw(make_hash);
 
-sub story_magic {
-  my $magic = {  };
+sub program_magic {
+  my $program_urls = make_hash( 'file' => ['Collections','programs.txt'] );
+  my $magic;
+  for my $link (keys %$program_urls) {
+    my $link_dest = $program_urls->{$link};
+    $magic->{$link} = qq(A<$link|href="http://$link_dest" target="ex_tab">);
+  }
+
   return $magic;
 }
 

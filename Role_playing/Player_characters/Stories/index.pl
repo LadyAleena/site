@@ -10,13 +10,10 @@ use HTML::Entities qw(encode_entities);
 use lib '../../../files/lib';
 use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
-use Page::Story    qw(story passage);
-use Page::Story::Magic qw(pc_magic);
-use Page::RolePlaying::Spell::List qw(spell_data);
-use HTML::Elements qw(list anchor heading);
-use Util::Convert  qw(searchify);
+use Page::Story    qw(story);
+use Page::Story::Magic::PlayerCharacters qw(pc_magic);
+use HTML::Elements qw(list);
 use Util::Data     qw(file_directory file_list);
-use Util::Sort     qw(article_sort);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -36,14 +33,6 @@ my $magic = pc_magic;
 $magic->{'pages'} = sub {
   my $file_menu = file_menu('page', \@pages, $page);
   list(4, 'u', $file_menu);
-};
-$magic->{'spells'} = sub {
-  for my $spell_in ('Find Beacon','Teleport Beacon','Secure Teleport') {
-    my $spell = spell_data($spell_in);
-    heading(4, 3, $spell->{'heading'});
-    list(5, 'u', @{$spell->{'stats'}});
-    passage(5, $spell->{'description'});
-  }
 };
 
 page(

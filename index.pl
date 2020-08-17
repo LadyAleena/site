@@ -10,7 +10,8 @@ use HTML::Entities qw(encode_entities);
 use lib 'files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::Story::Magic qw(story_magic);
+use Page::Story::Magic::Programs         qw(program_magic);
+use Page::Story::Magic::PlayerCharacters qw(pc_magic);
 use Page::IRC      qw(irc_list);
 use HTML::Elements qw(section heading list anchor);
 
@@ -48,7 +49,10 @@ my %irc = (
   },
 );
 
-my $magic = story_magic;
+my $magic = {
+  %{&program_magic},
+  %{&pc_magic}
+};
 page(
   'heading' => $heading,
   'code' => sub {
