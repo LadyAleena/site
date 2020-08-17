@@ -245,7 +245,7 @@ for my $damage_type ('blunt', 'grappling', 'piercing') {
 # Start magic items
 
 for my $item (qw(amulet bell belt blanket bracelet buckle cape cloak earring gem mask necklace robe scarab shell stone)) {
-  map( $assets->{"$item of protection + $_"} = $_ * 10000, (1..5) );
+  $assets->{"$item of protection +$_"} = $_ * 10000 for (1..5);
 }
 
 for my $number (1..100) {

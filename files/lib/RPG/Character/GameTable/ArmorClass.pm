@@ -27,15 +27,14 @@ $defense_modifiers{$_} = 6 for map( "$_ mail", ('splint', 'banded', 'bronze plat
 
 #This section adds the magical plusses to the armor.
 for my $armor (keys %defense_modifiers) {
-  map($defense_modifiers{"$armor +$_"} = $defense_modifiers{$armor} + $_,(1..5));
+  $defense_modifiers{"$armor +$_"} = $defense_modifiers{$armor} + $_ for (1..5);
 }
 
 #This section adds other special abilities to the magical armor.
 for my $magical_armor (keys %defense_modifiers) {
   if ($magical_armor =~ m/\+/) {
-    map( $defense_modifiers{"$magical_armor of $_"} = $defense_modifiers{$magical_armor},
-        (qw(blending comfort command coolness haste healing swimming), 'cure wounds', 'concealed wizardry', 'underwater action')
-    );
+    $defense_modifiers{"$magical_armor of $_"} = $defense_modifiers{$magical_armor} for
+      (qw(blending comfort command coolness haste healing swimming), 'cure wounds', 'concealed wizardry', 'underwater action');
   }
 }
 
@@ -45,13 +44,13 @@ for my $magical_armor (keys %defense_modifiers) {
 #These are other items that confer a bonus to armor class which are not armor.
 
 for my $item (qw(amulet bell belt blanket bracelet buckle cape cloak earring gem mask necklace ring robe scarab shell)) {
-  map( $defense_modifiers{"$item of protection +$_"} = $_, (1..5) );
+  $defense_modifiers{"$item of protection +$_"} = $_ for (1..5);
 }
 
 my @of_defense = reverse(0..9);
 my @of_defense_modifiers = 1..10;
 for my $item (qw(bracers choker cape earring)) {
-  map( $defense_modifiers{"$item of defense, ac $of_defense[$_]"} = $of_defense_modifiers[$_], (0..9) );
+  $defense_modifiers{"$item of defense, ac $of_defense[$_]"} = $of_defense_modifiers[$_] for (0..9);
 }
 
 $defense_modifiers{$_} = 2 for ('cloak of displacement', 'staff of power', 'helmet of brilliance', 'arm of valor', 'boots of speed');

@@ -16,7 +16,7 @@ use RPG::Character::Class qw(convert_class class_level);
 
 my %saving_throw_modifiers;
 for my $item (qw(amulet bell belt blanket bracelet buckle cape cloak earring gem mask necklace ring robe scarab shell)) {
-  map( $saving_throw_modifiers{"$item of protection +$_"} = $_, (1..5) );
+  $saving_throw_modifiers{"$item of protection +$_"} = $_ for (1..5);
 }
 
 $saving_throw_modifiers{$_} = 1 for ('robe of the archmagi', 'robe of stars');
