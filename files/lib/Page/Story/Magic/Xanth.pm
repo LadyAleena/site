@@ -6,50 +6,44 @@ use Exporter qw(import);
 
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
+use Page::Line     qw(line);
 use Fancy::Open   qw(fancy_open);
+use HTML::Elements qw(figure object anchor);
 use Util::Convert qw(textify idify searchify);
-use Util::Data    qw(data_file make_hash);
+use Util::Data    qw(file_directory file_list data_file make_hash);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_line_magic);
 
-my $headings = [qw(Name species origin location gender talent description book chapter)];
-my $characters = make_hash(
-  'file' => ['Fandom/Xanth','characters.txt'],
-  'headings' => $headings,
-);
-
-my $see_char = make_hash(
-  'file' => ['Fandom/Xanth', 'see_character.txt'],
-);
-
-my @book_list = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
-
 sub Xanth_line_magic {
   my $type = shift;
 
-  my $Xanth_line_magic;
+  my $magic;
 
+  my @book_list  = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
   for my $book (@book_list) {
     my $search = searchify($book);
     if ($type eq 'page') {
-      $Xanth_line_magic->{$book} = qq(A<I<$book>|href="Characters.pl?novel=$search">);
+      $magic->{$book} = qq(A<I<$book>|href="Characters.pl?novel=$search">);
     }
     elsif ($type eq 'character') {
-      $Xanth_line_magic->{$book} = novel_link($book);
+      $magic->{$book} = novel_link($book);
     }
   }
 
+  my $headings   = [qw(Name species origin location gender talent description book chapter)];
+  my $characters = make_hash('file' => ['Fandom/Xanth','characters.txt'], 'headings' => $headings);
+  my $see_char   = make_hash('file' => ['Fandom/Xanth', 'see_character.txt']);
   for my $key ( keys %$characters ) {
     my $name   = textify($key);
     if ($type eq 'page') {
       my $search = $see_char->{$key} ? searchify($see_char->{$key}) : searchify($key);
-      $Xanth_line_magic->{$key}      = qq(A<$name|href="Characters.pl?character=$search">);
-      $Xanth_line_magic->{"$key\'s"} = qq(A<$name\'s|href="Characters.pl?character=$search">);
+      $magic->{$key}      = qq(A<$name|href="Characters.pl?character=$search">);
+      $magic->{"$key\'s"} = qq(A<$name\'s|href="Characters.pl?character=$search">);
     }
     elsif ($type eq 'character') {
-      $Xanth_line_magic->{$key}      = character_link($key);
-      $Xanth_line_magic->{"$key\'s"} = character_link($name, "$name\'s");
+      $magic->{$key}      = character_link($key);
+      $magic->{"$key\'s"} = character_link($name, "$name\'s");
     }
   }
 
@@ -57,15 +51,32 @@ sub Xanth_line_magic {
     my $id = idify($num);
 
     if ($type eq 'page') {
-      $Xanth_line_magic->{$num}     = qq(A<$num|href="?select=Timeline#$id">);
-      $Xanth_line_magic->{"id$num"} = qq(SPAN<$num|id="$id">);
+      $magic->{$num}     = qq(A<$num|href="?select=Timeline#$id">);
+      $magic->{"id$num"} = qq(SPAN<$num|id="$id">);
     }
     elsif ($type eq 'character') {
-      $Xanth_line_magic->{$num}     = timeline_link($num);
+      $magic->{$num}     = timeline_link($num);
     }
   }
 
-  return $Xanth_line_magic;
+  my $trees_dir = '../../files/images/Fandom/Fictional_family_trees/Xanth';
+  my @trees_list = file_list($trees_dir);
+  for my $tree (@trees_list) {
+    my $link = "$trees_dir/$tree";
+    my $class = 'svg_group';
+    if ( $tree !~ /(?:Kings|Adora|Gorbage|Incarnations|key)/ ) {
+      $class .= ' right';
+    }
+
+    $magic->{textify($tree)} = sub {
+      figure(6, sub {
+        line(7, anchor( '', { 'href' => $link, 'target' => 'new' }));
+        line(7, object( '', { 'data' => $link, 'type' => 'image/svg+xml'})); # object used instead of img, b/c img won't render svg properly
+      }, { 'class' => $class });
+    };
+  }
+
+  return $magic;
 
 }
 

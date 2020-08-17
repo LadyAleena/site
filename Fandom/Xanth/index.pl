@@ -11,12 +11,9 @@ use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
-use Page::Line     qw(line);
 use Page::Story::Magic::Xanth qw(Xanth_line_magic);
-use HTML::Elements qw(list anchor object div figure);
-use Util::Convert  qw(searchify textify);
+use HTML::Elements qw(list);
 use Util::Data     qw(file_directory file_list);
-use Util::Sort     qw(article_sort);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -38,22 +35,6 @@ $magic->{'pages'} = sub {
   my $file_menu = file_menu('page', \@pages, $page);
   list(4, 'u', $file_menu);
 };
-my $trees_dir = '../../files/images/Fandom/Fictional_family_trees/Xanth';
-my @trees_list = file_list($trees_dir);
-for my $tree (@trees_list) {
-  my $link = "$trees_dir/$tree";
-  my $class = 'svg_group';
-  if ( $tree !~ /(?:Kings|Adora|Gorbage|Incarnations|key)/ ) {
-    $class .= ' right';
-  }
-
-  $magic->{textify($tree)} = sub {
-    figure(6, sub {
-      line(7, anchor( '', { 'href' => $link, 'target' => 'new' }));
-      line(7, object( '', { 'data' => $link, 'type' => 'image/svg+xml'})); # object used instead of img, b/c img won't render svg properly
-    }, { 'class' => $class });
-  };
-}
 
 page(
   'heading' => $heading,
