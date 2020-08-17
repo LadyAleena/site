@@ -12,7 +12,7 @@ use RPG::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.
 
-my @classes = qw(wizard priest paladin ranger bard theopsyelementalist);
+# my @classes = qw(wizard priest paladin ranger bard theopsyelementalist);
 
 sub spell_progression {
   my ($class, $opt) = @_;
