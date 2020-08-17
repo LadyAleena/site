@@ -24,7 +24,7 @@ my %misc = (
 
 sub random_RPG_misc {
   my ($user_misc, $user_additions) = @_;
-  my $misc = fancy_rand(\%misc, $user_thing, { caller => 'random_misc', additions => $user_additions ? $user_additions : undef });
+  my $misc = fancy_rand(\%misc, $user_misc, { caller => 'random_misc', additions => $user_additions ? $user_additions : undef });
   return $misc;
 }
 
