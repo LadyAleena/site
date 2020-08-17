@@ -19,7 +19,7 @@ our @EXPORT_OK = qw(random_weapon random_weapons random_magic_weapon random_weap
 my $weapons_dir     = file_directory('Role_playing/Reference_tables', 'data');
 my $weapons_fn      = "$weapons_dir/Weapons.txt";
 my $weapons_headers = ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group'];
-my $weapons = csv(
+my $weapons_list = csv(
   in      => $weapons_fn,
   headers => $weapons_headers,
   key     => $weapons_headers->[0],
@@ -41,11 +41,11 @@ my %weapon_groups = (
                    ],
   'material'    => [map("$_ weapons", qw(bone metal stone wooden))],
   'damage type' => [map("$_ weapons", qw(bludgeoning piercing slashing missile))],
-  'weapon'      => [map(display_weapon('text' => $_, 'plural' => 'plural', 'full' => 'yes'), keys %$weapons)],
+  'weapon'      => [map(display_weapon('text' => $_, 'plural' => 'plural', 'full' => 'yes'), keys %$weapons_list)],
 );
 
 sub random_weapon {
-  my @weapon_list = (map(display_weapon('text' => $_, 'plural' => 'singular', 'full' => 'yes'), keys %$weapons));
+  my @weapon_list = (map(display_weapon('text' => $_, 'plural' => 'singular', 'full' => 'yes'), keys %$weapons_list));
   my $weapon = tiny_rand(@weapon_list);
   return $weapon;
 }
