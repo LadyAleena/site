@@ -21,7 +21,7 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open            qw(fancy_open);
 use HTML::Elements qw(section nav paragraph list details anchor);
 use Util::Columns  qw(number_of_columns);
-use Util::Convert  qw(textify idify searchify);
+use Util::Convert  qw(idify);
 use Util::Data     qw(data_file make_hash alpha_hash);
 use Util::Number   qw(commify);
 

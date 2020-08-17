@@ -9,7 +9,7 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Fancy::Join::Defined qw(join_defined);
-use HTML::Elements qw(section paragraph table anchor);
+use HTML::Elements qw(section paragraph table);
 use HTML::Forms    qw(tiny_select);
 use RPG::WeaponName qw(display_weapon);
 use Util::Data     qw(make_hash);

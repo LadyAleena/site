@@ -10,7 +10,6 @@ use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::Path     qw(base_path);
 use HTML::Elements qw(table list);
-use Util::Data     qw(file_list);
 
 my $root_path = base_path('path');
 

@@ -14,7 +14,7 @@ use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Story::Inline qw(inline);
 use HTML::Elements qw(section list paragraph);
-use Util::Convert  qw(textify filify);
+use Util::Convert  qw(textify);
 use Util::Data     qw(file_directory file_list);
 use Util::Sort     qw(article_sort);
 use Fancy::Join::Defined qw(join_defined);

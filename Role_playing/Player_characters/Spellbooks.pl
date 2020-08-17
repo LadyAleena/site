@@ -12,7 +12,7 @@ use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::RolePlaying::Spell::Book qw(spellbook);
 use HTML::Elements qw(section paragraph list);
-use Util::Convert  qw(textify filify);
+use Util::Convert  qw(filify);
 use Util::Data     qw(file_directory file_list);
 use Util::Sort     qw(name_sort);
 

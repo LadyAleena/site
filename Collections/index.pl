@@ -13,10 +13,8 @@ use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Story::Magic::Collection qw(collection_magic);
 use Page::Story::Magic::Programs   qw(program_magic);
-use HTML::Elements qw(list anchor);
-use Util::Convert  qw(searchify);
+use HTML::Elements qw(list);
 use Util::Data     qw(file_directory file_list);
-use Util::Sort     qw(article_sort);
 use Random::Dragon qw(random_DreamWorks_dragon random_Harry_Potter_dragon random_Pern_dragon);
 
 my $cgi        = CGI::Simple->new;

@@ -12,11 +12,8 @@ use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Line     qw(line);
-use HTML::Elements qw(list anchor definition_list object figure img);
-use Util::Convert  qw(searchify);
+use HTML::Elements qw(list definition_list object figure);
 use Util::Data     qw(file_directory file_list make_array);
-use Util::Sort     qw(article_sort);
-use RPG::Character::Alignment qw(expand_alignment);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;

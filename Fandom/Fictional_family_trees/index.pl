@@ -12,10 +12,9 @@ use Page::Base     qw(page);
 use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
 use Page::Line     qw(line);
-use HTML::Elements qw(list object div figure anchor);
-use Util::Convert  qw(searchify textify);
+use HTML::Elements qw(list object figure anchor);
+use Util::Convert  qw(textify);
 use Util::Data     qw(file_directory file_list);
-use Util::Sort     qw(article_sort);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
