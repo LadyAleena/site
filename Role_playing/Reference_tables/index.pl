@@ -15,17 +15,16 @@ use HTML::Elements qw(list definition_list object figure);
 use Util::Data     qw(make_array);
 use Page::Line     qw(line);
 
-my $cgi        = CGI::Simple->new;
-my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
-my $pages_dir  = file_directory('Role_playing/Reference_tables', 'text');
-my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
-my $heading    = q(Role playing references);
-my $page_file  = "$pages_dir/index.txt";
+my $cgi       = CGI::Simple->new;
+my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
+my $pages_dir = file_directory('Role_playing/Reference_tables', 'text');
+my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article', 'text' => 1 });
+my $heading   = q(Role playing references);
+my $page_file = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {
-  $heading     = $page;
-  $page_file   = "$pages_dir/$page.txt";
-  $page_file   =~ s/ /_/g;
+  $heading    = $page;
+  $page_file  = "$pages_dir/$page.txt";
+  $page_file  =~ s/ /_/g;
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 

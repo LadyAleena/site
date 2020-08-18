@@ -13,17 +13,16 @@ use Page::Story    qw(story);
 use Page::List::File qw(file_directory file_list file_menu);
 use HTML::Elements qw(list definition_list);
 
-my $cgi        = CGI::Simple->new;
-my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
-my $pages_dir  = file_directory('Role_playing/Locations', 'text');
-my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
-my $heading    = q(Role playing locations);
-my $page_file  = "$pages_dir/index.txt";
+my $cgi       = CGI::Simple->new;
+my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
+my $pages_dir = file_directory('Role_playing/Locations', 'text');
+my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article', 'text' => 1 });
+my $heading   = q(Role playing locations);
+my $page_file = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {
-  $heading     = $page eq 'Olakeen' ? 'Olakeen - The City of Money and Magic' : $page;
-  $page_file   = "$pages_dir/$page.txt";
-  $page_file   =~ s/ /_/g;
+  $heading    = $page eq 'Olakeen' ? 'Olakeen - The City of Money and Magic' : $page;
+  $page_file  = "$pages_dir/$page.txt";
+  $page_file  =~ s/ /_/g;
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 

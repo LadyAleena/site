@@ -15,18 +15,17 @@ use HTML::Elements qw(list object figure anchor);
 use Page::Line     qw(line);
 use Util::Convert  qw(textify);
 
-my $cgi        = CGI::Simple->new;
-my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
-my $pages_dir  = file_directory('Fandom/Fictional_family_trees', 'text');
-my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
-my $heading    = q(Fictional family trees);
-my $page_file  = "$pages_dir/index.txt";
+my $cgi       = CGI::Simple->new;
+my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
+my $pages_dir = file_directory('Fandom/Fictional_family_trees', 'text');
+my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article', 'text' => 1 });
+my $heading   = q(Fictional family trees);
+my $page_file = "$pages_dir/index.txt";
 my $trees_dir = '../../files/images/Fandom/Fictional_family_trees';
 if ( $page && grep { $_ eq $page } @pages ) {
-  $heading     = $page;
-  $page_file   = "$pages_dir/$page.txt";
-  $page_file   =~ s/ /_/g;
+  $heading    = $page;
+  $page_file  = "$pages_dir/$page.txt";
+  $page_file  =~ s/ /_/g;
 
   my $page_dir = $page;
      $page_dir =~ s/ family trees$//;

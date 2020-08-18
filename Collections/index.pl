@@ -16,17 +16,16 @@ use Page::Story::Magic::Collection qw(collection_magic);
 use Page::Story::Magic::Programs   qw(program_magic);
 use Random::Dragon qw(random_DreamWorks_dragon random_Harry_Potter_dragon random_Pern_dragon);
 
-my $cgi        = CGI::Simple->new;
-my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
-my $pages_dir  = file_directory('Collections', 'text');
-my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
-my $heading    = q(Lady Aleena's collections);
-my $page_file  = "$pages_dir/index.txt";
+my $cgi       = CGI::Simple->new;
+my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
+my $pages_dir = file_directory('Collections', 'text');
+my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article', 'text' => 1 });
+my $heading   = q(Lady Aleena's collections);
+my $page_file = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {
-  $heading     = q(Lady Aleena's ).lc "$page collection";
-  $page_file   = "$pages_dir/$page.txt";
-  $page_file   =~ s/ /_/g;
+  $heading    = q(Lady Aleena's ).lc "$page collection";
+  $page_file  = "$pages_dir/$page.txt";
+  $page_file  =~ s/ /_/g;
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
