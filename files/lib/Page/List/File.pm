@@ -4,14 +4,15 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-our @EXPORT_OK = qw(file_directory file_list file_menu);
+our @EXPORT_OK = qw(file_directory file_list file_menu print_file_menu);
 
 use File::Spec;
 
 use Page::Path     qw(base_path);
-use HTML::Elements qw(anchor);
+use HTML::Elements qw(anchor list);
 use Util::Convert  qw(textify searchify);
 use Util::Sort     qw(article_sort name_sort);
+use Util::Columns  qw(number_of_columns);
 
 # file_directory returns the directory by type of data wanted.
 ## The default data directory is 'data'.
@@ -75,6 +76,14 @@ sub file_menu {
     ]
   } @$list;
   return \@params;
+}
+
+sub print_file_menu {
+  my ($param, $list, $page, $cols) = @_;
+  my $file_menu = file_menu($param, $list, $page);
+  my $count = @$list;
+  my $class = $cols ? number_of_columns(2, $count, 'yes') : undef;
+  list(4, 'u', $file_menu, { 'class' => $class });
 }
 
 =pod

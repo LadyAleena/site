@@ -10,8 +10,8 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::List::File qw(file_directory file_list file_menu);
-use HTML::Elements qw(list definition_list object figure);
+use Page::List::File qw(file_directory file_list print_file_menu);
+use HTML::Elements qw(definition_list object figure);
 use Util::Data     qw(make_array);
 use Page::Line     qw(line);
 
@@ -29,10 +29,7 @@ if ( $page && grep { $_ eq $page } @pages ) {
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
 my $magic;
-$magic->{'pages'} = sub {
-  my $file_menu = file_menu('page', \@pages, $page);
-  list(4, 'u', $file_menu);
-};
+$magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 $magic->{'equipment'} = sub {
   my @def_headings = ('cost', 'weight', 'items included');
   my $definition_list = make_array( 'file' => ['Role_playing/Reference_tables', 'Equipment_kits.txt'], 'headings' => ['term', @def_headings] );

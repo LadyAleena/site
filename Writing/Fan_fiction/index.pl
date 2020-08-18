@@ -10,8 +10,7 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::List::File qw(file_directory file_list file_menu);
-use HTML::Elements qw(list);
+use Page::List::File qw(file_directory file_list print_file_menu);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -27,10 +26,7 @@ if ( $page && grep { $_ eq $page } @pages ) {
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
 my $magic;
-$magic->{'pages'} = sub {
-  my $file_menu = file_menu('page', \@pages, $page);
-  list(4, 'u', $file_menu);
-};
+$magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
 page(
   'heading' => $heading,
