@@ -9,16 +9,14 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../files/lib';
 use Page::Base     qw(page);
-use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
+use Page::List::File qw(file_directory file_list file_menu);
 use HTML::Elements qw(list);
-use Util::Data     qw(file_directory file_list);
 
 my $cgi        = CGI::Simple->new;
 my $page       = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir  = file_directory('Writing', 'text');
-my @pages_list = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article' });
-my @pages      = map { s/\.txt//; s/_/ /g; $_ } @pages_list;
+my @pages      = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 1, 'sort' => 'article', 'text' => 1 });
 my $heading    = q(Lady Aleena's writing);
 my $page_file  = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {

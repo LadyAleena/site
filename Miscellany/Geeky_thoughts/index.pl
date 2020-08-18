@@ -6,14 +6,12 @@ use warnings FATAL => qw( all );
 use CGI::Carp qw(fatalsToBrowser);
 use CGI::Simple;
 use HTML::Entities qw(encode_entities);
-use Math::BigInt;
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
-use Page::Menu     qw(file_menu);
 use Page::Story    qw(story);
+use Page::List::File qw(file_directory file_list file_menu);
 use HTML::Elements qw(list);
-use Util::Data     qw(file_directory file_list);
 use Page::Story::Magic::Chess      qw(chess_magic);
 use Page::Story::Magic::Numeration qw(numeration_magic);
 

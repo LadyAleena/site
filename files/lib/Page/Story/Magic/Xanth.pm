@@ -6,11 +6,12 @@ use Exporter qw(import);
 
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
+use Page::List::File       qw(file_directory file_list);
 use Page::Line     qw(line);
-use Fancy::Open   qw(fancy_open);
+use Fancy::Open    qw(fancy_open);
 use HTML::Elements qw(figure object anchor);
-use Util::Convert qw(textify idify searchify);
-use Util::Data    qw(file_directory file_list data_file make_hash);
+use Util::Convert  qw(textify idify searchify);
+use Util::Data     qw(data_file make_hash);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_line_magic);
@@ -90,7 +91,7 @@ This document describes Page::Xanth::LineMagic version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::LineMagic depends on L<Fancy::Open>, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::Novel, Page::Xanth::PageLinks, and L<Exporter>.
+Page::Xanth::LineMagic depends on L<Fancy::Open>, Page::List::File, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::Novel, Page::Xanth::PageLinks, and L<Exporter>.
 
 =head1 AUTHOR
 

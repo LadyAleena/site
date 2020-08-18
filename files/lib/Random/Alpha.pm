@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
-use Util::Data qw(file_directory);
+use Page::List::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_alpha);
@@ -302,7 +302,7 @@ So using the above, you could add the semivowels, or glides, to the list of vowe
 
 =head1 DEPENDENCIES
 
-Random::Alpha depends on L<Fancy::Rand>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
+Random::Alpha depends on L<Fancy::Rand>, L<Fancy::Open>, Page::List::File, and L<Exporter>.
 
 =head1 ACKNOWLEDGMENTS
 

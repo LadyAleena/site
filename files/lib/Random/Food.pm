@@ -5,9 +5,9 @@ use warnings;
 use Exporter qw(import);
 
 use Fancy::Rand qw(fancy_rand);
-use Fancy::Map qw(fancy_map);
+use Fancy::Map  qw(fancy_map);
 use Fancy::Open qw(fancy_open);
-use Util::Data qw(file_directory);
+use Page::List::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_food random_drink);
@@ -230,7 +230,7 @@ You can add items to the list by adding an array reference with the additional i
 
 =head1 DEPENDENCIES
 
-Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, L<Fancy::Open>, L<Util::Data>, and L<Exporter>.
+Random::Food depends on L<Fancy::Rand>, L<Fancy::Map>, L<Fancy::Open>, Page::List::File, and L<Exporter>.
 
 =head1 AUTHOR
 

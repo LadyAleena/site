@@ -4,8 +4,8 @@ use strict;
 use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(
-  file_directory file_list data_file
   get_data
+  data_file
   make_hash make_array
   first_alpha alpha_hash alpha_array
   hash_from_arrays
@@ -18,57 +18,6 @@ use List::Util qw(first);
 
 use Page::Path qw(base_path);
 use Util::Sort qw(article_sort name_sort);
-
-# file_directory returns the directory by type of data wanted.
-## The default data directory is 'data'.
-## Other options for type are:
-### text returns the text file for various pages.
-### audio, images, and css return urls.
-### imagesd returns the images directory, but not in url format.
-
-sub file_directory {
-  my ($dir, $type) = @_;
-  $dir =~ s/ /_/g;
-  $type = $type ? $type : 'data';
-  return base_path($type)."/$dir";
-}
-
-# file_list returns a list of the contents in a directory but is not recursive.
-## There are options:
-### 'type' returns only the wanted type files or directories.
-### 'uppercase' returns only files that begin with an initial uppercase letter.
-### 'sort' returns a the list sorted. The options are 'article' or 'name'.
-### 'full path' returns the list with the files' full paths.
-
-sub file_list {
-  my ($directory, $opt) = @_;
-
-  opendir(my $dir, $directory) || die "Can't open $directory. $!";
-  my @files = File::Spec->no_upwards(readdir($dir));
-  closedir($dir);
-  chomp @files;
-
-  @files = grep { -f "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^f/;
-  @files = grep { -d "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^d/;
-  @files = grep { /^\p{uppercase}/ }   @files if $opt->{'uppercase'} && $opt->{'uppercase'} =~ /^[yt1]/;  # Thank you [tye]!
-
-  if ($opt->{'sort'}) {
-    my $sort = $opt->{'sort'};
-    my $sort_sub = $sort eq 'name' ? \&name_sort :
-                   $sort eq 'article' ? \&article_sort :
-                   undef;
-    if ($sort_sub) {
-      @files = sort { $sort_sub->($a, $b) } @files;
-    }
-    else {
-      @files = sort @files;
-    }
-  }
-
-  @files = map  { "$directory/$_" }  @files if $opt->{'full path'} && $opt->{'full path'} =~ /^[yt1]/;
-
-  return @files
-}
 
 sub data_file {
   my ($directory, $filename, $opt) = @_;

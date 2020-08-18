@@ -11,7 +11,7 @@ use HTML::Elements qw(html head body heading paragraph list table anchor);
 use Page::Menu     qw(base_menu);
 use Page::Path     qw(base_path);
 use Page::Link::Color qw(link_color);
-use Util::Data     qw(file_list);
+use Page::List::File  qw(file_list);
 use Util::Number   qw(pretty_number);
 
 my $root_path = base_path('path');

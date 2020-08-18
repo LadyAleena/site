@@ -9,7 +9,7 @@ use Fancy::Open qw(fancy_open);
 use Random::Color qw(random_color);
 use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
 use Random::RPG::Monster qw(random_RPG_dragon);
-use Util::Data qw(file_directory);
+use Page::List::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(
@@ -145,7 +145,7 @@ C<random_dragon> returns a random dragon from any of the above functions.
 
 =head1 DEPENDENCIES
 
-Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<Util::Data>, and L<Exporter>.
+Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, Page::List::File, and L<Exporter>.
 
 =head1 AUTHOR
 
