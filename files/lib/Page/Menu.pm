@@ -3,7 +3,7 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(base_menu alpha_menu index_menu);
+our @EXPORT_OK = qw(base_menu index_menu);
 
 use Cwd qw(cwd realpath);
 
@@ -97,28 +97,6 @@ sub index_menu {
     @file_list
   ];
   return $files;
-}
-
-# alpha_menu returns a string of links based on keys of a hash.
-sub alpha_menu {
-  my ($hash, $opt) = @_;
-
-  my @line;
-  for my $letter (sort { $a cmp $b } keys %{$hash}) {
-    my $parameter    = $opt->{'param'} ? $opt->{'param'} : undef;
-    my $section_name = $letter eq uc($letter) ? $letter : "l$letter";
-    my $href         = $parameter ? "?$parameter=".searchify($section_name) : "#section_$section_name";
-    push @line, anchor("&nbsp;$letter&nbsp;", { 'href' => $href });
-  }
-
-  if ($opt->{'addition'}) {
-    push @line, ref($opt->{'addition'}) eq 'ARRAY' ? @{$opt->{'addition'}} : $opt->{'addition'};
-  }
-
-  my $join = $opt->{'join'} ? $opt->{'join'} : ', ';
-  my $line = $opt->{'join'} ? join($join, @line) : \@line;
-
-  return $line;
 }
 
 =pod

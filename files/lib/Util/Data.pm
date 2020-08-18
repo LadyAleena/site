@@ -7,7 +7,6 @@ our @EXPORT_OK = qw(
   get_data
   data_file
   make_hash make_array
-  first_alpha alpha_hash alpha_array
   hash_from_arrays
 );
 
@@ -138,68 +137,6 @@ sub make_array {
 
   return \@array;
 }
-
-# start alpha section
-
-# The 'article' parameter.
-# Without the article parameter:
-## the initial articles 'a', 'an', and 'the' will be stripped from the string
-## first characters will be converted to uppercase
-## place all strings starting with a digit under the '#' key
-## place all strings starting with a non-word characters under the '!' key
-# With the article parameter, the following will be preserved:
-## the initial articles 'a', 'an', and 'the'
-## the case of the first characters
-## all the other first characters such as digits and initial punctuation
-
-sub first_alpha {
-  my ($string, $opt) = @_;
-
-  my $alpha;
-  if ($opt->{'article'} && $opt->{'article'} =~ /^[yt1]/i) {
-    $alpha = substr($string, 0, 1);
-  }
-  else {
-    $string =~ s/\s*\b(A|a|An|an|The|the)(_|\s)//xi;
-
-    $alpha = uc encode('UTF-8', substr($string, 0, 1));
-    if ($alpha =~ /^\d/) {
-      $alpha = '#';
-    }
-    elsif ($alpha !~ /^\p{uppercase}/) {
-      $alpha = '!';
-    }
-  }
-
-  return $alpha;
-}
-
-# alpha_hash and alpha_array return a hash with single character keys.
-
-# The original list for alpha_hash is a hash.
-# The original list for alpha_array is an array.
-
-sub alpha_hash {
-  my ($org_list, $opt) = @_;
-  my %alpha_hash;
-  for my $org_value (keys %{$org_list}) {
-    my $alpha = first_alpha($org_value, $opt);
-    $alpha_hash{$alpha}{$org_value} = $org_list->{$org_value};
-  }
-  return \%alpha_hash;
-}
-
-sub alpha_array {
-  my ($org_list, $opt) = @_;
-  my %alpha_hash;
-  for my $org_value (@{$org_list}) {
-    my $alpha = first_alpha($org_value, $opt);
-    push @{$alpha_hash{$alpha}}, $org_value;
-  }
-  return \%alpha_hash;
-}
-
-# end alpha section
 
 sub hash_from_arrays {
   my ($keys, $values) = @_;
