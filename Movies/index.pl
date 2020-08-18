@@ -11,9 +11,9 @@ use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../files/lib';
 use Page::Base     qw(page);
-use Page::Menu     qw(alpha_menu);
 use Page::Story    qw(story);
-use Page::List::File qw(file_directory file_menu);
+use Page::List::Alpha qw(first_alpha alpha_hash alpha_array alpha_menu);
+use Page::List::File  qw(file_directory file_menu);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(section nav div paragraph list form fieldset selection details input anchor);
 use Page::Movie    qw(movie genre movie_option display_option textify_movie start_year end_year
@@ -21,7 +21,6 @@ use Page::Movie    qw(movie genre movie_option display_option textify_movie star
                       get_genre get_media movies_beginning);
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(idify);
-use Util::Data     qw(alpha_hash alpha_array first_alpha);
 use Util::Sort     qw(article_sort);
 
 my ($sec,$min,$hour,$mday,$mon,$ltyear,$wday,$yday,$isdst) = localtime();
