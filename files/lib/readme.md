@@ -18,8 +18,6 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but it has since grown to include generators for many many more things. It includes a [readme](Random/readme.md) for more information.
 
-[SVG](SVG): These modules were all written to help me write the [SVGs](../images) for my site and are specific to my needs.
-
 [Util](Util): These modules are almost all helpers for my site and are very specific to my needs. There are not many in here that I would want to share. Those I may want to share would need new names.
 
 ### Modules not in use on my site
@@ -31,6 +29,8 @@ The one JavaScript file is for my collapsible site menu mainly.
 [**Name**](Name): The Transform module parses names into an arrayref.
 
 [**String**](String): The Abbreviation module was written for fun and is not used on my site.
+
+[SVG](SVG): These modules are indirectly used for my site and were all written to help me write the [SVGs](../images) and are specific to my needs.
 
 [**Time**](Time): The Duration module was written so I could find out durations.
 
