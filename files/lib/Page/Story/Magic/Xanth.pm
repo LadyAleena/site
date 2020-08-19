@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Page::Data qw(make_hash);
 use Page::Line qw(line);
 use Page::List::File qw(file_directory file_list);
-use Page::List::File qw(file_directory);
+use Page::Story::Magic::FamilyTree qw(family_tree_magic);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Open    qw(fancy_open);
@@ -20,7 +20,8 @@ our @EXPORT_OK = qw(Xanth_magic);
 sub Xanth_magic {
   my $type = shift;
 
-  my $magic;
+  my $trees_dir = '../../files/images/Fandom/Fictional_family_trees/Xanth';
+  my $magic = family_tree_magic($trees_dir);
 
   my $X_dir = file_directory('Fandom/Xanth');
 
@@ -61,23 +62,6 @@ sub Xanth_magic {
     elsif ($type eq 'character') {
       $magic->{$num}     = timeline_link($num);
     }
-  }
-
-  my $trees_dir = '../../files/images/Fandom/Fictional_family_trees/Xanth';
-  my @trees_list = file_list($trees_dir);
-  for my $tree (@trees_list) {
-    my $link = "$trees_dir/$tree";
-    my $class = 'svg_group';
-    if ( $tree !~ /(?:Kings|Adora|Gorbage|Incarnations|key)/ ) {
-      $class .= ' right';
-    }
-
-    $magic->{textify($tree)} = sub {
-      figure(6, sub {
-        line(7, anchor( '', { 'href' => $link, 'target' => 'new' }));
-        line(7, object( '', { 'data' => $link, 'type' => 'image/svg+xml'})); # object used instead of img, b/c img won't render svg properly
-      }, { 'class' => $class });
-    };
   }
 
   return $magic;

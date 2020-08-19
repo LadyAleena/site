@@ -11,9 +11,7 @@ use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use HTML::Elements qw(object figure anchor);
-use Page::Line     qw(line);
-use Util::Convert  qw(textify);
+use Page::Story::Magic::FamilyTree qw(family_tree_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -34,24 +32,8 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic;
+my $magic = family_tree_magic($trees_dir);
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
-
-my @trees_list = file_list($trees_dir);
-for my $tree_file (@trees_list) {
-  my $link = "$trees_dir/$tree_file";
-  my $class = 'svg_group';
-  my $text = textify($tree_file);
-  my ($family, $source) = split(/ /, $text, 2);
-  my $title = $family && $source ? "The $family family from $source." : $text;
-
-  $magic->{$text} = sub {
-    figure(6, sub {
-      line(7, anchor( '', { 'href' => $link, 'target' => 'new' }));
-      line(7, object( '', { 'data' => $link, 'type' => 'image/svg+xml'})); # object used instead of img, b/c img won't render svg properly
-    }, { 'class' => $class, 'title' => $title });
-  };
-}
 
 page(
   'heading' => $heading,
