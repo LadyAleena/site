@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(program_magic);
 
-use Util::Data qw(make_hash);
+use Page::Data qw(make_hash);
 
 sub program_magic {
   my $program_urls = make_hash( 'file' => ['Collections','programs.txt'] );

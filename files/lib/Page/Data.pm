@@ -1,4 +1,4 @@
-package Util::Data;
+package Page::Data;
 use v5.8.8;
 use strict;
 use warnings;

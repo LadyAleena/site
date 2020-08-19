@@ -8,11 +8,11 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Data     qw(make_hash);
 use Page::Forms    qw(tiny_select);
 use Fancy::Join::Defined qw(join_defined);
 use HTML::Elements qw(section paragraph table);
 use RPG::WeaponName qw(display_weapon);
-use Util::Data     qw(make_hash);
 
 my $cgi = CGI::Simple->new;
 my $size  = $cgi->param('size') ? encode_entities($cgi->param('size'), '<>"') : undef;

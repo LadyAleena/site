@@ -8,10 +8,10 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Data     qw(make_hash);
 use Page::Forms    qw(tiny_select);
 use HTML::Elements qw(section paragraph table anchor);
 use Util::Convert  qw(idify);
-use Util::Data     qw(make_hash);
 
 my $cgi = CGI::Simple->new;
 my $alpha   = $cgi->param('alpha') ? encode_entities($cgi->param('alpha'),'<>"') : '';

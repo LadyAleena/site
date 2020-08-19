@@ -14,13 +14,13 @@ use List::Util qw(min max);
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(footer section nav heading paragraph list span anchor);
+use Page::Data    qw(make_hash get_data);
 use Page::Link::External qw(external_links);
 use Page::List::File qw(file_directory);
 use Page::Path    qw(base_path);
 use Page::People  qw(people_list);
 use Util::Columns qw(number_of_columns);
 use Util::Convert qw(filify textify idify searchify);
-use Util::Data    qw(make_hash get_data);
 
 my $movie_dir  = file_directory('Movies');
 my $movies     = make_hash( 'file' => "$movie_dir/movies.txt",     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );

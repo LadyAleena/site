@@ -6,12 +6,12 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A);
 
+use Page::Data     qw(data_file);
 use Page::Xanth::Util qw(gendering);
 use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(data_file);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(species_link get_species);

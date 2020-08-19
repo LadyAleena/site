@@ -5,10 +5,10 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(chess_magic);
 
+use Page::Data       qw(make_array);
 use Page::Line       qw(line);
 use Page::List::File qw(file_directory);
 use HTML::Elements   qw(definition_list figure object);
-use Util::Data       qw(make_array);
 
 sub chess_magic {
   my $magic;

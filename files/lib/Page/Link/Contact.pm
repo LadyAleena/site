@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(contact_links);
 
 use CGI::Carp qw(fatalsToBrowser);
 
+use Page::Data     qw(make_hash);
 use HTML::Elements qw(anchor img);
 use Page::Path     qw(base_path);
-use Util::Data     qw(make_hash);
 
 sub contact_links {
   my $contacts = make_hash( 'file' => ['Util', 'other_sites.txt'] );

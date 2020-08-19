@@ -8,8 +8,8 @@ our @EXPORT_OK = qw(spellbook);
 use CGI::Carp qw(fatalsToBrowser);
 use Lingua::EN::Inflect qw(ORD);
 
+use Page::Data    qw(make_hash);
 use Util::Columns qw(number_of_columns);
-use Util::Data    qw(make_hash);
 
 sub spellbook {
   my ($directory, $file) = @_;

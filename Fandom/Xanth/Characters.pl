@@ -10,6 +10,7 @@ use List::MoreUtils     qw(first_index);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
+use Page::Data     qw(make_hash);
 use Page::List::Alpha  qw(alpha_hash alpha_menu);
 use Page::List::File   qw(file_directory);
 use Page::Xanth::Character qw(get_open get_character);
@@ -23,7 +24,6 @@ use Fancy::Open            qw(fancy_open);
 use HTML::Elements qw(section nav paragraph list details anchor);
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(idify);
-use Util::Data     qw(make_hash);
 use Util::Number   qw(commify);
 
 # Begin importing data

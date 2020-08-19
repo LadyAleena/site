@@ -5,9 +5,9 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(spell_data);
 
+use Page::Data qw(make_hash);
 use Page::List::File qw(file_directory);
 use Util::Convert qw(filify);
-use Util::Data qw(make_hash);
 
 sub spell_description_from_file {
   my $spell_file = shift;

@@ -4,15 +4,15 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Page::List::File       qw(file_directory);
+use Page::Data qw(make_hash);
+use Page::Line qw(line);
+use Page::List::File qw(file_directory file_list);
+use Page::List::File qw(file_directory);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
-use Page::List::File       qw(file_directory file_list);
-use Page::Line     qw(line);
 use Fancy::Open    qw(fancy_open);
 use HTML::Elements qw(figure object anchor);
 use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(make_hash);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_line_magic);
