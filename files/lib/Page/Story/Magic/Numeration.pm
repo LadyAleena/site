@@ -5,6 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(numeration_magic);
 
+use Math::BigInt;
 use HTML::Elements qw(table);
 use Util::Number   qw(commify);
 
