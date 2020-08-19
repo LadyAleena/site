@@ -11,8 +11,7 @@ use lib '../../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use HTML::Elements qw(img);
-use Page::Line     qw(line);
+use Page::Story::Magic::RolePlaying qw(Afma_flag_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -27,11 +26,8 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic;
+my $magic = Afma_flag_magic;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
-$magic->{'flag'} = sub {
-  line(6, img({ 'src' => '../../../files/images/flag.jpg', 'alt' => 'Aleenia flag', 'title' => 'Flag of Aleenia', 'class' => 'right' }))
-};
 
 page(
   'heading' => $heading,

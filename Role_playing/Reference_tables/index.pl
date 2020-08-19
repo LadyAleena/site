@@ -10,10 +10,8 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::Data     qw(make_array);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use HTML::Elements qw(definition_list object figure);
-use Page::Line     qw(line);
+use Page::Story::Magic::RolePlaying qw(alignment_magic equipment_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -28,19 +26,10 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic;
+my $magic = $page && $page eq 'Equipment kits'      ? equipment_magic :
+            $page && $page eq 'Expanded alignments' ? alignment_magic :
+            undef;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
-$magic->{'equipment'} = sub {
-  my @def_headings = ('cost', 'weight', 'items included');
-  my $definition_list = make_array( 'file' => ['Role_playing/Reference_tables', 'Equipment_kits.txt'], 'headings' => ['term', @def_headings] );
-  definition_list(4, $definition_list, { 'headings' => \@def_headings, 'span class' => 'definition_heading' })
-};
-$magic->{'alignment chart'} = sub {
-  my $exp_align_link = '../../files/images/Role_playing/Expanded_alignments_scores.svg';
-  figure(6, sub {
-    line(7, object( '', { 'data' => $exp_align_link, 'type' => 'image/svg+xml', 'title' => 'Expanded Alignment Chart' })); # object used instead of img, b/c img won't render svg properly
-  }, { 'id' => 'alignment_chart', 'class' => 'svg_group centered' });
-};
 
 page(
   'heading' => $heading,

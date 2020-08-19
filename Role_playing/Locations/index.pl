@@ -8,10 +8,10 @@ use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
-use Page::Story    qw(story);
+use Page::Base  qw(page);
+use Page::Story qw(story);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use HTML::Elements qw(definition_list);
+use Page::Story::Magic::RolePlaying qw(location_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -26,19 +26,8 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic;
+my $magic = $page && $page eq 'Olakeen' ? location_magic : undef;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
-# Start Olakeen holidays
-$magic->{'Holidays'} = sub {
-  my $directory = 'Role_playing/Locations/Olakeen';
-  my $Olakeen_holidays = make_array( 'file' => [$directory, 'Holidays.txt'], 'headings' => [qw(term date celebrations)]);
-  for my $bare_term (@{$Olakeen_holidays}) {
-    my $term = $bare_term->{'term'};
-    $bare_term->{'term'} = [$term, { 'class' => 'holiday' }];
-  }
-  definition_list(5, $Olakeen_holidays, { 'headings' => [qw(date celebrations)], 'span class' => 'definition_heading' } );
-};
-# End Olakeen holidays
 
 page(
   'heading' => $heading,

@@ -6,13 +6,12 @@ use warnings FATAL => qw( all );
 use CGI::Carp qw(fatalsToBrowser);
 use CGI::Simple;
 use HTML::Entities qw(encode_entities);
-use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use Util::Convert  qw(searchify);
+use Page::Story::Magic::RolePlaying qw(monster_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -27,13 +26,8 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic;
+my $magic = monster_magic;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
-for (qw(twarg throglin tralg trobold gobpry zarden), 'dark centaur') {
-  my $search = searchify(ucfirst $_);
-  my $text   = PL_N($_);
-  $magic->{$text} = qq(A<$text|href="../Monsters/index.pl?monster=$search">);
-}
 
 page(
   'heading' => $heading,
