@@ -28,7 +28,7 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic         = $page && $page eq 'Program' ? program_magic : collection_magic;
+my $magic = $page && $page eq 'Program' ? program_magic : collection_magic;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 $magic->{'DW dragon'}   = lc random_DreamWorks_dragon;
 $magic->{'HP dragon'}   = lc random_Harry_Potter_dragon;
