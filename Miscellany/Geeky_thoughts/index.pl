@@ -27,10 +27,9 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic = {
-  %{&chess_magic},
-  %{&numeration_magic},
-};
+my $magic = $page && $page eq 'Chess variants'   ? chess_magic :
+            $page && $page eq 'Numeration scale' ? numeration_magic :
+            undef;
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
 page(
