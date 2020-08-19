@@ -11,7 +11,7 @@ use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
 use Page::List::File qw(file_directory file_list print_file_menu);
-use Page::Story::Magic::Xanth qw(Xanth_line_magic);
+use Page::Story::Magic::Xanth qw(Xanth_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
@@ -27,7 +27,7 @@ if ( $page && grep { $_ eq $page } @pages ) {
 }
 open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
-my $magic = Xanth_line_magic('page');
+my $magic = Xanth_magic('page');
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
 page(

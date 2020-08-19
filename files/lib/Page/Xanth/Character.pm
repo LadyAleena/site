@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
 use Page::Story    qw(convert_string);
-use Page::Story::Magic::Xanth qw(Xanth_line_magic);
+use Page::Story::Magic::Xanth qw(Xanth_magic);
 use Fancy::Join    qw(join_defined);
 use Util::Convert  qw(textify idify searchify);
 use Page::Xanth::Dates     qw(get_dates_family);
@@ -90,7 +90,7 @@ sub get_description {
 
   my $name = $character->{Name};
   my $text = textify($name);
-  my $line_magic = Xanth_line_magic('character');
+  my $line_magic = Xanth_magic('character');
 
   my $challenge_text = $character->{challenge} ? get_challenge($character->{challenge}) : undef;
   my $other_text     = $character->{other}     ? convert_string($character->{other}, $line_magic) : undef;

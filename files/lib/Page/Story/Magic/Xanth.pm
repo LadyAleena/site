@@ -15,9 +15,9 @@ use HTML::Elements qw(figure object anchor);
 use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
-our @EXPORT_OK = qw(Xanth_line_magic);
+our @EXPORT_OK = qw(Xanth_magic);
 
-sub Xanth_line_magic {
+sub Xanth_magic {
   my $type = shift;
 
   my $magic;
