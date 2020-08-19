@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use Page::List::File       qw(file_directory);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Page::List::File       qw(file_directory file_list);
@@ -11,7 +12,7 @@ use Page::Line     qw(line);
 use Fancy::Open    qw(fancy_open);
 use HTML::Elements qw(figure object anchor);
 use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(data_file make_hash);
+use Util::Data     qw(make_hash);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_line_magic);
@@ -21,7 +22,9 @@ sub Xanth_line_magic {
 
   my $magic;
 
-  my @book_list  = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
+  my $X_dir = file_directory('Fandom/Xanth');
+
+  my @book_list  = fancy_open("$X_dir/books.txt");
   for my $book (@book_list) {
     my $search = searchify($book);
     if ($type eq 'page') {
@@ -33,8 +36,8 @@ sub Xanth_line_magic {
   }
 
   my $headings   = [qw(Name species origin location gender talent description book chapter)];
-  my $characters = make_hash('file' => ['Fandom/Xanth','characters.txt'], 'headings' => $headings);
-  my $see_char   = make_hash('file' => ['Fandom/Xanth', 'see_character.txt']);
+  my $characters = make_hash('file' => "$X_dir/characters.txt", 'headings' => $headings);
+  my $see_char   = make_hash('file' => "$X_dir/see_character.txt");
   for my $key ( keys %$characters ) {
     my $name   = textify($key);
     if ($type eq 'page') {
@@ -78,7 +81,6 @@ sub Xanth_line_magic {
   }
 
   return $magic;
-
 }
 
 =pod
@@ -101,7 +103,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

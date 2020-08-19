@@ -11,6 +11,7 @@ use List::MoreUtils     qw(first_index);
 use lib '../../files/lib';
 use Page::Base     qw(page);
 use Page::List::Alpha  qw(alpha_hash alpha_menu);
+use Page::List::File   qw(file_directory);
 use Page::Xanth::Character qw(get_open get_character);
 use Page::Xanth::Location  qw(location_link get_locations);
 use Page::Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
@@ -22,42 +23,42 @@ use Fancy::Open            qw(fancy_open);
 use HTML::Elements qw(section nav paragraph list details anchor);
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(idify);
-use Util::Data     qw(data_file make_hash);
+use Util::Data     qw(make_hash);
 use Util::Number   qw(commify);
 
 # Begin importing data
 
-my $X_dir = 'Fandom/Xanth';
+my $X_dir = file_directory('Fandom/Xanth');
 
 my $headings            = [qw(Name species+ gender places+ talent other book chapter)];
-my $characters          = make_hash( 'file' => [$X_dir,'characters.txt'], 'headings' => $headings );
+my $characters          = make_hash( 'file' => "$X_dir/characters.txt", 'headings' => $headings );
 
-my $see_char            = make_hash( 'file' => [$X_dir, 'see_character.txt'] );
+my $see_char            = make_hash( 'file' => "$X_dir/see_character.txt" );
 
 my $group_headings      = [qw(Name group title)];
-my $groups              = make_hash( 'file' => [$X_dir, 'groups.txt'], 'headings' => $group_headings );
+my $groups              = make_hash( 'file' => "$X_dir/groups.txt", 'headings' => $group_headings );
 
 my $date_headings       = [qw(Name birth death), 'cause of death', 'killer'];
-my $dates               = make_hash( 'file' => [$X_dir, 'dates.txt'], 'headings' => $date_headings );
+my $dates               = make_hash( 'file' => "$X_dir/dates.txt", 'headings' => $date_headings );
 
 my $suspension_headings = [qw(Name begin end), 'begin event', 'end event'];
-my $suspensions         = make_hash( 'file' => [$X_dir,'dates-suspension.txt'], 'headings' => $suspension_headings );
+my $suspensions         = make_hash( 'file' => "$X_dir/dates-suspension.txt", 'headings' => $suspension_headings );
 
 my $reage_headings      = [qw(Name age year event)];
-my $reages              = make_hash( 'file' => [$X_dir,'dates-reage.txt'], 'headings' => $reage_headings );
+my $reages              = make_hash( 'file' => "$X_dir/dates-reage.txt", 'headings' => $reage_headings );
 
 my $family_headings     = [qw(Name mother+ father+ sibling+ multisibling+ pibling+ nibling+ cousin+ ancestor+ descendant+ other+)];
-my $families            = make_hash( 'file' => [$X_dir, 'families.txt'], 'headings' => $family_headings );
+my $families            = make_hash( 'file' => "$X_dir/families.txt", 'headings' => $family_headings );
 
 my $partner_headings    = [qw(Name spouse+ widowed+ exspouse+ dating+ exdating+ lover+ exlover+)];
-my $partners            = make_hash( 'file' => [$X_dir, 'partners.txt'], 'headings' => $partner_headings );
+my $partners            = make_hash( 'file' => "$X_dir/partners.txt", 'headings' => $partner_headings );
 
 my $challenge_headings  = [qw(Name number querant)];
-my $challenges          = make_hash( 'file' => [$X_dir, 'challenges.txt'], 'headings' => $challenge_headings );
+my $challenges          = make_hash( 'file' => "$X_dir/challenges.txt", 'headings' => $challenge_headings );
 
-my @unnamed_list          = fancy_open(data_file("$X_dir", 'unnamed.txt'));
-my @book_list             = fancy_open(data_file("$X_dir", 'books.txt'));
-my @gendered_species_list = fancy_open(data_file("$X_dir", 'gendered_species.txt'));
+my @unnamed_list          = fancy_open("$X_dir/unnamed.txt");
+my @book_list             = fancy_open("$X_dir/books.txt");
+my @gendered_species_list = fancy_open("$X_dir/gendered_species.txt");
 my $gendered_species_text = grammatical_join('and', sort @gendered_species_list);
 
 # End importing data

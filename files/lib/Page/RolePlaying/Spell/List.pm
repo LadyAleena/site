@@ -5,13 +5,9 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(spell_data);
 
-use CGI::Carp qw(fatalsToBrowser);
-
+use Page::List::File qw(file_directory);
 use Util::Convert qw(filify);
-use Util::Data qw(data_file make_hash);
-
-my @headings = (qw(name school level range duration), 'area of effect', 'components', 'casting time', 'saving throw', 'description');
-my $spells = make_hash( 'file' => ['Role_playing','spell_list.txt'], 'headings' => \@headings );
+use Util::Data qw(make_hash);
 
 sub spell_description_from_file {
   my $spell_file = shift;
@@ -24,6 +20,10 @@ sub spell_description_from_file {
 sub spell_data {
   my ($spell) = @_;
 
+  my $spell_dir = file_directory('Role_playing');
+  my @headings = (qw(name school level range duration), 'area of effect', 'components', 'casting time', 'saving throw', 'description');
+  my $spells = make_hash( 'file' => "$spell_dir/spell_list.txt", 'headings' => \@headings );
+
   my @items;
   for my $stat (grep($_ !~ /(?:name|description)/, @headings)) {
     next if !$spells->{$spell}{$stat};
@@ -34,7 +34,7 @@ sub spell_data {
   my $spell_file = filify($spell);
   my @spell_description = $spells->{$spell}{'description'} ?
                           split(/\//, $spells->{$spell}{'description'}) :
-                          spell_description_from_file(data_file('Role_playing/spell_descriptions',"$spell_file.txt"));
+                          spell_description_from_file("$spell_dir/spell_descriptions/$spell_file.txt");
 
   my $spell_out = { 'heading' => $spells->{$spell}{'name'}, 'stats' => [\@items, { class => 'spell_stats' }], 'description' => \@spell_description };
   return $spell_out;
@@ -52,7 +52,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

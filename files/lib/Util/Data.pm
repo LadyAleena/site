@@ -10,10 +10,8 @@ our @EXPORT_OK = qw(
   hash_from_arrays
 );
 
-use Encode qw(encode);
 use File::Basename;
 use File::Spec;
-use List::Util qw(first);
 
 use Page::Path qw(base_path);
 use Util::Sort qw(article_sort name_sort);
@@ -49,6 +47,8 @@ sub data_file {
 
   return $data;
 }
+
+# I was inspired to write get_data after I wrote fancy_rand.
 
 sub get_data {
   my ($list, $in, $caller) = @_;
@@ -138,6 +138,8 @@ sub make_array {
   return \@array;
 }
 
+# I wrote hash_from_arrays when I saw the way to make two arrays into a hash.
+
 sub hash_from_arrays {
   my ($keys, $values) = @_;
 
@@ -158,7 +160,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

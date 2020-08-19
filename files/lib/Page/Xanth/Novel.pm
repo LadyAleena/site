@@ -6,21 +6,24 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(NUMWORDS ORD);
 
+use Page::List::File qw(file_directory);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(data_file make_hash);
+use Util::Data     qw(make_hash);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);
 
-my @book_list = fancy_open(data_file('Fandom/Xanth', 'books.txt'));
+my $X_dir = file_directory('Fandom/Xanth');
+
+my @book_list = fancy_open("$X_dir/books.txt");
 
 my $novel_headings = [qw(Title main published year abbr)];
 my $novels = make_hash(
-  'file' => ['Fandom/Xanth', 'novels.txt'],
+  'file' => "$X_dir/novels.txt",
   'headings' => $novel_headings,
 );
 
@@ -156,7 +159,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

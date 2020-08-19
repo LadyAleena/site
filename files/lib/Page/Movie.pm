@@ -15,16 +15,18 @@ use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use HTML::Elements qw(footer section nav heading paragraph list span anchor);
 use Page::Link::External qw(external_links);
-use Page::Path          qw(base_path);
-use Page::People        qw(people_list);
-use Util::Columns       qw(number_of_columns);
-use Util::Convert       qw(filify textify idify searchify);
-use Util::Data          qw(data_file make_hash get_data);
+use Page::List::File qw(file_directory);
+use Page::Path    qw(base_path);
+use Page::People  qw(people_list);
+use Util::Columns qw(number_of_columns);
+use Util::Convert qw(filify textify idify searchify);
+use Util::Data    qw(make_hash get_data);
 
-my $movies     = make_hash( 'file' => ['Movies','movies.txt'],     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );
-my $seriess    = make_hash( 'file' => ['Movies','series.txt'],     'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
-# my $franchises = make_hash( 'file' => ['Movies','franchises.txt'], 'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
-my $crossovers = make_hash( 'file' => ['Movies','crossovers.txt'], 'headings' => [qw(title crossovers+)] );
+my $movie_dir  = file_directory('Movies');
+my $movies     = make_hash( 'file' => "$movie_dir/movies.txt",     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );
+my $seriess    = make_hash( 'file' => "$movie_dir/series.txt",     'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
+# my $franchises = make_hash( 'file' => "$movie_dir/franchises.txt", 'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
+my $crossovers = make_hash( 'file' => "$movie_dir/crossovers.txt", 'headings' => [qw(title crossovers+)] );
 my @crossover_headings = qw(episode season movie series);
 my @episode_headings   = qw(title crossovers);
 
@@ -121,10 +123,11 @@ for my $movie (values %$movies) {
 
   next if ($movie->{'media'} ne 'tv' || grep($_ =~ 'show', @{$movie->{'genre'}}));
   # adding TV episodes
-  my $show_file = data_file('Movies/Episode_lists', filify($title).".txt");
+  my $show_file = filify($title);
+  my $show_fn = "$movie_dir/Episode_lists/$show_file.txt";
   my $show_fh;
-  if (-f $show_file) {
-    open($show_fh, '<', $show_file) || die "Can not open $show_file $!";
+  if (-f $show_fn) {
+    open($show_fh, '<', $show_fn) || die "Can not open $show_file $!";
   }
   else {
     next;
@@ -876,7 +879,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

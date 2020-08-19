@@ -7,11 +7,12 @@ our @EXPORT_OK = qw(assets asset_data);
 
 use Lingua::EN::Inflect qw(ORD);
 
-use Util::Data qw(make_hash data_file);
+use Page::List::File qw(file_directory);
+use Util::Data qw(make_hash);
 
-my $directory = 'Role_playing/Reference_tables';
+my $directory = file_directory('Role_playing/Reference_tables');
 
-my $assets = make_hash( 'file' => [$directory, 'equipment_costs.txt'] );
+my $assets = make_hash( 'file' => "$directory/equipment_costs.txt" );
 
 # Start additional items
 
@@ -31,7 +32,7 @@ for my $type ("a".."z") {
 
 # Start armor
 
-my $material_modifiers = make_hash( 'file' => [$directory, 'armor_materials.txt'] );
+my $material_modifiers = make_hash( 'file' => "$directory/armor_materials.txt" );
 
 sub armor_value {
   my (%opt) = @_;
@@ -43,7 +44,7 @@ sub armor_value {
   return $value;
 }
 
-my $in_armor = data_file($directory, 'armor.txt');
+my $in_armor = "$directory/armor.txt");
 open(my $armor_file, '<', $in_armor) || die "Can't open $in_armor. Stopped $!";
 while (my $raw_armor = <$armor_file>) {
   chomp $raw_armor;
@@ -97,7 +98,7 @@ sub add_vs {
 }
 
 my $weapons = make_hash(
-  'file' => [$directory, 'Weapons.txt'],
+  'file' => "$directory/Weapons.txt",
   'headings' => ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group','value']
 );
 
@@ -193,7 +194,7 @@ sub add_ammo_of {
   $assets->{"$ammo of stunning"}    = $value + 750;
 }
 
-my $in_ammo = data_file($directory, 'ammunition.txt');
+my $in_ammo = "$directory/ammunition.txt";
 open(my $ammo_file, '<', $in_ammo) || die "Can't open $in_ammo. Stopped $!";
 while (my $raw_ammo = <$ammo_file>) {
   chomp $raw_ammo;
@@ -384,7 +385,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

@@ -4,20 +4,22 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use Page::List::File  qw(file_directory);
 use Page::Xanth::Util qw(get_article);
 use Fancy::Open    qw(fancy_open);
 use Fancy::Join    qw(join_defined grammatical_join);
 use HTML::Elements qw(anchor);
 use Util::Convert  qw(textify idify searchify);
-use Util::Data     qw(data_file);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(section_link location_link get_locations);
 
-my @moons_list = fancy_open(data_file('Fandom/Xanth', 'moons.txt'));
+my $X_dir = file_directory('Fandom/Xanth');
+
+my @moons_list = fancy_open("$X_dir/moons.txt");
 my $moon_list = join('|', @moons_list);
 
-my @worlds_list = fancy_open(data_file('Fandom/Xanth', 'worlds.txt'));
+my @worlds_list = fancy_open("$X_dir/worlds.txt");
 my $world_list = join('|', @worlds_list);
 
 sub section_link {
@@ -84,7 +86,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
