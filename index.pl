@@ -10,67 +10,36 @@ use HTML::Entities qw(encode_entities);
 use lib 'files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
+use Page::List::File qw(file_list);
+use Page::Story::Magic::IRC              qw(irc_magic);
 use Page::Story::Magic::Programs         qw(program_magic);
 use Page::Story::Magic::PlayerCharacters qw(pc_magic);
-use Page::IRC      qw(irc_list);
-use HTML::Elements qw(section heading list anchor);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
 my $pages_dir = 'files/text';
-my $page_file = "$pages_dir/index.txt";
+my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 0, 'sort' => 'article', 'text' => 1 });
 my $heading   = 'index';
-if ($page && $page eq 'about') {
-  $page_file  = "$pages_dir/about.txt";
-  $heading    = 'About Lady Aleena';
+my $page_file = "$pages_dir/index.txt";
+if ( $page && grep { $_ eq $page } @pages ) {
+  $heading    = $page eq 'about' ? 'About Lady Aleena' :
+                $page eq 'irc'   ? 'IRC channels I visit' :
+                undef;
+  $page_file  = "$pages_dir/$page.txt";
+  $page_file  =~ s/ /_/g;
 }
-elsif ($page && $page eq 'irc') {
-  $page_file  = undef;
-  $heading    = 'IRC channels I visit';
-}
-
-my %irc = (
-  freenode => {
-    web        => [qw(css html httpd svg javascript web)],
-    linux      => [qw(linux debian linuxmint winehq alsa bash rsync sed awk)],
-    databases  => [qw(sql yaml)],
-    mediawiki  => [qw(autowikibrowser mediawiki mediawiki-scripts wikimedia wikimedia-commons wikimedia-tech wikipedia wikipedia-en wikipedia-en-help wikipedia-plot wikipedia-social wp-doctor-who)],
-    programs   => [qw(git firefox videolan notepad++ geany gramps graphviz hexchat inkscape xchat vim emacs libreoffice)],
-    social     => [qw(perlcafe chat css-ot debian-offtopic linux-offtopic kde-chat web-social git-offtopic)],
-    general    => [qw(freenode comcast-users scifi hardware programming design)],
-    'desktop environments' => [qw(kde gnome xfce)],
-    kde        => [qw(kde amarok kde-women kontact okular)],
-  },
-  slashnet => {
-    general => ['perlmonks'],
-  },
-  oftc => {
-    general => [qw(debian debian-apache debian-offtopic debian-kde)],
-  },
-);
+open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
 
 my $magic = {
   %{&program_magic},
-  %{&pc_magic}
+  %{&pc_magic},
+  %{&irc_magic}
 };
+
 page(
   'heading' => $heading,
+  'selected' => $page,
   'code' => sub {
-    if (!$page || $page eq 'about') {
-      open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
-      story($page_fh, { 'line magic' => $magic })
-    }
-    elsif ($page && $page eq 'irc') {
-      section(3, 'These are the <b>IRC channels</b> where I chat sometimes, though not all at once. I am <code>Lady_Aleena</code> on IRC or other aliases with <code>Aleena</code> such as <code>Scary_Aleena</code> for Halloween.');
-      for my $server (sort { lc $a cmp lc $b } keys %irc) {
-        section(3, sub {
-          list(4, 'u', irc_list($server, $irc{$server}{'general'}));
-          for my $subject (sort { lc $a cmp lc $b } grep { !/general/ } keys %{$irc{$server}}) {
-            heading(4, 3, $subject);
-            list(5, 'u', irc_list($server, $irc{$server}{$subject}, $subject));
-          }
-        }, { 'heading' => [2, anchor($server, { 'href' => "irc://$server" })] });
-      }
-    }
+    story($page_fh, { 'line magic' => $magic, 'doc magic' => $magic })
   }
 );

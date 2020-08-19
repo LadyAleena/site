@@ -1,0 +1,29 @@
+These are the B<IRC channels> where I chat sometimes, though not all at once. I am CODE<Lady_Aleena> on IRC or other aliases with CODE<Aleena> such as CODE<Scary_Aleena> for Halloween.
+2 <a href="irc://freenode">freenode server</a>
+Freenode is the server where I am most present. You can find me here at almost all times.
+& freenode general
+3 Linux channels
+Since I switched from Windows to Linux, I am almost always in A<linux|href="irc://freenode/##linux"> and A<debian|href="irc://freenode/debian">.
+& freenode linux
+3 Web channels
+& freenode web
+3 Desktop environment channels
+& freenode desktop environments
+4 KDE channels
+& freenode kde
+3 Programs channels
+I visit these channels when I need help with a specific program.
+& freenode programs
+3 MediaWiki channels
+I used to frequesnt these channels often, however, when I stopped editing Wikipedia, I lost interest in the channels.
+& freenode mediawiki
+3 Database channels
+& freenode databases
+3 Social channels
+& freenode social
+2 <a href="irc://oftc">oftc server</a>
+I visit here occasionally when I am looking into something specific about Debian.
+& oftc general
+2 <a href="irc://slashnet">slashnet server</a>
+I am not here at all.
+& slashnet general

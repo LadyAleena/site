@@ -1,0 +1,11 @@
+freenode web|css; html; httpd; svg; javascript; web
+freenode linux|linux; debian; linuxmint; winehq; alsa; bash; rsync; sed; awk
+freenode databases|sql; yaml
+freenode mediawiki|autowikibrowser; mediawiki; mediawiki-scripts; wikimedia; wikimedia-commons; wikimedia-tech; wikipedia; wikipedia-en; wikipedia-en-help; wikipedia-plot; wikipedia-social; wp-doctor-who
+freenode programs|git; firefox; videolan; notepad++; geany; gramps; graphviz; hexchat; inkscape; xchat; vim; emacs; libreoffice
+freenode social|perlcafe; chat; css-ot; debian-offtopic; linux-offtopic; kde-chat; web-social; git-offtopic
+freenode general|freenode; comcast-users; scifi; hardware; programming; design
+freenode desktop environments|kde; gnome; xfce
+freenode kde|kde; amarok; kde-women; kontact; okular
+slashnet general|perlmonks
+oftc general|debian; debian-apache; debian-offtopic; debian-kde
