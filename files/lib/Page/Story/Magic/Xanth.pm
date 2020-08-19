@@ -5,8 +5,7 @@ use warnings;
 use Exporter qw(import);
 
 use Page::Data qw(make_hash);
-use Page::Line qw(line);
-use Page::List::File qw(file_directory file_list);
+use Page::List::File qw(file_directory);
 use Page::Story::Magic::FamilyTree qw(family_tree_magic);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
