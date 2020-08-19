@@ -1,4 +1,4 @@
-package HTML::Forms;
+package Page::Forms;
 use v5.8.8;
 use strict;
 use warnings;
