@@ -11,7 +11,6 @@ use Page::Story::Magic::FamilyTree qw(family_tree_magic);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Open    qw(fancy_open);
-use HTML::Elements qw(figure object anchor);
 use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
