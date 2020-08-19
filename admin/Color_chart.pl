@@ -77,4 +77,5 @@ my $doc_magic = { 'colors' => sub { table( 2, { 'class' => 'color', 'style' => '
 page( 'code' => sub { story(*DATA, { 'doc magic' => $doc_magic }) });
 
 __DATA__
+I use this B<color chart> when I am trying to decide on a color scheme for a new project.
 & colors

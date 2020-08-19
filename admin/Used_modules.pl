@@ -31,11 +31,9 @@ sub find_modules {
       last if ($line eq '=head1 pod');
       $uses->{$1}++ if $line =~ /^use ((\w|\:)+)(.+)$/;
       die "$_ isn't using strict"   if ($loop == 1 && $line !~ /use strict/ && $_ !~ /(index|\.pm$)/);
-      die "$_ isn't using strict"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /index/);
-      die "$_ isn't using strict"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /\.pm$/);
+      die "$_ isn't using strict"   if ($loop == 2 && $line !~ /use strict/ && $_ =~ /index|\.pm$/);
       die "$_ isn't using warnings" if ($loop == 2 && $line !~ /use warnings/ && $_ !~ /(index|\.pm$)/);
-      die "$_ isn't using warnings" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /index/);
-      die "$_ isn't using warnings" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /\.pm$/);
+      die "$_ isn't using warnings" if ($loop == 3 && $line !~ /use warnings/ && $_ =~ /index|\.pm$/);
       $loop++;
     }
   }
@@ -43,13 +41,12 @@ sub find_modules {
 }
 
 my $modules = find_modules($files);
-my @rows = map([$_, $modules->{$_}], sort { $modules->{$b} <=> $modules->{$a} || $a cmp $b } keys %$modules);
+my @rows = map([$_, [$modules->{$_}, { 'class' => 'number' }]], sort { $modules->{$b} <=> $modules->{$a} || $a cmp $b } keys %$modules);
 # my @rows = map([$_, $modules->{$_}], sort { $a cmp $b } keys %$modules);
 my $magic;
 $magic->{'table'} = sub {
   table(3, {
     id => 'used_modules_data',
-    class => 'number',
     rows => [['header', [['Module', 'Used']]], ['data', \@rows]]
   })
 };
@@ -60,5 +57,9 @@ $magic->{'list'} = sub {
 page( 'code' => sub { story(*DATA, { 'doc magic' => $magic }) });
 
 __DATA__
+These are the B<modules used> on this site.
+2 Used modules
+The modules are sorted by how many use the module.
 & table
+2 Pages scanned for use
 & list
