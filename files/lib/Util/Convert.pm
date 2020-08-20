@@ -174,7 +174,7 @@ C<hashtagify> returns a string that can be used as a hashtag.
 
 =head1 DEPENDENCIES
 
-Util::Convert depends on L<Encode>, L<Lingua::EN::Inflect>, L<Util::Path>, and L<Exporter>.
+Util::Convert depends on L<Encode>, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 
