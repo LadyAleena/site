@@ -8,7 +8,7 @@ use Lingua::EN::Inflect qw(A NUMWORDS ORD);
 
 use Page::Story    qw(convert_string);
 use Page::Story::Magic::Xanth qw(Xanth_magic);
-use Fancy::Join    qw(join_defined);
+use Fancy::Join::Defined qw(join_defined);
 use Util::Convert  qw(textify idify searchify);
 use Page::Xanth::Dates     qw(get_dates_family);
 use Page::Xanth::Location  qw(get_locations);

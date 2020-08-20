@@ -10,7 +10,7 @@ use Page::Data qw(make_hash);
 use Page::HTML qw(anchor);
 use Page::List::File qw(file_directory);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
-use Fancy::Join   qw(join_defined);
+use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(textify idify searchify);
 

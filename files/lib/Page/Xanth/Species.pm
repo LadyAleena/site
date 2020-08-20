@@ -9,8 +9,8 @@ use Lingua::EN::Inflect qw(A);
 use Page::Data qw(data_file);
 use Page::HTML qw(anchor);
 use Page::Xanth::Util qw(gendering);
+use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open   qw(fancy_open);
-use Fancy::Join   qw(join_defined);
 use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";

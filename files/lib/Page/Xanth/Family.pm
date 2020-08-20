@@ -9,7 +9,8 @@ use Lingua::EN::Inflect qw(A);
 use Page::Data  qw(make_hash);
 use Page::Xanth::PageLinks qw(character_link group_character_link);
 use Page::Xanth::Util      qw(gendering);
-use Fancy::Join qw(join_defined grammatical_join);
+use Fancy::Join::Defined     qw(join_defined);
+use Fancy::Join::Grammatical qw(grammatical_join);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_family);

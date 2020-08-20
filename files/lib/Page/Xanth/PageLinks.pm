@@ -9,7 +9,8 @@ use Lingua::EN::Inflect qw(A NUMWORDS);
 use Page::Data qw(make_hash);
 use Page::HTML qw(anchor);
 use Page::Xanth::Util qw(get_article);
-use Fancy::Join   qw(join_defined grammatical_join);
+use Fancy::Join::Defined     qw(join_defined);
+use Fancy::Join::Grammatical qw(grammatical_join);
 use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";

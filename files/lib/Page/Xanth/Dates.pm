@@ -7,7 +7,8 @@ use Exporter qw(import);
 use Page::Xanth::Family    qw(get_family);
 use Page::Xanth::Novel     qw(current_year);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
-use Fancy::Join qw(join_defined grammatical_join);
+use Fancy::Join::Defined     qw(join_defined);
+use Fancy::Join::Grammatical qw(grammatical_join);
 use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
