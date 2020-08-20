@@ -26,6 +26,10 @@ For music: SPAN<CDs|^cds^>, SPAN<cassettes|^cassettes^>, SPAN<45s|^ffs^>, and SP
 ** I<Guardians of the Galaxy - Awesome Mix Vol. 2|^cd^> (2017)
 * I<Heavy Metal|^lp^> (1995)
 * I<Labyrinth|^cd^> (1986) by David Bowie and Trevor Jones
+* I<The Lord of the Rings>
+** I<The Lord of the Rings: The Fellowship of the Ring|^cd^> (2001)
+** I<The Lord of the Rings: The Two Towers|^cd^> (2002)
+** I<The Lord of the Rings: The Return of the King|^cd^> (2003)
 * I<The Lost Boys|^cd^> (1987) <!-- cassette -->
 * I<Miss Congeniality 2 Armed and Fabulous|^cd^> (2005)
 * I<Pretty in Pink|^cassette^> (1986)
