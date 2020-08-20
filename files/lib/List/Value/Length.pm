@@ -1,4 +1,4 @@
-package Util::ListLengths;
+package List::Value::Length;
 use v5.8.8;
 use strict;
 use warnings;
@@ -47,30 +47,18 @@ sub shortest_value {
 
 =head1 NAME
 
-B<Util::ListLengths> returns the value of the longest or shortest value or the length of the longest or shortest value.
+B<List::Value::Length> returns the length of the longest or shortest value or the longest or shortest value(s) on the list.
 
 =head1 VERSION
 
-This document describes Util::ListLengths version 1.0.
+This document describes List::Value::Length version 1.0.
 
 =head1 SYNOPSIS
 
-  use Util::ListLengths qw(longest_value shortest_value longest_length shortest_length);
+  use List::Value::Length qw(longest_value shortest_value longest_length shortest_length);
 
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
                 'blue', 'violet', 'magenta', 'pink', 'white', 'black', 'gray');
-
-  my $longest_values = longest_value(@colors);
-
-  # [
-  #   'magenta'
-  # ]
-
-  my $shortest_values = shortest_value(@colors);
-
-  # [
-  #   'red'
-  # ]
 
   my $longest_length = longest_length(@colors);
   # 7
@@ -78,15 +66,13 @@ This document describes Util::ListLengths version 1.0.
   my $shortest_length = shortest_length(@colors);
   # 3
 
+  my $longest_values = longest_value(@colors);
+  # [ 'magenta' ]
+
+  my $shortest_values = shortest_value(@colors);
+  # [ 'red' ]
+
 =head1 DESCRIPTION
-
-=head2 longest_value
-
-C<longest_value> returns an arrayref with all the values that are the longest length.
-
-=head2 shortest_value
-
-C<shortest_value> returns an arrayref with all the values that are the shortest length.
 
 =head2 longest_length
 
@@ -96,9 +82,17 @@ C<longest_length> returns the longest integer length of the values of an array.
 
 C<shortest_length> returns the shortest integer length of the values of an array.
 
+=head2 longest_value
+
+C<longest_value> returns an arrayref with all the values that are the longest length.
+
+=head2 shortest_value
+
+C<shortest_value> returns an arrayref with all the values that are the shortest length.
+
 =head1 DEPENDENCY
 
-Util::ListLengths depends on L<Exporter>.
+List::Value::Length depends on L<Exporter>.
 
 =head1 AUTHOR
 
