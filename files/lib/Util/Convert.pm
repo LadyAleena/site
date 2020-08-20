@@ -7,16 +7,14 @@ use Exporter qw(import);
 use Encode;
 use Lingua::EN::Inflect qw(NUMWORDS);
 
-use Page::Path qw(base_path);
-
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(textify idify searchify filify hashtagify linkify);
 
 sub textify {
   my ($text, $opt) = @_;
-  my $root_link = base_path('link');
+  my $root_link = $opt->{'root link'} ? $opt->{'root link'} : undef;
   $text = decode('UTF-8', $text) if ($opt->{'decode'} && $opt->{'decode'} =~ /^[ytk1]/);
-  $text =~ s/$root_link\///;
+  $text =~ s/$root_link\/// if $root_link;
   $text =~ s/_/ /g;
   $text =~ s/\b(M[rsx]|Mrs|Dr|St|[SJ]r)\b(?!\.)/$1./g;
   # The following is an more robust version of the preceding, but it is overkill.
@@ -124,6 +122,8 @@ The first parameter is the text that you want to make into an HTML friendly stri
 
 The second paramter is a hash with three options. The options can be set to 'yes', 'true', 'keep', or the number 1.
 
+=head2 Options
+
 If C<html> is specified, then HTML is not stripped out of the text string.
 
   textify('<i>This & That</i> (2020)', { html => 'yes' }) # returns "<i>This &amp; That</i>"
@@ -135,6 +135,11 @@ If C<parens> is specified, parenteses are not stripped out of the text string.
 If C<decode> is specified, the string will be UTF-8 decoded before it is reencoded to UTF-8.
 
   textify('This & That', { decode => 'yes' })
+
+If C<root link> is specified, the root link will be stripped from the string.
+
+  textify('https://www.this_that.com/This_and_That.html', { 'root link' => 'https://www.this_that.com' });
+    # returns "This and That"
 
 =head1 idify
 
@@ -179,7 +184,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
