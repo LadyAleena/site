@@ -6,13 +6,13 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(NUMWORDS ORD);
 
-use Page::Data     qw(make_hash);
+use Page::Data qw(make_hash);
+use Page::HTML qw(anchor);
 use Page::List::File qw(file_directory);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
-use Fancy::Join    qw(join_defined);
-use Fancy::Open    qw(fancy_open);
-use HTML::Elements qw(anchor);
-use Util::Convert  qw(textify idify searchify);
+use Fancy::Join   qw(join_defined);
+use Fancy::Open   qw(fancy_open);
+use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);
@@ -149,7 +149,7 @@ This document describes Page::Xanth::Novel version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::Novel depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::PageLinks, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Xanth::Novel depends on L<Fancy::Open>, L<Fancy::Join>, Page::HTML, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::PageLinks, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

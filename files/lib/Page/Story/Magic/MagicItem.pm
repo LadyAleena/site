@@ -7,10 +7,10 @@ our @EXPORT_OK = qw(magic_item_magic);
 
 use Lingua::EN::Inflect qw(NO);
 
-use HTML::Elements   qw(list anchor);
+use Page::HTML qw(list anchor);
 use Page::List::File qw(file_directory file_list);
-use Util::Convert    qw(searchify textify);
-use Util::Sort       qw(name_sort);
+use Util::Convert qw(searchify textify);
+use Util::Sort    qw(name_sort);
 
 sub magic_item_magic {
   my $magic;

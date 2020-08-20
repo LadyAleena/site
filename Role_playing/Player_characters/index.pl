@@ -9,14 +9,14 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
-use Page::Story    qw(story);
-use Page::Data     qw(make_hash);
+use Page::Base qw(page);
+use Page::HTML qw(section list table span);
+use Page::Story qw(story);
+use Page::Data qw(make_hash);
 use Page::List::File qw(file_directory);
 use Fancy::Join::Defined qw(join_defined);
-use HTML::Elements qw(section list table span);
-use Util::Convert  qw(idify);
-use Util::Number   qw(commify);
+use Util::Convert qw(idify);
+use Util::Number  qw(commify);
 use RPG::Character::Alignment qw(expand_alignment);
 
 my $cgi  = CGI::Simple->new;

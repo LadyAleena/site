@@ -1,4 +1,4 @@
-package HTML::Elements;
+package Page::HTML;
 use v5.8.8;
 use strict;
 use warnings;
@@ -647,13 +647,13 @@ sub html {
 
 =head1 NAME
 
-B<HTML::Element> generates HTML tags for most of the HTML elements.
+B<Page::HTML> generates HTML tags for most of the HTML elements.
 
 =head1 SYNOPSIS
 
-To use B<HTML::Element> to print HTML tags, use the following. All functions are exported only upon request.
+To use B<Page::HTML> to print HTML tags, use the following. All functions are exported only upon request.
 
-  use Base::HTML::Element qw(
+  use Page::HTML qw(
     title heading script anchor paragraph list definition_list table
     form fieldset selection input textarea div pre html
   );
@@ -1421,11 +1421,11 @@ L<HTML::Element> can also do all of the above with objects, but you have to buil
 
 L<HTML::HTML5::Builder> and L<Template::Declare::Tags> also build HTML elements.
 
-There are many other modules out there which can build HTML elements, but most are object oriented. I find it easier to deal with functions over objects when printing.
+There are many other modules out there that build HTML elements, but most are object oriented. I find it easier to deal with functions over objects when printing.
 
 =head1 DEPENDENCIES
 
-HTML::Elements depnds on L<Exporter> and I<Page::Line>.
+Page::HTML depnds on L<Exporter> and I<Page::Line>.
 
 =head1 AUTHOR
 

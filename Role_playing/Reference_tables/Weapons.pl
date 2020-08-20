@@ -7,11 +7,11 @@ use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
-use Page::Data     qw(make_hash);
-use Page::Forms    qw(tiny_select);
+use Page::Base qw(page);
+use Page::HTML qw(section paragraph table);
+use Page::Data qw(make_hash);
+use Page::Forms qw(tiny_select);
 use Fancy::Join::Defined qw(join_defined);
-use HTML::Elements qw(section paragraph table);
 use RPG::WeaponName qw(display_weapon);
 
 my $cgi = CGI::Simple->new;

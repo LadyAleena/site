@@ -5,8 +5,8 @@ use warnings;
 use Exporter qw(import);
 
 use Page::Data qw(make_hash);
+use Page::HTML qw(anchor list);
 use Page::List::File qw(file_directory);
-use HTML::Elements qw(anchor list);
 use Util::Columns  qw(number_of_columns);
 
 our $VERSION   = '1.0';

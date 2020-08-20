@@ -5,10 +5,10 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(family_tree_magic);
 
-use Page::Line     qw(line);
+use Page::Line qw(line);
+use Page::HTML qw(object figure anchor);
 use Page::List::File qw(file_list);
-use HTML::Elements qw(object figure anchor);
-use Util::Convert  qw(textify);
+use Util::Convert qw(textify);
 
 sub family_tree_magic {
   my $trees_dir = shift;

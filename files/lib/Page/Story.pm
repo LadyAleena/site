@@ -8,13 +8,13 @@ our @EXPORT_OK = qw(story passage convert_string);
 use CGI::Carp qw(fatalsToBrowser);
 use List::Util qw(max);
 
-use HTML::Elements qw(nav section heading paragraph blockquote list table  pre anchor   );
+use Page::HTML qw(nav section heading paragraph blockquote list table  pre anchor   );
+use Page::Line qw(line);
+use Page::Link::External qw(external_links);
+use Page::Story::Inline  qw(inline);
+use Fancy::Join::Grammatical qw(grammatical_join);
 use Util::Convert  qw(idify textify searchify);
 use Util::Columns  qw(number_of_columns);
-use Fancy::Join::Grammatical qw(grammatical_join);
-use Page::Line     qw(line);
-use Page::Link::External     qw(external_links);
-use Page::Story::Inline      qw(inline);
 
 # Start the story
 

@@ -7,8 +7,9 @@ our @EXPORT_OK = qw(misc_magic);
 
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
-use Page::Data     qw(make_hash);
-use Page::Line       qw(line);
+use Page::Data qw(make_hash);
+use Page::HTML qw(list span anchor object figure);
+use Page::Line qw(line);
 use Page::List::File qw(file_directory);
 use Fancy::Join::Defined       qw(join_defined);
 use Fancy::Open qw(fancy_open);
@@ -16,7 +17,6 @@ use Random::Body::Modification qw(random_body_modification);
 use Random::Color              qw(random_color);
 use Random::Descriptor         qw(random_descriptor);
 use Random::Misc               qw(random_sexual_orientation random_relationship);
-use HTML::Elements qw(list span anchor object figure);
 use Util::Convert  qw(searchify);
 
 sub age {

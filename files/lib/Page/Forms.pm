@@ -6,7 +6,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(tiny_select top_select);
 
 use Page::Data qw(make_hash);
-use HTML::Elements qw(form fieldset input selection);
+use Page::HTML qw(form fieldset input selection);
 use Util::Convert qw(textify);
 
 sub top_select {

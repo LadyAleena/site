@@ -7,11 +7,11 @@ our @EXPORT_OK = qw(base_menu index_menu);
 
 use Cwd qw(cwd realpath);
 
-use HTML::Elements qw(anchor);
-use Page::List::File  qw(file_list);
+use Page::HTML qw(anchor);
+use Page::List::File qw(file_list);
 use Page::Link::Color qw(link_color);
-use Util::Convert  qw(textify searchify);
-use Util::Sort     qw(article_sort name_sort);
+use Util::Convert qw(textify searchify);
+use Util::Sort    qw(article_sort name_sort);
 
 # base_menu is the site's navigation menu on the left side of the pages
 sub base_menu {

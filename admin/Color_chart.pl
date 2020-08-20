@@ -3,9 +3,9 @@ use strict;
 use warnings FATAL => qw( all );
 
 use lib '../files/lib';
-use Page::Base     qw(page);
-use Page::Story    qw(story);
-use HTML::Elements qw(table);
+use Page::Base qw(page);
+use Page::HTML qw(table);
+use Page::Story qw(story);
 
 sub color_opts {
   my ($color, $class, $rowspan, $colspan) = @_;

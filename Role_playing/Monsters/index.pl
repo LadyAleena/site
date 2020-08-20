@@ -10,11 +10,11 @@ use Lingua::EN::Inflect qw(A);
 use File::Temp qw(tempfile);
 
 use lib '../../files/lib';
-use Page::Base  qw(page);
+use Page::Base qw(page);
+use Page::HTML qw(section paragraph list);
 use Page::Story qw(story);
 use Page::List::File qw(file_menu);
 use Page::RolePlaying::Monster qw(monster_info);
-use HTML::Elements qw(section paragraph list);
 use Random::RPG::Monster qw(random_monster random_monster_list);
 
 my $multi_monsters = {

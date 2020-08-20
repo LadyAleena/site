@@ -6,11 +6,11 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
-use Page::Data     qw(make_hash);
+use Page::Data qw(make_hash);
+use Page::HTML qw(anchor);
 use Page::Xanth::Util qw(get_article);
-use Fancy::Join    qw(join_defined grammatical_join);
-use HTML::Elements qw(anchor);
-use Util::Convert  qw(textify idify searchify);
+use Fancy::Join   qw(join_defined grammatical_join);
+use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(character_link group_character_link locations_page_link species_page_link timeline_link);
@@ -94,7 +94,7 @@ This document describes Page::Xanth::PageLinks version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::PageLinks depends on L<Fancy::Join>, HTML::Elements, Util::Convert, Page::Xanth::Util, and L<Exporter>.
+Page::Xanth::PageLinks depends on L<Fancy::Join>, Page::HTML, Util::Convert, Page::Xanth::Util, and L<Exporter>.
 
 =head1 AUTHOR
 

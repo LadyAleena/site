@@ -7,12 +7,12 @@ our @EXPORT_OK = qw(pc_magic);
 
 use File::Spec;
 
-use Page::Story   qw(passage);
-use Page::Data    qw(data_file);
-use Page::Path    qw(base_path);
+use Page::Data qw(data_file);
+use Page::HTML qw(list heading);
+use Page::Path qw(base_path);
+use Page::Story qw(passage);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use Fancy::Open   qw(fancy_open);
-use HTML::Elements qw(list heading);
 use Util::Convert qw(idify);
 
 sub pc_magic {

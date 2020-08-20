@@ -8,8 +8,8 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(ORD NUMWORDS);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
-use HTML::Elements qw(section paragraph list form fieldset inputs);
+use Page::Base qw(page);
+use Page::HTML qw(section paragraph list form fieldset inputs);
 use RPG::CharacterMutation qw(random_mutations);
 
 my $cgi        = CGI::Simple->new();

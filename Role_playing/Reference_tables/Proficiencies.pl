@@ -7,10 +7,10 @@ use CGI::Carp qw(fatalsToBrowser);
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
-use Page::Data     qw(make_hash);
-use Page::Forms    qw(tiny_select);
-use HTML::Elements qw(section paragraph table anchor);
+use Page::Base qw(page);
+use Page::HTML qw(section paragraph table anchor);
+use Page::Data qw(make_hash);
+use Page::Forms qw(tiny_select);
 use Util::Convert  qw(idify);
 
 my $cgi = CGI::Simple->new;

@@ -5,9 +5,9 @@ use warnings FATAL => qw(all);
 use CGI::Carp qw(fatalsToBrowser);
 
 use lib "../files/lib";
-use Page::Base     qw(page);
-use Page::Story    qw(story);
-use HTML::Elements qw(pre);
+use Page::Base qw(page);
+use Page::HTML qw(pre);
+use Page::Story qw(story);
 
 my $user = `whoami`;
 chomp($user);

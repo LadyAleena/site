@@ -11,13 +11,13 @@ use File::Basename;
 use File::Spec;
 use List::Util qw(max);
 
-use HTML::Elements      qw(html style noscript nav main section list div anchor img input);
-use Page::Line          qw(line);
+use Page::HTML qw(html style noscript nav main section list div anchor img input);
+use Page::Line qw(line);
 use Page::Link::Contact qw(contact_links);
-use Page::Path          qw(base_path);
-use Page::Menu          qw(base_menu);
-use Page::Style         qw(base_stylesheets);
-use Util::Convert       qw(idify textify);
+use Page::Path qw(base_path);
+use Page::Menu qw(base_menu);
+use Page::Style qw(base_stylesheets);
+use Util::Convert qw(idify textify);
 
 my $full_path = realpath($0);
 my $root_path = base_path('path');

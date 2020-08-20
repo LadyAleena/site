@@ -14,9 +14,9 @@ our @EXPORT_OK = qw(
 use Lingua::EN::Inflect qw(PL_N);
 
 use Page::Data qw(make_array);
+use Page::HTML qw(definition_list object figure img);
 use Page::Line qw(line);
 use Page::List::File qw(file_directory);
-use HTML::Elements qw(definition_list object figure img);
 use Util::Convert  qw(searchify);
 
 sub Afma_flag_magic {

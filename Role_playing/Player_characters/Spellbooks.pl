@@ -8,12 +8,12 @@ use File::Basename;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
-use Page::Base     qw(page);
+use Page::Base qw(page);
+use Page::HTML qw(section paragraph list);
 use Page::List::File qw(file_directory file_list file_menu);
 use Page::RolePlaying::Spell::Book qw(spellbook);
-use HTML::Elements qw(section paragraph list);
 use Util::Convert  qw(filify);
-use Util::Sort     qw(name_sort);
+use Util::Sort qw(name_sort);
 
 my $directory = 'Role_playing/Player_characters/Spellbooks';
 my @selects = sort { name_sort(lc $a,lc $b) } map { $_ =~ s/\.txt//; $_ =~ s/_/ /g; $_ } file_list(file_directory($directory));

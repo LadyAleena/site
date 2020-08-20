@@ -8,11 +8,11 @@ our @EXPORT_OK = qw(file_directory file_list file_menu print_file_menu);
 
 use File::Spec;
 
-use Page::Path     qw(base_path);
-use HTML::Elements qw(anchor list);
-use Util::Convert  qw(textify searchify);
-use Util::Sort     qw(article_sort name_sort);
-use Util::Columns  qw(number_of_columns);
+use Page::Path qw(base_path);
+use Page::HTML qw(anchor list);
+use Util::Convert qw(textify searchify);
+use Util::Sort qw(article_sort name_sort);
+use Util::Columns qw(number_of_columns);
 
 # file_directory returns the directory by type of data wanted.
 ## The default data directory is 'data'.

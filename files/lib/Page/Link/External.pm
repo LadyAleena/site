@@ -5,8 +5,8 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(external_link external_links);
 
-use Page::Data     qw(make_hash);
-use HTML::Elements qw(anchor);
+use Page::Data qw(make_hash);
+use Page::HTML qw(anchor);
 
 my $external_links = make_hash( 'file' => ['Util','external_links.txt'], 'headings' => ['site','base link','after link'] );
 

@@ -4,12 +4,12 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use Page::HTML qw(anchor);
 use Page::List::File  qw(file_directory);
 use Page::Xanth::Util qw(get_article);
-use Fancy::Open    qw(fancy_open);
-use Fancy::Join    qw(join_defined grammatical_join);
-use HTML::Elements qw(anchor);
-use Util::Convert  qw(textify idify searchify);
+use Fancy::Open qw(fancy_open);
+use Fancy::Join qw(join_defined grammatical_join);
+use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(section_link location_link get_locations);
@@ -76,7 +76,7 @@ This document describes Page::Xanth::Location version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::Location depends on L<Fancy::Open>, L<Fancy::Join>, HTML::Elements, Util::Convert, Util::Data, Page::Xanth::Util, and L<Exporter>.
+Page::Xanth::Location depends on L<Fancy::Open>, L<Fancy::Join>, Page::HTML, Util::Convert, Util::Data, Page::Xanth::Util, and L<Exporter>.
 
 =head1 AUTHOR
 
