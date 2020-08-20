@@ -229,11 +229,11 @@ page( 'heading' => $heading, 'selected' => $select, 'code' => sub {
     }
   }
   elsif ( ( length $opinions && $opinions =~ /^[ryt1]/i ) || ( length $select && $select eq 'Movie opinions' ) ) {
-    open(my $fh, '<', "$text_directory/Movie_opinions.txt") || die $!;
-    story($fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    open(my $page_fh, '<', "$text_directory/Movie_opinions.txt") || die $!;
+    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
   }
   else {
-    open(my $fh, '<', "$text_directory/index.txt") || die $!;
-    story($fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    open(my $page_fh, '<', "$text_directory/index.txt") || die $!;
+    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
   }
 });
