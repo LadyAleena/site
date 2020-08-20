@@ -12,8 +12,6 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. It includes a [readme](Fancy/readme.md) for more information.
 
-[HTML](HTML): These modules are to print the html for my site.
-
 [**RPG**](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
 
 [**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but it has since grown to include generators for many many more things. It includes a [readme](Random/readme.md) for more information.
@@ -25,6 +23,8 @@ The one JavaScript file is for my collapsible site menu mainly.
 [**Date**](Date): These modules were written for fun and are not used on my site. It includes a [readme](Date/readme.md) for more information.
 
 [**Fun**](Fun): These modules were written for fun and are not used on my site. It includes a [readme](Fun/readme.md) for more information.
+
+[HTML](HTML): These modules deal with HTML attributes. (Note: [Page](Page) contains a module named [Page::HTML](Page/HTML.pm) that used to be in this directory.)
 
 [**Name**](Name): The Transform module parses names into an arrayref.
 
