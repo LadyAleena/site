@@ -156,7 +156,7 @@ See the A<tie-ins|href="?select=Tie-in#Doctor_Who_books"> I own.
 * I<The Expendables 3|^brd^> (2014)
 2 F
 *| two
-* I<The Fifth Element|^dvd^> (1997)
+* I<The Fifth Element|^brb^> (1997)
 * I<Finding Forrester|^dvd^> (2000)
 * I<First Daughter|^dvd^> (2004)
 * I<The First Wives Club|^dvd^> (1996)
@@ -292,6 +292,9 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 3 The Lawnmower Man
 * I<The Lawnmower Man|^dvd^> (1992)
 * I<Lawnmower Man 2: Beyond Cyberspace|^dvd^> (1996)
+3 Legendary MonsterVerse
+* I<Kong: Skull Island|^brb^> (2017)
+* I<Godzilla: King of the Monsters|^brb> (2019)
 3 The Librarians
 *| two
 * I<The Librarian: Quest for the Spear|^dvd^> (2004)
@@ -499,6 +502,7 @@ See the A<tie-ins|href="?select=Tie-in#Star_Wars"> I own.
 * I<Tin Cup|^dvd^> (1996)
 * I<Titan A.E.|^dvd^> (2000)
 * I<To Gillian on Her 37th Birthday|^vhs^> (1996)
+* I<Tomorrowland|^brb^> (2015)
 * I<Top Secret!|^dvd^> (1984)
 * I<Tornado!|^dg^> (1996)
 * I<Transylvania 6-5000|^dvd^> (1985)
