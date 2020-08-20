@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::TurningUndead;
+package Page::RolePlaying::Character::GameTable::TurningUndead;
 use v5.8.8;
 use strict;
 use warnings;

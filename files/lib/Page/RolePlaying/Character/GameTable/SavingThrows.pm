@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::SavingThrows;
+package Page::RolePlaying::Character::GameTable::SavingThrows;
 use v5.8.8;
 use strict;
 use warnings;

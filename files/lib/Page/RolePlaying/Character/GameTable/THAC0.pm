@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::THAC0;
+package Page::RolePlaying::Character::GameTable::THAC0;
 use v5.8.8;
 use strict;
 use warnings;

@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::ArmorClass;
+package Page::RolePlaying::Character::GameTable::ArmorClass;
 use v5.8.8;
 use strict;
 use warnings;

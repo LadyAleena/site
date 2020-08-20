@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::RogueSkills;
+package Page::RolePlaying::Character::GameTable::RogueSkills;
 use v5.8.8;
 use strict;
 use warnings;

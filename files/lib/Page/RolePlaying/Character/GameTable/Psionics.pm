@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::Psionics;
+package Page::RolePlaying::Character::GameTable::Psionics;
 use v5.8.8;
 use strict;
 use warnings;

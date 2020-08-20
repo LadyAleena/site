@@ -1,4 +1,4 @@
-package RPG::Character::GameTable::SpellProgression;
+package Page::RolePlaying::Character::GameTable::SpellProgression;
 use v5.8.8;
 use strict;
 use warnings;
