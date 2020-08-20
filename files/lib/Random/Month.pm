@@ -69,6 +69,9 @@ my %months = (
 
   'Greek'        => [qw(Ianuários Fevruários Mártios Aprílios Máios Iúnios Iúlios Avghustos Septémvrios Októvrios Noémvrios Thekémvrios)],
   'el'           => [qw(Ianuários Fevruários Mártios Aprílios Máios Iúnios Iúlios Avghustos Septémvrios Októvrios Noémvrios Thekémvrios)],
+
+  'Russian'      => [qw(Январь Февраль Март Апрель Май Июнь Июль Август Сентябрь Октябрь Ноябрь Декабрь)],
+  'ru'           => [qw(Январь Февраль Март Апрель Май Июнь Июль Август Сентябрь Октябрь Ноябрь Декабрь)],
 );
 # I wrote this hash for another reason, but Date::Calc killed the need for the original purpose.
 
@@ -232,6 +235,12 @@ The C<Portuguese>, C<Português>, or C<pt> options return janeiro, fevereiro, ma
 
 The C<Romanian>, C<Română>, or C<ro> options return Ianuarie, Februarie, Martie, Aprilie, Mai, Iunie, Iulie, August, Septembrie, Octombrie, Noiembrie, or Decembrie.
 
+=head4 Russian or ru
+
+  random_month('Russian');
+  random_month('ru');
+
+The C<Russian> or C<ru> options return Январь, Февраль, Март, Апрель, Май, Июнь, Июль, Август, Сентябрь, Октябрь, Ноябрь, or Декабрь.
 =head4 Spanish, Español, or es
 
   random_month('Spanish');
