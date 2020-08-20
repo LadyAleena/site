@@ -125,6 +125,7 @@ This is my B<fiction collection> of SPAN<hardcovers|^hardcovers^>, SPAN<trade pa
 # I<Iris Orb|^hardcover^>
 # I<Ghost Writer in the Sky|^hardcover^>
 # I<Fire Sail|^hardcover^>
+# I<Jest Right|^hardcover^>
 3 Robert Asprin +
 4 Myth
 #2 I<Myth Conceptions|^massmarket^>
