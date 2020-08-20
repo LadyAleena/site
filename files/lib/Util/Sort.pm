@@ -23,9 +23,9 @@ sub split_out_leading_number {
 
 # Written by roboticus on PerlMonks.
 # When sorting lists of files, I want the index file to always come first.
-# There may be an index file in a folder of files I want sorted by name.
+# There may be an index file in a directory of files I want sorted by name.
 # Added on 2019 May 17:
-# I have since added the sorting of Miscellany to be the last item of a list.
+# I have since added the optional sorting of Miscellany to be the last item of a list.
 sub my_index_sort {
     my ($c, $d, $opt) = @_;
     # We want any item starting with "index." to sort to the top of
@@ -54,8 +54,7 @@ sub my_index_sort {
 }
 
 # This is my default sorting method.
-# Written first with the help of kent/n in #perl on freenode,
-# then later roboticus on PerlMonks.
+# Written first with the help of kent/n in #perl on freenode, then later roboticus on PerlMonks.
 sub article_sort {
   my ($c, $d, $opt) = @_;
 
@@ -81,7 +80,7 @@ sub article_sort {
 }
 
 sub name_sort {
-  my ($c,$d) = @_;
+  my ($c, $d) = @_;
 
   my $t = my_index_sort($c, $d);
   return $t if $t;
@@ -89,7 +88,7 @@ sub name_sort {
   # When I sort by name I prefer lastname firstname.
   # I have not yet written this to account for Roman numerals after the last name.
 
-  for ($c,$d) {
+  for ($c, $d) {
     s/<.+?>//g; # Strip out any html tags.
     s/ (?:Jr.|Sr.)$//;
     $_ = join(' ', (reverse split(/(?:_|\s)(?=[^_\s]+$)/, $_, 2))) if $_ !~ /^_/;
@@ -125,7 +124,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
