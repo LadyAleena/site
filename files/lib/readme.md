@@ -26,6 +26,8 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [HTML](HTML): These modules deal with HTML attributes. (Note: [Page](Page) contains a module named [Page::HTML](Page/HTML.pm) that used to be in this directory.)
 
+[**List/Value**](List/Value): The Length module was written for some reason, which I can not remember. It is not being used on my site.
+
 [**Name**](Name): The Transform module parses names into an arrayref.
 
 [**String**](String): The Abbreviation module was written for fun and is not used on my site.
