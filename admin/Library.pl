@@ -9,15 +9,14 @@ use Page::Base qw(page);
 use Page::HTML qw(section nav list anchor);
 use Page::Data qw(data_file);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
+use Fancy::Open qw(fancy_open);
 use Util::Number qw(commify);
 
 my @files = map { data_file('admin', "${_}_modules.txt") } ('local', 'xecu');
 
 my $modules;
 for my $file (@files) {
-  open(my $in_file, '<', $file) || die $!;
-  chomp($in_file);
-  my @lines = <$in_file>;
+  my @lines = fancy_open($file);
 
   for my $line (@lines) {
     my ($module, $version) = split(/\t/, $line);

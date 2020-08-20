@@ -15,6 +15,7 @@ use Page::Story qw(story);
 use Page::List::File     qw(file_directory file_list file_menu);
 use Page::Story::Inline  qw(inline);
 use Fancy::Join::Defined qw(join_defined);
+use Facny::Open qw(fancy_open);
 use Util::Convert qw(textify);
 use Util::Sort    qw(article_sort);
 
@@ -36,10 +37,7 @@ my %years;
 if ($select && grep(/\Q$select\E/, @selects)) {
   $select =~ s/ /_/g;
   my $file = "$directory/$select.txt";
-  open(my $fh, '<', $file) || die "Can't open $file. $!";
-
-  my @lines = <$fh>;
-  chomp(@lines);
+  my @lines = fancy_open($file);
 
   my %activities;
   for my $line (@lines) {
