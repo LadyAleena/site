@@ -24,19 +24,13 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [**Fun**](Fun): These modules were written for fun and are not used on my site. It includes a [readme](Fun/readme.md) for more information.
 
-[HTML](HTML): These modules deal with HTML attributes. (Note: [Page](Page) contains a module named [Page::HTML](Page/HTML.pm) that used to be in this directory.)
-
 [**List/Value**](List/Value): The Length module was written for some reason, which I can not remember. It is not being used on my site.
 
 [**Name**](Name): The Transform module parses names into an arrayref.
 
 [**String**](String): The Abbreviation module was written for fun and is not used on my site.
 
-[SVG](SVG): These modules are indirectly used for my site and were all written to help me write the [SVGs](../images) and are specific to my needs.
-
 [**Time**](Time): The Duration module was written so I could find out durations.
-
-[Zodiac](Zodiac): The Chinese zodiac module here has already been shared on CPAN by Rene Schickbauer with my permission.
 
 ## Modules I may want to add to CPAN
 
