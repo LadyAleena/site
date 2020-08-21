@@ -12,7 +12,7 @@ use Page::List::File qw(file_directory);
 
 my $directory = file_directory('Role_playing/Reference_tables');
 
-my $assets = make_hash( 'file' => "$directory/equipment_costs.txt" );
+my $assets = make_hash( 'file' => "$directory/assets/equipment_costs.txt" );
 
 # Start additional items
 
@@ -32,7 +32,7 @@ for my $type ("a".."z") {
 
 # Start armor
 
-my $material_modifiers = make_hash( 'file' => "$directory/armor_materials.txt" );
+my $material_modifiers = make_hash( 'file' => "$directory/assets/armor_materials.txt" );
 
 sub armor_value {
   my (%opt) = @_;
@@ -44,7 +44,7 @@ sub armor_value {
   return $value;
 }
 
-my $in_armor = "$directory/armor.txt");
+my $in_armor = "$directory/assets/armor.txt");
 open(my $armor_file, '<', $in_armor) || die "Can't open $in_armor. Stopped $!";
 while (my $raw_armor = <$armor_file>) {
   chomp $raw_armor;
@@ -194,7 +194,7 @@ sub add_ammo_of {
   $assets->{"$ammo of stunning"}    = $value + 750;
 }
 
-my $in_ammo = "$directory/ammunition.txt";
+my $in_ammo = "$directory/assets/ammunition.txt";
 open(my $ammo_file, '<', $in_ammo) || die "Can't open $in_ammo. Stopped $!";
 while (my $raw_ammo = <$ammo_file>) {
   chomp $raw_ammo;
