@@ -167,10 +167,10 @@ sub table_opts {
       $line =~ s/^\! (.+)$/$1/;
       $table_opts->{'caption'} = inline(convert_string($line), $opt->{'line magic'});
     }
-    elsif ($match eq '*') {
+    elsif ($match eq '^') {
       my $thead_start = $lineno;
       my $thead_end   = $lineno;
-      $thead_end++ while ($thead_end < $#$lines and $lines->[$thead_end + 1] eq '*');
+      $thead_end++ while ($thead_end < $#$lines and $lines->[$thead_end + 1] eq '^');
 
       my @table_rows = map {
         row_line($_, $opt);
@@ -183,7 +183,7 @@ sub table_opts {
     elsif ($match eq '=') {
       my $tfoot_start = $lineno;
       my $tfoot_end   = $lineno;
-      $tfoot_end++ while ($tfoot_end < $#$lines and $lines->[$tfoot_end + 1] eq '*');
+      $tfoot_end++ while ($tfoot_end < $#$lines and $lines->[$tfoot_end + 1] eq '=');
 
       my @table_rows = map {
         row_line($_, $opt);
@@ -193,7 +193,7 @@ sub table_opts {
 
       $lineno = $tfoot_end;
     }
-    elsif ($match =~ /[\+-]/) {
+    elsif ($match =~ /[\*\+-]/) {
       my $row_start = $lineno;
       my $row_end   = $lineno;
       $row_end++ while ($row_end < $#$lines and $lines->[$row_end + 1] =~ /^[$match]/);
@@ -202,12 +202,14 @@ sub table_opts {
         row_line($_, $opt);
       } @{$lines}[$row_start..$row_end];
 
-      my $type = $match =~ /\+/ ? 'whead' : 'data';
+      my $type = $match =~ /\*/ ? 'header' :
+                 $match =~ /\+/ ? 'whead'  :
+                 'data';
       push @{$table_opts->{'rows'}}, [$type, \@table_rows];
 
       $lineno = $row_end;
     }
-    $match = '*=+-';
+    $match = '^=*+-';
   }
 
   return $table_opts;
