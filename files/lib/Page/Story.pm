@@ -141,8 +141,9 @@ sub passage {
 # |# is the id
 # || is the class(es)
 # |! is the caption
-# |* is headings put into thead
+# |^ is headings put into thead
 # |= is footings put into tfoot
+# |* is rows that are all heading
 # |+ is rows starting with head
 # |- is a normal row
 
