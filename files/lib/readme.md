@@ -16,7 +16,7 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but it has since grown to include generators for many many more things. It includes a [readme](Random/readme.md) for more information.
 
-[Util](Util): These modules are almost all helpers for my site and are very specific to my needs. There are not many in here that I would want to share. Those I may want to share would need new names.
+[Util](Util): These modules are all helpers for my site. I may want to share them, but they would need new names.
 
 ### Modules not in use on my site
 
