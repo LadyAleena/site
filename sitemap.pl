@@ -96,6 +96,8 @@ html(0, {
     style => ['
       body { font: normal 9pt arial, roboto, sans-serif; }
 
+      a { text-decoration: none; }
+
       .left   { text-align: left; }
       .right  { text-align: right; }
       .center { text-align: center; }
