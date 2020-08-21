@@ -1,15 +1,17 @@
 package SVG::FamilyTree;
-use v5.10.0
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(tree_paths tree_rect);
 
 use Fancy::Join::Defined qw(join_defined);
 use SVG::Box::Width      qw(name_width);
 use Util::Convert        qw(idify);
 
 use SVG ();
+
+our $VERSIOn = '1.0';
+our @EXPORT_OK = qw(tree_paths tree_rect);
 
 sub make_ids {
   my $in = shift;

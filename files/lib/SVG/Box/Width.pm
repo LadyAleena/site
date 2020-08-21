@@ -1,11 +1,13 @@
 package SVG::Box::Width;
-use v5.10.0
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(get_width name_width title_width);
 
 use Cairo ();
+
+our $VERSIOn = '1.0';
+our @EXPORT_OK = qw(get_width name_width title_width);
 
 # Author Shlomi Fish <shlomif@cpan.org>
 sub get_width {

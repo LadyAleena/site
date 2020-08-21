@@ -4,11 +4,11 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-our $VERSION   = '1.0';
-our @EXPORT_OK = qw(make_rect);
-
 use List::Util qw(min max uniq);
 use Math::Round qw(nearest);
+
+our $VERSION   = '1.0';
+our @EXPORT_OK = qw(make_rect);
 
 sub make_rect {
   my $line = shift;

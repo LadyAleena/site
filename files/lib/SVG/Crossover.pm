@@ -1,14 +1,16 @@
 package SVG::Crossover;
-use v5.10.0
+use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(movie_box spinoffs crossover to_crossover);
 
 use SVG ();
 
 use Util::Convert qw(idify textify);
 use SVG::Box::Width qw(title_width);
+
+our $VERSIOn = '1.0';
+our @EXPORT_OK = qw(movie_box spinoffs crossover to_crossover);
 
 sub title_id {
   my $title = shift;
