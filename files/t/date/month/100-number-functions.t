@@ -16,11 +16,11 @@ use warnings;
 
 use Test::More;
 
-# Test that Util::MonthNumber can be use'd exporting fancy_map
+# Test that Date::Month::Number can be use'd exporting fancy_map
 # ... and die if it can't
 BEGIN {
-    use_ok( 'Util::MonthNumber', 'month_number' )
-      or die "# Util::MonthNumber not available\n";
+    use_ok( 'Date::Month::Number', 'month_number' )
+      or die "# Date::Month::Number not available\n";
 }
 
 # Select various data that tests all of whats expected
