@@ -3,12 +3,11 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(page story passage convert_string);
+our @EXPORT_OK = qw(page);
 
 use Cwd qw(cwd realpath);
 use File::Basename;
 use File::Spec;
-use List::Util qw(max);
 
 use Page::HTML qw(html style noscript nav main section list div anchor img input);
 use Page::Line qw(line);
@@ -34,7 +33,7 @@ sub page {
 
   my $page_heading = $opt{'heading'} && ref($opt{'heading'}) eq 'ARRAY' ? textify(@{$opt{'heading'}}, { html => 'yes' }) :
                      $opt{'heading'} ? textify($opt{'heading'}, { html => 'yes' }) :
-                     $basename =~ /index/ ? textify((split(/\//, cwd))[-1]) : ucfirst textify($basename);;
+                     $basename =~ /index/ ? textify((split(/\//, cwd))[-1]) : ucfirst textify($basename);
 
   if ( $opt{'heading'} ) {
     my $file_title = $basename;
