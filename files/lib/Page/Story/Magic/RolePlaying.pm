@@ -3,14 +3,6 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(
-  Afma_flag_magic
-  alignment_magic
-  equipment_magic
-  location_magic
-  monster_magic
-);
-
 use Lingua::EN::Inflect qw(PL_N);
 
 use Page::Data qw(make_array);
@@ -18,6 +10,15 @@ use Page::HTML qw(definition_list object figure img);
 use Page::Line qw(line);
 use Page::List::File qw(file_directory);
 use Util::Convert  qw(searchify);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(
+  Afma_flag_magic
+  alignment_magic
+  equipment_magic
+  location_magic
+  monster_magic
+);
 
 sub Afma_flag_magic {
   my $magic;
@@ -78,6 +79,18 @@ sub monster_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::RolePlaying> exports the doc and line magic for several of my Role playing pages.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::RolePlaying version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::RolePlaying depends on Page::Data, Page::HTML, Page::Line, Page::List::File, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 

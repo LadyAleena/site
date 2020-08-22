@@ -48,6 +48,18 @@ sub irc_magic {
 
 =encoding utf8
 
+=head1 NAME
+
+B<Page::Story::Magic::IRC> exports the doc and line magic for my IRC channels I visit page.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::IRC version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::IRC depends on Page::Data, Page::HTML, Page::List::File, Util::Columns, and L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena
@@ -56,7 +68,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

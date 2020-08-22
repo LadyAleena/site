@@ -3,7 +3,6 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(pc_magic);
 
 use File::Spec;
 
@@ -14,6 +13,9 @@ use Page::Story qw(passage);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use Fancy::Open   qw(fancy_open);
 use Util::Convert qw(idify);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(pc_magic);
 
 sub pc_magic {
   my @pcs = fancy_open(data_file('Role_playing','player_characters_list.txt'));
@@ -44,6 +46,18 @@ sub pc_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::PlayerCharacters> exports the doc and line magic for my various pages where I need links to my Player character page.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::PlayerCharacters version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::PlayerCharacters depends on Page::Data, Page::HTML, Page::Path, Page::Story, Page::RolePlaying::Spell::List, Fancy::Open, Util::Convert, and L<Exporter>
 
 =head1 AUTHOR
 

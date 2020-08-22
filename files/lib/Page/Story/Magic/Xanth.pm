@@ -69,13 +69,17 @@ sub Xanth_magic {
 
 =encoding utf8
 
+=head1 NAME
+
+B<Page::Story::Magic::Xanth> exports the doc and line magic for my I<Xanth> pages.
+
 =head1 VERSION
 
-This document describes Page::Xanth::LineMagic version 1.0.
+This document describes Page::Story::Magic::Xanth version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::LineMagic depends on L<Fancy::Open>, Page::List::File, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::Novel, Page::Xanth::PageLinks, and L<Exporter>.
+Page::Story::Magic::Xanth depends on L<Fancy::Open>, Page::Data, Page::List::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 

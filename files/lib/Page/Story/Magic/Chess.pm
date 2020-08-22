@@ -3,12 +3,14 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(chess_magic);
 
 use Page::Data qw(make_array);
 use Page::HTML qw(definition_list figure object);
 use Page::Line qw(line);
 use Page::List::File qw(file_directory);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(chess_magic);
 
 sub chess_magic {
   my $magic;
@@ -31,6 +33,18 @@ sub chess_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::Chess> exports the doc and line magic for my Chess variations page.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::Chess version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::FamilyTree depends on Page::Data, Page::HTML, Page::Line, Page::List::File, and L<Exporter>.
 
 =head1 AUTHOR
 

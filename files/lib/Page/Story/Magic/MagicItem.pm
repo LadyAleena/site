@@ -3,7 +3,6 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(magic_item_magic);
 
 use Lingua::EN::Inflect qw(NO);
 
@@ -11,6 +10,9 @@ use Page::HTML qw(list anchor);
 use Page::List::File qw(file_directory file_list);
 use Util::Convert qw(searchify textify);
 use Util::Sort    qw(name_sort);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(magic_item_magic);
 
 sub magic_item_magic {
   my $magic;
@@ -44,6 +46,18 @@ sub magic_item_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::MagicItem> exports the doc and line magic for my Magic items pages.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::MagicItem version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::Miscellany depends on Page::HTML, Page::List::File, Util::Convert, Util::Sort, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

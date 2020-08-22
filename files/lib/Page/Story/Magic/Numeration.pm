@@ -3,12 +3,13 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(numeration_magic);
-
 use Math::BigInt;
 
 use Page::HTML qw(table);
 use Util::Number qw(commify);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(numeration_magic);
 
 sub numeration_magic {
   my $magic;
@@ -38,6 +39,19 @@ sub numeration_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::Numeration> exports the doc and line magic for my Numeration scale page.
+
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::Numeration version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::Numeration depends on Page::HTML, Util::Number, and L<Exporter>.
 
 =head1 AUTHOR
 

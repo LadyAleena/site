@@ -3,10 +3,12 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(movie_magic);
 
 use Util::Convert  qw(textify searchify);
 use Page::Movie    qw(movie_option series textify_movie);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(movie_magic);
 
 sub movie_magic {
   my %opt = @_;
@@ -42,6 +44,18 @@ sub movie_magic {
 
 =encoding utf8
 
+=head1 NAME
+
+B<Page::Story::Magic::Movie> exports the doc and line magic for my various pages where I need links to my Movies page.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::Movie version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::Movie depends on Page::Movie, Util::Convert, and L<Exporter>.
+
 =head1 AUTHOR
 
 Lady Aleena
@@ -50,7 +64,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

@@ -3,9 +3,11 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(program_magic);
 
 use Page::Data qw(make_hash);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(program_magic);
 
 sub program_magic {
   my $program_urls = make_hash( 'file' => ['Collections','programs.txt'] );
@@ -21,6 +23,18 @@ sub program_magic {
 =pod
 
 =encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::Programs> exports the doc and line magic for my various pages where I need links to programs I use.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::Programs version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::Programs depends on Page::Data and L<Exporter>.
 
 =head1 AUTHOR
 

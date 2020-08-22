@@ -3,21 +3,23 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(misc_magic);
 
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
+use Fancy::Join::Defined       qw(join_defined);
+use Fancy::Open qw(fancy_open);
 use Page::Data qw(make_hash);
 use Page::HTML qw(list span anchor object figure);
 use Page::Line qw(line);
 use Page::List::File qw(file_directory);
-use Fancy::Join::Defined       qw(join_defined);
-use Fancy::Open qw(fancy_open);
 use Random::Body::Modification qw(random_body_modification);
 use Random::Color              qw(random_color);
 use Random::Descriptor         qw(random_descriptor);
 use Random::Misc               qw(random_sexual_orientation random_relationship);
 use Util::Convert  qw(searchify);
+
+our $VERSION   = "1.0";
+our @EXPORT_OK = qw(misc_magic);
 
 sub age {
   my @ages = (18..90);
@@ -84,3 +86,33 @@ sub misc_magic {
 
   return $magic;
 }
+
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Page::Story::Magic::Miscellany> exports the doc and line magic for my Miscellany pages.
+
+=head1 VERSION
+
+This document describes Page::Story::Magic::Miscellany version 1.0.
+
+=head1 DEPENDENCIES
+
+Page::Story::Magic::Miscellany depends on L<Fancy::Join::Defined>, L<Fancy::Open>, Page::Data, Page::HTML, Page::Line, Page::List::File, Random::Body::Modification, Random::Color, Random::Descriptor, Random::Misc, Util::Convert, L<Lingua::EN::Inflect>, and L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENSE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
+
+=cut
+
+1;
