@@ -5,8 +5,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(contact_links);
 
-use CGI::Carp qw(fatalsToBrowser);
-
 use Page::Data qw(make_hash);
 use Page::HTML qw(anchor img);
 use Page::Path qw(base_path);

@@ -5,7 +5,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(page story passage convert_string);
 
-use CGI::Carp qw(fatalsToBrowser);
 use Cwd qw(cwd realpath);
 use File::Basename;
 use File::Spec;

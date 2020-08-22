@@ -5,7 +5,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(story passage convert_string);
 
-use CGI::Carp qw(fatalsToBrowser);
 use List::Util qw(max);
 
 use Page::HTML qw(nav section heading paragraph blockquote list table  pre anchor   );

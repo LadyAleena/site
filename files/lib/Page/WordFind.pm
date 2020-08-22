@@ -5,7 +5,6 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(word_find);
 
-use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
 
 use Page::List::File qw(file_directory);
