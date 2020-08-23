@@ -10,16 +10,19 @@ sub link_color {
   my $color = '000';
 
   my %colors;
-  $colors{'pl'}    = 'f00';
-  $colors{'pm'}    = '900';
+  $colors{'pl'}    = '069';
+  $colors{'pm'}    = '066';
+  $colors{'pod'}   = '096';
+  $colors{'t'}     = '099';
   $colors{'html'}  = '00c';
   $colors{'shtml'} = '009';
   $colors{'svg'}   = '60c';
   $colors{'css'}   = '060';
   $colors{'csv'}   = '0f0';
   $colors{'txt'}   = '090';
+  $colors{'md'}    = '306';
   $colors{'zip'}   = '990';
-  $colors{'js'}    = '099';
+  $colors{'js'}    = 'f06';
   $colors{'pdf'}   = 'c33';
   $colors{'wav'}   = '939';
   $colors{'xls'}   = '696';
