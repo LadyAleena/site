@@ -1,0 +1,193 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Page::Story> is a series of functions that parses text data with Lady Aleena's unique markup.
+
+=head1 USAGE
+
+B<Sample lines note:> The sample lines below will have spaces at the beginnings of the lines. Those spaces I<must> be removed or the lines will all be returned as paragraphs.
+
+=head2 Block elements
+
+=head3 Headings
+
+Lines starting with a C<1>, C<2>, C<3>, C<4>, C<5>, or C<6> will create headings.
+
+  1 Heading level one
+  2 Heading level two
+  3 Heading level three
+  4 Heading level four
+  5 Heading level five
+  6 Heading level six
+
+Should the number be followed, without spaces, by an C<n>, it will be returned with the C<noclear> class.
+
+  1n Heading level one with noclear class
+  2n Heading level two with noclear class
+  3n Heading level three with noclear class
+  4n Heading level four with noclear class
+  5n Heading level five with noclear class
+  6n Heading level six with noclear class
+
+If a C<+> is the I<last> character of the string, links to Google and Wikipedia will follow directly after the heading.
+
+  1 Topic +
+
+=head3 Paragraphs
+
+Normal paragraghs do not have any line notation.
+
+=head4 Indented paragraphs
+
+Lines starting with C<E<gt>NUM> will be printed with an indent class.
+
+  >1 will have "indent_01" class.
+  >2 will have "indent_02" class.
+  >10 will have "indent_10" class.
+
+=head4 Stanzas
+
+Lines starting with C<stanza> will be a paragraph with line breaks in it, broken at C<|>. They will be given the C<stanza> class. This is helpful for poetry.
+
+  stanza This line will break|So you can eat cake.
+
+=head4 Other paragraphs
+
+Lines starting with the words C<as>, C<by>, C<from>, and C<with> will be paragraphs with the C<author> class.
+
+  1 Some Person
+  as Some Other Person
+
+  1 Some Book
+  by Some Author
+
+  bq Some item
+  from Some Source
+
+  1 Main Author
+  with Some Other Author or Authors
+
+=head3 Block quotes
+
+Lines starting with C<bq> will be block quotes.
+
+  bq This is a block quote from Lady Aleena.
+
+=head3 Preformatted text
+
+Lines starting with C<:> will be grouped into a C<E<lt>preE<gt>> tag.
+
+  : This line will be preformatted.
+  : So will this one.
+
+Lines starting with C<:|> will give the C<pre> tag a class.
+
+  :| perl
+
+The above will give the C<pre> tag the class C<perl>.
+
+  <pre class="perl">
+  </pre>
+
+=head3 Lists
+
+Lines starting with C<*> or C<#> return a list. They can be mixed.
+
+=head4 Unordered lists
+
+Lines starting with C<*> will return an unordered list. Lines starting with C<*|> are setting the class of the list.
+
+  * Red
+  * Green
+  * Blue
+
+=head4 Ordered lists
+
+Lines starting with C<#> will return an ordered list. Lines starting with C<#|> are setting the class of the list.
+
+  # First
+  # Second
+  # Third
+
+Should the C<#> be followed by a number, the list will begin at that number.
+
+  #2 Second
+  # Third
+  # Fourth
+
+=head4 Mixed list
+
+  * Red
+  * Green
+  * Blue
+  *# First
+  *# Second
+  *# Third
+
+=head3 Tables
+
+Lines starting with C<|> are tables
+
+=over
+
+=item * C<|#> - the table's id
+
+=item * C<||> - the table's class(es)
+
+=item * C<|!> - the table's caption
+
+=item * C<|^> - the rows that go into the table's thead. These rows will be header cells.
+
+=item * C<|=> - the rows that go into the tables' tfoot. These rows will start with a header cell.
+
+=item * C<|*> - rows that are just headings
+
+=item * C<|+> - rows that have a header for the first cell
+
+=item * C<|-> - normal rows
+
+=back
+
+  |# table-id
+  || table-class
+  |! Table caption
+  |^ thead 1      | thead 2      | thead 3
+  |= tfoot header | tfoot 2 cell | tfoot 3 cell
+  |* sub header   | sub header   | sub header
+  |+ row header   | row cell     | row cell
+  |- row cell     | row cell     | row cell
+
+=head3 Breaks
+
+Lines that are B<only> C<br> or C<hr> will be a line break or horizontal rule respectively.
+
+=head3 Normal HTML
+
+A line can have normal HTML on it.
+
+  <p>A paragraph.</p>
+
+=head3 Inserting code
+
+Lines that begin with C<&> will be code brought into the story with the C<doc magic> option.
+
+  & hash key
+
+=head1 DEPENDENCIES
+
+Page::Story depends on L<List::Util>, Page::HTML, Page::Line, Page::Link::External, Page::Story::Inline, Fancy::Join::Grammatical, Util::Convert, and Util::Columns.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENSE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
+
+=cut
