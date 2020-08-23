@@ -14,7 +14,6 @@ All of these modules depend on [Exporter](https://metacpan.org/pod/Exporter).
 
 ## Fancy join functions
 
-* [Fancy::Join](Join.pm) is a wrapper for all of the fancy join functions I have written.
 * [Fancy::Join::Defined](Join/Defined.pm) joins only defined values in a list.
 * [Fancy::Join::Grammatical](Join/Grammatical.pm) joins a list with a final conjunction.
 
