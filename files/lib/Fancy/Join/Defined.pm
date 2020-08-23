@@ -12,42 +12,7 @@ sub join_defined {
   return join($joiner, grep(defined, @_));
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Fancy::Join::Defined> joins only defined values in a list.
-
-=head1 VERSION
-
-This document describes Fancy::Join::Defined version 1.0.
-
-=head1 SYNOPSIS
-
-  my @base_colors = ('red', undef, 'green', undef, 'blue', undef);
-  my $colors = join_defined(',', @base_colors);
-  # red, green, blue
-
-=head1 DESCRIPTION
-
-C<join_defined> can be exported and returns a string of only defined values from a list. It takes two parameters: the character which will join the list and a reference to the list.
-
-=head1 DEPENDENCY
-
-Fancy::Join::Defined depends on L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
