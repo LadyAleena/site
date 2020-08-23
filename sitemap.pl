@@ -12,7 +12,7 @@ use Page::Menu qw(base_menu);
 use Page::Path qw(base_path);
 use Page::Link::Color qw(link_color);
 use Page::List::File  qw(file_list);
-use Util::Number qw(pretty_number);
+use Number::Format::Pretty qw(pretty_number);
 
 my $root_path = base_path('path');
 my $root_link = base_path('link');

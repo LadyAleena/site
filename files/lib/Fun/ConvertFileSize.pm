@@ -6,8 +6,7 @@ use Exporter qw(import);
 
 use List::MoreUtils qw(firstidx apply);
 
-use lib '../../fantasy/files/lib';
-use Util::Number qw(pretty_number);
+use Number::Format::Pretty qw(pretty_number);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(convert_filesize random_filesize);
@@ -156,7 +155,7 @@ You could get anything from a bit to a yottabyte.
 
 =head1 DEPENDENCIES
 
-Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Util::Number>.
+Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Number::Format::Pretty>.
 
 =head1 AUTHOR
 
@@ -166,7 +165,7 @@ Lady Aleena with lots of help from PerlMonks.
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

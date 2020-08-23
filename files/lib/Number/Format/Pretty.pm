@@ -1,4 +1,4 @@
-package Util::Number;
+package Number::Format::Pretty;
 use v5.8.8;
 use strict;
 use warnings;
@@ -34,15 +34,15 @@ sub pretty_number {
 
 =head1 NAME
 
-B<Util::Number> adds commas, rounds, and returns pretty numbers.
+B<Number::Format::Pretty> adds commas, rounds, and returns pretty numbers.
 
 =head1 VERSION
 
-This document describes Util::Number version 1.0.
+This document describes Number::Format::Pretty version 1.0.
 
 =head1 SYNOPSIS
 
-  use Util::Number qw(commify round pretty_number);
+  use Number::Format::Pretty qw(commify round pretty_number);
 
   my $comma_number = commify(2468);
   # returns 2,468
@@ -55,7 +55,7 @@ This document describes Util::Number version 1.0.
 
 =head1 DESCRIPTION
 
-Util::Number contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
+Number::Format::Pretty contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
 
 =head2 commify
 
@@ -77,7 +77,7 @@ B<C<pretty_number>> puts commify and round together so you can get rounded numbe
 
 =head1 DEPENDENCY
 
-Util::Number depends on L<Exporter>.
+Number::Format::Pretty depends on L<Exporter>.
 
 =head1 AUTHOR
 
@@ -87,7 +87,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

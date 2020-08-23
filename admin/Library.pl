@@ -10,7 +10,7 @@ use Page::HTML qw(section nav list anchor);
 use Page::Data qw(data_file);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
 use Fancy::Open qw(fancy_open);
-use Util::Number qw(commify);
+use Number::Format::Pretty qw(commify);
 
 my @files = map { data_file('admin', "${_}_modules.txt") } ('local', 'xecu');
 

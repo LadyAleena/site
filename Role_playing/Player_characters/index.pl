@@ -16,7 +16,7 @@ use Page::Data qw(make_hash);
 use Page::List::File qw(file_directory);
 use Fancy::Join::Defined qw(join_defined);
 use Util::Convert qw(idify);
-use Util::Number  qw(commify);
+use Number::Format::Pretty  qw(commify);
 use RPG::Character::Alignment qw(expand_alignment);
 
 my $cgi  = CGI::Simple->new;

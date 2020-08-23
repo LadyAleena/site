@@ -24,7 +24,7 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open            qw(fancy_open);
 use Util::Columns  qw(number_of_columns);
 use Util::Convert  qw(idify);
-use Util::Number   qw(commify);
+use Number::Format::Pretty   qw(commify);
 
 # Begin importing data
 
