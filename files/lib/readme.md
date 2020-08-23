@@ -10,13 +10,17 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [Page](Page): These modules display my site's pages or generate data for my site for specific sections or pages.
 
-[**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. It includes a [readme](Fancy/readme.md) for more information.
-
 [**RPG**](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
 
-[**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but it has since grown to include generators for many many more things. It includes a [readme](Random/readme.md) for more information.
-
 [Util](Util): These modules are all helpers for my site. I may want to share them, but they would need new names.
+
+### Modules in use on my site that I want to also share
+
+[**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. It includes a [readme](Fancy/readme.md) for more information.
+
+[**Number/Format**](Number/Format): This module formats numbers to make them easier to read.
+
+[**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but it has since grown to include generators for many many more things. It includes a [readme](Random/readme.md) for more information.
 
 ### Modules not in use on my site
 
