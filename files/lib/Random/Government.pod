@@ -1,0 +1,68 @@
+=pod
+
+=encoding utf8
+
+=head1 NAME
+
+B<Random::Government> returns a random government type.
+
+=head1 VERSION
+
+This document describes Random::Government version 1.000.
+
+=head1 SYNOPSIS
+
+  use Random::Government qw(random_government);
+  my $government = random_government;
+
+=head1 DESCRIPTION
+
+Random::Government returns a random government type by using C<random_government>, which has to be imported. It has one optional parameter.
+
+=head2 Options
+
+=head3 Nothing or undef
+
+  random_government;
+  random_government();
+  random_government(undef);
+
+Using nothing or C<undef> will return a random government type. There are too many to list here, so to see the list, use the L</data> option.
+
+=head3 note
+
+  random_government('note');
+
+The C<note> option will add a description of the government.
+
+  hecatontarchy (ruled by 100 people)
+  xenocracy (ruled by foreigners)
+  moneyocracy (ruled by money, monied classes)
+  thearchy (ruled by rule a god or gods; body of divine rulers)
+  diabolocracy (ruled by Devil)
+
+=head3 data
+
+  random_government('data');
+
+The C<data> option will return a hash reference with all of the government types with their descriptions.
+
+=head1 NOTE
+
+The options of this module came from L<The Phrontistery|http://phrontistery.info/govern.html> except magocracy which came from I<The World Builder's Guidebook>.
+
+=head1 DEPENDENCY
+
+Random::Government depends on L<Exporter>.
+
+=head1 AUTHOR
+
+Lady Aleena
+
+=head1 LICENSE AND COPYRIGHT
+
+This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
+
+=cut
