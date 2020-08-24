@@ -50,7 +50,7 @@ sub random_misc {
 sub random_emotion            { my $user_addition = shift; random_misc('emotions'           , $user_addition) }
 sub random_game               { my $user_addition = shift; random_misc('games'              , $user_addition) }
 sub random_group              { my $user_addition = shift; random_misc('groups'             , $user_addition) }
-sub random_mental_condition   { my $user_addition = shift; random_misc('mental condition'   , $user_addition) }
+sub random_mental_condition   { my $user_addition = shift; random_misc('mental conditions'  , $user_addition) }
 sub random_non                { my $user_addition = shift; random_misc('non'                , $user_addition) }
 sub random_relationship       { my $user_addition = shift; random_misc('relationships'      , $user_addition) }
 sub random_sexual_orientation { my $user_addition = shift; random_misc('sexual orientations', $user_addition) }
