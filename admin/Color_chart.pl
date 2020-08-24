@@ -2,6 +2,8 @@
 use strict;
 use warnings FATAL => qw( all );
 
+use CGI::Carp qw(fatalsToBrowser);
+
 use lib '../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(table);
