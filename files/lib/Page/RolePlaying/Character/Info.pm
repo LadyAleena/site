@@ -6,9 +6,9 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(pc_info_list pc_info_table);
 
 use Lingua::EN::Inflect qw(PL_N);
-use Number::Format qw(format_number);
 
 use Page::HTML qw(span);
+use Number::Format::Pretty qw(pretty_number);
 use RPG::Character::Alignment qw(expand_alignment);
 use RPG::Character::Class     qw(player_classes_with_level);
 use Util::Convert qw(idify textify);
@@ -45,7 +45,7 @@ sub pc_info_table {
     if ($character->{$info} ) {
       my $class_array = player_classes_with_level($character->{'class'}, $character->{'experience'});
       my $head = $info ne 'class' ? textify($info) : PL_N($info, scalar(@$class_array));
-      my $data = $character->{$info} =~ /^\d+$/ ? format_number($character->{$info}) :
+      my $data = $character->{$info} =~ /^\d+$/ ? pretty_number($character->{$info}) :
                  $info eq 'class' ? join( '<br>', @$class_array):
                  $info eq 'alignment' ? expand_alignment($character->{$info}) : $character->{$info};
       push @rows, [ucfirst $head, $data];
