@@ -15,7 +15,7 @@ use Page::Story qw(story);
 use Page::List::File     qw(file_directory file_list file_menu);
 use Page::Story::Inline  qw(inline);
 use Fancy::Join::Defined qw(join_defined);
-use Facny::Open qw(fancy_open);
+use Fancy::Open qw(fancy_open);
 use Util::Convert qw(textify);
 use Util::Sort    qw(article_sort);
 
