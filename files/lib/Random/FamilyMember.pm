@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use List::MoreUtils qw(uniq);
+use List::Util qw(uniq);
 
 use Fancy::Rand qw(fancy_rand);
 

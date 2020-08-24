@@ -173,7 +173,7 @@ C<fancy_rand_from_array> takes an array and returns a random result. C<tiny_rand
 
 =head1 DEPENDENCIES
 
-Fancy::Rand depends on L<Exporter>, L<List::Util>, and L<List::MoreUtils>.
+Fancy::Rand depends on L<List::Util> and L<Exporter>.
 
 =head1 AUTHOR
 

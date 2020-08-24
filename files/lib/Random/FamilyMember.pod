@@ -260,7 +260,7 @@ You can add items to the list by adding an array reference with the additional i
 
 =head1 DEPENDENCIES
 
-Random::FamilyMember depends on L<Fancy::Rand>, L<List::MoreUtils>, and L<Exporter>.
+Random::FamilyMember depends on L<Fancy::Rand>, L<List::Util>, and L<Exporter>.
 
 =head1 NOTE
 

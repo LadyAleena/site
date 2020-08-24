@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
-use List::MoreUtils qw(uniq);
+use List::Util qw(uniq);
 use Text::CSV qw(csv);
 
 use Page::List::File qw(file_directory);

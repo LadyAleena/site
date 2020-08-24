@@ -4,8 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use List::Util qw(shuffle);
-use List::MoreUtils qw(uniq);
+use List::Util qw(shuffle uniq);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(fancy_rand fancy_rand_from_array tiny_rand instant_rand);
