@@ -16,10 +16,10 @@ table.ab_box { width: 25%; float: right; }
 table.ab_box th { width: 40%; }
 table.ab_box td { white-space: normal; }
 
-section.info_boxes { display: flex; justify-content: space-around; flex-wrap: wrap; }
-table.info_box { width:32.75%; }
-table.info_box th { width: 5em; }
-table.info_box td { text-align:left; }
+section.pc_info_tables { display: flex; justify-content: space-around; flex-wrap: wrap; }
+table.pc_info_table { width:32.75%; }
+table.pc_info_table th { width: 5em; }
+table.pc_info_table td { text-align:left; }
 
 table.ability_score { width: 99.5%; }
 

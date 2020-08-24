@@ -3,7 +3,7 @@ use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(convert_class class_level player_classes);
+our @EXPORT_OK = qw(convert_class class_level player_classes_with_level player_classes_simple);
 
 use Lingua::EN::Inflect qw(ORD);
 
@@ -63,7 +63,7 @@ sub class_level {
   return $current_level;
 }
 
-sub player_classes {
+sub player_classes_with_level {
   my ($class, $experience) = @_;
 
   my @classes;
@@ -73,6 +73,21 @@ sub player_classes {
   }
 
   return \@classes;
+}
+
+# This is used in the simple player character index.
+
+sub player_classes_simple {
+  my ($classes) = @_;
+
+  my @print_classes;
+  for my $class (@$classes) {
+    my ($spec_class, $base_class) = split(/\//,$class);
+    my $full_class = ucfirst "$spec_class";
+    push @print_classes, $full_class;
+  }
+
+  return join(' / ',@print_classes)
 }
 
 =pod
@@ -87,7 +102,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

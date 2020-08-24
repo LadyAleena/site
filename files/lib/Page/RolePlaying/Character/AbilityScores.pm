@@ -1,9 +1,9 @@
-package RPG::Character::AbilityScores;
+package Page::RolePlaying::Character::AbilityScores;
 use v5.8.8;
 use strict;
 use warnings;
 use Exporter qw(import);
-our @EXPORT_OK = qw(all_abilities ability_score_table game_effect);
+our @EXPORT_OK = qw(ability_box all_abilities ability_score_table game_effect);
 
 use List::Util qw(max);
 
@@ -52,7 +52,32 @@ sub game_effect {
   return $abilities{$ability}{$score}{$game_effect};
 }
 
-# These next two subroutines return the data around the ability scores to go into tables.
+# These subroutines return rows for a simple ability score table.
+# These are used in the simple player character index.
+
+sub split_ability {
+  my ($ability_name,$raw_ability) = @_;
+  my ($base,$modified,$modifier) = split(/\//,$raw_ability);
+
+  my @abilities;
+  push @abilities, [$ability_name, $base];
+  push @abilities, ["$ability_name<br><small>(modified)</small>",$modified] if $modified;
+  push @abilities, ["$ability_name<br><small>(modifier)</small>",$modifier] if $modifier;
+
+  return @abilities;
+}
+
+sub ability_box {
+  my ($character) = @_;
+  my @ability_scores_headings = qw(strength dexterity constitution intelligence wisdom charisma);
+  my @rows;
+  for my $score (@ability_scores_headings) {
+    push @rows, split_ability($score, $character->{$score});
+  }
+  return \@rows;
+}
+
+# These subroutines return the data around the ability scores to go into tables.
 
 sub ability_score_table {
   my ($ability, $ability_score, $user_enhanced, $score_modifier) = @_;
@@ -124,7 +149,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
