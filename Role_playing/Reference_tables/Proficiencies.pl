@@ -8,31 +8,29 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base qw(page);
-use Page::HTML qw(section paragraph table anchor);
 use Page::Data qw(make_hash);
+use Page::HTML qw(section paragraph table anchor);
+use Page::CGI::Param qw(get_cgi_param);
 use Page::Forms qw(tiny_select);
+use Page::List::File qw(file_directory);
 use Util::Convert  qw(idify);
 
 my $cgi = CGI::Simple->new;
-my $alpha   = $cgi->param('alpha') ? encode_entities($cgi->param('alpha'),'<>"') : '';
+my $alpha   = get_cgi_param($cgi, 'alpha');
 my @classes = $cgi->param('class') ? $cgi->param('class') : ''; # can't encode entities or array won't work.
-my $slots   = $cgi->param('slots') ? encode_entities($cgi->param('slots'),'<>"') : '';
-my $ability = $cgi->param('rel_ability') ? encode_entities($cgi->param('rel_ability'),'<>"') : '';
+my $slots   = get_cgi_param($cgi, 'slots');
+my $ability = get_cgi_param($cgi, 'rel_ability');
 
 my @headings = ('Proficiency', 'Slots', 'RA', 'CM', 'Class(es)', 'Sources');
 
-my $proficiencies = make_hash(
-  'file' => ['Role_playing/Reference_tables', 'Proficiencies.txt'],
-  'headings' => \@headings
-);
+my $ref_dir = file_directory('Role_playing/Reference_tables');
 
-my $books = make_hash(
-  'file' => ['Role_playing/Reference_tables', 'References.txt'],
-);
+my $proficiencies = make_hash( 'file' => "$ref_dir/Proficiencies.txt", 'headings' => \@headings );
+my $references    = make_hash( 'file' => "$ref_dir/References.txt" );
 
 sub markupbooks {
   my ($abbr) = @_;
-  my $title = $books->{$abbr};
+  my $title = $references->{$abbr};
   return qq{$title};
 }
 
@@ -70,7 +68,7 @@ page( 'code' => sub {
   tiny_select(4, {
     'class'    => 'proficiency',
     'location' => 'Proficiencies.pl',
-    'file'     => ['Role_playing/Reference_tables','Proficiences_select.txt'],
+    'file'     => "$ref_dir/Proficiences_select.txt",
     'order'    => ['alpha', 'slots', 'rel_ability', 'class']
    });
   section(3, sub {
