@@ -11,9 +11,9 @@ use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::Data qw(make_hash);
 use Page::HTML qw(section nav paragraph list details anchor);
-use Page::CGI::Param   qw(get_cgi_param);
-use Page::List::Alpha  qw(alpha_hash alpha_menu);
-use Page::List::File   qw(file_directory);
+use Page::CGI::Param qw(get_cgi_param);
+use Page::List::File qw(file_directory);
+use Page::List::Alpha qw(alpha_hash alpha_menu);
 use Page::Xanth::Character qw(get_open get_character);
 use Page::Xanth::Location  qw(location_link get_locations);
 use Page::Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
@@ -21,43 +21,34 @@ use Page::Xanth::PageLinks qw(character_link locations_page_link timeline_link);
 use Page::Xanth::Species   qw(species_link get_species);
 use Page::Xanth::Util      qw(gendering get_article);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Fancy::Open            qw(fancy_open);
-use Util::Columns  qw(number_of_columns);
-use Util::Convert  qw(idify);
+use Fancy::Open   qw(fancy_open);
+use Util::Columns qw(number_of_columns);
+use Util::Convert qw(idify);
 use Number::Format::Pretty   qw(commify);
 
 # Begin importing data
 
 my $X_dir = file_directory('Fandom/Xanth');
-
-my $headings            = [qw(Name species+ gender places+ talent other book chapter)];
-my $characters          = make_hash( 'file' => "$X_dir/characters.txt", 'headings' => $headings );
-
-my $see_char            = make_hash( 'file' => "$X_dir/see_character.txt" );
-
+my $character_headings  = [qw(Name species+ gender places+ talent other book chapter)];
 my $group_headings      = [qw(Name group title)];
-my $groups              = make_hash( 'file' => "$X_dir/groups.txt", 'headings' => $group_headings );
-
 my $date_headings       = [qw(Name birth death), 'cause of death', 'killer'];
-my $dates               = make_hash( 'file' => "$X_dir/dates.txt", 'headings' => $date_headings );
-
 my $suspension_headings = [qw(Name begin end), 'begin event', 'end event'];
-my $suspensions         = make_hash( 'file' => "$X_dir/dates-suspension.txt", 'headings' => $suspension_headings );
-
 my $reage_headings      = [qw(Name age year event)];
-my $reages              = make_hash( 'file' => "$X_dir/dates-reage.txt", 'headings' => $reage_headings );
-
 my $family_headings     = [qw(Name mother+ father+ sibling+ multisibling+ pibling+ nibling+ cousin+ ancestor+ descendant+ other+)];
-my $families            = make_hash( 'file' => "$X_dir/families.txt", 'headings' => $family_headings );
-
 my $partner_headings    = [qw(Name spouse+ widowed+ exspouse+ dating+ exdating+ lover+ exlover+)];
-my $partners            = make_hash( 'file' => "$X_dir/partners.txt", 'headings' => $partner_headings );
-
 my $challenge_headings  = [qw(Name number querant)];
-my $challenges          = make_hash( 'file' => "$X_dir/challenges.txt", 'headings' => $challenge_headings );
 
-my @unnamed_list          = fancy_open("$X_dir/unnamed.txt");
-my @book_list             = fancy_open("$X_dir/books.txt");
+my $characters   = make_hash( 'file' => "$X_dir/characters.txt",       'headings' => $character_headings );
+my $see_char     = make_hash( 'file' => "$X_dir/see_character.txt" );
+my $groups       = make_hash( 'file' => "$X_dir/groups.txt",           'headings' => $group_headings );
+my $dates        = make_hash( 'file' => "$X_dir/dates.txt",            'headings' => $date_headings );
+my $suspensions  = make_hash( 'file' => "$X_dir/dates-suspension.txt", 'headings' => $suspension_headings );
+my $reages       = make_hash( 'file' => "$X_dir/dates-reage.txt",      'headings' => $reage_headings );
+my $families     = make_hash( 'file' => "$X_dir/families.txt",         'headings' => $family_headings );
+my $partners     = make_hash( 'file' => "$X_dir/partners.txt",         'headings' => $partner_headings );
+my $challenges   = make_hash( 'file' => "$X_dir/challenges.txt",       'headings' => $challenge_headings );
+my @unnamed_list = fancy_open("$X_dir/unnamed.txt");
+my @book_list    = fancy_open("$X_dir/books.txt");
 my @gendered_species_list = fancy_open("$X_dir/gendered_species.txt");
 my $gendered_species_text = grammatical_join('and', sort @gendered_species_list);
 
@@ -341,8 +332,8 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
     else {
       my $character_count = commify(scalar(keys %$characters) - scalar(keys %$see_char));
       my $current_year = timeline_link(current_year);
-      paragraph(5, qq(Welcome to Lady Aleena\'s list of <b>characters of <i>Xanth</i></b>. It covers all $character_count characters from <a href="http://www.hipiers.com/chartcnac.html"><i>Xanth</i> Character Database</a> by Douglas Harter. The year is $current_year in Xanth.::See the notes below.), { separator => '::' });
-      nav(5, "Xanth characters: ".alpha_with_rand_character, { 'class' => 'alpha_menu' });
+      paragraph(4, qq(Welcome to Lady Aleena's list of <b>characters of <i>Xanth</i></b>. It covers all $character_count characters from <a href="http://www.hipiers.com/chartcnac.html"><i>Xanth</i> Character Database</a> by Douglas Harter. The year is $current_year in Xanth.::See the <a href="#Notes">notes</a> below.), { separator => '::' });
+      nav(4, "Xanth characters: ".alpha_with_rand_character, { 'class' => 'alpha_menu' });
       section(4, sub {
         paragraph(5, 'You can browse character lists by novel.');
         my $show_list = [map { novel_link($_) } @book_list];
