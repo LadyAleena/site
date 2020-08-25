@@ -4,9 +4,8 @@ use strict;
 use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(
-  get_data
-  data_file
   make_hash make_array
+  data_file get_data
   hash_from_arrays
 );
 
@@ -15,66 +14,6 @@ use File::Spec;
 
 use Page::Path qw(base_path);
 use Util::Sort qw(article_sort name_sort);
-
-sub data_file {
-  my ($directory, $filename, $opt) = @_;
-
-  my $base = $opt->{'base'} ? $opt->{'base'} : 'data';
-  my $ext  = $opt->{'ext'}  ? $opt->{'ext'}  : 'txt';
-
-  my $file_name = basename($0);
-
-  my $root_path = base_path('path');
-  my $root_data = base_path($base);
-
-  my $relative_path = File::Spec->abs2rel($file_name, $root_path);
-     $relative_path =~ s/\.\w+$//;
-     $relative_path =~ s/working(?:\/|\\)//;
-
-  my $data = undef;
-  if ($directory && $filename) {
-    $data = "$root_data/$directory/$filename";
-  }
-  elsif ($directory && !$filename) {
-    $data = "$root_data/$directory.$ext";
-  }
-  elsif (!$directory && $filename) {
-    $data = "$root_data/$relative_path/$filename";
-  }
-  else {
-    $data = "$root_data/$relative_path.$ext";
-  }
-
-  return $data;
-}
-
-# I was inspired to write get_data after I wrote fancy_rand.
-
-sub get_data {
-  my ($list, $in, $caller) = @_;
-
-  my $out = undef;
-  if ($in =~ /^(help|options)$/) {
-    $out = "Your options are:
-      'data' to get the hash or array
-      'keys' to get the list of hash keys
-      'key name' to get the key's data";
-  }
-  elsif (ref($list) eq 'HASH' && $in eq 'keys') {
-    $out = [keys %$list];
-  }
-  elsif (ref($list) eq 'HASH' && $list->{$in}) {
-    $out = $list->{$in};
-  }
-  elsif (ref($list) eq 'ARRAY' && $list->[$in]) {
-    $out = $list->[$in];
-  }
-  elsif (!$in || $in eq 'data') {
-    $out = $list;
-  }
-
-  return $out;
-}
 
 # Written with rindolf in #perlcafe on freenode; golfed with the help of [GrandFather] of PerlMonks.
 # Changed to accept named parameters to make it prettier to use.
@@ -138,6 +77,66 @@ sub make_array {
   return \@array;
 }
 
+sub data_file {
+  my ($directory, $filename, $opt) = @_;
+
+  my $base = $opt->{'base'} ? $opt->{'base'} : 'data';
+  my $ext  = $opt->{'ext'}  ? $opt->{'ext'}  : 'txt';
+
+  my $file_name = basename($0);
+
+  my $root_path = base_path('path');
+  my $root_data = base_path($base);
+
+  my $relative_path = File::Spec->abs2rel($file_name, $root_path);
+     $relative_path =~ s/\.\w+$//;
+     $relative_path =~ s/working(?:\/|\\)//;
+
+  my $data = undef;
+  if ($directory && $filename) {
+    $data = "$root_data/$directory/$filename";
+  }
+  elsif ($directory && !$filename) {
+    $data = "$root_data/$directory.$ext";
+  }
+  elsif (!$directory && $filename) {
+    $data = "$root_data/$relative_path/$filename";
+  }
+  else {
+    $data = "$root_data/$relative_path.$ext";
+  }
+
+  return $data;
+}
+
+# I was inspired to write get_data after I wrote fancy_rand.
+
+sub get_data {
+  my ($list, $in, $caller) = @_;
+
+  my $out = undef;
+  if ($in =~ /^(help|options)$/) {
+    $out = "Your options are:
+      'data' to get the hash or array
+      'keys' to get the list of hash keys
+      'key name' to get the key's data";
+  }
+  elsif (ref($list) eq 'HASH' && $in eq 'keys') {
+    $out = [keys %$list];
+  }
+  elsif (ref($list) eq 'HASH' && $list->{$in}) {
+    $out = $list->{$in};
+  }
+  elsif (ref($list) eq 'ARRAY' && $list->[$in]) {
+    $out = $list->[$in];
+  }
+  elsif (!$in || $in eq 'data') {
+    $out = $list;
+  }
+
+  return $out;
+}
+
 # I wrote hash_from_arrays when I saw the way to make two arrays into a hash.
 
 sub hash_from_arrays {
@@ -148,20 +147,7 @@ sub hash_from_arrays {
   return \%hash;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
