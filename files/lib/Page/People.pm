@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(people_list);
 
-use Page::List::File qw(file_path);
+use Page::File qw(file_path);
 use Page::HTML qw(span);
 use Util::Convert qw(filify searchify);
 use Util::Sort qw(name_sort);

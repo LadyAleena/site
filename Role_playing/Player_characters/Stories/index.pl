@@ -10,7 +10,7 @@ use HTML::Entities qw(encode_entities);
 use lib '../../../files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::List::File qw(file_directory file_list print_file_menu);
+use Page::File qw(file_directory file_list print_file_menu);
 use Page::Story::Magic::PlayerCharacters qw(pc_magic);
 
 my $cgi       = CGI::Simple->new;

@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Page::Data qw(make_hash);
 use Page::HTML qw(anchor list);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Util::Columns  qw(number_of_columns);
 
 our $VERSION   = '1.0';
@@ -58,7 +58,7 @@ This document describes Page::Story::Magic::IRC version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::IRC depends on Page::Data, Page::HTML, Page::List::File, Util::Columns, and L<Exporter>.
+Page::Story::Magic::IRC depends on Page::Data, Page::HTML, Page::File, Util::Columns, and L<Exporter>.
 
 =head1 AUTHOR
 

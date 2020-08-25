@@ -10,7 +10,7 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(section paragraph list span pre);
-use Page::List::File qw(file_menu);
+use Page::File qw(file_menu);
 use Page::WordFind qw(word_find);
 
 my %finds = (

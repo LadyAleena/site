@@ -1,4 +1,4 @@
-package Page::List::File;
+package Page::File;
 use v5.8.8;
 use strict;
 use warnings;

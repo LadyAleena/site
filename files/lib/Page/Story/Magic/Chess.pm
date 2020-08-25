@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Page::Data qw(make_array);
 use Page::HTML qw(definition_list figure object);
 use Page::Line qw(line);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(chess_magic);
@@ -44,7 +44,7 @@ This document describes Page::Story::Magic::Chess version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::FamilyTree depends on Page::Data, Page::HTML, Page::Line, Page::List::File, and L<Exporter>.
+Page::Story::Magic::FamilyTree depends on Page::Data, Page::HTML, Page::Line, Page::File, and L<Exporter>.
 
 =head1 AUTHOR
 

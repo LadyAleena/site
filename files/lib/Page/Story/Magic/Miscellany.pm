@@ -11,7 +11,7 @@ use Fancy::Open qw(fancy_open);
 use Page::Data qw(make_hash);
 use Page::HTML qw(list span anchor object figure);
 use Page::Line qw(line);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Random::Body::Modification qw(random_body_modification);
 use Random::Color              qw(random_color);
 use Random::Descriptor         qw(random_descriptor);
@@ -101,7 +101,7 @@ This document describes Page::Story::Magic::Miscellany version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::Miscellany depends on L<Fancy::Join::Defined>, L<Fancy::Open>, Page::Data, Page::HTML, Page::Line, Page::List::File, Random::Body::Modification, Random::Color, Random::Descriptor, Random::Misc, Util::Convert, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Story::Magic::Miscellany depends on L<Fancy::Join::Defined>, L<Fancy::Open>, Page::Data, Page::HTML, Page::Line, Page::File, Random::Body::Modification, Random::Color, Random::Descriptor, Random::Misc, Util::Convert, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

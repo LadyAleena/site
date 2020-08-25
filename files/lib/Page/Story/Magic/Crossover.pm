@@ -8,7 +8,7 @@ use List::Util qw(any);
 
 use Page::Line qw(line);
 use Page::HTML qw(anchor object figure);
-use Page::List::File qw(file_directory file_list);
+use Page::File qw(file_directory file_list);
 use Page::Story::Magic::Movie qw(movie_magic);
 use Util::Convert qw(textify searchify);
 
@@ -70,7 +70,7 @@ This document describes Page::Story::Magic::Crossover version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::List::File, Page::Story::Magic::Movie, Util::Convert, and L<Exporter>.
+Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::File, Page::Story::Magic::Movie, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 

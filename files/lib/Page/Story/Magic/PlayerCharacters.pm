@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use File::Spec;
 
-use Page::List::File qw(file_path);
+use Page::File qw(file_path);
 use Page::HTML qw(list heading);
 use Page::Path qw(base_path);
 use Page::Story qw(passage);

@@ -12,7 +12,7 @@ use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(section list paragraph);
 use Page::Story qw(story);
-use Page::List::File     qw(file_directory file_list file_menu);
+use Page::File     qw(file_directory file_list file_menu);
 use Page::Story::Inline  qw(inline);
 use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open qw(fancy_open);

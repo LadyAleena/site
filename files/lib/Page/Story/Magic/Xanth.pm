@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 
 use Page::Data qw(make_hash);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Page::Story::Magic::FamilyTree qw(family_tree_magic);
 use Page::Xanth::Novel     qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
@@ -79,7 +79,7 @@ This document describes Page::Story::Magic::Xanth version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::Xanth depends on L<Fancy::Open>, Page::Data, Page::List::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, and L<Exporter>.
+Page::Story::Magic::Xanth depends on L<Fancy::Open>, Page::Data, Page::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 

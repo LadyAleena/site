@@ -10,7 +10,7 @@ use HTML::Entities qw(encode_entities);
 use lib 'files/lib';
 use Page::Base     qw(page);
 use Page::Story    qw(story);
-use Page::List::File qw(file_list);
+use Page::File qw(file_list);
 use Page::Story::Magic::IRC              qw(irc_magic);
 use Page::Story::Magic::Programs         qw(program_magic);
 use Page::Story::Magic::PlayerCharacters qw(pc_magic);

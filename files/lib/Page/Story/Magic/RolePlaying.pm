@@ -8,7 +8,7 @@ use Lingua::EN::Inflect qw(PL_N);
 use Page::Data qw(make_array);
 use Page::HTML qw(definition_list object figure img);
 use Page::Line qw(line);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Util::Convert  qw(searchify);
 
 our $VERSION   = "1.0";
@@ -90,7 +90,7 @@ This document describes Page::Story::Magic::RolePlaying version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::RolePlaying depends on Page::Data, Page::HTML, Page::Line, Page::List::File, Util::Convert, and L<Exporter>.
+Page::Story::Magic::RolePlaying depends on Page::Data, Page::HTML, Page::Line, Page::File, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 

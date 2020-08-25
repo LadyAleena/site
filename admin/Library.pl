@@ -8,7 +8,7 @@ use lib '../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(section nav list anchor);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Fancy::Open qw(fancy_open);
 use Number::Format::Pretty qw(commify);
 

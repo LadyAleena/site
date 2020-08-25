@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(spell_progression spell_progression_table_rows);
 use List::Util qw(max);
 
 use Page::Data qw(make_hash);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use RPG::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.

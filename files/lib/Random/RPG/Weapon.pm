@@ -11,7 +11,7 @@ use Text::CSV qw(csv);
 use Fancy::Rand  qw(fancy_rand tiny_rand);
 use Random::Misc qw(random_non);
 use RPG::WeaponName qw(display_weapon);
-use Page::List::File   qw(file_directory);
+use Page::File   qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_weapon random_weapons random_magic_weapon random_weapon_damage);
@@ -103,7 +103,7 @@ This document describes Random::RPG::Weapon version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, Page::List::File, L<Games::Dice>, L<String::Util>, L<Text::CSV>, and L<Exporter>.
+Random::RPG::Weapon depends on <Fancy::Rand>, L<Random::Misc>, L<RPG::WeaponName>, Page::File, L<Games::Dice>, L<String::Util>, L<Text::CSV>, and L<Exporter>.
 
 =head1 AUTHOR
 

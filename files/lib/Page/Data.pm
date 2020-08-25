@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(
   get_data hash_from_arrays
 );
 
-use Page::List::File qw(file_path);
+use Page::File qw(file_path);
 
 # Written with rindolf in #perlcafe on freenode; golfed with the help of [GrandFather] of PerlMonks.
 # Changed to accept named parameters to make it prettier to use.

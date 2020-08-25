@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(base_menu index_menu);
 use Cwd qw(cwd realpath);
 
 use Page::HTML qw(anchor);
-use Page::List::File qw(file_list);
+use Page::File qw(file_list);
 use Page::Link::Color qw(link_color);
 use Util::Convert qw(textify searchify);
 use Util::Sort    qw(article_sort name_sort);

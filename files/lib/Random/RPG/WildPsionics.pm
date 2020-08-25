@@ -9,7 +9,7 @@ use Lingua::EN::Inflect qw(PL_N);
 use List::Util qw(uniq);
 use Text::CSV qw(csv);
 
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Fancy::Rand qw(tiny_rand);
 
 our $VERSION   = '1.000';
@@ -282,7 +282,7 @@ That could return something like: C<wild psionic talents: (PSPs: 47) animate sha
 
 =head1 DEPENDENCIES
 
-Random::RPG::WildPsionics depends on <Fancy::Rand>, Page::List::File, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, L<Text::CSV>, and L<Exporter>.
+Random::RPG::WildPsionics depends on <Fancy::Rand>, Page::File, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, L<Text::CSV>, and L<Exporter>.
 
 =head1 AUTHOR
 

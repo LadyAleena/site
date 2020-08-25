@@ -6,7 +6,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(spell_data);
 
 use Page::Data qw(make_hash);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Util::Convert qw(filify);
 
 sub spell_description_from_file {

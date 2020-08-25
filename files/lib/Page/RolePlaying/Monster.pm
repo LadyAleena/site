@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(monster_info);
 use Encode qw(encode);
 
 use Page::Data qw(make_hash);
-use Page::List::File qw(file_path);
+use Page::File qw(file_path);
 use Util::Convert qw(filify);
 
 my @monster_headings = (

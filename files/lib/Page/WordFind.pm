@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(word_find);
 
 use File::Basename;
 
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Util::Convert qw(filify);
 
 my $lone_gender = qw(He She)[rand 2];

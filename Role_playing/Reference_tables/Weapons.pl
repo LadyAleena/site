@@ -12,7 +12,7 @@ use Page::Data qw(make_hash);
 use Page::HTML qw(section paragraph table);
 use Page::CGI::Param qw(get_cgi_param);
 use Page::Forms qw(tiny_select);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Fancy::Join::Defined qw(join_defined);
 use RPG::WeaponName qw(display_weapon);
 

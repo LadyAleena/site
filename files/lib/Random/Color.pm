@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_color);

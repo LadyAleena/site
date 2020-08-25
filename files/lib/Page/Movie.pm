@@ -16,7 +16,7 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Page::HTML qw(footer section nav heading paragraph list span anchor);
 use Page::Data qw(make_hash get_data);
 use Page::Link::External qw(external_links);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Page::Path qw(base_path);
 use Page::People  qw(people_list);
 use Util::Columns qw(number_of_columns);

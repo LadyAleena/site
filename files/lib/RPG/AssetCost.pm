@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(assets asset_data);
 use Lingua::EN::Inflect qw(ORD);
 
 use Page::Data qw(make_hash);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 
 my $directory = file_directory('Role_playing/Reference_tables');
 

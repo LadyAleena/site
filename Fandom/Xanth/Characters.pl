@@ -12,7 +12,7 @@ use Page::Base qw(page);
 use Page::Data qw(make_hash);
 use Page::HTML qw(section nav paragraph list details anchor);
 use Page::CGI::Param qw(get_cgi_param);
-use Page::List::File qw(file_directory);
+use Page::File qw(file_directory);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
 use Page::Xanth::Character qw(get_open get_character);
 use Page::Xanth::Location  qw(location_link get_locations);

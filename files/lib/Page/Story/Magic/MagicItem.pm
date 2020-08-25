@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(NO);
 
 use Page::HTML qw(list anchor);
-use Page::List::File qw(file_directory file_list);
+use Page::File qw(file_directory file_list);
 use Util::Convert qw(searchify textify);
 use Util::Sort    qw(name_sort);
 
@@ -57,7 +57,7 @@ This document describes Page::Story::Magic::MagicItem version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::Miscellany depends on Page::HTML, Page::List::File, Util::Convert, Util::Sort, L<Lingua::EN::Inflect>, and L<Exporter>.
+Page::Story::Magic::Miscellany depends on Page::HTML, Page::File, Util::Convert, Util::Sort, L<Lingua::EN::Inflect>, and L<Exporter>.
 
 =head1 AUTHOR
 

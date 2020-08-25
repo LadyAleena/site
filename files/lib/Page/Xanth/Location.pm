@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 
 use Page::HTML qw(anchor);
-use Page::List::File  qw(file_directory);
+use Page::File  qw(file_directory);
 use Page::Xanth::Util qw(get_article);
 use Fancy::Open qw(fancy_open);
 use Fancy::Join::Defined     qw(join_defined);

@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A);
 
-use Page::List::File qw(file_path);
+use Page::File qw(file_path);
 use Page::HTML qw(anchor);
 use Page::Xanth::Util qw(gendering);
 use Fancy::Join::Defined qw(join_defined);

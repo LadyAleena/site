@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Page::Line qw(line);
 use Page::HTML qw(object figure anchor);
-use Page::List::File qw(file_list);
+use Page::File qw(file_list);
 use Util::Convert qw(textify);
 
 our $VERSION   = "1.0";
@@ -49,7 +49,7 @@ This document describes Page::Story::Magic::FamilyTree version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::List::File, Util::Convert, and L<Exporter>.
+Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::File, Util::Convert, and L<Exporter>.
 
 =head1 AUTHOR
 
