@@ -6,13 +6,13 @@ use warnings FATAL => qw( all );
 use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use Encode;
-use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(section nav div paragraph list form fieldset selection details input anchor);
 use Page::Story qw(story);
+use Page::CGI::Param qw(get_cgi_param);
 use Page::List::Alpha qw(first_alpha alpha_hash alpha_array alpha_menu);
 use Page::List::File  qw(file_directory file_menu);
 use Page::Movie qw(movie genre movie_option display_option textify_movie start_year end_year
@@ -25,12 +25,6 @@ use Util::Sort    qw(article_sort);
 
 my ($sec,$min,$hour,$mday,$mon,$ltyear,$wday,$yday,$isdst) = localtime();
 my $current_year = ($ltyear + 1900);
-
-sub get_cgi_param {
-  my ($cgi, $param) = @_;
-  my $ret = $cgi->param($param);
-  return ($ret ? encode_entities($ret, '<>"') : '');
-}
 
 my $cgi = CGI::Simple->new;
 my $title    = get_cgi_param($cgi, 'title');

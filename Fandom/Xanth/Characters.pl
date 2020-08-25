@@ -4,7 +4,6 @@ use warnings FATAL => qw( all );
 
 use CGI::Simple;
 use CGI::Carp           qw(fatalsToBrowser);
-use HTML::Entities      qw(encode_entities);
 use Lingua::EN::Inflect qw(NUM A NUMWORDS ORD PL_N PL_V NO classical);
 use List::MoreUtils     qw(first_index);
 
@@ -12,6 +11,7 @@ use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::Data qw(make_hash);
 use Page::HTML qw(section nav paragraph list details anchor);
+use Page::CGI::Param   qw(get_cgi_param);
 use Page::List::Alpha  qw(alpha_hash alpha_menu);
 use Page::List::File   qw(file_directory);
 use Page::Xanth::Character qw(get_open get_character);
@@ -223,11 +223,11 @@ for my $unnamed (@unnamed_list) {
 # Begin outputting
 
 my $cgi = CGI::Simple->new;
-my $select_character = $cgi->param('character') ? encode_entities($cgi->param('character'), '<>"') : '';
-my $select_alpha     = $cgi->param('alpha')     ? encode_entities($cgi->param('alpha'),     '<>"') : '';
-my $select_novel     = $cgi->param('novel')     ? encode_entities($cgi->param('novel'),     '<>"') : '';
-my $select_location  = $cgi->param('location')  ? encode_entities($cgi->param('location'),  '<>"') : '';
-my $select_species   = $cgi->param('species')   ? encode_entities($cgi->param('species'),   '<>"') : '';
+my $select_character = get_cgi_param($cgi, 'character');
+my $select_alpha     = get_cgi_param($cgi, 'alpha');
+my $select_novel     = get_cgi_param($cgi, 'novel');
+my $select_location  = get_cgi_param($cgi, 'location');
+my $select_species   = get_cgi_param($cgi, 'species');
 
 my $browse_alpha = alpha_hash($characters, {article => 'no'});
 sub alpha_with_rand_character {
