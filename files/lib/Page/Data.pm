@@ -5,8 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(
   make_hash make_array
-  data_file get_data
-  hash_from_arrays
+  get_data hash_from_arrays
 );
 
 use Page::List::File qw(file_path);
