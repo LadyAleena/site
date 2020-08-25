@@ -7,7 +7,8 @@ our @EXPORT_OK = qw(spell_progression spell_progression_table_rows);
 
 use List::Util qw(max);
 
-use Page::Data qw(data_file make_hash);
+use Page::Data qw(make_hash);
+use Page::List::File qw(file_directory);
 use RPG::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.
@@ -27,7 +28,8 @@ sub spell_progression {
     $class = convert_class($class, 'SpellProgression');
     my $level = $opt->{'level'} ? $opt->{'level'} : class_level($class, $opt->{'experience'});
 
-    my $file = data_file('Role_playing/Classes/Spell_progression',"$class.txt");
+    my $directory = file_directory('Role_playing/Classes/Spell_progression');
+    my $file = "$directory/$class.txt";
 
     if (-f $file) {
       my $spell_progression_table = make_hash(
