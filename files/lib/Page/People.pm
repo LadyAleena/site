@@ -7,9 +7,9 @@ our @EXPORT_OK = qw(people_list);
 
 use Page::File qw(file_path);
 use Page::HTML qw(span);
+use Page::Link::External qw(external_links);
 use Util::Convert qw(filify searchify);
 use Util::Sort qw(name_sort);
-use Page::Link::External qw(external_links);
 
 sub people_list {
   my ($file) = @_;
@@ -34,20 +34,7 @@ sub people_list {
   return $people;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

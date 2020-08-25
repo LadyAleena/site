@@ -9,9 +9,9 @@ use HTML::Entities qw(encode_entities);
 
 use lib '../../files/lib';
 use Page::Base qw(page);
+use Page::File qw(file_menu);
 use Page::HTML qw(section paragraph list);
 use Page::Story qw(passage);
-use Page::File qw(file_menu);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use Util::Sort qw(article_sort);
 

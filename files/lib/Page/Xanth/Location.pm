@@ -4,8 +4,8 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use Page::File qw(file_directory);
 use Page::HTML qw(anchor);
-use Page::File  qw(file_directory);
 use Page::Xanth::Util qw(get_article);
 use Fancy::Open qw(fancy_open);
 use Fancy::Join::Defined     qw(join_defined);
@@ -67,28 +67,9 @@ sub get_locations {
   return $place_text;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 VERSION
-
-This document describes Page::Xanth::Location version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Xanth::Location depends on L<Fancy::Open>, L<Fancy::Join>, Page::HTML, Util::Convert, Util::Data, Page::Xanth::Util, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Page::Xanth::Util, Util::Convert, Fancy::Join, Fancy::Open, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

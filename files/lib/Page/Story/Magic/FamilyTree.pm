@@ -4,9 +4,9 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Page::Line qw(line);
-use Page::HTML qw(object figure anchor);
 use Page::File qw(file_list);
+use Page::HTML qw(object figure anchor);
+use Page::Line qw(line);
 use Util::Convert qw(textify);
 
 our $VERSION   = "1.0";
@@ -35,32 +35,9 @@ sub family_tree_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::FamilyTree> exports the doc and line magic for my Fictional family tree pages.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::FamilyTree version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::File, Util::Convert, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Page::Line, Util::Convert, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

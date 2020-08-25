@@ -8,9 +8,9 @@ use CGI::Simple;
 use HTML::Entities qw(encode_entities);
 
 use lib '../../../files/lib';
-use Page::Base     qw(page);
-use Page::Story    qw(story);
+use Page::Base qw(page);
 use Page::File qw(file_directory file_list print_file_menu);
+use Page::Story qw(story);
 use Page::Story::Magic::Crossover qw(crossover_magic);
 
 my $cgi       = CGI::Simple->new;

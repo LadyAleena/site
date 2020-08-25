@@ -13,12 +13,12 @@ use List::Util qw(min max);
 
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Page::HTML qw(footer section nav heading paragraph list span anchor);
 use Page::Data qw(make_hash get_data);
-use Page::Link::External qw(external_links);
 use Page::File qw(file_directory);
+use Page::HTML qw(footer section nav heading paragraph list span anchor);
 use Page::Path qw(base_path);
-use Page::People  qw(people_list);
+use Page::People qw(people_list);
+use Page::Link::External qw(external_links);
 use Util::Columns qw(number_of_columns);
 use Util::Convert qw(filify textify idify searchify);
 
@@ -867,20 +867,7 @@ sub print_franchise {
   }
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

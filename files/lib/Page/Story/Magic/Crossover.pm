@@ -6,9 +6,9 @@ use Exporter qw(import);
 
 use List::Util qw(any);
 
-use Page::Line qw(line);
-use Page::HTML qw(anchor object figure);
 use Page::File qw(file_directory file_list);
+use Page::HTML qw(anchor object figure);
+use Page::Line qw(line);
 use Page::Story::Magic::Movie qw(movie_magic);
 use Util::Convert qw(textify searchify);
 
@@ -56,32 +56,9 @@ sub crossover_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::Crossover> exports the doc and line magic for my Crossover pages.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::Crossover version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::FamilyTree depends on Page::HTML, Page::Line, Page::File, Page::Story::Magic::Movie, Util::Convert, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Page::Line, Page::Story::Magic::Movie, Util::Convert, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

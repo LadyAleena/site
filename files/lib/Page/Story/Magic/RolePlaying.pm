@@ -6,9 +6,9 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(PL_N);
 
 use Page::Data qw(make_array);
+use Page::File qw(file_directory);
 use Page::HTML qw(definition_list object figure img);
 use Page::Line qw(line);
-use Page::File qw(file_directory);
 use Util::Convert  qw(searchify);
 
 our $VERSION   = "1.0";
@@ -76,32 +76,9 @@ sub monster_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::RolePlaying> exports the doc and line magic for several of my Role playing pages.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::RolePlaying version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::RolePlaying depends on Page::Data, Page::HTML, Page::Line, Page::File, Util::Convert, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::Data, Page::File, Page::HTML, Page::Line, Util::Convert, and Exporter.
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

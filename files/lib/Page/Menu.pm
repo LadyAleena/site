@@ -7,8 +7,8 @@ our @EXPORT_OK = qw(base_menu index_menu);
 
 use Cwd qw(cwd realpath);
 
-use Page::HTML qw(anchor);
 use Page::File qw(file_list);
+use Page::HTML qw(anchor);
 use Page::Link::Color qw(link_color);
 use Util::Convert qw(textify searchify);
 use Util::Sort    qw(article_sort name_sort);
@@ -100,20 +100,7 @@ sub index_menu {
   return $files;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

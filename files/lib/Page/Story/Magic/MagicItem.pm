@@ -6,8 +6,8 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(NO);
 
-use Page::HTML qw(list anchor);
 use Page::File qw(file_directory file_list);
+use Page::HTML qw(list anchor);
 use Util::Convert qw(searchify textify);
 use Util::Sort    qw(name_sort);
 
@@ -43,32 +43,9 @@ sub magic_item_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::MagicItem> exports the doc and line magic for my Magic items pages.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::MagicItem version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::Miscellany depends on Page::HTML, Page::File, Util::Convert, Util::Sort, L<Lingua::EN::Inflect>, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Util::Convert, Util::Sort, Lingua::EN::Inflect, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

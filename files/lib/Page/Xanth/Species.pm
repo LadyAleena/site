@@ -119,28 +119,9 @@ sub get_species {
   return $species_text;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 VERSION
-
-This document describes Page::Xanth::Species version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Xanth::Species depends on L<Fancy::Open>, L<Fancy::Join>, Page::HTML, Util::Convet, Util::Data, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Util::Convet, Page::Xanth::Util, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

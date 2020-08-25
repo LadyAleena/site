@@ -9,11 +9,11 @@ use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
 use lib '../../files/lib';
-use Page::Base  qw(page);
-use Page::Story qw(story);
-use Page::Data  qw(make_hash);
-use Page::HTML  qw(section list table);
+use Page::Base qw(page);
+use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
+use Page::HTML qw(section list table);
+use Page::Story qw(story);
 use Page::RolePlaying::Character::AbilityScores qw(ability_box);
 use Page::RolePlaying::Character::Info qw(pc_info_list);
 use Fancy::Join::Defined   qw(join_defined);

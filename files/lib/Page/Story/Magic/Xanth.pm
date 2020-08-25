@@ -65,32 +65,9 @@ sub Xanth_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::Xanth> exports the doc and line magic for my I<Xanth> pages.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::Xanth version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::Xanth depends on L<Fancy::Open>, Page::Data, Page::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::Data, Page::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, Fancy::Open, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

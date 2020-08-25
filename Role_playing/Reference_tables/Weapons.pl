@@ -9,10 +9,10 @@ use HTML::Entities qw(encode_entities);
 use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::Data qw(make_hash);
-use Page::HTML qw(section paragraph table);
-use Page::CGI::Param qw(get_cgi_param);
-use Page::Forms qw(tiny_select);
 use Page::File qw(file_directory);
+use Page::HTML qw(section paragraph table);
+use Page::Forms qw(tiny_select);
+use Page::CGI::Param qw(get_cgi_param);
 use Fancy::Join::Defined qw(join_defined);
 use RPG::WeaponName qw(display_weapon);
 

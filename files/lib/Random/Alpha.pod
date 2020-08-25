@@ -243,7 +243,7 @@ So using the above, you could add the semivowels, or glides, to the list of vowe
 
 =head1 DEPENDENCIES
 
-Random::Alpha depends on L<Fancy::Rand>, L<Fancy::Open>, Page::List::File, and L<Exporter>.
+Random::Alpha depends on Page::File, L<Fancy::Rand>, L<Fancy::Open>, and L<Exporter>.
 
 =head1 ACKNOWLEDGMENTS
 

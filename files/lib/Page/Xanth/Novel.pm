@@ -7,8 +7,8 @@ use Exporter qw(import);
 use Lingua::EN::Inflect qw(NUMWORDS ORD);
 
 use Page::Data qw(make_hash);
-use Page::HTML qw(anchor);
 use Page::File qw(file_directory);
+use Page::HTML qw(anchor);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open   qw(fancy_open);
@@ -139,28 +139,9 @@ sub current_year {
 
 # End getting the current Xanthian year
 
-=pod
-
-=encoding utf8
-
-=head1 VERSION
-
-This document describes Page::Xanth::Novel version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Xanth::Novel depends on L<Fancy::Open>, L<Fancy::Join>, Page::HTML, Util::Convert, Util::Data, Page::Xanth::Util, Page::Xanth::PageLinks, L<Lingua::EN::Inflect>, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::File, Page::HTML, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
