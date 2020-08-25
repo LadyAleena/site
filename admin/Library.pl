@@ -7,12 +7,13 @@ use CGI::Carp qw(fatalsToBrowser);
 use lib '../files/lib';
 use Page::Base qw(page);
 use Page::HTML qw(section nav list anchor);
-use Page::Data qw(data_file);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
+use Page::List::File qw(file_directory);
 use Fancy::Open qw(fancy_open);
 use Number::Format::Pretty qw(commify);
 
-my @files = map { data_file('admin', "${_}_modules.txt") } ('local', 'xecu');
+my $directory = file_directory('admin');
+my @files = map { "$directory/${_}_modules.txt" } ('local', 'xecu');
 
 my $modules;
 for my $file (@files) {
