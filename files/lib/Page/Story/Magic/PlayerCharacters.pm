@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use File::Spec;
 
-use Page::Data qw(data_file);
+use Page::List::File qw(file_path);
 use Page::HTML qw(list heading);
 use Page::Path qw(base_path);
 use Page::Story qw(passage);
@@ -18,7 +18,7 @@ our $VERSION   = "1.0";
 our @EXPORT_OK = qw(pc_magic);
 
 sub pc_magic {
-  my @pcs = fancy_open(data_file('Role_playing','player_characters_list.txt'));
+  my @pcs = fancy_open(file_path('Role_playing','player_characters_list.txt'));
 
   my $magic;
   for my $pc (@pcs) {

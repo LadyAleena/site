@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A);
 
-use Page::Data qw(data_file);
+use Page::List::File qw(file_path);
 use Page::HTML qw(anchor);
 use Page::Xanth::Util qw(gendering);
 use Fancy::Join::Defined qw(join_defined);
@@ -16,7 +16,7 @@ use Util::Convert qw(textify idify searchify);
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(species_link get_species);
 
-my @gendered_species_list = fancy_open(data_file('Fandom/Xanth', 'gendered_species.txt'));;
+my @gendered_species_list = fancy_open(file_path('Fandom/Xanth', 'gendered_species.txt'));;
 my $gendered_species = join('|', @gendered_species_list);
 
 sub species_link {
@@ -139,7 +139,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

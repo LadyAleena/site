@@ -7,7 +7,8 @@ our @EXPORT_OK = qw(monster_info);
 
 use Encode qw(encode);
 
-use Page::Data qw(data_file make_hash);
+use Page::Data qw(make_hash);
+use Page::List::File qw(file_path);
 use Util::Convert qw(filify);
 
 my @monster_headings = (
@@ -40,7 +41,7 @@ sub monster_info {
      $monster->{attributes} = monster_attributes($heading_level, $monster);
 
   my $file_name = filify($in_monster);
-  my $file = data_file('Role_playing/Monsters', "$file_name.txt");
+  my $file = file_path('Role_playing/Monsters', "$file_name.txt");
   open(my $fh, '<', $file) || warn "$file: $!";
 
   my $heading = 'description';
@@ -75,7 +76,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

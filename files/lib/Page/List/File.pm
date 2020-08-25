@@ -4,8 +4,9 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-our @EXPORT_OK = qw(file_directory file_list file_menu print_file_menu);
+our @EXPORT_OK = qw(file_directory file_path file_list file_menu print_file_menu);
 
+use File::Basename;
 use File::Spec;
 
 use Page::Path qw(base_path);
@@ -26,6 +27,43 @@ sub file_directory {
   $dir =~ s/ /_/g;
   $type = $type ? $type : 'data';
   return base_path($type)."/$dir";
+}
+
+# file_path returns the path of a file by type of data wanted
+## The default directory is data.
+### To change the directory, use the 'base' option.
+## The default file extention is txt.
+### To the the file extention, use the 'ext' option.
+sub file_path {
+  my ($directory, $filename, $opt) = @_;
+
+  my $base = $opt->{'base'} ? $opt->{'base'} : 'data';
+  my $ext  = $opt->{'ext'}  ? $opt->{'ext'}  : 'txt';
+
+  my $file_name = basename($0);
+
+  my $root_path = base_path('path');
+  my $root_data = base_path($base);
+
+  my $relative_path = File::Spec->abs2rel($file_name, $root_path);
+     $relative_path =~ s/\.\w+$//;
+     $relative_path =~ s/working(?:\/|\\)//;
+
+  my $data = undef;
+  if ($directory && $filename) {
+    $data = "$root_data/$directory/$filename";
+  }
+  elsif ($directory && !$filename) {
+    $data = "$root_data/$directory.$ext";
+  }
+  elsif (!$directory && $filename) {
+    $data = "$root_data/$relative_path/$filename";
+  }
+  else {
+    $data = "$root_data/$relative_path.$ext";
+  }
+
+  return $data;
 }
 
 # file_list returns a list of the contents in a directory but is not recursive.

@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(people_list);
 
-use Page::Data qw(data_file);
+use Page::List::File qw(file_path);
 use Page::HTML qw(span);
 use Util::Convert qw(filify searchify);
 use Util::Sort qw(name_sort);
@@ -14,7 +14,7 @@ use Page::Link::External qw(external_links);
 sub people_list {
   my ($file) = @_;
 
-  my $people_file = data_file('People', $file);
+  my $people_file = file_path('People', $file);
   my $people = undef;
   if (-f $people_file) {
     open(my $fh, '<', $people_file) || die "Can not open $people_file $!";
@@ -46,7 +46,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

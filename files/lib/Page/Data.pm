@@ -9,18 +9,14 @@ our @EXPORT_OK = qw(
   hash_from_arrays
 );
 
-use File::Basename;
-use File::Spec;
-
-use Page::Path qw(base_path);
-use Util::Sort qw(article_sort name_sort);
+use Page::List::File qw(file_path);
 
 # Written with rindolf in #perlcafe on freenode; golfed with the help of [GrandFather] of PerlMonks.
 # Changed to accept named parameters to make it prettier to use.
 # The parameters are file and headings for make_hash and make_array.
 sub make_hash {
   my %opt = @_;
-  my $file = $opt{'file'} && ref($opt{'file'}) eq 'ARRAY' ? data_file(@{$opt{'file'}}) : $opt{'file'};
+  my $file = $opt{'file'} && ref($opt{'file'}) eq 'ARRAY' ? file_path(@{$opt{'file'}}) : $opt{'file'};
   open(my $fh, '<:encoding(utf-8)', $file) || die "Can not open $file$!";
 
   my @headings = $opt{'headings'} ? @{$opt{'headings'}} : ('heading');
@@ -58,7 +54,7 @@ sub make_hash {
 
 sub make_array {
   my %opt = @_;
-  my $file = $opt{'file'} && ref($opt{'file'}) eq 'ARRAY' ? data_file(@{$opt{'file'}}) : $opt{'file'};
+  my $file = $opt{'file'} && ref($opt{'file'}) eq 'ARRAY' ? file_path(@{$opt{'file'}}) : $opt{'file'};
   open(my $fh, '<:encoding(utf-8)', $file) || die "Can not open $file $!";
 
   my @array;
@@ -75,38 +71,6 @@ sub make_array {
   close($fh);
 
   return \@array;
-}
-
-sub data_file {
-  my ($directory, $filename, $opt) = @_;
-
-  my $base = $opt->{'base'} ? $opt->{'base'} : 'data';
-  my $ext  = $opt->{'ext'}  ? $opt->{'ext'}  : 'txt';
-
-  my $file_name = basename($0);
-
-  my $root_path = base_path('path');
-  my $root_data = base_path($base);
-
-  my $relative_path = File::Spec->abs2rel($file_name, $root_path);
-     $relative_path =~ s/\.\w+$//;
-     $relative_path =~ s/working(?:\/|\\)//;
-
-  my $data = undef;
-  if ($directory && $filename) {
-    $data = "$root_data/$directory/$filename";
-  }
-  elsif ($directory && !$filename) {
-    $data = "$root_data/$directory.$ext";
-  }
-  elsif (!$directory && $filename) {
-    $data = "$root_data/$relative_path/$filename";
-  }
-  else {
-    $data = "$root_data/$relative_path.$ext";
-  }
-
-  return $data;
 }
 
 # I was inspired to write get_data after I wrote fancy_rand.
