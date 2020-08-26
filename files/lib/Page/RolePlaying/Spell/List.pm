@@ -8,14 +8,7 @@ our @EXPORT_OK = qw(spell_data);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Util::Convert qw(filify);
-
-sub spell_description_from_file {
-  my $spell_file = shift;
-  open(my $spell_fh, '<:encoding(utf-8)', $spell_file) || die "Can't open $spell_file. $!";
-  my $spell_description = do { local $/; readline($spell_fh) };
-  close($spell_fh);
-  return $spell_description;
-}
+use Fancy::Open qw(fancy_open);
 
 sub spell_data {
   my ($spell) = @_;
@@ -34,10 +27,20 @@ sub spell_data {
   my $spell_file = filify($spell);
   my @spell_description = $spells->{$spell}{'description'} ?
                           split(/\//, $spells->{$spell}{'description'}) :
-                          spell_description_from_file("$spell_dir/spell_descriptions/$spell_file.txt");
+                          fancy_open("$spell_dir/spell_descriptions/$spell_file.txt");
 
   my $spell_out = { 'heading' => $spells->{$spell}{'name'}, 'stats' => [\@items, { class => 'spell_stats' }], 'description' => \@spell_description };
   return $spell_out;
+}
+
+# No longer in use
+
+sub spell_description_from_file {
+  my $spell_file = shift;
+  open(my $spell_fh, '<:encoding(utf-8)', $spell_file) || die "Can't open $spell_file. $!";
+  my $spell_description = do { local $/; readline($spell_fh) };
+  close($spell_fh);
+  return $spell_description;
 }
 
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
