@@ -6,30 +6,34 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(word_find);
 
 use File::Basename;
+use Path::Tiny;
 
 use Page::File qw(file_directory);
+use Fancy::Open qw(fancy_open);
 use Util::Convert qw(filify);
 
-my $lone_gender = qw(He She)[rand 2];
-my $lone_adj = qw(him her)[rand 2];
-my $lone_sent = ("$lone_gender may need saving! &#128558","Try to find $lone_adj please! Have fun!")[rand 2];
+sub get_lone {
+  my $lone = shift;
+  my $lone_gender = qw(He She)[rand 2];
+  my $lone_adj = qw(him her)[rand 2];
+  my $lone_sent = ("$lone_gender may need saving! &#128558","Try to find $lone_adj please! Have fun!")[rand 2];
+  return "There is a lone $lone in there too. $lone_sent."
+}
 
 sub word_find {
-  my ($word_find, $lone) = @_;
-  my $word_find_file = filify($word_find).'.txt';
-  my $boards_dir = file_directory('Role_playing/Word_finds/boards');
-  my $lists_dir  = file_directory('Role_playing/Word_finds/lists');
-
-  open(my $word_find_board, '<:encoding(utf-8)', "$boards_dir/$word_find_file") || die "Can't open $boards_dir/$word_find_file. $!";
-  open(my $word_find_list,  '<:encoding(utf-8)', "$lists_dir/$word_find_file")  || die "Can't open $lists_dir/$word_find_file. $!";
-  my @monsters = map { chomp; [uc $_] } <$word_find_list>;
-
-  my $find_out = { 'list' => \@monsters, 'lonely' => $lone_sent };
-  $find_out->{'board'} = do { local $/; readline($word_find_board) };
-
-  close($word_find_board);
-  close($word_find_list);
-
+  my ($word_find, $lone, $opt) = @_;
+  my $word_find_file = filify($word_find);
+  my $boards_dir = file_directory('Word_finds/boards');
+  my $lists_dir  = file_directory('Word_finds/lists');
+  if ($opt->{'dir'}) {
+    $boards_dir .= '/'.$opt->{'dir'};
+    $lists_dir  .= '/'.$opt->{'dir'};
+  }
+  my $find_out = {
+    'list' => [map { uc } fancy_open("$lists_dir/$word_find_file.txt")],
+    'lonely' => $lone ? get_lone($lone) : undef,
+    'board' => path("$boards_dir/$word_find_file.txt")->slurp_utf8
+  };
   return $find_out;
 }
 
