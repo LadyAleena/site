@@ -33,7 +33,7 @@ use Random::RPG::Monster        qw(random_monster);
 use Random::RPG::SavingThrow    qw(random_saving_throw);
 use Random::RPG::SpecialAttack  qw(random_attack random_special_attack);
 use Random::RPG::Spell          qw(random_spell_casting random_spell_group random_spell_resistance);
-use Random::RPG::Weapon         qw(random_weapons random_magic_weapon random_weapon_damage);
+use Random::RPG::Weapon         qw(random_weapon random_magic_weapon random_weapon_damage);
 use Random::RPG::WildPsionics   qw(random_wild_psionic_talent);
 
 # Note to anyone looking at this code.
@@ -62,12 +62,12 @@ sub make_plural {
 # This was done to make Random::Thing generic and not use any Random::RPG modules.
 sub random_stuff {
   my @stuffs = (
-    noun(random_thing)->classical->plural,
-    noun(random_monster('all', ['monsters']))->classical->plural,
-    'magical ' . noun(random_magic_item('all', ['item']))->classical->plural,
-    random_weapons('all', ['weapons'])
+    random_thing,
+    random_monster('all', ['monsters']),
+    'magical ' . random_magic_item('all', ['item']),
+    random_weapon('all', ['weapon'])
   );
-  my $stuff = $stuffs[rand @stuffs];
+  my $stuff = noun( $stuffs[rand @stuffs] )->classical->plural;
 }
 
 sub random_check {
@@ -112,7 +112,7 @@ sub learning {
     PL_N(random_proficiency_type).parent_knows,
     random_language_common().' or related languages',
     tiny_rand(random_ability('by keys').' based',random_class('by keys')).' non-weapon proficiencies',
-    random_weapons('damage type'),
+    noun( random_weapon('damage type') )->classical->plural,
     'the '.random_spell_group('psionisist')
   );
   return tiny_rand(@learning);
@@ -186,12 +186,12 @@ sub random_mutation {
     'wild psionic talent',
     sub { return random_sign.roll('1d10').' '.game_rolls },
     sub { return random_spell_resistance },
-    sub { return random_weapon_damage.' from '.random_magic_weapon },
+    sub { return random_weapon_damage.' from '. noun(random_magic_weapon)->classical->plural },
     'birth level',
     'max level',
     sub { return 'can '. tiny_rand('only','not') . tiny_rand(
       ' learn '.learning,
-      ' use '.tiny_rand(random_weapons('material'), random_weapons('damage type'))
+      ' use '.noun( tiny_rand(random_weapon('material'), random_weapon('damage type')) )->classical->plural
     )},
     sub { return 'can '.tiny_rand('only','not').' make '.PL_N(random_event) },
     sub { return 'knows one '.random_proficiency_type.parent_knows },
@@ -299,7 +299,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
