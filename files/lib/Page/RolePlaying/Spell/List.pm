@@ -5,6 +5,8 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(spell_data);
 
+use Encode qw(encode);
+
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Util::Convert qw(filify);
@@ -21,13 +23,13 @@ sub spell_data {
   for my $stat (grep($_ !~ /(?:name|description)/, @headings)) {
     next if !$spells->{$spell}{$stat};
     my $stat_text = ucfirst $stat;
-    push @items, qq(<strong>$stat_text:</strong> $spells->{$spell}{$stat});
+    push @items, encode('UTF-8', qq(<strong>$stat_text:</strong> $spells->{$spell}{$stat}));
   }
 
   my $spell_file = filify($spell);
   my @spell_description = $spells->{$spell}{'description'} ?
-                          split(/\//, $spells->{$spell}{'description'}) :
-                          fancy_open("$spell_dir/spell_descriptions/$spell_file.txt");
+                          map { encode('UTF-8', $_) } split(/\//, $spells->{$spell}{'description'}) :
+                          map { encode('UTF-8', $_) } fancy_open("$spell_dir/spell_descriptions/$spell_file.txt");
 
   my $spell_out = { 'heading' => $spells->{$spell}{'name'}, 'stats' => [\@items, { class => 'spell_stats' }], 'description' => \@spell_description };
   return $spell_out;
