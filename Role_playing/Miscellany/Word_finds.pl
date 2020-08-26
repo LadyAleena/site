@@ -26,15 +26,14 @@ my $file_menu = file_menu('word find', [sort keys %finds], $select);
 page( 'heading' => $head, 'code' => sub {
   if ($select && $finds{$select}) {
     my $lonely = span($finds{$select}, { 'class' => 'word_find' });
-    my $lone = "There is a lone $lonely in there too.";
-    my $word_find = word_find($select, $finds{$select});
+    my $word_find = word_find($select, $lonely, { 'dir' => 'Role_playing' });
 
     section(3, sub {
       pre(3, sub { print $word_find->{'board'} }, { 'class' => 'word_find'});
     });
     section(3, sub {
       list(4, 'u', $word_find->{'list'}, { class => 'word_find four' });
-      paragraph(4, join(' ', ($lone, $word_find->{'lonely'})));
+      paragraph(4, $word_find->{'lonely'});
     }, { 'heading' => [2, 'Find these monsters'] });
   }
   else {
