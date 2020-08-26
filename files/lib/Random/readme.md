@@ -18,12 +18,12 @@ All of these modules depend on [Exporter](https://metacpan.org/pod/Exporter). Th
 
 ### General randomness
 
-* [**Random::Alpha**](Alpha.pm) selects random letters of the English alphabet. It also depends on [Fancy::Open](../Fancy/Open.pm) and [Util::Data](../Util/Data.pm). It needs the [alpha data files](../../data/Random/Alpha) to run.
-* [**Random::Color**](Color.pm) selects random colors. It also depends on [Fancy::Open](../Fancy/Open.pm) and [Util::Data](../Util/Data.pm). It needs the [color data files](../../data/Random/Colors) to run.
+* [**Random::Alpha**](Alpha.pm) selects random letters of the English alphabet. It also depends on [Fancy::Open](../Fancy/Open.pm) and [File::ShareDir](https://metacpan.org/pod/File::ShareDir). The data for this module is in [auto/Random/Alpha](../auto/Random/Alpha).
+* [**Random::Color**](Color.pm) selects random colors. It also depends on [Fancy::Open](../Fancy/Open.pm) and [File::ShareDir](https://metacpan.org/pod/File::ShareDir). The data for this module is in [auto/Random/Color](../auto/Random/Color).
 * [**Random::Descriptor**](Descriptor.pm) selects a random descriptor.
-* [**Random::Dragon**](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Fancy::Open, Random::Color, Random::Xanth::Dragon, Random::RPG::Monster, and Util::Data. It needs the [dragon data files](../../data/Random/Dragons) to run.
+* [**Random::Dragon**](Dragon.pm) selects random dragons from the DreamWorks Dragons, *Harry Potter*, *Pern*, and *Xanth* series and dragons from *Advanced Dungeons & Dragons*, 2nd Edition. It also depends on Fancy::Open, Random::Color, Random::Xanth::Dragon, Random::RPG::Monster, and [File::ShareDir](https://metacpan.org/pod/File::ShareDir). The data for this module is in [auto/Random/Dragon](../auto/Random/Dragon).
 * [**Random::FamilyMember**](FamilyMember.pm) selects random family members. It also depends on [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils).  It is used in the [character mutation generator](../RPG/CharacterMutation.pm).
-* [**Random::Food**](Food.pm) selects either a random food or drink. It also depends on Fancy::Open, [Fancy::Map](../Fancy/Map.pm), and Util::Data. It needs the [food data files](../../data/Random/Food) to run.
+* [**Random::Food**](Food.pm) selects either a random food or drink. It also depends on Fancy::Open, [Fancy::Map](../Fancy/Map.pm), and [File::ShareDir](https://metacpan.org/pod/File::ShareDir). The data for this module is in [auto/Random/Food](../auto/Random/Food).
 * [**Random::GemMetalJewelry**](GemMetalJewelry.pm) selects random gems, metals, and jewelry. It also depends on [Fancy::Join::Grammatical](../Fancy/Join/Grammatical.pm) and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
 * [*Random::Government*](Government.pm) selects a random government type.
 * [*Random::Insanity*](Insanity.pm) selects a random mental disorder. It is used in the character mutation generator.
@@ -70,8 +70,8 @@ All of Random::RPG modules are based on and are for *Advanced Dungeons & Dragons
 * [**Random::RPG::SavingThrow**](RPG/SavingThrow.pm) selects random saving throws.
 * [**Random::RPG::SpecialAttack**](RPG/SpecialAttack.pm) selects random special attacks. It also depends on [Fancy::Join::Defined](../Fancy/Join/Defined.pm), Random::SpecialDice, and Random::Time.
 * [Random::RPG::Spell](RPG/Spell.pm) selects random spells and spell actions. It also depends on Random::SpecialDice and [Lingua::EN::Inflect](https://metacpan.org/pod/Lingua::EN::Inflect).
-* [**Random::RPG::Weapon**](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), [String::Util](https://metacpan.org/pod/String::Util), [Text::CSV](https://metacpan.org/pod/Text::CSV), and Util::Data.
-* [Random::RPG::WildPsionics](RPG/WildPsionics.pm) selects random wild psionic talents. It also depends on Games::Dice, Lingua::EN::Inflect, [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils), [Text::CSV](https://metacpan.org/pod/Text::CSV), and Util::Data.
+* [**Random::RPG::Weapon**](RPG/Weapon.pm) selects random weapons. It also depends on Random::Misc, [RPG::WeaponName](../RPG/WeaponName.pm), [Games::Dice](https://metacpan.org/pod/Games::Dice), [String::Util](https://metacpan.org/pod/String::Util), [Text::CSV](https://metacpan.org/pod/Text::CSV), and [Page::File](../Page/File.pm).
+* [Random::RPG::WildPsionics](RPG/WildPsionics.pm) selects random wild psionic talents. It also depends on Games::Dice, Lingua::EN::Inflect, [List::MoreUtils](https://metacpan.org/pod/List::MoreUtils), [Text::CSV](https://metacpan.org/pod/Text::CSV), and Page::File.
 
 #### Random::RPG::MagicItem
 * [Random::RPG::MagicItem::Giant](RPG/MagicItem/Giant.pm) selects random magic items based on giants. It also depends on Random::RPG::MagicItem.
