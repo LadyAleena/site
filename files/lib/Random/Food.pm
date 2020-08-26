@@ -3,16 +3,16 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+use File::ShareDir qw(module_dir);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Map  qw(fancy_map);
 use Fancy::Open qw(fancy_open);
-use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_food random_drink);
 
-my $directory = file_directory('Random/Food', 'data');
+my $directory = module_dir('Random::Food');
 my @Klondike_flavors = fancy_open("$directory/Klondike_flavors.txt", { 'after' => " Klondike bar" });
 my @Kool_Aid_flavors = fancy_open("$directory/Kool-Aid_flavors.txt", { 'after' => " Kool-Aid" });
 my @MandMs_flavors   = fancy_open("$directory/MandMs_flavors.txt",   { 'after' => " M&M" });

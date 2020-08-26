@@ -87,7 +87,7 @@ C<random_dragon> returns a random dragon from any of the above functions.
 
 =head1 DEPENDENCIES
 
-Random::Dragon depends on Page::File, L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, and L<Exporter>.
+Random::Dragon depends on L<Fancy::Rand>, L<Fancy::Open>, L<Random::Color>, L<Random::RPG::Monster>, and L<Random::Xanth::Dragon>, L<File::ShareDir>, and L<Exporter>.
 
 =head1 AUTHOR
 

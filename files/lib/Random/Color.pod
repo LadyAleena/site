@@ -236,7 +236,7 @@ You can add items to the list by adding an array reference with the additional i
 
 =head1 DEPENDENCIES
 
-Random::Color depends on Page::File, L<Fancy::Rand>, L<Fancy::Open>, and L<Exporter>.
+Random::Color depends on L<Fancy::Rand>, L<Fancy::Open>, L<File::ShareDir>, and L<Exporter>.
 
 =head1 SEE ALSO
 

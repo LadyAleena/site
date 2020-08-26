@@ -3,15 +3,15 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+use File::ShareDir qw(module_dir);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
-use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_alpha);
 
-my $directory = file_directory('Random/Alpha', 'data');
+my $directory = module_dir('Random::Alpha');
 my @Greek_letters  = fancy_open("$directory/Greek_letters.txt");
 my @Greek_upper_ce = fancy_open("$directory/Greek_upper_ce.txt");
 my @Greek_lower_ce = fancy_open("$directory/Greek_lower_ce.txt");

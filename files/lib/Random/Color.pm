@@ -3,15 +3,15 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+use File::ShareDir qw(module_dir);
 
 use Fancy::Rand qw(fancy_rand);
 use Fancy::Open qw(fancy_open);
-use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_color);
 
-my $directory = file_directory('Random/Colors', 'data');
+my $directory = module_dir('Random::Color');
 my @Crayola_crayons = fancy_open("$directory/Crayola_crayon_colors.txt");;
 my @MandMs          = fancy_open("$directory/MandMs_colors.txt");
 

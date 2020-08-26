@@ -3,13 +3,13 @@ use v5.10.0;
 use strict;
 use warnings;
 use Exporter qw(import);
+use File::ShareDir qw(module_dir);
 
 use Fancy::Rand qw(fancy_rand tiny_rand instant_rand);
 use Fancy::Open qw(fancy_open);
 use Random::Color qw(random_color);
 use Random::Xanth::Dragon qw(random_Xanth_dragon random_old_Xanth_dragon);
 use Random::RPG::Monster qw(random_RPG_dragon);
-use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(
@@ -22,7 +22,7 @@ our @EXPORT_OK = qw(
   random_dragon
 );
 
-my $directory = file_directory('Random/Dragons', 'data');
+my $directory = module_dir('Random::Dragon');
 my @DreamWorks_dragons   = fancy_open("$directory/DreamWorks_dragons.txt");
 my @Harry_Potter_dragons = fancy_open("$directory/Harry_Potter_dragons.txt");
 
