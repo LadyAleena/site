@@ -10,27 +10,27 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [Page](Page): These modules display my site's pages or generate data for my site for specific sections or pages.
 
-[**RPG**](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
+[RPG](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
 
 [Util](Util): These modules are all helpers for my site. I may want to share them, but they would need new names.
 
 ### Modules in use on my site that I want to also share
 
-[**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. It includes a [readme](Fancy/readme.md) for more information.
+[**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. You can read [readme](Fancy/readme.md) for more information.
 
 [**Random**](Random): These modules started out as helpers to my [character mutations generator](RPG/CharacterMutation.pm), but they have since grown to include generators for many many more things. The data for these modules are in [auto/Random](auto/Random). It includes a [readme](Random/readme.md) for more information.
 
 ### Modules not in use on my site
 
-[**Date**](Date): These modules were written for fun and are not used on my site. It includes a [readme](Date/readme.md) for more information.
+[**Date**](Date): These modules were written for fun and are not used on my site. You can read [readme](Date/readme.md) for more information.
 
-[**Fun**](Fun): These modules were written for fun and are not used on my site. It includes a [readme](Fun/readme.md) for more information.
+[**Fun**](Fun): These modules were written for fun and are not used on my site. You can read [readme](Fun/readme.md) for more information.
 
 [**List/Value**](List/Value): The Length module was written for some reason, which I can not remember. It is not being used on my site.
 
 [**Name**](Name): The Transform module parses names into an arrayref.
 
-[**String**](String): The Abbreviation module was written for fun and is not used on my site.
+[**String**](String): The Abbreviate module was written for fun and is not used on my site.
 
 [**Time**](Time): The Duration module was written so I could find out durations.
 
