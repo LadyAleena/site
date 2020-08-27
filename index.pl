@@ -9,7 +9,7 @@ use HTML::Entities qw(encode_entities);
 
 use lib 'files/lib';
 use Page::Base qw(page);
-use Page::File qw(file_list);
+use Page::File qw(file_directory file_list);
 use Page::Story qw(story);
 use Page::Story::Magic::IRC              qw(irc_magic);
 use Page::Story::Magic::Programs         qw(program_magic);
@@ -17,7 +17,7 @@ use Page::Story::Magic::PlayerCharacters qw(pc_magic);
 
 my $cgi       = CGI::Simple->new;
 my $page      = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
-my $pages_dir = 'files/text';
+my $pages_dir = file_directory(undef, 'text');
 my @pages     = file_list($pages_dir, { 'type' => 'f', 'uppercase' => 0, 'sort' => 'article', 'text' => 1 });
 my $heading   = 'index';
 my $page_file = "$pages_dir/index.txt";

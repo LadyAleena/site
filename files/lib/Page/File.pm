@@ -24,9 +24,12 @@ use Util::Columns qw(number_of_columns);
 
 sub file_directory {
   my ($dir, $type) = @_;
-  $dir =~ s/ /_/g;
   $type = $type ? $type : 'data';
-  return base_path($type)."/$dir";
+
+  my $path = base_path($type);
+     $path .= $dir ? "/$dir" : undef;
+     $path =~ s/ /_/g;
+  return $path;
 }
 
 # file_path returns the path of a file by type of data wanted
