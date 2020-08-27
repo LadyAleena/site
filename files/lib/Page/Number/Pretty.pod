@@ -4,15 +4,15 @@
 
 =head1 NAME
 
-B<Number::Format::Pretty> adds commas, rounds, and returns pretty numbers.
+B<Page::Number::Pretty> adds commas, rounds, and returns pretty numbers.
 
 =head1 VERSION
 
-This document describes Number::Format::Pretty version 1.0.
+This document describes Page::Number::Pretty version 1.0.
 
 =head1 SYNOPSIS
 
-  use Number::Format::Pretty qw(commify round pretty_number);
+  use Page::Number::Pretty qw(commify round pretty_number);
 
   my $comma_number = commify(2468);
   # returns 2,468
@@ -25,7 +25,7 @@ This document describes Number::Format::Pretty version 1.0.
 
 =head1 DESCRIPTION
 
-Number::Format::Pretty contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
+Page::Number::Pretty contains three subroutines that make numbers prettier: C<commify>, C<round>, and C<pretty_number>.
 
 =head2 commify
 
@@ -47,7 +47,7 @@ B<C<pretty_number>> puts commify and round together so you can get rounded numbe
 
 =head1 DEPENDENCY
 
-Number::Format::Pretty depends on L<Exporter>.
+Page::Number::Pretty depends on L<Exporter>.
 
 =head1 AUTHOR
 

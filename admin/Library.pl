@@ -9,8 +9,8 @@ use Page::Base qw(page);
 use Page::File qw(file_directory);
 use Page::HTML qw(section nav list anchor);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
+use Page::Number::Pretty qw(commify);
 use Fancy::Open qw(fancy_open);
-use Number::Format::Pretty qw(commify);
 
 my $directory = file_directory('admin');
 my @files = map { "$directory/${_}_modules.txt" } ('local', 'xecu');

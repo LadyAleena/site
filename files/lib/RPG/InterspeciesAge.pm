@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(interspecies_age);
 
-use Number::Format::Pretty qw(round);
+use Page::Number::Pretty qw(round);
 
 my %ages;
 while (my $line = <DATA>) {

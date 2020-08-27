@@ -6,7 +6,7 @@ use Exporter qw(import);
 
 use List::MoreUtils qw(firstidx apply);
 
-use Number::Format::Pretty qw(pretty_number);
+use Page::Number::Pretty qw(pretty_number);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(convert_filesize random_filesize);
@@ -155,7 +155,7 @@ You could get anything from a bit to a yottabyte.
 
 =head1 DEPENDENCIES
 
-Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Number::Format::Pretty>.
+Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Page::Number::Pretty>.
 
 =head1 AUTHOR
 

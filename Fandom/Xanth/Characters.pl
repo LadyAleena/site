@@ -14,6 +14,7 @@ use Page::File qw(file_directory);
 use Page::HTML qw(section nav paragraph list details anchor);
 use Page::CGI::Param qw(get_cgi_param);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
+use Page::Number::Pretty   qw(commify);
 use Page::Xanth::Character qw(get_open get_character);
 use Page::Xanth::Location  qw(location_link get_locations);
 use Page::Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
@@ -24,7 +25,6 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open   qw(fancy_open);
 use Util::Columns qw(number_of_columns);
 use Util::Convert qw(idify);
-use Number::Format::Pretty   qw(commify);
 
 # Begin importing data
 

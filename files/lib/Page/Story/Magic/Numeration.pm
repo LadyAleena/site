@@ -6,7 +6,7 @@ use Exporter qw(import);
 use Math::BigInt;
 
 use Page::HTML qw(table);
-use Number::Format::Pretty qw(commify);
+use Page::Number::Pretty qw(commify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(numeration_magic);
@@ -51,7 +51,7 @@ This document describes Page::Story::Magic::Numeration version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::Numeration depends on Page::HTML, Number::Format::Pretty, and L<Exporter>.
+Page::Story::Magic::Numeration depends on Page::HTML, Page::Number::Pretty, and L<Exporter>.
 
 =head1 AUTHOR
 
