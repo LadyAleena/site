@@ -1,0 +1,2 @@
+This is a more extensive adaptation of the invisibility spell for battlefield use. It can hide creatures in a 60-yard×60-yard area: up to 400 man-sized creatures, 30 to 40 giants, or six to eight large dragons. The effect is mobile with the unit and is broken when the unit attacks. Individuals leaving the unit become visible. The wizard can end this spell upon command.
+The material components of the mass invisibility spell are an eyelash and a bit of gum arabic, the former encased in the latter.

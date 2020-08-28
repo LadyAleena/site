@@ -1,0 +1,3 @@
+With this spell the wizard instantly transports an item, or items in a container, to a Teleport Beacon.  The Teleport Beacon must be one that the caster knows by exact description.  The placement of the item(s) is specified during casting to within 100 yards of the Beacon.  Distance is not a factor, but interplanar travel is not possible by means of a secure teleport spell.  The spellcaster is able to teleport a maximum weight of 100 pounds per level.
+If adequate space is not available for the teleported item(s) to appear in, the spell fails.
+This spell is known only to the Society of Divided Light.

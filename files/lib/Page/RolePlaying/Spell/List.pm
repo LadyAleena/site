@@ -16,20 +16,19 @@ sub spell_data {
   my ($spell) = @_;
 
   my $spell_dir = file_directory('Role_playing');
-  my @headings = (qw(name school level range duration), 'area of effect', 'components', 'casting time', 'saving throw', 'description');
+  my @headings = (qw(name school level range duration), 'area of effect', 'components', 'casting time', 'saving throw');
   my $spells = make_hash( 'file' => "$spell_dir/spell_list.txt", 'headings' => \@headings );
 
   my @items;
-  for my $stat (grep($_ !~ /(?:name|description)/, @headings)) {
+  for my $stat (grep($_ !~ /(?:name)/, @headings)) {
     next if !$spells->{$spell}{$stat};
     my $stat_text = ucfirst $stat;
     push @items, encode('UTF-8', qq(<strong>$stat_text:</strong> $spells->{$spell}{$stat}));
   }
 
   my $spell_file = filify($spell);
-  my @spell_description = $spells->{$spell}{'description'} ?
-                          map { encode('UTF-8', $_) } split(/\//, $spells->{$spell}{'description'}) :
-                          map { encode('UTF-8', $_) } fancy_open("$spell_dir/spell_descriptions/$spell_file.txt");
+  my $spell_desc = "$spell_dir/spell_descriptions/$spell_file.txt";
+  my @spell_description = -e $spell_desc ? map { encode('UTF-8', $_) } fancy_open("$spell_dir/spell_descriptions/$spell_file.txt") : undef;
 
   my $spell_out = { 'heading' => $spells->{$spell}{'name'}, 'stats' => [\@items, { class => 'spell_stats' }], 'description' => \@spell_description };
   return $spell_out;
