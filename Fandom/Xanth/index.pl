@@ -25,8 +25,6 @@ if ( $page && grep { $_ eq $page } @pages ) {
   $page_file  = "$pages_dir/$page.txt";
   $page_file  =~ s/ /_/g;
 }
-open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
-
 my $magic = Xanth_magic('page');
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
@@ -34,6 +32,6 @@ page(
   'heading' => $heading,
   'selected' => $page,
   'code' => sub {
-    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    story('file' => $page_file, 'magic' => { 'doc magic' => $magic, 'line magic' => $magic });
   }
 );

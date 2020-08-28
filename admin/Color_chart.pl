@@ -76,7 +76,11 @@ my $rows = [
 
 my $doc_magic = { 'colors' => sub { table( 2, { 'class' => 'color', 'style' => 'width:99%', 'rows' => [['data', $rows]]} ) } };
 #print Dumper(\@rows);
-page( 'code' => sub { story(*DATA, { 'doc magic' => $doc_magic }) });
+page(
+  'code' => sub {
+    story('glob' => *DATA, 'magic' => { 'doc magic' => $doc_magic })
+  }
+);
 
 __DATA__
 I use this B<color chart> when I am trying to decide on a color scheme for a new project.

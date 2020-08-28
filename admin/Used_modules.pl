@@ -54,7 +54,11 @@ $magic->{'list'} = sub {
   list(3, 'u', [sort @$files], { style => 'font-size: small' });
 };
 
-page( 'code' => sub { story(*DATA, { 'doc magic' => $magic }) });
+page(
+  'code' => sub {
+    story('glob' => *DATA, 'magic' => { 'doc magic' => $magic })
+  }
+);
 
 __DATA__
 These are the B<modules used> on this site.

@@ -223,11 +223,9 @@ page( 'heading' => $heading, 'selected' => $select, 'code' => sub {
     }
   }
   elsif ( ( length $opinions && $opinions =~ /^[ryt1]/i ) || ( length $select && $select eq 'Movie opinions' ) ) {
-    open(my $page_fh, '<', "$text_directory/Movie_opinions.txt") || die $!;
-    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    story('file' => "$text_directory/Movie_opinions.txt", 'magic' => { 'doc magic' => $magic, 'line magic' => $magic });
   }
   else {
-    open(my $page_fh, '<', "$text_directory/index.txt") || die $!;
-    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    story('file' => "$text_directory/index.txt", 'magic' => { 'doc magic' => $magic, 'line magic' => $magic });
   }
 });

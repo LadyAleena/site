@@ -15,6 +15,8 @@ my $groups = `groups $user`;
 chomp($groups);
 
 my $magic = {
+  'os'    => $^O,
+  'perlv' => $^V,
   'user'  => $user,
   'group' => $groups,
   'uid'   => $<,
@@ -24,11 +26,13 @@ my $magic = {
   'env'   => sub { pre(4, sub { print "$_ => $ENV{$_}\n" for sort keys %ENV }) },
   'inc_d' => sub { pre(4, sub { print "$_\n" for @INC }) },
   'inc_f' => sub { pre(4, sub { print "$_ => $INC{$_}\n" for sort keys %INC }) },
-  'os'    => $^O,
-  'perlv' => $^V,
 };
 
-page( 'code' => sub { story(*DATA, { 'doc magic' => $magic, 'line magic' => $magic }) });
+page(
+  'code' => sub {
+    story('glob' => *DATA, 'magic' => { 'doc magic' => $magic, 'line magic' => $magic })
+  }
+);
 
 __DATA__
 This sytem is run on ^os^ operating system and has ^perlv^ version of Perl.

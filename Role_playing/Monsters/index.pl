@@ -68,8 +68,7 @@ page( 'heading' => $head, 'file menu' => $file_menu, code => sub {
       my ($desc_fh, $filename) = tempfile();
       $desc_fh->print(map { "$_\n" } @$monster_description);
       $desc_fh->close();
-      open my $in_fh, '<', $filename;
-      story($in_fh);
+      story('file' => $filename);
     }
   }
   else {

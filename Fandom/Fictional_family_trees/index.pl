@@ -30,8 +30,6 @@ if ( $page && grep { $_ eq $page } @pages ) {
      $page_dir =~ s/ /_/g;
    $trees_dir .= "/$page_dir";
 }
-open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
-
 my $magic = family_tree_magic($trees_dir);
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
@@ -39,6 +37,6 @@ page(
   'heading' => $heading,
   'selected' => $page,
   'code' => sub {
-    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    story('file' => $page_file, 'magic' => { 'doc magic' => $magic, 'line magic' => $magic });
   }
 );

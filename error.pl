@@ -68,10 +68,16 @@ if ($error) {
   $error_line = qq(I am sorry, but your request returned $error (B<$error_codes->{$error}>). Please use the menu to the left to navigate my site. If you like, you can ).q(A<send me an e-mail|href="mailto:fantasy@xecu.net"> or open an A<issue|href="https://github.com/LadyAleena/Lady_Aleena/issues" target="issue"> on GitHub).qq( to let me know that B<$ENV{REQUEST_URI}> sent you the $error error or go to A<my home page|href="http://fantasy.xecu.net"> and forget this happened.);
 }
 
-my $line_magic;
-$line_magic->{error_message} = $error_line;
+my $magic;
+$magic->{error_message} = $error_line;
 
-page( 'heading' => "Error $error on Lady Aleena's site", 'uri' => $ENV{REQUEST_URI}, 'code' => sub { story(*DATA, { 'line magic' => $line_magic }) } );
+page(
+  'heading' => "Error $error on Lady Aleena's site",
+  'uri' => $ENV{REQUEST_URI},
+  'code' => sub {
+    story( 'glob' => *DATA, 'magic' => { 'line magic' => $magic })
+  }
+);
 
 __DATA__
 ^error_message^

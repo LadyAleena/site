@@ -24,8 +24,6 @@ if ( $page && grep { $_ eq $page } @pages ) {
   $page_file  = "$pages_dir/$page.txt";
   $page_file  =~ s/ /_/g;
 }
-open(my $page_fh, '<', $page_file) || die "Can't open $page_file. $!";
-
 my $magic = $page && $page eq 'Equipment kits'      ? equipment_magic :
             $page && $page eq 'Expanded alignments' ? alignment_magic :
             undef;
@@ -35,6 +33,6 @@ page(
   'heading' => $heading,
   'selected' => $page,
   'code' => sub {
-    story($page_fh, { 'doc magic' => $magic, 'line magic' => $magic });
+    story('file' => $page_file, 'magic' => { 'doc magic' => $magic, 'line magic' => $magic });
   }
 );

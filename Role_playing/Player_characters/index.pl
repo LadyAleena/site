@@ -37,8 +37,7 @@ my $heading = $page && $page eq 'House rules' ? 'House rules' : undef;
 page( 'heading' => $heading, 'selected' => $page, 'code' => sub {
   if ($page && $page eq 'House rules') {
     my $pages_dir = file_directory('Role_playing/Player_characters', 'text');
-    open(my $page_fh, '<', "$pages_dir/House_rules.txt") || die "Could not open $pages_dir/House_rules.txt. $!";
-    story($page_fh);
+    story('file' => "$pages_dir/House_rules.txt");
   }
   else {
     section(3,

@@ -18,9 +18,21 @@ use Util::Columns  qw(number_of_columns);
 # Start the story
 
 sub story {
-  my ($source, $opt) = @_;
+  my (%opt) = @_;
 
+  my $source;
+  if ($opt{'file'}) {
+    open($source, '<', $opt{'file'}) || die "Can't open $opt{file}. $!";
+  }
+  elsif ($opt{'glob'}) {
+    $source = $opt{'glob'};
+  }
+  else {
+    die 'There is no source.';
+  }
   my $d_source = dissect_source($source);
+  close($source);
+
   my $cols     = $d_source->{'cols'};
   my $toc      = $d_source->{'toc'};
   my $sections = $d_source->{'sections'};
@@ -28,7 +40,7 @@ sub story {
   my $tab = 2;
   my $inc = 0;
   for my $section (@$sections) {
-    section($tab + 1, sub { passage($tab + 2, $section, $opt) }, { 'class' => 'content' }) if $section;
+    section($tab + 1, sub { passage($tab + 2, $section, $opt{'magic'}) }, { 'class' => 'content' }) if $section;
 
     if ($inc == 0 && $cols > 3) {
       nav($tab + 1, sub {
