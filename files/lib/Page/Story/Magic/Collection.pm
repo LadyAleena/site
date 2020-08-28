@@ -48,7 +48,7 @@ This document describes Page::Story::Magic::Collection version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Story::Magic::FamilyTree depends on Page::HTML, Page::People, and L<Exporter>.
+Page::Story::Magic::Collection depends on Page::HTML, Page::People, and L<Exporter>.
 
 =head1 AUTHOR
 
