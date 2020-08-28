@@ -1,4 +1,4 @@
-package RPG::Character::WeaponSlots;
+package Page::RolePlaying::Character::WeaponSlots;
 use v5.8.8;
 use strict;
 use warnings;
@@ -83,13 +83,13 @@ sub slots_needed {
 
 =head1 NAME
 
-B<RPG::Character::WeaponSlots> returns the amount of slots for weapon proficiency, specialization, and mastery for your character's class or classes.
+B<Page::RolePlaying::Character::WeaponSlots> returns the amount of slots for weapon proficiency, specialization, and mastery for your character's class or classes.
 
 =head1 DESCRIPTION
 
 To use this module to return the slots needed, use the following. C<slots_needed> is exported by default.
 
-  use RPG::Character::WeaponSlots;
+  use Page::RolePlaying::Character::WeaponSlots;
 
 =head2 Determining class
 
@@ -136,7 +136,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

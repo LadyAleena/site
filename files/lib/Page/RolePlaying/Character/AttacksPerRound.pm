@@ -1,4 +1,4 @@
-package RPG::Character::AttacksPerRound;
+package Page::RolePlaying::Character::AttacksPerRound;
 use v5.8.8;
 use strict;
 use warnings;
@@ -40,13 +40,13 @@ sub attacks_per_round {
 
 =head1 NAME
 
-B<RPG::Character::AttacksPerRound> returns the amount of attacks characters can make in combat. Most classes receive only 1 attack per round with only B<warriors> and B<chaos wardens> (a new class of my creation) receiving more as they advance in level.
+B<Page::RolePlaying::Character::AttacksPerRound> returns the amount of attacks characters can make in combat. Most classes receive only 1 attack per round with only B<warriors> and B<chaos wardens> (a new class of my creation) receiving more as they advance in level.
 
 =head1 DESCRIPTION
 
 To use this module to return the slots needed, use the following. C<attacks_per_round> is exported by default.
 
-  use RPG::Character::AttacksPerRound;
+  use Page::RolePlaying::Character::AttacksPerRound;
 
 =head2 Getting attacks per level
 
@@ -69,7 +69,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

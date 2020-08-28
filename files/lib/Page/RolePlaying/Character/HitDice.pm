@@ -1,4 +1,4 @@
-package RPG::Character::HitDice;
+package Page::RolePlaying::Character::HitDice;
 use v5.8.8;
 use strict;
 use warnings;
@@ -67,13 +67,13 @@ sub roll_hit_points {
 
 =head1 NAME
 
-B<RPG::Character::HitDice> returns the die type and amount of dice needed to roll the hit points for your character with C<hit_dice> or just rolls your character's hit points with C<roll_hit_points>.
+B<Page::RolePlaying::Character::HitDice> returns the die type and amount of dice needed to roll the hit points for your character with C<hit_dice> or just rolls your character's hit points with C<roll_hit_points>.
 
 =head1 DESCRIPTION
 
 For both C<hit_dice> and C<roll_hit_points>, you will need your chracter's class or classes and level or experience points. Neither of the two functions are exported by default, so you will have to call them.
 
-  use RPG::Character::HitDice qw(hit_dice roll_hit_points);
+  use Page::RolePlaying::Character::HitDice qw(hit_dice roll_hit_points);
 
 The classes are C<warrior>, C<rogue>, C<priest>, C<wizard>, C<psionisist>, C<chaos warden>, or C<theopsyelementalist>. The latter two classes are my creations.
 
@@ -103,7 +103,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
