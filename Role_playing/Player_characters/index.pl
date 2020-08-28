@@ -18,7 +18,7 @@ use Page::Number::Pretty qw(commify);
 use Page::RolePlaying::Character::AbilityScores qw(ability_box);
 use Page::RolePlaying::Character::Info qw(pc_info_list);
 use Fancy::Join::Defined   qw(join_defined);
-use RPG::Character::Alignment qw(expand_alignment);
+use RPG::Alignment qw(expand_alignment);
 use Page::RolePlaying::Character::Class qw(player_classes_simple);
 use Util::Convert qw(idify);
 

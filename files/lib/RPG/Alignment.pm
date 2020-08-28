@@ -1,4 +1,4 @@
-package RPG::Character::Alignment;
+package RPG::Alignment;
 use v5.8.8;
 use strict;
 use warnings;
@@ -39,13 +39,13 @@ sub alignment_class {
 
 =head1 NAME
 
-B<RPG::Character::Alignment> expands alignments for AD&D 2nd Edition.
+B<RPG::Alignment> expands alignments for AD&D 2nd Edition.
 
 =head1 SYNOPSIS
 
 To use this module to expand alignment abbreviations from their two character forms.
 
-  use RPG::Character::Alignment qw(expand_alignment);
+  use RPG::Alignment qw(expand_alignment);
 
 Samples...
 

@@ -9,7 +9,7 @@ use Lingua::EN::Inflect qw(PL_N);
 
 use Page::HTML qw(span);
 use Page::Number::Pretty qw(pretty_number);
-use RPG::Character::Alignment qw(expand_alignment);
+use RPG::Alignment qw(expand_alignment);
 use Page::RolePlaying::Character::Class qw(player_classes_with_level);
 use Util::Convert qw(idify textify);
 
