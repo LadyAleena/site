@@ -8,7 +8,6 @@ our @EXPORT_OK = qw(random_mutations parent_knows);
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N A ORD);
 use Lingua::EN::Inflexion qw(noun);
-use Lingua::EN::Inflect::Number qw(to_PL);
 use List::Util qw(sum max);
 
 use Fancy::Rand qw(tiny_rand);
@@ -41,22 +40,6 @@ use Random::RPG::WildPsionics   qw(random_wild_psionic_talent);
 # So, if you come up with a way to make a part of this code prettier,
 # let me know in an issue on GitHub.
 # Much of this is awful to look at, you have been warned.
-
-sub make_plural {
-  my $string = shift;
-
-  my $plural;
-  if ($string =~ /s\z/) {
-    my ($last_word) = ($string =~ /(\w+)\z/);
-    my $last_plural = to_PL($last_word);
-    $string =~ s/$last_word/$last_plural/;
-    $plural = $string;
-  }
-  else {
-    $plural = noun($string)->classical->plural;
-  }
-  return $plural;
-}
 
 # I already have random_thing and random_misc, so this got named random_stuff.
 # This was done to make Random::Thing generic and not use any Random::RPG modules.
