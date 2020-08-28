@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(reality_bubble);
 
 use List::Util qw(sum);
 
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 sub reality_bubble {
   my ($class,$opt) = @_;

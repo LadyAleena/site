@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(attacks_per_round);
 
 use POSIX qw(floor);
 
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 my %classes;
 $classes{'warrior'}      = 6;

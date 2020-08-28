@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(slots_needed);
 
-use RPG::Character::Class qw(convert_class);
+use Page::RolePlaying::Character::Class qw(convert_class);
 
 # part of the Character Building table suite.
 

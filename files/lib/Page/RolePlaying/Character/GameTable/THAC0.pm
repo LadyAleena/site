@@ -9,7 +9,7 @@ use List::Util qw(min sum);
 use POSIX qw(ceil);
 
 use RPG::WeaponName       qw(display_weapon display_weapon_group);
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 use Util::Columns         qw(number_of_columns);
 
 # part of the Character Building table suite.

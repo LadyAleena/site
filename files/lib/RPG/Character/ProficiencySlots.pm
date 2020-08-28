@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(proficiency_slots);
 
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 my %slots;
 while (my $line = <DATA>) {

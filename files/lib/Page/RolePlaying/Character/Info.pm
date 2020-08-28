@@ -10,7 +10,7 @@ use Lingua::EN::Inflect qw(PL_N);
 use Page::HTML qw(span);
 use Page::Number::Pretty qw(pretty_number);
 use RPG::Character::Alignment qw(expand_alignment);
-use RPG::Character::Class     qw(player_classes_with_level);
+use Page::RolePlaying::Character::Class qw(player_classes_with_level);
 use Util::Convert qw(idify textify);
 
 # This is used in the simple player character index.

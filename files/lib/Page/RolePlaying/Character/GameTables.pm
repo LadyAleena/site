@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(game_tables);
 
-use RPG::Character::Class qw(convert_class);
+use Page::RolePlaying::Character::Class qw(convert_class);
 use Page::RolePlaying::Character::AbilityScores qw(all_abilities game_effect);
 use Page::RolePlaying::Character::GameTable::ArmorClass qw(armor_class_table_rows);
 use Page::RolePlaying::Character::GameTable::SavingThrows qw(saving_throw_table_rows);

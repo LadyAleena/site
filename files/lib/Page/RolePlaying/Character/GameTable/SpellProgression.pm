@@ -9,7 +9,7 @@ use List::Util qw(max);
 
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.
 

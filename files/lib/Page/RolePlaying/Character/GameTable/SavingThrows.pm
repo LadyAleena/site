@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(saving_throws get_multiclass_saving_throws saving_throw_tabl
 
 use List::Util qw(min max);
 
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.
 

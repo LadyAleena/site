@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(hit_dice roll_hit_points);
 use Games::Dice qw(roll);
 use POSIX qw(ceil);
 
-use RPG::Character::Class qw(convert_class class_level);
+use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 my %classes;
 while (my $line = <DATA>) {

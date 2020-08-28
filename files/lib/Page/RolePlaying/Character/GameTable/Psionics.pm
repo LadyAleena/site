@@ -6,7 +6,7 @@ use Exporter qw(import);
 our @EXPORT_OK = qw(psionics_by_level psionics_table_rows);
 
 use Page::Data qw(make_hash);
-use RPG::Character::Class qw(class_level);
+use Page::RolePlaying::Character::Class qw(class_level);
 
 # part of the Character Building table suite.
 

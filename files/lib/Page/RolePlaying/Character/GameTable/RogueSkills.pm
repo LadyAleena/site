@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(thief_skills bard_skills rogue_skills rogue_skills_table_rows);
 
-use RPG::Character::Class qw(class_level);
+use Page::RolePlaying::Character::Class qw(class_level);
 
 # part of the Character Building table suite.
 
