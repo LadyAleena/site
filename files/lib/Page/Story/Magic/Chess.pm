@@ -30,32 +30,9 @@ sub chess_magic {
   return $magic;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Page::Story::Magic::Chess> exports the doc and line magic for my Chess variations page.
-
-=head1 VERSION
-
-This document describes Page::Story::Magic::Chess version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Story::Magic::FamilyTree depends on Page::Data, Page::HTML, Page::Line, Page::File, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0.
+# Depends on Page::Data, Page::HTML, Page::Line, Page::File, and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
