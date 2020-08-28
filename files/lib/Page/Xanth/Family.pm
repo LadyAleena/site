@@ -16,10 +16,7 @@ our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_family);
 
 my $date_headings = [qw(Name birth death)];
-my $dates = make_hash(
-  'file' => ['Fandom/Xanth', 'dates.txt'],
-  'headings' => $date_headings,
-);
+my $dates = make_hash( 'file' => ['Fandom/Xanth', 'dates.txt'], 'headings' => $date_headings );
 
 # Start getting family for characters
 
@@ -191,28 +188,9 @@ sub get_family {
 
 # End getting family for characters
 
-=pod
-
-=encoding utf8
-
-=head1 VERSION
-
-This document describes Page::Xanth::Family version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Xanth::Family depends on L<Fancy::Join>, Util::Data, Page::Xanth::Util, L<Lingua::EN::Inflect>, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::Data, Page::Xanth::PageLinks; Page::Xanth::Util, Fancy::Join::Defined, Fancy::Join::Grammatical, Lingua::EN::Inflect, Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

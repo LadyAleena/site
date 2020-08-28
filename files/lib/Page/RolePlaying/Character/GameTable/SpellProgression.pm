@@ -27,23 +27,16 @@ sub spell_progression {
   else {
     $class = convert_class($class, 'SpellProgression');
     my $level = $opt->{'level'} ? $opt->{'level'} : class_level($class, $opt->{'experience'});
-
     my $directory = file_directory('Role_playing/Classes/Spell_progression');
     my $file = "$directory/$class.txt";
 
     if (-f $file) {
-      my $spell_progression_table = make_hash(
-        'file' => $file,
-        'headings' => ['level',1..9],
-      );
-
+      my $spell_progression_table = make_hash( 'file' => $file, 'headings' => ['level',1..9] );
       my $max_available_level = max(keys %$spell_progression_table);
-
       if ($level > $max_available_level) {
         $level = $max_available_level;
         $spell_progression_table->{$level}{'note'} = "I only have spell progression up to level $level.";
       }
-
       $spell_progression = $spell_progression_table->{$level};
     }
   }

@@ -18,9 +18,7 @@ our @EXPORT_OK = qw(character_link group_character_link locations_page_link spec
 
 # Begin creating links for characters
 
-my $see_char = make_hash(
-  'file' => ['Fandom/Xanth', 'see_character.txt'],
-);
+my $see_char = make_hash( 'file' => ['Fandom/Xanth', 'see_character.txt'] );
 
 sub character_link {
   my ($in, $alt) = @_;
@@ -85,28 +83,9 @@ sub timeline_link {
 
 # End getting link to index Timeline
 
-=pod
-
-=encoding utf8
-
-=head1 VERSION
-
-This document describes Page::Xanth::PageLinks version 1.0.
-
-=head1 DEPENDENCIES
-
-Page::Xanth::PageLinks depends on L<Fancy::Join>, Page::HTML, Util::Convert, Page::Xanth::Util, and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
-
-=cut
+# Version 1.0
+# Depends on Page::Data, Page::HTML, Page::Xanth::Util, Fancy::Join::Defined, Fancy::Join::Grammatical, Util::Convert, Lingua::EN::Inflect, and Exporter.
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

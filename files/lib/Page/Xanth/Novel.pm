@@ -22,10 +22,7 @@ my $X_dir = file_directory('Fandom/Xanth');
 my @book_list = fancy_open("$X_dir/books.txt");
 
 my $novel_headings = [qw(Title main published year abbr)];
-my $novels = make_hash(
-  'file' => "$X_dir/novels.txt",
-  'headings' => $novel_headings,
-);
+my $novels = make_hash( 'file' => "$X_dir/novels.txt", 'headings' => $novel_headings );
 
 # Begin creating links and styles for books
 

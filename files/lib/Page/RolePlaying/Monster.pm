@@ -16,10 +16,7 @@ my @monster_headings = (
   'Movement', 'Hit Dice', 'THAC0', 'No. of Attacks', 'Damage/Attack', 'Special Attacks', 'Special Defenses', 'Magic Resistance', 'Size', 'Morale', 'XP Value'
 );
 
-my $monsters = make_hash(
-  'file' => ['Role_playing','monsters.txt'],
-  'headings' => \@monster_headings,
-);
+my $monsters = make_hash( 'file' => ['Role_playing','monsters.txt'], 'headings' => \@monster_headings );
 $monsters->{'Wild hairs'}{'Monster'} = 'Wild hairs';
 
 sub monster_attributes {
