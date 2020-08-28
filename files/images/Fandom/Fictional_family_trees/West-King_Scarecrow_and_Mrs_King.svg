@@ -6,8 +6,8 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:cc="http://creativecommons.org/ns#"
-  viewBox="0 0 280 258"
-  width="280"
+  viewBox="0 0 542 258"
+  width="542"
   height="258"
   >
   <title id="SMK_title">The family from Scarecrow &amp; Mrs. King</title>
@@ -48,8 +48,8 @@
   -->
   <g id="SMK" class="graph" transform="translate(5,253)">
     <title>The family from Scarecrow &amp; Mrs. King</title>
-    <text x="140" y="-239" class="chart_title">The West-King family from</text>
-    <text x="140" y="-223" class="chart_title"><tspan style="font-style:italic">Scarecrow &amp; Mrs. King</tspan></text>
+    <text x="271" y="-239" class="chart_title">The West-King family from</text>
+    <text x="271" y="-223" class="chart_title"><tspan style="font-style:italic">Scarecrow &amp; Mrs. King</tspan></text>
     <g id="West-family1" class="child" transform="translate(206,-208)">
       <title>West siblings</title>
       <path d="m 0,0 h -37 v 20" id="sibWest-Carl" />
@@ -66,6 +66,20 @@
       </g>
       <circle cx="0" cy="0" r="1.5" id="mDorunn" />
     </g>
+    <g class="marriage" id="Stetson-family-1" transform="translate(372, -170)">
+      <title>Marriage of Jennifer Hamilton and Matthew Stetson</title>
+      <path d="m 0,0 h -19" id="mJenMat-JenniferHamilton" />
+      <path d="m 0,0 h  19" id="mJenMat-MatthewStetson" />
+      <g class="child" id="Stetson-children">
+        <title>Lee Stetson, child of Jennifer Hamilton and Matthew Stetson</title>
+        <path d="m 0,0 v  58" id="mJenMat-LeeStetson" />
+      </g>
+      <circle cx="0" cy="0" id="mJenMat" r="1.5" />
+    </g>
+    <g id="Clayton-adoption" class="child adopted" transform="translate(503, -152)">
+      <title>Lee Stetson, adopted son of Robert Clayton</title>
+      <path d="m 0,0 v  18 l -131, 20" id="cRobertClayton-LeeStetson" />
+    </g>
     <g id="King-family" class="marriage" transform="translate(73,-94)">
       <title>Marriage of Amanda West and Joseph King</title>
       <path d="m 0,0 h -19" id="mAmaJoe-Amanda" />
@@ -79,17 +93,17 @@
       </g>
       <circle cx="0" cy="0" r="1.5" id="mAmaJoe" />
     </g>
-    <g id="Stetson-family" class="marriage" transform="translate(173,-94)">
+    <g id="Stetson-family-2" class="marriage" transform="translate(246,-94)">
       <title>Marriage of Amanda West and Lee Stetson</title>
-      <path d="m 0,0 h -19" id="mAmaLee-Amanda" />
-      <path d="m 0,0 h  19" id="mAmaLee-Lee" />
+      <path d="m 0,0 h -92" id="mAmaLee-Amanda" />
+      <path d="m 0,0 h  92" id="mAmaLee-Lee" />
       <circle cx="0" cy="0" r="1.5" id="mAmaLee" />
     </g>
 
-    <g id="DorothyWest" class="female" transform="translate(42,-188)">
-      <title>DorothyWest</title>
+    <g id="DorotheaWest" class="female" transform="translate(42,-188)">
+      <title>Dorothea West</title>
       <rect x="0" y="0" width="62" height="38" />
-      <text x="31" y="12">Dorothy</text>
+      <text x="31" y="12">Dorothea</text>
       <text x="31" y="24" class="nickname">(Dotty)</text>
     </g>
     <g id="CarlWest" class="male deceased" transform="translate(142,-188)">
@@ -103,6 +117,24 @@
       <rect x="0" y="0" width="54" height="36" />
       <text x="27" y="12">Lillian</text>
       <text x="27" y="24">West</text>
+    </g>
+    <g id="JenniferHamilton" class="female deceased" transform="translate(290, -188)">
+      <title>Jennifer Hamilton</title>
+      <rect height="36" width="64" x="0" y="0" />
+      <text x="32" y="12">Jennifer</text>
+      <text x="32" y="24">Hamilton</text>
+    </g>
+    <g id="MatthewStetson" class="male deceased" transform="translate(392, -188)">
+      <title>Matthew Stetson</title>
+      <rect height="36" width="62" x="0" y="0" />
+      <text x="33" y="12">Matthew</text>
+      <text x="33" y="24">Stetson</text>
+    </g>
+    <g id="RobertClayton" class="male" transform="translate(474, -188)">
+      <title>Robert Clayton</title>
+      <rect height="36" width="58" x="0" y="0" />
+      <text x="29" y="12">Robert</text>
+      <text x="29" y="24">Clayton</text>
     </g>
     <g id="JosephKing" class="male" transform="translate(0,-114)">
       <title>Joseph King (Joe)</title>
@@ -118,9 +150,9 @@
       <text x="31" y="19">West</text>
       <text x="31" y="30" class="nickname">(Mrs. King)</text>
     </g>
-    <g id="LeeStetson" class="male main" transform="translate(192,-114)">
+    <g id="LeeStetson" class="male main" transform="translate(338,-114)">
       <title>Lee Stetson (Scarecrow)</title>
-      <rect x="0" y="0" width="70" height="38" />
+      <rect x="0" y="0" width="68" height="38" />
       <text x="35" y="8">Lee</text>
       <text x="35" y="19">Stetson</text>
       <text x="35" y="30" class="nickname">(Scarecrow)</text>
