@@ -27,9 +27,9 @@ sub crossover_magic {
   my @cross_files = file_list($open_directory);
   my @big_images = $opt{big} ? @{$opt{big}} : ();
   for my $cross_file (@cross_files) {
-    my $big   = any { /\b$_\b/i } @big_images;
-    my $link  = "$link_directory/$cross_file";
     my $text  = textify($cross_file);
+    my $big   = any { /\b$text\b/i } @big_images;
+    my $link  = "$link_directory/$cross_file";
     my $class = 'svg_group';
        $class .= ' right' unless $big;
     my $title = "$text chart";
