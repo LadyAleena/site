@@ -315,9 +315,9 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
         my $count = scalar @{$list};
         my $col   = number_of_columns(3, $count, 'yes');
 
-        my $link  = locations_page_link($select_location, $section);
-        my $pl_characters = NO('character', $count, { words_below => 101 });
         my $pl_verb       = PL_V('is', $count);
+        my $pl_characters = NO('character', $count, { words_below => 101 });
+        my $link  = locations_page_link($select_location, $section);
 
         section(4, sub {
           paragraph(6, "There $pl_verb $pl_characters from $link.");
