@@ -4,8 +4,6 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(PL_N);
-
 use Fancy::Rand qw(fancy_rand tiny_rand);
 
 our $VERSION   = '1.000';
@@ -59,7 +57,7 @@ This document describes Random::RPG::Class version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Class depends on L<Fancy::Rand>, L<Lingua::EN::Inflect>, and L<Exporter>.
+Random::RPG::Class depends on L<Fancy::Rand> and L<Exporter>.
 
 =head1 AUTHOR
 
@@ -69,7 +67,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
