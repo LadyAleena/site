@@ -50,6 +50,6 @@ page( 'code' => sub {
         paragraph(5, 'Your character is completely normal.');
       }
     }, { 'heading' => [2, $heading] });
-    ++$iteration;
+    ++$iteration unless $iteration !~ /^\d/;
   }
 });
