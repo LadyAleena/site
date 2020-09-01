@@ -9,7 +9,7 @@ use Page::Data qw(make_array);
 use Page::File qw(file_directory);
 use Page::HTML qw(definition_list object figure img);
 use Page::Line qw(line);
-use Util::Convert  qw(searchify);
+use Util::Convert qw(searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(
