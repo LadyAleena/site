@@ -106,7 +106,7 @@ Isabella Emily Carolyn|Human Xanth|Princess
 Ivy|Human Xanth|King
 Jaff|Black Wave|
 Jaycn||Magician
-Jeremy|Isle of Wolves werewolves|Prince
+Jeremy|Isle of Wolves werewolves|King
 Joe (CaR)|Fifth Wave|
 Joe (DDD)|Black Wave|
 Jonathan|Human Xanth|King
@@ -178,3 +178,8 @@ Wulfha|Wolf Country Pack
 Xeth|zombies|King
 Yin-Yang|Human Xanth|King
 Robert (FS)|Robot Realm|King
+Froma||Princess
+Jerry Welf|Isle of Wolves werewolves|Prince
+Jenny (IOV)|Isle of Wolves werewolves|Queen
+Jone Welf|Isle of Wolves werewolves|Princess
+Aria||Princess

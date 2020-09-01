@@ -466,7 +466,7 @@ Zora|Xavier
 Zosi||||Kody
 Zyzzyva|Xeth
 Froma|Jerry Welf
-Grania||unnamed||Lydell
+Grania|Lydell|unnamed||
 Jack Spratt||||Jill
 Jerry Welf|Froma
 Jill||||Jack Spratt
@@ -475,3 +475,9 @@ Robert (FS)|Rosie the Riveter
 Rosie the Riveter|Robert (FS)
 Noe||||Santo
 Santo||||Noe
+Ira|Platina
+Platina|Ira
+Jess|Magnus
+Magnus|Jess
+Frankie|Frank Monster
+Frank Monster|Frankie

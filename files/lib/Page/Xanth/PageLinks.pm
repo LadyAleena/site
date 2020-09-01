@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A NUMWORDS);
+use Lingua::EN::Inflexion qw(noun);
 
 use Page::Data qw(make_hash);
 use Page::HTML qw(anchor);
@@ -25,12 +25,12 @@ sub character_link {
   my $num_text;
   if ($in =~ /^\d/) {
     my ($num, $new_text) = split(/ /, $in, 2);
-    $num_text = NUMWORDS($num)." $new_text";
+    $num_text = noun($num)->cardinal." $new_text";
   }
   my $text   = $alt ? textify($alt) : textify($in);
   my $search = $see_char->{$in} ? searchify($see_char->{$in}) : searchify($in);
   my $link   = $in =~ /^[A-Z]/  ? anchor($text, { href => "Characters.pl?character=$search" }) :
-               $in =~ /^\d/     ? $num_text : A($text);
+               $in =~ /^\d/     ? $num_text : noun($text)->indefinite;
   return $link;
 }
 

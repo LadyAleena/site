@@ -25,7 +25,7 @@ Spider
 Ant
 Bird
 Centaur
-Cloud
+Cloud (world)
 Factory
 Heaven
 Hell
@@ -38,3 +38,8 @@ Antidote
 Obelisk
 Earth
 Moondania
+Three Moons
+Stench
+Distaff
+Coral
+Blue Moon

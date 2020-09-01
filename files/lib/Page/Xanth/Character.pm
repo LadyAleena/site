@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A NUMWORDS ORD);
+use Lingua::EN::Inflexion qw(noun);
 
 use Page::Story    qw(convert_string);
 use Page::Story::Magic::Xanth qw(Xanth_magic);
@@ -76,7 +76,7 @@ sub get_open {
 
 sub get_challenge {
   my $in = shift;
-  my $num     = NUMWORDS(ORD($in->{number}));
+  my $num     = noun($in->{number})->ordinal;
   my $querant = character_link($in->{querant});
   my $text    = "was part of the $num challenge for $querant";
   return $text;

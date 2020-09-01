@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A);
+use Lingua::EN::Inflexion qw(noun);
 
 use Page::File qw(file_path);
 use Page::HTML qw(anchor);
@@ -105,8 +105,8 @@ sub get_species {
     my $gendering = gendering($gender, $curr_species);
     my $gendered_text = get_gendered_species($curr_species, $gendering);
 
-    my $base_text = $gendered_text ? A($gendered_text) : A($curr_species);
-    my ($article, $alt_text) = split(/ /, $base_text, 2);
+    my $base_text = $gendered_text ? $gendered_text : $curr_species;
+    my ($article, $alt_text) = split(/ /, noun($base_text)->indefinite, 2);
     my $link = species_link($link_species, $alt_text);
 
     if ($prev_species) {

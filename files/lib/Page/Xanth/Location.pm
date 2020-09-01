@@ -6,6 +6,7 @@ use Exporter qw(import);
 
 use Page::File qw(file_directory);
 use Page::HTML qw(anchor);
+use Page::Xanth::Novel qw(novel_link);
 use Page::Xanth::Util qw(get_article);
 use Fancy::Open qw(fancy_open);
 use Fancy::Join::Defined     qw(join_defined);
@@ -13,11 +14,11 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
-our @EXPORT_OK = qw(section_link location_link get_locations);
+our @EXPORT_OK = qw(section_link location_link get_locations get_moon);
 
 my $X_dir = file_directory('Fandom/Xanth');
 
-my @moons_list = fancy_open("$X_dir/moons.txt");
+my @moons_list = fancy_open("$X_dir/moons_list.txt");
 my $moon_list = join('|', @moons_list);
 
 my @worlds_list = fancy_open("$X_dir/worlds.txt");
@@ -65,6 +66,43 @@ sub get_locations {
   }
   my $place_text = grammatical_join('then', @out_places);
   return $place_text;
+}
+
+sub get_moon {
+  my $moon = shift;
+  my $name = $moon->{moon};
+#  my $link = location_link($moon->{moon});
+  my $novel_link = novel_link($moon->{'novel'});
+  my @lines = ("It is one of the moons of Ida and was introduced in $novel_link.");
+
+  my @direction_lines;
+  my $direction_link;
+  for my $direction ('after', 'before') {
+    if ($moon->{$direction}) {
+      if ($moon->{$direction} =~ /;/) {
+        my ($location1, $location2) = split(/; ?/, $moon->{$direction});
+        my $location1_link = location_link($location1);
+        my $location2_link = location_link($location2);
+           $direction_link = join(' and ', ($location1_link, $location2_link));
+      }
+      else {
+        $direction_link = location_link($moon->{$direction});
+      }
+    }
+    else {
+      next;
+    }
+    my $direction_line = "$direction $direction_link";
+    if ($moon->{"$direction between"}) {
+      $direction_line .= ", with worlds between them,";
+    }
+    push @direction_lines, "$direction_line";
+  }
+  if (@direction_lines) {
+    push @lines, "It comes ".join(' and ', @direction_lines)." in the chain of moons.";
+  }
+
+  return join(' ', @lines);
 }
 
 # Version 1.0

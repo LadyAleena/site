@@ -4,7 +4,8 @@ use warnings FATAL => qw( all );
 
 use CGI::Simple;
 use CGI::Carp           qw(fatalsToBrowser);
-use Lingua::EN::Inflect qw(NUM A NUMWORDS ORD PL_N PL_V NO classical);
+use Lingua::EN::Inflect qw(PL_V NO);
+use Lingua::EN::Inflexion qw(noun);
 use List::MoreUtils     qw(first_index);
 
 use lib '../../files/lib';
@@ -16,7 +17,7 @@ use Page::CGI::Param qw(get_cgi_param);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
 use Page::Number::Pretty   qw(commify);
 use Page::Xanth::Character qw(get_open get_character);
-use Page::Xanth::Location  qw(location_link get_locations);
+use Page::Xanth::Location  qw(location_link get_locations get_moon);
 use Page::Xanth::Novel     qw(novel_link novel_nav novel_intro current_year);
 use Page::Xanth::PageLinks qw(character_link locations_page_link timeline_link);
 use Page::Xanth::Species   qw(species_link get_species);
@@ -37,6 +38,7 @@ my $reage_headings      = [qw(Name age year event)];
 my $family_headings     = [qw(Name mother+ father+ sibling+ multisibling+ pibling+ nibling+ cousin+ ancestor+ descendant+ other+)];
 my $partner_headings    = [qw(Name spouse+ widowed+ exspouse+ dating+ exdating+ lover+ exlover+)];
 my $challenge_headings  = [qw(Name number querant)];
+my $moon_headings       = [qw(moon after before), 'after between', 'before between', 'novel'];
 
 my $characters   = make_hash( 'file' => "$X_dir/characters.txt",       'headings' => $character_headings );
 my $see_char     = make_hash( 'file' => "$X_dir/see_character.txt" );
@@ -47,6 +49,7 @@ my $reages       = make_hash( 'file' => "$X_dir/dates-reage.txt",      'headings
 my $families     = make_hash( 'file' => "$X_dir/families.txt",         'headings' => $family_headings );
 my $partners     = make_hash( 'file' => "$X_dir/partners.txt",         'headings' => $partner_headings );
 my $challenges   = make_hash( 'file' => "$X_dir/challenges.txt",       'headings' => $challenge_headings );
+my $moons        = make_hash( 'file' => "$X_dir/moons_data.txt",       'headings' => $moon_headings );
 my @unnamed_list = fancy_open("$X_dir/unnamed.txt");
 my @book_list    = fancy_open("$X_dir/books.txt");
 my @gendered_species_list = fancy_open("$X_dir/gendered_species.txt");
@@ -276,7 +279,6 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
       nav(4, $novel_nav, { class => 'alpha_menu', style => 'text-align:center' });
     }
     elsif ($select_location) {
-      my $location_link = locations_page_link($select_location);
       my $locations = $location_lists->{$select_location};
       my $total_count;
       for my $key (keys %$locations) {
@@ -290,9 +292,17 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
         } sort @{$location} ];
         $locations->{$key} = $list;
       }
-      my $worded_count = NO('character', $total_count, { words_below => 101, comma_every => 3 });
-      my $plural_verb  = PL_V('is', $total_count);
-      paragraph(4, "There $plural_verb $worded_count from $location_link.");
+
+      my $plural_verb   = PL_V('is', $total_count);
+      my $worded_count  = NO('character', $total_count, { words_below => 101, comma_every => 3 });
+      my $location_link = locations_page_link($select_location);
+      my $location_para = "There $plural_verb $worded_count from $location_link.";
+      if ($moons->{$select_location}) {
+        my $moon_line = get_moon($moons->{$select_location});
+        $location_para .= " $moon_line";
+      }
+      paragraph(4, $location_para);
+
       if ($locations->{main}) {
         my $list = $locations->{main};
         my $col  = number_of_columns(3, scalar @{$list}, 'yes');
@@ -301,10 +311,11 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
       for my $section ( sort grep { !/main/ } keys %$locations ) {
         my $text  = get_article($section, { full => 1 });
         my $id    = idify($section);
-        my $link  = locations_page_link($select_location, $section);
         my $list  = $locations->{$section};
         my $count = scalar @{$list};
         my $col   = number_of_columns(3, $count, 'yes');
+
+        my $link  = locations_page_link($select_location, $section);
         my $pl_characters = NO('character', $count, { words_below => 101 });
         my $pl_verb       = PL_V('is', $count);
 
@@ -320,10 +331,9 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
         my $link     = character_link($_);
         "$link is from $location."
       } sort @{$species_lists->{$select_species}} ];
-      classical( names => 0 );
       my $count   = scalar @{$list};
-      my $species = $count > 1 && $select_species !~ /folk$/ ? PL_N($select_species) : A($select_species);
-      my $worded_count = NUMWORDS($count);
+      my $species = $count > 1 && $select_species !~ /folk$/ ? noun($select_species)->classical->plural : noun($select_species)->indefinite;
+      my $worded_count = noun($count)->cardinal;
       my $columns = number_of_columns(2, $count, 'yes');
       paragraph(4, "There are $worded_count <b>$species</b>.") if $count > 1;
       paragraph(4, "This character is <b>$species</b>.") if $count == 1;

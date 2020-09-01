@@ -64,3 +64,5 @@ Wynne|Chameleon
 Yang|Yin-Yang
 Yin|Yin-Yang
 Zombie Master|Jonathan
+Atrocia|Jess
+Nobody|Magnus

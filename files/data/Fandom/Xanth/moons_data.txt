@@ -1,0 +1,46 @@
+Xanth|Moondania|Ptero|0|0|A Spell for Chameleon
+Ptero|Xanth|Pyramid|0|0|Yon Ill Wind
+Pyramid|Ptero|Torus|0|0|Faun and Games
+Torus|Pyramid|Cone|0|0|Faun and Games
+Cone|Torus|Dumbbell|0|0|Zombie Lover
+Dumbbell|Cone|Pincushion|0|0|Zombie Lover
+Pincushion|Dumbbell|Spiral|0|0|Zombie Lover
+Spiral|Pincushion|Tangle|0|0|Zombie Lover
+Tangle|Spiral|Motes|0|0|Zombie Lover
+Motes|Tangle|Trapezoid|0|0|Zombie Lover
+Trapezoid|Motes|Shoe|0|0|Up in a Heaval
+Shoe|Trapezoid|Implosion|0|0|Up in a Heaval
+Implosion|Shoe|Puzzle|0|0|Up in a Heaval
+Puzzle|Implosion|Octopus|0|0|Up in a Heaval
+Octopus|Puzzle|Tesseract|0|0|Up in a Heaval
+Tesseract|Octopus|Fractal|0|0|Up in a Heaval
+Fractal|Tesseract||0|0|Up in a Heaval
+Obelisk||Earth|0|0|Air Apparent
+Earth|Obelisk|Moondania|0|0|Air Apparent
+Moondania|Earth|Xanth|0|0|Air Apparent
+Zombie|||||Up in a Heaval
+Dragon|||||Current Events
+Green Goo|Plane||1|0|Current Events
+Plane||Green Goo|0|1|Current Events
+Nickelpede|Plane|Spider|1|1|Air Apparent
+Spider|Nickelpede|Stench|1|1|Air Apparent
+Stench|Spider|Distaff|1|0|Jest Right
+Distaff|Stench|Coral|0|0|Jest Right
+Coral|Distaff|Bird|0|0|Jest Right
+Bird|Coral|Ant|0|0|Air Apparent
+Ant|Bird|Blue Moon|0|0|Air Apparent
+Blue Moon|Ant|Three Moons|0|0|Jest Right
+Three Moons|Blue Moon|Centaur|0|1|Fire Sail
+Centaur|Three Moons|Cloud (world)|1|1|Air Apparent
+Cloud (world)|Centaur|Factory|1|1|Air Apparent
+Factory|Cloud (world)|Heaven; Hell|1|1|Air Apparent
+Heaven|Factory|Tree|1|1|Air Apparent
+Hell|Factory|Tree|1|1|Air Apparent
+Tree|Heaven; Hell|Gourd (world)|1|1|Air Apparent
+Gourd (world)|Tree||1||Air Apparent
+Comic|||||Knot Gneiss
+Reverse|||||Knot Gneiss
+Robot|||||Pet Peeve
+Always-Always|||||Stock Naked
+Demo Derby|||||Esrever Doom
+Antidote|||||Board Stiff

@@ -6,9 +6,9 @@
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:cc="http://creativecommons.org/ns#"
-  viewBox="0 0 250 247"
+  viewBox="0 0 250 223"
   width="250"
-  height="247"
+  height="223"
   id="Tiara_family"
 >
   <title id="Tiara_title">The family of Tiara</title>
@@ -50,10 +50,6 @@
       <path d="m 0,0 h  42 v 20" id="sTiPu--Tiara" />
       <circle cx="0" cy="0" r="1.5" id="sTiPu" />
     </g>
-    <g id="PunSis--PunSisList" class="edge child" transform="translate(37,-175)">
-      <title id="title69">PunSis to PunSisList</title>
-      <path d="m 0,0 v 18" id="PunSis--PunSisList" />
-    </g>
     <g id="TiaMit--family" class="marriage" transform="translate(167,-184)">
       <title id="title6">Marriage of Tiara and Mitch</title>
       <path d="m 0,0 h -19" id="mTiaMit--Tiara" />
@@ -66,10 +62,10 @@
     </g>
     <g id="PunSis" class="female" transform="translate(0,-202)">
       <title id="title31">Pun sisters</title>
-      <rect x="0" y="0" width="74" height="27" id="box1" />
-      <text x="37" y="13" id="text35">Pun sisters</text>
+      <rect x="0" y="0" width="74" height="20" id="box1" />
+      <text x="37" y="10" id="text35" style="font-size:12px;">Pun sisters</text>
     </g>
-    <g id="PunSisList" class="female child" transform="translate(0,-157)">
+    <g id="PunSisList" class="female child" transform="translate(0,-181)">
       <title id="title38">Pun sisters List</title>
       <rect x="0" y="0" width="74" height="21" id="Apopto_box" />
       <text x="37" y="11" id="text42">Apopto Sis</text>

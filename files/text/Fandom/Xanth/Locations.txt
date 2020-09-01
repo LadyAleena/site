@@ -88,25 +88,29 @@ These communities are currently in an unknown location in Xanth.
 * B<Castle Rock Candy|id="Castle_Rock_Candy"> is the base of operations of ^Ragna^ Roc in ^Two to the Fifth^. Most of the rock candy melted during the battle between Ragna and ^Melody^, ^Harmony^, and ^Rhythm^. Ragna is now imprisoned there.
 * B<Caprice Castle|id="Caprice_Castle"> is a capricious building in ^Two to the Fifth^ It moves to areas where the anti-pun virus is threatening. The people who inhabit it destroy the virus and repopulate the puns. ^Picka Bone^ is the current master of the castle in the main Xanth reality. ^Drew (GWITS)^ is the master in A<Xanth Reality 3|href="Xanth_reality">. It was built by Dwarf Demon ^Pundit^.
 * B<Nameless Castle> is where ^Roxanne^ incubated ^Simurgh^'s egg. It is now the home of ^Xanth^ and ^Chlorine^.
+3 Mountains (other)
+* B<Mount Impossible> is impossible to climb unless you know how. It was visited in ^Jest Right^.
+* B<Mount Neverrest> was visited in ^Jest Right^.
+* B<Mount Pinatuba|id="Mount_Pinatuba"> is an angry volcano.
 3 Islands (other)
 * B<Isle of Miss|id="Isle_of_Miss"> was visited in ^Board Stiff^.
 * Key Board Island
 * Unicorn Island
 3 Other locations (other)
 * The B<Cloud|id="Cloud"> is where old programs go. It was visited in ^Board Stiff^.
-* B<Mount Pinatuba|id="Mount_Pinatuba"> is an angry volcano.
 * The B<Punderground|id="Punderground"> was visited in ^Stork Naked^. Children are lured there so their souls can be leached away. It is run by the ^Hobgoblin of Little Minds^.
 * The B<Stork Works|id="Stork_Workds"> is the origin of Xanthian babies. All buildings have soft edges so as not to hurt the babies. The Stork Works is connected to all A<Xanth Realities|href="#Xanth_reality">, so it is located in all realities. It was visited in ^Stork Naked^.
 2 Fading Out Islands
-The B<Fading Out Islands> are off the west coast of Xanth. There is an island for everything, and here are some that have been visited or mentioned.
+The B<Fading Out Islands>, at times called the Sometimes Islands, are off the west coast of Xanth. There is an island for everything, and here are some that have been visited or mentioned.
 * B<Isle of Adamant|id="Isle_of_Adamant"> was mentioned in ^Knot Gneiss^.
 * B<Isle of Bats|id="Isle_of_Bats">
 * B<Isle of Birds|id="Isle_of_Birds">
 * B<Isle of Blobs|id="Isle_of_Blobs">
-* B<Isles of Bo|id="Isles_of_Bo">, mentioned in ^Zombie Lover^, include the B<Isle of Bovines|id="Isle_of_Bovines">.
+* B<Isles of Bo|id="Isles_of_Bo">, mentioned in ^Zombie Lover^, includes the B<Isle of Bovines|id="Isle_of_Bovines">.
 * B<Isle of Cats|id="Isle_of_Cats">
 * B<Isle of Cats &amp; Dogs|id="Isle_of_Cats_and_Dogs">
-* B<Isles of Co|id="Isles_of_Co">, mentioned in I<Zombie Lover>, include the B<Isle of Conclusion|id="Isle_of_Conclusion">.
+* B<Isle of Chocolate|id="Isle_of_Chocolate">, visited in ^Jest Right^.
+* B<Isles of Co|id="Isles_of_Co">, mentioned in I<Zombie Lover>, includes the B<Isle of Conclusion|id="Isle_of_Conclusion">.
 * B<Isles of Do|id="Isles_of_Do"> were mentioned in I<Zombie Lover>.
 * B<Isles of Eo|id="Isles_of_Eo"> were mentioned in I<Zombie Lover>.
 * The B<Isle of Fellowship|id="Isle_of_Fellowship"> is an island where the partners of all of the couples are of different species. The ^Dastard^ undid the community and the families there.
@@ -160,13 +164,26 @@ Ptero through Torus were explored in ^Faun and Games^. Cone through Motes were i
 # B<Octopus|id="Octopus">
 # B<Tesseract|id="Tesseract"> is a 4-dimensional hyper cube. 81 cubes, all the same size, all in one box, which are unlocked by square dancing.
 # B<Fractal|id="Fractal"> is one or two myriads of threads leading to other worlds.
-3 The last moons
-These moons were introduced in ^Air Apparent^ and are listed in order of introduction.
-#4 B<Obelisk> is a world where the main function of the inhabitants is creating monuments. It is the fourth to the last moon in the chain of moons.
-#3 B<Earth> is ruled by the Demoness ^Gaia^ and directly after Obelisk. It is the third to the last moon in the chain of moons.
-#2 B<Moondania|id="Moondania"> is the real name of A<Mundania|href="#Mundania"> and directly after Earth. It is the second to the last moon in the chain of moons.
-#1 B<Xanth> was created by ^Ilene (AA)^ from illusion for the Ida on Moondania. It is the last moon in the chain of moons and is also Xanth proper.
 3 The moons in between
+The order of the following moons is known.
+* B<Nickelpede> is shaped like and inhabited by nickelpedes. It was introduced in ^Air Apparent^.
+* B<Spider> is shaped like and inhabited by spiders. It was introduced in ^Air Apparent^.
+* B<Stench|id="Stench"> is a world that stinks and is mostly stink horns. There is one spot where brown roses grow that filter out the smells. It was introduced in ^Jest Right^.
+* B<Distaff|id="Distaff"> is a world ruled by women. One kingdon is named SPAN<Greenia|id=Greenaia>. Princess ^Aria^ became the Queen of Grennia but appointed ^Thirza^ as regent. It was introduced in ^Jest Right^.
+* B<Coral|id="Coral"> a world of coral, including a Brain Coral pool. It was introduced in ^Jest Right^.
+* B<Ant|id="Ant"> is shaped like and inhabited by ants. It was introduced in ^Air Apparent^. In ^Jest Right^ it switched places with Bird, and  ^Adam Ant^ is introduced as the first ant to colonize this world with his queen.
+* B<Bird|id="Bird"> is shaped like and mostly inhabited by birds. It was introduced in ^Air Apparent^. In ^Jest Right^ it switched places with Ant.
+* B<Blue Moon|id="Blue_Moon"> is a blue world where the people sing the blues, talk a blue streak, and picnic on blue grass eating blue cheese. It was introduced in ^Jest Right^.
+* B<The World of Three Moons|id="Three_Moons"> has a plaid sky and white, black, and red moons. The white moon moves from east to west. The black moon moves from north to south. The red moon moves from northeast to southwest. It was introduced in ^Fire Sail^. A tunnel was built from here to Xanth proper in ^Jest Right^.
+* B<Centaur> is shaped like and mostly inhabited by centaurs. It was introduced in ^Air Apparent^.
+* B<Cloud|id="Cloud_world"> is shaped like and mostly inhabited by clouds. It was introduced in ^Air Apparent^.
+* B<Factory|id="Factory"> is run by The Factory where ^Random Factor^ and ^Debra^ originated. It was introduced in ^Air Apparent^.
+* B<Heaven|id="Heaven"> and B<Hell|id="Hell"> are companion worlds. It was introduced in ^Air Apparent^.
+** B<Heaven> is as Heaven is described to be.
+** B<Hell> is as Hell is described to be.
+* B<Tree> is shaped like and inhabited by all kinds of trees. It was introduced in ^Air Apparent^.
+* B<Gourd|id="Gourd_world"> is a dream world. It was introduced in ^Air Apparent^.
+These moons positions is unknown with the above.
 * B<Zombie|id="Zombie"> is the new home of the zombies, who are dreaming. Jonathan, the Zombie Master, and Millie have a castle there similar to A<Castle Zombie|href="#Castle_Zombie"> after they retired. This moon was introduced in ^Up in a Heaval^, seen again in ^Cube Route^ and ^Currant Events^, and mentioned in ^Air Apparent^.
 * The following moons were visited in ^Currant Events^ and mentioned in ^Air Apparent^:
 ** B<Dragon|id="Dragon"> is shaped like a dragon and home to 3,125 different types of dragons. The dragons like contests to determine whether they will make deals, especially pun contests. Ida, of course, is also a dragon. It was mentioned in ^Pet Peeve^ also.
@@ -174,29 +191,21 @@ These moons were introduced in ^Air Apparent^ and are listed in order of introdu
 ** B<Plane|id="Plane"> is endlessly wide but shallow, like a pane of glass. Beneath each person shows their polar opposite. It is somewhere after Green Goo. It is the home of Demon ^Lithosphere^.
 * B<Robot> is a world completely inhabited by robots. It was introduced in ^Pet Peeve^ when the robots tried to invade Xanth.
 * B<Always-Always> is a big amusement park and introduced in ^Stork Naked^.
-* The following moons were introduced in ^Air Apparent^ and are listed in order of introduction:
-** B<Nickelpede> is shaped like and inhabited by nickelpedes.
-** B<Spider> is shaped like and inhabited by spiders.
-** B<Ant> is shaped like and inhabited by ants.
-** B<Bird> is shaped like and mostly inhabited by birds.
-** B<Centaur> is shaped like and mostly inhabited by centaurs.
-** B<Cloud> is shaped like and mostly inhabited by clouds.
-** B<Factory|id="Factory"> is run by The Factory where ^Random Factor^ and ^Debra^ originated.
-** B<Heaven|id="Heaven"> and B<Hell|id="Hell"> are companion worlds.
-*** B<Heaven> is as Heaven is described to be.
-*** B<Hell> is as Hell is described to be.
-** B<Tree> is shaped like and inhabited by all kinds of trees.
-** B<Gourd> is a dream world.
 * The following moons were introduced in ^Knot Gneiss^.
 ** B<Comic|id="Comic"> is a world of Comic Strips with blue fields, yellow trees, and red streams.
 ** B<Reverse> or B<Reverse World> is made entirely of reverse wood or its equivalent. It is shaped like a giant reverse-wood tree. Nothing is what it seems. All creatures look, sound, and feel like their opposite. It has five areas where things are changed: the bark changes appearance; the branches change direction; the leaves change sound; the roots change gender; and the wood changes situations.
 * B<Demo Derby|id="Demo_Derby"> is a world devoted to demolition derbies. It was introduced in ^Esrever Doom^.
 * B<Antidote> has seas filled with anti-pun antidote and was mentioned in ^Board Stiff^.
+3 The last moons
+These moons were introduced in ^Air Apparent^ and are listed in order of introduction.
+#4 B<Obelisk> is a world where the main function of the inhabitants is creating monuments. It is the fourth to the last moon in the chain of moons.
+#3 B<Earth> is ruled by the Demoness ^Gaia^ and directly after Obelisk. It is the third to the last moon in the chain of moons.
+#2 B<Moondania|id="Moondania"> is the real name of A<Mundania|href="#Mundania"> and directly after Earth. It is the second to the last moon in the chain of moons.
+#1 B<Xanth> was created by ^Ilene (AA)^ from illusion for the Ida on Moondania. It is the last moon in the chain of moons and is also Xanth proper.
 2 Other worlds
 * B<Mundania|id="Mundania"> is the ordinary world which can access Xanth only through interfaces, such as the OuterNet. It is also called A<Moondania|href="#Moondania">.
 * B<Hades|id="Hades"> is the realm of Dwarf Demon ^Pluto^ that can be accessed from A<Castle Windswept|href="#Castle_Windswept">.
 * The are several B<alternate realities|id="Xanth_reality"> of Xanth. Seven were visited in ^Stork Naked^, and two were visited in ^Ghost Writer in the Sky^.
-* B<The World of Three Moons|id="Three_Moons"> has a plaid sky and white, black, and red moons. The white moon moves from east to west. The black moon moves from north to south. The red moon moves from northeast to southwest.
 2 From other series
 * B<Proton|id="Proton"> is the non-magical world from I<The Apprentice Adept> series. It was connected to Xanth when Stile was mentioned by Humfrey in I<Question Quest>.
 * B<Phaze|id="Phaze"> is the magical world from I<The Apprentice Adept> series. It was connected to Xanth when several characters visited it in I<Cube Route>.

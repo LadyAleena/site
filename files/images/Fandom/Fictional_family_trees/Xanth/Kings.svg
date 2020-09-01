@@ -1256,14 +1256,18 @@
       </g>
       <circle cx="0" cy="0" r="1.5" id="mBecBru" />
     </g>
-    <g id="MelAno--family" class="dating" transform="translate(3334,-338)">
-      <title id="title2570">Relationship of Melody and Anomy</title>
-      <path d="m 0,0 h -19" id="dMelAno--Anomy" />
-      <path d="m 0,0 h  19" id="dMelAno--Melody" />
-      <g id="MelAno--Melanoma" class="child">
-        <title id="title2580">Possible child of Melody and Anomy, Melanoma</title>
-        <path d="m 0,  0 v 150" id="dMelAno--cMelAno" />
-        <path d="m 0,150 v  40" id="cMelAno--Melanoma" />
+    <g id="MelAno--family" class="marriage" transform="translate(3334,-338)">
+      <title id="title2570">Marriage of Melody and Anomy</title>
+      <path d="m 0,0 h -19" id="mMelAno--Anomy" />
+      <path d="m 0,0 h  19" id="mMelAno--Melody" />
+      <g id="MelAno--children" class="child">
+        <title id="title2580">Children of Melody and Anomy</title>
+        <path d="m 0,  0 v 150" id="mMelAno--cMelAno" />
+        <g id="MelAno--possible-child" class="possible">
+          <title>Melanoma, possible daughter of Melody and Anomy</title>
+          <path d="m 0,150 h -57 v 40" id="cMelAno--Melanoma" />
+        </g>
+        <path d="m 0,150 h  37 v 40" id="cMelAno--Aria" />
         <circle cx="0" cy="150" r="1.5" id="cMelAno" />
       </g>
       <circle cx="0" cy="0" r="1.5" id="dMelAno" />
@@ -1293,7 +1297,7 @@
       <path d="m 0,0 h -19" id="mRhyCyr--Rhythm" />
       <path d="m 0,0 h  19" id="mRhyCyr--CyrusC" />
       <g id="RhyCyr--Kadence" class="child">
-        <title id="title2620">Future child of Rhythm and Cyrus, Kadence</title>
+        <title id="title2620">Child of Rhythm and Cyrus, Kadence</title>
         <path d="m 0,  0 v 150" id="mRhyCyr--cRhyCyr" />
         <path d="m 0,150 v  40" id="cRhyCyr--Kadence" />
         <circle cx="0" cy="150" r="1.5" id="cRhyCyr" />
@@ -2819,11 +2823,16 @@
       <rect x="0" y="0" width="58" height="36" id="box5992" />
       <text x="29" y="18" id="text5994">Tedmon</text>
     </g>
-    <g id="Melanoma" class="female possible royal" transform="translate(3285,-148)">
-      <title id="title6011">Melanoma</title>
-      <polygon id="Melanoma_box" points="0,18 24,0 70,0 93,18 70,36 24,36" />
-      <text x="47" y="18" id="text6015">Melanoma</text>
-    </g>13
+    <g id="Melanoma" class="female possible royal" transform="translate(3230,-148)">
+      <title id="Melanoma_title">Melanoma</title>
+      <polygon id="Melanoma_box" points="0,18 24,0 70,0 94,18 70,36 24,36" />
+      <text x="47" y="18" id="Melanoma_text">Melanoma</text>
+    </g>
+    <g id="Aria" class="female royal" transform="translate(3344,-148)">
+      <title id="Aria_box_title">Aria</title>
+      <polygon id="Aria_box" points="0,18 13,0 41,0 54,18 41,36 13,36" />
+      <text x="27" y="18" id="Aria_text">Aria</text>
+    </g>
     <g id="usonBevBry1" class="male unnamed" transform="translate(3421,-148)">
       <title id="title6018">unnamed son of Bev and Bryce</title>
       <rect x="0" y="0" width="56" height="36" id="box6020" />
@@ -2842,10 +2851,10 @@
       <text x="28" y="13" id="text6040">unnamed</text>
       <text x="28" y="23" id="text6042">daughter</text>
     </g>
-    <g id="Kadence" class="female possible royal" transform="translate(3801,-148)">
-      <title id="title6045">Kadence</title>
-      <polygon id="Kadence_box" points="0,18 24,0 70,0 93,18 70,36 24,36" />
-      <text x="47" y="18" id="text6049">Kadence</text>
+    <g id="Kadence" class="female royal" transform="translate(3800,-148)">
+      <title id="Kadence_title">Kadence</title>
+      <polygon id="Kadence_box" points="0,18 24,0 70,0 94,18 70,36 24,36" />
+      <text x="47" y="18" id="Kadence_text">Kadence</text>
     </g>
     <g id="Ione" class="female royal" transform="translate(4657,-148)">
       <title id="title5543">Ione</title>

@@ -16,10 +16,10 @@ our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_magic);
 
 sub Xanth_magic {
-  my $type = shift;
+  my ($type, $opt) = @_;
 
   my $trees_dir = '../../files/images/Fandom/Fictional_family_trees/Xanth';
-  my $magic = family_tree_magic($trees_dir);
+  my $magic = family_tree_magic($trees_dir, $opt);
 
   my $X_dir = file_directory('Fandom/Xanth');
 
@@ -54,7 +54,7 @@ sub Xanth_magic {
     my $id = idify($num);
 
     if ($type eq 'page') {
-      $magic->{$num}     = qq(A<$num|href="?select=Timeline#$id">);
+      $magic->{$num}     = qq(A<$num|href="?page=Timeline#$id">);
       $magic->{"id$num"} = qq(SPAN<$num|id="$id">);
     }
     elsif ($type eq 'character') {

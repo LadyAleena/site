@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(A);
+use Lingua::EN::Inflexion qw(noun);
 
 use Page::Data  qw(make_hash);
 use Page::Xanth::PageLinks qw(character_link group_character_link);
@@ -161,17 +161,17 @@ sub get_family {
   push @family_list, $nibling_text if $nibling_text;
 
   my $cousin        = $family->{cousin}   ? group_character_link($family->{cousin}) : undef;
-  my $cousin_art    = scalar(@family_list) > 0 ? A('cousin') : 'cousin';
+  my $cousin_art    = scalar(@family_list) > 0 ? noun('cousin')->indefinite : 'cousin';
   my $cousin_text   = $cousin ? "$cousin_art of $cousin" : undef;
   push @family_list, $cousin_text if $cousin_text;
 
   my $descendant      = $family->{descendant} ? group_character_link($family->{descendant}) : undef;
-  my $descendant_art  = scalar(@family_list) > 0 ? A('ancestor') : 'ancestor';
+  my $descendant_art  = scalar(@family_list) > 0 ? noun('ancestor')->indefinite : 'ancestor';
   my $descendant_text = $descendant ? "$descendant_art of $descendant" : undef;
   push @family_list, $descendant_text if $descendant_text;
 
   my $ancestor      = $family->{ancestor}     ? group_character_link($family->{ancestor}) : undef;
-  my $ancestor_art  = scalar(@family_list) > 0 ? A('descendant') : 'descendant';
+  my $ancestor_art  = scalar(@family_list) > 0 ? noun('descendant')->indefinite : 'descendant';
   my $ancestor_text = $ancestor ? "$ancestor_art of $ancestor" : undef;
   push @family_list, $ancestor_text if $ancestor_text;
 
@@ -180,7 +180,7 @@ sub get_family {
   push @family_list, $other_text if $other_text;
 
   my $whole_family = @family_list ? grammatical_join('and', @family_list): undef;
-  my $family_text  = $whole_family =~ /^(ancestor|descendant|cousin)/ ? A($whole_family) :
+  my $family_text  = $whole_family =~ /^(ancestor|descendant|cousin)/ ? noun($whole_family)->indefinite :
                      $whole_family =~ /related/ ? $whole_family : "the $whole_family";
 
   return $family_text;
@@ -189,7 +189,7 @@ sub get_family {
 # End getting family for characters
 
 # Version 1.0
-# Depends on Page::Data, Page::Xanth::PageLinks; Page::Xanth::Util, Fancy::Join::Defined, Fancy::Join::Grammatical, Lingua::EN::Inflect, Exporter
+# Depends on Page::Data, Page::Xanth::PageLinks; Page::Xanth::Util, Fancy::Join::Defined, Fancy::Join::Grammatical, Lingua::EN::Inflexion, Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

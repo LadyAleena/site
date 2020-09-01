@@ -1,7 +1,7 @@
 This is a collection of my notes about the B<I<Xanth>> series I have gathered. There are many major A<families|href="?select=Families">, A<kings|href="?select=Kings">, A<locations|href="?select=Locations">, and A<species|href="?select=Species">. This section also covers I<The Apprentice Adept> and I<Incarnations of Immortality> series, since they have become tangentially connected to Xanth.
 If some of this looks familiar, I started a lot of Xanth related articles on Wikipedia. Several of them have now been deleted, but I was able to save my work here. This section is very incomplete; there is a lot that is covered in the forty-two novels.
 2 Novels
-The novels begin in the Xanthian year of ^1042^ and are currently in the year ^1117^. Many novels cover events that happened before 1042. You can read the A<timeline|href="page=Timeline"> to get a brief overview of the history of Xanth.
+The novels begin in the Xanthian year of ^1042^ and are currently in the year ^1118^. Many novels cover events that happened before 1042. You can read the A<timeline|href="page=Timeline"> to get a brief overview of the history of Xanth.
 #| three
 # ^A Spell for Chameleon^ (1977)
 # ^The Source of Magic^ (1979)
@@ -45,6 +45,7 @@ The novels begin in the Xanthian year of ^1042^ and are currently in the year ^1
 # ^Isis Orb^ (2016)
 # ^Ghost Writer in the Sky^ (2017)
 # ^Fire Sail^ (2019)
+# ^Jest Right^ (2020)
 br
 The events in the following series probably happened sometime before I<Question Quest> in Xanthian year ^1090^.
 3 The Apprentice Adept

@@ -40,4 +40,5 @@ Board Stiff|Kandy|2013|1114|BS
 Five Portraits|Astrid|2014|1114|FP
 Isis Orb|Hapless|2016|1115|IO
 Ghost Writer in the Sky||2017|1117|GWITS
-Fire Sail||2019|1117|FS
+Fire Sail|Lydell|2019|1117|FS
+Jest Right|Jess|2020|1118|JR

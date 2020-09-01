@@ -25,7 +25,7 @@ if ( $page && grep { $_ eq $page } @pages ) {
   $page_file  = "$pages_dir/$page.txt";
   $page_file  =~ s/ /_/g;
 }
-my $magic = Xanth_magic('page');
+my $magic = Xanth_magic('page', { 'right' => ['Maeve tree', 'Tiara tree', 'Merge tree', 'Okra tree', 'Nimby tree', 'Arjayess tree', 'Baldwin', 'Jean Poole tree', 'Silhouette tree', 'Xavier tree', 'Sette', 'Champions', 'Sofias play', 'Cadence tree', 'Cans', 'Jenny tree', 'Greek'] });
 $magic->{'pages'} = sub { print_file_menu('page', \@pages, $page, 2) };
 
 page(

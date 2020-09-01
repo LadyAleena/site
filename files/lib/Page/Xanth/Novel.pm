@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Lingua::EN::Inflect qw(NUMWORDS ORD);
+use Lingua::EN::Inflexion qw(noun);
 
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
@@ -102,7 +102,7 @@ sub novel_nav {
 sub novel_intro {
   my ($in_novel, $number) = @_;
 
-  my $place  = NUMWORDS(ORD($number));
+  my $place  = noun($number)->ordinal;
   my $novel  = $novels->{$in_novel};
   my $p_year = $novel->{published} ? $novel->{published} : undef;
   my $x_year = $novel->{year} ? timeline_link($novel->{year}) : '';
