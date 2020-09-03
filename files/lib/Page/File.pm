@@ -36,7 +36,7 @@ sub file_directory {
 ## The default directory is data.
 ### To change the directory, use the 'base' option.
 ## The default file extention is txt.
-### To the the file extention, use the 'ext' option.
+### To change the file extention, use the 'ext' option.
 sub file_path {
   my ($directory, $filename, $opt) = @_;
 
@@ -84,8 +84,10 @@ sub file_list {
   closedir($dir);
   chomp @files;
 
-  @files = grep { -f "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^f/;
-  @files = grep { -d "$directory/$_" } @files if $opt->{'type'} && $opt->{'type'} =~ /^d/;
+  if ($opt->{'type'} && $opt->{'type'} =~ /^[fd]/) {
+    @files = grep { -f "$directory/$_" } @files if $opt->{'type'} =~ /^f/;
+    @files = grep { -d "$directory/$_" } @files if $opt->{'type'} =~ /^d/;
+  }
   @files = grep { /^\p{uppercase}/ }   @files if $opt->{'uppercase'} && $opt->{'uppercase'} =~ /^[yt1]/;  # Thank you [tye]!
 
   if ($opt->{'sort'}) {
