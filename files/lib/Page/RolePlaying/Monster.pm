@@ -8,15 +8,16 @@ our @EXPORT_OK = qw(monster_info);
 use Encode qw(encode);
 
 use Page::Data qw(make_hash);
-use Page::File qw(file_path);
+use Page::File qw(file_directory);
 use Util::Convert qw(filify);
 
+my $directory = file_directory('Role_playing');
 my @monster_headings = (
   'Monster', 'Climate/Terrain', 'Frequency', 'Organization', 'Activity cycle', 'Diet', 'Intelligence', 'Treasure', 'Alignment', 'No. Appearing', 'Armor Class',
   'Movement', 'Hit Dice', 'THAC0', 'No. of Attacks', 'Damage/Attack', 'Special Attacks', 'Special Defenses', 'Magic Resistance', 'Size', 'Morale', 'XP Value'
 );
 
-my $monsters = make_hash( 'file' => ['Role_playing','monsters.txt'], 'headings' => \@monster_headings );
+my $monsters = make_hash( 'file' => "$directory/monsters.txt", 'headings' => \@monster_headings );
 $monsters->{'Wild hairs'}{'Monster'} = 'Wild hairs';
 
 sub monster_attributes {
@@ -38,7 +39,7 @@ sub monster_info {
      $monster->{attributes} = monster_attributes($heading_level, $monster);
 
   my $file_name = filify($in_monster);
-  my $file = file_path('Role_playing/Monsters', "$file_name.txt");
+  my $file = "$directory/Monsters/$file_name.txt";
   open(my $fh, '<', $file) || warn "$file: $!";
 
   my $heading = 'description';
