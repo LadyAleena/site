@@ -12,7 +12,7 @@ our @EXPORT_OK = qw(get_crossbreed);
 sub get_crossbreed {
   my ($characters, $character) = @_;
 
-  my $species = $character->{species}->[-1];
+  my $species = $character->{species}->[0];
 
   my $full_species;
   if ($species eq 'crossbreed') {

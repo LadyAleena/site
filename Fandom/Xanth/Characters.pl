@@ -340,12 +340,16 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
       "$link is from $location."
     } sort @{$species_lists->{$select_species}} ];
     my $count   = scalar @{$list};
-    my $species = $count > 1 && $select_species !~ /folk$/ ? noun($select_species)->classical->plural : noun($select_species)->indefinite;
+    my $species = $count > 1 && $select_species !~ /folk$/ ? noun($select_species)->classical->plural :
+                  $count > 1 && $select_species =~ /folk$/ ? $select_species :
+                  noun($select_species)->indefinite;
     my $worded_count = noun($count)->cardinal;
     my $columns = number_of_columns(2, $count, 'yes');
     section(3, sub {
-      paragraph(4, "There are $worded_count <b>$species</b>.") if $count > 1;
-      paragraph(4, "This character is <b>$species</b>.") if $count == 1;
+      paragraph(4, "There are $worded_count $species.") if $count > 1;
+      paragraph(4, "This character is $species.") if $count == 1;
+    });
+    section(3, sub {
       list(4, 'u', $list, { class => $columns });
     });
   }
