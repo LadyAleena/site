@@ -8,8 +8,7 @@ use Lingua::EN::Inflect qw(NO);
 
 use Page::File qw(file_directory file_list);
 use Page::HTML qw(list anchor);
-use Util::Convert qw(searchify textify);
-use Util::Sort    qw(name_sort);
+use Util::Convert qw(searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(magic_item_magic);
@@ -30,12 +29,11 @@ sub magic_item_magic {
 
   $magic->{'spellbooks'} = sub {
     my $spellbook_dir  = file_directory('Role_playing/Player_characters/Spellbooks');
-    my @spellbook_list = sort { name_sort(textify($a),textify($b)) } file_list($spellbook_dir);
+    my @spellbook_list = file_list($spellbook_dir, { 'sort' => 'name', 'text' => 1 });
     my @spellbooks;
     for my $spellbook (@spellbook_list) {
-      my $text = textify($spellbook);
-      my $search = searchify($text);
-      push @spellbooks, anchor($text, { href => qq(../Player_characters/Spellbooks.pl?spellbook=$search) });
+      my $search = searchify($spellbook);
+      push @spellbooks, anchor($spellbook, { href => qq(../Player_characters/Spellbooks.pl?spellbook=$search) });
     }
     list(4, 'u', \@spellbooks, { 'class' => 'three' })
   };
@@ -44,7 +42,7 @@ sub magic_item_magic {
 }
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Util::Convert, Util::Sort, Lingua::EN::Inflect, and Exporter
+# Depends on Page::File, Page::HTML, Util::Convert, Lingua::EN::Inflect, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
