@@ -24,7 +24,7 @@ sub convert_month {
 }
 
 my $directory = file_directory('Fandom/Crossovers/Timelines');
-my @selects = map { textify($_) } sort { article_sort(lc $a,lc $b) } file_list($directory);
+my @selects = file_list($directory, { 'sort' => 'article', 'text' => 1});
 
 my $cgi = CGI::Simple->new;
 my $select = encode_entities($cgi->param('timeline'),'<>"');
