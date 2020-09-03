@@ -361,17 +361,17 @@ page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
       paragraph(4, qq(See the <a href="#Notes">notes</a> below.));
       nav(4, "Xanth characters: ".alpha_with_rand_character, { 'class' => 'alpha_menu' });
     });
-    section(4, sub {
-      paragraph(5, 'You can browse character lists by novel.');
-      list(5, 'o', $show_list, { class => 'three', start => '0' });
+    section(3, sub {
+      paragraph(4, 'You can browse character lists by novel.');
+      list(4, 'o', $show_list, { class => 'three', start => '0' });
     }, { heading => [2, 'Novels', { id => 'Novels' }] });
-    section(4, sub {
-      paragraph(5, 'You can browse character lists by location. Most characters are from Xanth, so the list for it is very long.');
-      list(5, 'u', $location_list, { class => 'four' });
+    section(3, sub {
+      paragraph(4, 'You can browse character lists by location. Most characters are from Xanth, so the list for it is very long.');
+      list(4, 'u', $location_list, { class => 'four' });
     }, { heading => [2, 'Locations', { id => 'Locations' }] });
-    section(4, sub {
-      paragraph(5, 'You can browse character lists by species. The majority of characters are human, so the list for them is very long.');
-      list(5, 'u', $species_list, { class => 'five' });
+    section(3, sub {
+      paragraph(4, 'You can browse character lists by species. The majority of characters are human, so the list for them is very long.');
+      list(4, 'u', $species_list, { class => 'five' });
     }, { heading => [2, 'Species', { id => 'Species' }] });
   }
   section(3, sub {
