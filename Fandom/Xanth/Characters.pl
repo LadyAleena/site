@@ -240,127 +240,140 @@ my $head = $select_character && $characters->{$select_character} && $groups->{$s
            $select_species   ? ucfirst "$select_species characters" : 'Characters of Xanth';
 
 page( 'heading' => [$head, { 'html' => 1 }], 'code' => sub {
-  section(3, sub {
-    if ($select_character && $characters->{$select_character}) {
-      my $character = $characters->{$select_character};
-      my $character_text = get_character($character);
-      paragraph(5, @$_) for @$character_text;
+  if ($select_character && $characters->{$select_character}) {
+    my $character = $characters->{$select_character};
+    my $character_text = get_character($character);
+    section(3, sub {
+      paragraph(4, @$_) for @$character_text;
+    });
+  }
+  elsif ($select_alpha && $browse_alpha->{uc $select_alpha}) {
+    my $alpha = $browse_alpha->{uc $select_alpha};
+    my $list;
+    for my $key ( sort keys %$alpha ) {
+      my $character = $characters->{$key};
+      my $text = get_open($character, { link => 'yes' });
+      push @{$list}, $text;
     }
-    elsif ($select_alpha && $browse_alpha->{uc $select_alpha}) {
+    section(3, sub {
       nav(4, "Xanth characters: ".alpha_with_rand_character, { 'class' => 'alpha_menu' });
-      my $alpha = $browse_alpha->{uc $select_alpha};
-      my $list;
-      for my $key ( sort keys %$alpha ) {
-        my $character = $characters->{$key};
-        my $text = get_open($character, { link => 'yes' });
-        push @{$list}, $text;
-      }
       list(4, 'u', $list, { style => 'line-height: 1.5' });
-    }
-    elsif ($select_novel) {
-      my $number      = first_index { $_ eq $select_novel } @book_list;
-      my $novel_nav   = novel_nav($number);
-      my $novel_intro = novel_intro($select_novel, $number);
+    });
+  }
+  elsif ($select_novel) {
+    my $number      = first_index { $_ eq $select_novel } @book_list;
+    my $novel_nav   = novel_nav($number);
+    my $novel_intro = novel_intro($select_novel, $number);
 
+    section(3, sub {
       paragraph(4, $novel_intro) if ($select_novel ne 'Other source');
-      for my $type ('Major', 'Minor', 'Mentioned') {
-        if ($novel_lists->{$select_novel}->{$type}) {
-          section(4, sub {
-            if ($novel_lists->{$select_novel}->{$type}) {
-              my @characters = @{$novel_lists->{$select_novel}->{$type}};
-              my $col  = number_of_columns(4, scalar @characters, 'yes');
-              my $list = [map { character_link($_) } sort @characters];
-              list(5, 'u', $list, { class => $col });
-            }
-          }, { heading => $select_novel ne 'Other source' ? [2, "$type characters"] : undef });
-        }
+    });
+    for my $type ('Major', 'Minor', 'Mentioned') {
+      if ($novel_lists->{$select_novel}->{$type}) {
+        my @characters = @{$novel_lists->{$select_novel}->{$type}};
+        my $col  = number_of_columns(4, scalar @characters, 'yes');
+        my $list = [map { character_link($_) } sort @characters];
+        section(3, sub {
+          list(4, 'u', $list, { class => $col });
+        }, { heading => $select_novel ne 'Other source' ? [2, "$type characters"] : undef });
       }
-
+    }
+    section(3, sub {
       nav(4, $novel_nav, { class => 'alpha_menu', style => 'text-align:center' });
-    }
-    elsif ($select_location) {
-      my $locations = $location_lists->{$select_location};
-      my $total_count;
-      for my $key (keys %$locations) {
-        my $location = $locations->{$key};
-        $total_count += scalar(@{$location});
+    });
+  }
+  elsif ($select_location) {
+    my $locations = $location_lists->{$select_location};
+    my $total_count;
+    for my $key (keys %$locations) {
+      my $location = $locations->{$key};
+      $total_count += scalar(@{$location});
 
-        my $list = [ map {
-          my $species = get_species($characters->{$_}->{species}, $characters->{$_}->{gender});
-          my $link    = character_link($_);
-          "$link is $species."
-        } sort @{$location} ];
-        $locations->{$key} = $list;
-      }
-
-      my $plural_verb   = PL_V('is', $total_count);
-      my $worded_count  = NO('character', $total_count, { words_below => 101, comma_every => 3 });
-      my $location_link = locations_page_link($select_location);
-      my $location_para = "There $plural_verb $worded_count from $location_link.";
-      if ($moons->{$select_location}) {
-        my $moon_line = get_moon($moons->{$select_location});
-        $location_para .= " $moon_line";
-      }
-      paragraph(4, $location_para);
-
-      if ($locations->{main}) {
-        my $list = $locations->{main};
-        my $col  = number_of_columns(3, scalar @{$list}, 'yes');
-        list(4, 'u', $list, { class => $col });
-      }
-      for my $section ( sort grep { !/main/ } keys %$locations ) {
-        my $text  = get_article($section, { full => 1 });
-        my $id    = idify($section);
-        my $list  = $locations->{$section};
-        my $count = scalar @{$list};
-        my $col   = number_of_columns(3, $count, 'yes');
-
-        my $pl_verb       = PL_V('is', $count);
-        my $pl_characters = NO('character', $count, { words_below => 101 });
-        my $link  = locations_page_link($select_location, $section);
-
-        section(4, sub {
-          paragraph(6, "There $pl_verb $pl_characters from $link.");
-          list(6, 'u', $list, { class => $col });
-        }, { heading => [ 2, ucfirst $text, { id => $id } ] } );
-      }
-    }
-    elsif ($select_species) {
       my $list = [ map {
-        my $location = get_locations($characters->{$_}->{places});
-        my $link     = character_link($_);
-        "$link is from $location."
-      } sort @{$species_lists->{$select_species}} ];
-      my $count   = scalar @{$list};
-      my $species = $count > 1 && $select_species !~ /folk$/ ? noun($select_species)->classical->plural : noun($select_species)->indefinite;
-      my $worded_count = noun($count)->cardinal;
-      my $columns = number_of_columns(2, $count, 'yes');
+        my $species = get_species($characters->{$_}->{species}, $characters->{$_}->{gender});
+        my $link    = character_link($_);
+        "$link is $species."
+      } sort @{$location} ];
+      $locations->{$key} = $list;
+    }
+
+    my $plural_verb   = PL_V('is', $total_count);
+    my $worded_count  = NO('character', $total_count, { words_below => 101, comma_every => 3 });
+    my $location_link = locations_page_link($select_location);
+    my $location_para = "There $plural_verb $worded_count from $location_link.";
+    if ($moons->{$select_location}) {
+      my $moon_line = get_moon($moons->{$select_location});
+      $location_para .= " $moon_line";
+    }
+    section(3, sub {
+      paragraph(4, $location_para);
+    });
+
+    if ($locations->{main}) {
+      my $list = $locations->{main};
+      my $col  = number_of_columns(3, scalar @{$list}, 'yes');
+      section(3, sub {
+        list(4, 'u', $list, { class => $col });
+      });
+    }
+    for my $section ( sort grep { !/main/ } keys %$locations ) {
+      my $text  = get_article($section, { full => 1 });
+      my $id    = idify($section);
+      my $list  = $locations->{$section};
+      my $count = scalar @{$list};
+      my $col   = number_of_columns(3, $count, 'yes');
+
+      my $pl_verb       = PL_V('is', $count);
+      my $pl_characters = NO('character', $count, { words_below => 101 });
+      my $link  = locations_page_link($select_location, $section);
+
+      section(3, sub {
+        paragraph(4, "There $pl_verb $pl_characters from $link.");
+        list(4, 'u', $list, { class => $col });
+      }, { heading => [ 2, ucfirst $text, { id => $id } ] } );
+    }
+  }
+  elsif ($select_species) {
+    my $list = [ map {
+      my $location = get_locations($characters->{$_}->{places});
+      my $link     = character_link($_);
+      "$link is from $location."
+    } sort @{$species_lists->{$select_species}} ];
+    my $count   = scalar @{$list};
+    my $species = $count > 1 && $select_species !~ /folk$/ ? noun($select_species)->classical->plural : noun($select_species)->indefinite;
+    my $worded_count = noun($count)->cardinal;
+    my $columns = number_of_columns(2, $count, 'yes');
+    section(3, sub {
       paragraph(4, "There are $worded_count <b>$species</b>.") if $count > 1;
       paragraph(4, "This character is <b>$species</b>.") if $count == 1;
       list(4, 'u', $list, { class => $columns });
-    }
-    else {
-      my $character_count = commify(scalar(keys %$characters) - scalar(keys %$see_char));
-      my $current_year = timeline_link(current_year);
-      paragraph(4, qq(Welcome to Lady Aleena's list of <b>characters of <i>Xanth</i></b>. It covers all $character_count characters from <a href="http://www.hipiers.com/chartcnac.html"><i>Xanth</i> Character Database</a> by Douglas Harter. The year is $current_year in Xanth.::See the <a href="#Notes">notes</a> below.), { separator => '::' });
+    });
+  }
+  else {
+    my $character_count = commify(scalar(keys %$characters) - scalar(keys %$see_char));
+    my $current_year  = timeline_link(current_year);
+    my $show_list     = [map { novel_link($_) } @book_list];
+    my $location_list = [map { ucfirst location_link($_) } sort keys %$location_lists];
+    my $species_list  = [map { species_link($_, ucfirst $_) } sort { lc $a cmp lc $b } keys %$species_lists];
+
+    section(3, sub {
+      paragraph(4, qq(Welcome to Lady Aleena's list of <b>characters of <i>Xanth</i></b>. It covers all $character_count characters from <a href="http://www.hipiers.com/chartcnac.html"><i>Xanth</i> Character Database</a> by Douglas Harter. The year is $current_year in Xanth.));
+      paragraph(4, qq(See the <a href="#Notes">notes</a> below.));
       nav(4, "Xanth characters: ".alpha_with_rand_character, { 'class' => 'alpha_menu' });
-      section(4, sub {
-        paragraph(5, 'You can browse character lists by novel.');
-        my $show_list = [map { novel_link($_) } @book_list];
-        list(5, 'o', $show_list, { class => 'three', start => '0' });
-      }, { heading => [2, 'Novels', { id => 'Novels' }] });
-      section(4, sub {
-        paragraph(5, 'You can browse character lists by location. Most characters are from Xanth, so the list for it is very long.');
-        my $location_list = [map { ucfirst location_link($_) } sort keys %$location_lists];
-        list(5, 'u', $location_list, { class => 'four' });
-      }, { heading => [2, 'Locations', { id => 'Locations' }] });
-      section(4, sub {
-        paragraph(5, 'You can browse character lists by species. The majority of characters are human, so the list for them is very long.');
-        my $species_list = [map { species_link($_, ucfirst $_) } sort { lc $a cmp lc $b } keys %$species_lists];
-        list(5, 'u', $species_list, { class => 'five' });
-      }, { heading => [2, 'Species', { id => 'Species' }] });
-    }
-  });
+    });
+    section(4, sub {
+      paragraph(5, 'You can browse character lists by novel.');
+      list(5, 'o', $show_list, { class => 'three', start => '0' });
+    }, { heading => [2, 'Novels', { id => 'Novels' }] });
+    section(4, sub {
+      paragraph(5, 'You can browse character lists by location. Most characters are from Xanth, so the list for it is very long.');
+      list(5, 'u', $location_list, { class => 'four' });
+    }, { heading => [2, 'Locations', { id => 'Locations' }] });
+    section(4, sub {
+      paragraph(5, 'You can browse character lists by species. The majority of characters are human, so the list for them is very long.');
+      list(5, 'u', $species_list, { class => 'five' });
+    }, { heading => [2, 'Species', { id => 'Species' }] });
+  }
   section(3, sub {
     details(4, sub {
       paragraph(4, qq(Human men and women will not have a species in their entries. Also, if the surname of the character is the character's species, it was dropped.::If the character is a child, it will be in the description. The child will more than likely be an adult by this time in the <i>Xanth</i> series.::Many species are single gender, so their entries will not mention it. The species are $gendered_species_text. Harpies and nymphs are usually female, and fauns are usually male; but there have been a few exceptions that are noted.::In some instances, I have made educated guesses on gender, species, and some birth years.), { separator => '::' });
