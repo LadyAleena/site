@@ -43,11 +43,11 @@ This document describes Util::Columns version 1.0.
   my @colors = ('red', 'orange', 'yellow', 'spring', 'green', 'teal', 'cyan', 'azure',
                 'blue', 'violet', 'magenta', 'pink', 'white', 'black', 'gray');
 
-  my $maximum_amount_of_colums = 4;
-  my $amount_of_items_on_list  = @colors;
+  my $maximum_amount_of_columns = 4;
+  my $amount_of_items_on_list  = \@colors;
   my $number_word_returned     = 'no';
 
-  my $columns = number_of_columns($maximum_amount_of_colums, $amount_of_items_on_list, $number_word_returned);
+  my $columns = number_of_columns($maximum_amount_of_columns, $amount_of_items_on_list, $number_word_returned);
   # 3
 
 =head1 DESCRIPTION
