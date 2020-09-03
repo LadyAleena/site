@@ -13,7 +13,6 @@ use Page::File qw(file_directory file_list file_menu);
 use Page::HTML qw(section paragraph list);
 use Page::RolePlaying::Spell::Book qw(spellbook);
 use Util::Convert  qw(filify);
-use Util::Sort qw(name_sort);
 
 my $directory = 'Role_playing/Player_characters/Spellbooks';
 my @selects = file_list(file_directory($directory), { 'sort' => 'name', 'text' => 1 });

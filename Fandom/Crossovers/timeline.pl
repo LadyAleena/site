@@ -15,8 +15,6 @@ use Page::HTML qw(section list paragraph);
 use Page::Story::Inline  qw(inline);
 use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open qw(fancy_open);
-use Util::Convert qw(textify);
-use Util::Sort qw(article_sort);
 
 sub convert_month {
   my $month = shift;
