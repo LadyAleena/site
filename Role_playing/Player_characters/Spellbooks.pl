@@ -16,7 +16,7 @@ use Util::Convert  qw(filify);
 use Util::Sort qw(name_sort);
 
 my $directory = 'Role_playing/Player_characters/Spellbooks';
-my @selects = sort { name_sort(lc $a,lc $b) } map { $_ =~ s/\.txt//; $_ =~ s/_/ /g; $_ } file_list(file_directory($directory));
+my @selects = file_list(file_directory($directory), { 'sort' => 'name', 'text' => 1 });
 
 my $cgi    = CGI::Simple->new;
 my $select = encode_entities($cgi->param('spellbook'),'<>"');
