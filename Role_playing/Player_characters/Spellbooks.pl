@@ -14,8 +14,8 @@ use Page::HTML qw(section paragraph list);
 use Page::RolePlaying::Spell::Book qw(spellbook);
 use Util::Convert  qw(filify);
 
-my $directory = 'Role_playing/Player_characters/Spellbooks';
-my @selects = file_list(file_directory($directory), { 'sort' => 'name', 'text' => 1 });
+my $directory = file_directory('Role_playing/Player_characters/Spellbooks');
+my @selects = file_list($directory, { 'sort' => 'name', 'text' => 1 });
 
 my $cgi    = CGI::Simple->new;
 my $select = encode_entities($cgi->param('spellbook'),'<>"');
@@ -24,7 +24,8 @@ my $menu   = file_menu('spellbook', \@selects, $select);
 
 page( 'heading' => $head, 'file menu' => $menu, 'code' => sub {
   if ($select && grep(/\Q$select\E/, @selects)) {
-    my $spell_levels = spellbook($directory, filify($select).'.txt');
+    my $spell_file = filify($select);
+    my $spell_levels = spellbook("$directory/$spell_file.txt");
     for my $spell_level (@$spell_levels) {
       section(3, sub {
         list(5, 'u', @{$spell_level->{'list'}}) if $spell_level->{'list'};

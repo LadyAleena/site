@@ -11,9 +11,9 @@ use Page::Data    qw(make_hash);
 use Util::Columns qw(number_of_columns);
 
 sub spellbook {
-  my ($directory, $file) = @_;
+  my ($file) = @_;
 
-  my $spells = make_hash( 'file' => [$directory, $file], 'headings' => ['+'] );
+  my $spells = make_hash( 'file' => $file, 'headings' => ['+'] );
 
   my $spell_list;
   for my $level (sort keys %$spells) {
