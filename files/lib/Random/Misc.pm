@@ -25,6 +25,7 @@ our @EXPORT_OK = qw(
 
 my %misc = (
   'emotions'            => [qw(joy sorrow trust fear love hate indifference)],
+  'filesize units'      => [qw(bit nibble byte kilobyte megabyte gigabyte terabyte petabyte exabyte zettabyte yottabyte)],
   'games'               => [map("$_ game", ('board', 'card', 'role-playing', 'video'))],
   'groups'              => [qw(group band cabal tribe caravan army)],
   'mental conditions'   => [
@@ -48,6 +49,7 @@ sub random_misc {
 }
 
 sub random_emotion            { my $user_addition = shift; random_misc('emotions'           , $user_addition) }
+sub random_filesize_unit      { my $user_addition = shift; random_misc('filesize units'     , $user_addition) }
 sub random_game               { my $user_addition = shift; random_misc('games'              , $user_addition) }
 sub random_group              { my $user_addition = shift; random_misc('groups'             , $user_addition) }
 sub random_mental_condition   { my $user_addition = shift; random_misc('mental conditions'  , $user_addition) }

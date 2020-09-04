@@ -28,7 +28,7 @@ This document describes Random::Misc version 1.000.
   my $emotion            = random_emotion;            # returns a random emotion
   my $game               = random_game;               # returns a random type of game
   my $group              = random_group;              # returns a random group type
-  my $mental_condition   =random_mental_condition;    # returns a random mental condition
+  my $mental_condition   = random_mental_condition;   # returns a random mental condition
   my $non                = random_non;                # returns either an empty string or non
   my $relationship       = random_relationship;       # returns a random relationship status
   my $sexual_orientation = random_sexual_orientation; # returns a random sexual orientation
@@ -62,6 +62,12 @@ These options return any value in any list. You can read the options below to se
   random_misc('emotions');
 
 The C<emotions> option returns fear, hate, indifference, joy, love, sorrow, or trust.
+
+=head4 filesize units
+
+  random_misc('filesize units');
+
+The C<filesize units> option returns bit, nibble, byte, kilobyte, megabyte, gigabyte, terabyte, petabyte, exabyte, zettabyte, or yottabyte.
 
 =head4 games
 
@@ -162,6 +168,12 @@ The following functions are shortcuts to the some of the options above. You can 
 
 C<random_emotion> is the same using L</emotions> in C<random_misc>.
 
+=head3 random_filesize_unit
+
+ random_filesize_unit();
+
+C<random_filesize_unit> is the same using L</filesize units> in C<random_misc>.
+
 =head3 random_game
 
  random_game();
@@ -191,12 +203,6 @@ C<random_mental_condition> is the same using L</mental condition> in C<random_mi
  random_non();
 
 C<random_non> is the same using L</non> in C<random_misc>.
-
-=head3 random_parent
-
- random_parent();
-
-C<random_parent> is the same using L</parents> in C<random_misc>.
 
 =head3 random_relationship
 
