@@ -16,11 +16,11 @@ use Page::File qw(file_directory);
 use Page::HTML qw(footer section nav heading paragraph list span anchor);
 use Page::Path qw(base_path);
 use Page::People qw(people_list);
+use Page::Columns qw(number_of_columns);
 use Page::Link::External qw(external_links);
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open qw(fancy_open);
-use Util::Columns qw(number_of_columns);
 use Util::Convert qw(filify textify idify searchify);
 
 my $movie_dir  = file_directory('Movies');

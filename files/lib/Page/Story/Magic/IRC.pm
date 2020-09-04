@@ -7,7 +7,7 @@ use Exporter qw(import);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Page::HTML qw(anchor list);
-use Util::Columns  qw(number_of_columns);
+use Page::Columns qw(number_of_columns);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(irc_link irc_list irc_magic);
@@ -45,7 +45,7 @@ sub irc_magic {
 
 
 # Version 1.0
-# Depends on Page::Data, Page::File, Page::HTML, Util::Columns, and Exporter
+# Depends on Page::Data, Page::File, Page::HTML, Page::Columns, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

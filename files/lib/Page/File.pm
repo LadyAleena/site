@@ -11,9 +11,9 @@ use File::Spec;
 
 use Page::Path qw(base_path);
 use Page::HTML qw(anchor list);
+use Page::Columns qw(number_of_columns);
 use Util::Convert qw(textify searchify);
 use Util::Sort qw(article_sort name_sort);
-use Util::Columns qw(number_of_columns);
 
 # file_directory returns the directory by type of data wanted.
 ## The default data directory is 'data'.

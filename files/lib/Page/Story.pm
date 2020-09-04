@@ -9,11 +9,11 @@ use List::Util qw(max);
 
 use Page::HTML qw(nav section heading paragraph blockquote list table  pre anchor   );
 use Page::Line qw(line);
+use Page::Columns qw(number_of_columns);
 use Page::Link::External qw(external_links);
 use Page::Story::Inline  qw(inline);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Util::Convert  qw(idify textify searchify);
-use Util::Columns  qw(number_of_columns);
+use Util::Convert qw(idify textify searchify);
 
 # Start the story
 
@@ -309,18 +309,7 @@ sub convert_string {
 # End passage
 # End story
 
-=pod
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+1;

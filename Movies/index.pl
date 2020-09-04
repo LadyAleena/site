@@ -13,13 +13,13 @@ use Page::Base qw(page);
 use Page::File qw(file_directory file_menu);
 use Page::HTML qw(section nav div paragraph list form fieldset selection details input anchor);
 use Page::Story qw(story);
+use Page::Columns qw(number_of_columns);
 use Page::CGI::Param qw(get_cgi_param);
 use Page::List::Alpha qw(first_alpha alpha_hash alpha_array alpha_menu);
 use Page::Movie qw(movie genre movie_option display_option textify_movie start_year end_year
                    display_movie display_simple_movie print_series print_movie
                    get_genre get_media movies_beginning);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Util::Columns qw(number_of_columns);
 use Util::Convert qw(idify);
 use Util::Sort    qw(article_sort);
 
