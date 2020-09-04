@@ -70,7 +70,7 @@ This document describes Name::Transform version 1.0.
 
 =head1 DEPENDENCIES
 
-Name::Transform depends on L<List::MoreUtils> and L<Exporter>.
+Name::Transform depends on L<List::SomeUtils> and L<Exporter>.
 
 =head1 AUTHOR
 
