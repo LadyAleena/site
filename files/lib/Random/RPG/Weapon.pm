@@ -4,10 +4,10 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use File::ShareDir qw(module_dir);
 use Games::Dice qw(roll);
 use String::Util qw(collapse);
 use Text::CSV qw(csv);
-use File::ShareDir qw(module_dir);
 
 use Fancy::Rand  qw(fancy_rand tiny_rand);
 
@@ -90,7 +90,7 @@ This document describes Random::RPG::Weapon version 1.000.
 
 =head1 DEPENDENCIES
 
-Random::RPG::Weapon depends on Page::File, L<Fancy::Rand>, L<RPG::WeaponName>, L<Games::Dice>, L<String::Util>, L<Text::CSV>, and L<Exporter>.
+Random::RPG::Weapon depends on L<Fancy::Rand>, L<File::ShareDir>, L<Games::Dice>, L<String::Util>, L<Text::CSV>, and L<Exporter>.
 
 =head1 AUTHOR
 
