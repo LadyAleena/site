@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use List::MoreUtils qw(firstidx lastidx);
+use List::SomeUtils qw(firstidx lastidx);
 
 our $VERSION   = '1.0';
 our @EXPORT_OK = qw(name_transform);

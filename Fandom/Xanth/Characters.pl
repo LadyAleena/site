@@ -3,10 +3,10 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Simple;
-use CGI::Carp           qw(fatalsToBrowser);
+use CGI::Carp qw(fatalsToBrowser);
 use Lingua::EN::Inflect qw(PL_V NO);
 use Lingua::EN::Inflexion qw(noun);
-use List::MoreUtils     qw(first_index);
+use List::SomeUtils qw(first_index);
 
 use lib '../../files/lib';
 use Page::Base qw(page);
