@@ -13,8 +13,8 @@ use Page::File qw(file_directory);
 use Page::HTML qw(section paragraph table);
 use Page::Forms qw(tiny_select);
 use Page::CGI::Param qw(get_cgi_param);
+use Page::RolePlaying::WeaponName qw(display_weapon);
 use Fancy::Join::Defined qw(join_defined);
-use RPG::WeaponName qw(display_weapon);
 
 my $cgi = CGI::Simple->new;
 my $size  = get_cgi_param($cgi, 'size');

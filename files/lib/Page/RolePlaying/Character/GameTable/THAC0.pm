@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(THAC0_base THAC0 THAC0_table_rows);
 use List::Util qw(min sum);
 use POSIX qw(ceil);
 
-use RPG::WeaponName qw(display_weapon display_weapon_group);
+use Page::RolePlaying::WeaponName qw(display_weapon display_weapon_group);
 use Page::RolePlaying::Character::Class qw(convert_class class_level);
 
 # part of the Character Building table suite.
@@ -184,21 +184,8 @@ sub THAC0_table_rows {
   return \@rows;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
 

@@ -1,4 +1,4 @@
-package RPG::WeaponName;
+package Page::RolePlaying::WeaponName;
 use v5.8.8;
 use strict;
 use warnings;
@@ -42,20 +42,7 @@ sub display_weapon_group {
   }
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;
