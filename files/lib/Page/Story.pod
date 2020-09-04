@@ -178,7 +178,7 @@ Lines that begin with C<&> will be code brought into the story with the C<doc ma
 
 =head1 DEPENDENCIES
 
-Page::Story depends on L<List::Util>, Page::HTML, Page::Line, Page::Link::External, Page::Story::Inline, Fancy::Join::Grammatical, Util::Convert, and Util::Columns.
+Page::Story depends on L<List::Util>, Page::Columns, Page::HTML, Page::Line, Page::Link::External, Page::Story::Inline, Fancy::Join::Grammatical, and Util::Convert.
 
 =head1 AUTHOR
 
