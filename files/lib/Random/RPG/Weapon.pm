@@ -7,17 +7,16 @@ use Exporter qw(import);
 use Games::Dice qw(roll);
 use String::Util qw(collapse);
 use Text::CSV qw(csv);
+use File::ShareDir qw(module_dir);
 
 use Fancy::Rand  qw(fancy_rand tiny_rand);
-use RPG::WeaponName qw(display_weapon);
-use Page::File qw(file_directory);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_weapon random_magic_weapon random_weapon_damage);
 
-my $weapons_dir     = file_directory('Role_playing/Reference_tables', 'data');
-my $weapons_fn      = "$weapons_dir/Weapons.txt";
-my $weapons_headers = ['Weapon','#AT','Dmg(S/M)','Dmg(L)','Range','Weight','Size','Type','Speed','KO','broad group','tight group'];
+my $weapons_dir     = module_dir('Random::RPG::Weapon');
+my $weapons_fn      = "$weapons_dir/weapons.txt";
+my $weapons_headers = ['weapon','size','type'];
 my $weapons_list = csv(
   in      => $weapons_fn,
   headers => $weapons_headers,
@@ -40,7 +39,7 @@ my %weapon_groups = (
                    ],
   'material'    => [map("$_ weapon", qw(bone metal stone wooden))],
   'damage type' => [map("$_ weapon", qw(bludgeoning piercing slashing missile))],
-  'weapon'      => [map(display_weapon('text' => $_, 'plural' => 'singular', 'full' => 'yes'), keys %$weapons_list)],
+  'weapon'      => [keys %$weapons_list],
 );
 
 sub random_weapon {

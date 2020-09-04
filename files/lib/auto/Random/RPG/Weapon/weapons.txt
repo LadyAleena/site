@@ -1,0 +1,201 @@
+adze|S|S/P
+ankus|M|P/B
+hand match arquebus|M|P
+matchlock arquebus|M|P
+wheellock arquebus|M|P
+flight arrow|S|P
+pile arrow|S|P
+sheaf arrow|S|P
+stone arrow|S|P
+awl pike|L|P
+battle axe|M|S
+hand or throwing axe|M|S
+stone axe|M|B/S
+two-handed axe|L|S
+axe-pistol|M|S/P
+bagh nakh|S|S
+bardiche|L|S
+bec de corbin|L|P/B
+belaying pin|S|B
+flintlock belt pistol|S|P
+snaplock belt pistol|S|P
+wheellock belt pistol|S|P
+bill|L|P/S
+bill-guisarme|L|P/S
+blowgun|L|P
+barbed dart|S|P
+needle|S|P
+blunderbuss|M|P
+blunderbuss pistol|S|P
+bo stick|L|B
+bolas|M|B
+boomerang|S|B
+bottle|S|B
+long bow|L|P
+composite long bow|L|P
+short bow|M|P
+composite short bow|M|P
+brandistock|M|P
+caliver|M|P
+caltrop|S|P
+carbine|M|P
+cestus|S|S
+chain|L|B
+chakram|S|S
+chijikiri|M|B/P
+cho-ku-no|M|
+club|M|B
+great club|L|B
+war club|M|B/S
+hand crossbow|S|P
+hand quarrel|S|P
+heavy crossbow|M|P
+heavy quarrel|S|P
+light crossbow|M|P
+light quarrel|S|P
+dagger|S|P
+bone dagger|S|P
+jambiya dagger|S|P/S
+katar dagger|S|P
+main-gauche dagger|S|P/S
+parrying dagger|S|P
+stiletto dagger|S|P
+stone dagger|S|P
+dagger-pistol|S|P
+dart|S|P
+fauchard|L|S
+footman's flail|L|B
+grain flail|M|B
+horseman's flail|M|B
+fork|L|P
+attached gaff|S|P
+held gaff|S|P
+glaive|L|S
+glaive-guisarme|L|P/S
+grapple|S|P/B
+guisarme|L|S
+gunpowder||
+gunsen|S|B/P
+halberd|L|P/S
+hammer|S|B/P
+maul|L|B/S
+sledge hammer|M|B/S
+hammer-pistol|M|B/P
+handgunne|L|P
+harpoon|L|P
+bone harpoon|L|P
+two-handed harpoon|L|P
+hatchet|S|S
+big holy symbol|S|B
+attached hook|S|P
+held hook|S|P
+flintlock horse pistol|S|P
+snaplock horse pistol|S|P
+wheellock horse pistol|S|P
+javelin|L|P
+stone javelin|M|P
+two-handed javelin|L|P
+stone two-handed javelin|M|P
+jitte|S|B
+kama|S|P/S
+kau sin ke|M|B
+kawanaga|S|B/P
+knife|S|P/S
+bone knife|S|P/S
+machete knife|M|S
+parang knife|M|S
+stone knife|S|P/S
+throwing knife|M|P/S
+kusari-gama|M|P/S/B
+lajatang|L|S
+heavy lance|L|P
+jousting lance|S|B
+light lance|L|P
+medium lance|L|P
+lantern|S|Bd
+lasso|L|
+lucern hammer|L|P/B
+footman's mace|M|B
+horseman's mace|M|B
+mace-axe|L|B/S
+mancatcher|L|
+military fork|L|P
+morningstar|M|B/P
+flintlock musket|M|P
+matchlock musket|L|P
+snaplock musket|M|P
+nagimaki|M|S
+naginata|L|S
+net|M|
+nunchaku|M|B
+oil flask|S|
+partisan|L|P
+pellet bow|M|B
+pellet|S|B
+pick|L|P
+footman's pick|M|P
+horseman's pick|M|P
+pike|L|P
+pilum|M|P
+pry bar|M|B
+quarterstaff|L|B
+ranseur|L|P
+rock|S|B
+sai|S|B
+sang kauw|L|P/S
+sap|S|B
+scourge|S|
+scythe|L|P/S
+shuriken|S|P
+sickle|S|S
+sling|S|B
+sling bullet|S|B
+sling stone|S|B
+slow match||
+smokepowder||
+spade|M|S/B
+spear|M|P
+long spear|L|P
+two-handed long spear|L|P
+stone spear|M|P
+two-handed spear|M|P
+stone two-handed spear|M|P
+spetum|L|P
+staff sling|M|B
+staff sling stinkpot|S|B
+staff sling stone|S|B
+bastard sword|M|S
+two-handed bastard sword|M|S
+broad sword|M|S
+claymore|M|S
+cutlass|M|S
+drusus|M|P
+estoc|M|S
+falchion|M|S
+gladius|S|P
+katana|M|S/P
+two-handed katana|M|S/P
+khopesh|M|S
+long sword|M|S
+ninja-to|M|S/P
+no-dachi|L|S/P
+rapier|M|P
+sabre|M|S
+sapara|S|S
+scimitar|M|S
+great scimitar|L|S
+short sword|S|P
+spatha|M|S
+tulwar|M|S
+two-handed sword|L|S
+wakizashi|M|S/P
+sword-axe|L|S
+sword-pistol|M|S/P
+tetsubo|L|B
+three-piece rod|L|B
+trident|L|P
+two-handed trident|L|P
+vial|S|
+voulge|L|S
+warhammer|M|B
+whip|M|
