@@ -1,4 +1,4 @@
-package RPG::InterspeciesAge;
+package Page::RolePlaying::InterspeciesAge;
 use v5.8.8;
 use strict;
 use warnings;
