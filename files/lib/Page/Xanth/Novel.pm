@@ -9,10 +9,10 @@ use Lingua::EN::Inflexion qw(noun);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Page::HTML qw(anchor);
+use Page::Convert qw(textify idify searchify);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open   qw(fancy_open);
-use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(novel_link style_novel get_novels novel_nav novel_intro char_intro_novel current_year);
@@ -137,7 +137,7 @@ sub current_year {
 # End getting the current Xanthian year
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
+# Depends on Page::Convert, Page::File, Page::HTML, Page::Xanth::PageLinks, Page::Xanth::Util, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

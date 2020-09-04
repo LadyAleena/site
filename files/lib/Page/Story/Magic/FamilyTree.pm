@@ -9,7 +9,7 @@ use List::Util qw(any);
 use Page::File qw(file_list);
 use Page::HTML qw(object figure anchor);
 use Page::Line qw(line);
-use Util::Convert qw(textify);
+use Page::Convert qw(textify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(family_tree_magic);
@@ -41,7 +41,7 @@ sub family_tree_magic {
 }
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Page::Line, Util::Convert, and Exporter
+# Depends on Page::Convert, Page::File, Page::HTML, Page::Line, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

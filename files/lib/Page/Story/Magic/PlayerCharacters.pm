@@ -10,9 +10,9 @@ use Page::File qw(file_path);
 use Page::HTML qw(list heading);
 use Page::Path qw(base_path);
 use Page::Story qw(passage);
+use Page::Convert qw(idify);
 use Page::RolePlaying::Spell::List qw(spell_data);
 use Fancy::Open   qw(fancy_open);
-use Util::Convert qw(idify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(pc_magic);
@@ -44,7 +44,7 @@ sub pc_magic {
 }
 
 # Version 1.0
-# Depends on Page::Data, Page::File, Page::HTML, Page::Path, Page::Story, Page::RolePlaying::Spell::List, Util::Convert, Fancy::Open, and Exporter
+# Depends on Page::Convert, Page::Data, Page::File, Page::HTML, Page::Path, Page::Story, Page::RolePlaying::Spell::List, Fancy::Open, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

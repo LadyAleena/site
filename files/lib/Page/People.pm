@@ -9,7 +9,7 @@ use Page::File qw(file_path);
 use Page::HTML qw(span);
 use Page::Sort qw(name_sort);
 use Page::Link::External qw(external_links);
-use Util::Convert qw(filify searchify);
+use Page::Convert qw(searchify filify);
 
 sub people_list {
   my ($file) = @_;

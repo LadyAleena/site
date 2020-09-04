@@ -8,10 +8,10 @@ our @EXPORT_OK = qw(pc_info_list pc_info_table);
 use Lingua::EN::Inflect qw(PL_N);
 
 use Page::HTML qw(span);
+use Page::Convert qw(textify idify);
 use Page::Number::Pretty qw(pretty_number);
 use RPG::Alignment qw(expand_alignment);
 use Page::RolePlaying::Character::Class qw(player_classes_with_level);
-use Util::Convert qw(idify textify);
 
 # This is used in the simple player character index.
 

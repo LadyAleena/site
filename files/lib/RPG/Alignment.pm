@@ -5,7 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(expand_alignment alignment_class);
 
-use Util::Convert qw(idify);
+use Page::Convert qw(idify);
 
 sub expand_alignment {
   my ($var) = @_;

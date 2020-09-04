@@ -6,11 +6,11 @@ use Exporter qw(import);
 
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
+use Page::Convert qw(textify idify searchify);
 use Page::Story::Magic::FamilyTree qw(family_tree_magic);
-use Page::Xanth::Novel     qw(novel_link);
+use Page::Xanth::Novel qw(novel_link);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
 use Fancy::Open    qw(fancy_open);
-use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(Xanth_magic);
@@ -66,7 +66,7 @@ sub Xanth_magic {
 }
 
 # Version 1.0
-# Depends on Page::Data, Page::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Util::Convert, Fancy::Open, and Exporter
+# Depends on Page::Convert, Page::Data, Page::File, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, Fancy::Open, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

@@ -6,12 +6,12 @@ use Exporter qw(import);
 
 use Page::File qw(file_directory);
 use Page::HTML qw(anchor);
+use Page::Convert qw(textify idify searchify);
 use Page::Xanth::Novel qw(novel_link);
 use Page::Xanth::Util qw(get_article);
 use Fancy::Open qw(fancy_open);
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(section_link location_link get_locations get_moon);
@@ -106,7 +106,7 @@ sub get_moon {
 }
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Page::Xanth::Util, Util::Convert, Fancy::Join, Fancy::Open, and Exporter
+# Depends on Page::Convert, Page::File, Page::HTML, Page::Xanth::Util, Fancy::Join, Fancy::Open, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

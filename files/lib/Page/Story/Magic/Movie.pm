@@ -4,8 +4,8 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use Util::Convert  qw(textify searchify);
-use Page::Movie    qw(movie_option series textify_movie);
+use Page::Convert qw(textify searchify);
+use Page::Movie   qw(movie_option series textify_movie);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(movie_magic);
@@ -41,7 +41,7 @@ sub movie_magic {
 }
 
 # Version 1.0
-# Depends on Page::Movie, Util::Convert, and Exporter
+# Depends on Page::Convert, Page::Movie, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

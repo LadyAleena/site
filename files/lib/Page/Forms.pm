@@ -7,7 +7,7 @@ our @EXPORT_OK = qw(tiny_select top_select);
 
 use Page::Data qw(make_hash);
 use Page::HTML qw(form fieldset input selection);
-use Util::Convert qw(textify);
+use Page::Convert qw(textify);
 
 sub top_select {
   my ($tab, $opt) = @_;

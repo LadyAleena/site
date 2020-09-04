@@ -8,10 +8,10 @@ use Lingua::EN::Inflexion qw(noun);
 
 use Page::File qw(file_path);
 use Page::HTML qw(anchor);
+use Page::Convert qw(textify idify searchify);
 use Page::Xanth::Util qw(gendering);
 use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open   qw(fancy_open);
-use Util::Convert qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(species_link get_species);
@@ -120,7 +120,7 @@ sub get_species {
 }
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Util::Convet, Page::Xanth::Util, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
+# Depends on Page::Convert, Page::File, Page::HTML, Page::Xanth::Util, Fancy::Join, Fancy::Open, Lingua::EN::Inflect, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

@@ -14,6 +14,7 @@ use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Page::HTML qw(section nav paragraph list details anchor);
 use Page::Columns qw(number_of_columns);
+use Page::Convert qw(idify);
 use Page::CGI::Param qw(get_cgi_param);
 use Page::List::Alpha qw(alpha_hash alpha_menu);
 use Page::Number::Pretty   qw(commify);
@@ -25,7 +26,6 @@ use Page::Xanth::Species   qw(species_link get_species);
 use Page::Xanth::Util      qw(gendering get_article);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open   qw(fancy_open);
-use Util::Convert qw(idify);
 
 # Begin importing data
 

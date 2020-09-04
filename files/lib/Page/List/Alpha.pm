@@ -8,7 +8,7 @@ our @EXPORT_OK = qw(first_alpha alpha_hash alpha_array alpha_menu);
 use Encode qw(encode);
 
 use Page::HTML qw(anchor);
-use Util::Convert qw(searchify);
+use Page::Convert qw(searchify);
 
 # The 'article' parameter.
 # Without the article parameter:

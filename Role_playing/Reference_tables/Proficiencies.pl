@@ -12,8 +12,8 @@ use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Page::HTML qw(section paragraph table anchor);
 use Page::Forms qw(tiny_select);
+use Page::Convert qw(idify);
 use Page::CGI::Param qw(get_cgi_param);
-use Util::Convert qw(idify);
 
 my $cgi = CGI::Simple->new;
 my $alpha   = get_cgi_param($cgi, 'alpha');

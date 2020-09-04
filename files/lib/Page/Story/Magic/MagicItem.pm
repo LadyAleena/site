@@ -8,7 +8,7 @@ use Lingua::EN::Inflect qw(NO);
 
 use Page::File qw(file_directory file_list);
 use Page::HTML qw(list anchor);
-use Util::Convert qw(searchify);
+use Page::Convert qw(searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(magic_item_magic);
@@ -42,7 +42,7 @@ sub magic_item_magic {
 }
 
 # Version 1.0
-# Depends on Page::File, Page::HTML, Util::Convert, Lingua::EN::Inflect, and Exporter
+# Depends on Page::Convert, Page::File, Page::HTML, Lingua::EN::Inflect, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 

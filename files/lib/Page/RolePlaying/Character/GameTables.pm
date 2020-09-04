@@ -5,6 +5,7 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(game_tables);
 
+use Page::Convert qw(textify idify);
 use Page::RolePlaying::Character::Class qw(convert_class);
 use Page::RolePlaying::Character::AbilityScores qw(all_abilities game_effect);
 use Page::RolePlaying::Character::GameTable::ArmorClass qw(armor_class_table_rows);
@@ -14,7 +15,6 @@ use Page::RolePlaying::Character::GameTable::SpellProgression qw(spell_progressi
 use Page::RolePlaying::Character::GameTable::Psionics qw(psionics_table_rows);
 use Page::RolePlaying::Character::GameTable::THAC0 qw(THAC0_table_rows);
 use Page::RolePlaying::Character::GameTable::TurningUndead qw(turning_undead_table_rows);
-use Util::Convert qw(idify textify);
 
 sub game_tables {
   my ($character) = @_;

@@ -12,7 +12,7 @@ use List::Util qw(sum max);
 
 use Fancy::Rand qw(tiny_rand);
 use Fancy::Join::Defined qw(join_defined);
-use Util::Convert qw(textify);
+use Page::Convert qw(textify);
 
 use Random::Body::Modification qw(random_body_modification random_body_color_change random_aura);
 use Random::Body::Function qw(random_body_functions);

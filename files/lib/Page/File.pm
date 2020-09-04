@@ -13,7 +13,7 @@ use Page::Path qw(base_path);
 use Page::HTML qw(anchor list);
 use Page::Sort qw(article_sort name_sort);
 use Page::Columns qw(number_of_columns);
-use Util::Convert qw(textify searchify);
+use Page::Convert qw(textify searchify);
 
 # file_directory returns the directory by type of data wanted.
 ## The default data directory is 'data'.

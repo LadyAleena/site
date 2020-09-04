@@ -7,9 +7,9 @@ use Exporter qw(import);
 use Page::Xanth::Family    qw(get_family);
 use Page::Xanth::Novel     qw(current_year);
 use Page::Xanth::PageLinks qw(character_link timeline_link);
+use Page::Convert qw(textify idify searchify);
 use Fancy::Join::Defined     qw(join_defined);
 use Fancy::Join::Grammatical qw(grammatical_join);
-use Util::Convert  qw(textify idify searchify);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(get_dates_family);
@@ -260,7 +260,7 @@ This document describes Page::Xanth::Dates version 1.0.
 
 =head1 DEPENDENCIES
 
-Page::Xanth::Dates depends on L<Fancy::Join>, Util::Convert, Page::Xanth::Family, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, and L<Exporter>.
+Page::Xanth::Dates depends on L<Fancy::Join>, Page::Convert, Page::Xanth::Family, Page::Xanth::Novel, Page::Xanth::PageLinks, Page::Xanth::Util, and L<Exporter>.
 
 =head1 AUTHOR
 
@@ -270,7 +270,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 

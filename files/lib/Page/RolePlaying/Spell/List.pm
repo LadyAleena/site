@@ -9,7 +9,7 @@ use Encode qw(encode);
 
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
-use Util::Convert qw(filify);
+use Page::Convert qw(filify);
 use Fancy::Open qw(fancy_open);
 
 sub spell_data {

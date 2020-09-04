@@ -15,7 +15,7 @@ use Page::Link::Contact qw(contact_links);
 use Page::Path qw(base_path);
 use Page::Menu qw(base_menu);
 use Page::Style qw(base_stylesheets);
-use Util::Convert qw(idify textify);
+use Page::Convert qw(textify idify);
 
 my $full_path = realpath($0);
 my $root_path = base_path('path');

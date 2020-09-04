@@ -6,17 +6,17 @@ use Exporter qw(import);
 
 use Lingua::EN::Inflect qw(A NUMWORDS);
 
-use Fancy::Join::Defined       qw(join_defined);
+use Fancy::Join::Defined qw(join_defined);
 use Fancy::Open qw(fancy_open);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
 use Page::HTML qw(list span anchor object figure);
 use Page::Line qw(line);
+use Page::Convert qw(searchify);
 use Random::Body::Modification qw(random_body_modification);
-use Random::Color              qw(random_color);
-use Random::Descriptor         qw(random_descriptor);
-use Random::Misc               qw(random_sexual_orientation random_relationship);
-use Util::Convert  qw(searchify);
+use Random::Color      qw(random_color);
+use Random::Descriptor qw(random_descriptor);
+use Random::Misc       qw(random_sexual_orientation random_relationship);
 
 our $VERSION   = "1.0";
 our @EXPORT_OK = qw(misc_magic);
@@ -88,7 +88,7 @@ sub misc_magic {
 }
 
 # Version 1.0
-# Depends on Page::Data, Page::File, Page::HTML, Page::Line, Util::Convert, Fancy::Join::Defined, Fancy::Open, Random::Body::Modification, Random::Color, Random::Descriptor, Random::Misc, Lingua::EN::Inflect, and Exporter
+# Depends on Page::Convert, Page::Data, Page::File, Page::HTML, Page::Line, Fancy::Join::Defined, Fancy::Open, Random::Body::Modification, Random::Color, Random::Descriptor, Random::Misc, Lingua::EN::Inflect, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
