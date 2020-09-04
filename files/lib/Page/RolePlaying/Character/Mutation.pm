@@ -1,4 +1,4 @@
-package RPG::CharacterMutation;
+package Page::RolePlaying::Character::Mutation;
 use v5.10.0;
 use strict;
 use warnings;
@@ -180,8 +180,8 @@ sub random_mutation {
     sub { return 'knows one '.random_proficiency_type.parent_knows },
     sub { return 'knows all '.PL_N(random_proficiency_type).parent_knows },
     sub { return 'attracts '.random_class.' followers' },
-    sub { return tiny_rand(qw(attracts repels)).' all '.PL_N(random_animal).' '.random_radius('simple','imperial') },
-    sub { return tiny_rand('communicates with','knows history of').' '.random_stuff.' '.random_radius('touch','imperial') },
+    sub { return tiny_rand(qw(attracts repels)).' all '.PL_N(random_animal).' '.random_radius('imperial') },
+    sub { return tiny_rand('communicates with','knows history of').' '.random_stuff.' '.random_radius('imperial', 'touch') },
     sub { return 'has '.A(random_aura) },
     sub { return 'touch '.random_attack('touch special') },
     sub { return effects() },
