@@ -4,19 +4,19 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use File::ShareDir qw(module_dir);
 use Games::Dice qw(roll);
 use Lingua::EN::Inflect qw(PL_N);
 use List::Util qw(uniq);
 use Text::CSV qw(csv);
 
-use Page::File qw(file_directory);
 use Fancy::Rand qw(tiny_rand);
 
 our $VERSION   = '1.000';
 our @EXPORT_OK = qw(random_wild_psionic_talent);
 
 # When adding PSPS, it is the initial cost + (maintenance * 4) for each talent.
-my $psps_dir     = file_directory('Role_playing/Classes/Psionics', 'data');
+my $psps_dir     = module_dir('Random::RPG::WildPsionics');
 my $psps_fn      = "$psps_dir/powers.txt";
 my $psps_headers = ['power', 'initial cost', 'maintenance cost'];
 my $psps = csv(
@@ -282,7 +282,7 @@ That could return something like: C<wild psionic talents: (PSPs: 47) animate sha
 
 =head1 DEPENDENCIES
 
-Random::RPG::WildPsionics depends on Page::File, <Fancy::Rand>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, L<Text::CSV>, and L<Exporter>.
+Random::RPG::WildPsionics depends on L<Fancy::Rand>, L<File::ShareDir>, L<Games::Dice>, L<Lingua::EN::Inflect>, L<List::MoreUtils>, L<Text::CSV>, and L<Exporter>.
 
 =head1 AUTHOR
 
@@ -292,7 +292,7 @@ Lady Aleena
 
 This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
 
-Copyright © 2020, Lady Aleena C<<aleena@cpan.org>>. All rights reserved.
+Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
 
 =cut
 
