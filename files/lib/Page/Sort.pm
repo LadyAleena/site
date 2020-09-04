@@ -1,4 +1,4 @@
-package Util::Sort;
+package Page::Sort;
 use v5.8.8;
 use strict;
 use warnings;
@@ -100,32 +100,9 @@ sub name_sort {
   return $c cmp $d;
 }
 
-=pod
-
-=encoding utf8
-
-=head1 NAME
-
-B<Util::Sort> performs various sorts on lists.
-
-=head1 VERSION
-
-This document describes Util::Sort version 1.0.
-
-=head1 DEPENDENCIES
-
-Util::Sort depends on L<HTML::Entities> and L<Exporter>.
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# Version 1.0.
+# Depends on HTML::Entities and Exporter
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

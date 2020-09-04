@@ -11,9 +11,9 @@ use lib '../../files/lib';
 use Page::Base qw(page);
 use Page::File qw(file_menu);
 use Page::HTML qw(section paragraph list);
+use Page::Sort qw(article_sort);
 use Page::Story qw(passage);
 use Page::RolePlaying::Spell::List qw(spell_data);
-use Util::Sort qw(article_sort);
 
 my %scrolls = (
   'Councilor\'s path scroll' => ['Hypnotism','Suggestion','Domination','Mass Suggestion'],

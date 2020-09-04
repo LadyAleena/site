@@ -12,6 +12,7 @@ use lib '../files/lib';
 use Page::Base qw(page);
 use Page::File qw(file_directory file_menu);
 use Page::HTML qw(section nav div paragraph list form fieldset selection details input anchor);
+use Page::Sort qw(article_sort);
 use Page::Story qw(story);
 use Page::Columns qw(number_of_columns);
 use Page::CGI::Param qw(get_cgi_param);
@@ -21,7 +22,6 @@ use Page::Movie qw(movie genre movie_option display_option textify_movie start_y
                    get_genre get_media movies_beginning);
 use Fancy::Join::Grammatical qw(grammatical_join);
 use Util::Convert qw(idify);
-use Util::Sort    qw(article_sort);
 
 my ($sec,$min,$hour,$mday,$mon,$ltyear,$wday,$yday,$isdst) = localtime();
 my $current_year = ($ltyear + 1900);
