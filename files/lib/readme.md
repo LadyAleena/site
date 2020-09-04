@@ -8,7 +8,7 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 ## The directories and files
 
-[Page](Page): These modules display my site's pages, generate data for my site for specific sections or pages, or are miscellaneous helpers for my site.
+[Page](Page): These modules display my site's pages, generate data for specific sections or pages on my site, or are miscellaneous helpers for my site.
 
 [RPG](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
 

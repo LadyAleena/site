@@ -16,11 +16,11 @@ use Page::HTML qw(section list table);
 use Page::Story qw(story);
 use Page::Convert qw(idify);
 use Page::Number::Pretty qw(commify);
+use Page::RolePlaying::Alignment qw(expand_alignment);
 use Page::RolePlaying::Character::AbilityScores qw(ability_box);
-use Page::RolePlaying::Character::Info qw(pc_info_list);
-use Fancy::Join::Defined   qw(join_defined);
-use RPG::Alignment qw(expand_alignment);
 use Page::RolePlaying::Character::Class qw(player_classes_simple);
+use Page::RolePlaying::Character::Info qw(pc_info_list);
+use Fancy::Join::Defined qw(join_defined);
 
 my $cgi  = CGI::Simple->new;
 my $page = $cgi->param('page') ? encode_entities($cgi->param('page'),'/<>"') : undef;
