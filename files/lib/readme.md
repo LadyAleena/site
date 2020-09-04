@@ -10,8 +10,6 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [Page](Page): These modules display my site's pages, generate data for specific sections or pages on my site, or are miscellaneous helpers for my site.
 
-[RPG](RPG): These modules were written to help me display my AD&D player characters, however, that project is on indefinite hold. They are not worth sharing as they are for *Advanced Dungeons & Dragons* 2nd Ed., and the current edition is 5.
-
 ### Modules in use on my site that I want to also share
 
 [**Fancy**](Fancy): These modules were written to allow for more fancy usage of some functions. You can read [readme](Fancy/readme.md) for more information.
