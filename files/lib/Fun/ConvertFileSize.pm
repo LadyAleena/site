@@ -4,27 +4,21 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
-use List::MoreUtils qw(firstidx apply);
-
-use Page::Number::Pretty qw(pretty_number);
+use List::SomeUtils qw(firstidx apply);
+use Number::Format::BigFloat qw(format_number);
 
 our $VERSION   = '1.0';
-our @EXPORT_OK = qw(convert_filesize random_filesize);
+our @EXPORT_OK = qw(convert_filesize);
 
 local $\ = "\n";
 
-my @filesize_names = qw(bit nibble byte kilobyte megabyte gigabyte terabyte petabyte exabyte zettabyte yottabyte);
+my @filesize_names = qw(byte kilobyte megabyte gigabyte terabyte petabyte exabyte zettabyte yottabyte);
 
 # I put the these sizes here just for my information.
-my %little_filesizes;
-$little_filesizes{bit}    = 1;
-$little_filesizes{nibble} = $little_filesizes{bit} * 4;
-$little_filesizes{byte}   = $little_filesizes{bit} * 8;
-
-# I never know when I'll want a random file size.
-sub random_filesize_unit {
-  return $filesize_names[rand @filesize_names]
-}
+# my %little_filesizes;
+# $little_filesizes{bit}    = 1;
+# $little_filesizes{nibble} = $little_filesizes{bit} * 4;
+# $little_filesizes{byte}   = $little_filesizes{bit} * 8;
 
 sub make_singular {
   my $word = shift;
@@ -42,11 +36,8 @@ sub make_singular {
 sub convert_filesize {
   my %opt = @_;
 
-  # I took out bits and nibbles just to keep me sane.
-  my @filesizes = grep(/byte/, @filesize_names);
-
-  my $from = firstidx { $_ eq make_singular($opt{from}) } @filesizes;
-  my $to   = firstidx { $_ eq make_singular($opt{to}) } @filesizes;
+  my $from = firstidx { $_ eq make_singular($opt{from}) } @filesize_names;
+  my $to   = firstidx { $_ eq make_singular($opt{to}) } @filesize_names;
   my $dec  = $opt{decimals} ? $opt{decimals} : 0;
   my $base = $opt{base} ? $opt{base} : 1024;
 
@@ -64,8 +55,8 @@ sub convert_filesize {
     $converted = $opt{size};
   }
 
-  my $org_filesize = pretty_number($opt{size}, $dec);
-  my $new_filesize = pretty_number($converted, $dec);
+  my $org_filesize = format_number($opt{size}, { decimal_digits => $dec });
+  my $new_filesize = format_number($converted, { decimal_digits => $dec });
   return "$org_filesize $opt{from} is $new_filesize $opt{to}";
 }
 
@@ -76,7 +67,6 @@ sub convert_filesize {
 =head1 NAME
 
 B<Fun::ConvertFileSize> converts one file size to another file size like gigabytes to kilobytes and the reverse.
-There is also a random file size unit generator included for fun.
 
 =head1 VERSION
 
@@ -144,18 +134,9 @@ For the from and to fields, you do not have to worry about case.
   zettabyte(s) or zb
   yottabyte(s) or yb
 
-
-=head2 random_filesize
-
-To use the random generator if you happen to have a secret agent protecting a file of a size you don't feel like coming up with, you'd do...
-
-  my $random_filesize = random_filesize();
-
-You could get anything from a bit to a yottabyte.
-
 =head1 DEPENDENCIES
 
-Fun::ConvertFileSize depends on L<Exporter>, L<List::MoreUtils>, and L<Page::Number::Pretty>.
+Fun::ConvertFileSize depends on L<Number::Format::BigFloat>, L<List::SomeUtils>, and L<Exporter>.
 
 =head1 AUTHOR
 
