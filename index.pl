@@ -5,9 +5,10 @@ use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
 use CGI::Simple;
+use FindBin qw($Bin);
 use HTML::Entities qw(encode_entities);
 
-use lib 'files/lib';
+use lib "$Bin/files/lib";
 use Page::Base qw(page);
 use Page::File qw(file_directory file_list);
 use Page::Story qw(story);

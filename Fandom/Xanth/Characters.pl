@@ -4,11 +4,12 @@ use warnings FATAL => qw( all );
 
 use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
+use FindBin qw($Bin);
 use Lingua::EN::Inflect qw(PL_V NO);
 use Lingua::EN::Inflexion qw(noun);
 use List::SomeUtils qw(first_index);
 
-use lib '../../files/lib';
+use lib "$Bin/../../files/lib";
 use Page::Base qw(page);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);

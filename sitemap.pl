@@ -3,10 +3,11 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp   qw(fatalsToBrowser);
+use FindBin qw($Bin);
 use List::Util  qw(sum min max);
 use URI::Encode qw(uri_encode);
 
-use lib 'files/lib';
+use lib "$Bin/files/lib";
 use Page::File qw(file_list);
 use Page::HTML qw(html head body heading paragraph list table anchor);
 use Page::Menu qw(base_menu);

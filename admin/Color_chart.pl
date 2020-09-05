@@ -3,8 +3,9 @@ use strict;
 use warnings FATAL => qw( all );
 
 use CGI::Carp qw(fatalsToBrowser);
+use FindBin qw($Bin);
 
-use lib '../files/lib';
+use lib "$Bin/../files/lib";
 use Page::Base qw(page);
 use Page::HTML qw(table);
 use Page::Story qw(story);

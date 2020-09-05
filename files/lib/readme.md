@@ -26,7 +26,7 @@ The one JavaScript file is for my collapsible site menu mainly.
 
 [**Name**](Name): The Transform module parses names into an arrayref.
 
-[**String**](String): The Abbreviate module was written for fun and is not used on my site.
+[**String**](String): The Abbreviate module was written for fun.
 
 [**Time**](Time): The Duration module was written so I could find out durations.
 

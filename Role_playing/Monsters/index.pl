@@ -5,11 +5,12 @@ use warnings FATAL => qw( all );
 
 use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
+use FindBin qw($Bin);
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(A);
 use File::Temp qw(tempfile);
 
-use lib '../../files/lib';
+use lib "$Bin/../../files/lib";
 use Page::Base qw(page);
 use Page::File qw(file_menu);
 use Page::HTML qw(section paragraph list);

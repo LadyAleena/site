@@ -5,10 +5,11 @@ use warnings FATAL => qw( all );
 use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
 use File::Basename;
+use FindBin qw($Bin);
 use HTML::Entities qw(encode_entities);
 use Date::Calc qw(Month_to_Text);
 
-use lib '../../files/lib';
+use lib "$Bin/../../files/lib";
 use Page::Base qw(page);
 use Page::File qw(file_directory file_list file_menu);
 use Page::HTML qw(section list paragraph);

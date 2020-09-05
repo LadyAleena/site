@@ -4,10 +4,11 @@ use warnings FATAL => qw( all );
 
 use CGI::Simple;
 use CGI::Carp qw(fatalsToBrowser);
+use FindBin qw($Bin);
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(ORD NUMWORDS);
 
-use lib '../../files/lib';
+use lib "$Bin/../../files/lib";
 use Page::Base qw(page);
 use Page::HTML qw(section paragraph list form fieldset inputs);
 use Page::RolePlaying::Character::Mutation qw(random_mutations);

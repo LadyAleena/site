@@ -5,10 +5,11 @@ use warnings;
 
 use CGI::Carp qw(fatalsToBrowser);
 use CGI::Simple;
+use FindBin qw($Bin);
 use HTML::Entities qw(encode_entities);
 use Lingua::EN::Inflect qw(PL_N);
 
-use lib '../../files/lib';
+use lib "$Bin/../../files/lib";
 use Page::Base qw(page);
 use Page::Data qw(make_hash);
 use Page::File qw(file_directory);
