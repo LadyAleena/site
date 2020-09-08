@@ -434,6 +434,7 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<Sahara|^dvd^> (2005)
 * I<Scarecrow and Mrs. King|^dvd^> (1983)
 * I<Scorpion|^dvd^> (2014)
+* I<The Secret Garden|^dvd^> (1987)
 * I<The Secret of NIMH|^brd^> (1982)
 * I<seaQuest|^dvd^> (1993)
 * I<Short Circuit|^dvd^> (1986)
@@ -570,5 +571,5 @@ See the A<tie-ins|href="?select=Tie-in#Star_Wars"> I own.
 These are some of the people I follow when selecting films and television to watch. More actors can be found in the A<film or television series|href="../Movies/index.pl?series=list"> where they appear.
 3 Producers and directors
 & producers and directors
-3 Actors in films
-& actors in films
+3 Actors
+& actors

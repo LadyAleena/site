@@ -24,6 +24,7 @@ use Fancy::Join::Grammatical qw(grammatical_join);
 use Fancy::Open qw(fancy_open);
 
 my $movie_dir  = file_directory('Movies');
+my $people_dir = file_directory('People/by_series');
 my $movies     = make_hash( 'file' => "$movie_dir/movies.txt",     'headings' => ['title','start year','end year',qw(media Wikipedia allmovie IMDb TV.com genre+ source company)] );
 my $seriess    = make_hash( 'file' => "$movie_dir/series.txt",     'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
 # my $franchises = make_hash( 'file' => "$movie_dir/franchises.txt", 'headings' => [qw(title Wikipedia allmovie programs+), 'just like'] );
@@ -724,8 +725,8 @@ sub print_movie {
   my $seasons     = $movie->{'seasons'} ? $movie->{'seasons'} : undef;
   my $movie_is    = display_movie($movie, { 'crossover' => 1 });
 
-  my $actor_file  = 'Actors_in_'.filify($program).'.txt';
-  my $people      = people_list($actor_file) ? people_list($actor_file) : undef;
+  my $actor_file  = "$people_dir/".filify($program).".txt";
+  my $people      = -f $actor_file ? people_list($actor_file) : undef;
 
   section($tab, sub {
     $tab += 2;
@@ -788,8 +789,8 @@ sub print_series {
   my $programs     = $local_series->{'programs'};
 
   my $crossover    = $local_series->{'crossovers'} ? span($in_title, { class => 'title' }).' '.crossovers($local_series) : undef;
-  my $actor_file   = 'Actors_in_'.filify($series).'.txt';
-  my $people       = people_list($actor_file) ? people_list($actor_file) : undef;
+  my $actor_file   = "$people_dir/".filify($series).".txt";
+  my $people       = -f $actor_file ? people_list($actor_file) : undef;
 
   section($tab, sub {
     paragraph($tab + 1, $movie_links, { 'class' => 'movie_links'}) if $movie_links;

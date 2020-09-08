@@ -5,16 +5,14 @@ use warnings;
 use Exporter qw(import);
 our @EXPORT_OK = qw(people_list);
 
-use Page::File qw(file_path);
 use Page::HTML qw(span);
 use Page::Sort qw(name_sort);
 use Page::Link::External qw(external_links);
 use Page::Convert qw(searchify filify);
 
 sub people_list {
-  my ($file) = @_;
+  my ($people_file) = @_;
 
-  my $people_file = file_path('People', $file);
   my $people = undef;
   if (-f $people_file) {
     open(my $fh, '<', $people_file) || die "Can not open $people_file $!";

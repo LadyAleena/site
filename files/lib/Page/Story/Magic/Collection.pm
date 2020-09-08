@@ -4,6 +4,7 @@ use strict;
 use warnings;
 use Exporter qw(import);
 
+use Page::File qw(file_path);
 use Page::HTML qw(list);
 use Page::People qw(people_list);
 
@@ -24,18 +25,19 @@ sub collection_magic {
     $magic->{$_}      = media_class($_, 'yes');
   }
 
-  my @people = (qw(authors musicians comedians artists), 'actors in films', 'producers and directors');
+  my @people = (qw(authors musicians comedians artists), 'actors', 'producers and directors');
   for my $group (@people) {
-    my $file = ucfirst "$group.txt";
+    my $file = $group;
        $file =~ s/ /_/g;
-    $magic->{$group} = sub { list(3, 'u', people_list($file), { 'class' => 'three' }) };
+    my $people_file = file_path('People', ucfirst "$file.txt");
+    $magic->{$group} = sub { list(3, 'u', people_list($people_file), { 'class' => 'three' }) };
   }
 
   return $magic;
 }
 
 # Version 1.0.
-# Depends on Page::HTML, Page::People, and Exporter
+# Depends on Page::File, Page::HTML, Page::People, and Exporter
 # This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See https://dev.perl.org/licenses/artistic.html.
 # Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
