@@ -51,7 +51,8 @@ nav#main_navigation h2 { font-size: 115%; font-weight: bold; }
 nav#main_navigation li { line-height: 175%; }
 nav#main_navigation a  { color: #027; }
 
-section#main_menu { display: block; background-color: #eed; }
+#main_menu { display: block; background-color: #eed; }
+#main_menu summary { background-color: #027; color: #eed; }
 
 /* end main navigation styles*/
 
@@ -364,9 +365,6 @@ h4#twenty-four { display: flex; clear: none; }
   body > .to_top { display: none; }
   main > .to_top { display: block; }
 
-  input#menu_collapse { display: none; }
-  label[for="menu_collapse"] { display: none; }
-
   .mobile  { display: none; }
 }
 
@@ -385,39 +383,6 @@ h4#twenty-four { display: flex; clear: none; }
     display: none;
   }
 
-  input#menu_collapse {
-    display: none;
-  }
-
-  label[for="menu_collapse"] {
-    display: block;
-    margin: 5px;
-    padding: 3px;
-    border-radius: 3px;
-    background-color: #027;
-    color: #ffe;
-    font-weight: bold;
-  }
-
-  input[type="checkbox"]#menu_collapse
-    + label[for="menu_collapse"]::before {
-    content: "\2630  ";
-    font-size: 110%;
-  }
-
-  input[type="checkbox"]:checked#menu_collapse
-    + label[for="menu_collapse"]::before {
-    content: "\00D7  ";
-    font-size: 110%;
-  }
-
-  input[type="checkbox"]:checked#menu_collapse
-    + label[for="menu_collapse"]
-    + section#main_menu {
-    display: block;
-  }
-  /* end styles to make the site's menu collapse */
-
   ul.sub_menu { display: none; }
   .mobile  { display: inline; }
 }
@@ -429,7 +394,7 @@ h4#twenty-four { display: flex; clear: none; }
 
 @media screen and (min-width: 701px) {
   header div#contacts  { display: block; }
-  nav#main_navigation > section > div#contacts_nav { display: none; }
+  nav#main_navigation > details > div#contacts_nav { display: none; }
 }
 
 @media screen and (max-width: 700px) {
@@ -442,8 +407,8 @@ h4#twenty-four { display: flex; clear: none; }
   }
   header#main_header div#contacts { display: none; }
 
-  nav#main_navigation > section > div#contacts_nav { display: block; text-align: center; }
-  nav#main_navigation > section > div#contacts_nav img.contact { width: auto; padding: 0 .25em; }
+  nav#main_navigation > details > div#contacts_nav { display: block; text-align: center; }
+  nav#main_navigation > details > div#contacts_nav img.contact { width: auto; padding: 0 .25em; }
 
   .right { float: none; }
   td span        { display: block; }

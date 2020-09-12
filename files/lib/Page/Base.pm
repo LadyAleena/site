@@ -9,7 +9,7 @@ use Cwd qw(cwd realpath);
 use File::Basename;
 use File::Spec;
 
-use Page::HTML qw(html style noscript nav main section list div anchor img input);
+use Page::HTML qw(html style noscript nav main section list div anchor img input details);
 use Page::Line qw(line);
 use Page::Link::Contact qw(contact_links);
 use Page::Path qw(base_path);
@@ -76,18 +76,12 @@ sub page {
     'body' => [
       sub {
         nav(2, sub {
-          input(3, {
-            'type'  => 'checkbox',
-            'id'    => 'menu_collapse',
-            'label' => ['Site menu', { 'for' => 'menu_collapse', 'title' => 'Click here for the site menu.' }],
-            'place label' => 'after',
-          });
-          section(3, sub {
+          details(3, sub {
             div(4, sub {
               line(5, join("\n"." "x10, contact_links()))
             }, { 'id' => 'contacts_nav', 'title' => 'Ways to contact me' });
             list(4, 'u', $menu, { 'id' => 'site_menu' } );
-          }, { 'id' => 'main_menu', 'title' => 'Site menu' });
+          }, { 'id' => 'main_menu', 'title' => 'Site menu', 'summary' => 'Site menu' });
         }, { 'id' => 'main_navigation' });
         main(2, sub {
           &{$opt{'code'}};
