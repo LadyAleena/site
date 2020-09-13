@@ -76,12 +76,15 @@ sub page {
     'body' => [
       sub {
         nav(2, sub {
+          my $open = $ENV{'HTTP_USER_AGENT'} !~ /mobi|mini/i ? 'open' : undef;
           details(3, sub {
-            div(4, sub {
-              line(5, join("\n"." "x10, contact_links()))
-            }, { 'id' => 'contacts_nav', 'title' => 'Ways to contact me' });
             list(4, 'u', $menu, { 'id' => 'site_menu' } );
-          }, { 'id' => 'main_menu', 'title' => 'Site menu', 'summary' => 'Site menu' });
+            if ($ENV{'HTTP_USER_AGENT'} =~ /mobi|mini/i) {
+              div(4, sub {
+                line(5, join("\n"." "x10, contact_links()))
+              }, { 'id' => 'contacts', 'title' => 'Ways to contact me' });
+            }
+          }, { 'id' => 'main_menu', 'title' => 'Site menu', 'summary' => 'Site menu', 'open' => $open });
         }, { 'id' => 'main_navigation' });
         main(2, sub {
           &{$opt{'code'}};
@@ -120,9 +123,11 @@ sub page {
             div(3, sub {
               line(4, anchor('Lady Aleena', { 'class' => 'home', 'href' => $root_link, 'title' => 'Home' }));
             }, { id => 'title' });
-            div(3, sub {
-              line(4, join("\n"." "x8, contact_links()))
-            }, { 'id' => 'contacts', 'title' => 'Ways to contact me' });
+            if ($ENV{'HTTP_USER_AGENT'} !~ /mobi|mini/i) {
+              div(3, sub {
+                line(4, join("\n"." "x8, contact_links()))
+              }, { 'id' => 'contacts', 'title' => 'Ways to contact me' });
+            }
             div(3, sub {
               line(4, anchor('About Lady Aleena', { 'href' => "$root_link?page=about", 'title' => 'About Lady Aleena and the site'}));
             }, { 'id' => 'about' });
@@ -134,20 +139,7 @@ sub page {
   });
 }
 
-=pod
-
-=encoding utf8
-
-=head1 AUTHOR
-
-Lady Aleena
-
-=head1 LICENSE AND COPYRIGHT
-
-This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
-
-Copyright © 2020, Lady Aleena C<(aleena@cpan.org)>. All rights reserved.
-
-=cut
+# This module is free software; you can redistribute it and/or modify it under the same terms as Perl itself. See L<perlartistic>.
+# Copyright © 2020, Lady Aleena (aleena@cpan.org). All rights reserved.
 
 1;

@@ -32,11 +32,11 @@ header#main_header {
   background-color: #027;
 }
 
-header#main_header div { align-self: center; }
-header#main_header div#avatar   { grid-area: avatar;   justify-self: center; height: 100%; }
-header#main_header div#title    { grid-area: title;    justify-self: start; padding: .1em; font-size: 250%; word-break: keep-all; }
-header#main_header div#contacts { grid-area: contacts; justify-self: end; }
-header#main_header div#about    { grid-area: about;    justify-self: end; }
+header#main_header > div { align-self: center; }
+header#main_header > div#avatar   { grid-area: avatar;   justify-self: center; height: 100%; }
+header#main_header > div#title    { grid-area: title;    justify-self: start; padding: .1em; font-size: 250%; word-break: keep-all; }
+header#main_header > div#contacts { grid-area: contacts; justify-self: end; }
+header#main_header > div#about    { grid-area: about;    justify-self: end; }
 
 header a { color: #eed ; }
 img.avatar { max-width: 100%; max-height: 100%; padding: 2%; }
@@ -50,9 +50,10 @@ nav#main_navigation { right: 81%; left: 0; width: 19%; overflow-y: auto; color: 
 nav#main_navigation h2 { font-size: 115%; font-weight: bold; }
 nav#main_navigation li { line-height: 175%; }
 nav#main_navigation a  { color: #027; }
-
-#main_menu { display: block; background-color: #eed; }
-#main_menu summary { background-color: #027; color: #eed; }
+nav#main_navigation > details#main_menu { display: block; background-color: #eed; border-radius: 3px; }
+nav#main_navigation > details#main_menu > summary { background-color: #027; color: #eed; }
+nav#main_navigation > details#main_menu > div#contacts { display: block; text-align: center; }
+nav#main_navigation > details#main_menu > div#contacts img.contact { width: auto; padding: 0 .25em; }
 
 /* end main navigation styles*/
 
@@ -392,11 +393,6 @@ h4#twenty-four { display: flex; clear: none; }
   .four, .five, .six, .seven, .eight, .nine, .ten { column-count:3; }
 }
 
-@media screen and (min-width: 701px) {
-  header div#contacts  { display: block; }
-  nav#main_navigation > details > div#contacts_nav { display: none; }
-}
-
 @media screen and (max-width: 700px) {
   header#main_header {
     grid-template-columns: 47px 1fr 1fr;
@@ -405,13 +401,9 @@ h4#twenty-four { display: flex; clear: none; }
       "avatar title about";
     grid-gap: 0 0;
   }
-  header#main_header div#contacts { display: none; }
-
-  nav#main_navigation > details > div#contacts_nav { display: block; text-align: center; }
-  nav#main_navigation > details > div#contacts_nav img.contact { width: auto; padding: 0 .25em; }
 
   .right { float: none; }
-  td span        { display: block; }
+  td span { display: block; }
   table#numeration_scale_data tr:nth-child(n+12) { display: none; }
 
   h1    { font-size: 175%; }
