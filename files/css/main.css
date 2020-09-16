@@ -43,10 +43,20 @@ img.avatar { max-width: 100%; max-height: 100%; padding: 2%; }
 header div#contacts img.contact { width: auto; margin: 0 .2em; }
 /* end page header styles */
 
-nav#main_navigation, main { position: absolute; top: 6%; bottom: 0; height: 93.5%; padding: 0; }
-
-/* start main navigation syles*/
-nav#main_navigation { right: 81%; left: 0; width: 19%; overflow-y: auto; color: #000; font-size: 85%; }
+/* start main navigation styles */
+nav#main_navigation {
+  position: absolute;
+  top: 6%;
+  right: 81%;
+  bottom: 0;
+  left: 0;
+  width: 19%;
+  height: 93.5%;
+  overflow-y: auto;
+  padding: 0;
+  color: #000;
+  font-size: 85%;
+}
 nav#main_navigation h2 { font-size: 115%; font-weight: bold; }
 nav#main_navigation li { line-height: 175%; }
 nav#main_navigation a  { color: #027; }
@@ -54,10 +64,22 @@ nav#main_navigation > details#main_menu { display: block; background-color: #eed
 nav#main_navigation > details#main_menu > summary { background-color: #027; color: #eed; }
 nav#main_navigation > details#main_menu > div#contacts { display: block; text-align: center; }
 nav#main_navigation > details#main_menu > div#contacts img.contact { width: auto; padding: 0 .25em; }
+/* end main navigation styles */
 
-/* end main navigation styles*/
-
-main { right: 0; left: 19%; width: 81%; overflow-y: auto; color: #000; }
+/* start main style */
+main {
+  position: absolute;
+  top: 6%;
+  right: 0;
+  bottom: 0;
+  left: 19%;
+  width: 81%;
+  height: 93.5%;
+  overflow-y: auto;
+  padding: 0;
+  color: #000;
+}
+/* end main style */
 
 section,
 main footer,
