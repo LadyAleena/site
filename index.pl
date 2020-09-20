@@ -25,6 +25,7 @@ my $page_file = "$pages_dir/index.txt";
 if ( $page && grep { $_ eq $page } @pages ) {
   $heading    = $page eq 'about' ? 'About Lady Aleena' :
                 $page eq 'irc'   ? 'IRC channels I visit' :
+                $page eq 'twitter' ? 'So, you want me to follow you on Twitter.' :
                 undef;
   $page_file  = "$pages_dir/$page.txt";
   $page_file  =~ s/ /_/g;
