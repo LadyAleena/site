@@ -52,9 +52,15 @@ This is my B<fiction collection> of SPAN<hardcovers|^hardcovers^>, SPAN<trade pa
 3 Piers Anthony +
 * I<If I Pay Thee Not In Gold|^hardcover^> with Mercedes Lackey
 * I<The Guttbucket Quest|^hardcover^> with Ron Leming
-* I<Dragon's Gold|^massmarket^> with Robert E. Margroff
 * I<Piers Anthony's Visual Guide to Xanth|^trade^> with Jody Lynn Nye
 * I<The Secret of Spring|^hardcover^> with Jo Anne Taeusch
+4 Adventures of Kelvin of Rud
+with Robert E. Margroff
+* I<Dragon's Gold|^massmarket^>
+* I<Sepent's Silver|^massmarket^>
+* I<Chimaera's Copper|^massmarket^>
+* I<Orc's Opal|^massmarket^>
+* I<Mouvar's Magic|^massmarket^>
 4 The Apprentice Adept
 # I<Split Infinity|^massmarket^>
 # I<Blue Adept|^massmarket^>
