@@ -18,8 +18,8 @@ This is my B<movie collection> of SPAN<blu-rays|^brds^>, SPAN<DVDs|^dvds^>, and 
 * I<As Good as It Gets|^dvd^> (1997)
 * I<The Avengers|^dvd^> (1998)
 3 Airplane
-* I<Airplane!|^dvd^> (1980)
-* I<Airplane II: The Sequel|^dvd^> (1982)
+# I<Airplane!|^dvd^> (1980)
+# I<Airplane II: The Sequel|^dvd^> (1982)
 3 Alien
 * I<Alien³|^vhs^> (1992)
 * I<Alien vs. Predator|^dvd^> (2004)
@@ -57,24 +57,24 @@ This is my B<movie collection> of SPAN<blu-rays|^brds^>, SPAN<DVDs|^dvds^>, and 
 See the A<tie-ins|href="?select=Tie-in#Babylon_5_novels"> I own.
 3 Back to the Future
 >0 SMALL<(DVD boxed set)>
-* I<Back to the Future|^dvd^> (1985)
-* I<Back to the Future Part II|^dvd^> (1989)
-* I<Back to the Future Part III|^dvd^> (1990)
+# I<Back to the Future|^dvd^> (1985)
+# I<Back to the Future Part II|^dvd^> (1989)
+# I<Back to the Future Part III|^dvd^> (1990)
 3 Batman
 >0 SMALL<(DVD boxed set)>
 *| two
-* I<Batman|^dvd^> (1989)
-* I<Batman Returns|^dvd^> (1992)
-* I<Batman Forever|^dvd^> (1995)
-* I<Batman &amp; Robin|^dvd^> (1997)
+# I<Batman|^dvd^> (1989)
+# I<Batman Returns|^dvd^> (1992)
+# I<Batman Forever|^dvd^> (1995)
+# I<Batman &amp; Robin|^dvd^> (1997)
 3 The Best Exotic Marigold Hotel
 >0 SMALL<(blu-ray boxed set)>
 * I<The Best Exotic Marigold Hotel|^brd^> (2011)
 * I<The Second Best Exotic Marigold Hotel|^brd^> (2015)
 3 Bridget Jones
-* I<Bridget Jones's Diary|^dvd^> (2001)
-* I<Bridget Jones: The Edge of Reason|^dvd^> (2004)
-* I<Bridget Jones's Baby|^brd^> (2016)
+# I<Bridget Jones's Diary|^dvd^> (2001)
+# I<Bridget Jones: The Edge of Reason|^dvd^> (2004)
+# I<Bridget Jones's Baby|^brd^> (2016)
 3 Bring It On
 >0 SMALL<(DVD boxed set)>
 * I<Bring It On|^dvd^> (2000)
@@ -101,13 +101,13 @@ See the A<tie-ins|href="?select=Tie-in#Babylon_5_novels"> I own.
 * I<The Core|^dvd^> (2003)
 * I<Cross Creek|^dvd^> (1983)
 3 The Chronicles of Narnia
-* I<The Lion, the Witch, and the Wardrobe|^brd^> (2005)
-* I<Prince Caspian|^brd^> (2008)
-* I<The Voyage of the Dawn Treader|^brd^> (2010)
+# I<The Lion, the Witch, and the Wardrobe|^brd^> (2005)
+# I<Prince Caspian|^brd^> (2008)
+# I<The Voyage of the Dawn Treader|^brd^> (2010)
 I also own A<I<The Chronicles of Narnia>|href="?select=Fiction#The_Chronicles_of_Narnia"> novels.
 3 The Chronicles of Riddick
-* I<Pitch Black|^dvd^> (2000)
-* I<The Chronicles of Riddick|^dvd^> (2004)
+# I<Pitch Black|^dvd^> (2000)
+# I<The Chronicles of Riddick|^dvd^> (2004)
 2 D
 *| two
 * I<Dante's Peak|^dvd^> (1997)
@@ -151,9 +151,9 @@ See the A<tie-ins|href="?select=Tie-in#Doctor_Who_books"> I own.
 * I<Evil Dead II|^dvd^> (1987)
 * I<Ash vs. Evil Dead|^brd^> (2015)
 3 The Expendables
-* I<The Expendables|^brd^> (2010)
-* I<The Expendables 2|^brd^> (2012)
-* I<The Expendables 3|^brd^> (2014)
+# I<The Expendables|^brd^> (2010)
+# I<The Expendables 2|^brd^> (2012)
+# I<The Expendables 3|^brd^> (2014)
 2 F
 *| two
 * I<The Fifth Element|^brb^> (1997)
@@ -169,8 +169,8 @@ See the A<tie-ins|href="?select=Tie-in#Doctor_Who_books"> I own.
 * I<Footloose|^dvd^> (1984)
 * I<The Frighteners|^dvd^> (1996)
 3 Fantastic Four
-* I<Fantastic Four|^dvd^> (2005)
-* I<Fantastic Four: Rise of the Silver Surfer|^dvd^> (2007)
+# I<Fantastic Four|^dvd^> (2005)
+# I<Fantastic Four: Rise of the Silver Surfer|^dvd^> (2007)
 3 Firefly
 * I<Firefly|^dvd^> (2002)
 * I<Serenity|^dvd^> (2005)
@@ -184,12 +184,12 @@ See the A<tie-ins|href="?select=Tie-in#Doctor_Who_books"> I own.
 * I<Grabbers|^dvd^> (2012)
 3 Ghostbusters
 >0 SMALL<(DVD boxed set)>
-* I<Ghostbusters|^dvd^> (1984)
-* I<Ghostbusters II|^dvd^> (1989)
+# I<Ghostbusters|^dvd^> (1984)
+# I<Ghostbusters II|^dvd^> (1989)
 See the A<tie-ins|href="?select=Tie-in#Soundtracks_general"> I own.
 3 Grease
-* I<Grease|^dvd^> (1978)
-* I<Grease 2|^dvd^> (1982)
+# I<Grease|^dvd^> (1978)
+# I<Grease 2|^dvd^> (1982)
 3 Grumpy Old Men
 * I<Grumpy Old Men|^dvd^> (1993)
 * I<Grumpier Old Me|^dvd^> (1995)
@@ -210,27 +210,27 @@ See the A<tie-ins|href="?select=Tie-in#Soundtracks_general"> I own.
 * I<The Hunt for Red October|^dvd^> (1990)
 3 Harry Potter
 >0 SMALL<(blu-ray boxed set)>
-*| two
-* I<Harry Potter and the Sorcerer's Stone|^brd^> (2001)
-* I<Harry Potter and the Chamber of Secrets|^brd^> (2002)
-* I<Harry Potter and the Prisoner of Azkaban|^brd^> (2004)
-* I<Harry Potter and the Goblet of Fire|^brd^> (2005)
-* I<Harry Potter and the Order of the Phoenix|^brd^> (2007)
-* I<Harry Potter and the Half-Blood Prince|^brd^> (2009)
-* I<Harry Potter and the Deathly Hallows: Part 1|^brd^> (2010)
-* I<Harry Potter and the Deathly Hallows: Part 2|^brd^> (2011)
+#| two
+# I<Harry Potter and the Sorcerer's Stone|^brd^> (2001)
+# I<Harry Potter and the Chamber of Secrets|^brd^> (2002)
+# I<Harry Potter and the Prisoner of Azkaban|^brd^> (2004)
+# I<Harry Potter and the Goblet of Fire|^brd^> (2005)
+# I<Harry Potter and the Order of the Phoenix|^brd^> (2007)
+# I<Harry Potter and the Half-Blood Prince|^brd^> (2009)
+# I<Harry Potter and the Deathly Hallows: Part 1|^brd^> (2010)
+# I<Harry Potter and the Deathly Hallows: Part 2|^brd^> (2011)
 You are facing a ^HP dragon^.
 3 Hellboy
-* I<Hellboy|^dvd^> (2004)
-* I<Hellboy II: The Golden Army|^brd^> (2008)
+# I<Hellboy|^dvd^> (2004)
+# I<Hellboy II: The Golden Army|^brd^> (2008)
 3 Hot Shots!
-* I<Hot Shots!|^dvd^> (1991)
-* I<Hot Shots! Part Deux|^dvd^> (1993)
+# I<Hot Shots!|^dvd^> (1991)
+# I<Hot Shots! Part Deux|^dvd^> (1993)
 3 How to Train Your Dragon
 >0 SMALL<(blu-ray boxed set)>
-* I<How to Train Your Dragon|^brd^> (2010)
-* I<How to Train Your Dragon 2|^brd^> (2014)
-* I<How to Train Your Dragon: The Hidden World|^brd^> (2019)
+# I<How to Train Your Dragon|^brd^> (2010)
+# I<How to Train Your Dragon 2|^brd^> (2014)
+# I<How to Train Your Dragon: The Hidden World|^brd^> (2019)
 You trained a ^DW dragon^.
 2 I
 * I<I Love Trouble|^dvd^> (1994)
@@ -238,17 +238,21 @@ You trained a ^DW dragon^.
 * I<If Lucy Fell|^dvd^> (1996)
 * I<IT|^dvd^> (1990)
 3 Independence Day
-* I<Independence Day|^brd^> (1996)
-* I<Independence Day: Resurgence|^brd^> (2016)
+# I<Independence Day|^brd^> (1996)
+# I<Independence Day: Resurgence|^brd^> (2016)
 See the A<tie-ins|href="?select=Tie-in#Independence_Day">
 3 Indiana Jones
 >0 SMALL<(blu-ray boxed set)>
-* I<Raiders of the Lost Ark|^brd^> (1981)
-* I<Indiana Jones and the Temple of Doom|^brd^> (1984)
-* I<Indiana Jones and the Last Crusade|^brd^> (1989)
-* I<Indiana Jones and the Kingdom of the Crystal Skull|^brd^> (2008)
+#| two
+# I<Raiders of the Lost Ark|^brd^> (1981)
+# I<Indiana Jones and the Temple of Doom|^brd^> (1984)
+# I<Indiana Jones and the Last Crusade|^brd^> (1989)
+# I<Indiana Jones and the Kingdom of the Crystal Skull|^brd^> (2008)
 2 J
 * I<Joe Versus the Volcano|^dvd^> (1990)
+3 Journey (2008)
+# I<Journey to the Center of the Earth|^brd^> (2008)
+# I<Journey 2: The Mysterious Island|^brd^> (2012)
 3 Jumanji
 *| two
 * I<Jumanji|^dvd^> (1995)
@@ -257,23 +261,23 @@ See the A<tie-ins|href="?select=Tie-in#Independence_Day">
 * I<Jumanji: The Next Level|^brd^> (2019)
 3 Jurassic Park
 >0 SMALL<(boxed set)>
-* I<Jurassic Park|^dvd^> (1993)
-* I<The Lost World: Jurassic Park|^dvd^> (1997)
-* I<Jurassic Park III|^dvd^> (2001)
+# I<Jurassic Park|^dvd^> (1993)
+# I<The Lost World: Jurassic Park|^dvd^> (1997)
+# I<Jurassic Park III|^dvd^> (2001)
 See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 2 K
 * I<Krull|^dvd^> (1983)
 * I<Kull the Conqueror|^dvd^> (1997)
 3 The Karate Kid
 >0 SMALL<(blu-ray boxed set)>
-* I<The Karate Kid|^brd^> (1984)
-* I<The Karate Kid II|^brd^> (1986)
+# I<The Karate Kid|^brd^> (1984)
+# I<The Karate Kid II|^brd^> (1986)
 3 Kill Bill
-* I<Kill Bill: Vol. 1|^dvd^> (2003)
-* I<Kill Bill: Vol. 2|^dvd^> (2004)
+# I<Kill Bill: Vol. 1|^dvd^> (2003)
+# I<Kill Bill: Vol. 2|^dvd^> (2004)
 3 Kingsman
-* I<Kingsman: The Secret Service|^brd^> (2014)
-* I<Kingsman: The Golden Circle|^brd^> (2017)
+# I<Kingsman: The Secret Service|^brd^> (2014)
+# I<Kingsman: The Golden Circle|^brd^> (2017)
 2 L
 *| two
 * I<Labyrinth|^dvd^> (1986)
@@ -293,8 +297,8 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<The Lawnmower Man|^dvd^> (1992)
 * I<Lawnmower Man 2: Beyond Cyberspace|^dvd^> (1996)
 3 Legendary MonsterVerse
-* I<Kong: Skull Island|^brb^> (2017)
-* I<Godzilla: King of the Monsters|^brb> (2019)
+#2 I<Kong: Skull Island|^brb^> (2017)
+# I<Godzilla: King of the Monsters|^brb> (2019)
 3 The Librarians
 *| two
 * I<The Librarian: Quest for the Spear|^dvd^> (2004)
@@ -321,8 +325,8 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<My Stepmother Is an Alien|^dvd^> (1988)
 * I<Mystery Men|^dvd^> (1999)
 3 Mamma Mia!
-* I<Mamma Mia!|^dvd^> (2008)
-* I<Mamma Mia! Here We Go Again|^brd^> (2018)
+# I<Mamma Mia!|^dvd^> (2008)
+# I<Mamma Mia! Here We Go Again|^brd^> (2018)
 3 Marvel Cinematic Universe
 *| two
 * I<Iron Man|^brd^> (2008)
@@ -350,29 +354,29 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<Spider-Man: Far from Home|^brd^> (2019)
 3 The Matrix
 >0 SMALL<(blu-ray boxed set)>
-* I<The Matrix|^brd^> (1999)
-* I<The Matrix Reloaded|^brd^> (2003)
-* I<The Matrix Revolutions|^brd^> (2003)
+# I<The Matrix|^brd^> (1999)
+# I<The Matrix Reloaded|^brd^> (2003)
+# I<The Matrix Revolutions|^brd^> (2003)
 3 The Maze Runner
 >0 SMALL<(blu-ray boxed set)>
-* I<The Maze Runner|^brd^> (2014)
-* I<Maze Runner: The Scorch Trials|^brd^> (2015)
-* I<Maze Runner: The Death Cure|^brd^> (2018)
+# I<The Maze Runner|^brd^> (2014)
+# I<Maze Runner: The Scorch Trials|^brd^> (2015)
+# I<Maze Runner: The Death Cure|^brd^> (2018)
 3 Men in Black
-* I<Men in Black|^dvd^> (1997)
-* I<Men in Black II|^dvd^> (2002)
+# I<Men in Black|^dvd^> (1997)
+# I<Men in Black II|^dvd^> (2002)
 3 Michael Flatley
 >0 SMALL<(DVD boxed set)>
 * I<Lord of the Dance|^dvd^> (1997)
 * I<Feet of Flames|^dvd^> (1998)
 * I<Michael Flatley: Gold|^dvd^> (2000)
 3 The Mighty Ducks
-* I<The Mighty Ducks|^dvd^> (1992)
-* I<D2: The Mighty Ducks|^dvd^> (1994)
-* I<D3: The Mighty Ducks|^dvd^> (1996)
+# I<The Mighty Ducks|^dvd^> (1992)
+# I<D2: The Mighty Ducks|^dvd^> (1994)
+# I<D3: The Mighty Ducks|^dvd^> (1996)
 3 Miss Congeniality
-* I<Miss Congeniality|^dvd^> (2000)
-* I<Miss Congeniality 2: Armed and Fabulous|^dvd^> (2005)
+# I<Miss Congeniality|^dvd^> (2000)
+# I<Miss Congeniality 2: Armed and Fabulous|^dvd^> (2005)
 3 The Mummy
 >0 SMALL<(DVD boxed set)>
 * I<The Mummy|^dvd^> (1999)
@@ -388,8 +392,8 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<Notting Hill|^dvd^> (1999)
 * I<Numb3rs|^dvd^> (2005)
 3 National Treasure
-* I<National Treasure|^dvd^> (2004)
-* I<National Treasure: Book of Secrets|^dvd^> (2007)
+# I<National Treasure|^dvd^> (2004)
+# I<National Treasure: Book of Secrets|^dvd^> (2007)
 2 O
 *| two
 * I<One Fine Day|^dvd^> (1996)
@@ -409,11 +413,11 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<Pride and Prejudice|^dvd^> (1995)
 * I<The Producers|^dvd^> (2005)
 3 Pacific Rim
-* I<Pacific Rim|^brd^> (2013)
-* I<Pacific Rim: Uprising|^brd^> (2018)
+# I<Pacific Rim|^brd^> (2013)
+# I<Pacific Rim: Uprising|^brd^> (2018)
 3 The Princess Diaries
-* I<The Princess Diaries|^dvd^> (2001)
-* I<The Princess Diaries 2: Royal Engagement|^dvd^> (2004)
+# I<The Princess Diaries|^dvd^> (2001)
+# I<The Princess Diaries 2: Royal Engagement|^dvd^> (2004)
 2 R
 *| two
 * I<Race to Witch Mountain|^brd^> (2009)
@@ -427,8 +431,8 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<The Rocky Horror Picture Show|^dvd^> (1975)
 * I<Romy and Michele's High School Reunion|^dvd^> (1997)
 3 Romancing the Stone
-* I<Romancing the Stone|^dvd^> (1984)
-* I<The Jewel of the Nile|^dvd^> (1985)
+# I<Romancing the Stone|^dvd^> (1984)
+# I<The Jewel of the Nile|^dvd^> (1985)
 2 S
 *| two
 * I<Sahara|^dvd^> (2005)
@@ -462,8 +466,8 @@ See the A<tie-ins|href="?select=Tie-in#Jurassic_Park"> I own.
 * I<Studio 60 on the Sunset Strip|^dvd^> (2006)
 * I<The Sum of All Fears|^dvd^> (2002)
 3 Sister Act
-* I<Sister Act|^dvd^> (1992)
-* I<Sister Act 2: Back in the Habit|^dvd^> (1993)
+# I<Sister Act|^dvd^> (1992)
+# I<Sister Act 2: Back in the Habit|^dvd^> (1993)
 3 Star Trek
 * I<Star Trek: First Contact|^vhs^> (1996)
 * I<Star Trek: Generations|^vhs^> (1994)
@@ -488,10 +492,10 @@ See the A<tie-ins|href="?select=Tie-in#Star_Wars"> I own.
 3 Superman
 >0 SMALL<(DVD boxed set)>
 *| two
-* I<Superman|^dvd^> (1978)
-* I<Superman II|^dvd^> (1980)
-* I<Superman III|^dvd^> (1983)
-* I<Superman IV: The Quest for Peace|^dvd^> (1987)
+# I<Superman|^dvd^> (1978)
+# I<Superman II|^dvd^> (1980)
+# I<Superman III|^dvd^> (1983)
+# I<Superman IV: The Quest for Peace|^dvd^> (1987)
 2 T
 *| two
 * I<TRON|^dvd^> (1982)
@@ -517,10 +521,10 @@ See the A<tie-ins|href="?select=Tie-in#Star_Wars"> I own.
 3 Tremors
 >0 SMALL<(DVD boxed set)>
 *| two
-* I<Tremors|^dvd^> (1990)
-* I<Tremors II: Aftershocks|^dvd^> (1996)
-* I<Tremors 3: Back to Perfection|^dvd^> (2001)
-* I<Tremors 4: The Legend Begins|^dvd^> (2004)
+# I<Tremors|^dvd^> (1990)
+# I<Tremors II: Aftershocks|^dvd^> (1996)
+# I<Tremors 3: Back to Perfection|^dvd^> (2001)
+# I<Tremors 4: The Legend Begins|^dvd^> (2004)
 2 U
 *| two
 * I<Ultraviolet|^dvd^> (2006)
@@ -563,8 +567,8 @@ See the A<tie-ins|href="?select=Tie-in#Star_Wars"> I own.
 * I<Zeus and Roxanne|^dvd^> (1997)
 * I<Zorro, the Gay Blade|^dvd^> (1981)
 3 Zorro
-* I<The Mask of Zorro|^dvd^> (1998)
-* I<The Legend of Zorro|^dvd^> (2005)
+# I<The Mask of Zorro|^dvd^> (1998)
+# I<The Legend of Zorro|^dvd^> (2005)
 2 Other
 * I<Æon Flux|^dvd^> (2005)
 2 People in movies I like
